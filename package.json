@@ -1,0 +1,10 @@
+{
+  "name": "pulsedeck-playlist-feed",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/build-feed.mjs",
+    "validate": "node scripts/build-feed.mjs --validate"
+  }
+}
