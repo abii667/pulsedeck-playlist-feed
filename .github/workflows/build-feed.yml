@@ -26,6 +26,8 @@ jobs:
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_MARKET: US
 
+      - run: npm run check:data
+
       - name: Commit generated JSON
         run: |
           if [ -n "$(git status --porcelain data)" ]; then

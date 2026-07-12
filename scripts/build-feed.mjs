@@ -51,6 +51,8 @@ for (const source of sources) {
       ok: true,
       stale: false,
       fetchMode: playlist.fetchMode,
+      contentMode: playlist.contentMode,
+      tracksAvailable: playlist.tracksAvailable,
       snapshotId: playlist.snapshotId,
       trackCount: playlist.trackCount
     });
@@ -183,9 +185,12 @@ async function buildPlaylist(source, previous, token, generatedAt) {
       spotifyUrl: meta.owner?.external_urls?.spotify || null
     },
     coverImage: firstImage(meta.images),
+    embedUrl: spotifyEmbedSrc(source.playlistId),
     snapshotId,
     fetchMode: "spotify-api",
+    contentMode: "tracks",
     market: MARKET,
+    tracksAvailable: true,
     trackCount: tracks.length,
     spotifyTrackTotal: meta.tracks?.total ?? tracks.length,
     updatedAt: generatedAt,
@@ -194,16 +199,19 @@ async function buildPlaylist(source, previous, token, generatedAt) {
 }
 
 async function buildPublicPlaylist(source, generatedAt) {
-  const [oembed, tracks] = await Promise.all([
+  const [oembedRaw, pageMeta, tracks] = await Promise.all([
     fetchOEmbed(source.playlistId),
+    fetchPageMetadata(source.playlistId),
     fetchEmbedTracks(source.playlistId)
   ]);
+  const oembed = { ...pageMeta, ...oembedRaw };
   const spotifyUrl = `https://open.spotify.com/playlist/${source.playlistId}`;
   const title = oembed?.title || source.title;
+  const coverImage = oembed?.thumbnail_url || null;
   const snapshotId = `public:${hashJson({
     playlistId: source.playlistId,
     title,
-    coverImage: oembed?.thumbnail_url || null,
+    coverImage,
     tracks: tracks.map((track) => track.spotifyId || `${track.title}:${track.artistNames.join(",")}`)
   })}`;
 
@@ -220,12 +228,15 @@ async function buildPublicPlaylist(source, generatedAt) {
       name: oembed?.author_name || "Spotify",
       spotifyUrl: null
     },
-    coverImage: oembed?.thumbnail_url || null,
+    coverImage,
+    embedUrl: oembed?.iframe_url || spotifyEmbedSrc(source.playlistId),
     snapshotId,
     fetchMode: "public",
+    contentMode: "embed",
     market: MARKET,
-    trackCount: tracks.length,
-    spotifyTrackTotal: tracks.length,
+    tracksAvailable: tracks.length > 0,
+    trackCount: tracks.length || null,
+    spotifyTrackTotal: tracks.length || null,
     updatedAt: generatedAt,
     tracks
   };
@@ -331,6 +342,23 @@ async function fetchOEmbed(playlistId) {
   return null;
 }
 
+async function fetchPageMetadata(playlistId) {
+  try {
+    const res = await fetch(`https://open.spotify.com/playlist/${playlistId}`, {
+      headers: { "User-Agent": UA, Accept: "text/html,application/xhtml+xml" },
+      signal: AbortSignal.timeout(10000)
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    return {
+      title: htmlMeta(html, "og:title") || htmlTitle(html),
+      thumbnail_url: htmlMeta(html, "og:image")
+    };
+  } catch {
+    return null;
+  }
+}
+
 async function fetchEmbedTracks(playlistId) {
   try {
     const res = await fetch(`https://open.spotify.com/embed/playlist/${playlistId}`, {
@@ -395,13 +423,16 @@ function deepFindTracks(obj) {
 function normalizePublicTrack(item) {
   if (!item || typeof item !== "object") return null;
   const obj = item.track && typeof item.track === "object" ? item.track : item;
-  if (typeof obj.name !== "string") return null;
-  if (!("artists" in obj || "uri" in obj)) return null;
+  const title = typeof obj.name === "string" ? obj.name : typeof obj.title === "string" ? obj.title : null;
+  if (!title) return null;
+  if (!("artists" in obj || "subtitle" in obj || "uri" in obj)) return null;
 
   const artists = Array.isArray(obj.artists)
     ? obj.artists
         .map((artist) => (typeof artist === "string" ? { name: artist } : artist))
         .filter((artist) => artist?.name)
+    : typeof obj.subtitle === "string"
+      ? obj.subtitle.split(/,\s*|\u00a0/).map((name) => ({ name: name.trim() })).filter((artist) => artist.name)
     : [];
   const album = obj.album && typeof obj.album === "object" ? obj.album : {};
   const uri = typeof obj.uri === "string" ? obj.uri : null;
@@ -410,7 +441,7 @@ function normalizePublicTrack(item) {
     position: 0,
     addedAt: null,
     spotifyId: typeof obj.id === "string" ? obj.id : uri?.split(":").pop() || null,
-    title: obj.name,
+    title,
     artistNames: artists.map((artist) => artist.name),
     artists: artists.map((artist) => ({
       id: artist.id || null,
@@ -424,9 +455,9 @@ function normalizePublicTrack(item) {
       coverImage: firstImage(album.images),
       spotifyUrl: album.external_urls?.spotify || null
     },
-    durationMs: obj.durationMs ?? obj.duration_ms ?? null,
-    explicit: Boolean(obj.explicit),
-    previewUrl: obj.preview_url || null,
+    durationMs: obj.durationMs ?? obj.duration_ms ?? obj.duration ?? null,
+    explicit: Boolean(obj.explicit ?? obj.isExplicit),
+    previewUrl: obj.preview_url || obj.audioPreview?.url || null,
     uri,
     spotifyUrl: obj.external_urls?.spotify || null
   };
@@ -438,9 +469,12 @@ function toIndexCard(playlist) {
     title: playlist.title,
     category: playlist.category,
     coverImage: playlist.coverImage,
+    embedUrl: playlist.embedUrl,
     spotifyUrl: playlist.spotifyUrl,
     snapshotId: playlist.snapshotId,
     fetchMode: playlist.fetchMode,
+    contentMode: playlist.contentMode,
+    tracksAvailable: playlist.tracksAvailable,
     trackCount: playlist.trackCount,
     updatedAt: playlist.updatedAt,
     stale: Boolean(playlist.stale)
@@ -489,6 +523,30 @@ function firstImage(images) {
 
 function stripHtml(value) {
   return String(value).replace(/<[^>]*>/g, "").trim();
+}
+
+function spotifyEmbedSrc(playlistId) {
+  return `https://open.spotify.com/embed/playlist/${playlistId}?utm_source=pulsedeck`;
+}
+
+function htmlMeta(html, property) {
+  const re = new RegExp(`<meta[^>]+(?:property|name)=["']${property}["'][^>]+content=["']([^"']+)["']`, "i");
+  return decodeHtml(re.exec(html)?.[1] || "");
+}
+
+function htmlTitle(html) {
+  return decodeHtml(/<title>([^<]+)<\/title>/i.exec(html)?.[1] || "");
+}
+
+function decodeHtml(value) {
+  return String(value)
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#x27;/g, "'")
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .trim();
 }
 
 function sleep(ms) {

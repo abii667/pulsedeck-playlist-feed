@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "generate": "node scripts/build-feed.mjs",
-    "validate": "node scripts/build-feed.mjs --validate"
+    "validate": "node scripts/build-feed.mjs --validate",
+    "check:data": "node scripts/check-data.mjs"
   }
 }
