@@ -2,6 +2,8 @@
 
 Daily JSON feed for public Spotify editorial playlists. This is derived from the SyncList prototype, but strips the app, database, and UI so PulseDeck can consume plain JSON from GitHub.
 
+It runs without Spotify credentials using public Spotify playlist/embed pages. If `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` are present, it automatically uses the official Spotify API for richer track data.
+
 ## Files
 
 - `sources/playlists.json` is the curated list of 20 public Spotify playlists.
@@ -12,7 +14,7 @@ Daily JSON feed for public Spotify editorial playlists. This is derived from the
 
 ## GitHub setup
 
-Add these repository secrets:
+No secrets are required. Optional repository secrets for richer API-backed output:
 
 - `SPOTIFY_CLIENT_ID`
 - `SPOTIFY_CLIENT_SECRET`
@@ -26,4 +28,4 @@ npm run validate
 npm run generate
 ```
 
-`npm run generate` needs Spotify credentials in the environment.
+`npm run generate` works without Spotify credentials. Public mode is best-effort; Spotify can hide track metadata from server fetches, but the JSON still includes stable playlist ids, Spotify links, daily timestamps, and any public metadata it can read.

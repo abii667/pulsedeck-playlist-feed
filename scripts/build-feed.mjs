@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
+import { createHash } from "node:crypto";
 import path from "node:path";
 
 const ROOT = process.cwd();
@@ -10,6 +11,8 @@ const CHANGES_DIR = path.join(DATA_DIR, "changes");
 const MARKET = process.env.SPOTIFY_MARKET || "US";
 const PLAYLIST_ID_RE = /^[A-Za-z0-9]{22}$/;
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 
 const args = new Set(process.argv.slice(2));
 const sources = JSON.parse(await readFile(SOURCE_FILE, "utf8"));
@@ -21,7 +24,7 @@ if (args.has("--validate")) {
 }
 
 const generatedAt = new Date().toISOString();
-const token = await getSpotifyToken();
+const token = await getSpotifyTokenOrNull();
 const status = [];
 const playlists = [];
 const changes = [];
@@ -47,6 +50,7 @@ for (const source of sources) {
       slug: source.slug,
       ok: true,
       stale: false,
+      fetchMode: playlist.fetchMode,
       snapshotId: playlist.snapshotId,
       trackCount: playlist.trackCount
     });
@@ -118,11 +122,11 @@ function validateSources(items) {
   }
 }
 
-async function getSpotifyToken() {
+async function getSpotifyTokenOrNull() {
   const id = process.env.SPOTIFY_CLIENT_ID;
   const secret = process.env.SPOTIFY_CLIENT_SECRET;
   if (!id || !secret) {
-    throw new Error("Set SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET.");
+    return null;
   }
 
   const auth = Buffer.from(`${id}:${secret}`).toString("base64");
@@ -144,6 +148,8 @@ async function getSpotifyToken() {
 }
 
 async function buildPlaylist(source, previous, token, generatedAt) {
+  if (!token) return buildPublicPlaylist(source, generatedAt);
+
   const metaFields = [
     "id",
     "name",
@@ -178,9 +184,48 @@ async function buildPlaylist(source, previous, token, generatedAt) {
     },
     coverImage: firstImage(meta.images),
     snapshotId,
+    fetchMode: "spotify-api",
     market: MARKET,
     trackCount: tracks.length,
     spotifyTrackTotal: meta.tracks?.total ?? tracks.length,
+    updatedAt: generatedAt,
+    tracks
+  };
+}
+
+async function buildPublicPlaylist(source, generatedAt) {
+  const [oembed, tracks] = await Promise.all([
+    fetchOEmbed(source.playlistId),
+    fetchEmbedTracks(source.playlistId)
+  ]);
+  const spotifyUrl = `https://open.spotify.com/playlist/${source.playlistId}`;
+  const title = oembed?.title || source.title;
+  const snapshotId = `public:${hashJson({
+    playlistId: source.playlistId,
+    title,
+    coverImage: oembed?.thumbnail_url || null,
+    tracks: tracks.map((track) => track.spotifyId || `${track.title}:${track.artistNames.join(",")}`)
+  })}`;
+
+  return {
+    schemaVersion: 1,
+    slug: source.slug,
+    title,
+    category: source.category,
+    spotifyId: source.playlistId,
+    spotifyUrl,
+    description: "",
+    owner: {
+      id: null,
+      name: oembed?.author_name || "Spotify",
+      spotifyUrl: null
+    },
+    coverImage: oembed?.thumbnail_url || null,
+    snapshotId,
+    fetchMode: "public",
+    market: MARKET,
+    trackCount: tracks.length,
+    spotifyTrackTotal: tracks.length,
     updatedAt: generatedAt,
     tracks
   };
@@ -262,6 +307,131 @@ function toTrack(track, addedAt, position) {
   };
 }
 
+async function fetchOEmbed(playlistId) {
+  const playlistUrl = `https://open.spotify.com/playlist/${playlistId}`;
+  const endpoints = [
+    `https://open.spotify.com/oembed?url=${encodeURIComponent(playlistUrl)}`,
+    `https://open.spotify.com/v1/oembed?url=${encodeURIComponent(playlistUrl)}`,
+    `https://noembed.com/embed?url=${encodeURIComponent(playlistUrl)}`
+  ];
+
+  for (const endpoint of endpoints) {
+    try {
+      const res = await fetch(endpoint, {
+        headers: { "User-Agent": UA, Accept: "application/json" },
+        signal: AbortSignal.timeout(8000)
+      });
+      if (!res.ok) continue;
+      const data = await res.json();
+      if (data?.title || data?.thumbnail_url) return data;
+    } catch {
+      // Try the next public endpoint.
+    }
+  }
+  return null;
+}
+
+async function fetchEmbedTracks(playlistId) {
+  try {
+    const res = await fetch(`https://open.spotify.com/embed/playlist/${playlistId}`, {
+      headers: { "User-Agent": UA, Accept: "text/html,application/xhtml+xml" },
+      signal: AbortSignal.timeout(10000)
+    });
+    if (!res.ok) return [];
+    const html = await res.text();
+    const nextData = extractScriptJson(html, "__NEXT_DATA__");
+    if (nextData) {
+      const found = deepFindTracks(nextData);
+      if (found.length) return found;
+    }
+
+    const scriptRe = /<script[^>]*>([\s\S]*?)<\/script>/gi;
+    let match;
+    while ((match = scriptRe.exec(html)) !== null) {
+      const body = match[1];
+      if (!body.includes("spotify:track") && !body.includes('"trackList"')) continue;
+      try {
+        const found = deepFindTracks(JSON.parse(body));
+        if (found.length) return found;
+      } catch {
+        // Not JSON; keep scanning.
+      }
+    }
+  } catch {
+    // Public Spotify pages sometimes block server fetches. Empty tracks still
+    // leaves PulseDeck with usable cards, cover, and Spotify links.
+  }
+  return [];
+}
+
+function extractScriptJson(html, id) {
+  const match = html.match(new RegExp(`<script[^>]*id=["']${id}["'][^>]*>([\\s\\S]*?)</script>`, "i"));
+  if (!match?.[1]) return null;
+  try {
+    return JSON.parse(match[1]);
+  } catch {
+    return null;
+  }
+}
+
+function deepFindTracks(obj) {
+  const stack = [obj];
+  while (stack.length) {
+    const node = stack.pop();
+    if (!node || typeof node !== "object") continue;
+
+    if (Array.isArray(node)) {
+      const tracks = node.map(normalizePublicTrack).filter(Boolean);
+      if (tracks.length) return tracks.map((track, index) => ({ ...track, position: index + 1 }));
+      stack.push(...node);
+      continue;
+    }
+
+    for (const value of Object.values(node)) stack.push(value);
+  }
+  return [];
+}
+
+function normalizePublicTrack(item) {
+  if (!item || typeof item !== "object") return null;
+  const obj = item.track && typeof item.track === "object" ? item.track : item;
+  if (typeof obj.name !== "string") return null;
+  if (!("artists" in obj || "uri" in obj)) return null;
+
+  const artists = Array.isArray(obj.artists)
+    ? obj.artists
+        .map((artist) => (typeof artist === "string" ? { name: artist } : artist))
+        .filter((artist) => artist?.name)
+    : [];
+  const album = obj.album && typeof obj.album === "object" ? obj.album : {};
+  const uri = typeof obj.uri === "string" ? obj.uri : null;
+
+  return {
+    position: 0,
+    addedAt: null,
+    spotifyId: typeof obj.id === "string" ? obj.id : uri?.split(":").pop() || null,
+    title: obj.name,
+    artistNames: artists.map((artist) => artist.name),
+    artists: artists.map((artist) => ({
+      id: artist.id || null,
+      name: artist.name,
+      spotifyUrl: artist.external_urls?.spotify || null
+    })),
+    album: {
+      id: album.id || null,
+      name: album.name || null,
+      releaseDate: album.release_date || null,
+      coverImage: firstImage(album.images),
+      spotifyUrl: album.external_urls?.spotify || null
+    },
+    durationMs: obj.durationMs ?? obj.duration_ms ?? null,
+    explicit: Boolean(obj.explicit),
+    previewUrl: obj.preview_url || null,
+    uri,
+    spotifyUrl: obj.external_urls?.spotify || null
+  };
+}
+
 function toIndexCard(playlist) {
   return {
     slug: playlist.slug,
@@ -270,6 +440,7 @@ function toIndexCard(playlist) {
     coverImage: playlist.coverImage,
     spotifyUrl: playlist.spotifyUrl,
     snapshotId: playlist.snapshotId,
+    fetchMode: playlist.fetchMode,
     trackCount: playlist.trackCount,
     updatedAt: playlist.updatedAt,
     stale: Boolean(playlist.stale)
@@ -322,6 +493,10 @@ function stripHtml(value) {
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function hashJson(value) {
+  return createHash("sha1").update(JSON.stringify(value)).digest("hex");
 }
 
 function assert(condition, message) {
