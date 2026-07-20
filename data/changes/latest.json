@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-19T08:32:39.611Z",
+  "generatedAt": "2026-07-20T09:33:46.656Z",
   "changedCount": 6,
   "changes": [
     {
       "slug": "all-out-80s",
       "title": "All Out 80s",
-      "previousSnapshotId": "public:0d25725f19266bfe177e6ab66d21f230d6679a4f",
-      "snapshotId": "public:9ecfe286591db8835c7afb48b97dbefab19edc7e",
+      "previousSnapshotId": "public:9ecfe286591db8835c7afb48b97dbefab19edc7e",
+      "snapshotId": "public:b4b85f0c85112f415acc905298b58e317de7300f",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -16,8 +16,8 @@
     {
       "slug": "all-out-90s",
       "title": "All Out 90s",
-      "previousSnapshotId": "public:a70252b730282ad5d0224798ec373a51142efcb9",
-      "snapshotId": "public:d868199fc8e2ec6bca80fc95604ff2ddc437d34e",
+      "previousSnapshotId": "public:d868199fc8e2ec6bca80fc95604ff2ddc437d34e",
+      "snapshotId": "public:e97b35c414dd3a94cded4a8f72a66d2382c7ae92",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -26,11 +26,21 @@
     {
       "slug": "all-out-2000s",
       "title": "All Out 2000s",
-      "previousSnapshotId": "public:50eb2a7446b037b98542d183229688ccff083546",
-      "snapshotId": "public:664f5e8d1600b63daffff193219c4dd707082d29",
+      "previousSnapshotId": "public:664f5e8d1600b63daffff193219c4dd707082d29",
+      "snapshotId": "public:7bf8e991ce6b0513dc488e77e63c7a4175daeff5",
       "added": 1,
       "removed": 1,
       "addedTracks": [
+        {
+          "spotifyId": "3Gf5nttwcX9aaSQXRWidEZ",
+          "title": "Ride Wit Me",
+          "artistNames": [
+            "Nelly",
+            "City Spud"
+          ]
+        }
+      ],
+      "removedTracks": [
         {
           "spotifyId": "4LwU4Vp6od3Sb08CsP99GC",
           "title": "The Next Episode",
@@ -39,22 +49,13 @@
             "Snoop Dogg"
           ]
         }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "2TfSHkHiFO4gRztVIkggkE",
-          "title": "Sugar, We're Goin Down",
-          "artistNames": [
-            "Fall Out Boy"
-          ]
-        }
       ]
     },
     {
       "slug": "chill-hits",
       "title": "Chill Hits",
-      "previousSnapshotId": "public:c814f0b478194bb4802e1b812d14ab15f302c8b9",
-      "snapshotId": "public:e9c28b7d94f75219fe85cd73d8d827bedc9a63ba",
+      "previousSnapshotId": "public:e9c28b7d94f75219fe85cd73d8d827bedc9a63ba",
+      "snapshotId": "public:2edd97812dd3f90191bfa8fa56b0e6227baa828b",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -63,8 +64,8 @@
     {
       "slug": "beast-mode",
       "title": "Beast Mode",
-      "previousSnapshotId": "public:298b975e5db9da15ef57ea18cc01e496a697e996",
-      "snapshotId": "public:ea232539610506da27f4f0cf4d7f88fc7419a992",
+      "previousSnapshotId": "public:ea232539610506da27f4f0cf4d7f88fc7419a992",
+      "snapshotId": "public:5a814e4868139f69c72cf526aeb875f45a168e96",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -73,29 +74,12 @@
     {
       "slug": "jazz-classics",
       "title": "Jazz Classics",
-      "previousSnapshotId": "public:c3badab0271a7e408573380b663c44597b269f18",
-      "snapshotId": "public:f2c059f253c050a607db888132e3526afb7b805b",
-      "added": 1,
-      "removed": 1,
-      "addedTracks": [
-        {
-          "spotifyId": "1ylwBTCAZ1WlvvMnWm6U3c",
-          "title": "Virgo - Remastered 2004 / Rudy Van Gelder Edition",
-          "artistNames": [
-            "Wayne Shorter"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "2gG3ivmsfylVXLyIJvLXyN",
-          "title": "Journey In Satchidananda",
-          "artistNames": [
-            "Alice Coltrane",
-            "Pharoah Sanders"
-          ]
-        }
-      ]
+      "previousSnapshotId": "public:f2c059f253c050a607db888132e3526afb7b805b",
+      "snapshotId": "public:e463d2915bb1b6ac229d3a97e6f0f30c4de42e05",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
     }
   ]
 }
