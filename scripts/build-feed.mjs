@@ -8,7 +8,35 @@ const SOURCE_FILE = path.join(ROOT, "sources", "playlists.json");
 const DATA_DIR = path.join(ROOT, "data");
 const PLAYLIST_DIR = path.join(DATA_DIR, "playlists");
 const CHANGES_DIR = path.join(DATA_DIR, "changes");
+const APPLE_HERO_DIR = path.join(DATA_DIR, "apple-heroes");
 const MARKET = process.env.SPOTIFY_MARKET || "US";
+const TRENDING_ALBUMS_URL = "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/20/albums.json";
+const APPLE_HERO_SOURCES = [
+  {
+    slug: "trending-songs",
+    title: "Trending Songs",
+    subtitle: "Apple Music trending songs",
+    category: "apple/trending",
+    roomId: "6791844174",
+    minTracks: 25
+  },
+  {
+    slug: "recent-releases",
+    title: "Recent Releases",
+    subtitle: "Apple Music recent releases",
+    category: "apple/recent",
+    roomId: "6791844556",
+    minTracks: 25
+  },
+  {
+    slug: "best-new-songs",
+    title: "Best New Songs",
+    subtitle: "Apple Music best new songs",
+    category: "apple/best-new",
+    roomId: "6791844550",
+    minTracks: 25
+  }
+];
 const PLAYLIST_ID_RE = /^[A-Za-z0-9]{22}$/;
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const UA =
@@ -32,6 +60,7 @@ let failedWithoutFallback = false;
 
 await mkdir(PLAYLIST_DIR, { recursive: true });
 await mkdir(CHANGES_DIR, { recursive: true });
+await mkdir(APPLE_HERO_DIR, { recursive: true });
 
 for (const source of sources) {
   const file = path.join(PLAYLIST_DIR, `${source.slug}.json`);
@@ -78,12 +107,33 @@ for (const source of sources) {
   }
 }
 
+const appleHeroIndex = await buildAppleHeroFeeds(generatedAt);
+const trendingAlbums = await buildTrendingAlbumsFeed();
+
 await writeJson(path.join(DATA_DIR, "index.json"), {
   schemaVersion: 1,
   generatedAt,
   market: MARKET,
   playlistCount: playlists.length,
-  playlists: playlists.map(toIndexCard)
+  playlists: playlists.map(toIndexCard),
+  sections: [
+    {
+      slug: "premium-playlists",
+      title: "Premium Playlists",
+      subtitle: "Curated playlist feed from PulseDeck",
+      source: "data/index.json",
+      itemCount: playlists.length,
+      updatedAt: generatedAt
+    },
+    {
+      slug: "trending-albums",
+      title: "Trending Albums",
+      subtitle: "Apple Music US top albums mirrored for PulseDeck",
+      source: "data/trending-albums.json",
+      itemCount: trendingAlbums.feed?.results?.length || 0,
+      updatedAt: trendingAlbums.feed?.updated || generatedAt
+    }
+  ]
 });
 
 await writeJson(path.join(CHANGES_DIR, "latest.json"), {
@@ -105,6 +155,77 @@ if (failedWithoutFallback) {
 }
 
 console.log(`Wrote ${playlists.length} playlists to data/.`);
+
+async function buildTrendingAlbumsFeed() {
+  const previous = await readJson(path.join(DATA_DIR, "trending-albums.json"));
+  try {
+    const data = await fetchJson(TRENDING_ALBUMS_URL);
+    if ((data.feed?.results || []).length < 10) throw new Error("Apple albums feed returned too few albums");
+    await writeJson(path.join(DATA_DIR, "trending-albums.json"), data);
+    return data;
+  } catch (error) {
+    if (previous) return previous;
+    throw error;
+  }
+}
+
+async function buildAppleHeroFeeds(generatedAt) {
+  const cards = [];
+  for (const source of APPLE_HERO_SOURCES) {
+    const file = path.join(APPLE_HERO_DIR, `${source.slug}.json`);
+    const previous = await readJson(file);
+    const appleUrl = `https://music.apple.com/us/room/${source.roomId}`;
+    let tracks = [];
+    let stale = false;
+
+    try {
+      const html = await fetchText(appleUrl, "text/html,application/xhtml+xml");
+      tracks = extractAppleRoomTracks(html);
+      if (tracks.length < source.minTracks) throw new Error(`${source.slug} returned ${tracks.length} tracks`);
+    } catch (error) {
+      if (!previous?.tracks?.length) throw error;
+      tracks = previous.tracks;
+      stale = true;
+    }
+
+    const detail = {
+      schemaVersion: 1,
+      slug: source.slug,
+      title: source.title,
+      subtitle: source.subtitle,
+      category: source.category,
+      roomId: source.roomId,
+      appleUrl,
+      market: MARKET,
+      trackCount: tracks.length,
+      updatedAt: stale ? previous.updatedAt : generatedAt,
+      stale,
+      tracks
+    };
+    await writeJson(file, detail);
+    cards.push({
+      slug: source.slug,
+      title: source.title,
+      subtitle: source.subtitle,
+      category: source.category,
+      roomId: source.roomId,
+      appleUrl,
+      trackCount: tracks.length,
+      updatedAt: detail.updatedAt,
+      stale
+    });
+  }
+
+  const index = {
+    schemaVersion: 1,
+    generatedAt,
+    market: MARKET,
+    playlistCount: cards.length,
+    playlists: cards
+  };
+  await writeJson(path.join(APPLE_HERO_DIR, "index.json"), index);
+  return index;
+}
 
 function validateSources(items) {
   assert(Array.isArray(items), "sources/playlists.json must be an array");
@@ -289,6 +410,24 @@ async function spotifyGet(url, token) {
   }
 }
 
+async function fetchJson(url) {
+  const res = await fetch(url, {
+    headers: { "User-Agent": UA, Accept: "application/json" },
+    signal: AbortSignal.timeout(30000)
+  });
+  if (!res.ok) throw new Error(`JSON fetch failed: ${res.status} ${await res.text()}`);
+  return res.json();
+}
+
+async function fetchText(url, accept) {
+  const res = await fetch(url, {
+    headers: { "User-Agent": UA, Accept: accept || "text/html,application/xhtml+xml" },
+    signal: AbortSignal.timeout(30000)
+  });
+  if (!res.ok) throw new Error(`Text fetch failed: ${res.status} ${await res.text()}`);
+  return res.text();
+}
+
 function toTrack(track, addedAt, position) {
   const artists = (track.artists || []).map((artist) => ({
     id: artist.id || null,
@@ -316,6 +455,130 @@ function toTrack(track, addedAt, position) {
     uri: track.uri || null,
     spotifyUrl: track.external_urls?.spotify || null
   };
+}
+
+function extractAppleRoomTracks(html) {
+  const byKey = new Map();
+  const scriptRe = /<script[^>]*>([\s\S]*?)<\/script>/gi;
+  let scriptMatch;
+  while ((scriptMatch = scriptRe.exec(html)) !== null) {
+    const body = decodeHtml(scriptMatch[1]);
+    if (!body.includes("contentDescriptor") || !body.includes("apple.com/us/")) continue;
+    try {
+      collectAppleRoomTracks(JSON.parse(body), byKey);
+    } catch {
+      // Not a JSON data script.
+    }
+  }
+  for (const item of extractAppleProductLockups(html)) {
+    byKey.set(`${item.title.toLowerCase()}|${item.artistNames.join(",").toLowerCase()}`, item);
+  }
+  return Array.from(byKey.values()).map((track, index) => ({ ...track, position: index + 1 }));
+}
+
+function collectAppleRoomTracks(node, byKey) {
+  if (!node || typeof node !== "object") return;
+  if (Array.isArray(node)) {
+    for (const item of node) collectAppleRoomTracks(item, byKey);
+    return;
+  }
+
+  const item = toAppleRoomTrack(node);
+  if (item) byKey.set(`${item.title.toLowerCase()}|${item.artistNames.join(",").toLowerCase()}`, item);
+
+  for (const value of Object.values(node)) collectAppleRoomTracks(value, byKey);
+}
+
+function toAppleRoomTrack(node) {
+  const descriptor = node.contentDescriptor;
+  const kind = descriptor?.kind;
+  if (kind !== "song" && kind !== "album") return null;
+  const title = typeof node.title === "string" ? node.title.trim() : "";
+  const artistNames = appleArtistNames(node);
+  if (!title || !artistNames.length) return null;
+
+  const albumTitle = node.tertiaryLinks?.[0]?.title || (kind === "album" ? title : null);
+  const appleUrl = descriptor.url || node.segue?.destination?.contentDescriptor?.url || null;
+  const albumUrl = node.tertiaryLinks?.[0]?.segue?.destination?.contentDescriptor?.url || appleUrl;
+  const id = descriptor.identifiers?.storeAdamID || null;
+
+  return {
+    position: 0,
+    title,
+    artistNames,
+    artists: artistNames.map((name) => ({ name, appleUrl: null })),
+    album: {
+      name: albumTitle,
+      releaseDate: null,
+      coverImage: appleArtworkUrl(node.artwork?.dictionary?.url),
+      appleUrl: albumUrl
+    },
+    durationMs: Number.isFinite(node.duration) ? node.duration : null,
+    explicit: Boolean(node.showExplicitBadge),
+    appleUrl,
+    appleId: id
+  };
+}
+
+function appleArtistNames(node) {
+  if (typeof node.artistName === "string" && node.artistName.trim()) return [node.artistName.trim()];
+  if (Array.isArray(node.subtitleLinks)) {
+    return node.subtitleLinks.map((link) => link?.title).filter((name) => typeof name === "string" && name.trim());
+  }
+  return [];
+}
+
+function appleArtworkUrl(value) {
+  if (typeof value !== "string" || !value.startsWith("http")) return null;
+  return value
+    .replace("{w}x{h}{c}.{f}", "600x600bb.jpg")
+    .replace("{w}x{h}", "600x600")
+    .replace("{c}", "")
+    .replace("{f}", "jpg");
+}
+
+function extractAppleProductLockups(html) {
+  const items = [];
+  const blockRe = /<div class="product-lockup[\s\S]*?<\/li>/gi;
+  let match;
+  while ((match = blockRe.exec(html)) !== null) {
+    const block = match[0];
+    const titleMatch =
+      /data-testid="product-lockup-title"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/i.exec(block) ||
+      /data-testid="product-lockup-link"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/i.exec(block);
+    if (!titleMatch) continue;
+
+    const appleUrl = decodeHtml(titleMatch[1]);
+    const title = decodeHtml(stripHtml(titleMatch[2]));
+    const artistNames = Array.from(block.matchAll(/data-testid="product-lockup-subtitle"[^>]*>([\s\S]*?)<\/a>/gi))
+      .map((artist) => decodeHtml(stripHtml(artist[1])))
+      .filter(Boolean);
+    if (!title || !artistNames.length) continue;
+
+    items.push({
+      position: 0,
+      title,
+      artistNames,
+      artists: artistNames.map((name) => ({ name, appleUrl: null })),
+      album: {
+        name: title,
+        releaseDate: null,
+        coverImage: appleStaticArtworkUrl(block),
+        appleUrl
+      },
+      durationMs: null,
+      explicit: /data-testid="explicit-badge"/i.test(block),
+      appleUrl,
+      appleId: appleUrl.split("/").pop()?.split("?")[0] || null
+    });
+  }
+  return items;
+}
+
+function appleStaticArtworkUrl(block) {
+  const url = /https:\/\/is\d-ssl\.mzstatic\.com\/image\/thumb\/[^"',\s]+/i.exec(block)?.[0];
+  if (!url) return null;
+  return decodeHtml(url).replace(/\/\d+x\d+[^/]*\.(?:webp|jpg|png)$/i, "/600x600bb.jpg");
 }
 
 async function fetchOEmbed(playlistId) {
