@@ -29,8 +29,11 @@ for (const shelf of editorialIndex.shelves) {
   const detail = JSON.parse(await readFile(`data/apple-editorial/${shelf.slug}.json`, "utf8"));
   if (!Array.isArray(detail.items) || detail.items.length < 10) throw new Error(`${shelf.slug} detail has too few items.`);
   for (const item of detail.items) {
-    if (!item.title || !item.coverImage || !item.appleUrl) throw new Error(`${shelf.slug} has an incomplete item.`);
+    if (!item.title || !item.coverImage || !item.appleUrl || !item.detailSource) throw new Error(`${shelf.slug} has an incomplete item.`);
+    const itemDetail = JSON.parse(await readFile(item.detailSource, "utf8"));
+    if (!Array.isArray(itemDetail.tracks) || itemDetail.tracks.length < 1) throw new Error(`${item.title} has no Apple tracklist.`);
+    if ((item.trackCount || 0) !== itemDetail.tracks.length) throw new Error(`${item.title} has a mismatched track count.`);
   }
 }
 
-console.log("Feed JSON has playlists, Apple hero tracks, sections, trending albums, and Apple editorial shelves.");
+console.log("Feed JSON has playlists, Apple hero tracks, sections, trending albums, and Apple editorial tracklists.");

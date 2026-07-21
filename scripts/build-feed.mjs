@@ -56,6 +56,7 @@ const APPLE_EDITORIAL_SOURCES = [
     minItems: 10
   }
 ];
+const APPLE_EDITORIAL_TRACK_LIMIT = 100;
 const PLAYLIST_ID_RE = /^[A-Za-z0-9]{22}$/;
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const UA =
@@ -267,8 +268,9 @@ async function buildAppleEditorialFeeds(generatedAt) {
 
     try {
       const html = await fetchText(appleUrl, "text/html,application/xhtml+xml");
-      items = extractAppleEditorialItems(html);
+      items = extractAppleEditorialItems(html, source.slug);
       if (items.length < source.minItems) throw new Error(`${source.slug} returned ${items.length} items`);
+      items = await buildAppleEditorialItemDetails(source, items, generatedAt, previous);
     } catch (error) {
       if (!previous?.items?.length) throw error;
       items = previous.items;
@@ -312,6 +314,60 @@ async function buildAppleEditorialFeeds(generatedAt) {
   };
   await writeJson(path.join(APPLE_EDITORIAL_DIR, "index.json"), index);
   return index;
+}
+
+async function buildAppleEditorialItemDetails(source, items, generatedAt, previous) {
+  const previousItems = new Map((previous?.items || []).map((item) => [item.appleUrl, item]));
+  const detailDir = path.join(APPLE_EDITORIAL_DIR, source.slug);
+  await mkdir(detailDir, { recursive: true });
+  const withDetails = [];
+
+  for (const item of items) {
+    const detailSlug = editorialDetailSlug(item);
+    const file = path.join(detailDir, `${detailSlug}.json`);
+    const previousDetail = await readJson(file);
+    let tracks = [];
+    let stale = false;
+
+    try {
+      const html = await fetchText(item.appleUrl, "text/html,application/xhtml+xml");
+      tracks = extractAppleSongTracks(html, item.coverImage).slice(0, APPLE_EDITORIAL_TRACK_LIMIT);
+      if (!tracks.length) throw new Error(`${item.title} returned no tracks`);
+    } catch (error) {
+      if (!previousDetail?.tracks?.length) continue;
+      tracks = previousDetail.tracks;
+      stale = true;
+    }
+
+    const detail = {
+      schemaVersion: 1,
+      slug: detailSlug,
+      parentSlug: source.slug,
+      title: item.title,
+      subtitle: item.subtitle,
+      kind: item.kind,
+      coverImage: item.coverImage,
+      appleUrl: item.appleUrl,
+      appleId: item.appleId,
+      market: MARKET,
+      trackCount: tracks.length,
+      updatedAt: stale ? previousDetail.updatedAt : generatedAt,
+      stale,
+      tracks
+    };
+    await writeJson(file, detail);
+    withDetails.push({
+      ...item,
+      trackCount: tracks.length,
+      detailSource: `data/apple-editorial/${source.slug}/${detailSlug}.json`,
+      updatedAt: detail.updatedAt,
+      stale
+    });
+    await sleep(40);
+  }
+
+  if (withDetails.length < source.minItems) throw new Error(`${source.slug} kept ${withDetails.length} playable item details`);
+  return withDetails.map((item, index) => ({ ...item, position: index + 1 }));
 }
 
 function validateSources(items) {
@@ -702,7 +758,7 @@ function productLockupAriaSubtitle(block, title) {
   return aria.slice(title.length).replace(/^,\s*/, "").trim();
 }
 
-function extractAppleEditorialItems(html) {
+function extractAppleEditorialItems(html, parentSlug) {
   return extractAppleProductLockups(html).map((item, index) => ({
     position: index + 1,
     title: item.title,
@@ -712,8 +768,70 @@ function extractAppleEditorialItems(html) {
     coverImage: item.album?.coverImage || null,
     appleUrl: item.appleUrl,
     appleId: item.appleId,
+    detailSource: `data/apple-editorial/${parentSlug}/${editorialDetailSlug(item)}.json`,
+    trackCount: 0,
     explicit: Boolean(item.explicit)
   }));
+}
+
+function extractAppleSongTracks(html, fallbackCoverImage) {
+  const byKey = new Map();
+  const scriptRe = /<script[^>]*>([\s\S]*?)<\/script>/gi;
+  let scriptMatch;
+  while ((scriptMatch = scriptRe.exec(html)) !== null) {
+    const body = decodeHtml(scriptMatch[1]);
+    if (!body.includes("contentDescriptor") || !body.includes("apple.com/us/")) continue;
+    try {
+      collectAppleSongTracks(JSON.parse(body), byKey, fallbackCoverImage);
+    } catch {
+      // Not a JSON data script.
+    }
+  }
+  return Array.from(byKey.values()).map((track, index) => ({ ...track, position: index + 1 }));
+}
+
+function collectAppleSongTracks(node, byKey, fallbackCoverImage) {
+  if (!node || typeof node !== "object") return;
+  if (Array.isArray(node)) {
+    for (const item of node) collectAppleSongTracks(item, byKey, fallbackCoverImage);
+    return;
+  }
+
+  const item = toAppleSongTrack(node, fallbackCoverImage);
+  if (item) byKey.set(`${item.title.toLowerCase()}|${item.artistNames.join(",").toLowerCase()}`, item);
+  for (const value of Object.values(node)) collectAppleSongTracks(value, byKey, fallbackCoverImage);
+}
+
+function toAppleSongTrack(node, fallbackCoverImage) {
+  const descriptor = node.contentDescriptor;
+  if (descriptor?.kind !== "song") return null;
+  const title = typeof node.title === "string" ? node.title.trim() : "";
+  const artistNames = appleArtistNames(node);
+  if (!title || !artistNames.length) return null;
+  const appleUrl = descriptor.url || node.segue?.destination?.contentDescriptor?.url || null;
+  return {
+    position: 0,
+    title,
+    artistNames,
+    artists: artistNames.map((name) => ({ name, appleUrl: null })),
+    album: {
+      name: node.tertiaryLinks?.[0]?.title || null,
+      releaseDate: null,
+      coverImage: appleArtworkUrl(node.artwork?.dictionary?.url) || fallbackCoverImage || null,
+      appleUrl: node.tertiaryLinks?.[0]?.segue?.destination?.contentDescriptor?.url || appleUrl
+    },
+    durationMs: Number.isFinite(node.duration) ? node.duration : null,
+    explicit: Boolean(node.showExplicitBadge),
+    appleUrl,
+    appleId: descriptor.identifiers?.storeAdamID || null
+  };
+}
+
+function editorialDetailSlug(item) {
+  const id = String(item.appleId || item.appleUrl?.split("/").pop() || item.title || "item")
+    .split("?")[0]
+    .replace(/[^a-zA-Z0-9._-]/g, "-");
+  return id || hashJson(item.appleUrl || item.title).slice(0, 12);
 }
 
 function appleStaticArtworkUrl(block) {
