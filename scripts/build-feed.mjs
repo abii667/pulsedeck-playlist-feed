@@ -9,6 +9,7 @@ const DATA_DIR = path.join(ROOT, "data");
 const PLAYLIST_DIR = path.join(DATA_DIR, "playlists");
 const CHANGES_DIR = path.join(DATA_DIR, "changes");
 const APPLE_HERO_DIR = path.join(DATA_DIR, "apple-heroes");
+const APPLE_EDITORIAL_DIR = path.join(DATA_DIR, "apple-editorial");
 const MARKET = process.env.SPOTIFY_MARKET || "US";
 const TRENDING_ALBUMS_URL = "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/20/albums.json";
 const APPLE_HERO_SOURCES = [
@@ -37,6 +38,24 @@ const APPLE_HERO_SOURCES = [
     minTracks: 25
   }
 ];
+const APPLE_EDITORIAL_SOURCES = [
+  {
+    slug: "premium-albums",
+    title: "Premium Albums",
+    subtitle: "Apple Music editorial albums",
+    category: "apple/albums",
+    roomId: "6753276057",
+    minItems: 10
+  },
+  {
+    slug: "premium-playlists",
+    title: "Premium Playlists",
+    subtitle: "Apple Music updated playlists",
+    category: "apple/playlists",
+    roomId: "6791844950",
+    minItems: 10
+  }
+];
 const PLAYLIST_ID_RE = /^[A-Za-z0-9]{22}$/;
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const UA =
@@ -61,6 +80,7 @@ let failedWithoutFallback = false;
 await mkdir(PLAYLIST_DIR, { recursive: true });
 await mkdir(CHANGES_DIR, { recursive: true });
 await mkdir(APPLE_HERO_DIR, { recursive: true });
+await mkdir(APPLE_EDITORIAL_DIR, { recursive: true });
 
 for (const source of sources) {
   const file = path.join(PLAYLIST_DIR, `${source.slug}.json`);
@@ -109,6 +129,7 @@ for (const source of sources) {
 
 const appleHeroIndex = await buildAppleHeroFeeds(generatedAt);
 const trendingAlbums = await buildTrendingAlbumsFeed();
+const appleEditorialIndex = await buildAppleEditorialFeeds(generatedAt);
 
 await writeJson(path.join(DATA_DIR, "index.json"), {
   schemaVersion: 1,
@@ -118,13 +139,21 @@ await writeJson(path.join(DATA_DIR, "index.json"), {
   playlists: playlists.map(toIndexCard),
   sections: [
     {
-      slug: "premium-playlists",
-      title: "Premium Playlists",
+      slug: "spotify-pulse-playlists",
+      title: "Pulse Playlists",
       subtitle: "Curated playlist feed from PulseDeck",
       source: "data/index.json",
       itemCount: playlists.length,
       updatedAt: generatedAt
     },
+    ...appleEditorialIndex.shelves.map((shelf) => ({
+      slug: shelf.slug,
+      title: shelf.title,
+      subtitle: shelf.subtitle,
+      source: `data/apple-editorial/${shelf.slug}.json`,
+      itemCount: shelf.itemCount,
+      updatedAt: shelf.updatedAt
+    })),
     {
       slug: "trending-albums",
       title: "Trending Albums",
@@ -224,6 +253,64 @@ async function buildAppleHeroFeeds(generatedAt) {
     playlists: cards
   };
   await writeJson(path.join(APPLE_HERO_DIR, "index.json"), index);
+  return index;
+}
+
+async function buildAppleEditorialFeeds(generatedAt) {
+  const shelves = [];
+  for (const source of APPLE_EDITORIAL_SOURCES) {
+    const file = path.join(APPLE_EDITORIAL_DIR, `${source.slug}.json`);
+    const previous = await readJson(file);
+    const appleUrl = `https://music.apple.com/us/room/${source.roomId}`;
+    let items = [];
+    let stale = false;
+
+    try {
+      const html = await fetchText(appleUrl, "text/html,application/xhtml+xml");
+      items = extractAppleEditorialItems(html);
+      if (items.length < source.minItems) throw new Error(`${source.slug} returned ${items.length} items`);
+    } catch (error) {
+      if (!previous?.items?.length) throw error;
+      items = previous.items;
+      stale = true;
+    }
+
+    const detail = {
+      schemaVersion: 1,
+      slug: source.slug,
+      title: source.title,
+      subtitle: source.subtitle,
+      category: source.category,
+      roomId: source.roomId,
+      appleUrl,
+      market: MARKET,
+      itemCount: items.length,
+      updatedAt: stale ? previous.updatedAt : generatedAt,
+      stale,
+      items
+    };
+    await writeJson(file, detail);
+    shelves.push({
+      slug: source.slug,
+      title: source.title,
+      subtitle: source.subtitle,
+      category: source.category,
+      roomId: source.roomId,
+      appleUrl,
+      itemCount: items.length,
+      updatedAt: detail.updatedAt,
+      stale
+    });
+  }
+
+  const index = {
+    schemaVersion: 1,
+    generatedAt,
+    market: MARKET,
+    shelfCount: shelves.length,
+    shelves
+  };
+  await writeJson(path.join(APPLE_EDITORIAL_DIR, "index.json"), index);
   return index;
 }
 
@@ -539,6 +626,13 @@ function appleArtworkUrl(value) {
 
 function extractAppleProductLockups(html) {
   const items = [];
+  const seen = new Set();
+  const addItem = (item) => {
+    const key = item.appleUrl || `${item.title}|${item.artistNames.join(",")}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    items.push(item);
+  };
   const blockRe = /<div class="product-lockup[\s\S]*?<\/li>/gi;
   let match;
   while ((match = blockRe.exec(html)) !== null) {
@@ -553,13 +647,40 @@ function extractAppleProductLockups(html) {
     const artistNames = Array.from(block.matchAll(/data-testid="product-lockup-subtitle"[^>]*>([\s\S]*?)<\/a>/gi))
       .map((artist) => decodeHtml(stripHtml(artist[1])))
       .filter(Boolean);
-    if (!title || !artistNames.length) continue;
+    const ariaSubtitle = productLockupAriaSubtitle(block, title);
+    const names = artistNames.length ? artistNames : ariaSubtitle ? [ariaSubtitle] : [];
+    if (!title || !names.length) continue;
 
-    items.push({
+    addItem({
       position: 0,
       title,
-      artistNames,
-      artists: artistNames.map((name) => ({ name, appleUrl: null })),
+      artistNames: names,
+      artists: names.map((name) => ({ name, appleUrl: null })),
+      album: {
+        name: title,
+        releaseDate: null,
+        coverImage: appleStaticArtworkUrl(block),
+        appleUrl
+      },
+      durationMs: null,
+      explicit: /data-testid="explicit-badge"/i.test(block),
+      appleUrl,
+      appleId: appleUrl.split("/").pop()?.split("?")[0] || null
+    });
+  }
+  const linkRe = /data-testid="product-lockup-link"[^>]*aria-label="([^"]*)"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi;
+  while ((match = linkRe.exec(html)) !== null) {
+    const title = decodeHtml(stripHtml(match[3]));
+    const appleUrl = decodeHtml(match[2]);
+    const ariaSubtitle = productLockupAriaSubtitle(match[0], title) || decodeHtml(match[1]).split(",").slice(1).join(",").trim();
+    const start = Math.max(0, html.lastIndexOf("<div class=\"product-lockup", match.index));
+    const block = html.slice(start, match.index + match[0].length);
+    if (!title || !appleUrl || !ariaSubtitle) continue;
+    addItem({
+      position: 0,
+      title,
+      artistNames: [ariaSubtitle],
+      artists: [{ name: ariaSubtitle, appleUrl: null }],
       album: {
         name: title,
         releaseDate: null,
@@ -573,6 +694,26 @@ function extractAppleProductLockups(html) {
     });
   }
   return items;
+}
+
+function productLockupAriaSubtitle(block, title) {
+  const aria = decodeHtml(/aria-label="([^"]+)"/i.exec(block)?.[1] || "");
+  if (!aria.startsWith(title)) return "";
+  return aria.slice(title.length).replace(/^,\s*/, "").trim();
+}
+
+function extractAppleEditorialItems(html) {
+  return extractAppleProductLockups(html).map((item, index) => ({
+    position: index + 1,
+    title: item.title,
+    subtitle: item.artistNames.join(", "),
+    artistNames: item.artistNames,
+    kind: item.appleUrl?.includes("/playlist/") ? "playlist" : item.appleUrl?.includes("/album/") ? "album" : "editorial",
+    coverImage: item.album?.coverImage || null,
+    appleUrl: item.appleUrl,
+    appleId: item.appleId,
+    explicit: Boolean(item.explicit)
+  }));
 }
 
 function appleStaticArtworkUrl(block) {

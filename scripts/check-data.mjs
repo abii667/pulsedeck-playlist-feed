@@ -22,4 +22,15 @@ for (const playlist of heroIndex.playlists) {
 const albums = JSON.parse(await readFile("data/trending-albums.json", "utf8"));
 if ((albums.feed?.results || []).length < 10) throw new Error("Trending albums feed has too few albums.");
 
-console.log("Feed JSON has playlists, Apple hero tracks, sections, and trending albums.");
+const editorialIndex = JSON.parse(await readFile("data/apple-editorial/index.json", "utf8"));
+if (editorialIndex.shelfCount !== 2) throw new Error("Expected 2 Apple editorial shelves.");
+for (const shelf of editorialIndex.shelves) {
+  if (!shelf.itemCount || shelf.itemCount < 10) throw new Error(`${shelf.slug} has too few Apple editorial items.`);
+  const detail = JSON.parse(await readFile(`data/apple-editorial/${shelf.slug}.json`, "utf8"));
+  if (!Array.isArray(detail.items) || detail.items.length < 10) throw new Error(`${shelf.slug} detail has too few items.`);
+  for (const item of detail.items) {
+    if (!item.title || !item.coverImage || !item.appleUrl) throw new Error(`${shelf.slug} has an incomplete item.`);
+  }
+}
+
+console.log("Feed JSON has playlists, Apple hero tracks, sections, trending albums, and Apple editorial shelves.");
