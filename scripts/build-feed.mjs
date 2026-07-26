@@ -683,11 +683,11 @@ function appleArtworkUrl(value) {
 function extractAppleProductLockups(html) {
   const items = [];
   const seen = new Set();
-  const addItem = (item) => {
+  const addItem = (item, sourceIndex) => {
     const key = item.appleUrl || `${item.title}|${item.artistNames.join(",")}`;
     if (seen.has(key)) return;
     seen.add(key);
-    items.push(item);
+    items.push({ ...item, sourceIndex });
   };
   const blockRe = /<div class="product-lockup[\s\S]*?<\/li>/gi;
   let match;
@@ -722,7 +722,7 @@ function extractAppleProductLockups(html) {
       explicit: /data-testid="explicit-badge"/i.test(block),
       appleUrl,
       appleId: appleUrl.split("/").pop()?.split("?")[0] || null
-    });
+    }, match.index);
   }
   const linkRe = /data-testid="product-lockup-link"[^>]*aria-label="([^"]*)"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi;
   while ((match = linkRe.exec(html)) !== null) {
@@ -747,9 +747,11 @@ function extractAppleProductLockups(html) {
       explicit: /data-testid="explicit-badge"/i.test(block),
       appleUrl,
       appleId: appleUrl.split("/").pop()?.split("?")[0] || null
-    });
+    }, match.index);
   }
-  return items;
+  return items
+    .sort((left, right) => left.sourceIndex - right.sourceIndex)
+    .map(({ sourceIndex, ...item }) => item);
 }
 
 function productLockupAriaSubtitle(block, title) {
@@ -804,7 +806,7 @@ function collectAppleSongTracks(node, byKey, fallbackCoverImage) {
 
 function toAppleSongTrack(node, fallbackCoverImage) {
   const descriptor = node.contentDescriptor;
-  if (descriptor?.kind !== "song") return null;
+  if (descriptor?.kind !== "song" && descriptor?.kind !== "musicVideo") return null;
   const title = typeof node.title === "string" ? node.title.trim() : "";
   const artistNames = appleArtistNames(node);
   if (!title || !artistNames.length) return null;
