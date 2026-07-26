@@ -24,15 +24,24 @@ if ((albums.feed?.results || []).length < 10) throw new Error("Trending albums f
 
 const editorialIndex = JSON.parse(await readFile("data/apple-editorial/index.json", "utf8"));
 if (editorialIndex.shelfCount !== 2) throw new Error("Expected 2 Apple editorial shelves.");
+const editorialRooms = {
+  "premium-albums": "6794200618",
+  "premium-playlists": "6794200629",
+};
 for (const shelf of editorialIndex.shelves) {
   if (!shelf.itemCount || shelf.itemCount < 10) throw new Error(`${shelf.slug} has too few Apple editorial items.`);
   const detail = JSON.parse(await readFile(`data/apple-editorial/${shelf.slug}.json`, "utf8"));
+  if (detail.roomId !== editorialRooms[shelf.slug]) throw new Error(`${shelf.slug} uses the wrong Apple room.`);
   if (!Array.isArray(detail.items) || detail.items.length < 10) throw new Error(`${shelf.slug} detail has too few items.`);
-  for (const item of detail.items) {
+  for (const [index, item] of detail.items.entries()) {
+    if (item.position !== index + 1) throw new Error(`${shelf.slug} is not in Apple source order.`);
     if (!item.title || !item.coverImage || !item.appleUrl || !item.detailSource) throw new Error(`${shelf.slug} has an incomplete item.`);
     const itemDetail = JSON.parse(await readFile(item.detailSource, "utf8"));
     if (!Array.isArray(itemDetail.tracks) || itemDetail.tracks.length < 1) throw new Error(`${item.title} has no Apple tracklist.`);
     if ((item.trackCount || 0) !== itemDetail.tracks.length) throw new Error(`${item.title} has a mismatched track count.`);
+    if (shelf.slug === "premium-playlists" && item.coverImage !== itemDetail.tracks[0].album?.coverImage) {
+      throw new Error(`${item.title} does not use its first track artwork.`);
+    }
   }
 }
 

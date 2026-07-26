@@ -26,7 +26,7 @@ const APPLE_HERO_SOURCES = [
     title: "Recent Releases",
     subtitle: "Apple Music recent releases",
     category: "apple/recent",
-    roomId: "6791844556",
+    roomId: "6794200618",
     minTracks: 25
   },
   {
@@ -44,7 +44,7 @@ const APPLE_EDITORIAL_SOURCES = [
     title: "Premium Albums",
     subtitle: "Apple Music editorial albums",
     category: "apple/albums",
-    roomId: "6753276057",
+    roomId: "6794200618",
     minItems: 10
   },
   {
@@ -52,7 +52,7 @@ const APPLE_EDITORIAL_SOURCES = [
     title: "Premium Playlists",
     subtitle: "Apple Music updated playlists",
     category: "apple/playlists",
-    roomId: "6791844950",
+    roomId: "6794200629",
     minItems: 10
   }
 ];
@@ -338,6 +338,16 @@ async function buildAppleEditorialItemDetails(source, items, generatedAt, previo
       tracks = previousDetail.tracks;
       stale = true;
     }
+    const firstTrackCover = source.slug === "premium-playlists"
+      ? appleHighResolutionArtworkUrl(tracks[0]?.album?.coverImage)
+      : null;
+    if (firstTrackCover) {
+      tracks[0] = {
+        ...tracks[0],
+        album: { ...tracks[0].album, coverImage: firstTrackCover }
+      };
+    }
+    const coverImage = firstTrackCover || item.coverImage;
 
     const detail = {
       schemaVersion: 1,
@@ -346,7 +356,7 @@ async function buildAppleEditorialItemDetails(source, items, generatedAt, previo
       title: item.title,
       subtitle: item.subtitle,
       kind: item.kind,
-      coverImage: item.coverImage,
+      coverImage,
       appleUrl: item.appleUrl,
       appleId: item.appleId,
       market: MARKET,
@@ -358,6 +368,7 @@ async function buildAppleEditorialItemDetails(source, items, generatedAt, previo
     await writeJson(file, detail);
     withDetails.push({
       ...item,
+      coverImage,
       trackCount: tracks.length,
       detailSource: `data/apple-editorial/${source.slug}/${detailSlug}.json`,
       updatedAt: detail.updatedAt,
@@ -676,6 +687,16 @@ function appleArtworkUrl(value) {
   return value
     .replace("{w}x{h}{c}.{f}", "600x600bb.jpg")
     .replace("{w}x{h}", "600x600")
+    .replace("{c}", "")
+    .replace("{f}", "jpg");
+}
+
+function appleHighResolutionArtworkUrl(value) {
+  if (typeof value !== "string" || !value.startsWith("http")) return null;
+  return value
+    .replace("{w}x{h}{c}.{f}", "1200x1200bb.jpg")
+    .replace("{w}x{h}", "1200x1200")
+    .replace(/\/\d+x\d+(?:bb|SC\.[A-Z0-9]+)\.(?:jpe?g|png|webp)(?=\?|$)/i, "/1200x1200bb.jpg")
     .replace("{c}", "")
     .replace("{f}", "jpg");
 }
