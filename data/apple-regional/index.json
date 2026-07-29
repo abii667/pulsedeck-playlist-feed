@@ -1,0 +1,1283 @@
+{
+  "schemaVersion": 1,
+  "provider": "apple-music",
+  "generatedAt": "2026-07-29T20:55:46.404Z",
+  "regionCount": 156,
+  "playlistCount": 7800,
+  "interests": [
+    "afrobeats",
+    "amapiano",
+    "arabic",
+    "chill",
+    "classical",
+    "country",
+    "devotional",
+    "electronic",
+    "focus",
+    "gospel",
+    "hip-hop",
+    "indian",
+    "indie",
+    "j-pop",
+    "jazz",
+    "k-pop",
+    "latin",
+    "pop",
+    "popular",
+    "reggae",
+    "rnb",
+    "rock",
+    "soul",
+    "workout"
+  ],
+  "regions": [
+    {
+      "code": "US",
+      "name": "United States",
+      "source": "data/apple-regional/us.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:58:57.000Z",
+      "stale": false
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "source": "data/apple-regional/gb.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:58:59.000Z",
+      "stale": false
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "source": "data/apple-regional/ca.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:00.000Z",
+      "stale": false
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "source": "data/apple-regional/au.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:01.000Z",
+      "stale": false
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "source": "data/apple-regional/ng.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:03.000Z",
+      "stale": false
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "source": "data/apple-regional/za.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:04.000Z",
+      "stale": false
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "source": "data/apple-regional/gh.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:05.000Z",
+      "stale": false
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "source": "data/apple-regional/ke.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:07.000Z",
+      "stale": false
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "source": "data/apple-regional/ug.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:08.000Z",
+      "stale": false
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "source": "data/apple-regional/tz.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:09.000Z",
+      "stale": false
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "source": "data/apple-regional/in.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:10.000Z",
+      "stale": false
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "source": "data/apple-regional/br.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:10.000Z",
+      "stale": false
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "source": "data/apple-regional/mx.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:11.000Z",
+      "stale": false
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "source": "data/apple-regional/de.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:14.000Z",
+      "stale": false
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "source": "data/apple-regional/fr.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:16.000Z",
+      "stale": false
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "source": "data/apple-regional/es.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:18.000Z",
+      "stale": false
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "source": "data/apple-regional/it.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:20.000Z",
+      "stale": false
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "source": "data/apple-regional/jp.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:22.000Z",
+      "stale": false
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "source": "data/apple-regional/kr.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:23.000Z",
+      "stale": false
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "source": "data/apple-regional/ae.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:26.000Z",
+      "stale": false
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "source": "data/apple-regional/sa.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:27.000Z",
+      "stale": false
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "source": "data/apple-regional/eg.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:30.000Z",
+      "stale": false
+    },
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "source": "data/apple-regional/tr.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:32.000Z",
+      "stale": false
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "source": "data/apple-regional/ao.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:33.000Z",
+      "stale": false
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "source": "data/apple-regional/bj.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:36.000Z",
+      "stale": false
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "source": "data/apple-regional/bw.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:38.000Z",
+      "stale": false
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "source": "data/apple-regional/cm.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:41.000Z",
+      "stale": false
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde",
+      "source": "data/apple-regional/cv.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:42.000Z",
+      "stale": false
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "source": "data/apple-regional/td.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:45.000Z",
+      "stale": false
+    },
+    {
+      "code": "CG",
+      "name": "Congo - Brazzaville",
+      "source": "data/apple-regional/cg.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:46.000Z",
+      "stale": false
+    },
+    {
+      "code": "CD",
+      "name": "Congo - Kinshasa",
+      "source": "data/apple-regional/cd.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:47.000Z",
+      "stale": false
+    },
+    {
+      "code": "CI",
+      "name": "Côte d’Ivoire",
+      "source": "data/apple-regional/ci.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:49.000Z",
+      "stale": false
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "source": "data/apple-regional/sz.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:52.000Z",
+      "stale": false
+    },
+    {
+      "code": "GA",
+      "name": "Gabon",
+      "source": "data/apple-regional/ga.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:53.000Z",
+      "stale": false
+    },
+    {
+      "code": "GM",
+      "name": "Gambia",
+      "source": "data/apple-regional/gm.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:55.000Z",
+      "stale": false
+    },
+    {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "source": "data/apple-regional/gw.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T20:59:58.000Z",
+      "stale": false
+    },
+    {
+      "code": "LR",
+      "name": "Liberia",
+      "source": "data/apple-regional/lr.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:00:00.000Z",
+      "stale": false
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "source": "data/apple-regional/mg.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:00:02.000Z",
+      "stale": false
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "source": "data/apple-regional/mw.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:00:36.000Z",
+      "stale": false
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "source": "data/apple-regional/ml.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:00:38.000Z",
+      "stale": false
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "source": "data/apple-regional/mr.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:00:40.000Z",
+      "stale": false
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "source": "data/apple-regional/mu.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:00:41.000Z",
+      "stale": false
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "source": "data/apple-regional/ma.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:00:43.000Z",
+      "stale": false
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "source": "data/apple-regional/mz.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:00:45.000Z",
+      "stale": false
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "source": "data/apple-regional/na.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:00:47.000Z",
+      "stale": false
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "source": "data/apple-regional/ne.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:01:20.000Z",
+      "stale": false
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "source": "data/apple-regional/rw.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:01:22.000Z",
+      "stale": false
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "source": "data/apple-regional/sn.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:01:24.000Z",
+      "stale": false
+    },
+    {
+      "code": "SC",
+      "name": "Seychelles",
+      "source": "data/apple-regional/sc.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:01:26.000Z",
+      "stale": false
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "source": "data/apple-regional/sl.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:01:27.000Z",
+      "stale": false
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "source": "data/apple-regional/tn.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:01:58.000Z",
+      "stale": false
+    },
+    {
+      "code": "ZM",
+      "name": "Zambia",
+      "source": "data/apple-regional/zm.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:01.000Z",
+      "stale": false
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "source": "data/apple-regional/zw.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:02.000Z",
+      "stale": false
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "source": "data/apple-regional/dz.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:04.000Z",
+      "stale": false
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "source": "data/apple-regional/ly.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:05.000Z",
+      "stale": false
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "source": "data/apple-regional/ar.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:29.000Z",
+      "stale": false
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "source": "data/apple-regional/bo.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:30.000Z",
+      "stale": false
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "source": "data/apple-regional/cl.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:30.000Z",
+      "stale": false
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "source": "data/apple-regional/co.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:31.000Z",
+      "stale": false
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "source": "data/apple-regional/cr.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:34.000Z",
+      "stale": false
+    },
+    {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "source": "data/apple-regional/do.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:35.000Z",
+      "stale": false
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "source": "data/apple-regional/ec.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:36.000Z",
+      "stale": false
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "source": "data/apple-regional/gt.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:37.000Z",
+      "stale": false
+    },
+    {
+      "code": "HN",
+      "name": "Honduras",
+      "source": "data/apple-regional/hn.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:38.000Z",
+      "stale": false
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "source": "data/apple-regional/ni.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:40.000Z",
+      "stale": false
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "source": "data/apple-regional/pa.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:41.000Z",
+      "stale": false
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "source": "data/apple-regional/pe.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:42.000Z",
+      "stale": false
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "source": "data/apple-regional/py.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:44.000Z",
+      "stale": false
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "source": "data/apple-regional/sv.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:52.000Z",
+      "stale": false
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "source": "data/apple-regional/uy.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:57.000Z",
+      "stale": false
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "source": "data/apple-regional/ve.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:57.000Z",
+      "stale": false
+    },
+    {
+      "code": "JM",
+      "name": "Jamaica",
+      "source": "data/apple-regional/jm.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:58.000Z",
+      "stale": false
+    },
+    {
+      "code": "TT",
+      "name": "Trinidad & Tobago",
+      "source": "data/apple-regional/tt.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:02:59.000Z",
+      "stale": false
+    },
+    {
+      "code": "BB",
+      "name": "Barbados",
+      "source": "data/apple-regional/bb.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:01.000Z",
+      "stale": false
+    },
+    {
+      "code": "BS",
+      "name": "Bahamas",
+      "source": "data/apple-regional/bs.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:09.000Z",
+      "stale": false
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "source": "data/apple-regional/bz.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:10.000Z",
+      "stale": false
+    },
+    {
+      "code": "BM",
+      "name": "Bermuda",
+      "source": "data/apple-regional/bm.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:10.000Z",
+      "stale": false
+    },
+    {
+      "code": "KY",
+      "name": "Cayman Islands",
+      "source": "data/apple-regional/ky.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:12.000Z",
+      "stale": false
+    },
+    {
+      "code": "DM",
+      "name": "Dominica",
+      "source": "data/apple-regional/dm.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:13.000Z",
+      "stale": false
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "source": "data/apple-regional/gd.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:15.000Z",
+      "stale": false
+    },
+    {
+      "code": "GY",
+      "name": "Guyana",
+      "source": "data/apple-regional/gy.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:16.000Z",
+      "stale": false
+    },
+    {
+      "code": "KN",
+      "name": "St. Kitts & Nevis",
+      "source": "data/apple-regional/kn.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:17.000Z",
+      "stale": false
+    },
+    {
+      "code": "LC",
+      "name": "St. Lucia",
+      "source": "data/apple-regional/lc.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:18.000Z",
+      "stale": false
+    },
+    {
+      "code": "VC",
+      "name": "St. Vincent & Grenadines",
+      "source": "data/apple-regional/vc.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:19.000Z",
+      "stale": false
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "source": "data/apple-regional/sr.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:20.000Z",
+      "stale": false
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "source": "data/apple-regional/bh.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:21.000Z",
+      "stale": false
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "source": "data/apple-regional/il.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:23.000Z",
+      "stale": false
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "source": "data/apple-regional/jo.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:25.000Z",
+      "stale": false
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "source": "data/apple-regional/kw.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:26.000Z",
+      "stale": false
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "source": "data/apple-regional/lb.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:29.000Z",
+      "stale": false
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "source": "data/apple-regional/om.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:30.000Z",
+      "stale": false
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "source": "data/apple-regional/qa.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:32.000Z",
+      "stale": false
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "source": "data/apple-regional/iq.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:34.000Z",
+      "stale": false
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "source": "data/apple-regional/ye.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:36.000Z",
+      "stale": false
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "source": "data/apple-regional/lk.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:38.000Z",
+      "stale": false
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "source": "data/apple-regional/np.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:40.000Z",
+      "stale": false
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "source": "data/apple-regional/bt.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:42.000Z",
+      "stale": false
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "source": "data/apple-regional/mv.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:45.000Z",
+      "stale": false
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "source": "data/apple-regional/id.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:45.000Z",
+      "stale": false
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "source": "data/apple-regional/my.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:49.000Z",
+      "stale": false
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "source": "data/apple-regional/ph.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:50.000Z",
+      "stale": false
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "source": "data/apple-regional/sg.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:53.000Z",
+      "stale": false
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "source": "data/apple-regional/th.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:54.000Z",
+      "stale": false
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "source": "data/apple-regional/vn.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:56.000Z",
+      "stale": false
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "source": "data/apple-regional/kh.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:03:58.000Z",
+      "stale": false
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "source": "data/apple-regional/la.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:00.000Z",
+      "stale": false
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar (Burma)",
+      "source": "data/apple-regional/mm.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:03.000Z",
+      "stale": false
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "source": "data/apple-regional/at.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:04.000Z",
+      "stale": false
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "source": "data/apple-regional/be.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:06.000Z",
+      "stale": false
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "source": "data/apple-regional/ch.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:08.000Z",
+      "stale": false
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "source": "data/apple-regional/cz.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:10.000Z",
+      "stale": false
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "source": "data/apple-regional/dk.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:13.000Z",
+      "stale": false
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "source": "data/apple-regional/fi.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:15.000Z",
+      "stale": false
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "source": "data/apple-regional/gr.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:17.000Z",
+      "stale": false
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "source": "data/apple-regional/hu.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:18.000Z",
+      "stale": false
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "source": "data/apple-regional/ie.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:21.000Z",
+      "stale": false
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "source": "data/apple-regional/nl.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:22.000Z",
+      "stale": false
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "source": "data/apple-regional/no.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:24.000Z",
+      "stale": false
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "source": "data/apple-regional/pl.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:26.000Z",
+      "stale": false
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "source": "data/apple-regional/pt.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:28.000Z",
+      "stale": false
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "source": "data/apple-regional/ro.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:30.000Z",
+      "stale": false
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "source": "data/apple-regional/se.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:33.000Z",
+      "stale": false
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "source": "data/apple-regional/ua.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:34.000Z",
+      "stale": false
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "source": "data/apple-regional/bg.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:36.000Z",
+      "stale": false
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "source": "data/apple-regional/hr.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:38.000Z",
+      "stale": false
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "source": "data/apple-regional/cy.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:40.000Z",
+      "stale": false
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "source": "data/apple-regional/ee.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:43.000Z",
+      "stale": false
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "source": "data/apple-regional/is.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:44.000Z",
+      "stale": false
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "source": "data/apple-regional/lt.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:46.000Z",
+      "stale": false
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "source": "data/apple-regional/lu.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:49.000Z",
+      "stale": false
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "source": "data/apple-regional/lv.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:50.000Z",
+      "stale": false
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "source": "data/apple-regional/mt.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:53.000Z",
+      "stale": false
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "source": "data/apple-regional/si.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:54.000Z",
+      "stale": false
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "source": "data/apple-regional/sk.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:57.000Z",
+      "stale": false
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "source": "data/apple-regional/rs.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:04:58.000Z",
+      "stale": false
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "source": "data/apple-regional/mk.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:01.000Z",
+      "stale": false
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "source": "data/apple-regional/md.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:05.000Z",
+      "stale": false
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "source": "data/apple-regional/me.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:06.000Z",
+      "stale": false
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "source": "data/apple-regional/by.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:07.000Z",
+      "stale": false
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "source": "data/apple-regional/ru.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:09.000Z",
+      "stale": false
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia & Herzegovina",
+      "source": "data/apple-regional/ba.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:12.000Z",
+      "stale": false
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "source": "data/apple-regional/kz.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:14.000Z",
+      "stale": false
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "source": "data/apple-regional/kg.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:15.000Z",
+      "stale": false
+    },
+    {
+      "code": "TJ",
+      "name": "Tajikistan",
+      "source": "data/apple-regional/tj.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:16.000Z",
+      "stale": false
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "source": "data/apple-regional/tm.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:18.000Z",
+      "stale": false
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "source": "data/apple-regional/uz.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:21.000Z",
+      "stale": false
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "source": "data/apple-regional/am.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:22.000Z",
+      "stale": false
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "source": "data/apple-regional/az.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:25.000Z",
+      "stale": false
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "source": "data/apple-regional/ge.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:27.000Z",
+      "stale": false
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "source": "data/apple-regional/mn.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:29.000Z",
+      "stale": false
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "source": "data/apple-regional/cn.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:30.000Z",
+      "stale": false
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong SAR China",
+      "source": "data/apple-regional/hk.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:33.000Z",
+      "stale": false
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "source": "data/apple-regional/tw.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:34.000Z",
+      "stale": false
+    },
+    {
+      "code": "MO",
+      "name": "Macao SAR China",
+      "source": "data/apple-regional/mo.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:36.000Z",
+      "stale": false
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "source": "data/apple-regional/nz.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:40.000Z",
+      "stale": false
+    },
+    {
+      "code": "FJ",
+      "name": "Fiji",
+      "source": "data/apple-regional/fj.json",
+      "playlistCount": 50,
+      "updatedAt": "2026-07-29T21:05:49.000Z",
+      "stale": false
+    }
+  ]
+}

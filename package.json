@@ -7,5 +7,8 @@
     "generate": "node scripts/build-feed.mjs",
     "validate": "node scripts/build-feed.mjs --validate",
     "check:data": "node scripts/check-data.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.10.1"
   }
 }

@@ -1,0 +1,570 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-29T20:55:46.404Z",
+  "providers": [
+    "podcast-rss",
+    "apple-podcasts"
+  ],
+  "market": "US",
+  "genreCount": 19,
+  "showCount": 11,
+  "chartShowPlacementCount": 950,
+  "genres": [
+    {
+      "slug": "arts",
+      "title": "Arts",
+      "appleGenreId": "1301",
+      "source": "data/podcasts/genres/arts.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:30.000Z",
+      "stale": false,
+      "curatedShowCount": 1
+    },
+    {
+      "slug": "business",
+      "title": "Business",
+      "appleGenreId": "1321",
+      "source": "data/podcasts/genres/business.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:30.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "comedy",
+      "title": "Comedy",
+      "appleGenreId": "1303",
+      "source": "data/podcasts/genres/comedy.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:31.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "education",
+      "title": "Education",
+      "appleGenreId": "1304",
+      "source": "data/podcasts/genres/education.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:31.000Z",
+      "stale": false,
+      "curatedShowCount": 2
+    },
+    {
+      "slug": "fiction",
+      "title": "Fiction",
+      "appleGenreId": "1483",
+      "source": "data/podcasts/genres/fiction.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:32.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "government",
+      "title": "Government",
+      "appleGenreId": "1511",
+      "source": "data/podcasts/genres/government.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:33.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "history",
+      "title": "History",
+      "appleGenreId": "1487",
+      "source": "data/podcasts/genres/history.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:33.000Z",
+      "stale": false,
+      "curatedShowCount": 1
+    },
+    {
+      "slug": "health-fitness",
+      "title": "Health & Fitness",
+      "appleGenreId": "1512",
+      "source": "data/podcasts/genres/health-fitness.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:34.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "kids-family",
+      "title": "Kids & Family",
+      "appleGenreId": "1305",
+      "source": "data/podcasts/genres/kids-family.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:35.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "leisure",
+      "title": "Leisure",
+      "appleGenreId": "1502",
+      "source": "data/podcasts/genres/leisure.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:36.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "music",
+      "title": "Music",
+      "appleGenreId": "1310",
+      "source": "data/podcasts/genres/music.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:36.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "news",
+      "title": "News",
+      "appleGenreId": "1489",
+      "source": "data/podcasts/genres/news.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:37.000Z",
+      "stale": false,
+      "curatedShowCount": 1
+    },
+    {
+      "slug": "religion-spirituality",
+      "title": "Religion & Spirituality",
+      "appleGenreId": "1314",
+      "source": "data/podcasts/genres/religion-spirituality.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:37.000Z",
+      "stale": false,
+      "curatedShowCount": 5
+    },
+    {
+      "slug": "science",
+      "title": "Science",
+      "appleGenreId": "1533",
+      "source": "data/podcasts/genres/science.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:38.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "society-culture",
+      "title": "Society & Culture",
+      "appleGenreId": "1324",
+      "source": "data/podcasts/genres/society-culture.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:39.000Z",
+      "stale": false,
+      "curatedShowCount": 2
+    },
+    {
+      "slug": "sports",
+      "title": "Sports",
+      "appleGenreId": "1545",
+      "source": "data/podcasts/genres/sports.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:40.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "technology",
+      "title": "Technology",
+      "appleGenreId": "1318",
+      "source": "data/podcasts/genres/technology.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:40.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "true-crime",
+      "title": "True Crime",
+      "appleGenreId": "1488",
+      "source": "data/podcasts/genres/true-crime.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:41.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    },
+    {
+      "slug": "tv-film",
+      "title": "TV & Film",
+      "appleGenreId": "1309",
+      "source": "data/podcasts/genres/tv-film.json",
+      "chartShowCount": 50,
+      "updatedAt": "2026-07-29T20:56:41.000Z",
+      "stale": false,
+      "curatedShowCount": 0
+    }
+  ],
+  "regions": [
+    "AU",
+    "ET"
+  ],
+  "languages": [
+    "am",
+    "en",
+    "om",
+    "ti"
+  ],
+  "topics": [
+    "afaan-oromo",
+    "amharic",
+    "books",
+    "christianity",
+    "culture",
+    "daily-devotional",
+    "diaspora",
+    "ethiopia",
+    "ethiopian-orthodox",
+    "history",
+    "language-learning",
+    "self-improvement",
+    "sermons",
+    "storytelling",
+    "tigrinya"
+  ],
+  "shows": [
+    {
+      "provider": "podcast-rss",
+      "slug": "bete-maheteb",
+      "title": "Bete-Maheteb",
+      "publisher": "Bete_mehateb",
+      "description": "This podcast has Ethiopian and Ethiopian Orthodox Christian contents, Including prayer book and Amharic language basics. Hope it helps !",
+      "genres": [
+        "religion-spirituality"
+      ],
+      "topics": [
+        "ethiopia",
+        "ethiopian-orthodox",
+        "christianity",
+        "amharic"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "am"
+      ],
+      "coverImage": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/9083230/9083230-1600986981313-c6208c4a04541.jpg",
+      "feedUrl": "https://anchor.fm/s/36bc7f38/podcast/rss",
+      "websiteUrl": "https://podcasters.spotify.com/pod/show/bete-maheteb",
+      "snapshotId": "rss:92b1915ca42c19c61f80467f1801a1bfcda717b9",
+      "latestEpisodeAt": "2026-02-02T16:08:01.000Z",
+      "episodeCount": 20,
+      "detailSource": "data/podcasts/shows/bete-maheteb.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "afaan-oromo-daily-devotional",
+      "title": "AWR Oromo / Afaan Oromoo / Oromiffa / ኦሮምኛ",
+      "publisher": "Adventist World Radio",
+      "description": "\"AWR Afaan Oromo, Oromiffa\"",
+      "genres": [
+        "religion-spirituality"
+      ],
+      "topics": [
+        "ethiopia",
+        "christianity",
+        "afaan-oromo",
+        "daily-devotional"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "om"
+      ],
+      "coverImage": "https://podcasts.awr.org/xml/logos/ORMAD_AWR_Podcast_Graphic_3000.jpg",
+      "feedUrl": "https://feeds.feedburner.com/ORMAD_AWR",
+      "websiteUrl": "https://www.awr.org/program/ORMAD_AWR",
+      "snapshotId": "rss:f3b17dc84122bf8ff7f2fdabf56d8d2105de4ad6",
+      "latestEpisodeAt": "2026-07-29T02:00:00.000Z",
+      "episodeCount": 20,
+      "detailSource": "data/podcasts/shows/afaan-oromo-daily-devotional.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "tigrinya-daily-devotional",
+      "title": "AWR Tigrinya / ትግርኛ (Eritrea, Ethiopia)",
+      "publisher": "Adventist World Radio",
+      "description": "\"AWR Tigrinya, ትግርኛ, tigrinaa\"",
+      "genres": [
+        "religion-spirituality"
+      ],
+      "topics": [
+        "ethiopia",
+        "christianity",
+        "tigrinya",
+        "daily-devotional"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "ti"
+      ],
+      "coverImage": "https://podcasts.awr.org/xml/logos/TIRAD_AWR_Podcast_Graphic_3000.jpg",
+      "feedUrl": "https://feeds.feedburner.com/TIRAD_AWR",
+      "websiteUrl": "https://www.awr.org/program/TIRAD_AWR",
+      "snapshotId": "rss:b74dd93a17a2b8329fc19b9f4edc0255a606d235",
+      "latestEpisodeAt": "2026-07-29T02:00:00.000Z",
+      "episodeCount": 20,
+      "detailSource": "data/podcasts/shows/tigrinya-daily-devotional.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "ethiopian-christian-fellowship",
+      "title": "Ethiopian Christian Fellowship Church Podcast",
+      "publisher": "Ethiopian Christian Fellowship Church",
+      "description": "Ethiopian Christian Fellowship Church Podcast",
+      "genres": [
+        "religion-spirituality"
+      ],
+      "topics": [
+        "ethiopia",
+        "christianity",
+        "sermons"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "am",
+        "en"
+      ],
+      "coverImage": "https://www.christianworldmedia.com/images/podcast-artwork/724_poadcast-artwork_1710369203.jpg",
+      "feedUrl": "https://www.christianworldmedia.com/feeds/724/676/podcast.xml",
+      "websiteUrl": "https://www.christianworldmedia.com/livechannel/ecfclive",
+      "snapshotId": "rss:6d386ca1b98a516e935a79a336ca2901e9a48910",
+      "latestEpisodeAt": "2026-07-26T07:00:00.000Z",
+      "episodeCount": 20,
+      "detailSource": "data/podcasts/shows/ethiopian-christian-fellowship.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "lazarus-come-out",
+      "title": "Lazarus, Come Out!",
+      "publisher": "Nahom Mulugeta",
+      "description": "Welcome.My name is Dcn. Nahom, I belong to the Ethiopian Orthodox Church.This podcast is centralized in manifesting the theological and seemingly intellectual tenets of Ethiopian Orthodoxy in to actual life in a way that is centered in a continual relationship to the Christ we don't see physically, through His body, the Church and its Liturgical services that we see physicallyThe story of Lazarus' resurrection is one that I hope is recreated in me and you, the listener, throughout the episodes. Hosted on Acast. See acast.com/privacy for more information.",
+      "genres": [
+        "religion-spirituality"
+      ],
+      "topics": [
+        "ethiopia",
+        "ethiopian-orthodox",
+        "christianity"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "en"
+      ],
+      "coverImage": "https://assets.pippa.io/shows/651d3cf716694d001213b832/1699080540817-c6df717f7157dc021cb241ebcd149787.jpeg",
+      "feedUrl": "https://feeds.acast.com/public/shows/lazarus-come-out",
+      "websiteUrl": "https://shows.acast.com/lazarus-come-out",
+      "snapshotId": "rss:0da569df2dd9db42e55fabdb292acc7731d6dc08",
+      "latestEpisodeAt": "2024-07-19T17:00:38.000Z",
+      "episodeCount": 7,
+      "detailSource": "data/podcasts/shows/lazarus-come-out.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "sbs-afaan-oromoo",
+      "title": "SBS Afaan Oromoo",
+      "publisher": "SBS",
+      "description": "Oduun bilisaa fi seenaa, sagalee SBS irraa, jireenya Austraaliyaa keessaa waliinii fi hawwasa Oromoo Austraaliyaan walitti si hidha.",
+      "genres": [
+        "news",
+        "society-culture"
+      ],
+      "topics": [
+        "ethiopia",
+        "afaan-oromo",
+        "diaspora"
+      ],
+      "regions": [
+        "ET",
+        "AU"
+      ],
+      "languages": [
+        "om"
+      ],
+      "coverImage": "https://sbs-rss.streamguys1.com/sbs-oromo/20260204160937-90.jpg",
+      "feedUrl": "https://sbs-ondemand.streamguys1.com/sbs-oromo/",
+      "websiteUrl": "https://www.sbs.com.au/language/oromo/om/podcast/sbs-oromo",
+      "snapshotId": "rss:60b4d264ed1366e482e9a31519abe389e6220d17",
+      "latestEpisodeAt": "2026-07-29T02:50:00.000Z",
+      "episodeCount": 20,
+      "detailSource": "data/podcasts/shows/sbs-afaan-oromoo.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "amharic-academy",
+      "title": "AMHARIC ACADEMY",
+      "publisher": "Nadir Aman Kiyaro",
+      "description": "Your go-to podcast for learning Amharic in a simple, engaging way. Join us as we break down the beauty of Ethiopia's official language, one lesson at a time. Whether you're a beginner or brushing up your Amharic, our fun, easy-to-follow episodes will have you speaking Amharic from Day-1!",
+      "genres": [
+        "education"
+      ],
+      "topics": [
+        "ethiopia",
+        "amharic",
+        "language-learning"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "am"
+      ],
+      "coverImage": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43151131/43151131-1740718404169-d08ccc0fc666f.jpg",
+      "feedUrl": "https://anchor.fm/s/101cbfd0c/podcast/rss",
+      "websiteUrl": "https://amharicacademy.com",
+      "snapshotId": "rss:ee89d4758e81d415593a4120028f6b3932aa38b2",
+      "latestEpisodeAt": "2026-07-26T17:03:51.000Z",
+      "episodeCount": 20,
+      "detailSource": "data/podcasts/shows/amharic-academy.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "mastawesha",
+      "title": "Mastawesha",
+      "publisher": "Lilena Seyum",
+      "description": "Mastawesha is a podcast the presents the story of legendary artists and peoples from Ethiopia. Enjoy our weekly podcast and follow our channel on different platforms.",
+      "genres": [
+        "education"
+      ],
+      "topics": [
+        "ethiopia",
+        "amharic",
+        "self-improvement"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "am"
+      ],
+      "coverImage": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/15874065/15874065-1630827686080-7886f8206c704.jpg",
+      "feedUrl": "https://anchor.fm/s/5f367d24/podcast/rss",
+      "websiteUrl": "https://www.mineshe.com",
+      "snapshotId": "rss:463b9d2dfef4a9c9eb3bf6f5ab64330bf50aa56b",
+      "latestEpisodeAt": "2024-04-18T07:55:29.000Z",
+      "episodeCount": 20,
+      "detailSource": "data/podcasts/shows/mastawesha.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "ethiopian-short-stories",
+      "title": "Ethiopian Short Stories",
+      "publisher": "Biruk Eyesus",
+      "description": "Short stories by Ethiopian writers.",
+      "genres": [
+        "arts"
+      ],
+      "topics": [
+        "ethiopia",
+        "amharic",
+        "books",
+        "storytelling"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "am"
+      ],
+      "coverImage": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/14561621/14561621-1618714229522-e91ec8259389f.jpg",
+      "feedUrl": "https://anchor.fm/s/5763dbb4/podcast/rss",
+      "websiteUrl": "https://podcasters.spotify.com/pod/show/ethiopian-stories",
+      "snapshotId": "rss:1a3dd63f7cbd5535960468b657fcc7a747206020",
+      "latestEpisodeAt": "2021-06-13T20:43:28.000Z",
+      "episodeCount": 3,
+      "detailSource": "data/podcasts/shows/ethiopian-short-stories.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "tarik-ethiopian-history",
+      "title": "TARIK: The Ethiopian History Podcast",
+      "publisher": "T A R I K",
+      "description": "TARIK is an Ethiopian history podcast which strives to educate Ethiopians & non-Ethiopians alike in the rich, diverse, and ancient history of Ethiopia. Referencing historical and academic sources, we intend to present factual discussions about significant events, great figures, culture, linguistics, religions & much more. Our goal is to educate the next generation to take pride in the boundless history that our country has to offer.",
+      "genres": [
+        "history"
+      ],
+      "topics": [
+        "ethiopia",
+        "amharic",
+        "history"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "am"
+      ],
+      "coverImage": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/12907316/12907316-1614724925343-5d49614163d5d.jpg",
+      "feedUrl": "https://anchor.fm/s/4d8796d0/podcast/rss",
+      "websiteUrl": "https://podcasters.spotify.com/pod/show/tarikpodcast",
+      "snapshotId": "rss:aba37d0c461eb368c084f2f3bbcac837191b4080",
+      "latestEpisodeAt": "2022-02-21T21:28:56.000Z",
+      "episodeCount": 8,
+      "detailSource": "data/podcasts/shows/tarik-ethiopian-history.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    },
+    {
+      "provider": "podcast-rss",
+      "slug": "ethiopia-is-calling",
+      "title": "Ethiopia Is Calling",
+      "publisher": "Megnot Abebe",
+      "description": "️Welcome to Ethiopia is Calling – a podcast that reimagines what success means through the stories of Ethiopians navigating identity, ambition, and community across borders. Whether you're part of the Ethiopian diaspora or simply curious about how people define success outside Western norms, this series invites you to reflect, question, and reconnect.",
+      "genres": [
+        "society-culture"
+      ],
+      "topics": [
+        "ethiopia",
+        "culture",
+        "diaspora"
+      ],
+      "regions": [
+        "ET"
+      ],
+      "languages": [
+        "en"
+      ],
+      "coverImage": "https://storage.pinecast.net/podcasts/covers/4f8dd074-039a-4ae2-80c7-5ee2c14ad2b8/Episode__2_Cover.JPG.jpg",
+      "feedUrl": "https://pinecast.com/feed/ethiopia-is-calling",
+      "websiteUrl": "https://www.virginiaaudio.com/soundongrounds/ethiopia-is-calling",
+      "snapshotId": "rss:1e5200edf3692ccdfe6e264e3943c5a53f26efbe",
+      "latestEpisodeAt": "2025-08-25T13:00:00.000Z",
+      "episodeCount": 4,
+      "detailSource": "data/podcasts/shows/ethiopia-is-calling.json",
+      "updatedAt": "2026-07-29T20:40:23.448Z",
+      "stale": false
+    }
+  ]
+}
