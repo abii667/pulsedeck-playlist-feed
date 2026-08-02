@@ -11,7 +11,7 @@ const sourcesBySlug = new Map(sources.map((source) => [source.slug, source]));
 const youtubeSources = JSON.parse(await readFile("sources/youtube-playlists.json", "utf8"));
 const youtubeSourcesBySlug = new Map(youtubeSources.map((source) => [source.slug, source]));
 const expectedAndroidMusicInterests = [
-  "pop", "hip-hop", "rnb", "rock", "blues", "folk", "afrobeats", "amapiano",
+  "pop", "hip-hop", "rap", "rnb", "rock", "blues", "folk", "afrobeats", "amapiano",
   "ethiopian", "ethio-jazz", "ethiopian-orthodox", "gospel", "catholic", "jazz",
   "soul", "reggae", "electronic", "dance", "ambient", "classical", "throwbacks",
   "country", "latin", "indie", "alternative", "arabic", "indian", "k-pop", "j-pop",
