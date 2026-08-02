@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T08:37:06.461Z",
+  "generatedAt": "2026-08-02T13:07:48.434Z",
   "market": "US",
   "interests": [
     "african",
@@ -10,6 +10,7 @@
     "ambient",
     "amharic",
     "arabic",
+    "blues",
     "catholic",
     "chant",
     "chill",
@@ -28,6 +29,7 @@
     "ethiopian",
     "ethiopian-orthodox",
     "focus",
+    "folk",
     "gospel",
     "hindi",
     "hip-hop",
@@ -217,7 +219,7 @@
     "ZM",
     "ZW"
   ],
-  "playlistCount": 45,
+  "playlistCount": 50,
   "playlists": [
     {
       "slug": "todays-top-hits",
@@ -1240,6 +1242,113 @@
       "trackCount": 50,
       "updatedAt": "2026-07-29T19:10:15.950Z",
       "stale": false
+    },
+    {
+      "slug": "blues-classics",
+      "title": "Blues Classics",
+      "category": "blues",
+      "interests": [
+        "blues"
+      ],
+      "regions": [
+        "GLOBAL"
+      ],
+      "coverImage": "https://i.scdn.co/image/ab67706f000000029123985c3c592a4819d763a3",
+      "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DXd9rSDyQguIk?utm_source=oembed",
+      "spotifyUrl": "https://open.spotify.com/playlist/37i9dQZF1DXd9rSDyQguIk",
+      "snapshotId": "public:989dfeda409dcf802a543826c459e29b960b5e9b",
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "trackCount": 50,
+      "updatedAt": "2026-08-02T13:07:48.434Z",
+      "stale": false
+    },
+    {
+      "slug": "roots-rising",
+      "title": "Roots Rising",
+      "category": "folk",
+      "interests": [
+        "folk"
+      ],
+      "regions": [
+        "GLOBAL"
+      ],
+      "coverImage": "https://i.scdn.co/image/ab67706f00000002d772473952e9cc05c12b192d",
+      "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWYV7OOaGhoH0?utm_source=oembed",
+      "spotifyUrl": "https://open.spotify.com/playlist/37i9dQZF1DWYV7OOaGhoH0",
+      "snapshotId": "public:be7dc8af7d2f61ae268953ba7ff4f348136f394b",
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "trackCount": 100,
+      "updatedAt": "2026-08-02T13:07:48.434Z",
+      "stale": false
+    },
+    {
+      "slug": "reggae-classics",
+      "title": "Reggae Classics",
+      "category": "reggae",
+      "interests": [
+        "reggae"
+      ],
+      "regions": [
+        "GLOBAL"
+      ],
+      "coverImage": "https://i.scdn.co/image/ab67706f0000000220ac71d7cca7584dd09ab25d",
+      "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DXbSbnqxMTGx9?utm_source=oembed",
+      "spotifyUrl": "https://open.spotify.com/playlist/37i9dQZF1DXbSbnqxMTGx9",
+      "snapshotId": "public:26dd425c2ef1b8a9eec888f3d49b3f9194689b99",
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "trackCount": 100,
+      "updatedAt": "2026-08-02T13:07:48.434Z",
+      "stale": false
+    },
+    {
+      "slug": "k-pop-on",
+      "title": "K-Pop ON! (온)",
+      "category": "regional/korea",
+      "interests": [
+        "k-pop"
+      ],
+      "regions": [
+        "GLOBAL",
+        "KR"
+      ],
+      "coverImage": "https://i.scdn.co/image/ab67706f00000002394ec64a62af4564399d88c4",
+      "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DX9tPFwDMOaN1?utm_source=oembed",
+      "spotifyUrl": "https://open.spotify.com/playlist/37i9dQZF1DX9tPFwDMOaN1",
+      "snapshotId": "public:d99e3985c8d840e1d9f2f4d062a85a2cd7a6dc82",
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "trackCount": 51,
+      "updatedAt": "2026-08-02T13:07:48.434Z",
+      "stale": false
+    },
+    {
+      "slug": "j-pop-hits",
+      "title": "J-Pop Hits",
+      "category": "regional/japan",
+      "interests": [
+        "j-pop"
+      ],
+      "regions": [
+        "GLOBAL",
+        "JP"
+      ],
+      "coverImage": "https://i.scdn.co/image/ab67706f00000002a448c278639f6e95a5fa33c0",
+      "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DXdbRLJPSmnyq?utm_source=oembed",
+      "spotifyUrl": "https://open.spotify.com/playlist/37i9dQZF1DXdbRLJPSmnyq",
+      "snapshotId": "public:de3fb4ad7ff10b4f815189308d26fec8d7169a41",
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "trackCount": 100,
+      "updatedAt": "2026-08-02T13:07:48.434Z",
+      "stale": false
     }
   ],
   "sections": [
@@ -1248,8 +1357,8 @@
       "title": "Pulse Playlists",
       "subtitle": "Curated playlist feed from PulseDeck",
       "source": "data/index.json",
-      "itemCount": 45,
-      "updatedAt": "2026-08-02T08:37:06.461Z"
+      "itemCount": 50,
+      "updatedAt": "2026-08-02T13:07:48.434Z"
     },
     {
       "slug": "youtube-playlists",
