@@ -10,6 +10,22 @@ const sources = JSON.parse(await readFile("sources/playlists.json", "utf8"));
 const sourcesBySlug = new Map(sources.map((source) => [source.slug, source]));
 const youtubeSources = JSON.parse(await readFile("sources/youtube-playlists.json", "utf8"));
 const youtubeSourcesBySlug = new Map(youtubeSources.map((source) => [source.slug, source]));
+const expectedAndroidMusicInterests = [
+  "pop", "hip-hop", "rnb", "rock", "blues", "folk", "afrobeats", "amapiano",
+  "ethiopian", "ethio-jazz", "ethiopian-orthodox", "gospel", "catholic", "jazz",
+  "soul", "reggae", "electronic", "dance", "ambient", "classical", "throwbacks",
+  "country", "latin", "indie", "alternative", "arabic", "indian", "k-pop", "j-pop",
+  "lofi", "workout"
+];
+const configuredMusicInterests = new Set(
+  [...sources, ...youtubeSources].flatMap((source) => source.interests)
+);
+const missingAndroidMusicInterests = expectedAndroidMusicInterests.filter(
+  (interest) => !configuredMusicInterests.has(interest)
+);
+if (missingAndroidMusicInterests.length) {
+  throw new Error(`Missing Android music interests: ${missingAndroidMusicInterests.join(", ")}.`);
+}
 const podcastSources = JSON.parse(await readFile("sources/podcasts.json", "utf8"));
 const podcastSourcesBySlug = new Map(podcastSources.map((source) => [source.slug, source]));
 const podcastGenres = JSON.parse(await readFile("sources/podcast-genres.json", "utf8"));
