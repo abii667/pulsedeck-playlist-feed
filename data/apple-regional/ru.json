@@ -4,7 +4,7 @@
   "region": "RU",
   "regionName": "Russia",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/ru/music/most-played/50/playlists.json",
-  "updatedAt": "2026-08-09T07:33:46.000Z",
+  "updatedAt": "2026-08-09T14:20:28.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
@@ -25,6 +25,21 @@
     },
     {
       "position": 2,
+      "id": "apple:pl.2bb29727dbc34a63936787297305c37c",
+      "provider": "apple-music",
+      "appleId": "pl.2bb29727dbc34a63936787297305c37c",
+      "title": "Чилаут",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/47/7e/55/477e552f-1713-d9ec-e75b-8c190ad03a9c/U0MtTVMtV1ctVG9kYXlfc19DaGlsbC1BREFNX0lEPTExMjQyMTE5MDQucG5n.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%87%D0%B8%D0%BB%D0%B0%D1%83%D1%82/pl.2bb29727dbc34a63936787297305c37c",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 3,
       "id": "apple:pl.2ef3358738624add8e06bc11cf18b9d3",
       "provider": "apple-music",
       "appleId": "pl.2ef3358738624add8e06bc11cf18b9d3",
@@ -39,28 +54,13 @@
       ]
     },
     {
-      "position": 3,
+      "position": 4,
       "id": "apple:pl.1d5ead185d8a4a9089f3b952770b762c",
       "provider": "apple-music",
       "appleId": "pl.1d5ead185d8a4a9089f3b952770b762c",
       "title": "В замедленном ритме",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/3e/2a/09/3e2a0903-d0b5-d43a-9d00-c94ea1767579/61088f1a-08a9-4717-9909-3838749b2d01.png/1200x1200bb.jpg?l=ru-RU",
       "appleUrl": "https://music.apple.com/ru/playlist/%D0%B2-%D0%B7%D0%B0%D0%BC%D0%B5%D0%B4%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC-%D1%80%D0%B8%D1%82%D0%BC%D0%B5/pl.1d5ead185d8a4a9089f3b952770b762c",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 4,
-      "id": "apple:pl.2bb29727dbc34a63936787297305c37c",
-      "provider": "apple-music",
-      "appleId": "pl.2bb29727dbc34a63936787297305c37c",
-      "title": "Чилаут",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/47/7e/55/477e552f-1713-d9ec-e75b-8c190ad03a9c/U0MtTVMtV1ctVG9kYXlfc19DaGlsbC1BREFNX0lEPTExMjQyMTE5MDQucG5n.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%87%D0%B8%D0%BB%D0%B0%D1%83%D1%82/pl.2bb29727dbc34a63936787297305c37c",
       "interests": [
         "popular"
       ],
@@ -115,12 +115,12 @@
     },
     {
       "position": 8,
-      "id": "apple:pl.6bf4415b83ce4f3789614ac4c3675740",
+      "id": "apple:pl.718fc24fcc7748a5a9fb8e3498c43fba",
       "provider": "apple-music",
-      "appleId": "pl.6bf4415b83ce4f3789614ac4c3675740",
-      "title": "danceXL",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/01/dc/52/01dc52d6-fefb-9700-dec9-ad98cf69ed6c/U0MtTVMtVUtSLVBsYXlsaXN0TmFtZS1BREFNX0lEPTAwMDAwMDAwMC5wbmc.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/dancexl/pl.6bf4415b83ce4f3789614ac4c3675740",
+      "appleId": "pl.718fc24fcc7748a5a9fb8e3498c43fba",
+      "title": "Красная дорожка",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/0a/53/5a/0a535af2-fecb-52b1-f0d3-1a6caff541df/U0MtTVMtV1ctUnVzc2lhbl9Qb3BfUmVwbGF5LUFEQU1fSUQ9MTEyNjE1NzQwNi5wbmc.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F-%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BA%D0%B0/pl.718fc24fcc7748a5a9fb8e3498c43fba",
       "interests": [
         "popular"
       ],
@@ -130,21 +130,6 @@
     },
     {
       "position": 9,
-      "id": "apple:pl.2e3fa3c5eaee4f109456dbc6598c8b54",
-      "provider": "apple-music",
-      "appleId": "pl.2e3fa3c5eaee4f109456dbc6598c8b54",
-      "title": "Поп 90-х на русском: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/47/78/7b/47787bdb-f0d0-c5cb-0877-15f6e25d3598/4bd642af-a2ae-4151-af5a-8875827d928f.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-90-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.2e3fa3c5eaee4f109456dbc6598c8b54",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 10,
       "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
       "provider": "apple-music",
       "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
@@ -159,13 +144,28 @@
       ]
     },
     {
-      "position": 11,
-      "id": "apple:pl.718fc24fcc7748a5a9fb8e3498c43fba",
+      "position": 10,
+      "id": "apple:pl.6bf4415b83ce4f3789614ac4c3675740",
       "provider": "apple-music",
-      "appleId": "pl.718fc24fcc7748a5a9fb8e3498c43fba",
-      "title": "Красная дорожка",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/0a/53/5a/0a535af2-fecb-52b1-f0d3-1a6caff541df/U0MtTVMtV1ctUnVzc2lhbl9Qb3BfUmVwbGF5LUFEQU1fSUQ9MTEyNjE1NzQwNi5wbmc.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F-%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BA%D0%B0/pl.718fc24fcc7748a5a9fb8e3498c43fba",
+      "appleId": "pl.6bf4415b83ce4f3789614ac4c3675740",
+      "title": "danceXL",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/01/dc/52/01dc52d6-fefb-9700-dec9-ad98cf69ed6c/U0MtTVMtVUtSLVBsYXlsaXN0TmFtZS1BREFNX0lEPTAwMDAwMDAwMC5wbmc.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/dancexl/pl.6bf4415b83ce4f3789614ac4c3675740",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 11,
+      "id": "apple:pl.a3f7a612412545759582b0c9ac082a0d",
+      "provider": "apple-music",
+      "appleId": "pl.a3f7a612412545759582b0c9ac082a0d",
+      "title": "Песни для детей: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/54/45/a0/5445a0bd-f0f6-3044-0b73-c5e8a12ced5e/6a646c78-a078-48ca-b8a4-6cdb45c7ca7d.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%B5%D1%81%D0%BD%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.a3f7a612412545759582b0c9ac082a0d",
       "interests": [
         "popular"
       ],
@@ -190,36 +190,6 @@
     },
     {
       "position": 13,
-      "id": "apple:pl.a3f7a612412545759582b0c9ac082a0d",
-      "provider": "apple-music",
-      "appleId": "pl.a3f7a612412545759582b0c9ac082a0d",
-      "title": "Песни для детей: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/54/45/a0/5445a0bd-f0f6-3044-0b73-c5e8a12ced5e/6a646c78-a078-48ca-b8a4-6cdb45c7ca7d.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%B5%D1%81%D0%BD%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.a3f7a612412545759582b0c9ac082a0d",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 14,
-      "id": "apple:pl.50d5fd0bbe3343c3b141c2e69cb63a20",
-      "provider": "apple-music",
-      "appleId": "pl.50d5fd0bbe3343c3b141c2e69cb63a20",
-      "title": "Поп 2000-х на русском: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/7f/8f/ab/7f8fab39-a788-c5d7-31b6-d80b90c3593d/U0MtTVMtUlUtMDBzX1J1c3NpYW5fUG9wX0Vzc2VudGlhbHMtQURBTV9JRD05OTE1OTQwNDAucG5n.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-2000-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.50d5fd0bbe3343c3b141c2e69cb63a20",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 15,
       "id": "apple:pl.ad0ee1557e3e4feba314fd70f7982766",
       "provider": "apple-music",
       "appleId": "pl.ad0ee1557e3e4feba314fd70f7982766",
@@ -234,13 +204,43 @@
       ]
     },
     {
-      "position": 16,
+      "position": 14,
+      "id": "apple:pl.2e3fa3c5eaee4f109456dbc6598c8b54",
+      "provider": "apple-music",
+      "appleId": "pl.2e3fa3c5eaee4f109456dbc6598c8b54",
+      "title": "Поп 90-х на русском: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/47/78/7b/47787bdb-f0d0-c5cb-0877-15f6e25d3598/4bd642af-a2ae-4151-af5a-8875827d928f.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-90-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.2e3fa3c5eaee4f109456dbc6598c8b54",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 15,
       "id": "apple:pl.bd9dd079143b4b659efc48e2c01e3a11",
       "provider": "apple-music",
       "appleId": "pl.bd9dd079143b4b659efc48e2c01e3a11",
       "title": "Рок на русском: главное",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/87/fb/19/87fb19f2-4e06-df8f-ece5-16cc8a648fa8/5389546f-88ac-4ec1-8e64-62ed38ae8df5.png/1200x1200bb.jpg?l=ru-RU",
       "appleUrl": "https://music.apple.com/ru/playlist/%D1%80%D0%BE%D0%BA-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.bd9dd079143b4b659efc48e2c01e3a11",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 16,
+      "id": "apple:pl.0b6396cf63594f5cb834aff82520eb84",
+      "provider": "apple-music",
+      "appleId": "pl.0b6396cf63594f5cb834aff82520eb84",
+      "title": "Планета хитов",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/eb/01/4d/eb014dbf-cb3e-0d3b-7415-3f336b6280b6/U0MtTVMtV1ctR2xvYmFsX0hpdHMtQURBTV9JRD0xNDY3MDY3NTY0LnBuZw.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0-%D1%85%D0%B8%D1%82%D0%BE%D0%B2/pl.0b6396cf63594f5cb834aff82520eb84",
       "interests": [
         "popular"
       ],
@@ -265,21 +265,6 @@
     },
     {
       "position": 18,
-      "id": "apple:pl.0b6396cf63594f5cb834aff82520eb84",
-      "provider": "apple-music",
-      "appleId": "pl.0b6396cf63594f5cb834aff82520eb84",
-      "title": "Планета хитов",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/eb/01/4d/eb014dbf-cb3e-0d3b-7415-3f336b6280b6/U0MtTVMtV1ctR2xvYmFsX0hpdHMtQURBTV9JRD0xNDY3MDY3NTY0LnBuZw.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0-%D1%85%D0%B8%D1%82%D0%BE%D0%B2/pl.0b6396cf63594f5cb834aff82520eb84",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 19,
       "id": "apple:pl.af4d982795c6472ea48579eb147cd726",
       "provider": "apple-music",
       "appleId": "pl.af4d982795c6472ea48579eb147cd726",
@@ -294,13 +279,28 @@
       ]
     },
     {
-      "position": 20,
-      "id": "apple:pl.f54198ad42404535be13eabf3835fb22",
+      "position": 19,
+      "id": "apple:pl.50d5fd0bbe3343c3b141c2e69cb63a20",
       "provider": "apple-music",
-      "appleId": "pl.f54198ad42404535be13eabf3835fb22",
-      "title": "BEATstrumentals",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/9f/84/eb/9f84eb27-41eb-87e2-72fa-4cce2381884d/U0MtTVMtV1ctQkVBVHN0cnVtZW50YWxzLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/beatstrumentals/pl.f54198ad42404535be13eabf3835fb22",
+      "appleId": "pl.50d5fd0bbe3343c3b141c2e69cb63a20",
+      "title": "Поп 2000-х на русском: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/7f/8f/ab/7f8fab39-a788-c5d7-31b6-d80b90c3593d/U0MtTVMtUlUtMDBzX1J1c3NpYW5fUG9wX0Vzc2VudGlhbHMtQURBTV9JRD05OTE1OTQwNDAucG5n.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-2000-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.50d5fd0bbe3343c3b141c2e69cb63a20",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 20,
+      "id": "apple:pl.bb5b34f808f04cf6bdc57d9f1a98c918",
+      "provider": "apple-music",
+      "appleId": "pl.bb5b34f808f04cf6bdc57d9f1a98c918",
+      "title": "Танцевальная музыка для тренировки",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/22/4e/0e/224e0e3b-6d91-709a-ed84-6f93cf073b84/U0MtTVMtV1ctRGFuY2VfV29ya291dC1BREFNX0lEPTEwMDQ3ODkxMTkucG5n.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%82%D0%B0%D0%BD%D1%86%D0%B5%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8/pl.bb5b34f808f04cf6bdc57d9f1a98c918",
       "interests": [
         "popular"
       ],
@@ -326,66 +326,6 @@
     },
     {
       "position": 22,
-      "id": "apple:pl.4e53636288dc49fa992807f889df172a",
-      "provider": "apple-music",
-      "appleId": "pl.4e53636288dc49fa992807f889df172a",
-      "title": "Король и Шут: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/2e/8e/74/2e8e74e5-b5d7-3161-71ba-c7792b6b1a2e/mzl.bskekpny.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%8C-%D0%B8-%D1%88%D1%83%D1%82-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.4e53636288dc49fa992807f889df172a",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 23,
-      "id": "apple:pl.bb5b34f808f04cf6bdc57d9f1a98c918",
-      "provider": "apple-music",
-      "appleId": "pl.bb5b34f808f04cf6bdc57d9f1a98c918",
-      "title": "Танцевальная музыка для тренировки",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/22/4e/0e/224e0e3b-6d91-709a-ed84-6f93cf073b84/U0MtTVMtV1ctRGFuY2VfV29ya291dC1BREFNX0lEPTEwMDQ3ODkxMTkucG5n.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%82%D0%B0%D0%BD%D1%86%D0%B5%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8/pl.bb5b34f808f04cf6bdc57d9f1a98c918",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 24,
-      "id": "apple:pl.a4a6623b15ec40f892ab37324a0f8289",
-      "provider": "apple-music",
-      "appleId": "pl.a4a6623b15ec40f892ab37324a0f8289",
-      "title": "Рок 2000-х на русском: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/11/bb/ba/11bbba73-e214-cd77-e603-e8511fbb3f10/U0MtTVMtUlVTLTAwc19SdXNzaWFuX1JvY2tfRXNzZW50aWFscy1BREFNX0lEPTk5MTU5Mzk4Ni5wbmc.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%80%D0%BE%D0%BA-2000-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.a4a6623b15ec40f892ab37324a0f8289",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 25,
-      "id": "apple:pl.ea843ef3098747f9815a77adf164e1fc",
-      "provider": "apple-music",
-      "appleId": "pl.ea843ef3098747f9815a77adf164e1fc",
-      "title": "Альтернативная музыка 90-х: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/36/1c/1c/361c1c7a-b92f-dba8-99d2-422f6e81cd9c/af098bb5-e85f-4280-9566-739c3d3d8c46.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B0%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0-90-%D1%85-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.ea843ef3098747f9815a77adf164e1fc",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 26,
       "id": "apple:pl.a01da9f72c044c23b473973c744517e8",
       "provider": "apple-music",
       "appleId": "pl.a01da9f72c044c23b473973c744517e8",
@@ -400,13 +340,13 @@
       ]
     },
     {
-      "position": 27,
-      "id": "apple:pl.bed492442a53481f98e98c6c4da9e01d",
+      "position": 23,
+      "id": "apple:pl.f54198ad42404535be13eabf3835fb22",
       "provider": "apple-music",
-      "appleId": "pl.bed492442a53481f98e98c6c4da9e01d",
-      "title": "Эмбиент для расслабления",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/60/ec/10/60ec1074-dd02-eb74-5c81-6193180dd733/dca9e77b-9f0e-4b84-be17-ffa0d8f5b8a2.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%8D%D0%BC%D0%B1%D0%B8%D0%B5%D0%BD%D1%82-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D1%81%D1%81%D0%BB%D0%B0%D0%B1%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/pl.bed492442a53481f98e98c6c4da9e01d",
+      "appleId": "pl.f54198ad42404535be13eabf3835fb22",
+      "title": "BEATstrumentals",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/9f/84/eb/9f84eb27-41eb-87e2-72fa-4cce2381884d/U0MtTVMtV1ctQkVBVHN0cnVtZW50YWxzLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/beatstrumentals/pl.f54198ad42404535be13eabf3835fb22",
       "interests": [
         "popular"
       ],
@@ -415,112 +355,7 @@
       ]
     },
     {
-      "position": 28,
-      "id": "apple:pl.7f3a307b0f2e49b1b521b4d4d5c21c7c",
-      "provider": "apple-music",
-      "appleId": "pl.7f3a307b0f2e49b1b521b4d4d5c21c7c",
-      "title": "Альтернативная музыка 2000-х: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/8e/48/26/8e482602-e2a8-277c-ea7e-782828b228d3/520c5d73-4240-4c81-94a9-95e3dce3add4.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B0%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0-2000-%D1%85-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.7f3a307b0f2e49b1b521b4d4d5c21c7c",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 29,
-      "id": "apple:pl.3583ac20e5a6495389ab147b5850d05e",
-      "provider": "apple-music",
-      "appleId": "pl.3583ac20e5a6495389ab147b5850d05e",
-      "title": "Поп 2010-х на русском: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a6/76/c0/a676c05e-d93a-8a9f-2c9b-172409a05535/47c1a4b7-ada2-4697-acca-549912585ce7.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-2010-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.3583ac20e5a6495389ab147b5850d05e",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 30,
-      "id": "apple:pl.74c18e896cf540da9243a033772eb02e",
-      "provider": "apple-music",
-      "appleId": "pl.74c18e896cf540da9243a033772eb02e",
-      "title": "Поп 80-х на русском: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/41/b4/b9/41b4b93f-f82b-f274-7807-0ad7f0187ab9/U0MtTVMtUlUtODBzX1J1c3NpYW5fUG9wX0Vzc2VudGlhbHMtQURBTV9JRD05OTE1OTQwMDIucG5n.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-80-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.74c18e896cf540da9243a033772eb02e",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 31,
-      "id": "apple:pl.f0fb50c3c42a44e2973e86e8ff516107",
-      "provider": "apple-music",
-      "appleId": "pl.f0fb50c3c42a44e2973e86e8ff516107",
-      "title": "Синий Трактор: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/69/7b/9f/697b9f3b-2b26-3562-3849-6c679fac31b5/file_cropped.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%81%D0%B8%D0%BD%D0%B8%D0%B9-%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.f0fb50c3c42a44e2973e86e8ff516107",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 32,
-      "id": "apple:pl.5ee8333dbe944d9f9151e97d92d1ead9",
-      "provider": "apple-music",
-      "appleId": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
-      "title": "Поп: лучшие хиты",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/37/3a/5d/373a5dfa-dbfc-000e-8e97-bc256c326c1a/U0MtTVMtVUtSLUdlbmVyaWMtQUxQLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5-%D1%85%D0%B8%D1%82%D1%8B/pl.5ee8333dbe944d9f9151e97d92d1ead9",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 33,
-      "id": "apple:pl.ae85e1aedb714225a1b24481abac392e",
-      "provider": "apple-music",
-      "appleId": "pl.ae85e1aedb714225a1b24481abac392e",
-      "title": "Рок 90-х на русском: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/48/54/37/485437e8-2df7-366a-fe54-cffca51729e1/U0MtTVMtUlUtOTBzX1J1c3NpYW5fUm9ja19Fc3NlbnRpYWxzLUFEQU1fSUQ9OTkxNTkzOTEwLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%80%D0%BE%D0%BA-90-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.ae85e1aedb714225a1b24481abac392e",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 34,
-      "id": "apple:pl.8027364bd09e43438c77f99d465e72b9",
-      "provider": "apple-music",
-      "appleId": "pl.8027364bd09e43438c77f99d465e72b9",
-      "title": "Земфира: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/ed/62/d9/ed62d9db-91c9-0fa3-3835-c1ab2add2b13/a9cdca7b-326c-4ae7-b423-6a0f5b467ec3_ami-identity-dd851bd5eb5c397c24af40b15dc1111b-2024-03-22T08-25-07.797Z_cropped.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B7%D0%B5%D0%BC%D1%84%D0%B8%D1%80%D0%B0-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.8027364bd09e43438c77f99d465e72b9",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 35,
+      "position": 24,
       "id": "apple:pl.7525e7e5e04f44269ce48ae05d39d209",
       "provider": "apple-music",
       "appleId": "pl.7525e7e5e04f44269ce48ae05d39d209",
@@ -535,7 +370,97 @@
       ]
     },
     {
-      "position": 36,
+      "position": 25,
+      "id": "apple:pl.bed492442a53481f98e98c6c4da9e01d",
+      "provider": "apple-music",
+      "appleId": "pl.bed492442a53481f98e98c6c4da9e01d",
+      "title": "Эмбиент для расслабления",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/60/ec/10/60ec1074-dd02-eb74-5c81-6193180dd733/dca9e77b-9f0e-4b84-be17-ffa0d8f5b8a2.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%8D%D0%BC%D0%B1%D0%B8%D0%B5%D0%BD%D1%82-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D1%81%D1%81%D0%BB%D0%B0%D0%B1%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/pl.bed492442a53481f98e98c6c4da9e01d",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 26,
+      "id": "apple:pl.4e53636288dc49fa992807f889df172a",
+      "provider": "apple-music",
+      "appleId": "pl.4e53636288dc49fa992807f889df172a",
+      "title": "Король и Шут: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/2e/8e/74/2e8e74e5-b5d7-3161-71ba-c7792b6b1a2e/mzl.bskekpny.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%8C-%D0%B8-%D1%88%D1%83%D1%82-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.4e53636288dc49fa992807f889df172a",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 27,
+      "id": "apple:pl.a4a6623b15ec40f892ab37324a0f8289",
+      "provider": "apple-music",
+      "appleId": "pl.a4a6623b15ec40f892ab37324a0f8289",
+      "title": "Рок 2000-х на русском: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/11/bb/ba/11bbba73-e214-cd77-e603-e8511fbb3f10/U0MtTVMtUlVTLTAwc19SdXNzaWFuX1JvY2tfRXNzZW50aWFscy1BREFNX0lEPTk5MTU5Mzk4Ni5wbmc.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%80%D0%BE%D0%BA-2000-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.a4a6623b15ec40f892ab37324a0f8289",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 28,
+      "id": "apple:pl.74c18e896cf540da9243a033772eb02e",
+      "provider": "apple-music",
+      "appleId": "pl.74c18e896cf540da9243a033772eb02e",
+      "title": "Поп 80-х на русском: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/41/b4/b9/41b4b93f-f82b-f274-7807-0ad7f0187ab9/U0MtTVMtUlUtODBzX1J1c3NpYW5fUG9wX0Vzc2VudGlhbHMtQURBTV9JRD05OTE1OTQwMDIucG5n.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-80-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.74c18e896cf540da9243a033772eb02e",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 29,
+      "id": "apple:pl.7f3a307b0f2e49b1b521b4d4d5c21c7c",
+      "provider": "apple-music",
+      "appleId": "pl.7f3a307b0f2e49b1b521b4d4d5c21c7c",
+      "title": "Альтернативная музыка 2000-х: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/8e/48/26/8e482602-e2a8-277c-ea7e-782828b228d3/520c5d73-4240-4c81-94a9-95e3dce3add4.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B0%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0-2000-%D1%85-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.7f3a307b0f2e49b1b521b4d4d5c21c7c",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 30,
+      "id": "apple:pl.ea843ef3098747f9815a77adf164e1fc",
+      "provider": "apple-music",
+      "appleId": "pl.ea843ef3098747f9815a77adf164e1fc",
+      "title": "Альтернативная музыка 90-х: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/36/1c/1c/361c1c7a-b92f-dba8-99d2-422f6e81cd9c/af098bb5-e85f-4280-9566-739c3d3d8c46.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B0%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F-%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0-90-%D1%85-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.ea843ef3098747f9815a77adf164e1fc",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 31,
       "id": "apple:pl.6b1b5dfda067443481265436811002f1",
       "provider": "apple-music",
       "appleId": "pl.6b1b5dfda067443481265436811002f1",
@@ -550,13 +475,13 @@
       ]
     },
     {
-      "position": 37,
-      "id": "apple:pl.4a0dd541394f46c9995667992e2cbcb3",
+      "position": 32,
+      "id": "apple:pl.5a4bf230c2e849ffa65605c6e8067bea",
       "provider": "apple-music",
-      "appleId": "pl.4a0dd541394f46c9995667992e2cbcb3",
-      "title": "Шансон: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/66/c1/4c/66c14cb1-ce5e-e751-32c2-e72a24addf8b/98f75143-55e5-4415-a6ae-89d8bff0c678.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%88%D0%B0%D0%BD%D1%81%D0%BE%D0%BD-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.4a0dd541394f46c9995667992e2cbcb3",
+      "appleId": "pl.5a4bf230c2e849ffa65605c6e8067bea",
+      "title": "Эйфория бегуна",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/69/62/88/6962885f-3301-9476-528d-c0ad9225e085/27c2eebc-e877-4b7b-b907-d13538e4f11c.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%8D%D0%B9%D1%84%D0%BE%D1%80%D0%B8%D1%8F-%D0%B1%D0%B5%D0%B3%D1%83%D0%BD%D0%B0/pl.5a4bf230c2e849ffa65605c6e8067bea",
       "interests": [
         "popular"
       ],
@@ -565,52 +490,7 @@
       ]
     },
     {
-      "position": 38,
-      "id": "apple:pl.b5e8dbe8a706496496e1292466839207",
-      "provider": "apple-music",
-      "appleId": "pl.b5e8dbe8a706496496e1292466839207",
-      "title": "Акустический чилаут",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c5/51/38/c5513893-6092-3ab0-9a1d-e8e8001feeef/119b050f-feb9-472f-81ee-96fd6643fe9e.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B0%D0%BA%D1%83%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%87%D0%B8%D0%BB%D0%B0%D1%83%D1%82/pl.b5e8dbe8a706496496e1292466839207",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 39,
-      "id": "apple:pl.99612a113ef24bd4913d4132b384704d",
-      "provider": "apple-music",
-      "appleId": "pl.99612a113ef24bd4913d4132b384704d",
-      "title": "Лето в форме",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/43/62/14/43621461-d179-1cdd-8453-32d40e71441c/U0MtTVMtUlVTLVN1bW1lcl9GaXQtQURBTV9JRD0xNTEyMDE2MTUwLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BB%D0%B5%D1%82%D0%BE-%D0%B2-%D1%84%D0%BE%D1%80%D0%BC%D0%B5/pl.99612a113ef24bd4913d4132b384704d",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 40,
-      "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
-      "provider": "apple-music",
-      "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
-      "title": "Только концентрация",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/2e/18/70/2e18707d-af49-cc90-22e8-ebce919d19d1/U0MtTVMtUlVTLVB1cmVfRm9jdXMtQURBTV9JRD0xMTI0NTY3NTQxLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F/pl.dbd712beded846dca273d5d3259d28aa",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 41,
+      "position": 33,
       "id": "apple:pl.f616318252be4046a8b10c93c46f2178",
       "provider": "apple-music",
       "appleId": "pl.f616318252be4046a8b10c93c46f2178",
@@ -625,13 +505,13 @@
       ]
     },
     {
-      "position": 42,
-      "id": "apple:pl.e50ccee7318043eaaf8e8e28a2a55114",
+      "position": 34,
+      "id": "apple:pl.ae85e1aedb714225a1b24481abac392e",
       "provider": "apple-music",
-      "appleId": "pl.e50ccee7318043eaaf8e8e28a2a55114",
-      "title": "Хиты 2000-х: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/72/81/eb/7281eb4f-517c-7883-4bd8-ab3480feec90/588773c3-b010-4b15-a112-08f8c4c89d75.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%85%D0%B8%D1%82%D1%8B-2000-%D1%85-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.e50ccee7318043eaaf8e8e28a2a55114",
+      "appleId": "pl.ae85e1aedb714225a1b24481abac392e",
+      "title": "Рок 90-х на русском: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/48/54/37/485437e8-2df7-366a-fe54-cffca51729e1/U0MtTVMtUlUtOTBzX1J1c3NpYW5fUm9ja19Fc3NlbnRpYWxzLUFEQU1fSUQ9OTkxNTkzOTEwLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%80%D0%BE%D0%BA-90-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.ae85e1aedb714225a1b24481abac392e",
       "interests": [
         "popular"
       ],
@@ -640,13 +520,13 @@
       ]
     },
     {
-      "position": 43,
-      "id": "apple:pl.139b4ea405c1466cb6431908519eab37",
+      "position": 35,
+      "id": "apple:pl.f0fb50c3c42a44e2973e86e8ff516107",
       "provider": "apple-music",
-      "appleId": "pl.139b4ea405c1466cb6431908519eab37",
-      "title": "Только джаз",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/e2/8a/21/e28a21a6-18d5-6fe9-04de-3a872720f694/U0MtTVMtV1ctUHVyZV9KYXp6LUFEQU1fSUQ9MTQ1Mjk3NTI3Ny5wbmc.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B4%D0%B6%D0%B0%D0%B7/pl.139b4ea405c1466cb6431908519eab37",
+      "appleId": "pl.f0fb50c3c42a44e2973e86e8ff516107",
+      "title": "Синий Трактор: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/69/7b/9f/697b9f3b-2b26-3562-3849-6c679fac31b5/file_cropped.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%81%D0%B8%D0%BD%D0%B8%D0%B9-%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.f0fb50c3c42a44e2973e86e8ff516107",
       "interests": [
         "popular"
       ],
@@ -655,13 +535,13 @@
       ]
     },
     {
-      "position": 44,
-      "id": "apple:pl.764df3a81ac74382b4d6a8ad3b32e850",
+      "position": 36,
+      "id": "apple:pl.b5e8dbe8a706496496e1292466839207",
       "provider": "apple-music",
-      "appleId": "pl.764df3a81ac74382b4d6a8ad3b32e850",
-      "title": "Песни о любви на русском: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c5/63/13/c56313f1-35b4-81d1-2c31-7a090e3a9945/af965ea1-6060-45af-b174-a283d87979dc.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%B5%D1%81%D0%BD%D0%B8-%D0%BE-%D0%BB%D1%8E%D0%B1%D0%B2%D0%B8-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.764df3a81ac74382b4d6a8ad3b32e850",
+      "appleId": "pl.b5e8dbe8a706496496e1292466839207",
+      "title": "Акустический чилаут",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c5/51/38/c5513893-6092-3ab0-9a1d-e8e8001feeef/119b050f-feb9-472f-81ee-96fd6643fe9e.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B0%D0%BA%D1%83%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D1%87%D0%B8%D0%BB%D0%B0%D1%83%D1%82/pl.b5e8dbe8a706496496e1292466839207",
       "interests": [
         "popular"
       ],
@@ -670,13 +550,13 @@
       ]
     },
     {
-      "position": 45,
-      "id": "apple:pl.63271312c084419891982eab46cc68ac",
+      "position": 37,
+      "id": "apple:pl.99612a113ef24bd4913d4132b384704d",
       "provider": "apple-music",
-      "appleId": "pl.63271312c084419891982eab46cc68ac",
-      "title": "Успокаивающий джаз",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%83%D1%81%D0%BF%D0%BE%D0%BA%D0%B0%D0%B8%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-%D0%B4%D0%B6%D0%B0%D0%B7/pl.63271312c084419891982eab46cc68ac",
+      "appleId": "pl.99612a113ef24bd4913d4132b384704d",
+      "title": "Лето в форме",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/43/62/14/43621461-d179-1cdd-8453-32d40e71441c/U0MtTVMtUlVTLVN1bW1lcl9GaXQtQURBTV9JRD0xNTEyMDE2MTUwLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BB%D0%B5%D1%82%D0%BE-%D0%B2-%D1%84%D0%BE%D1%80%D0%BC%D0%B5/pl.99612a113ef24bd4913d4132b384704d",
       "interests": [
         "popular"
       ],
@@ -685,22 +565,7 @@
       ]
     },
     {
-      "position": 46,
-      "id": "apple:pl.6e7eb6c06bcd40ec982e24d6af0cd59a",
-      "provider": "apple-music",
-      "appleId": "pl.6e7eb6c06bcd40ec982e24d6af0cd59a",
-      "title": "Только йога",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/08/6f/f5/086ff5ab-301d-965a-d277-ae09099b3f94/aeec5988-99f2-4a56-a6be-33ee88ba2915.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B9%D0%BE%D0%B3%D0%B0/pl.6e7eb6c06bcd40ec982e24d6af0cd59a",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "RU"
-      ]
-    },
-    {
-      "position": 47,
+      "position": 38,
       "id": "apple:pl.978b9e3b4d6d4df58d00f3807cde1048",
       "provider": "apple-music",
       "appleId": "pl.978b9e3b4d6d4df58d00f3807cde1048",
@@ -715,13 +580,148 @@
       ]
     },
     {
-      "position": 48,
-      "id": "apple:pl.7a75d4e444fb4b3583ec9d48a2b0eef6",
+      "position": 39,
+      "id": "apple:pl.4a0dd541394f46c9995667992e2cbcb3",
       "provider": "apple-music",
-      "appleId": "pl.7a75d4e444fb4b3583ec9d48a2b0eef6",
-      "title": "Драм-н-бэйс",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/a8/f4/0f/a8f40fc5-3f8f-068a-ede7-a6e71482886d/U0MtTVMtV1ctRHJ1bV9fX0Jhc3NfMjAyMC1BREFNX0lEPTExMDMzMTc1NzUucG5n.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B4%D1%80%D0%B0%D0%BC-%D0%BD-%D0%B1%D1%8D%D0%B9%D1%81/pl.7a75d4e444fb4b3583ec9d48a2b0eef6",
+      "appleId": "pl.4a0dd541394f46c9995667992e2cbcb3",
+      "title": "Шансон: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/66/c1/4c/66c14cb1-ce5e-e751-32c2-e72a24addf8b/98f75143-55e5-4415-a6ae-89d8bff0c678.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%88%D0%B0%D0%BD%D1%81%D0%BE%D0%BD-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.4a0dd541394f46c9995667992e2cbcb3",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 40,
+      "id": "apple:pl.4454ba04011b4b08a0695cd086f9c8b8",
+      "provider": "apple-music",
+      "appleId": "pl.4454ba04011b4b08a0695cd086f9c8b8",
+      "title": "Только бег",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/e3/98/8f/e3988f16-a4cb-959b-ac2c-673a3e4bb64e/af9e664e-2dbd-47d4-99f4-72e19e0873f8.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B1%D0%B5%D0%B3/pl.4454ba04011b4b08a0695cd086f9c8b8",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 41,
+      "id": "apple:pl.8027364bd09e43438c77f99d465e72b9",
+      "provider": "apple-music",
+      "appleId": "pl.8027364bd09e43438c77f99d465e72b9",
+      "title": "Земфира: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/ed/62/d9/ed62d9db-91c9-0fa3-3835-c1ab2add2b13/a9cdca7b-326c-4ae7-b423-6a0f5b467ec3_ami-identity-dd851bd5eb5c397c24af40b15dc1111b-2024-03-22T08-25-07.797Z_cropped.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B7%D0%B5%D0%BC%D1%84%D0%B8%D1%80%D0%B0-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.8027364bd09e43438c77f99d465e72b9",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 42,
+      "id": "apple:pl.5ee8333dbe944d9f9151e97d92d1ead9",
+      "provider": "apple-music",
+      "appleId": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
+      "title": "Поп: лучшие хиты",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/37/3a/5d/373a5dfa-dbfc-000e-8e97-bc256c326c1a/U0MtTVMtVUtSLUdlbmVyaWMtQUxQLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5-%D1%85%D0%B8%D1%82%D1%8B/pl.5ee8333dbe944d9f9151e97d92d1ead9",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 43,
+      "id": "apple:pl.63696b0b53a24734a0f1f34c92ccd5c4",
+      "provider": "apple-music",
+      "appleId": "pl.63696b0b53a24734a0f1f34c92ccd5c4",
+      "title": "Вольфганг Амадей Моцарт: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/12/58/7d/12587dec-089f-049e-f6d0-c00f9597f4ab/mza_2526353882289973203.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B2%D0%BE%D0%BB%D1%8C%D1%84%D0%B3%D0%B0%D0%BD%D0%B3-%D0%B0%D0%BC%D0%B0%D0%B4%D0%B5%D0%B9-%D0%BC%D0%BE%D1%86%D0%B0%D1%80%D1%82-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.63696b0b53a24734a0f1f34c92ccd5c4",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 44,
+      "id": "apple:pl.7b8115712a5d414483b242946f37a3d8",
+      "provider": "apple-music",
+      "appleId": "pl.7b8115712a5d414483b242946f37a3d8",
+      "title": "Бит будущего",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/59/12/d9/5912d99a-6c3c-dcbb-2222-f9ba7c201560/U0MtTVMtV1ctRnV0dXJlX0JlYXRzLnBuZw.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%B1%D0%B8%D1%82-%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B3%D0%BE/pl.7b8115712a5d414483b242946f37a3d8",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 45,
+      "id": "apple:pl.3583ac20e5a6495389ab147b5850d05e",
+      "provider": "apple-music",
+      "appleId": "pl.3583ac20e5a6495389ab147b5850d05e",
+      "title": "Поп 2010-х на русском: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a6/76/c0/a676c05e-d93a-8a9f-2c9b-172409a05535/47c1a4b7-ada2-4697-acca-549912585ce7.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-2010-%D1%85-%D0%BD%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.3583ac20e5a6495389ab147b5850d05e",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 46,
+      "id": "apple:pl.e33abdab5c3a4b65bc32f635a281e668",
+      "provider": "apple-music",
+      "appleId": "pl.e33abdab5c3a4b65bc32f635a281e668",
+      "title": "Поп-карамель",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/cc/6a/d5/cc6ad5e7-03a6-f7dc-fabc-a7d71e6c90e0/U0MtTVMtV1ctUG9wX0NhcmFtZWwtQURBTV9JRD0xMzY4NDQxMzA3LnBuZw.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%BE%D0%BF-%D0%BA%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D0%BB%D1%8C/pl.e33abdab5c3a4b65bc32f635a281e668",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 47,
+      "id": "apple:pl.99e8d19470de40d98e226ec241d6afc9",
+      "provider": "apple-music",
+      "appleId": "pl.99e8d19470de40d98e226ec241d6afc9",
+      "title": "Новый дип",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dd/72/b3/dd72b312-7483-7060-7675-6de8c0b510ef/U0MtTVMtV1ctRGVlcF9Ib3VzZV9IYXZlbi1BZGFtX0lEPTE1MjMyNTA5MjYucG5n.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B4%D0%B8%D0%BF/pl.99e8d19470de40d98e226ec241d6afc9",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "RU"
+      ]
+    },
+    {
+      "position": 48,
+      "id": "apple:pl.6e7eb6c06bcd40ec982e24d6af0cd59a",
+      "provider": "apple-music",
+      "appleId": "pl.6e7eb6c06bcd40ec982e24d6af0cd59a",
+      "title": "Только йога",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/08/6f/f5/086ff5ab-301d-965a-d277-ae09099b3f94/aeec5988-99f2-4a56-a6be-33ee88ba2915.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B9%D0%BE%D0%B3%D0%B0/pl.6e7eb6c06bcd40ec982e24d6af0cd59a",
       "interests": [
         "popular"
       ],
@@ -731,12 +731,12 @@
     },
     {
       "position": 49,
-      "id": "apple:pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
+      "id": "apple:pl.1a7fd42205674dd282d106f533f4bea6",
       "provider": "apple-music",
-      "appleId": "pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
-      "title": "LINKIN PARK: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/ba/91/04/ba91045f-f613-c7a2-e1da-3195779b40a0/ami-identity-640bb7a837fee9170cc487c37709e42e-2026-03-08T16-34-26.425Z_cropped.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/linkin-park-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
+      "appleId": "pl.1a7fd42205674dd282d106f533f4bea6",
+      "title": "Классика рока: главное",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/7d/31/3e/7d313ee2-90f2-70df-ebcf-a4803e850406/d2563681-80cf-496a-a6f2-e95686e1197a.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0-%D1%80%D0%BE%D0%BA%D0%B0-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.1a7fd42205674dd282d106f533f4bea6",
       "interests": [
         "popular"
       ],
@@ -746,12 +746,12 @@
     },
     {
       "position": 50,
-      "id": "apple:pl.639211d3b7d24cbe8f0d865e4e7635c1",
+      "id": "apple:pl.139b4ea405c1466cb6431908519eab37",
       "provider": "apple-music",
-      "appleId": "pl.639211d3b7d24cbe8f0d865e4e7635c1",
-      "title": "Песни из советского кино: главное",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/99/26/21/99262143-a1bd-f469-ccbc-48bee103e387/ec13af86-8c25-4513-b640-fdc5bd398064.png/1200x1200bb.jpg?l=ru-RU",
-      "appleUrl": "https://music.apple.com/ru/playlist/%D0%BF%D0%B5%D1%81%D0%BD%D0%B8-%D0%B8%D0%B7-%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BA%D0%B8%D0%BD%D0%BE-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5/pl.639211d3b7d24cbe8f0d865e4e7635c1",
+      "appleId": "pl.139b4ea405c1466cb6431908519eab37",
+      "title": "Только джаз",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/e2/8a/21/e28a21a6-18d5-6fe9-04de-3a872720f694/U0MtTVMtV1ctUHVyZV9KYXp6LUFEQU1fSUQ9MTQ1Mjk3NTI3Ny5wbmc.png/1200x1200bb.jpg?l=ru-RU",
+      "appleUrl": "https://music.apple.com/ru/playlist/%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B4%D0%B6%D0%B0%D0%B7/pl.139b4ea405c1466cb6431908519eab37",
       "interests": [
         "popular"
       ],

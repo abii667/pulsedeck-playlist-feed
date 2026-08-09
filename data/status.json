@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T07:16:38.553Z",
+  "generatedAt": "2026-08-09T14:12:22.475Z",
   "ok": false,
   "playlists": [
     {
@@ -35,13 +35,9 @@
     },
     {
       "slug": "baila-reggaeton",
-      "ok": true,
-      "stale": false,
-      "fetchMode": "public",
-      "contentMode": "embed",
-      "tracksAvailable": true,
-      "snapshotId": "public:46a24373edd178ae520f69b4222fd6c257a0fbe1",
-      "trackCount": 52
+      "ok": false,
+      "stale": true,
+      "error": "baila-reggaeton returned no tracks"
     },
     {
       "slug": "rock-classics",
@@ -105,33 +101,21 @@
     },
     {
       "slug": "all-out-2000s",
-      "ok": true,
-      "stale": false,
-      "fetchMode": "public",
-      "contentMode": "embed",
-      "tracksAvailable": true,
-      "snapshotId": "public:0ed24553051239fc165c6b2526b45c1d2a17a567",
-      "trackCount": 100
+      "ok": false,
+      "stale": true,
+      "error": "all-out-2000s returned no tracks"
     },
     {
       "slug": "chill-hits",
-      "ok": true,
-      "stale": false,
-      "fetchMode": "public",
-      "contentMode": "embed",
-      "tracksAvailable": true,
-      "snapshotId": "public:7d94cc28f7eab41359d483816ae44d67292bd087",
-      "trackCount": 100
+      "ok": false,
+      "stale": true,
+      "error": "chill-hits returned no tracks"
     },
     {
       "slug": "peaceful-piano",
-      "ok": true,
-      "stale": false,
-      "fetchMode": "public",
-      "contentMode": "embed",
-      "tracksAvailable": true,
-      "snapshotId": "public:872cf2c72b9c7e46e931ccbd309474cc8087dc59",
-      "trackCount": 100
+      "ok": false,
+      "stale": true,
+      "error": "peaceful-piano returned no tracks"
     },
     {
       "slug": "deep-focus",
@@ -250,7 +234,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:be83a7bc2717b097a4bd7ef2ff5579e43550ca1e",
+      "snapshotId": "public:a6fb74f121510ac49d5b871c7022920990ede3ce",
       "trackCount": 50
     },
     {
@@ -305,13 +289,9 @@
     },
     {
       "slug": "ethiopian-gospel",
-      "ok": true,
-      "stale": false,
-      "fetchMode": "public",
-      "contentMode": "embed",
-      "tracksAvailable": true,
-      "snapshotId": "public:827cf0c55c99682530b4240728ad9435b6bb904b",
-      "trackCount": 100
+      "ok": false,
+      "stale": true,
+      "error": "ethiopian-gospel is missing cover art"
     },
     {
       "slug": "ethiopian-protestant-mezmur",
@@ -355,13 +335,9 @@
     },
     {
       "slug": "all-time-ethiopian-essentials",
-      "ok": true,
-      "stale": false,
-      "fetchMode": "public",
-      "contentMode": "embed",
-      "tracksAvailable": true,
-      "snapshotId": "public:12d24d2d398afb1fefb06c9c2651b5ebb65c66c0",
-      "trackCount": 100
+      "ok": false,
+      "stale": true,
+      "error": "all-time-ethiopian-essentials is missing cover art"
     },
     {
       "slug": "classic-ethiopian-old-songs",
@@ -375,13 +351,9 @@
     },
     {
       "slug": "ethiopian-jazz",
-      "ok": true,
-      "stale": false,
-      "fetchMode": "public",
-      "contentMode": "embed",
-      "tracksAvailable": true,
-      "snapshotId": "public:8307e1190afdc21d7ece73e9d80cdad1eb7edb48",
-      "trackCount": 40
+      "ok": false,
+      "stale": true,
+      "error": "ethiopian-jazz returned no tracks"
     },
     {
       "slug": "best-oromo-songs",
@@ -430,7 +402,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:c830c7e00027df19fe785409143b994099f6c8e1",
+      "snapshotId": "public:7a52428b41a77cee0bb89dac5a4f7544e416e8fb",
       "trackCount": 28
     },
     {
@@ -485,13 +457,9 @@
     },
     {
       "slug": "k-pop-on",
-      "ok": true,
-      "stale": false,
-      "fetchMode": "public",
-      "contentMode": "embed",
-      "tracksAvailable": true,
-      "snapshotId": "public:1c76af1c397a28c7cac5679ff5faf1220a13ff15",
-      "trackCount": 50
+      "ok": false,
+      "stale": true,
+      "error": "k-pop-on is missing cover art"
     },
     {
       "slug": "j-pop-hits",
@@ -502,6 +470,46 @@
       "tracksAvailable": true,
       "snapshotId": "public:de3fb4ad7ff10b4f815189308d26fec8d7169a41",
       "trackCount": 100
+    },
+    {
+      "slug": "puerto-rico-top-50",
+      "ok": true,
+      "stale": false,
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "snapshotId": "public:c17bfbf734ce14b3d450ea0336ab6eebc6e458d0",
+      "trackCount": 60
+    },
+    {
+      "slug": "puerto-rico-top-hits",
+      "ok": true,
+      "stale": false,
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "snapshotId": "public:13945ac9935be75c30bd37e7790ca4c49efa734a",
+      "trackCount": 100
+    },
+    {
+      "slug": "pakistan-top-songs",
+      "ok": true,
+      "stale": false,
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "snapshotId": "public:0bd7d494aaf7c9563ac94d3c87b60b9fd53c81ea",
+      "trackCount": 87
+    },
+    {
+      "slug": "pakistan-trending",
+      "ok": true,
+      "stale": false,
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "snapshotId": "public:6c19159f9ac2f97d1cb4de8685fa9fa2839a3573",
+      "trackCount": 88
     }
   ],
   "youtube": [
@@ -1870,6 +1878,521 @@
       "ok": true,
       "stale": false,
       "playlistCount": 50
+    }
+  ],
+  "appleCountryCharts": [
+    {
+      "region": "US",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "GB",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "KR",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "CA",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "DE",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "FR",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "PR",
+      "ok": true,
+      "status": "curated",
+      "provider": "pulsedeck-curated",
+      "available": true,
+      "official": false,
+      "stale": false,
+      "trackCount": 100,
+      "error": "JSON fetch failed: 500 <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    },
+    {
+      "region": "BR",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "AU",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "SE",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "MX",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "IN",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "CO",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "ES",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "NG",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "JP",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "NO",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "NL",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "AR",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "JM",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "ZA",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "IT",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "DO",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "IE",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "NZ",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "BE",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "DK",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "PH",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "TH",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "ID",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "TR",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "CL",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "RO",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "FI",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "CN",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "PT",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "PL",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "GH",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "MA",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "EG",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "UA",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "CH",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "PK",
+      "ok": true,
+      "status": "curated",
+      "provider": "pulsedeck-curated",
+      "available": true,
+      "official": false,
+      "stale": false,
+      "trackCount": 100,
+      "error": "PK returned 0 chart songs"
+    },
+    {
+      "region": "AT",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "CD",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "DZ",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "KE",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "TZ",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "PE",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "VE",
+      "ok": true,
+      "status": "fresh",
+      "provider": "apple-music",
+      "available": true,
+      "official": true,
+      "stale": false,
+      "trackCount": 100
+    },
+    {
+      "region": "ET",
+      "ok": true,
+      "status": "curated",
+      "provider": "pulsedeck-curated",
+      "available": true,
+      "official": false,
+      "stale": false,
+      "trackCount": 100,
+      "error": "JSON fetch failed: 500 <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
     }
   ]
 }
