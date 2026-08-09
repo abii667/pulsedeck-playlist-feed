@@ -20,6 +20,8 @@ It runs without credentials or developer APIs, using public playlist pages and f
 - `data/podcasts/genres/{genre}.json` contains the current public Apple chart for that genre.
 - `data/apple-regional/index.json` lists the supported Apple Music regional playlist charts.
 - `data/apple-regional/{country}.json` contains lightweight Apple Music playlist cards for one country.
+- `data/apple-country-charts/index.json` lists the selected Apple Music Top 100 country charts and their availability.
+- `data/apple-country-charts/{country}.json` contains up to 100 ranked songs, or an explicit unavailable state.
 - `data/changes/latest.json` shows the latest added/removed tracks.
 - `data/announcements.json` is the app inbox written by the trusted publishing bot.
 
@@ -41,6 +43,8 @@ Spotify source entries keep the legacy `category` field and add two arrays:
 `interests` uses stable lowercase kebab-case identifiers. `regions` contains ISO 3166-1 alpha-2 country codes or `GLOBAL`. Region describes editorial relevance, not playback licensing.
 
 YouTube and Apple regional cards use the same `interests` and `regions` fields. Provider records remain separate, and detail files are loaded only when needed.
+
+Country-chart details expose `status` (`fresh`, `curated`, `stale`, or `unavailable`), `available`, `stale`, and `checkedAt`. A provider failure retains a previously valid chart as stale; when Apple has no storefront chart, the country file is rebuilt from matching region-tagged local playlists and clearly marked `pulsedeck-curated`. A country with neither source writes an explicit unavailable record so validation can block an incomplete publish with a precise error.
 
 YouTube details include `contentComplete` and `contentTruncated`. Public HTML supplies a useful initial metadata batch plus the full official playlist link. A richer previous result is never replaced by a shorter public-page result; retained data is marked stale until a full public refresh succeeds.
 

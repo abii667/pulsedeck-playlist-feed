@@ -1,6 +1,9 @@
 import { readFile } from "node:fs/promises";
 
 const EXPECTED_APPLE_REGION_COUNT = 156;
+const APPLE_COUNTRY_CHART_CODES = (
+  "US GB KR CA DE FR PR BR AU SE MX IN CO ES NG JP NO NL AR JM ZA IT DO IE NZ BE DK PH TH ID TR CL RO FI CN PT PL GH MA EG UA CH PK AT CD DZ KE TZ PE VE ET"
+).split(" ");
 const isIsoDate = (value) =>
   typeof value === "string" &&
   /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(value) &&
@@ -42,6 +45,9 @@ if (!index.sections.some((section) => section.source === "data/youtube/index.jso
 }
 if (!index.sections.some((section) => section.source === "data/podcasts/index.json")) {
   throw new Error("Expected a podcast feed section.");
+}
+if (!index.sections.some((section) => section.source === "data/apple-country-charts/index.json")) {
+  throw new Error("Expected an Apple country-chart section.");
 }
 for (const playlist of index.playlists) {
   const source = sourcesBySlug.get(playlist.slug);
@@ -379,6 +385,91 @@ if (regionalPlaylistCount !== regionalIndex.playlistCount) {
   throw new Error("Apple regional playlist count does not match its index.");
 }
 
+const countryChartIndex = JSON.parse(await readFile("data/apple-country-charts/index.json", "utf8"));
+if (
+  JSON.stringify(countryChartIndex.providers) !== JSON.stringify(["apple-music", "pulsedeck-curated"]) ||
+  countryChartIndex.chart !== "country-top-songs" ||
+  !isIsoDate(countryChartIndex.generatedAt) ||
+  countryChartIndex.regionCount !== APPLE_COUNTRY_CHART_CODES.length ||
+  JSON.stringify(countryChartIndex.regions?.map((region) => region.code)) !== JSON.stringify(APPLE_COUNTRY_CHART_CODES)
+) {
+  throw new Error("Apple country-chart index is incomplete.");
+}
+let countryChartTrackCount = 0;
+let availableCountryChartCount = 0;
+let staleCountryChartCount = 0;
+let officialCountryChartCount = 0;
+let curatedCountryChartCount = 0;
+for (const region of countryChartIndex.regions) {
+  const detail = JSON.parse(await readFile(region.source, "utf8"));
+  const expectedStatus = !detail.available
+    ? "unavailable"
+    : detail.stale
+      ? "stale"
+      : detail.provider === "pulsedeck-curated" ? "curated" : "fresh";
+  if (
+    !["apple-music", "pulsedeck-curated"].includes(detail.provider) ||
+    detail.chart !== "country-top-songs" ||
+    detail.region !== region.code ||
+    detail.regionName !== region.name ||
+    detail.country !== region.code ||
+    detail.countryName !== region.name ||
+    detail.status !== expectedStatus ||
+    region.status !== expectedStatus ||
+    region.provider !== detail.provider ||
+    region.available !== detail.available ||
+    region.official !== detail.official ||
+    region.stale !== detail.stale ||
+    region.trackCount !== detail.trackCount ||
+    region.updatedAt !== detail.updatedAt ||
+    region.checkedAt !== detail.checkedAt ||
+    detail.trackCount !== detail.tracks?.length ||
+    !isIsoDate(detail.checkedAt)
+  ) {
+    throw new Error(`${region.code} has mismatched Apple country-chart metadata.`);
+  }
+  if (!detail.available) {
+    throw new Error(`${region.code} has no official or curated country chart.`);
+  }
+  if (detail.trackCount < 10 || !isIsoDate(detail.updatedAt)) {
+    throw new Error(`${region.code} has too few Apple country-chart tracks.`);
+  }
+  for (const [trackIndex, track] of detail.tracks.entries()) {
+    if (
+      track.position !== trackIndex + 1 ||
+      track.provider !== detail.provider ||
+      !track.title ||
+      !track.artist ||
+      typeof track.albumTitle !== "string" ||
+      !isHttpsUrl(track.coverImage) ||
+      track.country !== region.code ||
+      JSON.stringify(track.regions) !== JSON.stringify([region.code])
+    ) {
+      throw new Error(`${region.code} has an incomplete Apple country-chart track.`);
+    }
+    if (detail.provider === "apple-music" && (!track.appleId || !isHttpsUrl(track.appleUrl))) {
+      throw new Error(`${region.code} has an incomplete official Apple country-chart track.`);
+    }
+    if (detail.provider === "pulsedeck-curated" && (!isHttpsUrl(track.sourceUrl) || !track.sourcePlaylistCount)) {
+      throw new Error(`${region.code} has an incomplete PulseDeck-curated country-chart track.`);
+    }
+  }
+  availableCountryChartCount += 1;
+  staleCountryChartCount += Number(detail.stale);
+  officialCountryChartCount += Number(detail.official);
+  curatedCountryChartCount += Number(detail.status === "curated");
+  countryChartTrackCount += detail.trackCount;
+}
+if (
+  countryChartIndex.availableRegionCount !== availableCountryChartCount ||
+  countryChartIndex.officialRegionCount !== officialCountryChartCount ||
+  countryChartIndex.curatedRegionCount !== curatedCountryChartCount ||
+  countryChartIndex.staleRegionCount !== staleCountryChartCount ||
+  countryChartIndex.trackCount !== countryChartTrackCount
+) {
+  throw new Error("Apple country-chart counts do not match its index.");
+}
+
 const buildStatus = JSON.parse(await readFile("data/status.json", "utf8"));
 const statusItems = [
   ...(buildStatus.playlists || []),
@@ -387,7 +478,8 @@ const statusItems = [
   ...(buildStatus.appleHero || []),
   ...(buildStatus.appleEditorial || []),
   buildStatus.trendingAlbums,
-  ...(buildStatus.appleRegional || [])
+  ...(buildStatus.appleRegional || []),
+  ...(buildStatus.appleCountryCharts || [])
 ].filter(Boolean);
 if (
   buildStatus.playlists?.length !== sources.length ||
@@ -396,6 +488,7 @@ if (
   buildStatus.appleHero?.length !== heroIndex.playlistCount ||
   buildStatus.appleEditorial?.length !== editorialIndex.shelfCount ||
   buildStatus.appleRegional?.length !== regionalIndex.regionCount ||
+  buildStatus.appleCountryCharts?.length !== countryChartIndex.regionCount ||
   !buildStatus.trendingAlbums
 ) {
   throw new Error("Feed status is missing a generated feed.");

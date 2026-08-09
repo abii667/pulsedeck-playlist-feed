@@ -2,6 +2,14 @@ name: Build playlist feed
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/build-feed.yml"
+      - "scripts/**"
+      - "sources/**"
+      - "package.json"
+      - "package-lock.json"
   schedule:
     - cron: "17 6 * * *"
 

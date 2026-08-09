@@ -20,6 +20,7 @@ const CHANGES_DIR = path.join(DATA_DIR, "changes");
 const APPLE_HERO_DIR = path.join(DATA_DIR, "apple-heroes");
 const APPLE_EDITORIAL_DIR = path.join(DATA_DIR, "apple-editorial");
 const APPLE_REGIONAL_DIR = path.join(DATA_DIR, "apple-regional");
+const APPLE_COUNTRY_CHART_DIR = path.join(DATA_DIR, "apple-country-charts");
 const MARKET = process.env.SPOTIFY_MARKET || "US";
 const PODCAST_MARKET = (process.env.PODCAST_MARKET || "US").toUpperCase();
 const PODCAST_CHART_LIMIT = 50;
@@ -40,6 +41,9 @@ const APPLE_REGIONAL_MARKETS = [
   "KZ", "KG", "TJ", "TM", "UZ", "AM", "AZ", "GE", "MN", "CN", "HK", "TW", "MO",
   "NZ", "FJ"
 ].map((code) => ({ code, name: APPLE_REGION_NAMES.of(code) }));
+const APPLE_COUNTRY_CHART_MARKETS = (
+  "US GB KR CA DE FR PR BR AU SE MX IN CO ES NG JP NO NL AR JM ZA IT DO IE NZ BE DK PH TH ID TR CL RO FI CN PT PL GH MA EG UA CH PK AT CD DZ KE TZ PE VE ET"
+).split(" ").map((code) => ({ code, name: APPLE_REGION_NAMES.of(code) }));
 const APPLE_INTEREST_RULES = [
   ["ethiopian-orthodox", /\bethiopian orthodox\b|\btewahedo\b|\bkidase\b/],
   ["gospel", /\bgospel\b|\bworship\b|\bchristian\b/],
@@ -136,14 +140,23 @@ validatePodcastSources(podcastSources, podcastGenres);
 validatePodcastGenres(podcastGenres);
 validateInterestInference();
 validateAppleRegionalMarkets();
+validateAppleCountryChartMarkets();
 validateYouTubeParser();
 validatePodcastParser();
 
 if (args.has("--validate")) {
+  const etPlaylists = (await Promise.all(
+    sources.filter((source) => source.regions.includes("ET"))
+      .map((source) => readJson(path.join(PLAYLIST_DIR, `${source.slug}.json`)))
+  )).filter(Boolean);
+  const etChart = buildPulseDeckCuratedCountryTracks("ET", etPlaylists);
+  assert(etChart.length === 100, "PulseDeck Ethiopia fallback did not produce a Top 100");
+  assert(etChart.every((track) => track.artist && track.coverImage && track.sourceUrl), "Invalid Ethiopia fallback track");
   console.log(
     `Validated ${sources.length} Spotify, ${youtubeSources.length} YouTube, ${podcastSources.length} podcast feeds, ` +
     `${podcastGenres.length} podcast genres, ` +
-    `and ${APPLE_REGIONAL_MARKETS.length} Apple market sources.`
+    `${APPLE_REGIONAL_MARKETS.length} Apple playlist markets, and ` +
+    `${APPLE_COUNTRY_CHART_MARKETS.length} Apple country charts.`
   );
   process.exit(0);
 }
@@ -162,6 +175,7 @@ await mkdir(CHANGES_DIR, { recursive: true });
 await mkdir(APPLE_HERO_DIR, { recursive: true });
 await mkdir(APPLE_EDITORIAL_DIR, { recursive: true });
 await mkdir(APPLE_REGIONAL_DIR, { recursive: true });
+await mkdir(APPLE_COUNTRY_CHART_DIR, { recursive: true });
 
 for (const source of sources) {
   const file = path.join(PLAYLIST_DIR, `${source.slug}.json`);
@@ -255,6 +269,7 @@ const trendingAlbumsResult = await buildTrendingAlbumsFeed();
 const trendingAlbums = trendingAlbumsResult.data;
 const appleEditorialIndex = await buildAppleEditorialFeeds(generatedAt);
 const appleRegional = await buildAppleRegionalFeeds(generatedAt);
+const appleCountryCharts = await buildAppleCountryChartFeeds(generatedAt);
 const appleHeroStatus = appleHeroIndex.playlists.map((playlist) => ({
   slug: playlist.slug,
   ok: !playlist.stale,
@@ -275,7 +290,8 @@ const availableInterests = [...new Set([
 const availableRegions = [...new Set([
   ...sources.flatMap((source) => source.regions),
   ...youtubeSources.flatMap((source) => source.regions),
-  ...appleRegional.index.regions.map((region) => region.code)
+  ...appleRegional.index.regions.map((region) => region.code),
+  ...appleCountryCharts.index.regions.map((region) => region.code)
 ])].sort();
 
 await writeJson(path.join(DATA_DIR, "index.json"), {
@@ -320,6 +336,14 @@ await writeJson(path.join(DATA_DIR, "index.json"), {
       updatedAt: shelf.updatedAt
     })),
     {
+      slug: "apple-country-charts",
+      title: "Top 100 by Country",
+      subtitle: "Apple Music most-played songs across selected countries",
+      source: "data/apple-country-charts/index.json",
+      itemCount: appleCountryCharts.index.trackCount,
+      updatedAt: appleCountryCharts.index.generatedAt
+    },
+    {
       slug: "apple-regional-playlists",
       title: "Regional Playlists",
       subtitle: "Apple Music playlist charts across supported regions",
@@ -359,14 +383,16 @@ await writeJson(path.join(DATA_DIR, "status.json"), {
     appleHeroStatus.every((item) => item.ok) &&
     appleEditorialStatus.every((item) => item.ok) &&
     trendingAlbumsResult.status.ok &&
-    appleRegional.status.every((item) => item.ok),
+    appleRegional.status.every((item) => item.ok) &&
+    appleCountryCharts.status.every((item) => item.ok),
   playlists: status,
   youtube: youtube.status,
   podcasts: podcasts.status,
   appleHero: appleHeroStatus,
   appleEditorial: appleEditorialStatus,
   trendingAlbums: trendingAlbumsResult.status,
-  appleRegional: appleRegional.status
+  appleRegional: appleRegional.status,
+  appleCountryCharts: appleCountryCharts.status
 });
 
 if (
@@ -382,7 +408,8 @@ console.log(
   `Wrote ${playlists.length} Spotify playlists, ${youtube.index.playlistCount} YouTube playlists, ` +
   `${podcasts.index.showCount} playable podcast feeds plus ${podcasts.index.chartShowPlacementCount} chart placements ` +
   `across ${podcasts.index.genreCount} genres, and ` +
-  `${appleRegional.index.playlistCount} Apple placements across ${appleRegional.index.regionCount} markets to data/.`
+  `${appleRegional.index.playlistCount} Apple playlist placements plus ` +
+  `${appleCountryCharts.index.trackCount} country-chart placements to data/.`
 );
 
 async function buildTrendingAlbumsFeed() {
@@ -509,6 +536,260 @@ async function buildAppleRegionalFeeds(generatedAt) {
   };
   await writeJson(path.join(APPLE_REGIONAL_DIR, "index.json"), index);
   return { index, status, failedWithoutFallback };
+}
+
+async function buildAppleCountryChartFeeds(generatedAt) {
+  const regions = [];
+  const status = [];
+  let trackCount = 0;
+
+  for (const market of APPLE_COUNTRY_CHART_MARKETS) {
+    const file = path.join(APPLE_COUNTRY_CHART_DIR, `${market.code.toLowerCase()}.json`);
+    const previous = await readJson(file);
+    const sourceUrl =
+      `https://rss.marketingtools.apple.com/api/v2/${market.code.toLowerCase()}/music/most-played/100/songs.json`;
+    let detail;
+
+    try {
+      const feed = await fetchJson(sourceUrl);
+      const results = feed.feed?.results || [];
+      if (results.length < 10) throw new Error(`${market.code} returned ${results.length} chart songs`);
+      const tracks = results.slice(0, 100).map((item, index) => {
+        const coverImage = appleHighResolutionArtworkUrl(item.artworkUrl100);
+        assert(
+          item.id && item.name && item.artistName && coverImage && item.url,
+          `${market.code} returned an incomplete song at position ${index + 1}`
+        );
+        return {
+          position: index + 1,
+          id: `apple:${item.id}`,
+          provider: "apple-music",
+          appleId: item.id,
+          title: item.name,
+          artist: item.artistName,
+          artistNames: [item.artistName],
+          albumTitle: item.collectionName || item.albumName || "",
+          releaseDate: item.releaseDate || null,
+          coverImage,
+          appleUrl: item.url,
+          sourceUrl: item.url,
+          explicit: item.contentAdvisoryRating === "Explicit",
+          genres: (item.genres || []).map((genre) => genre.name).filter(Boolean),
+          country: market.code,
+          regions: [market.code]
+        };
+      });
+      detail = {
+        schemaVersion: 1,
+        provider: "apple-music",
+        chart: "country-top-songs",
+        region: market.code,
+        regionName: market.name,
+        country: market.code,
+        countryName: market.name,
+        sourceUrl,
+        updatedAt: toIsoDateOrFallback(feed.feed?.updated, generatedAt),
+        checkedAt: generatedAt,
+        status: "fresh",
+        available: true,
+        official: true,
+        stale: false,
+        error: null,
+        providerError: null,
+        trackCount: tracks.length,
+        tracks
+      };
+      status.push({
+        region: market.code,
+        ok: true,
+        status: "fresh",
+        provider: "apple-music",
+        available: true,
+        official: true,
+        stale: false,
+        trackCount: tracks.length
+      });
+    } catch (error) {
+      const previousIsValid =
+        ["apple-music", "pulsedeck-curated"].includes(previous?.provider) &&
+        previous?.chart === "country-top-songs" &&
+        previous?.region === market.code &&
+        previous?.available === true &&
+        previous?.trackCount > 0 &&
+        previous.trackCount === previous.tracks?.length;
+      if (previousIsValid && previous.official) {
+        detail = {
+          ...previous,
+          checkedAt: generatedAt,
+          status: "stale",
+          stale: true,
+          error: error.message,
+          providerError: error.message
+        };
+      } else {
+        const tracks = buildPulseDeckCuratedCountryTracks(market.code, playlists);
+        if (tracks.length >= 10) {
+          detail = {
+            schemaVersion: 1,
+            provider: "pulsedeck-curated",
+            chart: "country-top-songs",
+            region: market.code,
+            regionName: market.name,
+            country: market.code,
+            countryName: market.name,
+            sourceUrl: "data/index.json",
+            updatedAt: generatedAt,
+            checkedAt: generatedAt,
+            status: "curated",
+            available: true,
+            official: false,
+            stale: false,
+            error: null,
+            providerError: error.message,
+            trackCount: tracks.length,
+            tracks
+          };
+        }
+      }
+      if (!detail && previousIsValid) {
+        detail = {
+          ...previous,
+          checkedAt: generatedAt,
+          status: "stale",
+          stale: true,
+          error: error.message,
+          providerError: error.message
+        };
+      }
+      if (!detail) {
+        detail = {
+          schemaVersion: 1,
+          provider: "apple-music",
+          chart: "country-top-songs",
+          region: market.code,
+          regionName: market.name,
+          country: market.code,
+          countryName: market.name,
+          sourceUrl,
+          updatedAt: null,
+          checkedAt: generatedAt,
+          status: "unavailable",
+          available: false,
+          official: false,
+          stale: false,
+          error: error.message,
+          providerError: error.message,
+          trackCount: 0,
+          tracks: []
+        };
+      }
+      status.push({
+        region: market.code,
+        ok: true,
+        status: detail.status,
+        provider: detail.provider,
+        available: detail.available,
+        official: detail.official,
+        stale: detail.stale,
+        trackCount: detail.trackCount,
+        error: error.message
+      });
+    }
+
+    await writeJson(file, detail);
+    trackCount += detail.trackCount;
+    regions.push({
+      code: market.code,
+      name: market.name,
+      source: `data/apple-country-charts/${market.code.toLowerCase()}.json`,
+      status: detail.status,
+      provider: detail.provider,
+      available: detail.available,
+      official: detail.official,
+      stale: detail.stale,
+      trackCount: detail.trackCount,
+      updatedAt: detail.updatedAt,
+      checkedAt: detail.checkedAt
+    });
+    await sleep(200);
+  }
+
+  const index = {
+    schemaVersion: 1,
+    providers: ["apple-music", "pulsedeck-curated"],
+    chart: "country-top-songs",
+    generatedAt,
+    regionCount: regions.length,
+    availableRegionCount: regions.filter((region) => region.available).length,
+    officialRegionCount: regions.filter((region) => region.official).length,
+    curatedRegionCount: regions.filter((region) => region.status === "curated").length,
+    staleRegionCount: regions.filter((region) => region.stale).length,
+    trackCount,
+    regions
+  };
+  await writeJson(path.join(APPLE_COUNTRY_CHART_DIR, "index.json"), index);
+  return { index, status };
+}
+
+function buildPulseDeckCuratedCountryTracks(country, sourcePlaylists) {
+  const ranked = new Map();
+  let firstSeen = 0;
+  for (const playlist of sourcePlaylists.filter((item) => item.regions?.includes(country))) {
+    const seenInPlaylist = new Set();
+    for (const track of playlist.tracks || []) {
+      const artistNames = (track.artistNames || []).filter(Boolean);
+      if (!track.title || !artistNames.length) continue;
+      const key = track.spotifyId || `${track.title.toLowerCase()}|${artistNames.join(",").toLowerCase()}`;
+      if (!seenInPlaylist.add(key)) continue;
+      const current = ranked.get(key) || {
+        track,
+        coverImage: playlist.coverImage,
+        sourceUrl: playlist.spotifyUrl,
+        sourcePlaylists: [],
+        interests: new Set(),
+        bestPosition: Number.MAX_SAFE_INTEGER,
+        firstSeen: firstSeen++
+      };
+      current.sourcePlaylists.push(playlist.slug);
+      (playlist.interests || []).forEach((interest) => current.interests.add(interest));
+      current.bestPosition = Math.min(current.bestPosition, track.position || Number.MAX_SAFE_INTEGER);
+      ranked.set(key, current);
+    }
+  }
+  return [...ranked.values()]
+    .sort((left, right) =>
+      right.sourcePlaylists.length - left.sourcePlaylists.length ||
+      left.bestPosition - right.bestPosition ||
+      left.firstSeen - right.firstSeen
+    )
+    .slice(0, 100)
+    .map((item, index) => {
+      const track = item.track;
+      const artistNames = track.artistNames.filter(Boolean);
+      const spotifyUrl = track.spotifyUrl || item.sourceUrl || null;
+      return {
+        position: index + 1,
+        id: track.spotifyId ? `spotify:${track.spotifyId}` : `pulsedeck:${hashJson([track.title, artistNames]).slice(0, 16)}`,
+        provider: "pulsedeck-curated",
+        spotifyId: track.spotifyId || null,
+        appleId: null,
+        title: track.title,
+        artist: artistNames.join(", "),
+        artistNames,
+        albumTitle: track.album?.name || "",
+        releaseDate: track.album?.releaseDate || null,
+        coverImage: track.album?.coverImage || item.coverImage,
+        sourceUrl: spotifyUrl,
+        spotifyUrl,
+        appleUrl: null,
+        explicit: Boolean(track.explicit),
+        genres: [...item.interests].sort(),
+        sourcePlaylistCount: item.sourcePlaylists.length,
+        sourcePlaylists: item.sourcePlaylists,
+        country,
+        regions: [country]
+      };
+    });
 }
 
 async function buildAppleHeroFeeds(generatedAt) {
@@ -737,6 +1018,18 @@ function validateAppleRegionalMarkets() {
   assert(
     APPLE_REGIONAL_MARKETS.every((market) => /^[A-Z]{2}$/.test(market.code) && market.name),
     "Apple regional markets contain an invalid country"
+  );
+}
+
+function validateAppleCountryChartMarkets() {
+  assert(APPLE_COUNTRY_CHART_MARKETS.length === 51, "Expected 51 Apple country charts");
+  assert(
+    new Set(APPLE_COUNTRY_CHART_MARKETS.map((market) => market.code)).size === APPLE_COUNTRY_CHART_MARKETS.length,
+    "Apple country charts contain a duplicate country code"
+  );
+  assert(
+    APPLE_COUNTRY_CHART_MARKETS.every((market) => /^[A-Z]{2}$/.test(market.code) && market.name),
+    "Apple country charts contain an invalid country"
   );
 }
 
