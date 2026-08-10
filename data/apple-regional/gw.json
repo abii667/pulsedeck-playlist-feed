@@ -4,12 +4,27 @@
   "region": "GW",
   "regionName": "Guinea-Bissau",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/gw/music/most-played/50/playlists.json",
-  "updatedAt": "2026-08-09T14:15:29.000Z",
+  "updatedAt": "2026-08-10T08:09:34.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
     {
       "position": 1,
+      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "provider": "apple-music",
+      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "title": "Today’s Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/fd/8d/2e/fd8d2eb1-537f-8cbc-92eb-7fdd1b0d2b73/8c564c34-686f-439d-899c-16b0547e37da.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/gw/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "GW"
+      ]
+    },
+    {
+      "position": 2,
       "id": "apple:pl.b3604d9d1df2444c842ce249b36c132b",
       "provider": "apple-music",
       "appleId": "pl.b3604d9d1df2444c842ce249b36c132b",
@@ -24,28 +39,13 @@
       ]
     },
     {
-      "position": 2,
+      "position": 3,
       "id": "apple:pl.fdec33d0935a40d1879be160651195dd",
       "provider": "apple-music",
       "appleId": "pl.fdec33d0935a40d1879be160651195dd",
       "title": "Play Portugal",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e2/a7/42/e2a742f6-cfc2-ca96-4a85-7a4ac1e14bdd/dbc37165-4e20-4e4f-9a90-d90bb362cfc5.png/1200x1200bb.jpg?l=en-GB",
       "appleUrl": "https://music.apple.com/gw/playlist/play-portugal/pl.fdec33d0935a40d1879be160651195dd",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "GW"
-      ]
-    },
-    {
-      "position": 3,
-      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "provider": "apple-music",
-      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "title": "Today’s Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/fd/8d/2e/fd8d2eb1-537f-8cbc-92eb-7fdd1b0d2b73/8c564c34-686f-439d-899c-16b0547e37da.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/gw/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb",
       "interests": [
         "popular"
       ],
@@ -115,36 +115,6 @@
     },
     {
       "position": 8,
-      "id": "apple:pl.c397ede104bf4533a740ae2982dffbd2",
-      "provider": "apple-music",
-      "appleId": "pl.c397ede104bf4533a740ae2982dffbd2",
-      "title": "Céline Dion Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/dc/59/0c/dc590c57-74f1-8dcc-fea7-62a3530fb530/ami-identity-4e61d7d77aeba6fd4482f7e4886915c0-2026-03-30T19-23-36.161Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/gw/playlist/c%C3%A9line-dion-essentials/pl.c397ede104bf4533a740ae2982dffbd2",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "GW"
-      ]
-    },
-    {
-      "position": 9,
-      "id": "apple:pl.195d97af27614e2da5321642f534944e",
-      "provider": "apple-music",
-      "appleId": "pl.195d97af27614e2da5321642f534944e",
-      "title": "2Pac: Deep Cuts",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/db/93/ea/db93eae5-f3ce-26c1-7db7-1ced4177cf0b/mza_5100673092223809223.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/gw/playlist/2pac-deep-cuts/pl.195d97af27614e2da5321642f534944e",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "GW"
-      ]
-    },
-    {
-      "position": 10,
       "id": "apple:pl.a0794db8bc6f45888834fa708a674987",
       "provider": "apple-music",
       "appleId": "pl.a0794db8bc6f45888834fa708a674987",
@@ -159,13 +129,43 @@
       ]
     },
     {
-      "position": 11,
-      "id": "apple:pl.872873fba72a419e84ce6da1ee46b116",
+      "position": 9,
+      "id": "apple:pl.c397ede104bf4533a740ae2982dffbd2",
       "provider": "apple-music",
-      "appleId": "pl.872873fba72a419e84ce6da1ee46b116",
-      "title": "2Pac Essentials",
+      "appleId": "pl.c397ede104bf4533a740ae2982dffbd2",
+      "title": "Céline Dion Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/dc/59/0c/dc590c57-74f1-8dcc-fea7-62a3530fb530/ami-identity-4e61d7d77aeba6fd4482f7e4886915c0-2026-03-30T19-23-36.161Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/gw/playlist/c%C3%A9line-dion-essentials/pl.c397ede104bf4533a740ae2982dffbd2",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "GW"
+      ]
+    },
+    {
+      "position": 10,
+      "id": "apple:pl.195d97af27614e2da5321642f534944e",
+      "provider": "apple-music",
+      "appleId": "pl.195d97af27614e2da5321642f534944e",
+      "title": "2Pac: Deep Cuts",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/db/93/ea/db93eae5-f3ce-26c1-7db7-1ced4177cf0b/mza_5100673092223809223.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/gw/playlist/2pac-essentials/pl.872873fba72a419e84ce6da1ee46b116",
+      "appleUrl": "https://music.apple.com/gw/playlist/2pac-deep-cuts/pl.195d97af27614e2da5321642f534944e",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "GW"
+      ]
+    },
+    {
+      "position": 11,
+      "id": "apple:pl.88c7d93328a74b9181975adab5011be7",
+      "provider": "apple-music",
+      "appleId": "pl.88c7d93328a74b9181975adab5011be7",
+      "title": "Dança Comigo",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ed/33/48/ed3348d8-0829-4bfa-3f9d-d5d363d78995/U0MtTVMtV1ctRGFuY2FfQ29taWdvLUFEQU1fSUQ9MTUwNTM4NDYwMy5wbmc.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/gw/playlist/dan%C3%A7a-comigo/pl.88c7d93328a74b9181975adab5011be7",
       "interests": [
         "popular"
       ],
@@ -175,12 +175,12 @@
     },
     {
       "position": 12,
-      "id": "apple:pl.88c7d93328a74b9181975adab5011be7",
+      "id": "apple:pl.872873fba72a419e84ce6da1ee46b116",
       "provider": "apple-music",
-      "appleId": "pl.88c7d93328a74b9181975adab5011be7",
-      "title": "Dança Comigo",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ed/33/48/ed3348d8-0829-4bfa-3f9d-d5d363d78995/U0MtTVMtV1ctRGFuY2FfQ29taWdvLUFEQU1fSUQ9MTUwNTM4NDYwMy5wbmc.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/gw/playlist/dan%C3%A7a-comigo/pl.88c7d93328a74b9181975adab5011be7",
+      "appleId": "pl.872873fba72a419e84ce6da1ee46b116",
+      "title": "2Pac Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/db/93/ea/db93eae5-f3ce-26c1-7db7-1ced4177cf0b/mza_5100673092223809223.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/gw/playlist/2pac-essentials/pl.872873fba72a419e84ce6da1ee46b116",
       "interests": [
         "popular"
       ],
