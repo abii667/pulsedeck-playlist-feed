@@ -4,12 +4,27 @@
   "region": "MY",
   "regionName": "Malaysia",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/my/music/most-played/50/playlists.json",
-  "updatedAt": "2026-08-14T07:59:51.000Z",
+  "updatedAt": "2026-08-15T07:06:05.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
     {
       "position": 1,
+      "id": "apple:pl.9701289a07b845fb91b0a428c12f42c9",
+      "provider": "apple-music",
+      "appleId": "pl.9701289a07b845fb91b0a428c12f42c9",
+      "title": "Indonesian Music Today",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/bf/dd/8d/bfdd8d51-8402-9aa1-4633-ee85d182adff/U0MtTVMtV1ctSW5kb25lc2lhbl9NdXNpY19Ub2RheS1BREFNX0lEPTEwNDg0Nzg2MTYucG5n.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/indonesian-music-today/pl.9701289a07b845fb91b0a428c12f42c9",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 2,
       "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
       "provider": "apple-music",
       "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
@@ -24,7 +39,7 @@
       ]
     },
     {
-      "position": 2,
+      "position": 3,
       "id": "apple:pl.5ee8333dbe944d9f9151e97d92d1ead9",
       "provider": "apple-music",
       "appleId": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
@@ -33,21 +48,6 @@
       "appleUrl": "https://music.apple.com/my/playlist/a-list-pop/pl.5ee8333dbe944d9f9151e97d92d1ead9",
       "interests": [
         "pop"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 3,
-      "id": "apple:pl.9701289a07b845fb91b0a428c12f42c9",
-      "provider": "apple-music",
-      "appleId": "pl.9701289a07b845fb91b0a428c12f42c9",
-      "title": "Indonesian Music Today",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/bf/dd/8d/bfdd8d51-8402-9aa1-4633-ee85d182adff/U0MtTVMtV1ctSW5kb25lc2lhbl9NdXNpY19Ub2RheS1BREFNX0lEPTEwNDg0Nzg2MTYucG5n.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/indonesian-music-today/pl.9701289a07b845fb91b0a428c12f42c9",
-      "interests": [
-        "popular"
       ],
       "regions": [
         "MY"
@@ -85,21 +85,6 @@
     },
     {
       "position": 6,
-      "id": "apple:pl.de6abfd422ca4025b807b345eea59118",
-      "provider": "apple-music",
-      "appleId": "pl.de6abfd422ca4025b807b345eea59118",
-      "title": "All-Time Malaysian Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/cc/a6/2e/cca62e41-d654-50f1-a0b4-ff53b86d4b8d/c923c7b4-759a-45cf-ab90-17bb285e1596.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/all-time-malaysian-hits/pl.de6abfd422ca4025b807b345eea59118",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 7,
       "id": "apple:pl.3de89e62aa3340038e08fa325c3f3f01",
       "provider": "apple-music",
       "appleId": "pl.3de89e62aa3340038e08fa325c3f3f01",
@@ -114,22 +99,7 @@
       ]
     },
     {
-      "position": 8,
-      "id": "apple:pl.0c62737709b74297aa07f15745c6f988",
-      "provider": "apple-music",
-      "appleId": "pl.0c62737709b74297aa07f15745c6f988",
-      "title": "Galau Ballad Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/15/92/ed/1592eda6-e767-4840-f57b-dc6ed523f126/6e2b44d8-4f20-4017-acfb-0ea271192c51.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/galau-ballad-essentials/pl.0c62737709b74297aa07f15745c6f988",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 9,
+      "position": 7,
       "id": "apple:pl.e83ef7f4de154de5adb3da857cfd7abf",
       "provider": "apple-music",
       "appleId": "pl.e83ef7f4de154de5adb3da857cfd7abf",
@@ -144,7 +114,7 @@
       ]
     },
     {
-      "position": 10,
+      "position": 8,
       "id": "apple:pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "provider": "apple-music",
       "appleId": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
@@ -159,13 +129,43 @@
       ]
     },
     {
-      "position": 11,
+      "position": 9,
+      "id": "apple:pl.0c62737709b74297aa07f15745c6f988",
+      "provider": "apple-music",
+      "appleId": "pl.0c62737709b74297aa07f15745c6f988",
+      "title": "Galau Ballad Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/15/92/ed/1592eda6-e767-4840-f57b-dc6ed523f126/6e2b44d8-4f20-4017-acfb-0ea271192c51.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/galau-ballad-essentials/pl.0c62737709b74297aa07f15745c6f988",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 10,
       "id": "apple:pl.6b1b5dfda067443481265436811002f1",
       "provider": "apple-music",
       "appleId": "pl.6b1b5dfda067443481265436811002f1",
       "title": "2010s Hits Essentials",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c3/e9/2a/c3e92a70-e987-00e0-4577-d2e8fc10fdae/571b185f-751e-4050-879b-c2bcb459af6e.png/1200x1200bb.jpg?l=en-GB",
       "appleUrl": "https://music.apple.com/my/playlist/2010s-hits-essentials/pl.6b1b5dfda067443481265436811002f1",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 11,
+      "id": "apple:pl.de6abfd422ca4025b807b345eea59118",
+      "provider": "apple-music",
+      "appleId": "pl.de6abfd422ca4025b807b345eea59118",
+      "title": "All-Time Malaysian Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/cc/a6/2e/cca62e41-d654-50f1-a0b4-ff53b86d4b8d/c923c7b4-759a-45cf-ab90-17bb285e1596.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/all-time-malaysian-hits/pl.de6abfd422ca4025b807b345eea59118",
       "interests": [
         "popular"
       ],
@@ -220,21 +220,6 @@
     },
     {
       "position": 15,
-      "id": "apple:pl.2510d5601e3a49d4a62e39b3eb3018cf",
-      "provider": "apple-music",
-      "appleId": "pl.2510d5601e3a49d4a62e39b3eb3018cf",
-      "title": "The Weeknd’s After Hours Til Dawn Tour Set List",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/5a/56/a4/5a56a4df-e9bf-8388-3bd3-72fdb1570d18/ami-identity-777ad796f94973f081f3e54e4b81fcb1-2026-04-16T21-49-06.937Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/the-weeknds-after-hours-til-dawn-tour-set-list/pl.2510d5601e3a49d4a62e39b3eb3018cf",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 16,
       "id": "apple:pl.2a0b1ea7704842f4b956e959067b8389",
       "provider": "apple-music",
       "appleId": "pl.2a0b1ea7704842f4b956e959067b8389",
@@ -249,7 +234,7 @@
       ]
     },
     {
-      "position": 17,
+      "position": 16,
       "id": "apple:pl.522581bf8c264bafa742e75df9772078",
       "provider": "apple-music",
       "appleId": "pl.522581bf8c264bafa742e75df9772078",
@@ -264,67 +249,22 @@
       ]
     },
     {
+      "position": 17,
+      "id": "apple:pl.6db5f7b47286460e9928d09d9ac0be69",
+      "provider": "apple-music",
+      "appleId": "pl.6db5f7b47286460e9928d09d9ac0be69",
+      "title": "Top Hits Run",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/a2/fd/7b/a2fd7bc6-05ef-47f9-7c29-81244c68881a/contsched.gaoyqjgq.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/top-hits-run/pl.6db5f7b47286460e9928d09d9ac0be69",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
       "position": 18,
-      "id": "apple:pl.3a85cc83130443b68415718f19372cf4",
-      "provider": "apple-music",
-      "appleId": "pl.3a85cc83130443b68415718f19372cf4",
-      "title": "Today’s Easy Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/97/fe/04/97fe04ce-1278-58db-3e7c-b0312ce6c65b/U0MtTVMtV1ctVG9kYXlfc19FYXN5X0hpdHMtQURBTV9JRD0xMjc3Mzk3MjU1LnBuZw.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/todays-easy-hits/pl.3a85cc83130443b68415718f19372cf4",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 19,
-      "id": "apple:pl.ab72cdac82a24616947c215818690a50",
-      "provider": "apple-music",
-      "appleId": "pl.ab72cdac82a24616947c215818690a50",
-      "title": "2000s Malay Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/76/f1/54/76f1547f-a074-7771-088b-94e7323d73d5/19247351-61de-40cd-83d9-97d60ad3971c.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/2000s-malay-essentials/pl.ab72cdac82a24616947c215818690a50",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 20,
-      "id": "apple:pl.2a6878425a3d4920bb8374c96faa961a",
-      "provider": "apple-music",
-      "appleId": "pl.2a6878425a3d4920bb8374c96faa961a",
-      "title": "Rock Kapak Malaysia",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/SG-S3-US-Std-Image-000001/v4/f7/7f/69/f77f696d-5d4d-a0b7-60e2-a526fc5f8dac/image/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/my/playlist/rock-kapak-malaysia/pl.2a6878425a3d4920bb8374c96faa961a",
-      "interests": [
-        "rock"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 21,
-      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "provider": "apple-music",
-      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "title": "Piano Chill",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/piano-chill/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "interests": [
-        "chill"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 22,
       "id": "apple:pl.c8d5311e407f42c89d0fce075b5aaa43",
       "provider": "apple-music",
       "appleId": "pl.c8d5311e407f42c89d0fce075b5aaa43",
@@ -339,13 +279,73 @@
       ]
     },
     {
-      "position": 23,
-      "id": "apple:pl.6db5f7b47286460e9928d09d9ac0be69",
+      "position": 19,
+      "id": "apple:pl.32819444092641baa4a68f02b48c9e13",
       "provider": "apple-music",
-      "appleId": "pl.6db5f7b47286460e9928d09d9ac0be69",
-      "title": "Top Hits Run",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/a2/fd/7b/a2fd7bc6-05ef-47f9-7c29-81244c68881a/contsched.gaoyqjgq.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/top-hits-run/pl.6db5f7b47286460e9928d09d9ac0be69",
+      "appleId": "pl.32819444092641baa4a68f02b48c9e13",
+      "title": "2010s Malaysian Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f5/4a/9d/f54a9d20-c9e7-0ba4-3768-09ea51b26045/dbc8c90e-b0ac-465f-8bc4-c6ad184d66c0.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/2010s-malaysian-essentials/pl.32819444092641baa4a68f02b48c9e13",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 20,
+      "id": "apple:pl.2510d5601e3a49d4a62e39b3eb3018cf",
+      "provider": "apple-music",
+      "appleId": "pl.2510d5601e3a49d4a62e39b3eb3018cf",
+      "title": "The Weeknd’s After Hours Til Dawn Tour Set List",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/5a/56/a4/5a56a4df-e9bf-8388-3bd3-72fdb1570d18/ami-identity-777ad796f94973f081f3e54e4b81fcb1-2026-04-16T21-49-06.937Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/the-weeknds-after-hours-til-dawn-tour-set-list/pl.2510d5601e3a49d4a62e39b3eb3018cf",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 21,
+      "id": "apple:pl.ab72cdac82a24616947c215818690a50",
+      "provider": "apple-music",
+      "appleId": "pl.ab72cdac82a24616947c215818690a50",
+      "title": "2000s Malay Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/76/f1/54/76f1547f-a074-7771-088b-94e7323d73d5/19247351-61de-40cd-83d9-97d60ad3971c.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/2000s-malay-essentials/pl.ab72cdac82a24616947c215818690a50",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 22,
+      "id": "apple:pl.2a6878425a3d4920bb8374c96faa961a",
+      "provider": "apple-music",
+      "appleId": "pl.2a6878425a3d4920bb8374c96faa961a",
+      "title": "Rock Kapak Malaysia",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/SG-S3-US-Std-Image-000001/v4/f7/7f/69/f77f696d-5d4d-a0b7-60e2-a526fc5f8dac/image/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/my/playlist/rock-kapak-malaysia/pl.2a6878425a3d4920bb8374c96faa961a",
+      "interests": [
+        "rock"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 23,
+      "id": "apple:pl.3a85cc83130443b68415718f19372cf4",
+      "provider": "apple-music",
+      "appleId": "pl.3a85cc83130443b68415718f19372cf4",
+      "title": "Today’s Easy Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/97/fe/04/97fe04ce-1278-58db-3e7c-b0312ce6c65b/U0MtTVMtV1ctVG9kYXlfc19FYXN5X0hpdHMtQURBTV9JRD0xMjc3Mzk3MjU1LnBuZw.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/todays-easy-hits/pl.3a85cc83130443b68415718f19372cf4",
       "interests": [
         "popular"
       ],
@@ -370,21 +370,6 @@
     },
     {
       "position": 25,
-      "id": "apple:pl.2b891c7f14f54adb83ad7378002c6655",
-      "provider": "apple-music",
-      "appleId": "pl.2b891c7f14f54adb83ad7378002c6655",
-      "title": "Rock Kapak Selamanya",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Yigb48yJV9SFjYV32eMGtQ/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/my/playlist/rock-kapak-selamanya/pl.2b891c7f14f54adb83ad7378002c6655",
-      "interests": [
-        "rock"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 26,
       "id": "apple:pl.e50ccee7318043eaaf8e8e28a2a55114",
       "provider": "apple-music",
       "appleId": "pl.e50ccee7318043eaaf8e8e28a2a55114",
@@ -399,15 +384,31 @@
       ]
     },
     {
-      "position": 27,
-      "id": "apple:pl.32819444092641baa4a68f02b48c9e13",
+      "position": 26,
+      "id": "apple:pl.63271312c084419891982eab46cc68ac",
       "provider": "apple-music",
-      "appleId": "pl.32819444092641baa4a68f02b48c9e13",
-      "title": "2010s Malaysian Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/f5/4a/9d/f54a9d20-c9e7-0ba4-3768-09ea51b26045/dbc8c90e-b0ac-465f-8bc4-c6ad184d66c0.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/2010s-malaysian-essentials/pl.32819444092641baa4a68f02b48c9e13",
+      "appleId": "pl.63271312c084419891982eab46cc68ac",
+      "title": "Jazz Chill",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/jazz-chill/pl.63271312c084419891982eab46cc68ac",
       "interests": [
-        "popular"
+        "jazz",
+        "chill"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 27,
+      "id": "apple:pl.2b891c7f14f54adb83ad7378002c6655",
+      "provider": "apple-music",
+      "appleId": "pl.2b891c7f14f54adb83ad7378002c6655",
+      "title": "Rock Kapak Selamanya",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Yigb48yJV9SFjYV32eMGtQ/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/my/playlist/rock-kapak-selamanya/pl.2b891c7f14f54adb83ad7378002c6655",
+      "interests": [
+        "rock"
       ],
       "regions": [
         "MY"
@@ -430,37 +431,6 @@
     },
     {
       "position": 29,
-      "id": "apple:pl.63271312c084419891982eab46cc68ac",
-      "provider": "apple-music",
-      "appleId": "pl.63271312c084419891982eab46cc68ac",
-      "title": "Jazz Chill",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/jazz-chill/pl.63271312c084419891982eab46cc68ac",
-      "interests": [
-        "jazz",
-        "chill"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 30,
-      "id": "apple:pl.1d5ead185d8a4a9089f3b952770b762c",
-      "provider": "apple-music",
-      "appleId": "pl.1d5ead185d8a4a9089f3b952770b762c",
-      "title": "Lo-Fi Chill",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/3e/2a/09/3e2a0903-d0b5-d43a-9d00-c94ea1767579/61088f1a-08a9-4717-9909-3838749b2d01.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/lo-fi-chill/pl.1d5ead185d8a4a9089f3b952770b762c",
-      "interests": [
-        "chill"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 31,
       "id": "apple:pl.3950454ced8c45a3b0cc693c2a7db97b",
       "provider": "apple-music",
       "appleId": "pl.3950454ced8c45a3b0cc693c2a7db97b",
@@ -469,6 +439,37 @@
       "appleUrl": "https://music.apple.com/my/playlist/taylor-swift-essentials/pl.3950454ced8c45a3b0cc693c2a7db97b",
       "interests": [
         "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 30,
+      "id": "apple:pl.d838905f50af4200a2ebbc614922dee9",
+      "provider": "apple-music",
+      "appleId": "pl.d838905f50af4200a2ebbc614922dee9",
+      "title": "Weekend K-Pop",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/7c/1d/bf/7c1dbf56-026c-106a-41f7-8d3cf33f5a45/773365f8-e6e7-431f-b2da-95d1e46f1177.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/weekend-k-pop/pl.d838905f50af4200a2ebbc614922dee9",
+      "interests": [
+        "pop",
+        "k-pop"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 31,
+      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "provider": "apple-music",
+      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "title": "Piano Chill",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/piano-chill/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "interests": [
+        "chill"
       ],
       "regions": [
         "MY"
@@ -491,6 +492,21 @@
     },
     {
       "position": 33,
+      "id": "apple:pl.1d5ead185d8a4a9089f3b952770b762c",
+      "provider": "apple-music",
+      "appleId": "pl.1d5ead185d8a4a9089f3b952770b762c",
+      "title": "Lo-Fi Chill",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/3e/2a/09/3e2a0903-d0b5-d43a-9d00-c94ea1767579/61088f1a-08a9-4717-9909-3838749b2d01.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/lo-fi-chill/pl.1d5ead185d8a4a9089f3b952770b762c",
+      "interests": [
+        "chill"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 34,
       "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
       "provider": "apple-music",
       "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
@@ -505,53 +521,7 @@
       ]
     },
     {
-      "position": 34,
-      "id": "apple:pl.d838905f50af4200a2ebbc614922dee9",
-      "provider": "apple-music",
-      "appleId": "pl.d838905f50af4200a2ebbc614922dee9",
-      "title": "Weekend K-Pop",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/7c/1d/bf/7c1dbf56-026c-106a-41f7-8d3cf33f5a45/773365f8-e6e7-431f-b2da-95d1e46f1177.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/weekend-k-pop/pl.d838905f50af4200a2ebbc614922dee9",
-      "interests": [
-        "pop",
-        "k-pop"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
       "position": 35,
-      "id": "apple:pl.f820ed7063f9447f8751abf885525698",
-      "provider": "apple-music",
-      "appleId": "pl.f820ed7063f9447f8751abf885525698",
-      "title": "Office DJ",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/38/d1/ab/38d1ab2b-9939-54cc-faa5-109ac3956ff2/41fbfe79-2af6-43e4-b42a-bbea964b9670.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/office-dj/pl.f820ed7063f9447f8751abf885525698",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 36,
-      "id": "apple:pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
-      "provider": "apple-music",
-      "appleId": "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
-      "title": "Rap Life",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/76/53/1e/76531e52-8c6f-b2ee-713e-d2ed0a2c24a5/e853cd7a-c134-4135-8da0-ebf33509d6f0.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/rap-life/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
-      "interests": [
-        "hip-hop"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 37,
       "id": "apple:pl.8d6e453de1c04e17b31839c504045455",
       "provider": "apple-music",
       "appleId": "pl.8d6e453de1c04e17b31839c504045455",
@@ -566,7 +536,7 @@
       ]
     },
     {
-      "position": 38,
+      "position": 36,
       "id": "apple:pl.5b7698bbcd01407a92b8457f650bebaf",
       "provider": "apple-music",
       "appleId": "pl.5b7698bbcd01407a92b8457f650bebaf",
@@ -582,7 +552,127 @@
       ]
     },
     {
+      "position": 37,
+      "id": "apple:pl.9fec7919bdba4cba8b289c9b952d9314",
+      "provider": "apple-music",
+      "appleId": "pl.9fec7919bdba4cba8b289c9b952d9314",
+      "title": "BIGBANG Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cd/7d/98/cd7d98d2-d6c4-e147-f07f-2c792c3513a4/pr_source.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/bigbang-essentials/pl.9fec7919bdba4cba8b289c9b952d9314",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 38,
+      "id": "apple:pl.5b919cad9d4a4c1e91a217f86530ad68",
+      "provider": "apple-music",
+      "appleId": "pl.5b919cad9d4a4c1e91a217f86530ad68",
+      "title": "’80s Malay Music Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/01/06/1e/01061e2c-5028-2b00-27e3-deab0ba6e7a6/b6d47345-5d5a-4996-a746-4578076aa424.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/80s-malay-music-essentials/pl.5b919cad9d4a4c1e91a217f86530ad68",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
       "position": 39,
+      "id": "apple:pl.e5afef10eb2544d0a38880fd8e2c9a27",
+      "provider": "apple-music",
+      "appleId": "pl.e5afef10eb2544d0a38880fd8e2c9a27",
+      "title": "Pop Hits: 2010",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/45/64/93/45649347-9b1e-aa33-9ea5-74d45a5e3c15/21c80383-5d49-4509-a518-a84f535cb4f5.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/pop-hits-2010/pl.e5afef10eb2544d0a38880fd8e2c9a27",
+      "interests": [
+        "pop"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 40,
+      "id": "apple:pl.f820ed7063f9447f8751abf885525698",
+      "provider": "apple-music",
+      "appleId": "pl.f820ed7063f9447f8751abf885525698",
+      "title": "Office DJ",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/38/d1/ab/38d1ab2b-9939-54cc-faa5-109ac3956ff2/41fbfe79-2af6-43e4-b42a-bbea964b9670.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/office-dj/pl.f820ed7063f9447f8751abf885525698",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 41,
+      "id": "apple:pl.725376c1e6b14915b7e27a919db39c52",
+      "provider": "apple-music",
+      "appleId": "pl.725376c1e6b14915b7e27a919db39c52",
+      "title": "Easy Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/df/5d/9f/df5d9fa9-6bfb-3206-e684-4d74fb0afe49/U0MtTVMtV1ctRWFzeV9IaXRzLUFEQU1fSUQ9MTIwOTgzMTMzNC5wbmc.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/easy-hits/pl.725376c1e6b14915b7e27a919db39c52",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 42,
+      "id": "apple:pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+      "provider": "apple-music",
+      "appleId": "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+      "title": "Rap Life",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/76/53/1e/76531e52-8c6f-b2ee-713e-d2ed0a2c24a5/e853cd7a-c134-4135-8da0-ebf33509d6f0.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/rap-life/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+      "interests": [
+        "hip-hop"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 43,
+      "id": "apple:pl.d467987f72384448b2bebe52c0b212d6",
+      "provider": "apple-music",
+      "appleId": "pl.d467987f72384448b2bebe52c0b212d6",
+      "title": "Jay Chou Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/6d/53/0e/6d530e69-ce17-1c15-7605-b267ef760ea1/ami-identity-8cbee1395c1dbfa4daf6d4c572503010-2026-03-24T12-21-24.021Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/jay-chou-essentials/pl.d467987f72384448b2bebe52c0b212d6",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 44,
+      "id": "apple:pl.b653c4dc751c4a429cd951cf6b813253",
+      "provider": "apple-music",
+      "appleId": "pl.b653c4dc751c4a429cd951cf6b813253",
+      "title": "Techno Music 2025 Rave Techno",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/i_3sJs2zjq0TA6b6Pev2Gg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/my/playlist/techno-music-2025-rave-techno/pl.b653c4dc751c4a429cd951cf6b813253",
+      "interests": [
+        "electronic"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 45,
       "id": "apple:pl.bf7a3cbca49644d8a33f09c1285aef5c",
       "provider": "apple-music",
       "appleId": "pl.bf7a3cbca49644d8a33f09c1285aef5c",
@@ -598,142 +688,7 @@
       ]
     },
     {
-      "position": 40,
-      "id": "apple:pl.8e9831f8282c46bc80aceea9399bb32d",
-      "provider": "apple-music",
-      "appleId": "pl.8e9831f8282c46bc80aceea9399bb32d",
-      "title": "Mandopop Love Songs",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f4/54/56/f4545600-773f-caf8-d220-b86c4a15712b/U0MtTVMtV1ctTWFuZG9wb3BfTG92ZV9Tb25ncy1BREFNX0lEPTExMjYxMzU3MTAucG5n.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/mandopop-love-songs/pl.8e9831f8282c46bc80aceea9399bb32d",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 41,
-      "id": "apple:pl.9fec7919bdba4cba8b289c9b952d9314",
-      "provider": "apple-music",
-      "appleId": "pl.9fec7919bdba4cba8b289c9b952d9314",
-      "title": "BIGBANG Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cd/7d/98/cd7d98d2-d6c4-e147-f07f-2c792c3513a4/pr_source.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/bigbang-essentials/pl.9fec7919bdba4cba8b289c9b952d9314",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 42,
-      "id": "apple:pl.e5afef10eb2544d0a38880fd8e2c9a27",
-      "provider": "apple-music",
-      "appleId": "pl.e5afef10eb2544d0a38880fd8e2c9a27",
-      "title": "Pop Hits: 2010",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/45/64/93/45649347-9b1e-aa33-9ea5-74d45a5e3c15/21c80383-5d49-4509-a518-a84f535cb4f5.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/pop-hits-2010/pl.e5afef10eb2544d0a38880fd8e2c9a27",
-      "interests": [
-        "pop"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 43,
-      "id": "apple:pl.0d70b7c9be8e4e0b95ebbf5578aaf7a2",
-      "provider": "apple-music",
-      "appleId": "pl.0d70b7c9be8e4e0b95ebbf5578aaf7a2",
-      "title": "’90s Hits Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/04/15/5a/04155ad9-1d3e-de9d-dc93-e0a48b147d8a/0c57ac7b-73c4-4c07-a2ea-3e7eff58f4d5.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/90s-hits-essentials/pl.0d70b7c9be8e4e0b95ebbf5578aaf7a2",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 44,
-      "id": "apple:pl.4dc5ea56024143d69904e3b6f014ad76",
-      "provider": "apple-music",
-      "appleId": "pl.4dc5ea56024143d69904e3b6f014ad76",
-      "title": "2000s Indonesian Music Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2b/6a/9a/2b6a9a66-077d-aef4-f328-50b857a7429e/8c581287-089e-4365-acb4-6c4003824bb0.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/2000s-indonesian-music-essentials/pl.4dc5ea56024143d69904e3b6f014ad76",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 45,
-      "id": "apple:pl.725376c1e6b14915b7e27a919db39c52",
-      "provider": "apple-music",
-      "appleId": "pl.725376c1e6b14915b7e27a919db39c52",
-      "title": "Easy Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/df/5d/9f/df5d9fa9-6bfb-3206-e684-4d74fb0afe49/U0MtTVMtV1ctRWFzeV9IaXRzLUFEQU1fSUQ9MTIwOTgzMTMzNC5wbmc.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/easy-hits/pl.725376c1e6b14915b7e27a919db39c52",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
       "position": 46,
-      "id": "apple:pl.d467987f72384448b2bebe52c0b212d6",
-      "provider": "apple-music",
-      "appleId": "pl.d467987f72384448b2bebe52c0b212d6",
-      "title": "Jay Chou Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/6d/53/0e/6d530e69-ce17-1c15-7605-b267ef760ea1/ami-identity-8cbee1395c1dbfa4daf6d4c572503010-2026-03-24T12-21-24.021Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/jay-chou-essentials/pl.d467987f72384448b2bebe52c0b212d6",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 47,
-      "id": "apple:pl.e5a782b2b5424d1bbd6b5b9ac04d09a0",
-      "provider": "apple-music",
-      "appleId": "pl.e5a782b2b5424d1bbd6b5b9ac04d09a0",
-      "title": "BTS Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/8d/87/3c8d8721-24fa-0250-7e00-3f1990ccc0c0/ami-identity-5644914dae79e9896405d9b5b7ac9e89-2026-03-20T04-09-55.932Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/bts-essentials/pl.e5a782b2b5424d1bbd6b5b9ac04d09a0",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 48,
-      "id": "apple:pl.d6b08f229d4f4f9da58b64fe646061af",
-      "provider": "apple-music",
-      "appleId": "pl.d6b08f229d4f4f9da58b64fe646061af",
-      "title": "Bruno Mars Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/75/7e/dd/757edd95-3276-ff15-7de3-5c8e8ec87b4c/ami-identity-865f12490d8b5356071cd06a025b5b6a-2026-01-09T05-04-02.540Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/bruno-mars-essentials/pl.d6b08f229d4f4f9da58b64fe646061af",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "MY"
-      ]
-    },
-    {
-      "position": 49,
       "id": "apple:pl.6d8228f57b864a4296dc02d9761a0d9b",
       "provider": "apple-music",
       "appleId": "pl.6d8228f57b864a4296dc02d9761a0d9b",
@@ -748,13 +703,58 @@
       ]
     },
     {
-      "position": 50,
-      "id": "apple:pl.1b59383d41a74a889e8a28c31a3552c3",
+      "position": 47,
+      "id": "apple:pl.8e9831f8282c46bc80aceea9399bb32d",
       "provider": "apple-music",
-      "appleId": "pl.1b59383d41a74a889e8a28c31a3552c3",
-      "title": "Justin Bieber Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/f2/1f/32/f21f3290-c966-20e7-e826-a84a1c1adc05/ami-identity-d15f1da1dd95aabafc7476c4cd97ce79-2025-09-04T16-40-24.717Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/my/playlist/justin-bieber-essentials/pl.1b59383d41a74a889e8a28c31a3552c3",
+      "appleId": "pl.8e9831f8282c46bc80aceea9399bb32d",
+      "title": "Mandopop Love Songs",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f4/54/56/f4545600-773f-caf8-d220-b86c4a15712b/U0MtTVMtV1ctTWFuZG9wb3BfTG92ZV9Tb25ncy1BREFNX0lEPTExMjYxMzU3MTAucG5n.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/mandopop-love-songs/pl.8e9831f8282c46bc80aceea9399bb32d",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 48,
+      "id": "apple:pl.942cc20e34a44f06bd36488e6c3e475e",
+      "provider": "apple-music",
+      "appleId": "pl.942cc20e34a44f06bd36488e6c3e475e",
+      "title": "Ariana Grande Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/06/f0/41/06f0418f-97d3-34f8-f0a3-3acc37964d89/ami-identity-b7ce039aac2c803c4620ff4ff18920ca-2026-08-06T15-12-54.044Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/ariana-grande-essentials/pl.942cc20e34a44f06bd36488e6c3e475e",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 49,
+      "id": "apple:pl.d6b08f229d4f4f9da58b64fe646061af",
+      "provider": "apple-music",
+      "appleId": "pl.d6b08f229d4f4f9da58b64fe646061af",
+      "title": "Bruno Mars Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/75/7e/dd/757edd95-3276-ff15-7de3-5c8e8ec87b4c/ami-identity-865f12490d8b5356071cd06a025b5b6a-2026-01-09T05-04-02.540Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/bruno-mars-essentials/pl.d6b08f229d4f4f9da58b64fe646061af",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "MY"
+      ]
+    },
+    {
+      "position": 50,
+      "id": "apple:pl.4dc5ea56024143d69904e3b6f014ad76",
+      "provider": "apple-music",
+      "appleId": "pl.4dc5ea56024143d69904e3b6f014ad76",
+      "title": "2000s Indonesian Music Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2b/6a/9a/2b6a9a66-077d-aef4-f328-50b857a7429e/8c581287-089e-4365-acb4-6c4003824bb0.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/my/playlist/2000s-indonesian-music-essentials/pl.4dc5ea56024143d69904e3b6f014ad76",
       "interests": [
         "popular"
       ],
