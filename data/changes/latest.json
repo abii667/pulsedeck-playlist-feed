@@ -1,25 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T07:05:29.955Z",
-  "changedCount": 18,
+  "generatedAt": "2026-08-20T07:06:38.331Z",
+  "changedCount": 20,
   "changes": [
     {
       "slug": "reggae-classics",
       "title": "Reggae Classics",
-      "previousSnapshotId": "public:462a83b96786321204b280e271441461a869115a",
-      "snapshotId": "public:9273635c9fb526ab522fdc6fc223fc2dae59c6ca",
+      "previousSnapshotId": "public:9273635c9fb526ab522fdc6fc223fc2dae59c6ca",
+      "snapshotId": "public:135ca4b83bffc0feb47d1b126417e5b429c83260",
       "added": 1,
       "removed": 1,
       "addedTracks": [
-        {
-          "spotifyId": "4MM4UlT0j7MePs9bMoi34N",
-          "title": "Good Thing Going",
-          "artistNames": [
-            "Sugar Minott"
-          ]
-        }
-      ],
-      "removedTracks": [
         {
           "spotifyId": "17VuKYmgB5hVsEDDY5TxfJ",
           "title": "No Love Allowed (feat. LMK)",
@@ -28,13 +19,22 @@
             "LMK"
           ]
         }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "7iWk45E2wIpFc3YUWm3VVn",
+          "title": "Pass The Dutchie",
+          "artistNames": [
+            "Musical Youth"
+          ]
+        }
       ]
     },
     {
       "slug": "all-out-80s",
       "title": "All Out 80s",
-      "previousSnapshotId": "public:00b6fcc4b68f10c3042a09171759df2358352b9a",
-      "snapshotId": "public:da8962597f0f980f531ab15a906f04dfeea623ab",
+      "previousSnapshotId": "public:da8962597f0f980f531ab15a906f04dfeea623ab",
+      "snapshotId": "public:d4af0891835b36c313f393012b1e5c9cbd49cb47",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -43,8 +43,8 @@
     {
       "slug": "all-out-90s",
       "title": "All Out 90s",
-      "previousSnapshotId": "public:568bc6052fb80512f7aea30a46022b72811a4b46",
-      "snapshotId": "public:bbc9be5a76640aa0dabc5c4dbe5021bace2dd5d9",
+      "previousSnapshotId": "public:bbc9be5a76640aa0dabc5c4dbe5021bace2dd5d9",
+      "snapshotId": "public:10df4173b051fa99ad09af981f2044fc4b2a5792",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -53,8 +53,8 @@
     {
       "slug": "all-out-2000s",
       "title": "All Out 2000s",
-      "previousSnapshotId": "public:d5353e3b3d7e06ece6efafebebf97a982ddee192",
-      "snapshotId": "public:b633140f864189660f67fff163b87bf5a4de7f22",
+      "previousSnapshotId": "public:b633140f864189660f67fff163b87bf5a4de7f22",
+      "snapshotId": "public:59077fc8b7768c9b4ffedc72020aa0a7d96225c0",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -63,18 +63,497 @@
     {
       "slug": "chill-hits",
       "title": "Chill Hits",
-      "previousSnapshotId": "public:de88a72ae3a4889b7bfc897b9926f9e6a713513f",
-      "snapshotId": "public:7e3ebda7a01edb42d02a4246b7ce55cd78940642",
+      "previousSnapshotId": "public:7e3ebda7a01edb42d02a4246b7ce55cd78940642",
+      "snapshotId": "public:0af099e8e7038160867ce11cd62d77a74bff201e",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
+      "slug": "deep-focus",
+      "title": "Deep Focus",
+      "previousSnapshotId": "public:8c8f382a9e9b50eac8b0168d9cab43d21524addf",
+      "snapshotId": "public:77cfaa201f82afd9465ffc2fc10cc48154ead350",
+      "added": 11,
+      "removed": 11,
+      "addedTracks": [
+        {
+          "spotifyId": "2xG1a1llDkt9zAxmQ5ZRjs",
+          "title": "Flow State",
+          "artistNames": [
+            "Aural Depths"
+          ]
+        },
+        {
+          "spotifyId": "3ASg4DxjvGRWOLEiPParOv",
+          "title": "Fine Line",
+          "artistNames": [
+            "Velvet Meadows"
+          ]
+        },
+        {
+          "spotifyId": "3OkelC3Xo9f1GAb1aKPqLH",
+          "title": "Transitioning",
+          "artistNames": [
+            "Sleeping Atlas"
+          ]
+        },
+        {
+          "spotifyId": "49NriqKnMRAfZqON99Ka3H",
+          "title": "Vaulted Skies",
+          "artistNames": [
+            "Astral Voyager"
+          ]
+        },
+        {
+          "spotifyId": "0JNlXzO2SDzd6H8NCUXcI9",
+          "title": "Air Bender",
+          "artistNames": [
+            "Solar Collective"
+          ]
+        },
+        {
+          "spotifyId": "4Mf6b6czvrwEaUVq92NaPM",
+          "title": "The Road Less Traveled",
+          "artistNames": [
+            "Space Canyon"
+          ]
+        },
+        {
+          "spotifyId": "5VthgXmQbLAvk8A4kYaDjd",
+          "title": "Skybound",
+          "artistNames": [
+            "Casper Ilian"
+          ]
+        },
+        {
+          "spotifyId": "5MyJqrHfrSmb9056z1HZDm",
+          "title": "forever and ever",
+          "artistNames": [
+            "Acceptologist"
+          ]
+        },
+        {
+          "spotifyId": "1nk89wBnTJdOTWgDHu4nyJ",
+          "title": "Blue Meridian",
+          "artistNames": [
+            "Auric Drift"
+          ]
+        },
+        {
+          "spotifyId": "4xXz0UGjX2a9tcRumCq31G",
+          "title": "Circuit Sap",
+          "artistNames": [
+            "Glitch Fauna"
+          ]
+        },
+        {
+          "spotifyId": "15KmvdXXZzuTQWvLGdehy8",
+          "title": "Angles",
+          "artistNames": [
+            "Tranquil Oasis"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "34lHNCi9oUTNKHmSKYYa0Q",
+          "title": "Render",
+          "artistNames": [
+            "Køsk Skriner"
+          ]
+        },
+        {
+          "spotifyId": "0Qe2rXSl1RRT9kuJWNDGqJ",
+          "title": "melting into shade",
+          "artistNames": [
+            "allbelow"
+          ]
+        },
+        {
+          "spotifyId": "0pfQoBHepc5zOplOhLDgSh",
+          "title": "Lunar Waves",
+          "artistNames": [
+            "Asher Stone"
+          ]
+        },
+        {
+          "spotifyId": "28KDvEZetUbNEULIQREIgt",
+          "title": "Cirrus",
+          "artistNames": [
+            "Skeru"
+          ]
+        },
+        {
+          "spotifyId": "1X12ANDIxN99KdgzLPjEJs",
+          "title": "Transparent",
+          "artistNames": [
+            "Lún"
+          ]
+        },
+        {
+          "spotifyId": "3an8EscURTrgVY5xH0HJD8",
+          "title": "Encouraged",
+          "artistNames": [
+            "Njordr"
+          ]
+        },
+        {
+          "spotifyId": "4LnLLI9UgUXoUOR7eBD05P",
+          "title": "Out of Reach",
+          "artistNames": [
+            "Koma"
+          ]
+        },
+        {
+          "spotifyId": "7JsCQy8bmDZxs7M5Sa0Ull",
+          "title": "Above All",
+          "artistNames": [
+            "Inzano"
+          ]
+        },
+        {
+          "spotifyId": "235aVfLFBGIzcj1EKHjhtz",
+          "title": "Exploration",
+          "artistNames": [
+            "Detinu"
+          ]
+        },
+        {
+          "spotifyId": "4GGzd4lhdDXRRM4oWzQtL2",
+          "title": "Searchlight",
+          "artistNames": [
+            "Nómis"
+          ]
+        },
+        {
+          "spotifyId": "4VWouMellDzjcKDG6ppy4G",
+          "title": "Soft Light",
+          "artistNames": [
+            "Jo Anand"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fresh-finds",
+      "title": "Fresh Finds",
+      "previousSnapshotId": "public:8161ba4a20f439a6a31289dbb94c89abd67561e5",
+      "snapshotId": "public:be172597831b53693f4f059c3e211b7cdb073939",
+      "added": 21,
+      "removed": 21,
+      "addedTracks": [
+        {
+          "spotifyId": "31N3n74RprUGrTPLekOKto",
+          "title": "Getting Older",
+          "artistNames": [
+            "Graham Hunt"
+          ]
+        },
+        {
+          "spotifyId": "6D0DwLJ40RzSyhRuuR4fSX",
+          "title": "Sadder Days",
+          "artistNames": [
+            "Ruby Plume"
+          ]
+        },
+        {
+          "spotifyId": "4uiWXurzJvxA3yL1CvJTqo",
+          "title": "Porcelain",
+          "artistNames": [
+            "Grace Power"
+          ]
+        },
+        {
+          "spotifyId": "5sAuMXbKfqMDUr5RXHDND6",
+          "title": "Full Spectrum Dominance",
+          "artistNames": [
+            "Dummy"
+          ]
+        },
+        {
+          "spotifyId": "4tloBnrmsdF3lDDCMRQbJA",
+          "title": "catch me if you can",
+          "artistNames": [
+            "moonvine"
+          ]
+        },
+        {
+          "spotifyId": "0ipRyDKkHbWUNBtfUP1UzO",
+          "title": "pink",
+          "artistNames": [
+            "Swords2"
+          ]
+        },
+        {
+          "spotifyId": "7CRuydlDS3Jm8g4OVQJ7Z1",
+          "title": "Sweeter Than This",
+          "artistNames": [
+            "Headaches"
+          ]
+        },
+        {
+          "spotifyId": "3MGuSdChxG0ejAS6Erbshd",
+          "title": "HONEYMOON",
+          "artistNames": [
+            "Parisalexa"
+          ]
+        },
+        {
+          "spotifyId": "4GdCxBqoppOAJyfP3OHOtl",
+          "title": "Keep On Calling",
+          "artistNames": [
+            "Harmony Index"
+          ]
+        },
+        {
+          "spotifyId": "0WuDyaxVyxZlHQYTcMMtYo",
+          "title": "FREAKS",
+          "artistNames": [
+            "Leekindacut"
+          ]
+        },
+        {
+          "spotifyId": "27fK8cJMLh7FGwgF73VnyP",
+          "title": "Pasture",
+          "artistNames": [
+            "Laolu Adewumi",
+            "Emandiong"
+          ]
+        },
+        {
+          "spotifyId": "7tjyrCQXM5F3zbptkdIxha",
+          "title": "EOTD",
+          "artistNames": [
+            "Paris Price"
+          ]
+        },
+        {
+          "spotifyId": "0ik0aySMmki8Zo1NgDKoDG",
+          "title": "PINK CIGARETTE",
+          "artistNames": [
+            "EARTH TO EMILY"
+          ]
+        },
+        {
+          "spotifyId": "68kd3bIMh83qorfcD0u8f6",
+          "title": "Dimly Lit Cadaver",
+          "artistNames": [
+            "Earth Tongue"
+          ]
+        },
+        {
+          "spotifyId": "287HIlovgFFLZJjDkU05R6",
+          "title": "Joyce Kilmer Service Area",
+          "artistNames": [
+            "wakelee"
+          ]
+        },
+        {
+          "spotifyId": "2lX9duK6llhtN7pRTuZjTa",
+          "title": "Lay Down Your Cards",
+          "artistNames": [
+            "Lennon VanderDoes",
+            "Alycia Lang"
+          ]
+        },
+        {
+          "spotifyId": "5snvp77A1cclZQxyAQiQbY",
+          "title": "Night Fright",
+          "artistNames": [
+            "Biita Houdei"
+          ]
+        },
+        {
+          "spotifyId": "5trDaSTaJAh91axXwUYCVv",
+          "title": "Jump",
+          "artistNames": [
+            "KIANA"
+          ]
+        },
+        {
+          "spotifyId": "3V46ysYS6gN5LTH9MG8DYO",
+          "title": "Good for You",
+          "artistNames": [
+            "Micah Fletcher"
+          ]
+        },
+        {
+          "spotifyId": "2Y8pQy5OPylJCILWSkBzT4",
+          "title": "Float",
+          "artistNames": [
+            "John Errol"
+          ]
+        },
+        {
+          "spotifyId": "6piQHctdZsdfpTBinuBalt",
+          "title": "Call Me",
+          "artistNames": [
+            "Bluprint"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "2jQPWxdLBW0wCPN4BGOkKV",
+          "title": "a girl like me",
+          "artistNames": [
+            "aLex vs aLex"
+          ]
+        },
+        {
+          "spotifyId": "0kxVzs9nqmLJoVxic6QlMs",
+          "title": "COUNTRY CLUB",
+          "artistNames": [
+            "Leah Cleaver"
+          ]
+        },
+        {
+          "spotifyId": "10VHgngkMOXJUSrt16Onaw",
+          "title": "child of an immigrant",
+          "artistNames": [
+            "@WAR"
+          ]
+        },
+        {
+          "spotifyId": "2JNQDnUAuL9HAsbDt8wGbQ",
+          "title": "Devil In The Water",
+          "artistNames": [
+            "Hailey Hutcheson"
+          ]
+        },
+        {
+          "spotifyId": "6gW7QZfXLHfwcuw9hZvzkB",
+          "title": "Nevermind",
+          "artistNames": [
+            "Mona Yim"
+          ]
+        },
+        {
+          "spotifyId": "22je5kAHjwf98UwKbLUfh8",
+          "title": "FAIR DINKUM",
+          "artistNames": [
+            "Sollyy",
+            "Breakfast Road",
+            "Zion Garcia",
+            "Church"
+          ]
+        },
+        {
+          "spotifyId": "49JsfEdOw0Jg4NMLXGkQLh",
+          "title": "When we get by",
+          "artistNames": [
+            "Natek"
+          ]
+        },
+        {
+          "spotifyId": "2bmiqYmS6rhfbUEUCXKueV",
+          "title": "Multiform",
+          "artistNames": [
+            "Coco Smith"
+          ]
+        },
+        {
+          "spotifyId": "1qpquDXIG03HvhHrnBiY1G",
+          "title": "Get Down",
+          "artistNames": [
+            "WARGASM (UK)"
+          ]
+        },
+        {
+          "spotifyId": "6EAKZOdXVffeCjp4uWH02J",
+          "title": "Sugar",
+          "artistNames": [
+            "Dafs"
+          ]
+        },
+        {
+          "spotifyId": "1pOvyWbQoX16kBFgTIMPSX",
+          "title": "6/8",
+          "artistNames": [
+            "Mddle",
+            "Akira Kintsugi"
+          ]
+        },
+        {
+          "spotifyId": "0iMDXhQTIJvgacw3L5HrZf",
+          "title": "EBONY",
+          "artistNames": [
+            "ASHMOOR"
+          ]
+        },
+        {
+          "spotifyId": "1fz5t0Oge6VBwnzCo7fAlk",
+          "title": "Shit Kicker",
+          "artistNames": [
+            "Lucy Frost"
+          ]
+        },
+        {
+          "spotifyId": "6KKoVWWdziiKn4gkRJmn0I",
+          "title": "sin ti",
+          "artistNames": [
+            "Victor Internet"
+          ]
+        },
+        {
+          "spotifyId": "12lFre37kpLgK56sQUIMOH",
+          "title": "I Like It",
+          "artistNames": [
+            "Kalisway",
+            "LAYA"
+          ]
+        },
+        {
+          "spotifyId": "3dyQvN3fiYktWEhQ7WavRn",
+          "title": "Healer",
+          "artistNames": [
+            "D'Leesa"
+          ]
+        },
+        {
+          "spotifyId": "38AqanZ5azzHt3T3eTUDVB",
+          "title": "Dive In",
+          "artistNames": [
+            "A.G. Sully"
+          ]
+        },
+        {
+          "spotifyId": "0BSmfFgnlfWoLYY8h8bzhe",
+          "title": "Birthmark",
+          "artistNames": [
+            "horse"
+          ]
+        },
+        {
+          "spotifyId": "68icwERFCZaV107eHjqt77",
+          "title": "what u want",
+          "artistNames": [
+            "nomi."
+          ]
+        },
+        {
+          "spotifyId": "0glAAFulS8PHqD1b35sKz6",
+          "title": "Is Loving Really Bad?",
+          "artistNames": [
+            "Liim"
+          ]
+        },
+        {
+          "spotifyId": "75puZs3gEpjiauihNVJCgs",
+          "title": "Lovesick Lobotomy",
+          "artistNames": [
+            "Earthgirl"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "beast-mode",
       "title": "Beast Mode",
-      "previousSnapshotId": "public:0cbe895ddab39853b26d3ecd3ac9a47f130bd785",
-      "snapshotId": "public:6670bc446cea117e709aacc582fa4c7cc1c3aba2",
+      "previousSnapshotId": "public:6670bc446cea117e709aacc582fa4c7cc1c3aba2",
+      "snapshotId": "public:9e2f76d4b62aa13ad53d59e262a8738c46747df6",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -83,8 +562,8 @@
     {
       "slug": "jazz-classics",
       "title": "Jazz Classics",
-      "previousSnapshotId": "public:247c0847e68259743cbf745c4db9cbb6dc738c4f",
-      "snapshotId": "public:a2341698a35fbb3ec052deefea8e631de3e4f956",
+      "previousSnapshotId": "public:a2341698a35fbb3ec052deefea8e631de3e4f956",
+      "snapshotId": "public:77f1fe799f2c8ef790890ba4677b7ad38fb9d76d",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -93,11 +572,42 @@
     {
       "slug": "gospel-mix",
       "title": "Gospel Mix",
-      "previousSnapshotId": "public:5f96c4791d14695911597051c3d814eadbabd5ee",
-      "snapshotId": "public:aefbb5c88fef2d28ae2ca2cc07c1c1a16c44ff3c",
-      "added": 3,
-      "removed": 3,
+      "previousSnapshotId": "public:aefbb5c88fef2d28ae2ca2cc07c1c1a16c44ff3c",
+      "snapshotId": "public:148e8bac3eda6ea1c0f72085a8f63349ea67559d",
+      "added": 4,
+      "removed": 4,
       "addedTracks": [
+        {
+          "spotifyId": "1jnU6ZJXnSSwxfmjGGed2J",
+          "title": "Holy Forever",
+          "artistNames": [
+            "Chris Tomlin"
+          ]
+        },
+        {
+          "spotifyId": "7pE8ZqTCkioWUkdjh7W27u",
+          "title": "Left It In The River",
+          "artistNames": [
+            "Jamie MacDonald"
+          ]
+        },
+        {
+          "spotifyId": "3w3FVxMsBMHKaElaJPnkRD",
+          "title": "Way Maker - Live",
+          "artistNames": [
+            "Leeland"
+          ]
+        },
+        {
+          "spotifyId": "5l8vkQjZJz8EXmo28YoaPr",
+          "title": "Não Me Deixe Esquecer - Ao Vivo",
+          "artistNames": [
+            "Valesca Mayssa",
+            "Todah Music"
+          ]
+        }
+      ],
+      "removedTracks": [
         {
           "spotifyId": "4VI7berVSzuaBt1BGrBksC",
           "title": "Gratitude",
@@ -118,28 +628,12 @@
           "artistNames": [
             "Leeland"
           ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "6XXn8f7bPRT2hP4j5nYbcJ",
-          "title": "Esta Cayendo",
-          "artistNames": [
-            "Jose Luis Reyes"
-          ]
         },
         {
-          "spotifyId": "6gH4TId535zZLoBFSdnDFm",
-          "title": "Love Me",
+          "spotifyId": "36HbKaih4chZlpK6C9HBBr",
+          "title": "João 20 + pra Sempre - Ao Vivo",
           "artistNames": [
-            "JMSN"
-          ]
-        },
-        {
-          "spotifyId": "6BqobW3pEDxEvgznbam8kv",
-          "title": "The Prodigal",
-          "artistNames": [
-            "Josiah Queen"
+            "Vitor Santana"
           ]
         }
       ]
@@ -147,8 +641,28 @@
     {
       "slug": "roman-catholic-hymns",
       "title": "Roman Catholic Hymns ",
-      "previousSnapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
-      "snapshotId": "public:46b2dfe3c45ebce36f2bf84b10f0b0010c1a3c86",
+      "previousSnapshotId": "public:46b2dfe3c45ebce36f2bf84b10f0b0010c1a3c86",
+      "snapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "traditional-catholic-latin-chants",
+      "title": "Traditional Catholic Latin Chants",
+      "previousSnapshotId": "public:742977d27a8e6f2d1acd5f1084a270c1c3a09dc8",
+      "snapshotId": "public:886f6a61d9ad99cef1c6d9e6f750c1908137c4a4",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "ethiopian-orthodox-kidase",
+      "title": "Ethiopian Orthodox Kidase",
+      "previousSnapshotId": "public:6277f0f52817094f2d0df602075cef5592bf6707",
+      "snapshotId": "public:670260ff8a27579516ac1c6b6146eee08234c28e",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -157,129 +671,18 @@
     {
       "slug": "ethiopian-gospel",
       "title": "Amharic Mezmure (Ethiopian gospel songs) ",
-      "previousSnapshotId": "public:827cf0c55c99682530b4240728ad9435b6bb904b",
-      "snapshotId": "public:68bcbd15deca13ce7e41ef483f77da97e2367805",
+      "previousSnapshotId": "public:68bcbd15deca13ce7e41ef483f77da97e2367805",
+      "snapshotId": "public:827cf0c55c99682530b4240728ad9435b6bb904b",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "hot-hits-hindi",
-      "title": "Hot Hits Hindi",
-      "previousSnapshotId": "public:fa41aa0042a7252cc0a09dba50fb77fd517cabda",
-      "snapshotId": "public:c9ef9f236b50cdee1923c9be826d8157aaca348e",
-      "added": 1,
-      "removed": 1,
-      "addedTracks": [
-        {
-          "spotifyId": "5uvG5xETXhVkBSr09RBjyC",
-          "title": "Tera Mera Rishta - New Version",
-          "artistNames": [
-            "Mithoon",
-            "Pritam",
-            "Mustafa Zahid",
-            "Sayeed Quadri",
-            "Saaj Bhatt",
-            "Subodhh Sharma"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "7myz4NUL4qKaUI01IlkDie",
-          "title": "QEHER (From \"Dhamaal 4\")",
-          "artistNames": [
-            "Guru Randhawa",
-            "Gill Machhrai",
-            "Rony Ajnali",
-            "Sanjoy"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "indie-india",
-      "title": "Indie India ",
-      "previousSnapshotId": "public:a11cd489f05d6e27b2ac1a041ae8cdc5c1d10f80",
-      "snapshotId": "public:25e9d150c6577973da2003680747c8a4a68aa392",
-      "added": 4,
-      "removed": 4,
-      "addedTracks": [
-        {
-          "spotifyId": "2iVj11OdEBNIGUv9f7jGPK",
-          "title": "Taare",
-          "artistNames": [
-            "Farak",
-            "10A",
-            "Saswat Balan"
-          ]
-        },
-        {
-          "spotifyId": "4vgWEM1dc8S3JMjHrSdFTo",
-          "title": "Marham",
-          "artistNames": [
-            "Divyam Sodhi",
-            "Khwaab",
-            "Aditi Raj"
-          ]
-        },
-        {
-          "spotifyId": "2FAsIE5rXnHFxLbVgQbxYa",
-          "title": "Cries in Crocodile",
-          "artistNames": [
-            "JBABE"
-          ]
-        },
-        {
-          "spotifyId": "4iHO9d5IT1Jc0EgMVBROG0",
-          "title": "Saawariya",
-          "artistNames": [
-            "Iqlipse Nova",
-            "Hiten",
-            "Bandana Datta"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "0FCe2NhPWKiSTAipf0lOAT",
-          "title": "Chor",
-          "artistNames": [
-            "Justh"
-          ]
-        },
-        {
-          "spotifyId": "2AB7fsbG0eZJjDGile69CQ",
-          "title": "Mera Safar",
-          "artistNames": [
-            "Iqlipse Nova"
-          ]
-        },
-        {
-          "spotifyId": "7iIEFHrNvn6buQdP9dJY1N",
-          "title": "Dhak Dhak",
-          "artistNames": [
-            "Aanchal Tyagi",
-            "Raga",
-            "Rusha & Blizza",
-            "Abhijeet Srivastava"
-          ]
-        },
-        {
-          "spotifyId": "3euf8ftyX9tjpqXJgF5NlM",
-          "title": "Mann",
-          "artistNames": [
-            "The Yellow Diary"
-          ]
-        }
-      ]
-    },
-    {
       "slug": "ethiopian-jazz",
       "title": "ethiopian jazz",
-      "previousSnapshotId": "public:d3e392c7734ea86449d268480d0993e7694fae3d",
-      "snapshotId": "public:8307e1190afdc21d7ece73e9d80cdad1eb7edb48",
+      "previousSnapshotId": "public:8307e1190afdc21d7ece73e9d80cdad1eb7edb48",
+      "snapshotId": "public:a2bd7714cccf22e84779ef3269c7b72ca902b5fc",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -288,8 +691,8 @@
     {
       "slug": "eritrean-music",
       "title": "Eritrean music 🇪🇷🇪🇷🇪🇷",
-      "previousSnapshotId": "public:6408fde27216dade90163c865fc66d0a8b7eaea2",
-      "snapshotId": "public:58e52892335f1bdf308cbcf5dbe7c41f01284389",
+      "previousSnapshotId": "public:58e52892335f1bdf308cbcf5dbe7c41f01284389",
+      "snapshotId": "public:da258c1eeada8752643868cfbf33d7d8a2c21466",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -298,28 +701,44 @@
     {
       "slug": "amharic-gospel-songs",
       "title": "Amharic Gospel Songs  መዝሙር (MeZMuR)",
-      "previousSnapshotId": "public:85afd81162d08b9544b48b25c2fb3b123c7a979d",
-      "snapshotId": "public:72beae7d0c9d8771f962947a6d984deee72d9116",
+      "previousSnapshotId": "public:72beae7d0c9d8771f962947a6d984deee72d9116",
+      "snapshotId": "public:3152c92a474018557a89f4e666aa9e88e47da385",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
+    },
+    {
+      "slug": "k-pop-on",
+      "title": "K-Pop ON! (온)",
+      "previousSnapshotId": "public:d47ba9cb06d7f01a7b61460965024c4837c5aa45",
+      "snapshotId": "public:5160d3afa5057266eba206ae4d207565e1c55b1c",
+      "added": 1,
+      "removed": 1,
+      "addedTracks": [
+        {
+          "spotifyId": "4pZi0VxU2C8zuxCYfEtFuL",
+          "title": "BiiiG",
+          "artistNames": [
+            "BIGBANG"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "7Cy79KgYPsjOTX7VITI1U1",
+          "title": "CELEBRATION",
+          "artistNames": [
+            "LE SSERAFIM"
+          ]
+        }
+      ]
     },
     {
       "slug": "puerto-rico-top-hits",
       "title": "Top 50 Puerto Rico 🇵🇷 2024",
-      "previousSnapshotId": "public:13945ac9935be75c30bd37e7790ca4c49efa734a",
-      "snapshotId": "public:1c1a3af9c14a584bdeaba5f1afc62ff7f3b89d3a",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "pakistan-top-songs",
-      "title": "Top 50 Pakistan Songs | New Pakistani Songs 2026",
-      "previousSnapshotId": "public:ff72b743e54a5fc532a9d36a4ef03593bf3a2d77",
-      "snapshotId": "public:0bd7d494aaf7c9563ac94d3c87b60b9fd53c81ea",
+      "previousSnapshotId": "public:1c1a3af9c14a584bdeaba5f1afc62ff7f3b89d3a",
+      "snapshotId": "public:13945ac9935be75c30bd37e7790ca4c49efa734a",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -328,8 +747,8 @@
     {
       "slug": "pakistan-trending",
       "title": "Trending 50 - Pakistan",
-      "previousSnapshotId": "public:6c19159f9ac2f97d1cb4de8685fa9fa2839a3573",
-      "snapshotId": "public:af6c0054d74bb8e7c6efa1ef2ad3c4d8823fbac3",
+      "previousSnapshotId": "public:af6c0054d74bb8e7c6efa1ef2ad3c4d8823fbac3",
+      "snapshotId": "public:2baa5b220915057c73dcbe7ff236810148f7f998",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
