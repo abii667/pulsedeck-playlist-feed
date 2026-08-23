@@ -4,7 +4,7 @@
   "region": "KR",
   "regionName": "South Korea",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/kr/music/most-played/50/playlists.json",
-  "updatedAt": "2026-08-22T07:01:39.000Z",
+  "updatedAt": "2026-08-23T07:03:47.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
@@ -25,6 +25,21 @@
     },
     {
       "position": 2,
+      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "provider": "apple-music",
+      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "title": "오늘의 히트곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e0/58/22/e05822ef-90ce-e867-34b2-eb5503c6fa43/e4d8722b-5a5b-42f5-a5b8-69a65412c84b.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EC%98%A4%EB%8A%98%EC%9D%98-%ED%9E%88%ED%8A%B8%EA%B3%A1/pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 3,
       "id": "apple:pl.a784f95d4f504d579647523ff95433be",
       "provider": "apple-music",
       "appleId": "pl.a784f95d4f504d579647523ff95433be",
@@ -34,21 +49,6 @@
       "interests": [
         "pop",
         "k-pop"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 3,
-      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "provider": "apple-music",
-      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "title": "오늘의 히트곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e0/58/22/e05822ef-90ce-e867-34b2-eb5503c6fa43/e4d8722b-5a5b-42f5-a5b8-69a65412c84b.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EC%98%A4%EB%8A%98%EC%9D%98-%ED%9E%88%ED%8A%B8%EA%B3%A1/pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "interests": [
-        "popular"
       ],
       "regions": [
         "KR"
@@ -134,36 +134,6 @@
     },
     {
       "position": 9,
-      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "provider": "apple-music",
-      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "title": "편안한 피아노 음악",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%ED%8E%B8%EC%95%88%ED%95%9C-%ED%94%BC%EC%95%84%EB%85%B8-%EC%9D%8C%EC%95%85/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 10,
-      "id": "apple:pl.6089d82f985347c6ad34a0e3bf4c3bbc",
-      "provider": "apple-music",
-      "appleId": "pl.6089d82f985347c6ad34a0e3bf4c3bbc",
-      "title": "발라드",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/3e/5d/74/3e5d747e-4001-811a-e92d-d37609231161/d3deec32-f53a-41b2-b209-b314c029cd20.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EB%B0%9C%EB%9D%BC%EB%93%9C/pl.6089d82f985347c6ad34a0e3bf4c3bbc",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 11,
       "id": "apple:pl.5ee8333dbe944d9f9151e97d92d1ead9",
       "provider": "apple-music",
       "appleId": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
@@ -178,7 +148,22 @@
       ]
     },
     {
-      "position": 12,
+      "position": 10,
+      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "provider": "apple-music",
+      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "title": "편안한 피아노 음악",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%ED%8E%B8%EC%95%88%ED%95%9C-%ED%94%BC%EC%95%84%EB%85%B8-%EC%9D%8C%EC%95%85/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 11,
       "id": "apple:pl.c43266de1cc742f39c91d6b1f7c9fd88",
       "provider": "apple-music",
       "appleId": "pl.c43266de1cc742f39c91d6b1f7c9fd88",
@@ -194,53 +179,22 @@
       ]
     },
     {
+      "position": 12,
+      "id": "apple:pl.6089d82f985347c6ad34a0e3bf4c3bbc",
+      "provider": "apple-music",
+      "appleId": "pl.6089d82f985347c6ad34a0e3bf4c3bbc",
+      "title": "발라드",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/3e/5d/74/3e5d747e-4001-811a-e92d-d37609231161/d3deec32-f53a-41b2-b209-b314c029cd20.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EB%B0%9C%EB%9D%BC%EB%93%9C/pl.6089d82f985347c6ad34a0e3bf4c3bbc",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
       "position": 13,
-      "id": "apple:pl.63271312c084419891982eab46cc68ac",
-      "provider": "apple-music",
-      "appleId": "pl.63271312c084419891982eab46cc68ac",
-      "title": "편안한 재즈",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%ED%8E%B8%EC%95%88%ED%95%9C-%EC%9E%AC%EC%A6%88/pl.63271312c084419891982eab46cc68ac",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 14,
-      "id": "apple:pl.161503b34ff7441a949c81bd19525b35",
-      "provider": "apple-music",
-      "appleId": "pl.161503b34ff7441a949c81bd19525b35",
-      "title": "K-Pop: 2025년 히트곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/89/08/aa/8908aae2-bb79-7d9a-7d71-04b4ef7d3dce/2806f6ce-37d7-4984-8d1a-f6020ae2f4b0.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/k-pop-2025%EB%85%84-%ED%9E%88%ED%8A%B8%EA%B3%A1/pl.161503b34ff7441a949c81bd19525b35",
-      "interests": [
-        "pop",
-        "k-pop"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 15,
-      "id": "apple:pl.66c17ed5cc754856b944a9150483e375",
-      "provider": "apple-music",
-      "appleId": "pl.66c17ed5cc754856b944a9150483e375",
-      "title": "오늘의 클래식",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b4/20/13/b420137f-c9fc-8407-b861-a95294ed6e4f/87e5babb-9841-43d0-a087-43046753b152.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EC%98%A4%EB%8A%98%EC%9D%98-%ED%81%B4%EB%9E%98%EC%8B%9D/pl.66c17ed5cc754856b944a9150483e375",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 16,
       "id": "apple:pl.5a26d34eb6ec4825976bdef03784537d",
       "provider": "apple-music",
       "appleId": "pl.5a26d34eb6ec4825976bdef03784537d",
@@ -255,22 +209,7 @@
       ]
     },
     {
-      "position": 17,
-      "id": "apple:pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "provider": "apple-music",
-      "appleId": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "title": "R&B Now",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/eb/b3/a3/ebb3a3a5-98b1-de41-647e-83049a4df0a3/df67a34f-8fa5-4b54-b826-50a79bd2c421.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/r-b-now/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "interests": [
-        "rnb"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 18,
+      "position": 14,
       "id": "apple:pl.4d2dbe3d55064021870291c2eb29bc72",
       "provider": "apple-music",
       "appleId": "pl.4d2dbe3d55064021870291c2eb29bc72",
@@ -286,13 +225,13 @@
       ]
     },
     {
-      "position": 19,
-      "id": "apple:pl.9281896b8ae443d6b9ac20a734961720",
+      "position": 15,
+      "id": "apple:pl.63271312c084419891982eab46cc68ac",
       "provider": "apple-music",
-      "appleId": "pl.9281896b8ae443d6b9ac20a734961720",
-      "title": "감성 발라드",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b2/e4/58/b2e458ac-d068-e1af-f2ba-6d4421f12711/e3fb28b9-d4aa-48fa-9ebe-7c7f2d695007.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EA%B0%90%EC%84%B1-%EB%B0%9C%EB%9D%BC%EB%93%9C/pl.9281896b8ae443d6b9ac20a734961720",
+      "appleId": "pl.63271312c084419891982eab46cc68ac",
+      "title": "편안한 재즈",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%ED%8E%B8%EC%95%88%ED%95%9C-%EC%9E%AC%EC%A6%88/pl.63271312c084419891982eab46cc68ac",
       "interests": [
         "popular"
       ],
@@ -301,13 +240,75 @@
       ]
     },
     {
-      "position": 20,
+      "position": 16,
+      "id": "apple:pl.161503b34ff7441a949c81bd19525b35",
+      "provider": "apple-music",
+      "appleId": "pl.161503b34ff7441a949c81bd19525b35",
+      "title": "K-Pop: 2025년 히트곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/89/08/aa/8908aae2-bb79-7d9a-7d71-04b4ef7d3dce/2806f6ce-37d7-4984-8d1a-f6020ae2f4b0.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/k-pop-2025%EB%85%84-%ED%9E%88%ED%8A%B8%EA%B3%A1/pl.161503b34ff7441a949c81bd19525b35",
+      "interests": [
+        "pop",
+        "k-pop"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 17,
+      "id": "apple:pl.66c17ed5cc754856b944a9150483e375",
+      "provider": "apple-music",
+      "appleId": "pl.66c17ed5cc754856b944a9150483e375",
+      "title": "오늘의 클래식",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b4/20/13/b420137f-c9fc-8407-b861-a95294ed6e4f/87e5babb-9841-43d0-a087-43046753b152.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EC%98%A4%EB%8A%98%EC%9D%98-%ED%81%B4%EB%9E%98%EC%8B%9D/pl.66c17ed5cc754856b944a9150483e375",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 18,
       "id": "apple:pl.cf8514b686374fadbe6807a6339dfd89",
       "provider": "apple-music",
       "appleId": "pl.cf8514b686374fadbe6807a6339dfd89",
       "title": "집중력을 높여주는 클래식",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/fa/02/dd/fa02ddab-2d5d-7701-8206-4d5eae805001/tns.wpihpant.png/1200x1200bb.jpg?l=ko-KR",
       "appleUrl": "https://music.apple.com/kr/playlist/%EC%A7%91%EC%A4%91%EB%A0%A5%EC%9D%84-%EB%86%92%EC%97%AC%EC%A3%BC%EB%8A%94-%ED%81%B4%EB%9E%98%EC%8B%9D/pl.cf8514b686374fadbe6807a6339dfd89",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 19,
+      "id": "apple:pl.aa223e8b7d274f6d81b31806d7653b72",
+      "provider": "apple-music",
+      "appleId": "pl.aa223e8b7d274f6d81b31806d7653b72",
+      "title": "2010년대 K-Pop 대표곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/38/d6/1b/38d61bb6-6e77-9107-74c5-f243f3cc642b/746eede6-45e4-450e-98cf-4d7c7c614564.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/2010%EB%85%84%EB%8C%80-k-pop-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.aa223e8b7d274f6d81b31806d7653b72",
+      "interests": [
+        "pop",
+        "k-pop"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 20,
+      "id": "apple:pl.9281896b8ae443d6b9ac20a734961720",
+      "provider": "apple-music",
+      "appleId": "pl.9281896b8ae443d6b9ac20a734961720",
+      "title": "감성 발라드",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b2/e4/58/b2e458ac-d068-e1af-f2ba-6d4421f12711/e3fb28b9-d4aa-48fa-9ebe-7c7f2d695007.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EA%B0%90%EC%84%B1-%EB%B0%9C%EB%9D%BC%EB%93%9C/pl.9281896b8ae443d6b9ac20a734961720",
       "interests": [
         "popular"
       ],
@@ -332,22 +333,6 @@
     },
     {
       "position": 22,
-      "id": "apple:pl.aa223e8b7d274f6d81b31806d7653b72",
-      "provider": "apple-music",
-      "appleId": "pl.aa223e8b7d274f6d81b31806d7653b72",
-      "title": "2010년대 K-Pop 대표곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/38/d6/1b/38d61bb6-6e77-9107-74c5-f243f3cc642b/746eede6-45e4-450e-98cf-4d7c7c614564.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/2010%EB%85%84%EB%8C%80-k-pop-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.aa223e8b7d274f6d81b31806d7653b72",
-      "interests": [
-        "pop",
-        "k-pop"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 23,
       "id": "apple:pl.e12faae7841049e5a5443c34f6178d41",
       "provider": "apple-music",
       "appleId": "pl.e12faae7841049e5a5443c34f6178d41",
@@ -362,37 +347,22 @@
       ]
     },
     {
+      "position": 23,
+      "id": "apple:pl.87a821978fdf43e096838f307e696205",
+      "provider": "apple-music",
+      "appleId": "pl.87a821978fdf43e096838f307e696205",
+      "title": "캐치! 티니핑 대표곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/75/e4/7d/75e47d97-6f68-ef3e-edef-83567b63f15e/mzl.jpfbcskf.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EC%BA%90%EC%B9%98-%ED%8B%B0%EB%8B%88%ED%95%91-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.87a821978fdf43e096838f307e696205",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
       "position": 24,
-      "id": "apple:pl.fc0d9d21c13c46149110dfd8dd844896",
-      "provider": "apple-music",
-      "appleId": "pl.fc0d9d21c13c46149110dfd8dd844896",
-      "title": "감미로운 재즈 피아노곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/70/65/4d/70654d22-afb0-05ab-69bb-d9e7c0176a82/U0MtTVMtV1ctUGlhbm9fQmFyXy1BREFNX0lEPTExMTA1NTQzOTUucG5n.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EA%B0%90%EB%AF%B8%EB%A1%9C%EC%9A%B4-%EC%9E%AC%EC%A6%88-%ED%94%BC%EC%95%84%EB%85%B8%EA%B3%A1/pl.fc0d9d21c13c46149110dfd8dd844896",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 25,
-      "id": "apple:pl.b5e8dbe8a706496496e1292466839207",
-      "provider": "apple-music",
-      "appleId": "pl.b5e8dbe8a706496496e1292466839207",
-      "title": "편안한 어쿠스틱 음악",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c5/51/38/c5513893-6092-3ab0-9a1d-e8e8001feeef/119b050f-feb9-472f-81ee-96fd6643fe9e.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%ED%8E%B8%EC%95%88%ED%95%9C-%EC%96%B4%EC%BF%A0%EC%8A%A4%ED%8B%B1-%EC%9D%8C%EC%95%85/pl.b5e8dbe8a706496496e1292466839207",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 26,
       "id": "apple:pl.c2ab8af2e9e74576b3bb45d62819d5cd",
       "provider": "apple-music",
       "appleId": "pl.c2ab8af2e9e74576b3bb45d62819d5cd",
@@ -407,13 +377,43 @@
       ]
     },
     {
-      "position": 27,
-      "id": "apple:pl.7bbc04417c3e4876a9a260e81f9a2c6c",
+      "position": 25,
+      "id": "apple:pl.aafb3954f05a4d9283477ee19d53af4d",
       "provider": "apple-music",
-      "appleId": "pl.7bbc04417c3e4876a9a260e81f9a2c6c",
-      "title": "대한민국 대표 힙합",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/80/85/15/8085159c-42f6-b048-88f0-02778ce4174f/U0MtTVMtV1ctS29yZWFuX0hpcC1Ib3BfTm93LUFEQU1fSUQ9MTI1ODAzMzY5Ny5wbmc.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EB%8C%80%ED%91%9C-%ED%9E%99%ED%95%A9/pl.7bbc04417c3e4876a9a260e81f9a2c6c",
+      "appleId": "pl.aafb3954f05a4d9283477ee19d53af4d",
+      "title": "비가 내리면",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a8/ce/41/a8ce41a5-edfd-3cbf-ca51-cf1e60f2ea65/1f4524f8-6bb1-4120-ae19-42c025fe3164.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EB%B9%84%EA%B0%80-%EB%82%B4%EB%A6%AC%EB%A9%B4/pl.aafb3954f05a4d9283477ee19d53af4d",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 26,
+      "id": "apple:pl.fc0d9d21c13c46149110dfd8dd844896",
+      "provider": "apple-music",
+      "appleId": "pl.fc0d9d21c13c46149110dfd8dd844896",
+      "title": "감미로운 재즈 피아노곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/70/65/4d/70654d22-afb0-05ab-69bb-d9e7c0176a82/U0MtTVMtV1ctUGlhbm9fQmFyXy1BREFNX0lEPTExMTA1NTQzOTUucG5n.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EA%B0%90%EB%AF%B8%EB%A1%9C%EC%9A%B4-%EC%9E%AC%EC%A6%88-%ED%94%BC%EC%95%84%EB%85%B8%EA%B3%A1/pl.fc0d9d21c13c46149110dfd8dd844896",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 27,
+      "id": "apple:pl.b5e8dbe8a706496496e1292466839207",
+      "provider": "apple-music",
+      "appleId": "pl.b5e8dbe8a706496496e1292466839207",
+      "title": "편안한 어쿠스틱 음악",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c5/51/38/c5513893-6092-3ab0-9a1d-e8e8001feeef/119b050f-feb9-472f-81ee-96fd6643fe9e.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%ED%8E%B8%EC%95%88%ED%95%9C-%EC%96%B4%EC%BF%A0%EC%8A%A4%ED%8B%B1-%EC%9D%8C%EC%95%85/pl.b5e8dbe8a706496496e1292466839207",
       "interests": [
         "popular"
       ],
@@ -438,14 +438,14 @@
     },
     {
       "position": 29,
-      "id": "apple:pl.6b2b3f8276da49d29292089d6793d589",
+      "id": "apple:pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "provider": "apple-music",
-      "appleId": "pl.6b2b3f8276da49d29292089d6793d589",
-      "title": "드라마 OST: 2016년",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/4O1xzdVja0y53qf7J02aYw/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EB%93%9C%EB%9D%BC%EB%A7%88-ost-2016%EB%85%84/pl.6b2b3f8276da49d29292089d6793d589",
+      "appleId": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
+      "title": "R&B Now",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/eb/b3/a3/ebb3a3a5-98b1-de41-647e-83049a4df0a3/df67a34f-8fa5-4b54-b826-50a79bd2c421.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/r-b-now/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "interests": [
-        "popular"
+        "rnb"
       ],
       "regions": [
         "KR"
@@ -453,12 +453,12 @@
     },
     {
       "position": 30,
-      "id": "apple:pl.6cbec98d25194addb2b012e681e0eff6",
+      "id": "apple:pl.7bbc04417c3e4876a9a260e81f9a2c6c",
       "provider": "apple-music",
-      "appleId": "pl.6cbec98d25194addb2b012e681e0eff6",
-      "title": "여름 바이브",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/c1/96/91c196b3-876d-35a0-80fb-1b559ecbd9a6/U0MtTVMtV1ctU3VtbWVyX1ZpYmVzLWR5bmFtaWNzLUFkYW1fSUQ9IDk3NjQ0OTIwMy5wbmc.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EC%97%AC%EB%A6%84-%EB%B0%94%EC%9D%B4%EB%B8%8C/pl.6cbec98d25194addb2b012e681e0eff6",
+      "appleId": "pl.7bbc04417c3e4876a9a260e81f9a2c6c",
+      "title": "대한민국 대표 힙합",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/80/85/15/8085159c-42f6-b048-88f0-02778ce4174f/U0MtTVMtV1ctS29yZWFuX0hpcC1Ib3BfTm93LUFEQU1fSUQ9MTI1ODAzMzY5Ny5wbmc.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EB%8C%80%ED%91%9C-%ED%9E%99%ED%95%A9/pl.7bbc04417c3e4876a9a260e81f9a2c6c",
       "interests": [
         "popular"
       ],
@@ -468,36 +468,6 @@
     },
     {
       "position": 31,
-      "id": "apple:pl.2a0b1ea7704842f4b956e959067b8389",
-      "provider": "apple-music",
-      "appleId": "pl.2a0b1ea7704842f4b956e959067b8389",
-      "title": "나만의 공간에서",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/0a/9a/e1/0a9ae10b-c36d-0ec8-e12b-a5453e457f2b/U0MtTVMtV1ctSW5fTXlfUm9vbS1BREFNX0lEPTExNDQ1NzA1MjkucG5n.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EB%82%98%EB%A7%8C%EC%9D%98-%EA%B3%B5%EA%B0%84%EC%97%90%EC%84%9C/pl.2a0b1ea7704842f4b956e959067b8389",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 32,
-      "id": "apple:pl.9dc583e20e344cc4bf7dc823abde7a2c",
-      "provider": "apple-music",
-      "appleId": "pl.9dc583e20e344cc4bf7dc823abde7a2c",
-      "title": "클래식 히트곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/56/7d/83567db9-7603-3d20-38a7-b03351373d5d/24953f74-0d05-4381-a1f1-aea00ac26959.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%ED%81%B4%EB%9E%98%EC%8B%9D-%ED%9E%88%ED%8A%B8%EA%B3%A1/pl.9dc583e20e344cc4bf7dc823abde7a2c",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 33,
       "id": "apple:pl.63fc4cf1d5514d8a97f55e8fb8e34dc8",
       "provider": "apple-music",
       "appleId": "pl.63fc4cf1d5514d8a97f55e8fb8e34dc8",
@@ -513,13 +483,43 @@
       ]
     },
     {
-      "position": 34,
-      "id": "apple:pl.4bf2f48ec4504e32a85fc0380f73c638",
+      "position": 32,
+      "id": "apple:pl.6cbec98d25194addb2b012e681e0eff6",
       "provider": "apple-music",
-      "appleId": "pl.4bf2f48ec4504e32a85fc0380f73c638",
-      "title": "진격의 거인 대표곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c3/3d/e2/c33de272-cc65-92fe-de02-63b8e47d70b3/99910f01-53e7-4a76-a4ae-2c58a8063850.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EC%A7%84%EA%B2%A9%EC%9D%98-%EA%B1%B0%EC%9D%B8-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.4bf2f48ec4504e32a85fc0380f73c638",
+      "appleId": "pl.6cbec98d25194addb2b012e681e0eff6",
+      "title": "여름 바이브",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/c1/96/91c196b3-876d-35a0-80fb-1b559ecbd9a6/U0MtTVMtV1ctU3VtbWVyX1ZpYmVzLWR5bmFtaWNzLUFkYW1fSUQ9IDk3NjQ0OTIwMy5wbmc.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EC%97%AC%EB%A6%84-%EB%B0%94%EC%9D%B4%EB%B8%8C/pl.6cbec98d25194addb2b012e681e0eff6",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 33,
+      "id": "apple:pl.6b2b3f8276da49d29292089d6793d589",
+      "provider": "apple-music",
+      "appleId": "pl.6b2b3f8276da49d29292089d6793d589",
+      "title": "드라마 OST: 2016년",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/4O1xzdVja0y53qf7J02aYw/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EB%93%9C%EB%9D%BC%EB%A7%88-ost-2016%EB%85%84/pl.6b2b3f8276da49d29292089d6793d589",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 34,
+      "id": "apple:pl.2a0b1ea7704842f4b956e959067b8389",
+      "provider": "apple-music",
+      "appleId": "pl.2a0b1ea7704842f4b956e959067b8389",
+      "title": "나만의 공간에서",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/0a/9a/e1/0a9ae10b-c36d-0ec8-e12b-a5453e457f2b/U0MtTVMtV1ctSW5fTXlfUm9vbS1BREFNX0lEPTExNDQ1NzA1MjkucG5n.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EB%82%98%EB%A7%8C%EC%9D%98-%EA%B3%B5%EA%B0%84%EC%97%90%EC%84%9C/pl.2a0b1ea7704842f4b956e959067b8389",
       "interests": [
         "popular"
       ],
@@ -559,12 +559,12 @@
     },
     {
       "position": 37,
-      "id": "apple:pl.e5a782b2b5424d1bbd6b5b9ac04d09a0",
+      "id": "apple:pl.9dc583e20e344cc4bf7dc823abde7a2c",
       "provider": "apple-music",
-      "appleId": "pl.e5a782b2b5424d1bbd6b5b9ac04d09a0",
-      "title": "방탄소년단 대표곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/8d/87/3c8d8721-24fa-0250-7e00-3f1990ccc0c0/ami-identity-5644914dae79e9896405d9b5b7ac9e89-2026-03-20T04-09-55.932Z_cropped.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.e5a782b2b5424d1bbd6b5b9ac04d09a0",
+      "appleId": "pl.9dc583e20e344cc4bf7dc823abde7a2c",
+      "title": "클래식 히트곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/56/7d/83567db9-7603-3d20-38a7-b03351373d5d/24953f74-0d05-4381-a1f1-aea00ac26959.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%ED%81%B4%EB%9E%98%EC%8B%9D-%ED%9E%88%ED%8A%B8%EA%B3%A1/pl.9dc583e20e344cc4bf7dc823abde7a2c",
       "interests": [
         "popular"
       ],
@@ -590,12 +590,12 @@
     },
     {
       "position": 39,
-      "id": "apple:pl.aafb3954f05a4d9283477ee19d53af4d",
+      "id": "apple:pl.4bf2f48ec4504e32a85fc0380f73c638",
       "provider": "apple-music",
-      "appleId": "pl.aafb3954f05a4d9283477ee19d53af4d",
-      "title": "비가 내리면",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/a8/ce/41/a8ce41a5-edfd-3cbf-ca51-cf1e60f2ea65/1f4524f8-6bb1-4120-ae19-42c025fe3164.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EB%B9%84%EA%B0%80-%EB%82%B4%EB%A6%AC%EB%A9%B4/pl.aafb3954f05a4d9283477ee19d53af4d",
+      "appleId": "pl.4bf2f48ec4504e32a85fc0380f73c638",
+      "title": "진격의 거인 대표곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c3/3d/e2/c33de272-cc65-92fe-de02-63b8e47d70b3/99910f01-53e7-4a76-a4ae-2c58a8063850.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EC%A7%84%EA%B2%A9%EC%9D%98-%EA%B1%B0%EC%9D%B8-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.4bf2f48ec4504e32a85fc0380f73c638",
       "interests": [
         "popular"
       ],
@@ -605,12 +605,12 @@
     },
     {
       "position": 40,
-      "id": "apple:pl.9a964a33c1484aec8fdb0cac3e7771ed",
+      "id": "apple:pl.0ba2b2f245a8436dba7b8120d8ade8c5",
       "provider": "apple-music",
-      "appleId": "pl.9a964a33c1484aec8fdb0cac3e7771ed",
-      "title": "편안한 팝",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/b4/e4/3e/b4e43e28-d2cb-2169-0106-6b9c80163b34/e581e29d-a3f4-40c5-9ec4-8c747b5fc7dc.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%ED%8E%B8%EC%95%88%ED%95%9C-%ED%8C%9D/pl.9a964a33c1484aec8fdb0cac3e7771ed",
+      "appleId": "pl.0ba2b2f245a8436dba7b8120d8ade8c5",
+      "title": "보사노바 대표곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/f9/ac/c7/f9acc7bc-6564-2429-5ff3-512a1628c262/f7fb4721-c244-4581-b01d-4ba583ac03d8.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EB%B3%B4%EC%82%AC%EB%85%B8%EB%B0%94-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.0ba2b2f245a8436dba7b8120d8ade8c5",
       "interests": [
         "popular"
       ],
@@ -620,12 +620,12 @@
     },
     {
       "position": 41,
-      "id": "apple:pl.d710b9dcbdc54590b9cfbe09c3be4902",
+      "id": "apple:pl.e5a782b2b5424d1bbd6b5b9ac04d09a0",
       "provider": "apple-music",
-      "appleId": "pl.d710b9dcbdc54590b9cfbe09c3be4902",
-      "title": "아침을 여는 클래식",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/29/dd/92/29dd9284-4367-6bf3-a41a-9d8c815d707c/6f65f2a2-1094-479b-bdcf-548f85bb440f.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EC%95%84%EC%B9%A8%EC%9D%84-%EC%97%AC%EB%8A%94-%ED%81%B4%EB%9E%98%EC%8B%9D/pl.d710b9dcbdc54590b9cfbe09c3be4902",
+      "appleId": "pl.e5a782b2b5424d1bbd6b5b9ac04d09a0",
+      "title": "방탄소년단 대표곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/8d/87/3c8d8721-24fa-0250-7e00-3f1990ccc0c0/ami-identity-5644914dae79e9896405d9b5b7ac9e89-2026-03-20T04-09-55.932Z_cropped.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.e5a782b2b5424d1bbd6b5b9ac04d09a0",
       "interests": [
         "popular"
       ],
@@ -635,6 +635,82 @@
     },
     {
       "position": 42,
+      "id": "apple:pl.b0e04e25887741ea845e1d5c88397fd4",
+      "provider": "apple-music",
+      "appleId": "pl.b0e04e25887741ea845e1d5c88397fd4",
+      "title": "크리스마스 시즌 명곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/d1/a8/45/d1a84579-ce57-5a1f-1334-e6c417605020/befc39eb-584c-4681-92b0-16c913f1230a.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/kr/playlist/%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%EC%8B%9C%EC%A6%8C-%EB%AA%85%EA%B3%A1/pl.b0e04e25887741ea845e1d5c88397fd4",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 43,
+      "id": "apple:pl.5e279cbb888c4de5b446460fa09fce08",
+      "provider": "apple-music",
+      "appleId": "pl.5e279cbb888c4de5b446460fa09fce08",
+      "title": "떠오르는 팝",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/66/5c/b9/665cb9d8-9255-3722-b090-10e94ae31afc/U0MtTVMtV1ctQnJlYWtpbmdfUG9wLUFEQU1fSUQ9MTA0NTQ2MzI4OC5wbmc.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8A%94-%ED%8C%9D/pl.5e279cbb888c4de5b446460fa09fce08",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 44,
+      "id": "apple:pl.a11b2499453a49209daf4ba27932539a",
+      "provider": "apple-music",
+      "appleId": "pl.a11b2499453a49209daf4ba27932539a",
+      "title": "K-Pop: 2009년 히트곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/db/5c/30/db5c30d6-7602-b75f-0c0a-e781fc547555/2ce571a4-8f71-4dad-8e36-5cfdc484f8b1.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/k-pop-2009%EB%85%84-%ED%9E%88%ED%8A%B8%EA%B3%A1/pl.a11b2499453a49209daf4ba27932539a",
+      "interests": [
+        "pop",
+        "k-pop"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 45,
+      "id": "apple:pl.13549accc2584ebd8a5c7aad3798aa5e",
+      "provider": "apple-music",
+      "appleId": "pl.13549accc2584ebd8a5c7aad3798aa5e",
+      "title": "싸이 대표곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/88/1d/7b/881d7b10-1323-263f-e0ee-d188db93bf28/mzl.ldluppoc.jpeg/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/%EC%8B%B8%EC%9D%B4-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.13549accc2584ebd8a5c7aad3798aa5e",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 46,
+      "id": "apple:pl.2c470ab2cb66414682b100335afe72af",
+      "provider": "apple-music",
+      "appleId": "pl.2c470ab2cb66414682b100335afe72af",
+      "title": "Rewind: 한국 R&B",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/12/1a/d8/121ad82e-7476-76f2-d177-7356819534bb/4f2d6932-015b-4110-bf5e-b168ff7c22bd.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/rewind-%ED%95%9C%EA%B5%AD-r-b/pl.2c470ab2cb66414682b100335afe72af",
+      "interests": [
+        "rnb"
+      ],
+      "regions": [
+        "KR"
+      ]
+    },
+    {
+      "position": 47,
       "id": "apple:pl.af114658b52544f2a9aa4c6920e16352",
       "provider": "apple-music",
       "appleId": "pl.af114658b52544f2a9aa4c6920e16352",
@@ -650,90 +726,16 @@
       ]
     },
     {
-      "position": 43,
-      "id": "apple:pl.87a821978fdf43e096838f307e696205",
-      "provider": "apple-music",
-      "appleId": "pl.87a821978fdf43e096838f307e696205",
-      "title": "캐치! 티니핑 대표곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/75/e4/7d/75e47d97-6f68-ef3e-edef-83567b63f15e/mzl.jpfbcskf.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EC%BA%90%EC%B9%98-%ED%8B%B0%EB%8B%88%ED%95%91-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.87a821978fdf43e096838f307e696205",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 44,
-      "id": "apple:pl.0ba2b2f245a8436dba7b8120d8ade8c5",
-      "provider": "apple-music",
-      "appleId": "pl.0ba2b2f245a8436dba7b8120d8ade8c5",
-      "title": "보사노바 대표곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/f9/ac/c7/f9acc7bc-6564-2429-5ff3-512a1628c262/f7fb4721-c244-4581-b01d-4ba583ac03d8.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EB%B3%B4%EC%82%AC%EB%85%B8%EB%B0%94-%EB%8C%80%ED%91%9C%EA%B3%A1/pl.0ba2b2f245a8436dba7b8120d8ade8c5",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 45,
-      "id": "apple:pl.2c470ab2cb66414682b100335afe72af",
-      "provider": "apple-music",
-      "appleId": "pl.2c470ab2cb66414682b100335afe72af",
-      "title": "Rewind: 한국 R&B",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/12/1a/d8/121ad82e-7476-76f2-d177-7356819534bb/4f2d6932-015b-4110-bf5e-b168ff7c22bd.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/rewind-%ED%95%9C%EA%B5%AD-r-b/pl.2c470ab2cb66414682b100335afe72af",
-      "interests": [
-        "rnb"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 46,
-      "id": "apple:pl.5e279cbb888c4de5b446460fa09fce08",
-      "provider": "apple-music",
-      "appleId": "pl.5e279cbb888c4de5b446460fa09fce08",
-      "title": "떠오르는 팝",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/66/5c/b9/665cb9d8-9255-3722-b090-10e94ae31afc/U0MtTVMtV1ctQnJlYWtpbmdfUG9wLUFEQU1fSUQ9MTA0NTQ2MzI4OC5wbmc.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8A%94-%ED%8C%9D/pl.5e279cbb888c4de5b446460fa09fce08",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
-      "position": 47,
-      "id": "apple:pl.6db5f7b47286460e9928d09d9ac0be69",
-      "provider": "apple-music",
-      "appleId": "pl.6db5f7b47286460e9928d09d9ac0be69",
-      "title": "최신 히트곡 & 러닝",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/a2/fd/7b/a2fd7bc6-05ef-47f9-7c29-81244c68881a/contsched.gaoyqjgq.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EC%B5%9C%EC%8B%A0-%ED%9E%88%ED%8A%B8%EA%B3%A1-%EB%9F%AC%EB%8B%9D/pl.6db5f7b47286460e9928d09d9ac0be69",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "KR"
-      ]
-    },
-    {
       "position": 48,
-      "id": "apple:pl.b0e04e25887741ea845e1d5c88397fd4",
+      "id": "apple:pl.fa1e4b518c7244a086390d49aeb65d1e",
       "provider": "apple-music",
-      "appleId": "pl.b0e04e25887741ea845e1d5c88397fd4",
-      "title": "크리스마스 시즌 명곡",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/d1/a8/45/d1a84579-ce57-5a1f-1334-e6c417605020/befc39eb-584c-4681-92b0-16c913f1230a.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/kr/playlist/%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4-%EC%8B%9C%EC%A6%8C-%EB%AA%85%EA%B3%A1/pl.b0e04e25887741ea845e1d5c88397fd4",
+      "appleId": "pl.fa1e4b518c7244a086390d49aeb65d1e",
+      "title": "Rewind: K-Pop",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/2d/5d/e2/2d5de2e3-3ef4-8d7d-b173-40dbb42ac755/c1ebeea3-c95c-4081-87b8-408aa82c5592.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/rewind-k-pop/pl.fa1e4b518c7244a086390d49aeb65d1e",
       "interests": [
-        "popular"
+        "pop",
+        "k-pop"
       ],
       "regions": [
         "KR"
@@ -741,12 +743,12 @@
     },
     {
       "position": 49,
-      "id": "apple:pl.79aa62c2cd4d46e5bdaaa5346e909625",
+      "id": "apple:pl.b3c079fea5704332baed562d8f90d3a8",
       "provider": "apple-music",
-      "appleId": "pl.79aa62c2cd4d46e5bdaaa5346e909625",
-      "title": "칠 아웃 K-Pop",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/72/5d/d6/725dd639-02bb-7632-374a-ddcf9252245a/U0MtTVMtV1ctSy1Qb3BfQ2hpbGwtQURBTV9JRD0xMzYxNTIxMDcwLnBuZw.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%EC%B9%A0-%EC%95%84%EC%9B%83-k-pop/pl.79aa62c2cd4d46e5bdaaa5346e909625",
+      "appleId": "pl.b3c079fea5704332baed562d8f90d3a8",
+      "title": "K-Pop: 2024년 히트곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/2b/7a/332b7a5d-d285-67b2-af39-af9ca64c93a1/c2370037-64fc-47ca-bcc9-582fb54c4e8b.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/k-pop-2024%EB%85%84-%ED%9E%88%ED%8A%B8%EA%B3%A1/pl.b3c079fea5704332baed562d8f90d3a8",
       "interests": [
         "pop",
         "k-pop"
@@ -757,14 +759,15 @@
     },
     {
       "position": 50,
-      "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
+      "id": "apple:pl.2f7aaa8307ba4a0e892fa2e3b68255cf",
       "provider": "apple-music",
-      "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
-      "title": "퓨어 포커스",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/57/3e/bd/573ebdf3-c986-17e6-4bff-95bd340d4fb6/U0MtTVMtV1ctUHVyZV9Gb2N1cy1BREFNX0lEPTExMjQ1Njc1NDEucG5n.png/1200x1200bb.jpg?l=ko-KR",
-      "appleUrl": "https://music.apple.com/kr/playlist/%ED%93%A8%EC%96%B4-%ED%8F%AC%EC%BB%A4%EC%8A%A4/pl.dbd712beded846dca273d5d3259d28aa",
+      "appleId": "pl.2f7aaa8307ba4a0e892fa2e3b68255cf",
+      "title": "K-Pop: 2010년 히트곡",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/83/78/5b/83785bc6-43cc-d482-c276-5b595ddcb7c8/cfe8fd97-8e43-4b53-84a0-ff6ec90f4d58.png/1200x1200bb.jpg?l=ko-KR",
+      "appleUrl": "https://music.apple.com/kr/playlist/k-pop-2010%EB%85%84-%ED%9E%88%ED%8A%B8%EA%B3%A1/pl.2f7aaa8307ba4a0e892fa2e3b68255cf",
       "interests": [
-        "popular"
+        "pop",
+        "k-pop"
       ],
       "regions": [
         "KR"
