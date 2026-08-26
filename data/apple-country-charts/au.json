@@ -7,8 +7,8 @@
   "country": "AU",
   "countryName": "Australia",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/au/music/most-played/100/songs.json",
-  "updatedAt": "2026-08-25T07:19:21.000Z",
-  "checkedAt": "2026-08-25T07:08:37.153Z",
+  "updatedAt": "2026-08-26T07:20:17.000Z",
+  "checkedAt": "2026-08-26T07:09:05.427Z",
   "status": "fresh",
   "available": true,
   "official": true,
@@ -19,6 +19,81 @@
   "tracks": [
     {
       "position": 1,
+      "id": "apple:1062400330",
+      "provider": "apple-music",
+      "appleId": "1062400330",
+      "title": "Jolene",
+      "artist": "Dolly Parton",
+      "artistNames": [
+        "Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1973-10-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/jolene/1062400323?i=1062400330",
+      "sourceUrl": "https://music.apple.com/au/album/jolene/1062400323?i=1062400330",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 2,
+      "id": "apple:282883594",
+      "provider": "apple-music",
+      "appleId": "282883594",
+      "title": "Islands In the Stream",
+      "artist": "Dolly Parton & Kenny Rogers",
+      "artistNames": [
+        "Dolly Parton & Kenny Rogers"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1983-07-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/islands-in-the-stream/282883573?i=282883594",
+      "sourceUrl": "https://music.apple.com/au/album/islands-in-the-stream/282883573?i=282883594",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 3,
+      "id": "apple:282883590",
+      "provider": "apple-music",
+      "appleId": "282883590",
+      "title": "9 to 5",
+      "artist": "Dolly Parton",
+      "artistNames": [
+        "Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1980-11-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music/37/fa/d1/mzi.ecmonpil.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/9-to-5/282883573?i=282883590",
+      "sourceUrl": "https://music.apple.com/au/album/9-to-5/282883573?i=282883590",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 4,
       "id": "apple:1844932150",
       "provider": "apple-music",
       "appleId": "1844932150",
@@ -43,7 +118,7 @@
       ]
     },
     {
-      "position": 2,
+      "position": 5,
       "id": "apple:1817609509",
       "provider": "apple-music",
       "appleId": "1817609509",
@@ -68,7 +143,57 @@
       ]
     },
     {
-      "position": 3,
+      "position": 6,
+      "id": "apple:1062400635",
+      "provider": "apple-music",
+      "appleId": "1062400635",
+      "title": "I Will Always Love You",
+      "artist": "Dolly Parton",
+      "artistNames": [
+        "Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1974-02-04",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/f8/1e/0bf81e88-de6e-aba3-9fd4-e7407bfbcc31/886445438048.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/i-will-always-love-you/1062400323?i=1062400635",
+      "sourceUrl": "https://music.apple.com/au/album/i-will-always-love-you/1062400323?i=1062400635",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 7,
+      "id": "apple:217532827",
+      "provider": "apple-music",
+      "appleId": "217532827",
+      "title": "Coat of Many Colors",
+      "artist": "Dolly Parton",
+      "artistNames": [
+        "Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1971-09-27",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9b/1d/11/9b1d1141-2332-5100-822a-0cd571ebffd6/dj.zuericqk.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/coat-of-many-colors/217532812?i=217532827",
+      "sourceUrl": "https://music.apple.com/au/album/coat-of-many-colors/217532812?i=217532827",
+      "explicit": false,
+      "genres": [
+        "Music",
+        "Country"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 8,
       "id": "apple:1820918468",
       "provider": "apple-music",
       "appleId": "1820918468",
@@ -93,7 +218,7 @@
       ]
     },
     {
-      "position": 4,
+      "position": 9,
       "id": "apple:1889992115",
       "provider": "apple-music",
       "appleId": "1889992115",
@@ -118,7 +243,32 @@
       ]
     },
     {
-      "position": 5,
+      "position": 10,
+      "id": "apple:1062401017",
+      "provider": "apple-music",
+      "appleId": "1062401017",
+      "title": "Here You Come Again",
+      "artist": "Dolly Parton",
+      "artistNames": [
+        "Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1977-09-26",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/01/0c/75/010c75b5-ac46-382c-5862-33679d13dc65/886445438932.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/here-you-come-again/1062400365?i=1062401017",
+      "sourceUrl": "https://music.apple.com/au/album/here-you-come-again/1062400365?i=1062401017",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 11,
       "id": "apple:1793663645",
       "provider": "apple-music",
       "appleId": "1793663645",
@@ -143,7 +293,7 @@
       ]
     },
     {
-      "position": 6,
+      "position": 12,
       "id": "apple:1884403093",
       "provider": "apple-music",
       "appleId": "1884403093",
@@ -169,32 +319,7 @@
       ]
     },
     {
-      "position": 7,
-      "id": "apple:6763656876",
-      "provider": "apple-music",
-      "appleId": "6763656876",
-      "title": "hate that i made you love me",
-      "artist": "Ariana Grande",
-      "artistNames": [
-        "Ariana Grande"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-05-28",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
-      "sourceUrl": "https://music.apple.com/au/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 8,
+      "position": 13,
       "id": "apple:1889992123",
       "provider": "apple-music",
       "appleId": "1889992123",
@@ -219,7 +344,58 @@
       ]
     },
     {
-      "position": 9,
+      "position": 14,
+      "id": "apple:6763656876",
+      "provider": "apple-music",
+      "appleId": "6763656876",
+      "title": "hate that i made you love me",
+      "artist": "Ariana Grande",
+      "artistNames": [
+        "Ariana Grande"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-05-28",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
+      "sourceUrl": "https://music.apple.com/au/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 15,
+      "id": "apple:169595968",
+      "provider": "apple-music",
+      "appleId": "169595968",
+      "title": "Why'd You Come In Here Lookin' Like That",
+      "artist": "Dolly Parton",
+      "artistNames": [
+        "Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1989-05-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/1b/e7/07/1be707f6-4ecf-8838-c1c9-09a309c4ad4b/dj.lddflwlr.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/whyd-you-come-in-here-lookin-like-that/169595602?i=169595968",
+      "sourceUrl": "https://music.apple.com/au/album/whyd-you-come-in-here-lookin-like-that/169595602?i=169595968",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music",
+        "Rock"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 16,
       "id": "apple:1817609507",
       "provider": "apple-music",
       "appleId": "1817609507",
@@ -244,7 +420,7 @@
       ]
     },
     {
-      "position": 10,
+      "position": 17,
       "id": "apple:1836226731",
       "provider": "apple-music",
       "appleId": "1836226731",
@@ -270,7 +446,7 @@
       ]
     },
     {
-      "position": 11,
+      "position": 18,
       "id": "apple:1889992113",
       "provider": "apple-music",
       "appleId": "1889992113",
@@ -295,7 +471,7 @@
       ]
     },
     {
-      "position": 12,
+      "position": 19,
       "id": "apple:1833328840",
       "provider": "apple-music",
       "appleId": "1833328840",
@@ -320,7 +496,7 @@
       ]
     },
     {
-      "position": 13,
+      "position": 20,
       "id": "apple:1724488124",
       "provider": "apple-music",
       "appleId": "1724488124",
@@ -345,7 +521,7 @@
       ]
     },
     {
-      "position": 14,
+      "position": 21,
       "id": "apple:267537169",
       "provider": "apple-music",
       "appleId": "267537169",
@@ -372,7 +548,7 @@
       ]
     },
     {
-      "position": 15,
+      "position": 22,
       "id": "apple:1526194192",
       "provider": "apple-music",
       "appleId": "1526194192",
@@ -397,7 +573,7 @@
       ]
     },
     {
-      "position": 16,
+      "position": 23,
       "id": "apple:6775527443",
       "provider": "apple-music",
       "appleId": "6775527443",
@@ -422,7 +598,32 @@
       ]
     },
     {
-      "position": 17,
+      "position": 24,
+      "id": "apple:6769552411",
+      "provider": "apple-music",
+      "appleId": "6769552411",
+      "title": "Great Expectation",
+      "artist": "SIENNA SPIRO",
+      "artistNames": [
+        "SIENNA SPIRO"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-02",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/e5/61/f4e561f5-3e73-68c7-7ca4-295ac5a063ed/26UMGIM51351.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/great-expectation/6769552402?i=6769552411",
+      "sourceUrl": "https://music.apple.com/au/album/great-expectation/6769552402?i=6769552411",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 25,
       "id": "apple:269573364",
       "provider": "apple-music",
       "appleId": "269573364",
@@ -448,7 +649,7 @@
       ]
     },
     {
-      "position": 18,
+      "position": 26,
       "id": "apple:1828036635",
       "provider": "apple-music",
       "appleId": "1828036635",
@@ -473,82 +674,7 @@
       ]
     },
     {
-      "position": 19,
-      "id": "apple:1737085899",
-      "provider": "apple-music",
-      "appleId": "1737085899",
-      "title": "A Bar Song (Tipsy)",
-      "artist": "Shaboozey",
-      "artistNames": [
-        "Shaboozey"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-04-12",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/b5/bc/97b5bca2-6238-2421-4f0d-1f7a39d5d9d4/197342550925_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/a-bar-song-tipsy/1737085577?i=1737085899",
-      "sourceUrl": "https://music.apple.com/au/album/a-bar-song-tipsy/1737085577?i=1737085899",
-      "explicit": false,
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 20,
-      "id": "apple:1891779776",
-      "provider": "apple-music",
-      "appleId": "1891779776",
-      "title": "Animal",
-      "artist": "KATSEYE",
-      "artistNames": [
-        "KATSEYE"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-24",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/animal/1891779764?i=1891779776",
-      "sourceUrl": "https://music.apple.com/au/album/animal/1891779764?i=1891779776",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 21,
-      "id": "apple:6769552411",
-      "provider": "apple-music",
-      "appleId": "6769552411",
-      "title": "Great Expectation",
-      "artist": "SIENNA SPIRO",
-      "artistNames": [
-        "SIENNA SPIRO"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-02",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/e5/61/f4e561f5-3e73-68c7-7ca4-295ac5a063ed/26UMGIM51351.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/great-expectation/6769552402?i=6769552411",
-      "sourceUrl": "https://music.apple.com/au/album/great-expectation/6769552402?i=6769552411",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 22,
+      "position": 27,
       "id": "apple:1744439049",
       "provider": "apple-music",
       "appleId": "1744439049",
@@ -573,7 +699,82 @@
       ]
     },
     {
-      "position": 23,
+      "position": 28,
+      "id": "apple:1737085899",
+      "provider": "apple-music",
+      "appleId": "1737085899",
+      "title": "A Bar Song (Tipsy)",
+      "artist": "Shaboozey",
+      "artistNames": [
+        "Shaboozey"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2024-04-12",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/b5/bc/97b5bca2-6238-2421-4f0d-1f7a39d5d9d4/197342550925_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/a-bar-song-tipsy/1737085577?i=1737085899",
+      "sourceUrl": "https://music.apple.com/au/album/a-bar-song-tipsy/1737085577?i=1737085899",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 29,
+      "id": "apple:1891779776",
+      "provider": "apple-music",
+      "appleId": "1891779776",
+      "title": "Animal",
+      "artist": "KATSEYE",
+      "artistNames": [
+        "KATSEYE"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/animal/1891779764?i=1891779776",
+      "sourceUrl": "https://music.apple.com/au/album/animal/1891779764?i=1891779776",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 30,
+      "id": "apple:6769568596",
+      "provider": "apple-music",
+      "appleId": "6769568596",
+      "title": "Janice STFU",
+      "artist": "Drake",
+      "artistNames": [
+        "Drake"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-05-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/janice-stfu/6769568449?i=6769568596",
+      "sourceUrl": "https://music.apple.com/au/album/janice-stfu/6769568449?i=6769568596",
+      "explicit": false,
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 31,
       "id": "apple:6763656878",
       "provider": "apple-music",
       "appleId": "6763656878",
@@ -598,7 +799,7 @@
       ]
     },
     {
-      "position": 24,
+      "position": 32,
       "id": "apple:1666738585",
       "provider": "apple-music",
       "appleId": "1666738585",
@@ -623,7 +824,7 @@
       ]
     },
     {
-      "position": 25,
+      "position": 33,
       "id": "apple:202272624",
       "provider": "apple-music",
       "appleId": "202272624",
@@ -650,58 +851,7 @@
       ]
     },
     {
-      "position": 26,
-      "id": "apple:6769568596",
-      "provider": "apple-music",
-      "appleId": "6769568596",
-      "title": "Janice STFU",
-      "artist": "Drake",
-      "artistNames": [
-        "Drake"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-05-15",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/janice-stfu/6769568449?i=6769568596",
-      "sourceUrl": "https://music.apple.com/au/album/janice-stfu/6769568449?i=6769568596",
-      "explicit": false,
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 27,
-      "id": "apple:1193700923",
-      "provider": "apple-music",
-      "appleId": "1193700923",
-      "title": "Shape of You",
-      "artist": "Ed Sheeran",
-      "artistNames": [
-        "Ed Sheeran"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2017-01-06",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/03/4c/20034cdb-b2b1-74a7-2ec0-521ccf471bbd/190295851286.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/shape-of-you/1193700802?i=1193700923",
-      "sourceUrl": "https://music.apple.com/au/album/shape-of-you/1193700802?i=1193700923",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music",
-        "Singer/Songwriter"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 28,
+      "position": 34,
       "id": "apple:1193700926",
       "provider": "apple-music",
       "appleId": "1193700926",
@@ -727,7 +877,58 @@
       ]
     },
     {
-      "position": 29,
+      "position": 35,
+      "id": "apple:286709857",
+      "provider": "apple-music",
+      "appleId": "286709857",
+      "title": "Baby I'm Burnin'",
+      "artist": "Dolly Parton",
+      "artistNames": [
+        "Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1978-07-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music/62/aa/47/mzi.txaiqgmd.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/baby-im-burnin/286709805?i=286709857",
+      "sourceUrl": "https://music.apple.com/au/album/baby-im-burnin/286709805?i=286709857",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 36,
+      "id": "apple:1193700923",
+      "provider": "apple-music",
+      "appleId": "1193700923",
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "artistNames": [
+        "Ed Sheeran"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2017-01-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/03/4c/20034cdb-b2b1-74a7-2ec0-521ccf471bbd/190295851286.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/shape-of-you/1193700802?i=1193700923",
+      "sourceUrl": "https://music.apple.com/au/album/shape-of-you/1193700802?i=1193700923",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music",
+        "Singer/Songwriter"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 37,
       "id": "apple:1820264150",
       "provider": "apple-music",
       "appleId": "1820264150",
@@ -753,7 +954,7 @@
       ]
     },
     {
-      "position": 30,
+      "position": 38,
       "id": "apple:1691699836",
       "provider": "apple-music",
       "appleId": "1691699836",
@@ -778,7 +979,7 @@
       ]
     },
     {
-      "position": 31,
+      "position": 39,
       "id": "apple:1525933490",
       "provider": "apple-music",
       "appleId": "1525933490",
@@ -805,57 +1006,7 @@
       ]
     },
     {
-      "position": 32,
-      "id": "apple:1228739609",
-      "provider": "apple-music",
-      "appleId": "1228739609",
-      "title": "New Rules",
-      "artist": "Dua Lipa",
-      "artistNames": [
-        "Dua Lipa"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2017-07-07",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c1/54/2d/c1542d45-c6c2-12ca-7308-6eacd762c562/190295807870.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/new-rules/1228739599?i=1228739609",
-      "sourceUrl": "https://music.apple.com/au/album/new-rules/1228739599?i=1228739609",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 33,
-      "id": "apple:1773474483",
-      "provider": "apple-music",
-      "appleId": "1773474483",
-      "title": "That’s So True",
-      "artist": "Gracie Abrams",
-      "artistNames": [
-        "Gracie Abrams"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-10-18",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/78/81/26788143-5e5f-0813-2480-ecf4280ef221/24UM1IM07082.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/thats-so-true/1773473685?i=1773474483",
-      "sourceUrl": "https://music.apple.com/au/album/thats-so-true/1773473685?i=1773474483",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 34,
+      "position": 40,
       "id": "apple:1814620247",
       "provider": "apple-music",
       "appleId": "1814620247",
@@ -880,7 +1031,57 @@
       ]
     },
     {
-      "position": 35,
+      "position": 41,
+      "id": "apple:1773474483",
+      "provider": "apple-music",
+      "appleId": "1773474483",
+      "title": "That’s So True",
+      "artist": "Gracie Abrams",
+      "artistNames": [
+        "Gracie Abrams"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2024-10-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/78/81/26788143-5e5f-0813-2480-ecf4280ef221/24UM1IM07082.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/thats-so-true/1773473685?i=1773474483",
+      "sourceUrl": "https://music.apple.com/au/album/thats-so-true/1773473685?i=1773474483",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 42,
+      "id": "apple:1228739609",
+      "provider": "apple-music",
+      "appleId": "1228739609",
+      "title": "New Rules",
+      "artist": "Dua Lipa",
+      "artistNames": [
+        "Dua Lipa"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2017-07-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c1/54/2d/c1542d45-c6c2-12ca-7308-6eacd762c562/190295807870.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/new-rules/1228739599?i=1228739609",
+      "sourceUrl": "https://music.apple.com/au/album/new-rules/1228739599?i=1228739609",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 43,
       "id": "apple:1879983789",
       "provider": "apple-music",
       "appleId": "1879983789",
@@ -905,23 +1106,23 @@
       ]
     },
     {
-      "position": 36,
-      "id": "apple:1201058113",
+      "position": 44,
+      "id": "apple:1140702767",
       "provider": "apple-music",
-      "appleId": "1201058113",
-      "title": "Lush Life",
-      "artist": "Zara Larsson",
+      "appleId": "1140702767",
+      "title": "My Tennessee Mountain Home",
+      "artist": "Dolly Parton",
       "artistNames": [
-        "Zara Larsson"
+        "Dolly Parton"
       ],
       "albumTitle": "",
-      "releaseDate": "2017-03-17",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/e6/3b/74e63bb4-d593-f926-85c7-df3ca43fcf3f/886446183473.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/lush-life/1201058048?i=1201058113",
-      "sourceUrl": "https://music.apple.com/au/album/lush-life/1201058048?i=1201058113",
+      "releaseDate": "1973-03-28",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music42/v4/8e/28/61/8e2861bd-1c28-173b-17fd-3efb2b88e204/886446002972.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/my-tennessee-mountain-home/1140702574?i=1140702767",
+      "sourceUrl": "https://music.apple.com/au/album/my-tennessee-mountain-home/1140702574?i=1140702767",
       "explicit": false,
       "genres": [
-        "Pop",
+        "Country",
         "Music"
       ],
       "country": "AU",
@@ -930,7 +1131,32 @@
       ]
     },
     {
-      "position": 37,
+      "position": 45,
+      "id": "apple:1062401023",
+      "provider": "apple-music",
+      "appleId": "1062401023",
+      "title": "Two Doors Down",
+      "artist": "Dolly Parton",
+      "artistNames": [
+        "Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1977-10-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/01/0c/75/010c75b5-ac46-382c-5862-33679d13dc65/886445438932.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/two-doors-down/1062400365?i=1062401023",
+      "sourceUrl": "https://music.apple.com/au/album/two-doors-down/1062400365?i=1062401023",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 46,
       "id": "apple:1825994649",
       "provider": "apple-music",
       "appleId": "1825994649",
@@ -955,23 +1181,23 @@
       ]
     },
     {
-      "position": 38,
-      "id": "apple:1488408568",
+      "position": 47,
+      "id": "apple:1201058113",
       "provider": "apple-music",
-      "appleId": "1488408568",
-      "title": "Blinding Lights",
-      "artist": "The Weeknd",
+      "appleId": "1201058113",
+      "title": "Lush Life",
+      "artist": "Zara Larsson",
       "artistNames": [
-        "The Weeknd"
+        "Zara Larsson"
       ],
       "albumTitle": "",
-      "releaseDate": "2019-11-29",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/6e/bf/a66ebf79-5008-8948-b352-a790fc87446b/19UM1IM04638.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/blinding-lights/1488408555?i=1488408568",
-      "sourceUrl": "https://music.apple.com/au/album/blinding-lights/1488408555?i=1488408568",
+      "releaseDate": "2017-03-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/e6/3b/74e63bb4-d593-f926-85c7-df3ca43fcf3f/886446183473.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/lush-life/1201058048?i=1201058113",
+      "sourceUrl": "https://music.apple.com/au/album/lush-life/1201058048?i=1201058113",
       "explicit": false,
       "genres": [
-        "R&B/Soul",
+        "Pop",
         "Music"
       ],
       "country": "AU",
@@ -980,7 +1206,7 @@
       ]
     },
     {
-      "position": 39,
+      "position": 48,
       "id": "apple:6792676860",
       "provider": "apple-music",
       "appleId": "6792676860",
@@ -1005,32 +1231,7 @@
       ]
     },
     {
-      "position": 40,
-      "id": "apple:6763091996",
-      "provider": "apple-music",
-      "appleId": "6763091996",
-      "title": "I Can't Love You Anymore",
-      "artist": "Ella Langley & Morgan Wallen",
-      "artistNames": [
-        "Ella Langley & Morgan Wallen"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-04-24",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/7a/6e/d97a6e25-ef5c-0c26-64e9-266c18641a57/196874324103.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/i-cant-love-you-anymore/1895158676?i=6763091996",
-      "sourceUrl": "https://music.apple.com/au/album/i-cant-love-you-anymore/1895158676?i=6763091996",
-      "explicit": false,
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 41,
+      "position": 49,
       "id": "apple:1193700917",
       "provider": "apple-music",
       "appleId": "1193700917",
@@ -1056,7 +1257,7 @@
       ]
     },
     {
-      "position": 42,
+      "position": 50,
       "id": "apple:1833328845",
       "provider": "apple-music",
       "appleId": "1833328845",
@@ -1081,32 +1282,7 @@
       ]
     },
     {
-      "position": 43,
-      "id": "apple:1869436845",
-      "provider": "apple-music",
-      "appleId": "1869436845",
-      "title": "Be Her",
-      "artist": "Ella Langley",
-      "artistNames": [
-        "Ella Langley"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-02-13",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/be-her/1869436835?i=1869436845",
-      "sourceUrl": "https://music.apple.com/au/album/be-her/1869436835?i=1869436845",
-      "explicit": false,
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 44,
+      "position": 51,
       "id": "apple:6783576167",
       "provider": "apple-music",
       "appleId": "6783576167",
@@ -1131,20 +1307,45 @@
       ]
     },
     {
-      "position": 45,
-      "id": "apple:6768469976",
+      "position": 52,
+      "id": "apple:6763091996",
       "provider": "apple-music",
-      "appleId": "6768469976",
-      "title": "Dai Dai",
-      "artist": "Shakira & Burna Boy",
+      "appleId": "6763091996",
+      "title": "I Can't Love You Anymore",
+      "artist": "Ella Langley & Morgan Wallen",
       "artistNames": [
-        "Shakira & Burna Boy"
+        "Ella Langley & Morgan Wallen"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-05-14",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/dai-dai/6768469975?i=6768469976",
-      "sourceUrl": "https://music.apple.com/au/album/dai-dai/6768469975?i=6768469976",
+      "releaseDate": "2026-04-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/7a/6e/d97a6e25-ef5c-0c26-64e9-266c18641a57/196874324103.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/i-cant-love-you-anymore/1895158676?i=6763091996",
+      "sourceUrl": "https://music.apple.com/au/album/i-cant-love-you-anymore/1895158676?i=6763091996",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 53,
+      "id": "apple:6803283192",
+      "provider": "apple-music",
+      "appleId": "6803283192",
+      "title": "serena joy",
+      "artist": "Olivia Rodrigo",
+      "artistNames": [
+        "Olivia Rodrigo"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-08-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/88/51/748851f3-26da-36f5-65a3-d41fe0b292ec/26UM1IM06641.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/serena-joy/6803283190?i=6803283192",
+      "sourceUrl": "https://music.apple.com/au/album/serena-joy/6803283190?i=6803283192",
       "explicit": false,
       "genres": [
         "Pop",
@@ -1156,23 +1357,23 @@
       ]
     },
     {
-      "position": 46,
-      "id": "apple:1838737598",
+      "position": 54,
+      "id": "apple:1869436845",
       "provider": "apple-music",
-      "appleId": "1838737598",
-      "title": "WHERE IS MY HUSBAND!",
-      "artist": "RAYE",
+      "appleId": "1869436845",
+      "title": "Be Her",
+      "artist": "Ella Langley",
       "artistNames": [
-        "RAYE"
+        "Ella Langley"
       ],
       "albumTitle": "",
-      "releaseDate": "2025-09-19",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/10/8a/69108a18-55ec-d774-a653-90b2242733db/199538765458.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/where-is-my-husband/1838737596?i=1838737598",
-      "sourceUrl": "https://music.apple.com/au/album/where-is-my-husband/1838737596?i=1838737598",
+      "releaseDate": "2026-02-13",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/be-her/1869436835?i=1869436845",
+      "sourceUrl": "https://music.apple.com/au/album/be-her/1869436835?i=1869436845",
       "explicit": false,
       "genres": [
-        "Pop",
+        "Country",
         "Music"
       ],
       "country": "AU",
@@ -1181,7 +1382,32 @@
       ]
     },
     {
-      "position": 47,
+      "position": 55,
+      "id": "apple:250870557",
+      "provider": "apple-music",
+      "appleId": "250870557",
+      "title": "Eagle When She Flies",
+      "artist": "Dolly Parton",
+      "artistNames": [
+        "Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1991-04-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/c5/3b/57/c53b5760-637e-8827-cdd9-e96065efbc1f/dj.opyhneyk.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/eagle-when-she-flies/250870464?i=250870557",
+      "sourceUrl": "https://music.apple.com/au/album/eagle-when-she-flies/250870464?i=250870557",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 56,
       "id": "apple:1810796703",
       "provider": "apple-music",
       "appleId": "1810796703",
@@ -1206,7 +1432,57 @@
       ]
     },
     {
-      "position": 48,
+      "position": 57,
+      "id": "apple:1838737598",
+      "provider": "apple-music",
+      "appleId": "1838737598",
+      "title": "WHERE IS MY HUSBAND!",
+      "artist": "RAYE",
+      "artistNames": [
+        "RAYE"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-09-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/10/8a/69108a18-55ec-d774-a653-90b2242733db/199538765458.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/where-is-my-husband/1838737596?i=1838737598",
+      "sourceUrl": "https://music.apple.com/au/album/where-is-my-husband/1838737596?i=1838737598",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 58,
+      "id": "apple:6768469976",
+      "provider": "apple-music",
+      "appleId": "6768469976",
+      "title": "Dai Dai",
+      "artist": "Shakira & Burna Boy",
+      "artistNames": [
+        "Shakira & Burna Boy"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-05-14",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/dai-dai/6768469975?i=6768469976",
+      "sourceUrl": "https://music.apple.com/au/album/dai-dai/6768469975?i=6768469976",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 59,
       "id": "apple:1818424212",
       "provider": "apple-music",
       "appleId": "1818424212",
@@ -1231,7 +1507,32 @@
       ]
     },
     {
-      "position": 49,
+      "position": 60,
+      "id": "apple:1871595253",
+      "provider": "apple-music",
+      "appleId": "1871595253",
+      "title": "Homewrecker",
+      "artist": "sombr",
+      "artistNames": [
+        "sombr"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-02-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/bf/fb/84bffb0a-023f-419f-d5f7-6636f4e5d970/054391221933.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/homewrecker/1871595252?i=1871595253",
+      "sourceUrl": "https://music.apple.com/au/album/homewrecker/1871595252?i=1871595253",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 61,
       "id": "apple:896107177",
       "provider": "apple-music",
       "appleId": "896107177",
@@ -1257,7 +1558,132 @@
       ]
     },
     {
-      "position": 50,
+      "position": 62,
+      "id": "apple:1545270163",
+      "provider": "apple-music",
+      "appleId": "1545270163",
+      "title": "Into You",
+      "artist": "Ariana Grande",
+      "artistNames": [
+        "Ariana Grande"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2016-05-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/70/0f/3f700f55-1c91-c890-8cb7-b8886f87b7f6/16UMGIM30042.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/into-you/1545270092?i=1545270163",
+      "sourceUrl": "https://music.apple.com/au/album/into-you/1545270092?i=1545270163",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 63,
+      "id": "apple:1488408568",
+      "provider": "apple-music",
+      "appleId": "1488408568",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "artistNames": [
+        "The Weeknd"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2019-11-29",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/6e/bf/a66ebf79-5008-8948-b352-a790fc87446b/19UM1IM04638.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/blinding-lights/1488408555?i=1488408568",
+      "sourceUrl": "https://music.apple.com/au/album/blinding-lights/1488408555?i=1488408568",
+      "explicit": false,
+      "genres": [
+        "R&B/Soul",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 64,
+      "id": "apple:1867034427",
+      "provider": "apple-music",
+      "appleId": "1867034427",
+      "title": "iloveitiloveitiloveit",
+      "artist": "Bella Kay",
+      "artistNames": [
+        "Bella Kay"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-01-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/12/71/ab12714b-1572-c7b0-27ff-2dfa3c860e6f/075679590756.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/iloveitiloveitiloveit/1867034426?i=1867034427",
+      "sourceUrl": "https://music.apple.com/au/album/iloveitiloveitiloveit/1867034426?i=1867034427",
+      "explicit": false,
+      "genres": [
+        "Alternative",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 65,
+      "id": "apple:1620419734",
+      "provider": "apple-music",
+      "appleId": "1620419734",
+      "title": "Something in the Orange",
+      "artist": "Zach Bryan",
+      "artistNames": [
+        "Zach Bryan"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2022-04-22",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d6/cd/d8/d6cdd86f-db67-ffc8-cd5e-26c4559686c3/054391903860.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/something-in-the-orange/1620419728?i=1620419734",
+      "sourceUrl": "https://music.apple.com/au/album/something-in-the-orange/1620419728?i=1620419734",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 66,
+      "id": "apple:1762656732",
+      "provider": "apple-music",
+      "appleId": "1762656732",
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga & Bruno Mars",
+      "artistNames": [
+        "Lady Gaga & Bruno Mars"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2024-08-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/die-with-a-smile/1762656724?i=1762656732",
+      "sourceUrl": "https://music.apple.com/au/album/die-with-a-smile/1762656724?i=1762656732",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 67,
       "id": "apple:574051407",
       "provider": "apple-music",
       "appleId": "574051407",
@@ -1284,232 +1710,7 @@
       ]
     },
     {
-      "position": 51,
-      "id": "apple:1740212434",
-      "provider": "apple-music",
-      "appleId": "1740212434",
-      "title": "Espresso",
-      "artist": "Sabrina Carpenter",
-      "artistNames": [
-        "Sabrina Carpenter"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-04-11",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/64/8c/cb648cf7-e7bb-bd00-efe0-d744312c29a8/24UMGIM32304.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/espresso/1740212432?i=1740212434",
-      "sourceUrl": "https://music.apple.com/au/album/espresso/1740212432?i=1740212434",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 52,
-      "id": "apple:1762656732",
-      "provider": "apple-music",
-      "appleId": "1762656732",
-      "title": "Die With A Smile",
-      "artist": "Lady Gaga & Bruno Mars",
-      "artistNames": [
-        "Lady Gaga & Bruno Mars"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-08-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/die-with-a-smile/1762656724?i=1762656732",
-      "sourceUrl": "https://music.apple.com/au/album/die-with-a-smile/1762656724?i=1762656732",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 53,
-      "id": "apple:1870984036",
-      "provider": "apple-music",
-      "appleId": "1870984036",
-      "title": "American Girls",
-      "artist": "Harry Styles",
-      "artistNames": [
-        "Harry Styles"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-03-06",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/american-girls/1870984032?i=1870984036",
-      "sourceUrl": "https://music.apple.com/au/album/american-girls/1870984032?i=1870984036",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 54,
-      "id": "apple:1666738581",
-      "provider": "apple-music",
-      "appleId": "1666738581",
-      "title": "Where the Wild Things Are",
-      "artist": "Luke Combs",
-      "artistNames": [
-        "Luke Combs"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2023-03-24",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7d/24/14/7d241439-671a-d957-9613-2f738f43a064/196589485991.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/where-the-wild-things-are/1666738524?i=1666738581",
-      "sourceUrl": "https://music.apple.com/au/album/where-the-wild-things-are/1666738524?i=1666738581",
-      "explicit": false,
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 55,
-      "id": "apple:1871595253",
-      "provider": "apple-music",
-      "appleId": "1871595253",
-      "title": "Homewrecker",
-      "artist": "sombr",
-      "artistNames": [
-        "sombr"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-02-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/bf/fb/84bffb0a-023f-419f-d5f7-6636f4e5d970/054391221933.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/homewrecker/1871595252?i=1871595253",
-      "sourceUrl": "https://music.apple.com/au/album/homewrecker/1871595252?i=1871595253",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 56,
-      "id": "apple:1545270163",
-      "provider": "apple-music",
-      "appleId": "1545270163",
-      "title": "Into You",
-      "artist": "Ariana Grande",
-      "artistNames": [
-        "Ariana Grande"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2016-05-06",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3f/70/0f/3f700f55-1c91-c890-8cb7-b8886f87b7f6/16UMGIM30042.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/into-you/1545270092?i=1545270163",
-      "sourceUrl": "https://music.apple.com/au/album/into-you/1545270092?i=1545270163",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 57,
-      "id": "apple:1821731883",
-      "provider": "apple-music",
-      "appleId": "1821731883",
-      "title": "Bed on Fire",
-      "artist": "G Flip",
-      "artistNames": [
-        "G Flip"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-09-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/db/83/81db83d0-6fb1-29f2-5288-811bf7645674/199350817441.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/bed-on-fire/1821731879?i=1821731883",
-      "sourceUrl": "https://music.apple.com/au/album/bed-on-fire/1821731879?i=1821731883",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 58,
-      "id": "apple:6766750846",
-      "provider": "apple-music",
-      "appleId": "6766750846",
-      "title": "Hit the Wall",
-      "artist": "Gracie Abrams",
-      "artistNames": [
-        "Gracie Abrams"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-05-14",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/13/47/4f1347cf-9564-e8b6-523a-386202f4d265/26UMGIM54147.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/hit-the-wall/6766750836?i=6766750846",
-      "sourceUrl": "https://music.apple.com/au/album/hit-the-wall/6766750836?i=6766750846",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 59,
-      "id": "apple:1620419734",
-      "provider": "apple-music",
-      "appleId": "1620419734",
-      "title": "Something in the Orange",
-      "artist": "Zach Bryan",
-      "artistNames": [
-        "Zach Bryan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2022-04-22",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d6/cd/d8/d6cdd86f-db67-ffc8-cd5e-26c4559686c3/054391903860.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/something-in-the-orange/1620419728?i=1620419734",
-      "sourceUrl": "https://music.apple.com/au/album/something-in-the-orange/1620419728?i=1620419734",
-      "explicit": false,
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 60,
+      "position": 68,
       "id": "apple:1445949267",
       "provider": "apple-music",
       "appleId": "1445949267",
@@ -1534,71 +1735,20 @@
       ]
     },
     {
-      "position": 61,
-      "id": "apple:1867034427",
+      "position": 69,
+      "id": "apple:1740212434",
       "provider": "apple-music",
-      "appleId": "1867034427",
-      "title": "iloveitiloveitiloveit",
-      "artist": "Bella Kay",
+      "appleId": "1740212434",
+      "title": "Espresso",
+      "artist": "Sabrina Carpenter",
       "artistNames": [
-        "Bella Kay"
+        "Sabrina Carpenter"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-01-11",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/12/71/ab12714b-1572-c7b0-27ff-2dfa3c860e6f/075679590756.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/iloveitiloveitiloveit/1867034426?i=1867034427",
-      "sourceUrl": "https://music.apple.com/au/album/iloveitiloveitiloveit/1867034426?i=1867034427",
-      "explicit": false,
-      "genres": [
-        "Alternative",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 62,
-      "id": "apple:269573341",
-      "provider": "apple-music",
-      "appleId": "269573341",
-      "title": "Beat It",
-      "artist": "Michael Jackson",
-      "artistNames": [
-        "Michael Jackson"
-      ],
-      "albumTitle": "",
-      "releaseDate": "1982-11-29",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/beat-it/269572838?i=269573341",
-      "sourceUrl": "https://music.apple.com/au/album/beat-it/269572838?i=269573341",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music",
-        "R&B/Soul"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 63,
-      "id": "apple:1675173768",
-      "provider": "apple-music",
-      "appleId": "1675173768",
-      "title": "Pink Pony Club",
-      "artist": "Chappell Roan",
-      "artistNames": [
-        "Chappell Roan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2020-04-03",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/41/bc/fb/41bcfb43-91d5-931d-5747-fb381803143f/23UMGIM21715.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/pink-pony-club/1675173434?i=1675173768",
-      "sourceUrl": "https://music.apple.com/au/album/pink-pony-club/1675173434?i=1675173768",
+      "releaseDate": "2024-04-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/64/8c/cb648cf7-e7bb-bd00-efe0-d744312c29a8/24UMGIM32304.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/espresso/1740212432?i=1740212434",
+      "sourceUrl": "https://music.apple.com/au/album/espresso/1740212432?i=1740212434",
       "explicit": false,
       "genres": [
         "Pop",
@@ -1610,7 +1760,7 @@
       ]
     },
     {
-      "position": 64,
+      "position": 70,
       "id": "apple:1468058171",
       "provider": "apple-music",
       "appleId": "1468058171",
@@ -1635,172 +1785,20 @@
       ]
     },
     {
-      "position": 65,
-      "id": "apple:6773775282",
-      "provider": "apple-music",
-      "appleId": "6773775282",
-      "title": "oh yeah?",
-      "artist": "Steve Lacy",
-      "artistNames": [
-        "Steve Lacy"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-17",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/b2/46/1cb246db-afae-a599-d377-44a7ea7267fa/196874346976.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/oh-yeah/6773775032?i=6773775282",
-      "sourceUrl": "https://music.apple.com/au/album/oh-yeah/6773775032?i=6773775282",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music",
-        "R&B/Soul"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 66,
-      "id": "apple:448213995",
-      "provider": "apple-music",
-      "appleId": "448213995",
-      "title": "The A Team",
-      "artist": "Ed Sheeran",
-      "artistNames": [
-        "Ed Sheeran"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2010-02-07",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/65/fb/84/65fb8432-f539-d67d-0670-b1358d16e5af/contsched.zkbwdtfj.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/the-a-team/448213992?i=448213995",
-      "sourceUrl": "https://music.apple.com/au/album/the-a-team/448213992?i=448213995",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 67,
-      "id": "apple:1877803360",
-      "provider": "apple-music",
-      "appleId": "1877803360",
-      "title": "Self Aware",
-      "artist": "Temper City",
-      "artistNames": [
-        "Temper City"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-02-15",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/63/6e/ba636e4b-5c9a-e89c-87d3-1a9ab7773644/1084252.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/self-aware/1877803357?i=1877803360",
-      "sourceUrl": "https://music.apple.com/au/album/self-aware/1877803357?i=1877803360",
-      "explicit": false,
-      "genres": [
-        "Alternative",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 68,
-      "id": "apple:1193700927",
-      "provider": "apple-music",
-      "appleId": "1193700927",
-      "title": "Galway Girl",
-      "artist": "Ed Sheeran",
-      "artistNames": [
-        "Ed Sheeran"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2017-03-03",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/03/4c/20034cdb-b2b1-74a7-2ec0-521ccf471bbd/190295851286.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/galway-girl/1193700802?i=1193700927",
-      "sourceUrl": "https://music.apple.com/au/album/galway-girl/1193700802?i=1193700927",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music",
-        "Singer/Songwriter"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 69,
-      "id": "apple:1817609514",
-      "provider": "apple-music",
-      "appleId": "1817609514",
-      "title": "A Couple Minutes",
-      "artist": "Olivia Dean",
-      "artistNames": [
-        "Olivia Dean"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-09-26",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/a-couple-minutes/1817609404?i=1817609514",
-      "sourceUrl": "https://music.apple.com/au/album/a-couple-minutes/1817609404?i=1817609514",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 70,
-      "id": "apple:1440783625",
-      "provider": "apple-music",
-      "appleId": "1440783625",
-      "title": "Smells Like Teen Spirit",
-      "artist": "Nirvana",
-      "artistNames": [
-        "Nirvana"
-      ],
-      "albumTitle": "",
-      "releaseDate": "1991-09-10",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/smells-like-teen-spirit/1440783617?i=1440783625",
-      "sourceUrl": "https://music.apple.com/au/album/smells-like-teen-spirit/1440783617?i=1440783625",
-      "explicit": false,
-      "genres": [
-        "Rock",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
       "position": 71,
-      "id": "apple:1818103445",
+      "id": "apple:1870984036",
       "provider": "apple-music",
-      "appleId": "1818103445",
-      "title": "Manchild",
-      "artist": "Sabrina Carpenter",
+      "appleId": "1870984036",
+      "title": "American Girls",
+      "artist": "Harry Styles",
       "artistNames": [
-        "Sabrina Carpenter"
+        "Harry Styles"
       ],
       "albumTitle": "",
-      "releaseDate": "2025-06-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/50/a3/b750a392-cfaa-bedc-7d81-cf7a1718e960/25UMGIM76990.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/manchild/1818103444?i=1818103445",
-      "sourceUrl": "https://music.apple.com/au/album/manchild/1818103444?i=1818103445",
+      "releaseDate": "2026-03-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/american-girls/1870984032?i=1870984036",
+      "sourceUrl": "https://music.apple.com/au/album/american-girls/1870984032?i=1870984036",
       "explicit": false,
       "genres": [
         "Pop",
@@ -1813,24 +1811,23 @@
     },
     {
       "position": 72,
-      "id": "apple:651880159",
+      "id": "apple:1821731883",
       "provider": "apple-music",
-      "appleId": "651880159",
-      "title": "The Chain",
-      "artist": "Fleetwood Mac",
+      "appleId": "1821731883",
+      "title": "Bed on Fire",
+      "artist": "G Flip",
       "artistNames": [
-        "Fleetwood Mac"
+        "G Flip"
       ],
       "albumTitle": "",
-      "releaseDate": "1977-02-04",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/the-chain/651879763?i=651880159",
-      "sourceUrl": "https://music.apple.com/au/album/the-chain/651879763?i=651880159",
+      "releaseDate": "2025-09-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/db/83/81db83d0-6fb1-29f2-5288-811bf7645674/199350817441.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/bed-on-fire/1821731879?i=1821731883",
+      "sourceUrl": "https://music.apple.com/au/album/bed-on-fire/1821731879?i=1821731883",
       "explicit": false,
       "genres": [
-        "Rock",
-        "Music",
-        "Pop"
+        "Pop",
+        "Music"
       ],
       "country": "AU",
       "regions": [
@@ -1839,22 +1836,22 @@
     },
     {
       "position": 73,
-      "id": "apple:1891779777",
+      "id": "apple:1666738581",
       "provider": "apple-music",
-      "appleId": "1891779777",
-      "title": "Hootie Frutti",
-      "artist": "KATSEYE",
+      "appleId": "1666738581",
+      "title": "Where the Wild Things Are",
+      "artist": "Luke Combs",
       "artistNames": [
-        "KATSEYE"
+        "Luke Combs"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-08-13",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/hootie-frutti/1891779764?i=1891779777",
-      "sourceUrl": "https://music.apple.com/au/album/hootie-frutti/1891779764?i=1891779777",
+      "releaseDate": "2023-03-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7d/24/14/7d241439-671a-d957-9613-2f738f43a064/196589485991.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/where-the-wild-things-are/1666738524?i=1666738581",
+      "sourceUrl": "https://music.apple.com/au/album/where-the-wild-things-are/1666738524?i=1666738581",
       "explicit": false,
       "genres": [
-        "Pop",
+        "Country",
         "Music"
       ],
       "country": "AU",
@@ -1888,6 +1885,260 @@
     },
     {
       "position": 75,
+      "id": "apple:269573341",
+      "provider": "apple-music",
+      "appleId": "269573341",
+      "title": "Beat It",
+      "artist": "Michael Jackson",
+      "artistNames": [
+        "Michael Jackson"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1982-11-29",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/beat-it/269572838?i=269573341",
+      "sourceUrl": "https://music.apple.com/au/album/beat-it/269572838?i=269573341",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music",
+        "R&B/Soul"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 76,
+      "id": "apple:448213995",
+      "provider": "apple-music",
+      "appleId": "448213995",
+      "title": "The A Team",
+      "artist": "Ed Sheeran",
+      "artistNames": [
+        "Ed Sheeran"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2010-02-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/65/fb/84/65fb8432-f539-d67d-0670-b1358d16e5af/contsched.zkbwdtfj.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/the-a-team/448213992?i=448213995",
+      "sourceUrl": "https://music.apple.com/au/album/the-a-team/448213992?i=448213995",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 77,
+      "id": "apple:6766750846",
+      "provider": "apple-music",
+      "appleId": "6766750846",
+      "title": "Hit the Wall",
+      "artist": "Gracie Abrams",
+      "artistNames": [
+        "Gracie Abrams"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-05-14",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/13/47/4f1347cf-9564-e8b6-523a-386202f4d265/26UMGIM54147.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/hit-the-wall/6766750836?i=6766750846",
+      "sourceUrl": "https://music.apple.com/au/album/hit-the-wall/6766750836?i=6766750846",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 78,
+      "id": "apple:6773775282",
+      "provider": "apple-music",
+      "appleId": "6773775282",
+      "title": "oh yeah?",
+      "artist": "Steve Lacy",
+      "artistNames": [
+        "Steve Lacy"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/b2/46/1cb246db-afae-a599-d377-44a7ea7267fa/196874346976.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/oh-yeah/6773775032?i=6773775282",
+      "sourceUrl": "https://music.apple.com/au/album/oh-yeah/6773775032?i=6773775282",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music",
+        "R&B/Soul"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 79,
+      "id": "apple:1877803360",
+      "provider": "apple-music",
+      "appleId": "1877803360",
+      "title": "Self Aware",
+      "artist": "Temper City",
+      "artistNames": [
+        "Temper City"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-02-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/63/6e/ba636e4b-5c9a-e89c-87d3-1a9ab7773644/1084252.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/self-aware/1877803357?i=1877803360",
+      "sourceUrl": "https://music.apple.com/au/album/self-aware/1877803357?i=1877803360",
+      "explicit": false,
+      "genres": [
+        "Alternative",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 80,
+      "id": "apple:1675173768",
+      "provider": "apple-music",
+      "appleId": "1675173768",
+      "title": "Pink Pony Club",
+      "artist": "Chappell Roan",
+      "artistNames": [
+        "Chappell Roan"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2020-04-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/41/bc/fb/41bcfb43-91d5-931d-5747-fb381803143f/23UMGIM21715.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/pink-pony-club/1675173434?i=1675173768",
+      "sourceUrl": "https://music.apple.com/au/album/pink-pony-club/1675173434?i=1675173768",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 81,
+      "id": "apple:651880159",
+      "provider": "apple-music",
+      "appleId": "651880159",
+      "title": "The Chain",
+      "artist": "Fleetwood Mac",
+      "artistNames": [
+        "Fleetwood Mac"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1977-02-04",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/the-chain/651879763?i=651880159",
+      "sourceUrl": "https://music.apple.com/au/album/the-chain/651879763?i=651880159",
+      "explicit": false,
+      "genres": [
+        "Rock",
+        "Music",
+        "Pop"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 82,
+      "id": "apple:1193700927",
+      "provider": "apple-music",
+      "appleId": "1193700927",
+      "title": "Galway Girl",
+      "artist": "Ed Sheeran",
+      "artistNames": [
+        "Ed Sheeran"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2017-03-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/20/03/4c/20034cdb-b2b1-74a7-2ec0-521ccf471bbd/190295851286.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/galway-girl/1193700802?i=1193700927",
+      "sourceUrl": "https://music.apple.com/au/album/galway-girl/1193700802?i=1193700927",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music",
+        "Singer/Songwriter"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 83,
+      "id": "apple:1440783625",
+      "provider": "apple-music",
+      "appleId": "1440783625",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "artistNames": [
+        "Nirvana"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1991-09-10",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/smells-like-teen-spirit/1440783617?i=1440783625",
+      "sourceUrl": "https://music.apple.com/au/album/smells-like-teen-spirit/1440783617?i=1440783625",
+      "explicit": false,
+      "genres": [
+        "Rock",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 84,
+      "id": "apple:1042877334",
+      "provider": "apple-music",
+      "appleId": "1042877334",
+      "title": "The Last Thing On My Mind",
+      "artist": "Porter Wagoner & Dolly Parton",
+      "artistNames": [
+        "Porter Wagoner & Dolly Parton"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1967-01-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/21/af/dd21af38-1b15-84fb-9d52-e846f17f4109/dj.qbvmpkfr.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/the-last-thing-on-my-mind/1042877331?i=1042877334",
+      "sourceUrl": "https://music.apple.com/au/album/the-last-thing-on-my-mind/1042877331?i=1042877334",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 85,
       "id": "apple:1440650961",
       "provider": "apple-music",
       "appleId": "1440650961",
@@ -1914,7 +2165,7 @@
       ]
     },
     {
-      "position": 76,
+      "position": 86,
       "id": "apple:1544324124",
       "provider": "apple-music",
       "appleId": "1544324124",
@@ -1939,32 +2190,7 @@
       ]
     },
     {
-      "position": 77,
-      "id": "apple:1441539154",
-      "provider": "apple-music",
-      "appleId": "1441539154",
-      "title": "Someone You Loved",
-      "artist": "Lewis Capaldi",
-      "artistNames": [
-        "Lewis Capaldi"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2018-11-08",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/f7/af/05f7af37-526e-5e6e-e4cd-9e4bc3da0756/18UMGIM52528.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/someone-you-loved/1441539148?i=1441539154",
-      "sourceUrl": "https://music.apple.com/au/album/someone-you-loved/1441539148?i=1441539154",
-      "explicit": false,
-      "genres": [
-        "Alternative",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 78,
+      "position": 87,
       "id": "apple:1226034393",
       "provider": "apple-music",
       "appleId": "1226034393",
@@ -1989,23 +2215,23 @@
       ]
     },
     {
-      "position": 79,
-      "id": "apple:1847992612",
+      "position": 88,
+      "id": "apple:1818103445",
       "provider": "apple-music",
-      "appleId": "1847992612",
-      "title": "Raindance",
-      "artist": "Dave & Tems",
+      "appleId": "1818103445",
+      "title": "Manchild",
+      "artist": "Sabrina Carpenter",
       "artistNames": [
-        "Dave & Tems"
+        "Sabrina Carpenter"
       ],
       "albumTitle": "",
-      "releaseDate": "2025-10-24",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/49/24/9949241c-e52c-3018-eae8-c686013a7474/25UM1IM68216.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/raindance/1847992481?i=1847992612",
-      "sourceUrl": "https://music.apple.com/au/album/raindance/1847992481?i=1847992612",
+      "releaseDate": "2025-06-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/50/a3/b750a392-cfaa-bedc-7d81-cf7a1718e960/25UMGIM76990.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/manchild/1818103444?i=1818103445",
+      "sourceUrl": "https://music.apple.com/au/album/manchild/1818103444?i=1818103445",
       "explicit": false,
       "genres": [
-        "Hip-Hop/Rap",
+        "Pop",
         "Music"
       ],
       "country": "AU",
@@ -2014,23 +2240,23 @@
       ]
     },
     {
-      "position": 80,
-      "id": "apple:1818761158",
+      "position": 89,
+      "id": "apple:1817609514",
       "provider": "apple-music",
-      "appleId": "1818761158",
-      "title": "No Broke Boys",
-      "artist": "Disco Lines & Tinashe",
+      "appleId": "1817609514",
+      "title": "A Couple Minutes",
+      "artist": "Olivia Dean",
       "artistNames": [
-        "Disco Lines & Tinashe"
+        "Olivia Dean"
       ],
       "albumTitle": "",
-      "releaseDate": "2025-06-06",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/c9/d3/7ac9d3d9-519a-3e67-ff4b-77de2458e0b9/075679605375.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/no-broke-boys/1818761033?i=1818761158",
-      "sourceUrl": "https://music.apple.com/au/album/no-broke-boys/1818761033?i=1818761158",
+      "releaseDate": "2025-09-26",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/a-couple-minutes/1817609404?i=1817609514",
+      "sourceUrl": "https://music.apple.com/au/album/a-couple-minutes/1817609404?i=1817609514",
       "explicit": false,
       "genres": [
-        "Dance",
+        "Pop",
         "Music"
       ],
       "country": "AU",
@@ -2039,7 +2265,7 @@
       ]
     },
     {
-      "position": 81,
+      "position": 90,
       "id": "apple:1440899467",
       "provider": "apple-music",
       "appleId": "1440899467",
@@ -2064,95 +2290,20 @@
       ]
     },
     {
-      "position": 82,
-      "id": "apple:362133505",
+      "position": 91,
+      "id": "apple:1441539154",
       "provider": "apple-music",
-      "appleId": "362133505",
-      "title": "Everlong",
-      "artist": "Foo Fighters",
+      "appleId": "1441539154",
+      "title": "Someone You Loved",
+      "artist": "Lewis Capaldi",
       "artistNames": [
-        "Foo Fighters"
+        "Lewis Capaldi"
       ],
       "albumTitle": "",
-      "releaseDate": "1997-05-20",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/f5/86/68f586ca-a375-9965-a864-9e227e77ef5b/884977570328.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/everlong/362133451?i=362133505",
-      "sourceUrl": "https://music.apple.com/au/album/everlong/362133451?i=362133505",
-      "explicit": false,
-      "genres": [
-        "Rock",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 83,
-      "id": "apple:1797895104",
-      "provider": "apple-music",
-      "appleId": "1797895104",
-      "title": "Sorry I'm Here For Someone Else",
-      "artist": "Benson Boone",
-      "artistNames": [
-        "Benson Boone"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-02-27",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/0e/46/8b0e463a-8b5a-d0be-7de2-5b2d3f785976/054391235039.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/sorry-im-here-for-someone-else/1797895103?i=1797895104",
-      "sourceUrl": "https://music.apple.com/au/album/sorry-im-here-for-someone-else/1797895103?i=1797895104",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 84,
-      "id": "apple:1376707066",
-      "provider": "apple-music",
-      "appleId": "1376707066",
-      "title": "Beautiful Crazy",
-      "artist": "Luke Combs",
-      "artistNames": [
-        "Luke Combs"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2018-05-04",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/4b/59/f44b59a2-62c7-e9c7-df8b-4b8e7d772b41/886447048443.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/beautiful-crazy/1376705241?i=1376707066",
-      "sourceUrl": "https://music.apple.com/au/album/beautiful-crazy/1376705241?i=1376707066",
-      "explicit": false,
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 85,
-      "id": "apple:1632285403",
-      "provider": "apple-music",
-      "appleId": "1632285403",
-      "title": "Stick Season",
-      "artist": "Noah Kahan",
-      "artistNames": [
-        "Noah Kahan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2022-07-08",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8d/25/8e/8d258e09-7395-998f-23ed-82b0433b0518/22UMGIM71396.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/stick-season/1632285378?i=1632285403",
-      "sourceUrl": "https://music.apple.com/au/album/stick-season/1632285378?i=1632285403",
+      "releaseDate": "2018-11-08",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/f7/af/05f7af37-526e-5e6e-e4cd-9e4bc3da0756/18UMGIM52528.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/someone-you-loved/1441539148?i=1441539154",
+      "sourceUrl": "https://music.apple.com/au/album/someone-you-loved/1441539148?i=1441539154",
       "explicit": false,
       "genres": [
         "Alternative",
@@ -2164,7 +2315,57 @@
       ]
     },
     {
-      "position": 86,
+      "position": 92,
+      "id": "apple:1847992612",
+      "provider": "apple-music",
+      "appleId": "1847992612",
+      "title": "Raindance",
+      "artist": "Dave & Tems",
+      "artistNames": [
+        "Dave & Tems"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-10-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/49/24/9949241c-e52c-3018-eae8-c686013a7474/25UM1IM68216.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/raindance/1847992481?i=1847992612",
+      "sourceUrl": "https://music.apple.com/au/album/raindance/1847992481?i=1847992612",
+      "explicit": false,
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 93,
+      "id": "apple:1891779777",
+      "provider": "apple-music",
+      "appleId": "1891779777",
+      "title": "Hootie Frutti",
+      "artist": "KATSEYE",
+      "artistNames": [
+        "KATSEYE"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-08-13",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/hootie-frutti/1891779764?i=1891779777",
+      "sourceUrl": "https://music.apple.com/au/album/hootie-frutti/1891779764?i=1891779777",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "AU",
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 94,
       "id": "apple:1739659142",
       "provider": "apple-music",
       "appleId": "1739659142",
@@ -2189,84 +2390,7 @@
       ]
     },
     {
-      "position": 87,
-      "id": "apple:1817609513",
-      "provider": "apple-music",
-      "appleId": "1817609513",
-      "title": "Baby Steps",
-      "artist": "Olivia Dean",
-      "artistNames": [
-        "Olivia Dean"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-09-26",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/baby-steps/1817609404?i=1817609513",
-      "sourceUrl": "https://music.apple.com/au/album/baby-steps/1817609404?i=1817609513",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 88,
-      "id": "apple:1122773680",
-      "provider": "apple-music",
-      "appleId": "1122773680",
-      "title": "Viva La Vida",
-      "artist": "Coldplay",
-      "artistNames": [
-        "Coldplay"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2008-05-25",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/aa/85/52aa851f-15b7-6322-f91f-df84b15b7b19/190295978044.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/viva-la-vida/1122773394?i=1122773680",
-      "sourceUrl": "https://music.apple.com/au/album/viva-la-vida/1122773394?i=1122773680",
-      "explicit": false,
-      "genres": [
-        "Alternative",
-        "Music",
-        "Rock"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 89,
-      "id": "apple:1440862803",
-      "provider": "apple-music",
-      "appleId": "1440862803",
-      "title": "Counting Stars",
-      "artist": "OneRepublic",
-      "artistNames": [
-        "OneRepublic"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2013-06-14",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/eb/26/cbeb26a5-15fd-a9e7-0eff-5ee97e28e7c7/13UMGIM15044.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/counting-stars/1440862673?i=1440862803",
-      "sourceUrl": "https://music.apple.com/au/album/counting-stars/1440862673?i=1440862803",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music",
-        "Rock"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 90,
+      "position": 95,
       "id": "apple:1813021660",
       "provider": "apple-music",
       "appleId": "1813021660",
@@ -2291,152 +2415,24 @@
       ]
     },
     {
-      "position": 91,
-      "id": "apple:290303003",
+      "position": 96,
+      "id": "apple:362133505",
       "provider": "apple-music",
-      "appleId": "290303003",
-      "title": "Sex On Fire",
-      "artist": "Kings of Leon",
+      "appleId": "362133505",
+      "title": "Everlong",
+      "artist": "Foo Fighters",
       "artistNames": [
-        "Kings of Leon"
+        "Foo Fighters"
       ],
       "albumTitle": "",
-      "releaseDate": "2008-09-04",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/74/25/4c/74254c8b-e03d-44e8-304d-4cde508b8cfb/dj.swemfdrr.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/sex-on-fire/290302885?i=290303003",
-      "sourceUrl": "https://music.apple.com/au/album/sex-on-fire/290302885?i=290303003",
-      "explicit": false,
-      "genres": [
-        "Alternative",
-        "Music",
-        "Rock"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 92,
-      "id": "apple:1753384773",
-      "provider": "apple-music",
-      "appleId": "1753384773",
-      "title": "GIRLS",
-      "artist": "The Kid LAROI",
-      "artistNames": [
-        "The Kid LAROI"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-06-28",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/11/16/ec111698-c5eb-cbe0-eb6c-bd9acc2cd32c/196872233315.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/girls/1753384769?i=1753384773",
-      "sourceUrl": "https://music.apple.com/au/album/girls/1753384769?i=1753384773",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 93,
-      "id": "apple:1443225779",
-      "provider": "apple-music",
-      "appleId": "1443225779",
-      "title": "Khe Sanh",
-      "artist": "Cold Chisel",
-      "artistNames": [
-        "Cold Chisel"
-      ],
-      "albumTitle": "",
-      "releaseDate": "1978-04-24",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/96/1e/d6/961ed68b-b595-a6ae-e187-9df064db8475/13UAEIM00192.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/khe-sanh/1443225770?i=1443225779",
-      "sourceUrl": "https://music.apple.com/au/album/khe-sanh/1443225770?i=1443225779",
+      "releaseDate": "1997-05-20",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/f5/86/68f586ca-a375-9965-a864-9e227e77ef5b/884977570328.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/everlong/362133451?i=362133505",
+      "sourceUrl": "https://music.apple.com/au/album/everlong/362133451?i=362133505",
       "explicit": false,
       "genres": [
         "Rock",
-        "Music",
-        "Worldwide"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 94,
-      "id": "apple:1817499251",
-      "provider": "apple-music",
-      "appleId": "1817499251",
-      "title": "Midnight Sun",
-      "artist": "Zara Larsson",
-      "artistNames": [
-        "Zara Larsson"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-06-13",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/midnight-sun/1817499239?i=1817499251",
-      "sourceUrl": "https://music.apple.com/au/album/midnight-sun/1817499239?i=1817499251",
-      "explicit": false,
-      "genres": [
-        "Pop",
         "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 95,
-      "id": "apple:1452879748",
-      "provider": "apple-music",
-      "appleId": "1452879748",
-      "title": "Love Story",
-      "artist": "Taylor Swift",
-      "artistNames": [
-        "Taylor Swift"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2008-09-12",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/5b/4f/9a5b4f88-ef7e-093c-48bd-ce3fb72fa7dc/09UMGIM38836.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/love-story/1452879607?i=1452879748",
-      "sourceUrl": "https://music.apple.com/au/album/love-story/1452879607?i=1452879748",
-      "explicit": false,
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "country": "AU",
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 96,
-      "id": "apple:1706381103",
-      "provider": "apple-music",
-      "appleId": "1706381103",
-      "title": "greedy",
-      "artist": "Tate McRae",
-      "artistNames": [
-        "Tate McRae"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2023-09-15",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/23/07/92/23079247-25be-3098-ef53-78e7d0fe7406/196871341653.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/greedy/1706381100?i=1706381103",
-      "sourceUrl": "https://music.apple.com/au/album/greedy/1706381100?i=1706381103",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music",
-        "Alternative"
       ],
       "country": "AU",
       "regions": [
@@ -2445,22 +2441,22 @@
     },
     {
       "position": 97,
-      "id": "apple:1889992117",
+      "id": "apple:1818761158",
       "provider": "apple-music",
-      "appleId": "1889992117",
-      "title": "maggots for brains",
-      "artist": "Olivia Rodrigo",
+      "appleId": "1818761158",
+      "title": "No Broke Boys",
+      "artist": "Disco Lines & Tinashe",
       "artistNames": [
-        "Olivia Rodrigo"
+        "Disco Lines & Tinashe"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-06-12",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/maggots-for-brains/1889992111?i=1889992117",
-      "sourceUrl": "https://music.apple.com/au/album/maggots-for-brains/1889992111?i=1889992117",
+      "releaseDate": "2025-06-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/c9/d3/7ac9d3d9-519a-3e67-ff4b-77de2458e0b9/075679605375.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/no-broke-boys/1818761033?i=1818761158",
+      "sourceUrl": "https://music.apple.com/au/album/no-broke-boys/1818761033?i=1818761158",
       "explicit": false,
       "genres": [
-        "Pop",
+        "Dance",
         "Music"
       ],
       "country": "AU",
@@ -2470,24 +2466,23 @@
     },
     {
       "position": 98,
-      "id": "apple:1887606227",
+      "id": "apple:1817609513",
       "provider": "apple-music",
-      "appleId": "1887606227",
-      "title": "Kingdom of Fear",
-      "artist": "Cameron Whitcomb",
+      "appleId": "1817609513",
+      "title": "Baby Steps",
+      "artist": "Olivia Dean",
       "artistNames": [
-        "Cameron Whitcomb"
+        "Olivia Dean"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-03-27",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/33/73/7e337333-0802-d7b5-8848-d20fdbdf993c/075679584731.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/kingdom-of-fear/1887606218?i=1887606227",
-      "sourceUrl": "https://music.apple.com/au/album/kingdom-of-fear/1887606218?i=1887606227",
+      "releaseDate": "2025-09-26",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/baby-steps/1817609404?i=1817609513",
+      "sourceUrl": "https://music.apple.com/au/album/baby-steps/1817609404?i=1817609513",
       "explicit": false,
       "genres": [
-        "Country",
-        "Music",
-        "Alternative"
+        "Pop",
+        "Music"
       ],
       "country": "AU",
       "regions": [
@@ -2496,23 +2491,24 @@
     },
     {
       "position": 99,
-      "id": "apple:6762757958",
+      "id": "apple:1122773680",
       "provider": "apple-music",
-      "appleId": "6762757958",
-      "title": "Orbiter",
-      "artist": "Noah Kahan",
+      "appleId": "1122773680",
+      "title": "Viva La Vida",
+      "artist": "Coldplay",
       "artistNames": [
-        "Noah Kahan"
+        "Coldplay"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-04-25",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/aa/69/f9aa6992-40ca-a756-85ca-b27c48f7c720/26UMGIM02802.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/album/orbiter/1894997820?i=6762757958",
-      "sourceUrl": "https://music.apple.com/au/album/orbiter/1894997820?i=6762757958",
+      "releaseDate": "2008-05-25",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/aa/85/52aa851f-15b7-6322-f91f-df84b15b7b19/190295978044.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/album/viva-la-vida/1122773394?i=1122773680",
+      "sourceUrl": "https://music.apple.com/au/album/viva-la-vida/1122773394?i=1122773680",
       "explicit": false,
       "genres": [
         "Alternative",
-        "Music"
+        "Music",
+        "Rock"
       ],
       "country": "AU",
       "regions": [
