@@ -4,7 +4,7 @@
   "region": "HK",
   "regionName": "Hong Kong SAR China",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/hk/music/most-played/50/playlists.json",
-  "updatedAt": "2026-08-26T07:19:47.000Z",
+  "updatedAt": "2026-08-27T17:45:23.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
@@ -85,6 +85,21 @@
     },
     {
       "position": 6,
+      "id": "apple:pl.bca7ed31389842108896524e2edbd956",
+      "provider": "apple-music",
+      "appleId": "pl.bca7ed31389842108896524e2edbd956",
+      "title": "Dolly Parton 代表作",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/ef/1b/b6/ef1bb62d-4a22-6fa7-e43b-7c1be1e5f9b5/ami-identity-b4abe5540760f06b1ef922729b4f877b-2026-01-16T03-03-47.334Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/dolly-parton-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.bca7ed31389842108896524e2edbd956",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 7,
       "id": "apple:pl.f3a6402280a1424dafd244a740d69a68",
       "provider": "apple-music",
       "appleId": "pl.f3a6402280a1424dafd244a740d69a68",
@@ -99,7 +114,7 @@
       ]
     },
     {
-      "position": 7,
+      "position": 8,
       "id": "apple:pl.5ee8333dbe944d9f9151e97d92d1ead9",
       "provider": "apple-music",
       "appleId": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
@@ -114,37 +129,7 @@
       ]
     },
     {
-      "position": 8,
-      "id": "apple:pl.beb783da7712481fbeed35be144bd48c",
-      "provider": "apple-music",
-      "appleId": "pl.beb783da7712481fbeed35be144bd48c",
-      "title": "A-List：國語流行樂",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c8/15/05/c8150513-8153-76b6-8788-ddd4dd7baeeb/7b1d8313-f103-4e01-8a9b-48781657beff.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/a-list-%E5%9C%8B%E8%AA%9E%E6%B5%81%E8%A1%8C%E6%A8%82/pl.beb783da7712481fbeed35be144bd48c",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
       "position": 9,
-      "id": "apple:pl.cb022217e9864fe69ae79831db2f31ce",
-      "provider": "apple-music",
-      "appleId": "pl.cb022217e9864fe69ae79831db2f31ce",
-      "title": "即唱：廣東歌",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6a/c9/17/6ac91700-02b2-5ce7-c3b0-ff62a9981093/aa6dc755-873d-47dc-a343-1f4bccd1bd8b.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E5%8D%B3%E5%94%B1-%E5%BB%A3%E6%9D%B1%E6%AD%8C/pl.cb022217e9864fe69ae79831db2f31ce",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 10,
       "id": "apple:pl.873e73a132734e14810b0511b57a068c",
       "provider": "apple-music",
       "appleId": "pl.873e73a132734e14810b0511b57a068c",
@@ -159,16 +144,30 @@
       ]
     },
     {
-      "position": 11,
-      "id": "apple:pl.a784f95d4f504d579647523ff95433be",
+      "position": 10,
+      "id": "apple:pl.cb022217e9864fe69ae79831db2f31ce",
       "provider": "apple-music",
-      "appleId": "pl.a784f95d4f504d579647523ff95433be",
-      "title": "K-Pop 新歌",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/95/ed/bc/95edbc85-6994-6fc2-851f-5e62b2d720ec/2818a03f-9b9d-4747-8545-862deb5b14eb.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/k-pop-%E6%96%B0%E6%AD%8C/pl.a784f95d4f504d579647523ff95433be",
+      "appleId": "pl.cb022217e9864fe69ae79831db2f31ce",
+      "title": "即唱：廣東歌",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6a/c9/17/6ac91700-02b2-5ce7-c3b0-ff62a9981093/aa6dc755-873d-47dc-a343-1f4bccd1bd8b.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E5%8D%B3%E5%94%B1-%E5%BB%A3%E6%9D%B1%E6%AD%8C/pl.cb022217e9864fe69ae79831db2f31ce",
       "interests": [
-        "pop",
-        "k-pop"
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 11,
+      "id": "apple:pl.beb783da7712481fbeed35be144bd48c",
+      "provider": "apple-music",
+      "appleId": "pl.beb783da7712481fbeed35be144bd48c",
+      "title": "A-List：國語流行樂",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c8/15/05/c8150513-8153-76b6-8788-ddd4dd7baeeb/7b1d8313-f103-4e01-8a9b-48781657beff.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/a-list-%E5%9C%8B%E8%AA%9E%E6%B5%81%E8%A1%8C%E6%A8%82/pl.beb783da7712481fbeed35be144bd48c",
+      "interests": [
+        "popular"
       ],
       "regions": [
         "HK"
@@ -206,6 +205,22 @@
     },
     {
       "position": 14,
+      "id": "apple:pl.a784f95d4f504d579647523ff95433be",
+      "provider": "apple-music",
+      "appleId": "pl.a784f95d4f504d579647523ff95433be",
+      "title": "K-Pop 新歌",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/95/ed/bc/95edbc85-6994-6fc2-851f-5e62b2d720ec/2818a03f-9b9d-4747-8545-862deb5b14eb.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/k-pop-%E6%96%B0%E6%AD%8C/pl.a784f95d4f504d579647523ff95433be",
+      "interests": [
+        "pop",
+        "k-pop"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 15,
       "id": "apple:pl.7d657a836db14d768accd2e6ffd1b0ad",
       "provider": "apple-music",
       "appleId": "pl.7d657a836db14d768accd2e6ffd1b0ad",
@@ -220,37 +235,7 @@
       ]
     },
     {
-      "position": 15,
-      "id": "apple:pl.cf0d5ce905264da28f8f9eceebb3710f",
-      "provider": "apple-music",
-      "appleId": "pl.cf0d5ce905264da28f8f9eceebb3710f",
-      "title": "Eason Chan Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/75/18/cc/7518ccc2-97be-ccc7-6a31-6bde42af81fb/mzl.yfyaenpa.jpg/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/eason-chan-essentials/pl.cf0d5ce905264da28f8f9eceebb3710f",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
       "position": 16,
-      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "provider": "apple-music",
-      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "title": "愜意鋼琴",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E6%84%9C%E6%84%8F%E9%8B%BC%E7%90%B4/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 17,
       "id": "apple:pl.6d8228f57b864a4296dc02d9761a0d9b",
       "provider": "apple-music",
       "appleId": "pl.6d8228f57b864a4296dc02d9761a0d9b",
@@ -265,13 +250,28 @@
       ]
     },
     {
-      "position": 18,
-      "id": "apple:pl.63271312c084419891982eab46cc68ac",
+      "position": 17,
+      "id": "apple:pl.cf0d5ce905264da28f8f9eceebb3710f",
       "provider": "apple-music",
-      "appleId": "pl.63271312c084419891982eab46cc68ac",
-      "title": "輕鬆爵士樂",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E8%BC%95%E9%AC%86%E7%88%B5%E5%A3%AB%E6%A8%82/pl.63271312c084419891982eab46cc68ac",
+      "appleId": "pl.cf0d5ce905264da28f8f9eceebb3710f",
+      "title": "Eason Chan Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/75/18/cc/7518ccc2-97be-ccc7-6a31-6bde42af81fb/mzl.yfyaenpa.jpg/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/eason-chan-essentials/pl.cf0d5ce905264da28f8f9eceebb3710f",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 18,
+      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "provider": "apple-music",
+      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "title": "愜意鋼琴",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E6%84%9C%E6%84%8F%E9%8B%BC%E7%90%B4/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
       "interests": [
         "popular"
       ],
@@ -281,21 +281,6 @@
     },
     {
       "position": 19,
-      "id": "apple:pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "provider": "apple-music",
-      "appleId": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "title": "R&B 進行式",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/eb/b3/a3/ebb3a3a5-98b1-de41-647e-83049a4df0a3/df67a34f-8fa5-4b54-b826-50a79bd2c421.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/r-b-%E9%80%B2%E8%A1%8C%E5%BC%8F/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "interests": [
-        "rnb"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 20,
       "id": "apple:pl.5b7698bbcd01407a92b8457f650bebaf",
       "provider": "apple-music",
       "appleId": "pl.5b7698bbcd01407a92b8457f650bebaf",
@@ -310,13 +295,28 @@
       ]
     },
     {
-      "position": 21,
+      "position": 20,
       "id": "apple:pl.925e5db77e384e69aadc011876e96797",
       "provider": "apple-music",
       "appleId": "pl.925e5db77e384e69aadc011876e96797",
       "title": "MC Cheung Tinfu Essentials",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/14/65/b5/1465b5d2-4364-7296-e4e6-5437c2e4661c/ami-identity-4b1e97980b010eade552f6400a1ef7ff-2026-07-27T04-12-34.443Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
       "appleUrl": "https://music.apple.com/hk/playlist/mc-cheung-tinfu-essentials/pl.925e5db77e384e69aadc011876e96797",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 21,
+      "id": "apple:pl.17a41e613df44c0ab2c0fcb49bda1e5f",
+      "provider": "apple-music",
+      "appleId": "pl.17a41e613df44c0ab2c0fcb49bda1e5f",
+      "title": "迪士尼熱播曲目",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ba/39/35/ba39356c-c8b6-d0fe-4a4c-1adfd735ac25/431fe633-fa0e-4553-8444-13a97efec2d9.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E8%BF%AA%E5%A3%AB%E5%B0%BC%E7%86%B1%E6%92%AD%E6%9B%B2%E7%9B%AE/pl.17a41e613df44c0ab2c0fcb49bda1e5f",
       "interests": [
         "popular"
       ],
@@ -341,14 +341,14 @@
     },
     {
       "position": 23,
-      "id": "apple:pl.17a41e613df44c0ab2c0fcb49bda1e5f",
+      "id": "apple:pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "provider": "apple-music",
-      "appleId": "pl.17a41e613df44c0ab2c0fcb49bda1e5f",
-      "title": "迪士尼熱播曲目",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ba/39/35/ba39356c-c8b6-d0fe-4a4c-1adfd735ac25/431fe633-fa0e-4553-8444-13a97efec2d9.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E8%BF%AA%E5%A3%AB%E5%B0%BC%E7%86%B1%E6%92%AD%E6%9B%B2%E7%9B%AE/pl.17a41e613df44c0ab2c0fcb49bda1e5f",
+      "appleId": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
+      "title": "R&B 進行式",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/eb/b3/a3/ebb3a3a5-98b1-de41-647e-83049a4df0a3/df67a34f-8fa5-4b54-b826-50a79bd2c421.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/r-b-%E9%80%B2%E8%A1%8C%E5%BC%8F/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "interests": [
-        "popular"
+        "rnb"
       ],
       "regions": [
         "HK"
@@ -356,12 +356,12 @@
     },
     {
       "position": 24,
-      "id": "apple:pl.bca7ed31389842108896524e2edbd956",
+      "id": "apple:pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
       "provider": "apple-music",
-      "appleId": "pl.bca7ed31389842108896524e2edbd956",
-      "title": "Dolly Parton 代表作",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/ef/1b/b6/ef1bb62d-4a22-6fa7-e43b-7c1be1e5f9b5/ami-identity-b4abe5540760f06b1ef922729b4f877b-2026-01-16T03-03-47.334Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/dolly-parton-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.bca7ed31389842108896524e2edbd956",
+      "appleId": "pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
+      "title": "BIGBANG's XX : COSMOS Tour Set List",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/40/a7/5d/40a75d43-e22a-a83c-a3e6-b6f2028e700b/ami-identity-51326b76eee8ee25300f569b6b6b6929-2026-08-19T08-28-48.266Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/bigbangs-xx-cosmos-tour-set-list/pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
       "interests": [
         "popular"
       ],
@@ -371,15 +371,14 @@
     },
     {
       "position": 25,
-      "id": "apple:pl.dc16cb58902342cba9711cbcd9bf2840",
+      "id": "apple:pl.63271312c084419891982eab46cc68ac",
       "provider": "apple-music",
-      "appleId": "pl.dc16cb58902342cba9711cbcd9bf2840",
-      "title": "J-Pop Now",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c0/12/6f/c0126fdb-10e0-0bc1-75e8-0f9e11c2208f/b0b61d6c-c619-43af-9756-87c7c8d4509f.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/j-pop-now/pl.dc16cb58902342cba9711cbcd9bf2840",
+      "appleId": "pl.63271312c084419891982eab46cc68ac",
+      "title": "輕鬆爵士樂",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E8%BC%95%E9%AC%86%E7%88%B5%E5%A3%AB%E6%A8%82/pl.63271312c084419891982eab46cc68ac",
       "interests": [
-        "pop",
-        "j-pop"
+        "popular"
       ],
       "regions": [
         "HK"
@@ -402,6 +401,37 @@
     },
     {
       "position": 27,
+      "id": "apple:pl.1d5ead185d8a4a9089f3b952770b762c",
+      "provider": "apple-music",
+      "appleId": "pl.1d5ead185d8a4a9089f3b952770b762c",
+      "title": "愜意 Lo-Fi",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/3e/2a/09/3e2a0903-d0b5-d43a-9d00-c94ea1767579/61088f1a-08a9-4717-9909-3838749b2d01.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E6%84%9C%E6%84%8F-lo-fi/pl.1d5ead185d8a4a9089f3b952770b762c",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 28,
+      "id": "apple:pl.dc16cb58902342cba9711cbcd9bf2840",
+      "provider": "apple-music",
+      "appleId": "pl.dc16cb58902342cba9711cbcd9bf2840",
+      "title": "J-Pop Now",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c0/12/6f/c0126fdb-10e0-0bc1-75e8-0f9e11c2208f/b0b61d6c-c619-43af-9756-87c7c8d4509f.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/j-pop-now/pl.dc16cb58902342cba9711cbcd9bf2840",
+      "interests": [
+        "pop",
+        "j-pop"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 29,
       "id": "apple:pl.8e9831f8282c46bc80aceea9399bb32d",
       "provider": "apple-music",
       "appleId": "pl.8e9831f8282c46bc80aceea9399bb32d",
@@ -416,22 +446,7 @@
       ]
     },
     {
-      "position": 28,
-      "id": "apple:pl.03fb2a50d46b4a08aa76939499b965de",
-      "provider": "apple-music",
-      "appleId": "pl.03fb2a50d46b4a08aa76939499b965de",
-      "title": "2010 年代廣東情歌代表作品",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/94/8b/f5/948bf5ff-47d5-a312-6d12-9c20ac727b2e/pr_source.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/2010-%E5%B9%B4%E4%BB%A3%E5%BB%A3%E6%9D%B1%E6%83%85%E6%AD%8C%E4%BB%A3%E8%A1%A8%E4%BD%9C%E5%93%81/pl.03fb2a50d46b4a08aa76939499b965de",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 29,
+      "position": 30,
       "id": "apple:pl.fc93c98d0aea4e24a982d6b059a07506",
       "provider": "apple-music",
       "appleId": "pl.fc93c98d0aea4e24a982d6b059a07506",
@@ -446,28 +461,13 @@
       ]
     },
     {
-      "position": 30,
-      "id": "apple:pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
-      "provider": "apple-music",
-      "appleId": "pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
-      "title": "BIGBANG's XX : COSMOS Tour Set List",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/40/a7/5d/40a75d43-e22a-a83c-a3e6-b6f2028e700b/ami-identity-51326b76eee8ee25300f569b6b6b6929-2026-08-19T08-28-48.266Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/bigbangs-xx-cosmos-tour-set-list/pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
       "position": 31,
-      "id": "apple:pl.154a189b1a8c4bc49480c7892a160ed8",
+      "id": "apple:pl.daa788c0ab3841febf12046d5bd67546",
       "provider": "apple-music",
-      "appleId": "pl.154a189b1a8c4bc49480c7892a160ed8",
-      "title": "Hins Cheung Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/ba/5d/ab/ba5dabe2-8076-1388-4e21-53d3bb18f9b5/mzl.yrkzryqd.jpg/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/hins-cheung-essentials/pl.154a189b1a8c4bc49480c7892a160ed8",
+      "appleId": "pl.daa788c0ab3841febf12046d5bd67546",
+      "title": "健身流行音樂",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/b0/4e/e0/b04ee0fd-cce8-31c5-7e57-c4d37d4048a6/U0MtTVMtV1ctUG9wX1dvcmtvdXQtQURBTV9JRD0xMDA0NzgxMDkwLnBuZw.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E5%81%A5%E8%BA%AB%E6%B5%81%E8%A1%8C%E9%9F%B3%E6%A8%82/pl.daa788c0ab3841febf12046d5bd67546",
       "interests": [
         "popular"
       ],
@@ -492,6 +492,51 @@
     },
     {
       "position": 33,
+      "id": "apple:pl.38e226dfe8db48e7b5f46922aee8841e",
+      "provider": "apple-music",
+      "appleId": "pl.38e226dfe8db48e7b5f46922aee8841e",
+      "title": "日式 R&B 酒館",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/4d/d0/80/4dd08013-27db-2795-12ee-cf9ee7c1129d/8c03f463-0c71-40b6-a1a8-dd51bbee14be.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E6%97%A5%E5%BC%8F-r-b-%E9%85%92%E9%A4%A8/pl.38e226dfe8db48e7b5f46922aee8841e",
+      "interests": [
+        "rnb"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 34,
+      "id": "apple:pl.2bb29727dbc34a63936787297305c37c",
+      "provider": "apple-music",
+      "appleId": "pl.2bb29727dbc34a63936787297305c37c",
+      "title": "今日鬆一鬆",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/47/7e/55/477e552f-1713-d9ec-e75b-8c190ad03a9c/U0MtTVMtV1ctVG9kYXlfc19DaGlsbC1BREFNX0lEPTExMjQyMTE5MDQucG5n.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E4%BB%8A%E6%97%A5%E9%AC%86%E4%B8%80%E9%AC%86/pl.2bb29727dbc34a63936787297305c37c",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 35,
+      "id": "apple:pl.1a26c003c0f14f9ca7cf383369cffa6e",
+      "provider": "apple-music",
+      "appleId": "pl.1a26c003c0f14f9ca7cf383369cffa6e",
+      "title": "Super Simple Songs：代表作",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/a2/9b/0c/a29b0c15-c7b6-2a9c-c995-19cbac619597/pr_source.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/super-simple-songs-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.1a26c003c0f14f9ca7cf383369cffa6e",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 36,
       "id": "apple:pl.d838905f50af4200a2ebbc614922dee9",
       "provider": "apple-music",
       "appleId": "pl.d838905f50af4200a2ebbc614922dee9",
@@ -507,67 +552,7 @@
       ]
     },
     {
-      "position": 34,
-      "id": "apple:pl.daa788c0ab3841febf12046d5bd67546",
-      "provider": "apple-music",
-      "appleId": "pl.daa788c0ab3841febf12046d5bd67546",
-      "title": "健身流行音樂",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/b0/4e/e0/b04ee0fd-cce8-31c5-7e57-c4d37d4048a6/U0MtTVMtV1ctUG9wX1dvcmtvdXQtQURBTV9JRD0xMDA0NzgxMDkwLnBuZw.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E5%81%A5%E8%BA%AB%E6%B5%81%E8%A1%8C%E9%9F%B3%E6%A8%82/pl.daa788c0ab3841febf12046d5bd67546",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 35,
-      "id": "apple:pl.b5e8dbe8a706496496e1292466839207",
-      "provider": "apple-music",
-      "appleId": "pl.b5e8dbe8a706496496e1292466839207",
-      "title": "輕鬆原音音樂",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c5/51/38/c5513893-6092-3ab0-9a1d-e8e8001feeef/119b050f-feb9-472f-81ee-96fd6643fe9e.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E8%BC%95%E9%AC%86%E5%8E%9F%E9%9F%B3%E9%9F%B3%E6%A8%82/pl.b5e8dbe8a706496496e1292466839207",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 36,
-      "id": "apple:pl.2bb29727dbc34a63936787297305c37c",
-      "provider": "apple-music",
-      "appleId": "pl.2bb29727dbc34a63936787297305c37c",
-      "title": "今日鬆一鬆",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/47/7e/55/477e552f-1713-d9ec-e75b-8c190ad03a9c/U0MtTVMtV1ctVG9kYXlfc19DaGlsbC1BREFNX0lEPTExMjQyMTE5MDQucG5n.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E4%BB%8A%E6%97%A5%E9%AC%86%E4%B8%80%E9%AC%86/pl.2bb29727dbc34a63936787297305c37c",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
       "position": 37,
-      "id": "apple:pl.1d5ead185d8a4a9089f3b952770b762c",
-      "provider": "apple-music",
-      "appleId": "pl.1d5ead185d8a4a9089f3b952770b762c",
-      "title": "愜意 Lo-Fi",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/3e/2a/09/3e2a0903-d0b5-d43a-9d00-c94ea1767579/61088f1a-08a9-4717-9909-3838749b2d01.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E6%84%9C%E6%84%8F-lo-fi/pl.1d5ead185d8a4a9089f3b952770b762c",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 38,
       "id": "apple:pl.17e8a3bf3f9f456fa02e52ccd620f003",
       "provider": "apple-music",
       "appleId": "pl.17e8a3bf3f9f456fa02e52ccd620f003",
@@ -582,7 +567,97 @@
       ]
     },
     {
+      "position": 38,
+      "id": "apple:pl.e0c081843cfa4bf88da477cb338568f6",
+      "provider": "apple-music",
+      "appleId": "pl.e0c081843cfa4bf88da477cb338568f6",
+      "title": "NewJeans：代表作",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/0f/a0/9b/0fa09bb2-fef4-e0ea-796a-fd70aaaefd7e/ami-identity-10ffb209545338d630cc58ea79bf639b-2026-08-13T07-11-26.358Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/newjeans-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.e0c081843cfa4bf88da477cb338568f6",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
       "position": 39,
+      "id": "apple:pl.d6b08f229d4f4f9da58b64fe646061af",
+      "provider": "apple-music",
+      "appleId": "pl.d6b08f229d4f4f9da58b64fe646061af",
+      "title": "Bruno Mars Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/75/7e/dd/757edd95-3276-ff15-7de3-5c8e8ec87b4c/ami-identity-865f12490d8b5356071cd06a025b5b6a-2026-01-09T05-04-02.540Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/bruno-mars-essentials/pl.d6b08f229d4f4f9da58b64fe646061af",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 40,
+      "id": "apple:pl.d467987f72384448b2bebe52c0b212d6",
+      "provider": "apple-music",
+      "appleId": "pl.d467987f72384448b2bebe52c0b212d6",
+      "title": "周杰倫代表作",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/6d/53/0e/6d530e69-ce17-1c15-7605-b267ef760ea1/ami-identity-8cbee1395c1dbfa4daf6d4c572503010-2026-03-24T12-21-24.021Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E5%91%A8%E6%9D%B0%E5%80%AB%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.d467987f72384448b2bebe52c0b212d6",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 41,
+      "id": "apple:pl.295be32ba47b44c0bdfddae49ff263b5",
+      "provider": "apple-music",
+      "appleId": "pl.295be32ba47b44c0bdfddae49ff263b5",
+      "title": "YOASOBI 代表作",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/36/61/28/366128da-852f-a13e-6ce6-72c95d2379d2/ami-identity-7a3111cd73233592a654e69a49e76f75-2026-07-15T09-36-28.404Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/yoasobi-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.295be32ba47b44c0bdfddae49ff263b5",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 42,
+      "id": "apple:pl.c2ab8af2e9e74576b3bb45d62819d5cd",
+      "provider": "apple-music",
+      "appleId": "pl.c2ab8af2e9e74576b3bb45d62819d5cd",
+      "title": "舒心古典：細味經典",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/48/f5/fd/48f5fd9c-34db-169f-0587-a1cf17862129/6d32ff0c-0476-4267-8826-b1337f52880d.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E8%88%92%E5%BF%83%E5%8F%A4%E5%85%B8-%E7%B4%B0%E5%91%B3%E7%B6%93%E5%85%B8/pl.c2ab8af2e9e74576b3bb45d62819d5cd",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 43,
+      "id": "apple:pl.154a189b1a8c4bc49480c7892a160ed8",
+      "provider": "apple-music",
+      "appleId": "pl.154a189b1a8c4bc49480c7892a160ed8",
+      "title": "Hins Cheung Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/ba/5d/ab/ba5dabe2-8076-1388-4e21-53d3bb18f9b5/mzl.yrkzryqd.jpg/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/hins-cheung-essentials/pl.154a189b1a8c4bc49480c7892a160ed8",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 44,
       "id": "apple:pl.77f15cb58d5249daa94c55dd9577c3c2",
       "provider": "apple-music",
       "appleId": "pl.77f15cb58d5249daa94c55dd9577c3c2",
@@ -597,7 +672,67 @@
       ]
     },
     {
-      "position": 40,
+      "position": 45,
+      "id": "apple:pl.c8eeb58d79ff4900af69c72315c7de61",
+      "provider": "apple-music",
+      "appleId": "pl.c8eeb58d79ff4900af69c72315c7de61",
+      "title": "BLACKPINK 代表作",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/72/0c/7d/720c7d75-dff0-97ac-ec79-6639c616412c/ami-identity-2d9111efdb30d9928ef6b549bcef0daf-2026-02-27T04-58-11.825Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/blackpink-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.c8eeb58d79ff4900af69c72315c7de61",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 46,
+      "id": "apple:pl.81471eb9f1174950b426105063eee13f",
+      "provider": "apple-music",
+      "appleId": "pl.81471eb9f1174950b426105063eee13f",
+      "title": "aespa 代表作",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/63/19/22/63192259-ddf7-fad7-02d1-c0efdeb91b7f/ami-identity-a7ba7a1dcf176f3a97d5a241459fcb51-2026-05-27T01-12-33.373Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/aespa-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.81471eb9f1174950b426105063eee13f",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 47,
+      "id": "apple:pl.171ed575105547da92990578cb1639be",
+      "provider": "apple-music",
+      "appleId": "pl.171ed575105547da92990578cb1639be",
+      "title": "輕鬆翻唱",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/67/6d/29/676d2943-0d31-9914-5953-b1d41a3ff769/346871fc-1751-4079-8ac0-47835bc48e10.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/%E8%BC%95%E9%AC%86%E7%BF%BB%E5%94%B1/pl.171ed575105547da92990578cb1639be",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 48,
+      "id": "apple:pl.aac856db93ec4a94b2be96318ffce835",
+      "provider": "apple-music",
+      "appleId": "pl.aac856db93ec4a94b2be96318ffce835",
+      "title": "Set List: IVE’s SHOW WHAT I AM TOUR",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/6a/65/5b/6a655be8-4c87-849c-290e-e8aaa7f0dcd9/ami-identity-69240dba41883ac416d4effab06e1b2c-2026-02-02T04-43-02.934Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
+      "appleUrl": "https://music.apple.com/hk/playlist/set-list-ives-show-what-i-am-tour/pl.aac856db93ec4a94b2be96318ffce835",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "HK"
+      ]
+    },
+    {
+      "position": 49,
       "id": "apple:pl.aef136be308444b1a3305c4bede4dc06",
       "provider": "apple-music",
       "appleId": "pl.aef136be308444b1a3305c4bede4dc06",
@@ -613,97 +748,7 @@
       ]
     },
     {
-      "position": 41,
-      "id": "apple:pl.1a26c003c0f14f9ca7cf383369cffa6e",
-      "provider": "apple-music",
-      "appleId": "pl.1a26c003c0f14f9ca7cf383369cffa6e",
-      "title": "Super Simple Songs：代表作",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/a2/9b/0c/a29b0c15-c7b6-2a9c-c995-19cbac619597/pr_source.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/super-simple-songs-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.1a26c003c0f14f9ca7cf383369cffa6e",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 42,
-      "id": "apple:pl.c8eeb58d79ff4900af69c72315c7de61",
-      "provider": "apple-music",
-      "appleId": "pl.c8eeb58d79ff4900af69c72315c7de61",
-      "title": "BLACKPINK 代表作",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/72/0c/7d/720c7d75-dff0-97ac-ec79-6639c616412c/ami-identity-2d9111efdb30d9928ef6b549bcef0daf-2026-02-27T04-58-11.825Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/blackpink-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.c8eeb58d79ff4900af69c72315c7de61",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 43,
-      "id": "apple:pl.295be32ba47b44c0bdfddae49ff263b5",
-      "provider": "apple-music",
-      "appleId": "pl.295be32ba47b44c0bdfddae49ff263b5",
-      "title": "YOASOBI 代表作",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/36/61/28/366128da-852f-a13e-6ce6-72c95d2379d2/ami-identity-7a3111cd73233592a654e69a49e76f75-2026-07-15T09-36-28.404Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/yoasobi-%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.295be32ba47b44c0bdfddae49ff263b5",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 44,
-      "id": "apple:pl.d467987f72384448b2bebe52c0b212d6",
-      "provider": "apple-music",
-      "appleId": "pl.d467987f72384448b2bebe52c0b212d6",
-      "title": "周杰倫代表作",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/6d/53/0e/6d530e69-ce17-1c15-7605-b267ef760ea1/ami-identity-8cbee1395c1dbfa4daf6d4c572503010-2026-03-24T12-21-24.021Z_cropped.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E5%91%A8%E6%9D%B0%E5%80%AB%E4%BB%A3%E8%A1%A8%E4%BD%9C/pl.d467987f72384448b2bebe52c0b212d6",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 45,
-      "id": "apple:pl.c2ab8af2e9e74576b3bb45d62819d5cd",
-      "provider": "apple-music",
-      "appleId": "pl.c2ab8af2e9e74576b3bb45d62819d5cd",
-      "title": "舒心古典：細味經典",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/48/f5/fd/48f5fd9c-34db-169f-0587-a1cf17862129/6d32ff0c-0476-4267-8826-b1337f52880d.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E8%88%92%E5%BF%83%E5%8F%A4%E5%85%B8-%E7%B4%B0%E5%91%B3%E7%B6%93%E5%85%B8/pl.c2ab8af2e9e74576b3bb45d62819d5cd",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 46,
-      "id": "apple:pl.7525e7e5e04f44269ce48ae05d39d209",
-      "provider": "apple-music",
-      "appleId": "pl.7525e7e5e04f44269ce48ae05d39d209",
-      "title": "Lo-Fi 假日心情",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/a8/79/88/a8798897-8b4a-3bd1-b4ef-a1be8a36175d/d74a81a0-36b2-4b90-bbd8-bd1b0d851f71.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/lo-fi-%E5%81%87%E6%97%A5%E5%BF%83%E6%83%85/pl.7525e7e5e04f44269ce48ae05d39d209",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 47,
+      "position": 50,
       "id": "apple:pl.161503b34ff7441a949c81bd19525b35",
       "provider": "apple-music",
       "appleId": "pl.161503b34ff7441a949c81bd19525b35",
@@ -713,51 +758,6 @@
       "interests": [
         "pop",
         "k-pop"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 48,
-      "id": "apple:pl.38e226dfe8db48e7b5f46922aee8841e",
-      "provider": "apple-music",
-      "appleId": "pl.38e226dfe8db48e7b5f46922aee8841e",
-      "title": "日式 R&B 酒館",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/4d/d0/80/4dd08013-27db-2795-12ee-cf9ee7c1129d/8c03f463-0c71-40b6-a1a8-dd51bbee14be.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E6%97%A5%E5%BC%8F-r-b-%E9%85%92%E9%A4%A8/pl.38e226dfe8db48e7b5f46922aee8841e",
-      "interests": [
-        "rnb"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 49,
-      "id": "apple:pl.5c2f5c8c9d4b4296adc9ad8e37ad124f",
-      "provider": "apple-music",
-      "appleId": "pl.5c2f5c8c9d4b4296adc9ad8e37ad124f",
-      "title": "Terence Lam Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/89/2d/72/892d7274-ec6e-f2ee-7164-d3d4698b4323/file_cropped.png/1200x1200bb.jpg?l=yue-Hant",
-      "appleUrl": "https://music.apple.com/hk/playlist/terence-lam-essentials/pl.5c2f5c8c9d4b4296adc9ad8e37ad124f",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "HK"
-      ]
-    },
-    {
-      "position": 50,
-      "id": "apple:pl.c376cf8232f64ff9b58e84e889939bb4",
-      "provider": "apple-music",
-      "appleId": "pl.c376cf8232f64ff9b58e84e889939bb4",
-      "title": "動畫「鬼滅之刃」 歷代主題曲輯",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/cF19WYt4GaHumPiMAtm-Uw/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/hk/playlist/%E5%8B%95%E7%95%AB-%E9%AC%BC%E6%BB%85%E4%B9%8B%E5%88%83-%E6%AD%B7%E4%BB%A3%E4%B8%BB%E9%A1%8C%E6%9B%B2%E8%BC%AF/pl.c376cf8232f64ff9b58e84e889939bb4",
-      "interests": [
-        "popular"
       ],
       "regions": [
         "HK"
