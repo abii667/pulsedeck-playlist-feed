@@ -1,13 +1,33 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T13:51:27.511Z",
-  "changedCount": 19,
+  "generatedAt": "2026-09-01T11:39:59.023Z",
+  "changedCount": 24,
   "changes": [
+    {
+      "slug": "rapcaviar",
+      "title": "RapCaviar",
+      "previousSnapshotId": "public:1973df00179b8552672aaed227ce4baf1c2301f7",
+      "snapshotId": "public:eac89389bd5d087d8349c9fc045d1fb2aa4069a6",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "viva-latino",
+      "title": "Viva Latino",
+      "previousSnapshotId": "public:2f56e134c9b084c58a6b6e7f74f865147d406c66",
+      "snapshotId": "public:29e1b2dac3bcfc74d5240ecf84499298c1db4afa",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
     {
       "slug": "reggae-classics",
       "title": "Reggae Classics",
-      "previousSnapshotId": "public:e97bff82a330e29d3cc218a686ab84911db79075",
-      "snapshotId": "public:10f9a3960e75556f0de62897e7b39af3ec1847b1",
+      "previousSnapshotId": "public:10f9a3960e75556f0de62897e7b39af3ec1847b1",
+      "snapshotId": "public:0ac2b4f00bad761582bc4cc6af0d7c3054cd3293",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -16,8 +36,8 @@
     {
       "slug": "all-out-80s",
       "title": "All Out 80s",
-      "previousSnapshotId": "public:4aec5740427721ad4033323eb08b929e7df6ed14",
-      "snapshotId": "public:8628eae6823908c27ed51dd9ad2f3cc2b6619fae",
+      "previousSnapshotId": "public:8628eae6823908c27ed51dd9ad2f3cc2b6619fae",
+      "snapshotId": "public:ed17b56d20748e30438151e90bd277a1d4b708b9",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -26,8 +46,8 @@
     {
       "slug": "all-out-90s",
       "title": "All Out 90s",
-      "previousSnapshotId": "public:09a34ede54068e5a975da65c5625e41c76b91e2a",
-      "snapshotId": "public:408658129d498fa474e6bda0c98df4ca99e1f81f",
+      "previousSnapshotId": "public:408658129d498fa474e6bda0c98df4ca99e1f81f",
+      "snapshotId": "public:b4e6b7a0eb0bc47e14f73edf2c8ff31bd3d5e0b6",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -36,8 +56,8 @@
     {
       "slug": "all-out-2000s",
       "title": "All Out 2000s",
-      "previousSnapshotId": "public:e4bf9a5245146f7342030398495ec569b2478b48",
-      "snapshotId": "public:cecb3ff28ff5713ffb339691e174b039c935b043",
+      "previousSnapshotId": "public:cecb3ff28ff5713ffb339691e174b039c935b043",
+      "snapshotId": "public:67e7e57ac4959691e5a6dfaf32feaf57f52e9942",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -46,18 +66,44 @@
     {
       "slug": "chill-hits",
       "title": "Chill Hits",
-      "previousSnapshotId": "public:e4a5fa04d6b0d32b3e6a31a88e62f06609071dd2",
-      "snapshotId": "public:315fe791b3ac4ceec5b978a2b1456fbbda544970",
+      "previousSnapshotId": "public:315fe791b3ac4ceec5b978a2b1456fbbda544970",
+      "snapshotId": "public:18f739d0330421ce59ed198d69348099b47b60c0",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
+      "slug": "all-new-indie",
+      "title": "All New Indie",
+      "previousSnapshotId": "public:3c66a76604d2c0c004d4375a2ac82cee0d934453",
+      "snapshotId": "public:0226b97938bdc9da3703f824ef13d324ba288503",
+      "added": 1,
+      "removed": 1,
+      "addedTracks": [
+        {
+          "spotifyId": "3FSW7AJdBLR8pYYBn48aEl",
+          "title": "20260321",
+          "artistNames": [
+            "Mac DeMarco"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "10PoXrzxGD2WaWTRuYU7VE",
+          "title": "Garden",
+          "artistNames": [
+            "Alabama Shakes"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "beast-mode",
       "title": "Beast Mode",
-      "previousSnapshotId": "public:9f928d4de6b52a29835cf490a55bfa344f4fae24",
-      "snapshotId": "public:287aeab48eb98e94edbd33fe9fd2786e910f617b",
+      "previousSnapshotId": "public:287aeab48eb98e94edbd33fe9fd2786e910f617b",
+      "snapshotId": "public:8545d2efa09d3c8deab109091ed004bafb155b56",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -66,21 +112,102 @@
     {
       "slug": "jazz-classics",
       "title": "Jazz Classics",
-      "previousSnapshotId": "public:ff0e80e7a5dec93f1320045b4386e56f6a78d0ba",
-      "snapshotId": "public:e6a3d4c05cc1b8b40aa1a872975c8c76fbf1fa32",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
+      "previousSnapshotId": "public:e6a3d4c05cc1b8b40aa1a872975c8c76fbf1fa32",
+      "snapshotId": "public:f7253b8690165bdddd7f342d731e635d1e9b2212",
+      "added": 1,
+      "removed": 1,
+      "addedTracks": [
+        {
+          "spotifyId": "0qxiaagtTvTeNvzxHHc441",
+          "title": "Speak No Evil - Remastered1998/Rudy Van Gelder Edition",
+          "artistNames": [
+            "Wayne Shorter"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "0CLbmkYmQIWiEwnsbOkLpd",
+          "title": "A Love Supreme, Pt. I – Acknowledgement",
+          "artistNames": [
+            "John Coltrane"
+          ]
+        }
+      ]
     },
     {
       "slug": "gospel-mix",
       "title": "Gospel Mix",
-      "previousSnapshotId": "public:7ad1e925501a273b091fe15f2a387b16eadb8aae",
-      "snapshotId": "public:14528f6d6a2fab18b4fdf5d6fe00f5c082ebf525",
-      "added": 3,
-      "removed": 3,
+      "previousSnapshotId": "public:14528f6d6a2fab18b4fdf5d6fe00f5c082ebf525",
+      "snapshotId": "public:f141e606aca994d26f8b17efb7670ef1b63cf3f7",
+      "added": 8,
+      "removed": 8,
       "addedTracks": [
+        {
+          "spotifyId": "4f7HKpJheSmV2WeoMjNH2z",
+          "title": "Trust In God (feat. Chris Brown)",
+          "artistNames": [
+            "Elevation Worship",
+            "Chris Brown"
+          ]
+        },
+        {
+          "spotifyId": "2gqWcdN7CIZpGBnbp17ljJ",
+          "title": "Hosanna",
+          "artistNames": [
+            "Hillsong UNITED",
+            "Brooke Ligertwood"
+          ]
+        },
+        {
+          "spotifyId": "2wwEjucN8zj8MuZ7ZYoxiH",
+          "title": "AH, JESUS / CORAÇÃO IGUAL AO TEU",
+          "artistNames": [
+            "Julliany Souza"
+          ]
+        },
+        {
+          "spotifyId": "682XjN6L1Qhs5rXbuGSQKK",
+          "title": "Ninguém Explica Deus (feat. Gabriela Rocha) - Ao Vivo",
+          "artistNames": [
+            "Preto no Branco",
+            "Gabriela Rocha"
+          ]
+        },
+        {
+          "spotifyId": "6NroUAhj3hIfz80cQqM8t0",
+          "title": "Melhor Lugar - Ao Vivo",
+          "artistNames": [
+            "Felipe Rodrigues"
+          ]
+        },
+        {
+          "spotifyId": "0PEkKjD8bgssfDbKUzKQ21",
+          "title": "Sublime - Ao Vivo",
+          "artistNames": [
+            "fhop music",
+            "Caio Freitas"
+          ]
+        },
+        {
+          "spotifyId": "3GvweYWA2GjqPXdXbh31ot",
+          "title": "Salva-me, ó Deus",
+          "artistNames": [
+            "Get Worship",
+            "Vinicius Cruz",
+            "Get Records"
+          ]
+        },
+        {
+          "spotifyId": "2fvwEBdCFhFD7IO3IX3bIw",
+          "title": "Algo Novo (feat. Lukas Agustinho) - Ao Vivo",
+          "artistNames": [
+            "Kemuel",
+            "Lukas Agustinho"
+          ]
+        }
+      ],
+      "removedTracks": [
         {
           "spotifyId": "4VI7berVSzuaBt1BGrBksC",
           "title": "Gratitude",
@@ -97,35 +224,48 @@
           ]
         },
         {
+          "spotifyId": "5QbtKOsjbEGkx0GMiQGBZt",
+          "title": "Tu és + Águas Purificadoras - Ao Vivo",
+          "artistNames": [
+            "fhop music",
+            "Hamilton Rabelo"
+          ]
+        },
+        {
+          "spotifyId": "1OGtusmbhssNPdnDxqol0P",
+          "title": "A Casa É Sua - Ao Vivo",
+          "artistNames": [
+            "Casa Worship",
+            "Julliany Souza",
+            "Léo Brandão"
+          ]
+        },
+        {
+          "spotifyId": "58EmHn2c6ArCeIsSWBx60n",
+          "title": "Oh Quão Lindo Esse Nome É (What a Beautiful Name) [Sony Music Live]",
+          "artistNames": [
+            "Kemuel"
+          ]
+        },
+        {
+          "spotifyId": "3pyEWO6mEOzOeMobs5BP6p",
+          "title": "Eu Navegarei",
+          "artistNames": [
+            "Gabriela Rocha"
+          ]
+        },
+        {
+          "spotifyId": "4eeRVmOskzKCXffJy5jVwb",
+          "title": "Liberta-Me de Mim",
+          "artistNames": [
+            "Luma Elpidio"
+          ]
+        },
+        {
           "spotifyId": "344vyXHCBYXPGV4jO8Jo8X",
           "title": "Ele Não Desiste de Você",
           "artistNames": [
             "Marquinhos Gomes"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "0fxpHpK3aw2nFWII6yveDD",
-          "title": "10,000 Reasons (Bless The Lord) - Live",
-          "artistNames": [
-            "Matt Redman"
-          ]
-        },
-        {
-          "spotifyId": "1lEk3U3MzbDeL5MNHkE9JU",
-          "title": "O Come to the Altar (Live)",
-          "artistNames": [
-            "Elevation Worship"
-          ]
-        },
-        {
-          "spotifyId": "4BuSQyy705aZqKoAiKfqKJ",
-          "title": "Make Room",
-          "artistNames": [
-            "The Church Will Sing",
-            "Community Music",
-            "Elyssa Figueroa"
           ]
         }
       ]
@@ -133,18 +273,8 @@
     {
       "slug": "roman-catholic-hymns",
       "title": "Roman Catholic Hymns ",
-      "previousSnapshotId": "public:d10a64deb4d7de26632257ec234db7cd0627d5eb",
-      "snapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "traditional-catholic-latin-chants",
-      "title": "Traditional Catholic Latin Chants",
-      "previousSnapshotId": "public:62d1cdf08266af4dcf5a2b0da913f8b7d8150d5e",
-      "snapshotId": "public:886f6a61d9ad99cef1c6d9e6f750c1908137c4a4",
+      "previousSnapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
+      "snapshotId": "public:f7f32d57ac88429a5564624c5b70ead9f0d45185",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -153,8 +283,44 @@
     {
       "slug": "ethiopian-orthodox-kidase",
       "title": "Ethiopian Orthodox Kidase",
-      "previousSnapshotId": "public:670260ff8a27579516ac1c6b6146eee08234c28e",
-      "snapshotId": "public:2e8dd55397341eabc2078464740a99576ab04699",
+      "previousSnapshotId": "public:2e8dd55397341eabc2078464740a99576ab04699",
+      "snapshotId": "public:670260ff8a27579516ac1c6b6146eee08234c28e",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "indie-india",
+      "title": "Indie India ",
+      "previousSnapshotId": "public:25e9d150c6577973da2003680747c8a4a68aa392",
+      "snapshotId": "public:0014e6f588b98b7b09ce1c260b8acb235d3a71dc",
+      "added": 1,
+      "removed": 1,
+      "addedTracks": [
+        {
+          "spotifyId": "3afNMElBBtkRPyR79DMyMJ",
+          "title": "Yeh Duniya",
+          "artistNames": [
+            "Curtain Blue"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "1QNI17b6WjGs8WEfjYMwep",
+          "title": "Tum Se",
+          "artistNames": [
+            "OutStation"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "all-time-ethiopian-essentials",
+      "title": "All-Time Ethiopian Essentials",
+      "previousSnapshotId": "public:12d24d2d398afb1fefb06c9c2651b5ebb65c66c0",
+      "snapshotId": "public:4d1427626a9e5af813c07e936bfa253142e9ebdf",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -163,18 +329,8 @@
     {
       "slug": "ethiopian-jazz",
       "title": "ethiopian jazz",
-      "previousSnapshotId": "public:d3e392c7734ea86449d268480d0993e7694fae3d",
-      "snapshotId": "public:a2bd7714cccf22e84779ef3269c7b72ca902b5fc",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "eritrean-music",
-      "title": "Eritrean music 🇪🇷🇪🇷🇪🇷",
-      "previousSnapshotId": "public:58e52892335f1bdf308cbcf5dbe7c41f01284389",
-      "snapshotId": "public:6408fde27216dade90163c865fc66d0a8b7eaea2",
+      "previousSnapshotId": "public:a2bd7714cccf22e84779ef3269c7b72ca902b5fc",
+      "snapshotId": "public:d3e392c7734ea86449d268480d0993e7694fae3d",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -183,8 +339,18 @@
     {
       "slug": "eritrean-classics",
       "title": "Eritrean Classics",
-      "previousSnapshotId": "public:5200fa8e7ece3c17acd89158a746602f77f1685a",
-      "snapshotId": "public:c0988d4abb71df850441a43a84bc92c0910f07fa",
+      "previousSnapshotId": "public:c0988d4abb71df850441a43a84bc92c0910f07fa",
+      "snapshotId": "public:5200fa8e7ece3c17acd89158a746602f77f1685a",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "ethiopian-orthodox-mezmur-expanded",
+      "title": "Ethiopian Orthodox Mezmur የኢትዮጵያ ኦርቶዶክስ መዝሙር",
+      "previousSnapshotId": "public:64d7e915ddfc4ef46be56362ef1240d2eb0b9ae6",
+      "snapshotId": "public:b62c71528e1bd3746eb9992053a0e76da9634a20",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -193,8 +359,8 @@
     {
       "slug": "ethiopian-kidase-expanded",
       "title": "kidase | ቅዳሴ",
-      "previousSnapshotId": "public:50dc9ee7067f2fee71c44b49fcf99d390d140133",
-      "snapshotId": "public:c830c7e00027df19fe785409143b994099f6c8e1",
+      "previousSnapshotId": "public:c830c7e00027df19fe785409143b994099f6c8e1",
+      "snapshotId": "public:7a52428b41a77cee0bb89dac5a4f7544e416e8fb",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -203,8 +369,18 @@
     {
       "slug": "amharic-gospel-songs",
       "title": "Amharic Gospel Songs  መዝሙር (MeZMuR)",
-      "previousSnapshotId": "public:72beae7d0c9d8771f962947a6d984deee72d9116",
-      "snapshotId": "public:3152c92a474018557a89f4e666aa9e88e47da385",
+      "previousSnapshotId": "public:3152c92a474018557a89f4e666aa9e88e47da385",
+      "snapshotId": "public:85afd81162d08b9544b48b25c2fb3b123c7a979d",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "puerto-rico-top-50",
+      "title": "Top 50 - Puerto Rico",
+      "previousSnapshotId": "public:c17bfbf734ce14b3d450ea0336ab6eebc6e458d0",
+      "snapshotId": "public:bf05994607748d03ac693afcfa7875e4bb255d62",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -213,8 +389,8 @@
     {
       "slug": "puerto-rico-top-hits",
       "title": "Top 50 Puerto Rico 🇵🇷 2024",
-      "previousSnapshotId": "public:7c5241831b229b53bc32f95851b99fbf2aef83d8",
-      "snapshotId": "public:13945ac9935be75c30bd37e7790ca4c49efa734a",
+      "previousSnapshotId": "public:13945ac9935be75c30bd37e7790ca4c49efa734a",
+      "snapshotId": "public:7c5241831b229b53bc32f95851b99fbf2aef83d8",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -223,18 +399,35 @@
     {
       "slug": "pakistan-top-songs",
       "title": "Top 50 Pakistan Songs 💚 New Pakistani Songs 2026",
-      "previousSnapshotId": "public:a93b0dc84fcd5848548160075feda9d30f46d2a8",
-      "snapshotId": "public:dc4238f46c369ca57a1ee2f05f66a23a33d0fa93",
+      "previousSnapshotId": "public:dc4238f46c369ca57a1ee2f05f66a23a33d0fa93",
+      "snapshotId": "public:5a3bcd9eb04a526dc6ec4ea9668c6811b738256e",
       "added": 0,
-      "removed": 0,
+      "removed": 2,
       "addedTracks": [],
-      "removedTracks": []
+      "removedTracks": [
+        {
+          "spotifyId": "1XfBEzVsFJC0X8222Y6unk",
+          "title": "Jogi",
+          "artistNames": [
+            "thiarajxtt",
+            "Bir"
+          ]
+        },
+        {
+          "spotifyId": "1XfBEzVsFJC0X8222Y6unk",
+          "title": "Jogi",
+          "artistNames": [
+            "thiarajxtt",
+            "Bir"
+          ]
+        }
+      ]
     },
     {
       "slug": "pakistan-trending",
       "title": "Trending 50 - Pakistan",
-      "previousSnapshotId": "public:2baa5b220915057c73dcbe7ff236810148f7f998",
-      "snapshotId": "public:6c19159f9ac2f97d1cb4de8685fa9fa2839a3573",
+      "previousSnapshotId": "public:6c19159f9ac2f97d1cb4de8685fa9fa2839a3573",
+      "snapshotId": "public:2baa5b220915057c73dcbe7ff236810148f7f998",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
