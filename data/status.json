@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T10:35:46.669Z",
+  "generatedAt": "2026-09-05T11:07:25.301Z",
   "ok": false,
   "playlists": [
     {
@@ -250,7 +250,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:fc88c77402fb1ed29f7e8ed3209ef64f96e0c2a4",
+      "snapshotId": "public:016f4c449f240bf9aa364404606de5e18debc4fd",
       "trackCount": 50
     },
     {
@@ -260,7 +260,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:d10a64deb4d7de26632257ec234db7cd0627d5eb",
+      "snapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
       "trackCount": 100
     },
     {
@@ -270,7 +270,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:886f6a61d9ad99cef1c6d9e6f750c1908137c4a4",
+      "snapshotId": "public:4cfd02a8574e7d308915b2f0fa3a60a75cdeba6c",
       "trackCount": 100
     },
     {
@@ -310,7 +310,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:827cf0c55c99682530b4240728ad9435b6bb904b",
+      "snapshotId": "public:6b0a2830e5bf9617b95255d3761df3b9e65c4022",
       "trackCount": 100
     },
     {
@@ -360,7 +360,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:2aa64ddebc78a91ed17e95b5dce8094387008e22",
+      "snapshotId": "public:12d24d2d398afb1fefb06c9c2651b5ebb65c66c0",
       "trackCount": 100
     },
     {
@@ -380,7 +380,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:8307e1190afdc21d7ece73e9d80cdad1eb7edb48",
+      "snapshotId": "public:a2bd7714cccf22e84779ef3269c7b72ca902b5fc",
       "trackCount": 40
     },
     {
@@ -400,7 +400,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:da258c1eeada8752643868cfbf33d7d8a2c21466",
+      "snapshotId": "public:ba75f1cf0cc23a48c0f70375c96ca59fbbb999b2",
       "trackCount": 100
     },
     {
@@ -430,7 +430,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:c830c7e00027df19fe785409143b994099f6c8e1",
+      "snapshotId": "public:7a52428b41a77cee0bb89dac5a4f7544e416e8fb",
       "trackCount": 28
     },
     {
@@ -440,7 +440,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:85afd81162d08b9544b48b25c2fb3b123c7a979d",
+      "snapshotId": "public:72beae7d0c9d8771f962947a6d984deee72d9116",
       "trackCount": 100
     },
     {
@@ -510,7 +510,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:c17bfbf734ce14b3d450ea0336ab6eebc6e458d0",
+      "snapshotId": "public:bf05994607748d03ac693afcfa7875e4bb255d62",
       "trackCount": 60
     },
     {
@@ -520,7 +520,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:1c1a3af9c14a584bdeaba5f1afc62ff7f3b89d3a",
+      "snapshotId": "public:7c5241831b229b53bc32f95851b99fbf2aef83d8",
       "trackCount": 100
     },
     {
@@ -530,7 +530,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:d1d6d8295e9061bf72280b341199d74964912db3",
+      "snapshotId": "public:3f21fe96de707dfb93d250c06865fa76aeef77fa",
       "trackCount": 83
     },
     {
@@ -540,7 +540,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:2baa5b220915057c73dcbe7ff236810148f7f998",
+      "snapshotId": "public:6c19159f9ac2f97d1cb4de8685fa9fa2839a3573",
       "trackCount": 88
     }
   ],
@@ -955,6 +955,12 @@
     }
   ],
   "appleEditorial": [
+    {
+      "slug": "recent-releases",
+      "ok": true,
+      "stale": false,
+      "itemCount": 100
+    },
     {
       "slug": "premium-albums",
       "ok": true,
@@ -2137,13 +2143,12 @@
     {
       "region": "DO",
       "ok": true,
-      "status": "stale",
+      "status": "fresh",
       "provider": "apple-music",
       "available": true,
       "official": true,
-      "stale": true,
-      "trackCount": 100,
-      "error": "The operation was aborted due to timeout"
+      "stale": false,
+      "trackCount": 100
     },
     {
       "region": "IE",
