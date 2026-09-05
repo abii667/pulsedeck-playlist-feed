@@ -317,10 +317,11 @@ const albums = JSON.parse(await readFile("data/trending-albums.json", "utf8"));
 if ((albums.feed?.results || []).length < 10) throw new Error("Trending albums feed has too few albums.");
 
 const editorialIndex = JSON.parse(await readFile("data/apple-editorial/index.json", "utf8"));
-if (editorialIndex.shelfCount !== 2) throw new Error("Expected 2 Apple editorial shelves.");
+if (editorialIndex.shelfCount !== 3) throw new Error("Expected 3 Apple editorial shelves.");
 const editorialRooms = {
   "premium-albums": "6794200618",
   "premium-playlists": "6794200629",
+  "recent-releases": "6808489153",
 };
 for (const shelf of editorialIndex.shelves) {
   if (!shelf.itemCount || shelf.itemCount < 10) throw new Error(`${shelf.slug} has too few Apple editorial items.`);

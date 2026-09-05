@@ -19,6 +19,7 @@ It runs without credentials or developer APIs, using public playlist pages and f
 - `data/podcasts/shows/{slug}.json` contains up to 20 recent publisher-hosted episodes.
 - `data/podcasts/genres/{genre}.json` contains the current public Apple chart for that genre.
 - `data/apple-regional/index.json` lists the supported Apple Music regional playlist charts.
+- `data/apple-editorial/recent-releases.json` lists Apple's Recent Releases albums and EPs in source order, with full track details under `data/apple-editorial/recent-releases/`.
 - `data/apple-regional/{country}.json` contains lightweight Apple Music playlist cards for one country.
 - `data/apple-country-charts/index.json` lists the selected Apple Music Top 100 country charts and their availability.
 - `data/apple-country-charts/{country}.json` contains up to 100 ranked songs, or an explicit unavailable state.

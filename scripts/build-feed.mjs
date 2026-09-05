@@ -99,6 +99,14 @@ const APPLE_HERO_SOURCES = [
 ];
 const APPLE_EDITORIAL_SOURCES = [
   {
+    slug: "recent-releases",
+    title: "Recent Releases",
+    subtitle: "New albums and EPs from Apple Music",
+    category: "apple/recent-releases",
+    roomId: "6808489153",
+    minItems: 10
+  },
+  {
     slug: "premium-albums",
     title: "Premium Albums",
     subtitle: "Apple Music editorial albums",
