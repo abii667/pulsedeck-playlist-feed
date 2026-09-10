@@ -5,16 +5,39 @@
   "title": "New Music Daily",
   "subtitle": "The Songs That Matter",
   "kind": "playlist",
-  "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2e/ab/0c/2eab0c4f-68b1-2427-6e23-47ef81bfbbbb/1200214837747.jpg/1200x1200bb.jpg",
+  "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/86/37/438637b7-d063-02d4-e1bd-5b3c6be6f9aa/191401221771.png/1200x1200bb.jpg",
   "appleUrl": "https://music.apple.com/us/playlist/new-music-daily/pl.2b0e6e332fdf4b7a91164da3162127b5",
   "appleId": "pl.2b0e6e332fdf4b7a91164da3162127b5",
   "market": "US",
   "trackCount": 88,
-  "updatedAt": "2026-09-09T11:24:19.436Z",
+  "updatedAt": "2026-09-10T11:20:35.809Z",
   "stale": false,
   "tracks": [
     {
       "position": 1,
+      "title": "The Kid With the Crown",
+      "artistNames": [
+        "This Is Lorelei"
+      ],
+      "artists": [
+        {
+          "name": "This Is Lorelei",
+          "appleUrl": null
+        }
+      ],
+      "album": {
+        "name": "The Singer in My Band",
+        "releaseDate": null,
+        "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/86/37/438637b7-d063-02d4-e1bd-5b3c6be6f9aa/191401221771.png/1200x1200bb.jpg",
+        "appleUrl": "https://music.apple.com/us/album/the-kid-with-the-crown/6774172428"
+      },
+      "durationMs": 254961,
+      "explicit": false,
+      "appleUrl": "https://music.apple.com/us/album/the-kid-with-the-crown/6774172428?i=6774172736",
+      "appleId": "6774172736"
+    },
+    {
+      "position": 2,
       "title": "Essa Ta Quente (feat. Skrillex)",
       "artistNames": [
         "Chase & Status"
@@ -28,36 +51,13 @@
       "album": {
         "name": "Generic Everything",
         "releaseDate": null,
-        "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2e/ab/0c/2eab0c4f-68b1-2427-6e23-47ef81bfbbbb/1200214837747.jpg/1200x1200bb.jpg",
+        "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2e/ab/0c/2eab0c4f-68b1-2427-6e23-47ef81bfbbbb/1200214837747.jpg/600x600bb.jpg",
         "appleUrl": "https://music.apple.com/us/album/essa-ta-quente-feat-skrillex/6802692234"
       },
       "durationMs": 166270,
       "explicit": true,
       "appleUrl": "https://music.apple.com/us/album/essa-ta-quente-feat-skrillex/6802692234?i=6802692243",
       "appleId": "6802692243"
-    },
-    {
-      "position": 2,
-      "title": "La De Rogar",
-      "artistNames": [
-        "Camila Fernández"
-      ],
-      "artists": [
-        {
-          "name": "Camila Fernández",
-          "appleUrl": null
-        }
-      ],
-      "album": {
-        "name": "Una Raya Más Al Tigre",
-        "releaseDate": null,
-        "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/0b/37/680b37eb-9ab8-cadb-2d5e-ebffcc11213e/26UM1IM03518.rgb.jpg/600x600bb.jpg",
-        "appleUrl": "https://music.apple.com/us/album/la-de-rogar/6806424972"
-      },
-      "durationMs": 180865,
-      "explicit": false,
-      "appleUrl": "https://music.apple.com/us/album/la-de-rogar/6806424972?i=6806424994",
-      "appleId": "6806424994"
     },
     {
       "position": 3,
@@ -130,7 +130,7 @@
     },
     {
       "position": 6,
-      "title": "Envidia",
+      "title": "ENVIDIA",
       "artistNames": [
         "Chino Pacas"
       ],
@@ -222,6 +222,29 @@
     },
     {
       "position": 10,
+      "title": "La De Rogar",
+      "artistNames": [
+        "Camila Fernández"
+      ],
+      "artists": [
+        {
+          "name": "Camila Fernández",
+          "appleUrl": null
+        }
+      ],
+      "album": {
+        "name": "Una Raya Más Al Tigre",
+        "releaseDate": null,
+        "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/0b/37/680b37eb-9ab8-cadb-2d5e-ebffcc11213e/26UM1IM03518.rgb.jpg/600x600bb.jpg",
+        "appleUrl": "https://music.apple.com/us/album/la-de-rogar/6806424972"
+      },
+      "durationMs": 180865,
+      "explicit": false,
+      "appleUrl": "https://music.apple.com/us/album/la-de-rogar/6806424972?i=6806424994",
+      "appleId": "6806424994"
+    },
+    {
+      "position": 11,
       "title": "Nicole Kidman",
       "artistNames": [
         "ADÉLA"
@@ -244,7 +267,7 @@
       "appleId": "6792884088"
     },
     {
-      "position": 11,
+      "position": 12,
       "title": "Funeral",
       "artistNames": [
         "Ashe"
@@ -265,29 +288,6 @@
       "explicit": false,
       "appleUrl": "https://music.apple.com/us/album/funeral/6805240956?i=6805241191",
       "appleId": "6805241191"
-    },
-    {
-      "position": 12,
-      "title": "Yiccen",
-      "artistNames": [
-        "Wiz Khalifa"
-      ],
-      "artists": [
-        {
-          "name": "Wiz Khalifa",
-          "appleUrl": null
-        }
-      ],
-      "album": {
-        "name": "Yiccen - Single",
-        "releaseDate": null,
-        "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/37/5e/1e375e92-6ff6-0137-31ad-4ca88701cda3/075679558206.jpg/600x600bb.jpg",
-        "appleUrl": "https://music.apple.com/us/album/yiccen/6806033116"
-      },
-      "durationMs": 138774,
-      "explicit": true,
-      "appleUrl": "https://music.apple.com/us/album/yiccen/6806033116?i=6806033118",
-      "appleId": "6806033118"
     },
     {
       "position": 13,
