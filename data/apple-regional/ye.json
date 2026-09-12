@@ -4,12 +4,27 @@
   "region": "YE",
   "regionName": "Yemen",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/ye/music/most-played/50/playlists.json",
-  "updatedAt": "2026-09-11T11:28:31.000Z",
+  "updatedAt": "2026-09-12T10:54:40.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
     {
       "position": 1,
+      "id": "apple:pl.4723813dc34543299163a9c8b066060c",
+      "provider": "apple-music",
+      "appleId": "pl.4723813dc34543299163a9c8b066060c",
+      "title": "2000s Egyptian Pop Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c9/2e/55/c92e5517-bea5-a8cf-0e0b-60706facb9a9/3028eb22-f8c3-4473-8fe9-70729516b3cf.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/2000s-egyptian-pop-essentials/pl.4723813dc34543299163a9c8b066060c",
+      "interests": [
+        "pop"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 2,
       "id": "apple:pl.9acfd5ddbb5142b3a2438a1bab8f8376",
       "provider": "apple-music",
       "appleId": "pl.9acfd5ddbb5142b3a2438a1bab8f8376",
@@ -25,30 +40,15 @@
       ]
     },
     {
-      "position": 2,
-      "id": "apple:pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
+      "position": 3,
+      "id": "apple:pl.8e21e2ba1c11475f83f3b653ad163c15",
       "provider": "apple-music",
-      "appleId": "pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
-      "title": "LINKIN PARK Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/ba/91/04/ba91045f-f613-c7a2-e1da-3195779b40a0/ami-identity-640bb7a837fee9170cc487c37709e42e-2026-03-08T16-34-26.425Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/linkin-park-essentials/pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
+      "appleId": "pl.8e21e2ba1c11475f83f3b653ad163c15",
+      "title": "Aseel Hameem Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/e3/06/85/e306852f-4053-4e82-5be0-7a9d92e43940/3fe72006-0b06-4ebf-b3ed-286fc5413785_ami-identity-5249c0e4228109eb9f4c954bb2ab23f9-2023-08-04T08-09-29.447Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/aseel-hameem-essentials/pl.8e21e2ba1c11475f83f3b653ad163c15",
       "interests": [
         "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 3,
-      "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
-      "provider": "apple-music",
-      "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
-      "title": "Pure Focus",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e1/94/17/e19417d8-830f-d1a6-3758-f94d35236cbd/1d33986c-0443-4cea-8c70-930e5d2394a4.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/pure-focus/pl.dbd712beded846dca273d5d3259d28aa",
-      "interests": [
-        "focus"
       ],
       "regions": [
         "YE"
@@ -71,12 +71,12 @@
     },
     {
       "position": 5,
-      "id": "apple:pl.8e21e2ba1c11475f83f3b653ad163c15",
+      "id": "apple:pl.a5f5d3e3b7654098a1c0ef249d010810",
       "provider": "apple-music",
-      "appleId": "pl.8e21e2ba1c11475f83f3b653ad163c15",
-      "title": "Aseel Hameem Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/e3/06/85/e306852f-4053-4e82-5be0-7a9d92e43940/3fe72006-0b06-4ebf-b3ed-286fc5413785_ami-identity-5249c0e4228109eb9f4c954bb2ab23f9-2023-08-04T08-09-29.447Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/aseel-hameem-essentials/pl.8e21e2ba1c11475f83f3b653ad163c15",
+      "appleId": "pl.a5f5d3e3b7654098a1c0ef249d010810",
+      "title": "Asala Nasri Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/97/5b/a3/975ba3bb-6bcf-5637-52e7-c23d402afe5d/mza_17570070315971065621.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/asala-nasri-essentials/pl.a5f5d3e3b7654098a1c0ef249d010810",
       "interests": [
         "popular"
       ],
@@ -86,6 +86,126 @@
     },
     {
       "position": 6,
+      "id": "apple:pl.150efe6600b64f14bbcfda5c10e98f14",
+      "provider": "apple-music",
+      "appleId": "pl.150efe6600b64f14bbcfda5c10e98f14",
+      "title": "New in Egyptian",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/49/0b/aa/490baa7a-d266-84c9-1a99-ac40a6d03d7d/e21a267c-d5b3-42e6-abfa-05fa55a22b87.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/new-in-egyptian/pl.150efe6600b64f14bbcfda5c10e98f14",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 7,
+      "id": "apple:pl.7429c7c3b9ae4e6c8a4d7b44b2cbe91d",
+      "provider": "apple-music",
+      "appleId": "pl.7429c7c3b9ae4e6c8a4d7b44b2cbe91d",
+      "title": "Khaleeji Love Songs Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/95/9a/07/959a073b-6357-ba08-aaca-a441de80cce1/6e329f1e-c163-43da-a2d9-911762c9eafb.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/khaleeji-love-songs-essentials/pl.7429c7c3b9ae4e6c8a4d7b44b2cbe91d",
+      "interests": [
+        "arabic"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 8,
+      "id": "apple:pl.4d22148403fe4572b7275d7fc68886f0",
+      "provider": "apple-music",
+      "appleId": "pl.4d22148403fe4572b7275d7fc68886f0",
+      "title": "Hussain Aljassmi Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/d4/16/4f/d4164f3c-0842-5b6f-82a7-d1b9a6682e9b/pr_source.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/hussain-aljassmi-essentials/pl.4d22148403fe4572b7275d7fc68886f0",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 9,
+      "id": "apple:pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
+      "provider": "apple-music",
+      "appleId": "pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
+      "title": "LINKIN PARK Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/ba/91/04/ba91045f-f613-c7a2-e1da-3195779b40a0/ami-identity-640bb7a837fee9170cc487c37709e42e-2026-03-08T16-34-26.425Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/linkin-park-essentials/pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 10,
+      "id": "apple:pl.30b41634b61b4aa989c7438d91e802fb",
+      "provider": "apple-music",
+      "appleId": "pl.30b41634b61b4aa989c7438d91e802fb",
+      "title": "Arabic Party Anthems",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/de/9e/03/de9e0388-941e-517f-c617-8ac65aa10f19/2ff835ef-ddc5-43a6-83b2-e34517eb3794.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/ye/playlist/arabic-party-anthems/pl.30b41634b61b4aa989c7438d91e802fb",
+      "interests": [
+        "arabic"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 11,
+      "id": "apple:pl.ee26872314e349ddaa91050dadbbaaff",
+      "provider": "apple-music",
+      "appleId": "pl.ee26872314e349ddaa91050dadbbaaff",
+      "title": "Viral Workout",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/46/9d/7b/469d7b24-d343-9f0a-27c0-2112b40dc513/d9221f7b-fe58-47c1-a1ea-2f5a19c03168.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/viral-workout/pl.ee26872314e349ddaa91050dadbbaaff",
+      "interests": [
+        "workout"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 12,
+      "id": "apple:pl.bcb2f44b6e194cfa8950a796b4e65cd1",
+      "provider": "apple-music",
+      "appleId": "pl.bcb2f44b6e194cfa8950a796b4e65cd1",
+      "title": "Alpha",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/88/04/e5/8804e529-9401-ed3d-fcdc-e9699f4b0de0/abb19849-2263-498f-aa5f-6c5688d36781.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/alpha/pl.bcb2f44b6e194cfa8950a796b4e65cd1",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 13,
+      "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
+      "provider": "apple-music",
+      "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
+      "title": "Pure Focus",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e1/94/17/e19417d8-830f-d1a6-3758-f94d35236cbd/1d33986c-0443-4cea-8c70-930e5d2394a4.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/pure-focus/pl.dbd712beded846dca273d5d3259d28aa",
+      "interests": [
+        "focus"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 14,
       "id": "apple:pl.d5f02becb12440fda3f0b52e8ef1d61d",
       "provider": "apple-music",
       "appleId": "pl.d5f02becb12440fda3f0b52e8ef1d61d",
@@ -100,7 +220,7 @@
       ]
     },
     {
-      "position": 7,
+      "position": 15,
       "id": "apple:pl.efaeab71d9cd4e079d9d1097c3b6b525",
       "provider": "apple-music",
       "appleId": "pl.efaeab71d9cd4e079d9d1097c3b6b525",
@@ -115,7 +235,7 @@
       ]
     },
     {
-      "position": 8,
+      "position": 16,
       "id": "apple:pl.a3553d8861cd414789cd5e0c7a69360f",
       "provider": "apple-music",
       "appleId": "pl.a3553d8861cd414789cd5e0c7a69360f",
@@ -130,7 +250,37 @@
       ]
     },
     {
-      "position": 9,
+      "position": 17,
+      "id": "apple:pl.6fe5382834484087ba49b1a329da41f9",
+      "provider": "apple-music",
+      "appleId": "pl.6fe5382834484087ba49b1a329da41f9",
+      "title": "Ashou Ashou",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/de/4c/53/de4c53b0-0084-7106-dd27-a01c8efe7f46/210ed7e1-ebe2-4c89-8459-8a4d510dca01.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/ashou-ashou/pl.6fe5382834484087ba49b1a329da41f9",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 18,
+      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "provider": "apple-music",
+      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "title": "Today’s Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/21/69/d3/2169d30d-1ebb-a7f5-9a7f-1af936da225b/d88ab752-a250-4176-a910-9bf1b330d288.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 19,
       "id": "apple:pl.7ccef83e70584bfa888fd1f12d4be90a",
       "provider": "apple-music",
       "appleId": "pl.7ccef83e70584bfa888fd1f12d4be90a",
@@ -146,37 +296,7 @@
       ]
     },
     {
-      "position": 10,
-      "id": "apple:pl.6fe5382834484087ba49b1a329da41f9",
-      "provider": "apple-music",
-      "appleId": "pl.6fe5382834484087ba49b1a329da41f9",
-      "title": "Ashou Ashou",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/de/4c/53/de4c53b0-0084-7106-dd27-a01c8efe7f46/210ed7e1-ebe2-4c89-8459-8a4d510dca01.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/ashou-ashou/pl.6fe5382834484087ba49b1a329da41f9",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 11,
-      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "provider": "apple-music",
-      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "title": "Today’s Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/21/69/d3/2169d30d-1ebb-a7f5-9a7f-1af936da225b/d88ab752-a250-4176-a910-9bf1b330d288.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 12,
+      "position": 20,
       "id": "apple:pl.17257a7064da4470b8e04c2bf833fe10",
       "provider": "apple-music",
       "appleId": "pl.17257a7064da4470b8e04c2bf833fe10",
@@ -191,7 +311,7 @@
       ]
     },
     {
-      "position": 13,
+      "position": 21,
       "id": "apple:pl.eed3aed2f4ec4400888ce132cdaed8ef",
       "provider": "apple-music",
       "appleId": "pl.eed3aed2f4ec4400888ce132cdaed8ef",
@@ -206,7 +326,7 @@
       ]
     },
     {
-      "position": 14,
+      "position": 22,
       "id": "apple:pl.9377df38fe1e42eeb94c3860d8b33cfe",
       "provider": "apple-music",
       "appleId": "pl.9377df38fe1e42eeb94c3860d8b33cfe",
@@ -221,7 +341,7 @@
       ]
     },
     {
-      "position": 15,
+      "position": 23,
       "id": "apple:pl.7a71db21d7e24b93935f57575d931d74",
       "provider": "apple-music",
       "appleId": "pl.7a71db21d7e24b93935f57575d931d74",
@@ -236,7 +356,7 @@
       ]
     },
     {
-      "position": 16,
+      "position": 24,
       "id": "apple:pl.4507334a614c4609a0e31bc6c6b57b23",
       "provider": "apple-music",
       "appleId": "pl.4507334a614c4609a0e31bc6c6b57b23",
@@ -251,7 +371,7 @@
       ]
     },
     {
-      "position": 17,
+      "position": 25,
       "id": "apple:pl.bc94b140fe874e3fa218c49ded4730d0",
       "provider": "apple-music",
       "appleId": "pl.bc94b140fe874e3fa218c49ded4730d0",
@@ -266,37 +386,7 @@
       ]
     },
     {
-      "position": 18,
-      "id": "apple:pl.619a4a45993c40e2a4a648933e228ce4",
-      "provider": "apple-music",
-      "appleId": "pl.619a4a45993c40e2a4a648933e228ce4",
-      "title": "Maroon 5 Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/c3/3f/9a/c33f9a77-7395-bdfe-8068-a4b66d26531e/3ea423ea-6cf0-498a-a692-cc58da556f11_ami-identity-06acd526b8e5ef0283735a165e8eed70-2023-05-19T16-33-45.049Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/maroon-5-essentials/pl.619a4a45993c40e2a4a648933e228ce4",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 19,
-      "id": "apple:pl.4d22148403fe4572b7275d7fc68886f0",
-      "provider": "apple-music",
-      "appleId": "pl.4d22148403fe4572b7275d7fc68886f0",
-      "title": "Hussain Aljassmi Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/d4/16/4f/d4164f3c-0842-5b6f-82a7-d1b9a6682e9b/pr_source.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/hussain-aljassmi-essentials/pl.4d22148403fe4572b7275d7fc68886f0",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 20,
+      "position": 26,
       "id": "apple:pl.e50ccee7318043eaaf8e8e28a2a55114",
       "provider": "apple-music",
       "appleId": "pl.e50ccee7318043eaaf8e8e28a2a55114",
@@ -311,7 +401,22 @@
       ]
     },
     {
-      "position": 21,
+      "position": 27,
+      "id": "apple:pl.619a4a45993c40e2a4a648933e228ce4",
+      "provider": "apple-music",
+      "appleId": "pl.619a4a45993c40e2a4a648933e228ce4",
+      "title": "Maroon 5 Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/c3/3f/9a/c33f9a77-7395-bdfe-8068-a4b66d26531e/3ea423ea-6cf0-498a-a692-cc58da556f11_ami-identity-06acd526b8e5ef0283735a165e8eed70-2023-05-19T16-33-45.049Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/maroon-5-essentials/pl.619a4a45993c40e2a4a648933e228ce4",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 28,
       "id": "apple:pl.fdcc04f304204b3fab907378882186b1",
       "provider": "apple-music",
       "appleId": "pl.fdcc04f304204b3fab907378882186b1",
@@ -326,7 +431,7 @@
       ]
     },
     {
-      "position": 22,
+      "position": 29,
       "id": "apple:pl.b8afd0ec852542f785a5f7a4a9a80d6a",
       "provider": "apple-music",
       "appleId": "pl.b8afd0ec852542f785a5f7a4a9a80d6a",
@@ -341,7 +446,7 @@
       ]
     },
     {
-      "position": 23,
+      "position": 30,
       "id": "apple:pl.d39566769cae41d186ac2f9ad15ee0d1",
       "provider": "apple-music",
       "appleId": "pl.d39566769cae41d186ac2f9ad15ee0d1",
@@ -356,7 +461,7 @@
       ]
     },
     {
-      "position": 24,
+      "position": 31,
       "id": "apple:pl.c21556629e97453f9672feb9d8f228a3",
       "provider": "apple-music",
       "appleId": "pl.c21556629e97453f9672feb9d8f228a3",
@@ -371,7 +476,7 @@
       ]
     },
     {
-      "position": 25,
+      "position": 32,
       "id": "apple:pl.2ff5e24b654d4195b7ba392cb613688c",
       "provider": "apple-music",
       "appleId": "pl.2ff5e24b654d4195b7ba392cb613688c",
@@ -386,67 +491,7 @@
       ]
     },
     {
-      "position": 26,
-      "id": "apple:pl.a5f5d3e3b7654098a1c0ef249d010810",
-      "provider": "apple-music",
-      "appleId": "pl.a5f5d3e3b7654098a1c0ef249d010810",
-      "title": "Asala Nasri Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/97/5b/a3/975ba3bb-6bcf-5637-52e7-c23d402afe5d/mza_17570070315971065621.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/asala-nasri-essentials/pl.a5f5d3e3b7654098a1c0ef249d010810",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 27,
-      "id": "apple:pl.e095966b9dde4e50bd5309ebb5dbfce7",
-      "provider": "apple-music",
-      "appleId": "pl.e095966b9dde4e50bd5309ebb5dbfce7",
-      "title": "Sing: Summertime Sounds",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/21/ae/1d/21ae1d52-d7b5-c005-d7b4-8f409cab3a65/2c7edbc7-cd45-40bb-9c46-56945739633c.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/ye/playlist/sing-summertime-sounds/pl.e095966b9dde4e50bd5309ebb5dbfce7",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 28,
-      "id": "apple:pl.ea37c56057904c5ea1c2be6febff236b",
-      "provider": "apple-music",
-      "appleId": "pl.ea37c56057904c5ea1c2be6febff236b",
-      "title": "Anime Hits: 2025",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/31/2b/48/312b482f-9d1f-8cfc-aa6d-82c642162acf/34c527b2-0731-45fa-b1bb-ab20f8e13fb9.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/anime-hits-2025/pl.ea37c56057904c5ea1c2be6febff236b",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 29,
-      "id": "apple:pl.150efe6600b64f14bbcfda5c10e98f14",
-      "provider": "apple-music",
-      "appleId": "pl.150efe6600b64f14bbcfda5c10e98f14",
-      "title": "New in Egyptian",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/49/0b/aa/490baa7a-d266-84c9-1a99-ac40a6d03d7d/e21a267c-d5b3-42e6-abfa-05fa55a22b87.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/new-in-egyptian/pl.150efe6600b64f14bbcfda5c10e98f14",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 30,
+      "position": 33,
       "id": "apple:pl.75fff540b4084a50b491234ee4724674",
       "provider": "apple-music",
       "appleId": "pl.75fff540b4084a50b491234ee4724674",
@@ -461,7 +506,37 @@
       ]
     },
     {
-      "position": 31,
+      "position": 34,
+      "id": "apple:pl.e095966b9dde4e50bd5309ebb5dbfce7",
+      "provider": "apple-music",
+      "appleId": "pl.e095966b9dde4e50bd5309ebb5dbfce7",
+      "title": "Sing: Summertime Sounds",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/21/ae/1d/21ae1d52-d7b5-c005-d7b4-8f409cab3a65/2c7edbc7-cd45-40bb-9c46-56945739633c.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/ye/playlist/sing-summertime-sounds/pl.e095966b9dde4e50bd5309ebb5dbfce7",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 35,
+      "id": "apple:pl.ea37c56057904c5ea1c2be6febff236b",
+      "provider": "apple-music",
+      "appleId": "pl.ea37c56057904c5ea1c2be6febff236b",
+      "title": "Anime Hits: 2025",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/31/2b/48/312b482f-9d1f-8cfc-aa6d-82c642162acf/34c527b2-0731-45fa-b1bb-ab20f8e13fb9.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/ye/playlist/anime-hits-2025/pl.ea37c56057904c5ea1c2be6febff236b",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "YE"
+      ]
+    },
+    {
+      "position": 36,
       "id": "apple:pl.21e8899aaaeb455397c3d9a6faf18908",
       "provider": "apple-music",
       "appleId": "pl.21e8899aaaeb455397c3d9a6faf18908",
@@ -476,7 +551,7 @@
       ]
     },
     {
-      "position": 32,
+      "position": 37,
       "id": "apple:pl.48a11c7b01a54c56b7397f2a2cb3f216",
       "provider": "apple-music",
       "appleId": "pl.48a11c7b01a54c56b7397f2a2cb3f216",
@@ -491,7 +566,7 @@
       ]
     },
     {
-      "position": 33,
+      "position": 38,
       "id": "apple:pl.b477839538364c8db8f3950e13731ecc",
       "provider": "apple-music",
       "appleId": "pl.b477839538364c8db8f3950e13731ecc",
@@ -506,7 +581,7 @@
       ]
     },
     {
-      "position": 34,
+      "position": 39,
       "id": "apple:pl.1841396100704fd29d3af7fa51b6b4f4",
       "provider": "apple-music",
       "appleId": "pl.1841396100704fd29d3af7fa51b6b4f4",
@@ -521,7 +596,7 @@
       ]
     },
     {
-      "position": 35,
+      "position": 40,
       "id": "apple:pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
       "provider": "apple-music",
       "appleId": "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
@@ -536,7 +611,7 @@
       ]
     },
     {
-      "position": 36,
+      "position": 41,
       "id": "apple:pl.4bf2f48ec4504e32a85fc0380f73c638",
       "provider": "apple-music",
       "appleId": "pl.4bf2f48ec4504e32a85fc0380f73c638",
@@ -551,7 +626,7 @@
       ]
     },
     {
-      "position": 37,
+      "position": 42,
       "id": "apple:pl.a555cb74e27948f09b3b05e259ec6835",
       "provider": "apple-music",
       "appleId": "pl.a555cb74e27948f09b3b05e259ec6835",
@@ -566,7 +641,7 @@
       ]
     },
     {
-      "position": 38,
+      "position": 43,
       "id": "apple:pl.6bf4415b83ce4f3789614ac4c3675740",
       "provider": "apple-music",
       "appleId": "pl.6bf4415b83ce4f3789614ac4c3675740",
@@ -581,7 +656,7 @@
       ]
     },
     {
-      "position": 39,
+      "position": 44,
       "id": "apple:pl.3e854cd2fea14eadb57be1187e40dda1",
       "provider": "apple-music",
       "appleId": "pl.3e854cd2fea14eadb57be1187e40dda1",
@@ -596,7 +671,7 @@
       ]
     },
     {
-      "position": 40,
+      "position": 45,
       "id": "apple:pl.2ac66aa928b44f97a8dc4605f0ce8f8b",
       "provider": "apple-music",
       "appleId": "pl.2ac66aa928b44f97a8dc4605f0ce8f8b",
@@ -611,7 +686,7 @@
       ]
     },
     {
-      "position": 41,
+      "position": 46,
       "id": "apple:pl.149b20d988724513bce9cfbbaae87615",
       "provider": "apple-music",
       "appleId": "pl.149b20d988724513bce9cfbbaae87615",
@@ -627,7 +702,7 @@
       ]
     },
     {
-      "position": 42,
+      "position": 47,
       "id": "apple:pl.0aa44d0a400f418d8078f7ffd5d40db5",
       "provider": "apple-music",
       "appleId": "pl.0aa44d0a400f418d8078f7ffd5d40db5",
@@ -642,7 +717,7 @@
       ]
     },
     {
-      "position": 43,
+      "position": 48,
       "id": "apple:pl.13ed4275930a49a3840a9ea81913cc63",
       "provider": "apple-music",
       "appleId": "pl.13ed4275930a49a3840a9ea81913cc63",
@@ -658,7 +733,7 @@
       ]
     },
     {
-      "position": 44,
+      "position": 49,
       "id": "apple:pl.d249d80b72bd41a581023d57e94073b6",
       "provider": "apple-music",
       "appleId": "pl.d249d80b72bd41a581023d57e94073b6",
@@ -673,88 +748,13 @@
       ]
     },
     {
-      "position": 45,
-      "id": "apple:pl.7429c7c3b9ae4e6c8a4d7b44b2cbe91d",
-      "provider": "apple-music",
-      "appleId": "pl.7429c7c3b9ae4e6c8a4d7b44b2cbe91d",
-      "title": "Khaleeji Love Songs Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/95/9a/07/959a073b-6357-ba08-aaca-a441de80cce1/6e329f1e-c163-43da-a2d9-911762c9eafb.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/khaleeji-love-songs-essentials/pl.7429c7c3b9ae4e6c8a4d7b44b2cbe91d",
-      "interests": [
-        "arabic"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 46,
+      "position": 50,
       "id": "apple:pl.9512e02d8df94ac5ac6ea89ca2b34b8e",
       "provider": "apple-music",
       "appleId": "pl.9512e02d8df94ac5ac6ea89ca2b34b8e",
       "title": "Crowd-Pleasers",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/92/ce/a0/92cea0b4-be2c-b14d-3ff2-1036a94738d5/7fa6fefb-e021-4505-a3fa-1706ef7f7426.png/100x25cc.jpg",
       "appleUrl": "https://music.apple.com/ye/playlist/crowd-pleasers/pl.9512e02d8df94ac5ac6ea89ca2b34b8e",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 47,
-      "id": "apple:pl.3f1ae23f58f84698bd54ad973f1c5ba2",
-      "provider": "apple-music",
-      "appleId": "pl.3f1ae23f58f84698bd54ad973f1c5ba2",
-      "title": "Abdul Majeed Abdullah Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f3/1d/be/f31dbe04-a6dc-b935-0a1f-239ad315d275/pr_source.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/abdul-majeed-abdullah-essentials/pl.3f1ae23f58f84698bd54ad973f1c5ba2",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 48,
-      "id": "apple:pl.88bc653184544ac5a3c88b4e92f8199d",
-      "provider": "apple-music",
-      "appleId": "pl.88bc653184544ac5a3c88b4e92f8199d",
-      "title": "Pure Party",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c8/77/11/c877111c-909b-de0a-4780-a307ea8187b6/086bbe80-0cc3-45a3-bbb3-e4a54ed93f93.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/pure-party/pl.88bc653184544ac5a3c88b4e92f8199d",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 49,
-      "id": "apple:pl.52fc7fd225f24161b7a4592143986ba6",
-      "provider": "apple-music",
-      "appleId": "pl.52fc7fd225f24161b7a4592143986ba6",
-      "title": "Arab Adrenaline",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/17/3e/4a/173e4a44-4a6c-5dae-7806-c8692aa37519/a5d102f4-6bc9-471f-a6a9-09b8f6ef86f1.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/arab-adrenaline/pl.52fc7fd225f24161b7a4592143986ba6",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "YE"
-      ]
-    },
-    {
-      "position": 50,
-      "id": "apple:pl.675a8fbcb04548c9baedb51b9f2d6a43",
-      "provider": "apple-music",
-      "appleId": "pl.675a8fbcb04548c9baedb51b9f2d6a43",
-      "title": "Saint Levant Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/43/73/cb/4373cb5d-1554-4aae-8ba2-7ed37c3e8b3f/ami-identity-4b030304911e9a5ec5858d45a74e6749-2025-05-28T12-46-05.491Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/ye/playlist/saint-levant-essentials/pl.675a8fbcb04548c9baedb51b9f2d6a43",
       "interests": [
         "popular"
       ],
