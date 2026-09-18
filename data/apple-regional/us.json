@@ -4,7 +4,7 @@
   "region": "US",
   "regionName": "United States",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/us/music/most-played/50/playlists.json",
-  "updatedAt": "2026-09-17T11:44:29.000Z",
+  "updatedAt": "2026-09-18T11:18:08.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
@@ -14,7 +14,7 @@
       "provider": "apple-music",
       "appleId": "pl.87bb5b36a9bd49db8c975607452bfa2b",
       "title": "Today’s Country",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d9/82/f5/d982f5a0-8032-436e-3d30-a52fd5ba58d9/ff9da5ef-10ac-4983-8568-706f3d22e9b4.png/1200x1200bb.jpg?l=en-US",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e6/89/d5/e689d513-7b44-34d2-2a36-ab92271b96eb/075fb3a2-922a-44e9-acea-397e0345e6e6.png/1200x1200bb.jpg?l=en-US",
       "appleUrl": "https://music.apple.com/us/playlist/todays-country/pl.87bb5b36a9bd49db8c975607452bfa2b",
       "interests": [
         "country"
@@ -29,7 +29,7 @@
       "provider": "apple-music",
       "appleId": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "title": "R&B Now",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/5f/c6/d5/5fc6d538-8131-a0f6-2472-825a2c18e893/cfbf94a7-7d30-424c-a70b-acfdf384f5fd.png/1200x1200bb.jpg?l=en-US",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/12/36/23/12362364-30a2-7636-639c-37464611fa1e/06c216f0-80ab-4971-ae8d-e5de759afbbd.png/1200x1200bb.jpg?l=en-US",
       "appleUrl": "https://music.apple.com/us/playlist/r-b-now/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "interests": [
         "rnb"
@@ -44,7 +44,7 @@
       "provider": "apple-music",
       "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
       "title": "Today’s Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/64/24/25/64242529-e91a-b448-e12d-272fa952f6df/956df089-296d-4fb3-8cee-ca93a501f47f.png/1200x1200bb.jpg?l=en-US",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9b/75/08/9b7508f2-e88a-49e5-36b0-9b1204dcb230/a84f364f-6aa8-4a8d-bdcc-71c1330430b9.png/1200x1200bb.jpg?l=en-US",
       "appleUrl": "https://music.apple.com/us/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb",
       "interests": [
         "popular"
@@ -59,7 +59,7 @@
       "provider": "apple-music",
       "appleId": "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
       "title": "Rap Life",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b5/4c/ad/b54cad53-9619-011d-a0c4-6a00f21d1f08/115ecb2e-d02a-47cf-b862-a3057504e9ca.png/1200x1200bb.jpg?l=en-US",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/8c/e0/d28ce038-0c95-7c36-3669-7e385ea125d4/e44893bf-5301-45d1-9ed5-10358e024915.png/1200x1200bb.jpg?l=en-US",
       "appleUrl": "https://music.apple.com/us/playlist/rap-life/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
       "interests": [
         "hip-hop"
@@ -100,6 +100,21 @@
     },
     {
       "position": 7,
+      "id": "apple:pl.17a41e613df44c0ab2c0fcb49bda1e5f",
+      "provider": "apple-music",
+      "appleId": "pl.17a41e613df44c0ab2c0fcb49bda1e5f",
+      "title": "Disney Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ba/39/35/ba39356c-c8b6-d0fe-4a4c-1adfd735ac25/431fe633-fa0e-4553-8444-13a97efec2d9.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/us/playlist/disney-hits/pl.17a41e613df44c0ab2c0fcb49bda1e5f",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 8,
       "id": "apple:pl.e25dfca3a05347f9bbaeb2691793ebb6",
       "provider": "apple-music",
       "appleId": "pl.e25dfca3a05347f9bbaeb2691793ebb6",
@@ -109,21 +124,6 @@
       "interests": [
         "gospel",
         "devotional"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 8,
-      "id": "apple:pl.17a41e613df44c0ab2c0fcb49bda1e5f",
-      "provider": "apple-music",
-      "appleId": "pl.17a41e613df44c0ab2c0fcb49bda1e5f",
-      "title": "Disney Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ba/39/35/ba39356c-c8b6-d0fe-4a4c-1adfd735ac25/431fe633-fa0e-4553-8444-13a97efec2d9.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/us/playlist/disney-hits/pl.17a41e613df44c0ab2c0fcb49bda1e5f",
-      "interests": [
-        "popular"
       ],
       "regions": [
         "US"
@@ -161,21 +161,6 @@
     },
     {
       "position": 11,
-      "id": "apple:pl.5ee8333dbe944d9f9151e97d92d1ead9",
-      "provider": "apple-music",
-      "appleId": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
-      "title": "A-List Pop",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c5/79/4f/c5794fb0-251c-6e78-7acb-919055280c8f/32222790-1f43-48c5-b910-a75e754e3de5.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/a-list-pop/pl.5ee8333dbe944d9f9151e97d92d1ead9",
-      "interests": [
-        "pop"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 12,
       "id": "apple:pl.0eb0cf3412c14c9c9df870ca4da0ca6b",
       "provider": "apple-music",
       "appleId": "pl.0eb0cf3412c14c9c9df870ca4da0ca6b",
@@ -184,6 +169,21 @@
       "appleUrl": "https://music.apple.com/us/playlist/back-porch-country/pl.0eb0cf3412c14c9c9df870ca4da0ca6b",
       "interests": [
         "country"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 12,
+      "id": "apple:pl.5ee8333dbe944d9f9151e97d92d1ead9",
+      "provider": "apple-music",
+      "appleId": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
+      "title": "A-List Pop",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/5a/a4/4b/5aa44bb7-7917-0278-5c7a-be31c27e9ad1/c9fe8ef8-c267-45f3-838c-2762e3d1bcd5.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/a-list-pop/pl.5ee8333dbe944d9f9151e97d92d1ead9",
+      "interests": [
+        "pop"
       ],
       "regions": [
         "US"
@@ -206,21 +206,6 @@
     },
     {
       "position": 14,
-      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "provider": "apple-music",
-      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "title": "Piano Chill",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/piano-chill/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "interests": [
-        "chill"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 15,
       "id": "apple:pl.ffa2178ab08f4080bcf4075e14a1c3fe",
       "provider": "apple-music",
       "appleId": "pl.ffa2178ab08f4080bcf4075e14a1c3fe",
@@ -235,37 +220,22 @@
       ]
     },
     {
+      "position": 15,
+      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "provider": "apple-music",
+      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "title": "Piano Chill",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/piano-chill/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "interests": [
+        "chill"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
       "position": 16,
-      "id": "apple:pl.4b364b8b182f4115acbf6deb83bd5222",
-      "provider": "apple-music",
-      "appleId": "pl.4b364b8b182f4115acbf6deb83bd5222",
-      "title": "¡Dale Play!",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/42/c8/4c/42c84ca5-3734-d2ce-7e69-2a362a543462/4d3389ad-38cc-4c7a-b066-ece4fc54bd47.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/dale-play/pl.4b364b8b182f4115acbf6deb83bd5222",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 17,
-      "id": "apple:pl.3950454ced8c45a3b0cc693c2a7db97b",
-      "provider": "apple-music",
-      "appleId": "pl.3950454ced8c45a3b0cc693c2a7db97b",
-      "title": "Taylor Swift Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/8e/0b/63/8e0b63c8-c873-6a4d-7664-cfbc69252b3d/f939be24-8b16-432b-8eb9-ee708fae127e.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/us/playlist/taylor-swift-essentials/pl.3950454ced8c45a3b0cc693c2a7db97b",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 18,
       "id": "apple:pl.0f11015342a9473c849f0af4ab5f509c",
       "provider": "apple-music",
       "appleId": "pl.0f11015342a9473c849f0af4ab5f509c",
@@ -280,13 +250,43 @@
       ]
     },
     {
-      "position": 19,
-      "id": "apple:pl.8871cc6715e14ab8a2a4348e0852b867",
+      "position": 17,
+      "id": "apple:pl.4b364b8b182f4115acbf6deb83bd5222",
       "provider": "apple-music",
-      "appleId": "pl.8871cc6715e14ab8a2a4348e0852b867",
-      "title": "Noah Kahan Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/93/98/8e/93988e9d-500b-86ca-fb9c-37e3b68b527b/ami-identity-53683028c282d1f8bde3035e973dd23d-2026-01-28T14-26-17.824Z_cropped.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/noah-kahan-essentials/pl.8871cc6715e14ab8a2a4348e0852b867",
+      "appleId": "pl.4b364b8b182f4115acbf6deb83bd5222",
+      "title": "¡Dale Play!",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/df/68/7a/df687ae9-1e84-5ae6-066b-3b9e12f2c78d/2cff9617-b9af-4345-b730-c66625acacf7.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/dale-play/pl.4b364b8b182f4115acbf6deb83bd5222",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 18,
+      "id": "apple:pl.af4d982795c6472ea48579eb147cd726",
+      "provider": "apple-music",
+      "appleId": "pl.af4d982795c6472ea48579eb147cd726",
+      "title": "’80s Hits Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/17/10/9c/17109c78-a9f2-05bf-662d-3cd126e47458/82ff49a3-d0ce-497d-bd29-1be6b257f000.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/80s-hits-essentials/pl.af4d982795c6472ea48579eb147cd726",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 19,
+      "id": "apple:pl.3950454ced8c45a3b0cc693c2a7db97b",
+      "provider": "apple-music",
+      "appleId": "pl.3950454ced8c45a3b0cc693c2a7db97b",
+      "title": "Taylor Swift Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/8e/0b/63/8e0b63c8-c873-6a4d-7664-cfbc69252b3d/f939be24-8b16-432b-8eb9-ee708fae127e.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/us/playlist/taylor-swift-essentials/pl.3950454ced8c45a3b0cc693c2a7db97b",
       "interests": [
         "popular"
       ],
@@ -296,14 +296,14 @@
     },
     {
       "position": 20,
-      "id": "apple:pl.af4d982795c6472ea48579eb147cd726",
+      "id": "apple:pl.5c7a6dfe62c647849e9679dae0b6b560",
       "provider": "apple-music",
-      "appleId": "pl.af4d982795c6472ea48579eb147cd726",
-      "title": "’80s Hits Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/17/10/9c/17109c78-a9f2-05bf-662d-3cd126e47458/82ff49a3-d0ce-497d-bd29-1be6b257f000.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/80s-hits-essentials/pl.af4d982795c6472ea48579eb147cd726",
+      "appleId": "pl.5c7a6dfe62c647849e9679dae0b6b560",
+      "title": "’90s R&B Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/9e/fc/4e/9efc4e2b-dbe8-31d8-7784-473893ddfd15/d32d72a5-f31a-4d1b-afe6-69910564424e.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/90s-r-b-essentials/pl.5c7a6dfe62c647849e9679dae0b6b560",
       "interests": [
-        "popular"
+        "rnb"
       ],
       "regions": [
         "US"
@@ -326,27 +326,12 @@
     },
     {
       "position": 22,
-      "id": "apple:pl.5c7a6dfe62c647849e9679dae0b6b560",
+      "id": "apple:pl.8871cc6715e14ab8a2a4348e0852b867",
       "provider": "apple-music",
-      "appleId": "pl.5c7a6dfe62c647849e9679dae0b6b560",
-      "title": "’90s R&B Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/9e/fc/4e/9efc4e2b-dbe8-31d8-7784-473893ddfd15/d32d72a5-f31a-4d1b-afe6-69910564424e.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/90s-r-b-essentials/pl.5c7a6dfe62c647849e9679dae0b6b560",
-      "interests": [
-        "rnb"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 23,
-      "id": "apple:pl.b8afd0ec852542f785a5f7a4a9a80d6a",
-      "provider": "apple-music",
-      "appleId": "pl.b8afd0ec852542f785a5f7a4a9a80d6a",
-      "title": "Drake Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/1b/71/65/1b716513-b0c1-9c6b-45aa-cbb9198248cc/01607cf1-1d52-43d2-84ce-d6fc1f4a3475_ami-identity-7665599cc626d803af7956b3691905e7-2022-11-30T21-07-19.526Z_cropped.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/drake-essentials/pl.b8afd0ec852542f785a5f7a4a9a80d6a",
+      "appleId": "pl.8871cc6715e14ab8a2a4348e0852b867",
+      "title": "Noah Kahan Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/93/98/8e/93988e9d-500b-86ca-fb9c-37e3b68b527b/ami-identity-53683028c282d1f8bde3035e973dd23d-2026-01-28T14-26-17.824Z_cropped.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/noah-kahan-essentials/pl.8871cc6715e14ab8a2a4348e0852b867",
       "interests": [
         "popular"
       ],
@@ -355,7 +340,7 @@
       ]
     },
     {
-      "position": 24,
+      "position": 23,
       "id": "apple:pl.1c35ac10cfe848aaa19f68ebe62ea46e",
       "provider": "apple-music",
       "appleId": "pl.1c35ac10cfe848aaa19f68ebe62ea46e",
@@ -370,13 +355,13 @@
       ]
     },
     {
-      "position": 25,
-      "id": "apple:pl.6bf4415b83ce4f3789614ac4c3675740",
+      "position": 24,
+      "id": "apple:pl.b8afd0ec852542f785a5f7a4a9a80d6a",
       "provider": "apple-music",
-      "appleId": "pl.6bf4415b83ce4f3789614ac4c3675740",
-      "title": "danceXL",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/86/33/13/86331343-a96f-b82c-4322-5e5f647aa6cd/cda98f0d-467e-4ede-95f2-9964420d6f08.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/dancexl/pl.6bf4415b83ce4f3789614ac4c3675740",
+      "appleId": "pl.b8afd0ec852542f785a5f7a4a9a80d6a",
+      "title": "Drake Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/1b/71/65/1b716513-b0c1-9c6b-45aa-cbb9198248cc/01607cf1-1d52-43d2-84ce-d6fc1f4a3475_ami-identity-7665599cc626d803af7956b3691905e7-2022-11-30T21-07-19.526Z_cropped.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/drake-essentials/pl.b8afd0ec852542f785a5f7a4a9a80d6a",
       "interests": [
         "popular"
       ],
@@ -385,7 +370,7 @@
       ]
     },
     {
-      "position": 26,
+      "position": 25,
       "id": "apple:pl.2d4d74790f074233b82d07bfae5c219c",
       "provider": "apple-music",
       "appleId": "pl.2d4d74790f074233b82d07bfae5c219c",
@@ -400,22 +385,22 @@
       ]
     },
     {
-      "position": 27,
-      "id": "apple:pl.c2ab8af2e9e74576b3bb45d62819d5cd",
+      "position": 26,
+      "id": "apple:pl.426a1044619f47d6b1f86b3f79ecf857",
       "provider": "apple-music",
-      "appleId": "pl.c2ab8af2e9e74576b3bb45d62819d5cd",
-      "title": "Relaxing Classical",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/48/f5/fd/48f5fd9c-34db-169f-0587-a1cf17862129/6d32ff0c-0476-4267-8826-b1337f52880d.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/relaxing-classical/pl.c2ab8af2e9e74576b3bb45d62819d5cd",
+      "appleId": "pl.426a1044619f47d6b1f86b3f79ecf857",
+      "title": "#OnRepeat",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/72/e0/7d/72e07d77-7226-4dc0-da25-325e3a305340/8431c725-8c8e-4c53-80b8-36b63245a9e1.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/onrepeat/pl.426a1044619f47d6b1f86b3f79ecf857",
       "interests": [
-        "classical"
+        "popular"
       ],
       "regions": [
         "US"
       ]
     },
     {
-      "position": 28,
+      "position": 27,
       "id": "apple:pl.bca7ed31389842108896524e2edbd956",
       "provider": "apple-music",
       "appleId": "pl.bca7ed31389842108896524e2edbd956",
@@ -430,13 +415,13 @@
       ]
     },
     {
-      "position": 29,
-      "id": "apple:pl.426a1044619f47d6b1f86b3f79ecf857",
+      "position": 28,
+      "id": "apple:pl.6bf4415b83ce4f3789614ac4c3675740",
       "provider": "apple-music",
-      "appleId": "pl.426a1044619f47d6b1f86b3f79ecf857",
-      "title": "#OnRepeat",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/12/7f/4d/127f4d5e-d3b7-c552-dd1e-2d2d8da79608/e7af3aa4-ebdc-4a0d-ba86-82a3c8a68200.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/onrepeat/pl.426a1044619f47d6b1f86b3f79ecf857",
+      "appleId": "pl.6bf4415b83ce4f3789614ac4c3675740",
+      "title": "danceXL",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ca/32/11/ca3211b7-88d4-2ee7-8bdc-fd58e618b4c8/5f28cb9c-299d-442f-ad3f-7b5a3f4b1b43.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/dancexl/pl.6bf4415b83ce4f3789614ac4c3675740",
       "interests": [
         "popular"
       ],
@@ -445,7 +430,52 @@
       ]
     },
     {
+      "position": 29,
+      "id": "apple:pl.605afbf60191408090398dd0cc153e3f",
+      "provider": "apple-music",
+      "appleId": "pl.605afbf60191408090398dd0cc153e3f",
+      "title": "R&B Throwback",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/44/5b/95/445b959d-5878-e7b3-86e6-1cb4080d5814/13f3e2f1-e020-48f2-8089-0879e26116cc.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/r-b-throwback/pl.605afbf60191408090398dd0cc153e3f",
+      "interests": [
+        "rnb"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
       "position": 30,
+      "id": "apple:pl.1870421bdeb74580831f17505e5d32d9",
+      "provider": "apple-music",
+      "appleId": "pl.1870421bdeb74580831f17505e5d32d9",
+      "title": "Yacht Rock Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/00/2e/69/002e6939-1f3c-c8d3-757e-b752c16fae44/5c101b81-6a62-48d3-88d6-b4990c7589da.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/yacht-rock-essentials/pl.1870421bdeb74580831f17505e5d32d9",
+      "interests": [
+        "rock"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 31,
+      "id": "apple:pl.49bd07a170f04fc4bde5a4f2cb5fb9c2",
+      "provider": "apple-music",
+      "appleId": "pl.49bd07a170f04fc4bde5a4f2cb5fb9c2",
+      "title": "’90s Country Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/55/d3/c8/55d3c820-d768-058e-2c3c-a31443636a35/d3f7c5b6-a773-465d-ad97-91b4e3cd8a26.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/90s-country-essentials/pl.49bd07a170f04fc4bde5a4f2cb5fb9c2",
+      "interests": [
+        "country"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 32,
       "id": "apple:pl.06a94ac8b3fc41c2bef77143d70e63a8",
       "provider": "apple-music",
       "appleId": "pl.06a94ac8b3fc41c2bef77143d70e63a8",
@@ -461,43 +491,28 @@
       ]
     },
     {
-      "position": 31,
-      "id": "apple:pl.605afbf60191408090398dd0cc153e3f",
-      "provider": "apple-music",
-      "appleId": "pl.605afbf60191408090398dd0cc153e3f",
-      "title": "R&B Throwback",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/44/5b/95/445b959d-5878-e7b3-86e6-1cb4080d5814/13f3e2f1-e020-48f2-8089-0879e26116cc.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/r-b-throwback/pl.605afbf60191408090398dd0cc153e3f",
-      "interests": [
-        "rnb"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 32,
-      "id": "apple:pl.daca4fa353174d7493a2394f03f623ea",
-      "provider": "apple-music",
-      "appleId": "pl.daca4fa353174d7493a2394f03f623ea",
-      "title": "La Oficial",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6e/16/40/6e164093-6115-0907-89fd-74c7e7139507/08624b83-6ddb-486a-93b2-8a82de01f9be.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/la-oficial/pl.daca4fa353174d7493a2394f03f623ea",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
       "position": 33,
-      "id": "apple:pl.1870421bdeb74580831f17505e5d32d9",
+      "id": "apple:pl.c2ab8af2e9e74576b3bb45d62819d5cd",
       "provider": "apple-music",
-      "appleId": "pl.1870421bdeb74580831f17505e5d32d9",
-      "title": "Yacht Rock Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/00/2e/69/002e6939-1f3c-c8d3-757e-b752c16fae44/5c101b81-6a62-48d3-88d6-b4990c7589da.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/yacht-rock-essentials/pl.1870421bdeb74580831f17505e5d32d9",
+      "appleId": "pl.c2ab8af2e9e74576b3bb45d62819d5cd",
+      "title": "Relaxing Classical",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/48/f5/fd/48f5fd9c-34db-169f-0587-a1cf17862129/6d32ff0c-0476-4267-8826-b1337f52880d.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/relaxing-classical/pl.c2ab8af2e9e74576b3bb45d62819d5cd",
+      "interests": [
+        "classical"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 34,
+      "id": "apple:pl.c684d47c46924bcdbc4a065dd370a8d5",
+      "provider": "apple-music",
+      "appleId": "pl.c684d47c46924bcdbc4a065dd370a8d5",
+      "title": "’80s Rock Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3e/e6/51/3ee651a1-93a4-cdc5-fb5b-a3bd237d99ee/450f6677-f520-43c3-b033-a4c98687c0f4.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/80s-rock-essentials/pl.c684d47c46924bcdbc4a065dd370a8d5",
       "interests": [
         "rock"
       ],
@@ -506,7 +521,7 @@
       ]
     },
     {
-      "position": 34,
+      "position": 35,
       "id": "apple:pl.4c62f568a0d64293a9c362037175c09b",
       "provider": "apple-music",
       "appleId": "pl.4c62f568a0d64293a9c362037175c09b",
@@ -522,7 +537,22 @@
       ]
     },
     {
-      "position": 35,
+      "position": 36,
+      "id": "apple:pl.daca4fa353174d7493a2394f03f623ea",
+      "provider": "apple-music",
+      "appleId": "pl.daca4fa353174d7493a2394f03f623ea",
+      "title": "La Oficial",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/77/84/0f/77840fbd-8f51-15e1-04ad-8da4db86ab3e/6b3e49da-9d14-4a43-a08e-a3aa5e45b545.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/la-oficial/pl.daca4fa353174d7493a2394f03f623ea",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 37,
       "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
       "provider": "apple-music",
       "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
@@ -531,36 +561,6 @@
       "appleUrl": "https://music.apple.com/us/playlist/pure-focus/pl.dbd712beded846dca273d5d3259d28aa",
       "interests": [
         "focus"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 36,
-      "id": "apple:pl.49bd07a170f04fc4bde5a4f2cb5fb9c2",
-      "provider": "apple-music",
-      "appleId": "pl.49bd07a170f04fc4bde5a4f2cb5fb9c2",
-      "title": "’90s Country Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/55/d3/c8/55d3c820-d768-058e-2c3c-a31443636a35/d3f7c5b6-a773-465d-ad97-91b4e3cd8a26.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/90s-country-essentials/pl.49bd07a170f04fc4bde5a4f2cb5fb9c2",
-      "interests": [
-        "country"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 37,
-      "id": "apple:pl.cf8514b686374fadbe6807a6339dfd89",
-      "provider": "apple-music",
-      "appleId": "pl.cf8514b686374fadbe6807a6339dfd89",
-      "title": "Classical Concentration",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/fa/02/dd/fa02ddab-2d5d-7701-8206-4d5eae805001/tns.wpihpant.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/classical-concentration/pl.cf8514b686374fadbe6807a6339dfd89",
-      "interests": [
-        "classical"
       ],
       "regions": [
         "US"
@@ -583,12 +583,12 @@
     },
     {
       "position": 39,
-      "id": "apple:pl.a13aca4f4f2c45538472de9014057cc0",
+      "id": "apple:pl.e50ccee7318043eaaf8e8e28a2a55114",
       "provider": "apple-music",
-      "appleId": "pl.a13aca4f4f2c45538472de9014057cc0",
-      "title": "Me and Bae",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/0d/d7/48/0dd748f5-04f1-ef9f-97e4-33258540a8b3/U0MtTVMtV1ctTWVfYW5kX0JhZS1BREFNX0lEPTExMzM3Njg5NDIucG5n.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/me-and-bae/pl.a13aca4f4f2c45538472de9014057cc0",
+      "appleId": "pl.e50ccee7318043eaaf8e8e28a2a55114",
+      "title": "2000s Hits Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1c/3b/cd/1c3bcdcf-a42c-f453-8f46-634ea85d6457/4a1b0fae-64f7-4d30-8764-e1e1325ed079.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/2000s-hits-essentials/pl.e50ccee7318043eaaf8e8e28a2a55114",
       "interests": [
         "popular"
       ],
@@ -613,51 +613,6 @@
     },
     {
       "position": 41,
-      "id": "apple:pl.c684d47c46924bcdbc4a065dd370a8d5",
-      "provider": "apple-music",
-      "appleId": "pl.c684d47c46924bcdbc4a065dd370a8d5",
-      "title": "’80s Rock Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3e/e6/51/3ee651a1-93a4-cdc5-fb5b-a3bd237d99ee/450f6677-f520-43c3-b033-a4c98687c0f4.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/80s-rock-essentials/pl.c684d47c46924bcdbc4a065dd370a8d5",
-      "interests": [
-        "rock"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 42,
-      "id": "apple:pl.06e90f4d367948eb884a988508038e1e",
-      "provider": "apple-music",
-      "appleId": "pl.06e90f4d367948eb884a988508038e1e",
-      "title": "Bruno Mars’ The Romantic Tour Set List",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/75/7e/dd/757edd95-3276-ff15-7de3-5c8e8ec87b4c/ami-identity-865f12490d8b5356071cd06a025b5b6a-2026-01-09T05-04-02.540Z_cropped.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/bruno-mars-the-romantic-tour-set-list/pl.06e90f4d367948eb884a988508038e1e",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 43,
-      "id": "apple:pl.cb0508b384994fc399427eb0b29d0ae8",
-      "provider": "apple-music",
-      "appleId": "pl.cb0508b384994fc399427eb0b29d0ae8",
-      "title": "Harry Styles’ Together, Together Tour Set List",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/97/1b/c1/971bc1ec-f01c-c7c2-8198-e9c181a934bf/ami-identity-791347ad3355b27570c9666937af64bc-2026-01-15T17-03-41.148Z_cropped.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/harry-styles-together-together-tour-set-list/pl.cb0508b384994fc399427eb0b29d0ae8",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 44,
       "id": "apple:pl.0d70b7c9be8e4e0b95ebbf5578aaf7a2",
       "provider": "apple-music",
       "appleId": "pl.0d70b7c9be8e4e0b95ebbf5578aaf7a2",
@@ -672,68 +627,52 @@
       ]
     },
     {
+      "position": 42,
+      "id": "apple:pl.cf8514b686374fadbe6807a6339dfd89",
+      "provider": "apple-music",
+      "appleId": "pl.cf8514b686374fadbe6807a6339dfd89",
+      "title": "Classical Concentration",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/fa/02/dd/fa02ddab-2d5d-7701-8206-4d5eae805001/tns.wpihpant.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/classical-concentration/pl.cf8514b686374fadbe6807a6339dfd89",
+      "interests": [
+        "classical"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 43,
+      "id": "apple:pl.5d9cbb9f92224a12aaa35353353470a1",
+      "provider": "apple-music",
+      "appleId": "pl.5d9cbb9f92224a12aaa35353353470a1",
+      "title": "KAROL G’s VIAJANDO POR EL MUNDO TROPITOUR Set List",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/84/8a/4e/848a4e8b-48c7-e3fa-ae20-a42cd4b469a8/ami-identity-d59cbd95617167e768f2dbfe6377cf2e-2026-08-09T23-03-10.005Z_cropped.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/karol-gs-viajando-por-el-mundo-tropitour-set-list/pl.5d9cbb9f92224a12aaa35353353470a1",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 44,
+      "id": "apple:pl.a13aca4f4f2c45538472de9014057cc0",
+      "provider": "apple-music",
+      "appleId": "pl.a13aca4f4f2c45538472de9014057cc0",
+      "title": "Me and Bae",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/0d/d7/48/0dd748f5-04f1-ef9f-97e4-33258540a8b3/U0MtTVMtV1ctTWVfYW5kX0JhZS1BREFNX0lEPTExMzM3Njg5NDIucG5n.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/me-and-bae/pl.a13aca4f4f2c45538472de9014057cc0",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
       "position": 45,
-      "id": "apple:pl.63271312c084419891982eab46cc68ac",
-      "provider": "apple-music",
-      "appleId": "pl.63271312c084419891982eab46cc68ac",
-      "title": "Jazz Chill",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/jazz-chill/pl.63271312c084419891982eab46cc68ac",
-      "interests": [
-        "jazz",
-        "chill"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 46,
-      "id": "apple:pl.d6b08f229d4f4f9da58b64fe646061af",
-      "provider": "apple-music",
-      "appleId": "pl.d6b08f229d4f4f9da58b64fe646061af",
-      "title": "Bruno Mars Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/75/7e/dd/757edd95-3276-ff15-7de3-5c8e8ec87b4c/ami-identity-865f12490d8b5356071cd06a025b5b6a-2026-01-09T05-04-02.540Z_cropped.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/bruno-mars-essentials/pl.d6b08f229d4f4f9da58b64fe646061af",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 47,
-      "id": "apple:pl.e50ccee7318043eaaf8e8e28a2a55114",
-      "provider": "apple-music",
-      "appleId": "pl.e50ccee7318043eaaf8e8e28a2a55114",
-      "title": "2000s Hits Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1c/3b/cd/1c3bcdcf-a42c-f453-8f46-634ea85d6457/4a1b0fae-64f7-4d30-8764-e1e1325ed079.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/2000s-hits-essentials/pl.e50ccee7318043eaaf8e8e28a2a55114",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 48,
-      "id": "apple:pl.ec51bd4e66d041ec93d4595f97389702",
-      "provider": "apple-music",
-      "appleId": "pl.ec51bd4e66d041ec93d4595f97389702",
-      "title": "Forrest Frank Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/fe/dd/9e/fedd9eed-02be-02ed-1638-9a34e7993b2d/ami-identity-d06473bea525c4ff9ad96522ad0296f9-2025-04-24T14-48-13.327Z_cropped.png/1200x1200bb.jpg?l=en-US",
-      "appleUrl": "https://music.apple.com/us/playlist/forrest-frank-essentials/pl.ec51bd4e66d041ec93d4595f97389702",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "US"
-      ]
-    },
-    {
-      "position": 49,
       "id": "apple:pl.1a26c003c0f14f9ca7cf383369cffa6e",
       "provider": "apple-music",
       "appleId": "pl.1a26c003c0f14f9ca7cf383369cffa6e",
@@ -748,7 +687,52 @@
       ]
     },
     {
-      "position": 50,
+      "position": 46,
+      "id": "apple:pl.ec51bd4e66d041ec93d4595f97389702",
+      "provider": "apple-music",
+      "appleId": "pl.ec51bd4e66d041ec93d4595f97389702",
+      "title": "Forrest Frank Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/fe/dd/9e/fedd9eed-02be-02ed-1638-9a34e7993b2d/ami-identity-d06473bea525c4ff9ad96522ad0296f9-2025-04-24T14-48-13.327Z_cropped.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/forrest-frank-essentials/pl.ec51bd4e66d041ec93d4595f97389702",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 47,
+      "id": "apple:pl.a258ad8ac2f242a491b381a5e65cc9fb",
+      "provider": "apple-music",
+      "appleId": "pl.a258ad8ac2f242a491b381a5e65cc9fb",
+      "title": "KAROL G Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/84/8a/4e/848a4e8b-48c7-e3fa-ae20-a42cd4b469a8/ami-identity-d59cbd95617167e768f2dbfe6377cf2e-2026-08-09T23-03-10.005Z_cropped.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/karol-g-essentials/pl.a258ad8ac2f242a491b381a5e65cc9fb",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 48,
+      "id": "apple:pl.14572caaa2c0493994f3b7beff6b1b10",
+      "provider": "apple-music",
+      "appleId": "pl.14572caaa2c0493994f3b7beff6b1b10",
+      "title": "Halloween Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e4/b2/9c/e4b29cca-f0b1-e23d-38e9-1c2e9488926b/120809c8-51b3-43f6-ac30-88e6aa0f7206.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/halloween-essentials/pl.14572caaa2c0493994f3b7beff6b1b10",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 49,
       "id": "apple:pl.245051e837ca4611bb44ac431a0f8496",
       "provider": "apple-music",
       "appleId": "pl.245051e837ca4611bb44ac431a0f8496",
@@ -757,6 +741,21 @@
       "appleUrl": "https://music.apple.com/us/playlist/country-caffeine/pl.245051e837ca4611bb44ac431a0f8496",
       "interests": [
         "country"
+      ],
+      "regions": [
+        "US"
+      ]
+    },
+    {
+      "position": 50,
+      "id": "apple:pl.d6b08f229d4f4f9da58b64fe646061af",
+      "provider": "apple-music",
+      "appleId": "pl.d6b08f229d4f4f9da58b64fe646061af",
+      "title": "Bruno Mars Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/75/7e/dd/757edd95-3276-ff15-7de3-5c8e8ec87b4c/ami-identity-865f12490d8b5356071cd06a025b5b6a-2026-01-09T05-04-02.540Z_cropped.png/1200x1200bb.jpg?l=en-US",
+      "appleUrl": "https://music.apple.com/us/playlist/bruno-mars-essentials/pl.d6b08f229d4f4f9da58b64fe646061af",
+      "interests": [
+        "popular"
       ],
       "regions": [
         "US"
