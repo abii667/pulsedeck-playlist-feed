@@ -4,12 +4,27 @@
   "region": "SZ",
   "regionName": "Eswatini",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/sz/music/most-played/50/playlists.json",
-  "updatedAt": "2026-09-22T11:52:23.000Z",
+  "updatedAt": "2026-09-23T11:42:13.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
     {
       "position": 1,
+      "id": "apple:pl.16d6125286454f17b9bb5610e4ab7e55",
+      "provider": "apple-music",
+      "appleId": "pl.16d6125286454f17b9bb5610e4ab7e55",
+      "title": "Mzansi Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/82/5f/a6/825fa69b-800d-bdf8-d95d-4b77643b3aac/b004ce75-eefa-4a10-95ac-202bf8c3d091.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/mzansi-hits/pl.16d6125286454f17b9bb5610e4ab7e55",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 2,
       "id": "apple:pl.c636d9c5362c49da8e3eb3834ebb0924",
       "provider": "apple-music",
       "appleId": "pl.c636d9c5362c49da8e3eb3834ebb0924",
@@ -24,7 +39,7 @@
       ]
     },
     {
-      "position": 2,
+      "position": 3,
       "id": "apple:pl.8331724dbff7470b998d3f3efb4f151f",
       "provider": "apple-music",
       "appleId": "pl.8331724dbff7470b998d3f3efb4f151f",
@@ -33,21 +48,6 @@
       "appleUrl": "https://music.apple.com/sz/playlist/mzansi-gospel/pl.8331724dbff7470b998d3f3efb4f151f",
       "interests": [
         "gospel"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 3,
-      "id": "apple:pl.16d6125286454f17b9bb5610e4ab7e55",
-      "provider": "apple-music",
-      "appleId": "pl.16d6125286454f17b9bb5610e4ab7e55",
-      "title": "Mzansi Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/82/5f/a6/825fa69b-800d-bdf8-d95d-4b77643b3aac/b004ce75-eefa-4a10-95ac-202bf8c3d091.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/mzansi-hits/pl.16d6125286454f17b9bb5610e4ab7e55",
-      "interests": [
-        "popular"
       ],
       "regions": [
         "SZ"
@@ -85,14 +85,14 @@
     },
     {
       "position": 6,
-      "id": "apple:pl.a07214cf4c7b49148b53b42f5f41adce",
+      "id": "apple:pl.c397ede104bf4533a740ae2982dffbd2",
       "provider": "apple-music",
-      "appleId": "pl.a07214cf4c7b49148b53b42f5f41adce",
-      "title": "Chill Yanos",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/fd/df/0d/fddf0d02-57ff-df01-ec93-d43a1c3fcca4/01bed1fc-dafc-4c86-8e2a-2c0946b391e8.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/chill-yanos/pl.a07214cf4c7b49148b53b42f5f41adce",
+      "appleId": "pl.c397ede104bf4533a740ae2982dffbd2",
+      "title": "Céline Dion Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/dc/59/0c/dc590c57-74f1-8dcc-fea7-62a3530fb530/ami-identity-4e61d7d77aeba6fd4482f7e4886915c0-2026-03-30T19-23-36.161Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/c%C3%A9line-dion-essentials/pl.c397ede104bf4533a740ae2982dffbd2",
       "interests": [
-        "chill"
+        "popular"
       ],
       "regions": [
         "SZ"
@@ -100,6 +100,81 @@
     },
     {
       "position": 7,
+      "id": "apple:pl.e4d840e15b194300aa42850968063f1a",
+      "provider": "apple-music",
+      "appleId": "pl.e4d840e15b194300aa42850968063f1a",
+      "title": "FOMO",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a6/00/c2/a600c23c-2f0c-dcd3-fd4f-c14c61bc1986/e114e92d-3f47-49b0-8403-5b8d9aaa3ef3.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/sz/playlist/fomo/pl.e4d840e15b194300aa42850968063f1a",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 8,
+      "id": "apple:pl.8e273cc4330f43abae2d22188fbd960c",
+      "provider": "apple-music",
+      "appleId": "pl.8e273cc4330f43abae2d22188fbd960c",
+      "title": "Sia Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/a9/09/18/a9091850-af3a-ffbf-65e3-349d5b6eb926/ami-identity-e481968227e39f49322f9ea36d4ae0b8-2026-03-05T20-24-38.844Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/sia-essentials/pl.8e273cc4330f43abae2d22188fbd960c",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 9,
+      "id": "apple:pl.596bc74bab694f1da1f8b388593934b4",
+      "provider": "apple-music",
+      "appleId": "pl.596bc74bab694f1da1f8b388593934b4",
+      "title": "Amapiano Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/17/60/5d/17605dd3-4689-c4c2-46fe-d1f3504a1098/03bc1cc6-9c11-4dfa-879b-50f6b95a22ad.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/amapiano-essentials/pl.596bc74bab694f1da1f8b388593934b4",
+      "interests": [
+        "amapiano"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 10,
+      "id": "apple:pl.7e3e3a0cf8134a66bbe7a958985c2ac3",
+      "provider": "apple-music",
+      "appleId": "pl.7e3e3a0cf8134a66bbe7a958985c2ac3",
+      "title": "Benjamin Dube Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/20/a3/6a/20a36a69-3066-5155-a8e1-92e8d3b03cf5/d4d20a53-32a0-4cc7-a5b7-8e88e31767c2_ami-identity-81d2c9392604ebec66b73ecd69096560-2023-10-09T10-04-37.989Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/benjamin-dube-essentials/pl.7e3e3a0cf8134a66bbe7a958985c2ac3",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 11,
+      "id": "apple:pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+      "provider": "apple-music",
+      "appleId": "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+      "title": "Rap Life",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d2/8c/e0/d28ce038-0c95-7c36-3669-7e385ea125d4/e44893bf-5301-45d1-9ed5-10358e024915.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/rap-life/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+      "interests": [
+        "hip-hop"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 12,
       "id": "apple:pl.40767611774f4d75a340e7627f3849b6",
       "provider": "apple-music",
       "appleId": "pl.40767611774f4d75a340e7627f3849b6",
@@ -114,37 +189,52 @@
       ]
     },
     {
-      "position": 8,
-      "id": "apple:pl.50b60c8ab4e94c9d89349eb1d4bf8075",
+      "position": 13,
+      "id": "apple:pl.3c8320068bc845b0ab4b06bd3c2c4074",
       "provider": "apple-music",
-      "appleId": "pl.50b60c8ab4e94c9d89349eb1d4bf8075",
-      "title": "TEEKS Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/30/50/be/3050be07-b1c0-57b9-3c9d-5927d9171d53/file_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/teeks-essentials/pl.50b60c8ab4e94c9d89349eb1d4bf8075",
+      "appleId": "pl.3c8320068bc845b0ab4b06bd3c2c4074",
+      "title": "Amapiano Rewind",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/60/92/81/609281fe-dfb4-0768-1805-f5a997edc792/6b61ae22-7869-48e7-b010-cb76999beccb.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/amapiano-rewind/pl.3c8320068bc845b0ab4b06bd3c2c4074",
       "interests": [
-        "popular"
+        "amapiano"
       ],
       "regions": [
         "SZ"
       ]
     },
     {
-      "position": 9,
-      "id": "apple:pl.1b657b6d4c1f4342bcf2692a751555ef",
+      "position": 14,
+      "id": "apple:pl.a07214cf4c7b49148b53b42f5f41adce",
       "provider": "apple-music",
-      "appleId": "pl.1b657b6d4c1f4342bcf2692a751555ef",
-      "title": "deadmau5 Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/85/0f/ff/850fffac-877b-d99a-43ae-f9d94513900b/d8293e57-a341-46f4-898c-48ba205a6f95_ami-identity-2a919783c75de20116a9badf1ab7cb9e-2024-02-21T12-38-27.643Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/deadmau5-essentials/pl.1b657b6d4c1f4342bcf2692a751555ef",
+      "appleId": "pl.a07214cf4c7b49148b53b42f5f41adce",
+      "title": "Chill Yanos",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/fd/df/0d/fddf0d02-57ff-df01-ec93-d43a1c3fcca4/01bed1fc-dafc-4c86-8e2a-2c0946b391e8.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/chill-yanos/pl.a07214cf4c7b49148b53b42f5f41adce",
       "interests": [
-        "popular"
+        "chill"
       ],
       "regions": [
         "SZ"
       ]
     },
     {
-      "position": 10,
+      "position": 15,
+      "id": "apple:pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
+      "provider": "apple-music",
+      "appleId": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
+      "title": "R&B Now",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/0b/27/bc/0b27bcad-ea2c-325e-ef28-aafca8472581/89792913-9f1b-4cff-9e12-749a72cbf932.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/r-b-now/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
+      "interests": [
+        "rnb"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 16,
       "id": "apple:pl.12c1eacecbb74daab29595ca1056c762",
       "provider": "apple-music",
       "appleId": "pl.12c1eacecbb74daab29595ca1056c762",
@@ -160,67 +250,7 @@
       ]
     },
     {
-      "position": 11,
-      "id": "apple:pl.e12459dec15f4085abbdab17ae9ddf80",
-      "provider": "apple-music",
-      "appleId": "pl.e12459dec15f4085abbdab17ae9ddf80",
-      "title": "Isgubhu: Chronical Deep",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/0e/3d/1d/0e3d1d7a-e16c-b339-05d2-256a5c1c5024/709ec9a3-8784-4b7a-be5a-a83bc2e69ed2.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/isgubhu-chronical-deep/pl.e12459dec15f4085abbdab17ae9ddf80",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 12,
-      "id": "apple:pl.0a1215c1e34a48ea95f9300ee35daeb5",
-      "provider": "apple-music",
-      "appleId": "pl.0a1215c1e34a48ea95f9300ee35daeb5",
-      "title": "Sunday Gold",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/27/9e/e7/279ee79f-6733-7f8c-0c3c-5bdcb71ca441/7c987ac3-f9f3-44a0-b90f-5d9ca8ea0774.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/sunday-gold/pl.0a1215c1e34a48ea95f9300ee35daeb5",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 13,
-      "id": "apple:pl.5c7a6dfe62c647849e9679dae0b6b560",
-      "provider": "apple-music",
-      "appleId": "pl.5c7a6dfe62c647849e9679dae0b6b560",
-      "title": "’90s R&B Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/9e/fc/4e/9efc4e2b-dbe8-31d8-7784-473893ddfd15/d32d72a5-f31a-4d1b-afe6-69910564424e.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/90s-r-b-essentials/pl.5c7a6dfe62c647849e9679dae0b6b560",
-      "interests": [
-        "rnb"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 14,
-      "id": "apple:pl.e4d840e15b194300aa42850968063f1a",
-      "provider": "apple-music",
-      "appleId": "pl.e4d840e15b194300aa42850968063f1a",
-      "title": "FOMO",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a6/00/c2/a600c23c-2f0c-dcd3-fd4f-c14c61bc1986/e114e92d-3f47-49b0-8403-5b8d9aaa3ef3.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/sz/playlist/fomo/pl.e4d840e15b194300aa42850968063f1a",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 15,
+      "position": 17,
       "id": "apple:pl.441b8a23832a4701b8c13f57f9cc7c39",
       "provider": "apple-music",
       "appleId": "pl.441b8a23832a4701b8c13f57f9cc7c39",
@@ -235,43 +265,13 @@
       ]
     },
     {
-      "position": 16,
-      "id": "apple:pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "provider": "apple-music",
-      "appleId": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "title": "R&B Now",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/0b/27/bc/0b27bcad-ea2c-325e-ef28-aafca8472581/89792913-9f1b-4cff-9e12-749a72cbf932.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/r-b-now/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
-      "interests": [
-        "rnb"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 17,
-      "id": "apple:pl.a99565e320884dafa95c2be08f9c423b",
-      "provider": "apple-music",
-      "appleId": "pl.a99565e320884dafa95c2be08f9c423b",
-      "title": "Classic Hip-Hop Deep Cuts",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/0e/1c/3e/0e1c3eae-c109-3d25-1160-b5d1b41c58d4/U0MtTVMtV1ctQ2xhc3NpY19IaXAtSG9wX0RlZXBfQ3V0cy1BREFNX0lEPTExMjQ1NjAyMzUucG5n.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/classic-hip-hop-deep-cuts/pl.a99565e320884dafa95c2be08f9c423b",
-      "interests": [
-        "hip-hop"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
       "position": 18,
-      "id": "apple:pl.17c161f2804e4273a9d7435d183a6678",
+      "id": "apple:pl.1b657b6d4c1f4342bcf2692a751555ef",
       "provider": "apple-music",
-      "appleId": "pl.17c161f2804e4273a9d7435d183a6678",
-      "title": "Sjava Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages113/v4/ba/f8/11/baf81191-1972-7a53-5539-7846f9ab9f8e/5e50cf47-bf84-4fed-8d82-f50e344d6b78_file_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/sjava-essentials/pl.17c161f2804e4273a9d7435d183a6678",
+      "appleId": "pl.1b657b6d4c1f4342bcf2692a751555ef",
+      "title": "deadmau5 Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/85/0f/ff/850fffac-877b-d99a-43ae-f9d94513900b/d8293e57-a341-46f4-898c-48ba205a6f95_ami-identity-2a919783c75de20116a9badf1ab7cb9e-2024-02-21T12-38-27.643Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/deadmau5-essentials/pl.1b657b6d4c1f4342bcf2692a751555ef",
       "interests": [
         "popular"
       ],
@@ -281,82 +281,6 @@
     },
     {
       "position": 19,
-      "id": "apple:pl.c7787fd249f645eaa0f7d62aa794efec",
-      "provider": "apple-music",
-      "appleId": "pl.c7787fd249f645eaa0f7d62aa794efec",
-      "title": "Mzansi Soul",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/16/f9/f016f943-bd4a-4fec-e43f-0c064560dd7d/U0MtTVMtV1ctTXphbnNpX1NvdWwtQURBTV9JRD0xMzUyNzkwNTUzLnBuZw.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/mzansi-soul/pl.c7787fd249f645eaa0f7d62aa794efec",
-      "interests": [
-        "soul"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 20,
-      "id": "apple:pl.2ca3d97182eb4a2fbee39e5b536682ee",
-      "provider": "apple-music",
-      "appleId": "pl.2ca3d97182eb4a2fbee39e5b536682ee",
-      "title": "Hillsong Worship Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/63/42/b1/6342b140-73ea-66ce-ec4e-68e8b9ea8b05/ami-identity-233576f2de87898d28a2cc515d2b8dd8-2025-09-22T23-05-09.352Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/hillsong-worship-essentials/pl.2ca3d97182eb4a2fbee39e5b536682ee",
-      "interests": [
-        "gospel",
-        "devotional"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 21,
-      "id": "apple:pl.2430140565c74405ad167927df83e3a8",
-      "provider": "apple-music",
-      "appleId": "pl.2430140565c74405ad167927df83e3a8",
-      "title": "3-Step Groove",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6f/9a/81/6f9a818a-b0e4-9c1e-2379-94c8f68c96d8/ac3b2413-f4d4-4f99-b3ae-6fe3bad6b147.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/3-step-groove/pl.2430140565c74405ad167927df83e3a8",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 22,
-      "id": "apple:pl.b6978498289141a4b28854fbb792f100",
-      "provider": "apple-music",
-      "appleId": "pl.b6978498289141a4b28854fbb792f100",
-      "title": "Mzansi Gospel Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e1/6d/dd/e16dddea-1555-785d-a4cd-62108700af54/4a6f7832-929f-4f0a-9b61-12a1b2bb8008.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/mzansi-gospel-essentials/pl.b6978498289141a4b28854fbb792f100",
-      "interests": [
-        "gospel"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 23,
-      "id": "apple:pl.e5bc0180234b40639b5fb6aeb3c6ff68",
-      "provider": "apple-music",
-      "appleId": "pl.e5bc0180234b40639b5fb6aeb3c6ff68",
-      "title": "Drake: Chill",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/1b/71/65/1b716513-b0c1-9c6b-45aa-cbb9198248cc/01607cf1-1d52-43d2-84ce-d6fc1f4a3475_ami-identity-7665599cc626d803af7956b3691905e7-2022-11-30T21-07-19.526Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/drake-chill/pl.e5bc0180234b40639b5fb6aeb3c6ff68",
-      "interests": [
-        "chill"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 24,
       "id": "apple:pl.58bc3a034743411ead926776514b4ce2",
       "provider": "apple-music",
       "appleId": "pl.58bc3a034743411ead926776514b4ce2",
@@ -371,52 +295,7 @@
       ]
     },
     {
-      "position": 25,
-      "id": "apple:pl.c397ede104bf4533a740ae2982dffbd2",
-      "provider": "apple-music",
-      "appleId": "pl.c397ede104bf4533a740ae2982dffbd2",
-      "title": "Céline Dion Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/dc/59/0c/dc590c57-74f1-8dcc-fea7-62a3530fb530/ami-identity-4e61d7d77aeba6fd4482f7e4886915c0-2026-03-30T19-23-36.161Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/c%C3%A9line-dion-essentials/pl.c397ede104bf4533a740ae2982dffbd2",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 26,
-      "id": "apple:pl.8cdf558795624045986634c99bae70d4",
-      "provider": "apple-music",
-      "appleId": "pl.8cdf558795624045986634c99bae70d4",
-      "title": "Mzansi Hip-Hop",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/98/a1/20/98a120a3-1315-aa41-2594-8630516bffad/U0MtTVMtWkFGLU16YW5zaV9IaXBfSG9wLUFkYW1fSUQ9OTkxODUzMzQ2IGNvcHkucG5n.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/mzansi-hip-hop/pl.8cdf558795624045986634c99bae70d4",
-      "interests": [
-        "hip-hop"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 27,
-      "id": "apple:pl.3892e78d1a474dff82b2aead85d1fb1c",
-      "provider": "apple-music",
-      "appleId": "pl.3892e78d1a474dff82b2aead85d1fb1c",
-      "title": "Best South Africa House Hits 2026",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Pz_le8_gKtAV8p4WyvqitQ/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/sz/playlist/best-south-africa-house-hits-2026/pl.3892e78d1a474dff82b2aead85d1fb1c",
-      "interests": [
-        "electronic"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 28,
+      "position": 20,
       "id": "apple:pl.c2e16e6725004febaa6791eba249bdcf",
       "provider": "apple-music",
       "appleId": "pl.c2e16e6725004febaa6791eba249bdcf",
@@ -431,13 +310,28 @@
       ]
     },
     {
-      "position": 29,
-      "id": "apple:pl.f30c526dddef46678f94d99ce5c16688",
+      "position": 21,
+      "id": "apple:pl.5c7a6dfe62c647849e9679dae0b6b560",
       "provider": "apple-music",
-      "appleId": "pl.f30c526dddef46678f94d99ce5c16688",
-      "title": "Teddy Swims Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/04/1a/1f/041a1fc5-c514-e18b-8cb0-6cd5b2e82fcd/ami-identity-6acfba2c102ce0d21662c3346bcf6aa8-2026-04-09T16-56-36.154Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/teddy-swims-essentials/pl.f30c526dddef46678f94d99ce5c16688",
+      "appleId": "pl.5c7a6dfe62c647849e9679dae0b6b560",
+      "title": "’90s R&B Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/9e/fc/4e/9efc4e2b-dbe8-31d8-7784-473893ddfd15/d32d72a5-f31a-4d1b-afe6-69910564424e.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/90s-r-b-essentials/pl.5c7a6dfe62c647849e9679dae0b6b560",
+      "interests": [
+        "rnb"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 22,
+      "id": "apple:pl.50b60c8ab4e94c9d89349eb1d4bf8075",
+      "provider": "apple-music",
+      "appleId": "pl.50b60c8ab4e94c9d89349eb1d4bf8075",
+      "title": "TEEKS Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/30/50/be/3050be07-b1c0-57b9-3c9d-5927d9171d53/file_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/teeks-essentials/pl.50b60c8ab4e94c9d89349eb1d4bf8075",
       "interests": [
         "popular"
       ],
@@ -446,37 +340,7 @@
       ]
     },
     {
-      "position": 30,
-      "id": "apple:pl.264822266b6944abbfd0dd3e3f1ec03f",
-      "provider": "apple-music",
-      "appleId": "pl.264822266b6944abbfd0dd3e3f1ec03f",
-      "title": "Isgubhu",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d0/59/1e/d0591e0b-3d75-2274-edc8-93abc48e3108/a111a772-9d0b-4b15-83a3-76bf780b1862.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/isgubhu/pl.264822266b6944abbfd0dd3e3f1ec03f",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 31,
-      "id": "apple:pl.4ab0a6535948423f9d92bb42a1d50ec5",
-      "provider": "apple-music",
-      "appleId": "pl.4ab0a6535948423f9d92bb42a1d50ec5",
-      "title": "Lucky Dube Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/a4/21/6c/a4216c98-9da5-90be-b72d-f8a5140589b2/a358dfb7-ea03-4716-bd4d-83cea1713e51_ami-identity-3da2ef5f4a1eae990f45863ccb504efc-2024-05-15T11-36-28.527Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/lucky-dube-essentials/pl.4ab0a6535948423f9d92bb42a1d50ec5",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 32,
+      "position": 23,
       "id": "apple:pl.95fea5a2e159461d9ad72abb6459bb55",
       "provider": "apple-music",
       "appleId": "pl.95fea5a2e159461d9ad72abb6459bb55",
@@ -491,13 +355,28 @@
       ]
     },
     {
-      "position": 33,
-      "id": "apple:pl.ffa2178ab08f4080bcf4075e14a1c3fe",
+      "position": 24,
+      "id": "apple:pl.d549e09c35de455c8aaed84684898d01",
       "provider": "apple-music",
-      "appleId": "pl.ffa2178ab08f4080bcf4075e14a1c3fe",
-      "title": "R&B Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/63/d9/e7/63d9e746-0e0c-8a74-725d-46d126ba7077/U0MtTVMtV1ctUl9CX0hpdHMtQURBTV9JRD0xNDY1OTg4MTQ4LnBuZw.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/r-b-hits/pl.ffa2178ab08f4080bcf4075e14a1c3fe",
+      "appleId": "pl.d549e09c35de455c8aaed84684898d01",
+      "title": "Rihanna Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/7c/f4/05/7cf40556-7dae-045b-8e32-7004c64fe41e/ami-identity-d7c7fc06e25964f71047f919dd682d38-2025-08-27T19-58-49.477Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/rihanna-essentials/pl.d549e09c35de455c8aaed84684898d01",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 25,
+      "id": "apple:pl.cfcaf6834e9446159433327f2a7016fa",
+      "provider": "apple-music",
+      "appleId": "pl.cfcaf6834e9446159433327f2a7016fa",
+      "title": "2000s R&B",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/SG-MQ-US-032-Image000001/v4/41/47/43/41474332-b245-acb7-f19e-43078004aeff/image/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/sz/playlist/2000s-r-b/pl.cfcaf6834e9446159433327f2a7016fa",
       "interests": [
         "rnb"
       ],
@@ -506,173 +385,7 @@
       ]
     },
     {
-      "position": 34,
-      "id": "apple:pl.157f6c6b0fc04b3b91e6ed90314a8318",
-      "provider": "apple-music",
-      "appleId": "pl.157f6c6b0fc04b3b91e6ed90314a8318",
-      "title": "Gunna Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/a4/d1/1d/a4d11d9c-5a9a-fa03-663c-84b3da33a083/ami-identity-bfb24f2c81be11d69911fe7bb9b04e61-2025-08-07T17-23-27.612Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/gunna-essentials/pl.157f6c6b0fc04b3b91e6ed90314a8318",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 35,
-      "id": "apple:pl.c5b1ec8662674e41a3e16044190e9dfa",
-      "provider": "apple-music",
-      "appleId": "pl.c5b1ec8662674e41a3e16044190e9dfa",
-      "title": "African Gospel",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/8f/42/e1/8f42e100-a737-4661-10fd-36f8d9fa0146/U0MtTVMtV1ctQWZyaWNhbl9Hb3NwZWwtQWRhbV9JRD0gMTUwNTM3MzQzMS5wbmc.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/african-gospel/pl.c5b1ec8662674e41a3e16044190e9dfa",
-      "interests": [
-        "gospel"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 36,
-      "id": "apple:pl.eba1e635e1cb4f62988cbbed2e7c9f66",
-      "provider": "apple-music",
-      "appleId": "pl.eba1e635e1cb4f62988cbbed2e7c9f66",
-      "title": "Stimela Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/7f/4c/46/7f4c4630-5f7c-5ebb-36b1-a6626e791e84/mzl.hcompdil.jpg/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/stimela-essentials/pl.eba1e635e1cb4f62988cbbed2e7c9f66",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 37,
-      "id": "apple:pl.bca7ed31389842108896524e2edbd956",
-      "provider": "apple-music",
-      "appleId": "pl.bca7ed31389842108896524e2edbd956",
-      "title": "Dolly Parton Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/ef/1b/b6/ef1bb62d-4a22-6fa7-e43b-7c1be1e5f9b5/ami-identity-b4abe5540760f06b1ef922729b4f877b-2026-01-16T03-03-47.334Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/dolly-parton-essentials/pl.bca7ed31389842108896524e2edbd956",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 38,
-      "id": "apple:pl.42614a08c7664674a73918d7941f36b7",
-      "provider": "apple-music",
-      "appleId": "pl.42614a08c7664674a73918d7941f36b7",
-      "title": "Future Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/a0/03/ba/a003ba04-c69b-5ac9-db08-326c23aa5b82/ami-identity-9301504ae26ebbedb9d8d3cf6c9dafdb-2026-06-26T04-06-47.222Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/future-essentials/pl.42614a08c7664674a73918d7941f36b7",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 39,
-      "id": "apple:pl.d2a12c8cf5884f8990f1e5b3e4024266",
-      "provider": "apple-music",
-      "appleId": "pl.d2a12c8cf5884f8990f1e5b3e4024266",
-      "title": "Lil Wayne Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/78/3a/1a/783a1a0a-1fe3-80d8-858f-b2d3d5f22baf/ami-identity-a65ba8774cde0e06f6b38b69c418c48d-2025-06-03T18-43-41.455Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/lil-wayne-essentials/pl.d2a12c8cf5884f8990f1e5b3e4024266",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 40,
-      "id": "apple:pl.674abcd261d04582b58d6388394cd047",
-      "provider": "apple-music",
-      "appleId": "pl.674abcd261d04582b58d6388394cd047",
-      "title": "Hip-Hop/R&B Throwback",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f3/ff/37/f3ff3768-3089-ae2f-f5d1-c89599b84313/U0MtTVMtV1ctSGlwLUhvcF9SX0JfVGhyb3diYWNrLUFEQU1fSUQ9MTExMjk3MjQzMC5wbmc.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/hip-hop-r-b-throwback/pl.674abcd261d04582b58d6388394cd047",
-      "interests": [
-        "hip-hop",
-        "rnb"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 41,
-      "id": "apple:pl.e49d3dfab8774497900f3b4dff504588",
-      "provider": "apple-music",
-      "appleId": "pl.e49d3dfab8774497900f3b4dff504588",
-      "title": "Nicki Minaj Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/31/ff/09/31ff09dc-479c-e23e-006e-3810b12bc7da/4ffa51f7-98a2-466f-bc71-0d4a220dcb42_ami-identity-2b030140561304c28397671b03fd9e3f-2023-12-08T05-56-51.387Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/nicki-minaj-essentials/pl.e49d3dfab8774497900f3b4dff504588",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 42,
-      "id": "apple:pl.4ec315df2bf04cc29dab9936fe18e107",
-      "provider": "apple-music",
-      "appleId": "pl.4ec315df2bf04cc29dab9936fe18e107",
-      "title": "JAŸ-Z Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/45/27/3c/45273c24-32dd-85a4-a5ec-553f10b1a026/ami-identity-05b63aab4154bc3fa7092aab21153ea4-2026-06-25T03-43-21.091Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/ja%C3%BF-z-essentials/pl.4ec315df2bf04cc29dab9936fe18e107",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 43,
-      "id": "apple:pl.1283b1711b774ae2ab1b20b8b5a719ef",
-      "provider": "apple-music",
-      "appleId": "pl.1283b1711b774ae2ab1b20b8b5a719ef",
-      "title": "MASKANDI HITS 2026 | Top Songs",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/pGt1Cle0d3kw1JLlS7ULPQ/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/sz/playlist/maskandi-hits-2026-top-songs/pl.1283b1711b774ae2ab1b20b8b5a719ef",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 44,
-      "id": "apple:pl.2205b568872044fba4f03c9b19cb4cd1",
-      "provider": "apple-music",
-      "appleId": "pl.2205b568872044fba4f03c9b19cb4cd1",
-      "title": "USHER Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/22/8e/e0/228ee05e-63a1-483a-3f31-e2793c5aed77/mza_1472324734210473378.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/usher-essentials/pl.2205b568872044fba4f03c9b19cb4cd1",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "SZ"
-      ]
-    },
-    {
-      "position": 45,
+      "position": 26,
       "id": "apple:pl.7cfa5feb1a15471283a391f32bd3dc6a",
       "provider": "apple-music",
       "appleId": "pl.7cfa5feb1a15471283a391f32bd3dc6a",
@@ -688,28 +401,104 @@
       ]
     },
     {
-      "position": 46,
-      "id": "apple:pl.5f435f55d253405abe15d0348831887d",
+      "position": 27,
+      "id": "apple:pl.a4e1706901964f46b1abe8dd0e16e2e0",
       "provider": "apple-music",
-      "appleId": "pl.5f435f55d253405abe15d0348831887d",
-      "title": "Afrobeats Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/f5/31/3d/f5313d51-cfa1-e449-7e1e-36c765861a35/b30255f7-044e-43f1-acd3-29780f7e8a25.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/afrobeats-essentials/pl.5f435f55d253405abe15d0348831887d",
+      "appleId": "pl.a4e1706901964f46b1abe8dd0e16e2e0",
+      "title": "2010s Love Song Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/2f/ce/fe/2fcefe61-ad86-c033-ed93-9eadd08954a6/5fe1a8f6-ce0d-407f-b7ae-fb307b2dcedc.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/2010s-love-song-essentials/pl.a4e1706901964f46b1abe8dd0e16e2e0",
       "interests": [
-        "afrobeats"
+        "popular"
       ],
       "regions": [
         "SZ"
       ]
     },
     {
-      "position": 47,
-      "id": "apple:pl.6bbcceacb5f245b4a66fa5b1ce88bc21",
+      "position": 28,
+      "id": "apple:pl.2c866234c5944a6ab7ae3c51a5bd2618",
       "provider": "apple-music",
-      "appleId": "pl.6bbcceacb5f245b4a66fa5b1ce88bc21",
-      "title": "Afro House Nation",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/bf/ef/e3/bfefe38f-0244-f8e9-d582-3e474ed998af/4806254b-1b05-45c7-a1b5-01254dc24e92.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/afro-house-nation/pl.6bbcceacb5f245b4a66fa5b1ce88bc21",
+      "appleId": "pl.2c866234c5944a6ab7ae3c51a5bd2618",
+      "title": "JP Saxe Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/f1/3f/81/f13f81ed-9fe4-58d0-43b7-2b24d075e451/ami-identity-bad8d6aace8f7ceb18480329d217ba28-2026-07-15T16-45-19.424Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/jp-saxe-essentials/pl.2c866234c5944a6ab7ae3c51a5bd2618",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 29,
+      "id": "apple:pl.4c62f568a0d64293a9c362037175c09b",
+      "provider": "apple-music",
+      "appleId": "pl.4c62f568a0d64293a9c362037175c09b",
+      "title": "Hip-Hop Workout",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/b9/18/02/b9180250-a496-520c-70eb-6f01710b083d/U0MtTVMtV1ctSGlwLUhvcF9Xb3Jrb3V0LUFEQU1fSUQ9MTAwNDc4MTM5Ni5wbmc.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/hip-hop-workout/pl.4c62f568a0d64293a9c362037175c09b",
+      "interests": [
+        "hip-hop",
+        "workout"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 30,
+      "id": "apple:pl.17c161f2804e4273a9d7435d183a6678",
+      "provider": "apple-music",
+      "appleId": "pl.17c161f2804e4273a9d7435d183a6678",
+      "title": "Sjava Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages113/v4/ba/f8/11/baf81191-1972-7a53-5539-7846f9ab9f8e/5e50cf47-bf84-4fed-8d82-f50e344d6b78_file_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/sjava-essentials/pl.17c161f2804e4273a9d7435d183a6678",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 31,
+      "id": "apple:pl.c7787fd249f645eaa0f7d62aa794efec",
+      "provider": "apple-music",
+      "appleId": "pl.c7787fd249f645eaa0f7d62aa794efec",
+      "title": "Mzansi Soul",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f0/16/f9/f016f943-bd4a-4fec-e43f-0c064560dd7d/U0MtTVMtV1ctTXphbnNpX1NvdWwtQURBTV9JRD0xMzUyNzkwNTUzLnBuZw.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/mzansi-soul/pl.c7787fd249f645eaa0f7d62aa794efec",
+      "interests": [
+        "soul"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 32,
+      "id": "apple:pl.4ec315df2bf04cc29dab9936fe18e107",
+      "provider": "apple-music",
+      "appleId": "pl.4ec315df2bf04cc29dab9936fe18e107",
+      "title": "JAŸ-Z Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/45/27/3c/45273c24-32dd-85a4-a5ec-553f10b1a026/ami-identity-05b63aab4154bc3fa7092aab21153ea4-2026-06-25T03-43-21.091Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/ja%C3%BF-z-essentials/pl.4ec315df2bf04cc29dab9936fe18e107",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 33,
+      "id": "apple:pl.555d2517e84b4ae38e999af41f389125",
+      "provider": "apple-music",
+      "appleId": "pl.555d2517e84b4ae38e999af41f389125",
+      "title": "Mzansi House Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/36/8b/d3/368bd33f-340a-3609-4a23-c28608abbb52/4336c1ae-dce1-47a8-bf4f-c4f5bf13e5ef.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/mzansi-house-essentials/pl.555d2517e84b4ae38e999af41f389125",
       "interests": [
         "electronic"
       ],
@@ -718,13 +507,224 @@
       ]
     },
     {
-      "position": 48,
-      "id": "apple:pl.b5deb01c5d1541ba881b9418f79b5ea6",
+      "position": 34,
+      "id": "apple:pl.bd55c25265aa4de8b3fc3e0960751846",
       "provider": "apple-music",
-      "appleId": "pl.b5deb01c5d1541ba881b9418f79b5ea6",
-      "title": "Billie Eilish Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/e1/f3/6a/e1f36a60-9897-162d-3697-7501eeafbc3b/a1d41336-49bd-4212-8787-57547ca3f87e_ami-identity-ef10a72d4764d04743b17fa13520b756-2024-04-08T15-24-54.609Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/billie-eilish-essentials/pl.b5deb01c5d1541ba881b9418f79b5ea6",
+      "appleId": "pl.bd55c25265aa4de8b3fc3e0960751846",
+      "title": "Chill House",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/c6/af/9a/c6af9a03-1028-06f5-e3a3-ce4cde616d6b/U0MtTVMtV1ctQ2hpbGxfSG91c2UtQURBTV9JRD0xMDgzNjkzNjA5LnBuZw.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/chill-house/pl.bd55c25265aa4de8b3fc3e0960751846",
+      "interests": [
+        "electronic",
+        "chill"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 35,
+      "id": "apple:pl.1fe97b010ad7435584ed4c09cf9e3f0a",
+      "provider": "apple-music",
+      "appleId": "pl.1fe97b010ad7435584ed4c09cf9e3f0a",
+      "title": "Travis Greene Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/c0/f1/e4/c0f1e4f0-c7a5-953a-e4f8-6f79b6530a42/file_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/travis-greene-essentials/pl.1fe97b010ad7435584ed4c09cf9e3f0a",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 36,
+      "id": "apple:pl.f30c526dddef46678f94d99ce5c16688",
+      "provider": "apple-music",
+      "appleId": "pl.f30c526dddef46678f94d99ce5c16688",
+      "title": "Teddy Swims Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/04/1a/1f/041a1fc5-c514-e18b-8cb0-6cd5b2e82fcd/ami-identity-6acfba2c102ce0d21662c3346bcf6aa8-2026-04-09T16-56-36.154Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/teddy-swims-essentials/pl.f30c526dddef46678f94d99ce5c16688",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 37,
+      "id": "apple:pl.8b01b2cc85d54216ad2947e240b86d4a",
+      "provider": "apple-music",
+      "appleId": "pl.8b01b2cc85d54216ad2947e240b86d4a",
+      "title": "Kwaito Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/0f/90/6f/0f906ff9-c010-a209-138e-fcd5dd089fac/43d1f8db-e3c2-4545-96c5-dd3a4137d7d4.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/kwaito-essentials/pl.8b01b2cc85d54216ad2947e240b86d4a",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 38,
+      "id": "apple:pl.b6978498289141a4b28854fbb792f100",
+      "provider": "apple-music",
+      "appleId": "pl.b6978498289141a4b28854fbb792f100",
+      "title": "Mzansi Gospel Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e1/6d/dd/e16dddea-1555-785d-a4cd-62108700af54/4a6f7832-929f-4f0a-9b61-12a1b2bb8008.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/mzansi-gospel-essentials/pl.b6978498289141a4b28854fbb792f100",
+      "interests": [
+        "gospel"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 39,
+      "id": "apple:pl.8fa25ac2e6b34c1fbc42221ea803fe47",
+      "provider": "apple-music",
+      "appleId": "pl.8fa25ac2e6b34c1fbc42221ea803fe47",
+      "title": "Donnie McClurkin Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bb/b5/30/bbb53063-bddd-0f10-7f0d-9e638609aabe/mzl.kxmfgtbu.jpg/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/donnie-mcclurkin-essentials/pl.8fa25ac2e6b34c1fbc42221ea803fe47",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 40,
+      "id": "apple:pl.f3044e774c85420abd9bf29c296390ab",
+      "provider": "apple-music",
+      "appleId": "pl.f3044e774c85420abd9bf29c296390ab",
+      "title": "Mariah Carey Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/d9/e9/23/d9e9234a-14d8-b9a5-c3a3-9d90f7915cf5/ami-identity-b7b6d7384b49ce34b9b2f08e69047438-2026-07-21T23-57-16.812Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/mariah-carey-essentials/pl.f3044e774c85420abd9bf29c296390ab",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 41,
+      "id": "apple:pl.eb4765f2833b42e99a5311aec7cbb307",
+      "provider": "apple-music",
+      "appleId": "pl.eb4765f2833b42e99a5311aec7cbb307",
+      "title": "Kelly Khumalo Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/0a/dc/ad/0adcadb4-6489-9617-702e-9d13721d489e/ami-identity-d13d4d22daccf0cd9ab8b4fd907a1eb1-2026-09-01T07-41-40.811Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/kelly-khumalo-essentials/pl.eb4765f2833b42e99a5311aec7cbb307",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 42,
+      "id": "apple:pl.1283b1711b774ae2ab1b20b8b5a719ef",
+      "provider": "apple-music",
+      "appleId": "pl.1283b1711b774ae2ab1b20b8b5a719ef",
+      "title": "MASKANDI HITS 2026 | Top Songs",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/pGt1Cle0d3kw1JLlS7ULPQ/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/sz/playlist/maskandi-hits-2026-top-songs/pl.1283b1711b774ae2ab1b20b8b5a719ef",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 43,
+      "id": "apple:pl.adec3be986ac43b2a083d76e3459fa51",
+      "provider": "apple-music",
+      "appleId": "pl.adec3be986ac43b2a083d76e3459fa51",
+      "title": "H.E.R. Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/d6/3d/2a/d63d2a28-7a81-d532-0f00-7d0f35a4eaa2/mza_4715395746223917563.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/h-e-r-essentials/pl.adec3be986ac43b2a083d76e3459fa51",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 44,
+      "id": "apple:pl.bd6f5601e8714700b3ae16529aa0cfe5",
+      "provider": "apple-music",
+      "appleId": "pl.bd6f5601e8714700b3ae16529aa0cfe5",
+      "title": " Kwesta Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/64/e1/a2/64e1a24b-9423-5117-bcdf-23be15e1bc99/mza_8108076372545642345.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/kwesta-essentials/pl.bd6f5601e8714700b3ae16529aa0cfe5",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 45,
+      "id": "apple:pl.4fe8a06f97524f65ae44edd42b7300fc",
+      "provider": "apple-music",
+      "appleId": "pl.4fe8a06f97524f65ae44edd42b7300fc",
+      "title": "2010s Workout",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/83/c8/86/83c8866b-e4fc-1c55-b4cf-736b91b36f90/db8cc960-352c-4a15-9bfb-a8f59a27c898.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/2010s-workout/pl.4fe8a06f97524f65ae44edd42b7300fc",
+      "interests": [
+        "workout"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 46,
+      "id": "apple:pl.3892e78d1a474dff82b2aead85d1fb1c",
+      "provider": "apple-music",
+      "appleId": "pl.3892e78d1a474dff82b2aead85d1fb1c",
+      "title": "Best South Africa House Hits 2026",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Pz_le8_gKtAV8p4WyvqitQ/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/sz/playlist/best-south-africa-house-hits-2026/pl.3892e78d1a474dff82b2aead85d1fb1c",
+      "interests": [
+        "electronic"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 47,
+      "id": "apple:pl.bca7ed31389842108896524e2edbd956",
+      "provider": "apple-music",
+      "appleId": "pl.bca7ed31389842108896524e2edbd956",
+      "title": "Dolly Parton Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/ef/1b/b6/ef1bb62d-4a22-6fa7-e43b-7c1be1e5f9b5/ami-identity-b4abe5540760f06b1ef922729b4f877b-2026-01-16T03-03-47.334Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/dolly-parton-essentials/pl.bca7ed31389842108896524e2edbd956",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "SZ"
+      ]
+    },
+    {
+      "position": 48,
+      "id": "apple:pl.e19ebe7afe1d487ca7b649e2fedf11d2",
+      "provider": "apple-music",
+      "appleId": "pl.e19ebe7afe1d487ca7b649e2fedf11d2",
+      "title": "Camila Cabello Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/f9/ba/c0/f9bac075-9a4f-a701-5700-ef9fb385b547/ami-identity-8f1a193175612e1ca5cde75c8e8f331d-2025-04-04T05-22-43.481Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/camila-cabello-essentials/pl.e19ebe7afe1d487ca7b649e2fedf11d2",
       "interests": [
         "popular"
       ],
@@ -734,14 +734,15 @@
     },
     {
       "position": 49,
-      "id": "apple:pl.1b59383d41a74a889e8a28c31a3552c3",
+      "id": "apple:pl.674abcd261d04582b58d6388394cd047",
       "provider": "apple-music",
-      "appleId": "pl.1b59383d41a74a889e8a28c31a3552c3",
-      "title": "Justin Bieber Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/f2/1f/32/f21f3290-c966-20e7-e826-a84a1c1adc05/ami-identity-d15f1da1dd95aabafc7476c4cd97ce79-2025-09-04T16-40-24.717Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/justin-bieber-essentials/pl.1b59383d41a74a889e8a28c31a3552c3",
+      "appleId": "pl.674abcd261d04582b58d6388394cd047",
+      "title": "Hip-Hop/R&B Throwback",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/f3/ff/37/f3ff3768-3089-ae2f-f5d1-c89599b84313/U0MtTVMtV1ctSGlwLUhvcF9SX0JfVGhyb3diYWNrLUFEQU1fSUQ9MTExMjk3MjQzMC5wbmc.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/hip-hop-r-b-throwback/pl.674abcd261d04582b58d6388394cd047",
       "interests": [
-        "popular"
+        "hip-hop",
+        "rnb"
       ],
       "regions": [
         "SZ"
@@ -749,15 +750,14 @@
     },
     {
       "position": 50,
-      "id": "apple:pl.e25dfca3a05347f9bbaeb2691793ebb6",
+      "id": "apple:pl.1fa57a04cd794a8aa482a3492f26fbcd",
       "provider": "apple-music",
-      "appleId": "pl.e25dfca3a05347f9bbaeb2691793ebb6",
-      "title": "Worship Today",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/77/9d/81/779d81cc-85b8-a050-2c6c-b27f52c1fc15/U0MtTVMtV1ctV29yc2hpcF9Ub2RheS1BREFNX0lEPTExMjQyMjI5NTUucG5n.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/sz/playlist/worship-today/pl.e25dfca3a05347f9bbaeb2691793ebb6",
+      "appleId": "pl.1fa57a04cd794a8aa482a3492f26fbcd",
+      "title": "New in Hip-Hop",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/e8/74/87/e874877e-f92b-16cb-5502-6803c6c30deb/U0MtTVMtV1ctTmV3X0luX0hpcF9Ib3AtQURBTV9JRD0gMTQ2NTc5MTE4NC5wbmc.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/sz/playlist/new-in-hip-hop/pl.1fa57a04cd794a8aa482a3492f26fbcd",
       "interests": [
-        "gospel",
-        "devotional"
+        "hip-hop"
       ],
       "regions": [
         "SZ"

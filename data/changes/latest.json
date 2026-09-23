@@ -1,23 +1,49 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T11:39:28.861Z",
-  "changedCount": 14,
+  "generatedAt": "2026-09-23T11:37:36.340Z",
+  "changedCount": 19,
   "changes": [
     {
-      "slug": "reggae-classics",
-      "title": "Reggae Classics",
-      "previousSnapshotId": "public:097e63117ecdc8109a2f25e197d77ac02281c704",
-      "snapshotId": "public:db1d29abacbbf9bddcde97e9b999dc60fdf8962d",
+      "slug": "todays-top-hits",
+      "title": "Today’s Top Hits",
+      "previousSnapshotId": "public:51cf034aa7cebe47f81b09388de5b13e1d9cba1c",
+      "snapshotId": "public:11223e76d6736283f03149f940e5527030a8b666",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
+      "slug": "reggae-classics",
+      "title": "Reggae Classics",
+      "previousSnapshotId": "public:db1d29abacbbf9bddcde97e9b999dc60fdf8962d",
+      "snapshotId": "public:8ef1c78663590a34d61d9fe65c19ade7958f05cc",
+      "added": 1,
+      "removed": 1,
+      "addedTracks": [
+        {
+          "spotifyId": "4MM4UlT0j7MePs9bMoi34N",
+          "title": "Good Thing Going",
+          "artistNames": [
+            "Sugar Minott"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "0oxnbj3KvvMl5khReTSn59",
+          "title": "Wish You Were Here",
+          "artistNames": [
+            "Alpha Blondy"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "all-out-80s",
       "title": "All Out 80s",
-      "previousSnapshotId": "public:0821e097d9e9d4b5232edda4d9370e3ab6080559",
-      "snapshotId": "public:a48e5782436f753df2ca805366115b5306233381",
+      "previousSnapshotId": "public:a48e5782436f753df2ca805366115b5306233381",
+      "snapshotId": "public:d919fe85c061d80c460d993282397563a57bf90b",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -26,21 +52,11 @@
     {
       "slug": "all-out-90s",
       "title": "All Out 90s",
-      "previousSnapshotId": "public:5d29e9a5460c23d9cd95e2b858f1783c8d2bd127",
-      "snapshotId": "public:4ff21ae8ff9b0f285272dfb92d6093653d0d59ff",
+      "previousSnapshotId": "public:4ff21ae8ff9b0f285272dfb92d6093653d0d59ff",
+      "snapshotId": "public:15aeeb160734231f35195a8facb309820959d375",
       "added": 1,
       "removed": 1,
       "addedTracks": [
-        {
-          "spotifyId": "67Hna13dNDkZvBpTXRIaOJ",
-          "title": "Teardrop",
-          "artistNames": [
-            "Massive Attack",
-            "Elizabeth Fraser"
-          ]
-        }
-      ],
-      "removedTracks": [
         {
           "spotifyId": "225xvV8r1yKMHErSWivnow",
           "title": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
@@ -48,13 +64,22 @@
             "Aerosmith"
           ]
         }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "6e8Ou0wiqAzIpWb2eSxll8",
+          "title": "Miami",
+          "artistNames": [
+            "Will Smith"
+          ]
+        }
       ]
     },
     {
       "slug": "all-out-2000s",
       "title": "All Out 2000s",
-      "previousSnapshotId": "public:6d1ed4aca56a703db29aba6bc97d46127a20d10a",
-      "snapshotId": "public:f430d8ba40efc41a124ed529b8734ea90d4da52b",
+      "previousSnapshotId": "public:f430d8ba40efc41a124ed529b8734ea90d4da52b",
+      "snapshotId": "public:ad94c459aa74a9358747023ee388cdc12ac017f4",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -63,8 +88,8 @@
     {
       "slug": "chill-hits",
       "title": "Chill Hits",
-      "previousSnapshotId": "public:127d3935249c04ccbe5bf31e18e1a3b520836422",
-      "snapshotId": "public:5c4707129002757d5f56db4d7ec2154d5907ab55",
+      "previousSnapshotId": "public:5c4707129002757d5f56db4d7ec2154d5907ab55",
+      "snapshotId": "public:80d8600cef35d77c0d4890ed571b22baf3979aef",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -73,8 +98,8 @@
     {
       "slug": "beast-mode",
       "title": "Beast Mode",
-      "previousSnapshotId": "public:732c016642d22c781e4e90d4eebb9c5b86a16c79",
-      "snapshotId": "public:ec05c458a2e167a93ab3491f0d1e4b0827b5b0ca",
+      "previousSnapshotId": "public:ec05c458a2e167a93ab3491f0d1e4b0827b5b0ca",
+      "snapshotId": "public:f4d2c595695032e0586ef94c444224d0248fcef5",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -83,37 +108,45 @@
     {
       "slug": "jazz-classics",
       "title": "Jazz Classics",
-      "previousSnapshotId": "public:d658a5bafe79291572456060072ae848bf2431ec",
-      "snapshotId": "public:9ec40dc496e148acf82994cd7a89eecb40c181cb",
-      "added": 1,
-      "removed": 1,
-      "addedTracks": [
-        {
-          "spotifyId": "58ylMBq2yqYdHyevarkNWa",
-          "title": "I Guess I'll Hang My Tears Out To Dry - Rudy Van Gelder Edition / Remastered 1999",
-          "artistNames": [
-            "Dexter Gordon"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "6YYu8qFzcY1ZyzzsJIQM12",
-          "title": "Straight, No Chaser",
-          "artistNames": [
-            "Thelonious Monk"
-          ]
-        }
-      ]
+      "previousSnapshotId": "public:9ec40dc496e148acf82994cd7a89eecb40c181cb",
+      "snapshotId": "public:7cf688286a4e024cc40544a330d4ba0da82e86ab",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
     },
     {
       "slug": "gospel-mix",
       "title": "Gospel Mix",
-      "previousSnapshotId": "public:2cd4404b7914553c7d704ec8ede1cf526e86a7ab",
-      "snapshotId": "public:c7fad3230444371df0eb61f172ee7e927749c6c9",
-      "added": 10,
-      "removed": 10,
+      "previousSnapshotId": "public:c7fad3230444371df0eb61f172ee7e927749c6c9",
+      "snapshotId": "public:7a2fcfb2b7d06fdf320f4fa7e1174fe6cbfa39c6",
+      "added": 3,
+      "removed": 3,
       "addedTracks": [
+        {
+          "spotifyId": "5YoFuHLaQuFpcPOxrVI2Hr",
+          "title": "Quiero Conocer a Jesús (Yeshua) / Nuestro Dios (En Vivo)",
+          "artistNames": [
+            "Generación 12"
+          ]
+        },
+        {
+          "spotifyId": "6ih83nInlD4raXBDaHmu9d",
+          "title": "I Speak Jesus",
+          "artistNames": [
+            "Charity Gayle",
+            "Steven Musso"
+          ]
+        },
+        {
+          "spotifyId": "1GvJ35amuk7oGjcnoYSKFA",
+          "title": "Dusty Bibles",
+          "artistNames": [
+            "Josiah Queen"
+          ]
+        }
+      ],
+      "removedTracks": [
         {
           "spotifyId": "3IBHk8pwBYyzlKYGVmoWQt",
           "title": "I Thank God (feat. Dante Bowe, Maryanne Joshua George & Aaron Moses)",
@@ -141,145 +174,14 @@
             "Marcela Gandara",
             "Jesús Adrián Romero"
           ]
-        },
-        {
-          "spotifyId": "5QbtKOsjbEGkx0GMiQGBZt",
-          "title": "Tu és + Águas Purificadoras - Ao Vivo",
-          "artistNames": [
-            "fhop music",
-            "Hamilton Rabelo"
-          ]
-        },
-        {
-          "spotifyId": "1uoA57FMhP9QjZxIJZVEWo",
-          "title": "Jeová Jireh",
-          "artistNames": [
-            "Aline Barros"
-          ]
-        },
-        {
-          "spotifyId": "0GD31r9na0U0TLJ3xO2Att",
-          "title": "Eu e Minha Casa",
-          "artistNames": [
-            "Julliany Souza",
-            "Léo Brandão"
-          ]
-        },
-        {
-          "spotifyId": "0IHZgDHnehLfWTzMcR3szE",
-          "title": "Sobre As Águas",
-          "artistNames": [
-            "Davi Sacer",
-            "Trazendo a Arca"
-          ]
-        },
-        {
-          "spotifyId": "3J90GuVGUoknZwiiGrmqHF",
-          "title": "Todas As Coisas - Ao Vivo",
-          "artistNames": [
-            "Fernandinho"
-          ]
-        },
-        {
-          "spotifyId": "40KZgKCIvRVIoZqv9lNBoP",
-          "title": "Alívio",
-          "artistNames": [
-            "Jessé Aguiar",
-            "Todah Music"
-          ]
-        },
-        {
-          "spotifyId": "3SSb1jUojmZLbml3S3f9bN",
-          "title": "Pode Morar Aqui",
-          "artistNames": [
-            "Theo Rubia"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "7GJeMVJbLzRgNuabsQ8RXt",
-          "title": "I Thank God",
-          "artistNames": [
-            "Housefires",
-            "JWLKRS Worship",
-            "Ryan Ellis",
-            "Blake Wiggins"
-          ]
-        },
-        {
-          "spotifyId": "2UeOsbOZ3h1QxUX2Jfw42j",
-          "title": "Build My Life",
-          "artistNames": [
-            "Pat Barrett"
-          ]
-        },
-        {
-          "spotifyId": "2wwEjucN8zj8MuZ7ZYoxiH",
-          "title": "AH, JESUS / CORAÇÃO IGUAL AO TEU",
-          "artistNames": [
-            "Julliany Souza"
-          ]
-        },
-        {
-          "spotifyId": "6ZuAYPvo7kB5YCmzoTUUAi",
-          "title": "Todavia Me Alegrarei (Ao Vivo)",
-          "artistNames": [
-            "Samuel Messias"
-          ]
-        },
-        {
-          "spotifyId": "4VLK4ZO7czrzMHvtGPkN8T",
-          "title": "Me Leva Pra Casa",
-          "artistNames": [
-            "Israel Subira"
-          ]
-        },
-        {
-          "spotifyId": "0f91sVOAhNDPAQrhPpO581",
-          "title": "Me Ama - Ao Vivo",
-          "artistNames": [
-            "John Dias"
-          ]
-        },
-        {
-          "spotifyId": "00E2KxBwL0B3idGMJcRoEh",
-          "title": "Único - Live",
-          "artistNames": [
-            "Fernandinho"
-          ]
-        },
-        {
-          "spotifyId": "0Bcv2OSK7ShvPOg8EvWr8t",
-          "title": "Deus de Obras Completas - Ao Vivo",
-          "artistNames": [
-            "Kemilly Santos",
-            "Todah Music"
-          ]
-        },
-        {
-          "spotifyId": "0PEkKjD8bgssfDbKUzKQ21",
-          "title": "Sublime - Ao Vivo",
-          "artistNames": [
-            "fhop music",
-            "Caio Freitas"
-          ]
-        },
-        {
-          "spotifyId": "4HKLVCgmv0R8R7PbHgS6hP",
-          "title": "Deus de Promessas - Ao Vivo",
-          "artistNames": [
-            "Davi Sacer",
-            "Simone Mendes"
-          ]
         }
       ]
     },
     {
       "slug": "roman-catholic-hymns",
       "title": "Roman Catholic Hymns ",
-      "previousSnapshotId": "public:d10a64deb4d7de26632257ec234db7cd0627d5eb",
-      "snapshotId": "public:46b2dfe3c45ebce36f2bf84b10f0b0010c1a3c86",
+      "previousSnapshotId": "public:46b2dfe3c45ebce36f2bf84b10f0b0010c1a3c86",
+      "snapshotId": "public:d10a64deb4d7de26632257ec234db7cd0627d5eb",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -288,28 +190,38 @@
     {
       "slug": "traditional-catholic-latin-chants",
       "title": "Traditional Catholic Latin Chants",
-      "previousSnapshotId": "public:886f6a61d9ad99cef1c6d9e6f750c1908137c4a4",
-      "snapshotId": "public:4cfd02a8574e7d308915b2f0fa3a60a75cdeba6c",
+      "previousSnapshotId": "public:4cfd02a8574e7d308915b2f0fa3a60a75cdeba6c",
+      "snapshotId": "public:62d1cdf08266af4dcf5a2b0da913f8b7d8150d5e",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "ethiopian-gospel",
-      "title": "Amharic Mezmure (Ethiopian gospel songs) ",
-      "previousSnapshotId": "public:68bcbd15deca13ce7e41ef483f77da97e2367805",
-      "snapshotId": "public:827cf0c55c99682530b4240728ad9435b6bb904b",
+      "slug": "ethiopian-orthodox-kidase",
+      "title": "Ethiopian Orthodox Kidase",
+      "previousSnapshotId": "public:670260ff8a27579516ac1c6b6146eee08234c28e",
+      "snapshotId": "public:6277f0f52817094f2d0df602075cef5592bf6707",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "ethiopian-jazz",
-      "title": "ethiopian jazz",
-      "previousSnapshotId": "public:767fc7bddb6335ffb8182c0726773fa8b07f48d8",
-      "snapshotId": "public:d3e392c7734ea86449d268480d0993e7694fae3d",
+      "slug": "hot-hits-hindi",
+      "title": "Hot Hits Hindi",
+      "previousSnapshotId": "public:53f1bb6f42c8ffcd1a18d933826a81fb7d6bdb6d",
+      "snapshotId": "public:818634f41c548f9bc73750c30880ce1cef235789",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "all-time-ethiopian-essentials",
+      "title": "All-Time Ethiopian Essentials",
+      "previousSnapshotId": "public:12d24d2d398afb1fefb06c9c2651b5ebb65c66c0",
+      "snapshotId": "public:69ddd93e35f169742c791bdf1f107816857ce746",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -318,18 +230,48 @@
     {
       "slug": "eritrean-music",
       "title": "Eritrean music 🇪🇷🇪🇷🇪🇷",
-      "previousSnapshotId": "public:ba75f1cf0cc23a48c0f70375c96ca59fbbb999b2",
-      "snapshotId": "public:58e52892335f1bdf308cbcf5dbe7c41f01284389",
+      "previousSnapshotId": "public:58e52892335f1bdf308cbcf5dbe7c41f01284389",
+      "snapshotId": "public:ba75f1cf0cc23a48c0f70375c96ca59fbbb999b2",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "eritrean-classics",
-      "title": "Eritrean Classics",
-      "previousSnapshotId": "public:c0988d4abb71df850441a43a84bc92c0910f07fa",
-      "snapshotId": "public:5200fa8e7ece3c17acd89158a746602f77f1685a",
+      "slug": "ethiopian-orthodox-mezmur-expanded",
+      "title": "Ethiopian Orthodox Mezmur የኢትዮጵያ ኦርቶዶክስ መዝሙር",
+      "previousSnapshotId": "public:b62c71528e1bd3746eb9992053a0e76da9634a20",
+      "snapshotId": "public:853b867cf570c955998bd1bc1e513dac53358bd1",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "ethiopian-kidase-expanded",
+      "title": "kidase | ቅዳሴ",
+      "previousSnapshotId": "public:7a52428b41a77cee0bb89dac5a4f7544e416e8fb",
+      "snapshotId": "public:50dc9ee7067f2fee71c44b49fcf99d390d140133",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "puerto-rico-top-50",
+      "title": "Top 50 - Puerto Rico",
+      "previousSnapshotId": "public:d635ae6dc032cab301caee9a0b091ff6384a308b",
+      "snapshotId": "public:698fbdd623b87ccba2f2c9800e7341f8a48cce04",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "pakistan-top-songs",
+      "title": "Top 50 Pakistan Songs 💚 New Pakistani Songs 2026",
+      "previousSnapshotId": "public:8031926ce73a8bc2b5fa34f55f271443ebaf5a1d",
+      "snapshotId": "public:ade5543aae707176180484e038165982fd157f61",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
