@@ -1,50 +1,41 @@
 {
   "schemaVersion": 1,
-  "provider": "pulsedeck-curated",
+  "provider": "apple-music",
   "chart": "country-top-songs",
   "region": "PK",
   "regionName": "Pakistan",
   "country": "PK",
   "countryName": "Pakistan",
-  "sourceUrl": "data/index.json",
-  "updatedAt": "2026-09-29T12:53:58.160Z",
-  "checkedAt": "2026-09-29T12:53:58.160Z",
-  "status": "curated",
+  "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/pk/music/most-played/100/songs.json",
+  "updatedAt": "2026-09-30T13:37:17.000Z",
+  "checkedAt": "2026-09-30T12:35:24.414Z",
+  "status": "fresh",
   "available": true,
-  "official": false,
+  "official": true,
   "stale": false,
   "error": null,
-  "providerError": "JSON fetch failed: 500 <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+  "providerError": null,
   "trackCount": 100,
   "tracks": [
     {
       "position": 1,
-      "id": "spotify:1TWkdQ2k7ysSYwla66Ys6I",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1TWkdQ2k7ysSYwla66Ys6I",
-      "appleId": null,
-      "title": "Khasara",
-      "artist": "Abdul Hannan, Samar Jafri",
+      "id": "apple:6814997425",
+      "provider": "apple-music",
+      "appleId": "6814997425",
+      "title": "Patient Zero",
+      "artist": "Taylor Swift",
       "artistNames": [
-        "Abdul Hannan",
-        "Samar Jafri"
+        "Taylor Swift"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-09-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/patient-zero/6814997249?i=6814997425",
+      "sourceUrl": "https://music.apple.com/pk/album/patient-zero/6814997249?i=6814997425",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -53,31 +44,23 @@
     },
     {
       "position": 2,
-      "id": "spotify:1XTijOjVgekZjRXwgJ2VSE",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1XTijOjVgekZjRXwgJ2VSE",
-      "appleId": null,
-      "title": "Bhool",
-      "artist": "Murtaza Qizilbash",
+      "id": "apple:1748567106",
+      "provider": "apple-music",
+      "appleId": "1748567106",
+      "title": "Jhol",
+      "artist": "Maanu & Annural Khalid",
       "artistNames": [
-        "Murtaza Qizilbash"
+        "Maanu & Annural Khalid"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2024-06-14",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/03/bc/6903bc23-ed74-eed5-e6e1-b472cd26a4c8/085365403741.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/jhol/1748567096?i=1748567106",
+      "sourceUrl": "https://music.apple.com/pk/album/jhol/1748567096?i=1748567106",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -86,32 +69,23 @@
     },
     {
       "position": 3,
-      "id": "spotify:51Ggv32i87ei9RYT0mkcVY",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "51Ggv32i87ei9RYT0mkcVY",
-      "appleId": null,
-      "title": "Safar",
-      "artist": "Bayaan, Sherazam",
+      "id": "apple:6780842658",
+      "provider": "apple-music",
+      "appleId": "6780842658",
+      "title": "Alfaaz",
+      "artist": "Hamza Malik & Zain Zohaib",
       "artistNames": [
-        "Bayaan",
-        "Sherazam"
+        "Hamza Malik & Zain Zohaib"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-07-25",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/53/17/db53175d-80b9-4563-04bf-99af33819db3/1200214368913.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/alfaaz/6780842656?i=6780842658",
+      "sourceUrl": "https://music.apple.com/pk/album/alfaaz/6780842656?i=6780842658",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -120,32 +94,23 @@
     },
     {
       "position": 4,
-      "id": "spotify:3VJpl4jrFSqY3Y6mAzqfux",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "3VJpl4jrFSqY3Y6mAzqfux",
-      "appleId": null,
-      "title": "Har Baar",
-      "artist": "Murtaza Qizilbash, Samar Jafri",
+      "id": "apple:6812477290",
+      "provider": "apple-music",
+      "appleId": "6812477290",
+      "title": "Last Thing You Need",
+      "artist": "Morgan Wallen",
       "artistNames": [
-        "Murtaza Qizilbash",
-        "Samar Jafri"
+        "Morgan Wallen"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-09-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/last-thing-you-need/6812476961?i=6812477290",
+      "sourceUrl": "https://music.apple.com/pk/album/last-thing-you-need/6812476961?i=6812477290",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Country",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -154,32 +119,23 @@
     },
     {
       "position": 5,
-      "id": "spotify:4LMlVCXHJtCE9abhmn0mYo",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4LMlVCXHJtCE9abhmn0mYo",
-      "appleId": null,
-      "title": "Pal Pal",
-      "artist": "Afusic, AliSoomroMusic",
+      "id": "apple:6769568596",
+      "provider": "apple-music",
+      "appleId": "6769568596",
+      "title": "Janice STFU",
+      "artist": "Drake",
       "artistNames": [
-        "Afusic",
-        "AliSoomroMusic"
+        "Drake"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-05-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/janice-stfu/6769568449?i=6769568596",
+      "sourceUrl": "https://music.apple.com/pk/album/janice-stfu/6769568449?i=6769568596",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Hip-Hop/Rap",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -188,32 +144,23 @@
     },
     {
       "position": 6,
-      "id": "spotify:5RYXTC4G3RYYP6pUmaF6s2",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "5RYXTC4G3RYYP6pUmaF6s2",
-      "appleId": null,
-      "title": "Meri Zindagi Hai Tu",
-      "artist": "Asim Azhar, Sabri Sisters",
+      "id": "apple:1488408568",
+      "provider": "apple-music",
+      "appleId": "1488408568",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
       "artistNames": [
-        "Asim Azhar",
-        "Sabri Sisters"
+        "The Weeknd"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2019-11-29",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/6e/bf/a66ebf79-5008-8948-b352-a790fc87446b/19UM1IM04638.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/blinding-lights/1488408555?i=1488408568",
+      "sourceUrl": "https://music.apple.com/pk/album/blinding-lights/1488408555?i=1488408568",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "R&B/Soul",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -222,33 +169,23 @@
     },
     {
       "position": 7,
-      "id": "spotify:2ZzZ2qwZBWlDKs420hhloc",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2ZzZ2qwZBWlDKs420hhloc",
-      "appleId": null,
-      "title": "Maand",
-      "artist": "Bayaan, Hasan Raheem, Rovalio",
+      "id": "apple:6798348526",
+      "provider": "apple-music",
+      "appleId": "6798348526",
+      "title": "Tera Mera Rishta - New Version (From \"Awarapan 2\")",
+      "artist": "Mithoon, Saaj Bhatt, Subodhh Sharma, Pritam, Sayeed Quadri & Mustafa Zahid",
       "artistNames": [
-        "Bayaan",
-        "Hasan Raheem",
-        "Rovalio"
+        "Mithoon, Saaj Bhatt, Subodhh Sharma, Pritam, Sayeed Quadri & Mustafa Zahid"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-08-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/19/d9/f719d94b-9590-0c8a-2196-a00d2ed22f96/196874652114.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/tera-mera-rishta-new-version-from-awarapan-2/6798348524?i=6798348526",
+      "sourceUrl": "https://music.apple.com/pk/album/tera-mera-rishta-new-version-from-awarapan-2/6798348524?i=6798348526",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -257,32 +194,23 @@
     },
     {
       "position": 8,
-      "id": "spotify:4XTgFBxBHN6var1BzAgE1m",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4XTgFBxBHN6var1BzAgE1m",
-      "appleId": null,
-      "title": "Jhol",
-      "artist": "Maanu, Annural Khalid",
+      "id": "apple:6810991366",
+      "provider": "apple-music",
+      "appleId": "6810991366",
+      "title": "Rangeen | Coke Studio Nu.Wav",
+      "artist": "Hasan Raheem, Izzchughtai & Umair",
       "artistNames": [
-        "Maanu",
-        "Annural Khalid"
+        "Hasan Raheem, Izzchughtai & Umair"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-09-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/dc/91/7edc91ed-ab70-a075-c06c-825ac5386f46/1200220101269.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/rangeen-coke-studio-nu-wav/6810991365?i=6810991366",
+      "sourceUrl": "https://music.apple.com/pk/album/rangeen-coke-studio-nu-wav/6810991365?i=6810991366",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -291,33 +219,23 @@
     },
     {
       "position": 9,
-      "id": "spotify:5rpCUsEfBLIumvrxrahnKF",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "5rpCUsEfBLIumvrxrahnKF",
-      "appleId": null,
-      "title": "Wishes",
-      "artist": "Hasan Raheem, Umair, Talwiinder",
+      "id": "apple:1499378615",
+      "provider": "apple-music",
+      "appleId": "1499378615",
+      "title": "After Hours",
+      "artist": "The Weeknd",
       "artistNames": [
-        "Hasan Raheem",
-        "Umair",
-        "Talwiinder"
+        "The Weeknd"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2020-02-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/after-hours/1499378108?i=1499378615",
+      "sourceUrl": "https://music.apple.com/pk/album/after-hours/1499378108?i=1499378615",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "R&B/Soul",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -326,32 +244,23 @@
     },
     {
       "position": 10,
-      "id": "spotify:0lp3WWhjxFVUht81AQmWX8",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0lp3WWhjxFVUht81AQmWX8",
-      "appleId": null,
-      "title": "Majboor",
-      "artist": "Sheheryar Rehan, Zoha Waseem",
+      "id": "apple:1805654538",
+      "provider": "apple-music",
+      "appleId": "1805654538",
+      "title": "48 Rhymes",
+      "artist": "Karan Aujla & Manna Music",
       "artistNames": [
-        "Sheheryar Rehan",
-        "Zoha Waseem"
+        "Karan Aujla & Manna Music"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-04-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/e2/f6/cfe2f615-b972-31ac-1515-9805efb6dc0b/5021732763624.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/48-rhymes/1805654537?i=1805654538",
+      "sourceUrl": "https://music.apple.com/pk/album/48-rhymes/1805654537?i=1805654538",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Music",
+        "Hip-Hop/Rap"
       ],
       "country": "PK",
       "regions": [
@@ -360,34 +269,23 @@
     },
     {
       "position": 11,
-      "id": "spotify:0febwTwLDSZzrt46i1RBF5",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0febwTwLDSZzrt46i1RBF5",
-      "appleId": null,
-      "title": "Ishqa Ve",
-      "artist": "Zeeshan Ali, Yuvraj Tung, Sandeep Aulakh, Honey Dhillon",
+      "id": "apple:1440871420",
+      "provider": "apple-music",
+      "appleId": "1440871420",
+      "title": "Starboy (feat. Daft Punk)",
+      "artist": "The Weeknd",
       "artistNames": [
-        "Zeeshan Ali",
-        "Yuvraj Tung",
-        "Sandeep Aulakh",
-        "Honey Dhillon"
+        "The Weeknd"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2016-09-21",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/starboy-feat-daft-punk/1440871397?i=1440871420",
+      "sourceUrl": "https://music.apple.com/pk/album/starboy-feat-daft-punk/1440871397?i=1440871420",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "R&B/Soul",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -396,31 +294,23 @@
     },
     {
       "position": 12,
-      "id": "spotify:0NXnuTqFQHDsbEIoKIAVCN",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0NXnuTqFQHDsbEIoKIAVCN",
-      "appleId": null,
-      "title": "Tere Bina Na Guzara E",
-      "artist": "Josh Brar",
+      "id": "apple:1831237608",
+      "provider": "apple-music",
+      "appleId": "1831237608",
+      "title": "Arz Kiya Hai  Coke Studio Bharat",
+      "artist": "Anuv Jain",
       "artistNames": [
-        "Josh Brar"
+        "Anuv Jain"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-08-20",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/e7/77/02e77709-a5f6-5470-9e5b-70a0d6ff45ed/25UM1IM13936.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/arz-kiya-hai-coke-studio-bharat/1831237583?i=1831237608",
+      "sourceUrl": "https://music.apple.com/pk/album/arz-kiya-hai-coke-studio-bharat/1831237583?i=1831237608",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -429,32 +319,23 @@
     },
     {
       "position": 13,
-      "id": "spotify:2lp1Tsn8H6mq0bzXgOeLHY",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2lp1Tsn8H6mq0bzXgOeLHY",
-      "appleId": null,
-      "title": "O Yaara",
-      "artist": "Abdul Hannan, Kaavish",
+      "id": "apple:1795667819",
+      "provider": "apple-music",
+      "appleId": "1795667819",
+      "title": "Pal Pal",
+      "artist": "AFUSIC & AliSoomroMusic",
       "artistNames": [
-        "Abdul Hannan",
-        "Kaavish"
+        "AFUSIC & AliSoomroMusic"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-02-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/cc/e8/c8cce868-9342-d78c-fec5-9d9e5b44106a/25UMGIM17787.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/pal-pal/1795667814?i=1795667819",
+      "sourceUrl": "https://music.apple.com/pk/album/pal-pal/1795667814?i=1795667819",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -463,32 +344,23 @@
     },
     {
       "position": 14,
-      "id": "spotify:3ExgWVPWOQts9RVBkqpdic",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "3ExgWVPWOQts9RVBkqpdic",
-      "appleId": null,
-      "title": "Boyfriend",
-      "artist": "Karan Aujla, Ikky",
+      "id": "apple:6763656876",
+      "provider": "apple-music",
+      "appleId": "6763656876",
+      "title": "hate that i made you love me",
+      "artist": "Ariana Grande",
       "artistNames": [
-        "Karan Aujla",
-        "Ikky"
+        "Ariana Grande"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-05-28",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
+      "sourceUrl": "https://music.apple.com/pk/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-top-songs"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -497,33 +369,23 @@
     },
     {
       "position": 15,
-      "id": "spotify:08GYLNhKthS3arMdXsveRI",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "08GYLNhKthS3arMdXsveRI",
-      "appleId": null,
-      "title": "Haseen",
-      "artist": "Talwiinder, NDS, Rippy Grewal",
+      "id": "apple:1792366467",
+      "provider": "apple-music",
+      "appleId": "1792366467",
+      "title": "Afsos",
+      "artist": "Anuv Jain & AP Dhillon",
       "artistNames": [
-        "Talwiinder",
-        "NDS",
-        "Rippy Grewal"
+        "Anuv Jain & AP Dhillon"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-01-31",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/a8/87/90a88741-3e5c-4dd9-3d90-01cd3e602418/25UMGIM06397.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/afsos/1792366466?i=1792366467",
+      "sourceUrl": "https://music.apple.com/pk/album/afsos/1792366466?i=1792366467",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -532,32 +394,23 @@
     },
     {
       "position": 16,
-      "id": "spotify:0OdztoASgKBBNcAgtErk0X",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0OdztoASgKBBNcAgtErk0X",
-      "appleId": null,
-      "title": "Bikhra",
-      "artist": "Abdul Hannan, Rovalio",
+      "id": "apple:1883097849",
+      "provider": "apple-music",
+      "appleId": "1883097849",
+      "title": "Khasara",
+      "artist": "Abdul Hannan & Samar Jafri",
       "artistNames": [
-        "Abdul Hannan",
-        "Rovalio"
+        "Abdul Hannan & Samar Jafri"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-03-27",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5e/61/8d/5e618d5b-3d45-a42b-d968-e2f033df97e9/5026854838427.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/khasara/1883097848?i=1883097849",
+      "sourceUrl": "https://music.apple.com/pk/album/khasara/1883097848?i=1883097849",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 2,
-      "sourcePlaylists": [
-        "pakistan-top-songs",
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -566,31 +419,23 @@
     },
     {
       "position": 17,
-      "id": "spotify:0tW2gwaRzFQQrgr2UCO56G",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0tW2gwaRzFQQrgr2UCO56G",
-      "appleId": null,
-      "title": "Alfaaz",
-      "artist": "Hamza Malik, Zain Zohaib",
+      "id": "apple:1703418141",
+      "provider": "apple-music",
+      "appleId": "1703418141",
+      "title": "Wishes",
+      "artist": "Hasan Raheem, Umair & Talwiinder",
       "artistNames": [
-        "Hamza Malik",
-        "Zain Zohaib"
+        "Hasan Raheem, Umair & Talwiinder"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2023-09-02",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/66/d2/dd/66d2dd38-4624-be46-444c-9e5a87f84a51/artwork.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/wishes/1703418138?i=1703418141",
+      "sourceUrl": "https://music.apple.com/pk/album/wishes/1703418138?i=1703418141",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -599,30 +444,23 @@
     },
     {
       "position": 18,
-      "id": "spotify:7oNZfE9wnu7SP55LwNSiKG",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7oNZfE9wnu7SP55LwNSiKG",
-      "appleId": null,
-      "title": "Hum",
-      "artist": "Murtaza Qizilbash",
+      "id": "apple:1833328840",
+      "provider": "apple-music",
+      "appleId": "1833328840",
+      "title": "The Fate of Ophelia",
+      "artist": "Taylor Swift",
       "artistNames": [
-        "Murtaza Qizilbash"
+        "Taylor Swift"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-10-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/the-fate-of-ophelia/1833328839?i=1833328840",
+      "sourceUrl": "https://music.apple.com/pk/album/the-fate-of-ophelia/1833328839?i=1833328840",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -631,30 +469,23 @@
     },
     {
       "position": 19,
-      "id": "spotify:06qVuHcsPmojVPO2wbLiDk",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "06qVuHcsPmojVPO2wbLiDk",
-      "appleId": null,
-      "title": "Alvida Alvida (From \"Dar-E-Nijaat\")",
-      "artist": "Nabeel Shaukat Ali",
+      "id": "apple:1740212434",
+      "provider": "apple-music",
+      "appleId": "1740212434",
+      "title": "Espresso",
+      "artist": "Sabrina Carpenter",
       "artistNames": [
-        "Nabeel Shaukat Ali"
+        "Sabrina Carpenter"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2024-04-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/64/8c/cb648cf7-e7bb-bd00-efe0-d744312c29a8/24UMGIM32304.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/espresso/1740212432?i=1740212434",
+      "sourceUrl": "https://music.apple.com/pk/album/espresso/1740212432?i=1740212434",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -663,32 +494,23 @@
     },
     {
       "position": 20,
-      "id": "spotify:0S7MLlU27WnE3bwCcDu6Pj",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0S7MLlU27WnE3bwCcDu6Pj",
-      "appleId": null,
-      "title": "Jhol - Acoustic",
-      "artist": "Maanu, Annural Khalid, Abdullah Siddiqui",
+      "id": "apple:1821609710",
+      "provider": "apple-music",
+      "appleId": "1821609710",
+      "title": "Regardless",
+      "artist": "Asim Azhar",
       "artistNames": [
-        "Maanu",
-        "Annural Khalid",
-        "Abdullah Siddiqui"
+        "Asim Azhar"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2025-06-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/c8/7d/ffc87d7e-8977-f80d-7c90-99573ca24f5d/25UMGIM85379.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/regardless/1821609494?i=1821609710",
+      "sourceUrl": "https://music.apple.com/pk/album/regardless/1821609494?i=1821609710",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -697,30 +519,23 @@
     },
     {
       "position": 21,
-      "id": "spotify:6mHTwIXqZtuQUF1fEkrhFB",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "6mHTwIXqZtuQUF1fEkrhFB",
-      "appleId": null,
-      "title": "Tum",
-      "artist": "Murtaza Qizilbash",
+      "id": "apple:6764301146",
+      "provider": "apple-music",
+      "appleId": "6764301146",
+      "title": "Har Baar",
+      "artist": "Murtaza Qizilbash & Samar Jafri",
       "artistNames": [
-        "Murtaza Qizilbash"
+        "Murtaza Qizilbash & Samar Jafri"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-05-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/9e/e3/559ee351-a52b-0c9e-dbdc-4dcf6cc167b0/8718521249762.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/har-baar/1895722868?i=6764301146",
+      "sourceUrl": "https://music.apple.com/pk/album/har-baar/1895722868?i=6764301146",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music",
+        "Alternative"
       ],
       "country": "PK",
       "regions": [
@@ -729,32 +544,23 @@
     },
     {
       "position": 22,
-      "id": "spotify:0wHYuCTWPntEgWiUVED4wB",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0wHYuCTWPntEgWiUVED4wB",
-      "appleId": null,
-      "title": "Aarzu",
-      "artist": "Noor, Khan, Madhurxo",
+      "id": "apple:6806832707",
+      "provider": "apple-music",
+      "appleId": "6806832707",
+      "title": "Sanson Ki Mala (From “Mirzapur The Movie”)",
+      "artist": "Madhur Sharma, Vaibhav Pani & Nusrat Fateh Ali Khan",
       "artistNames": [
-        "Noor",
-        "Khan",
-        "Madhurxo"
+        "Madhur Sharma, Vaibhav Pani & Nusrat Fateh Ali Khan"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-08-31",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/09/59/18095965-918b-7b56-b033-5d65e294ee23/26UM1IM11924.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/sanson-ki-mala-from-mirzapur-the-movie/6806832702?i=6806832707",
+      "sourceUrl": "https://music.apple.com/pk/album/sanson-ki-mala-from-mirzapur-the-movie/6806832702?i=6806832707",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Soundtrack",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -763,30 +569,24 @@
     },
     {
       "position": 23,
-      "id": "spotify:00DxTUDK5maAckhUSYBaBn",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "00DxTUDK5maAckhUSYBaBn",
-      "appleId": null,
-      "title": "Chalo Door Kahin",
-      "artist": "Samar Jafri",
+      "id": "apple:1836226731",
+      "provider": "apple-music",
+      "appleId": "1836226731",
+      "title": "Loser",
+      "artist": "Tame Impala",
       "artistNames": [
-        "Samar Jafri"
+        "Tame Impala"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-09-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/54/11/80541122-c1c4-50ad-a673-ff79f4cf8aa7/196873555331.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/loser/1836226516?i=1836226731",
+      "sourceUrl": "https://music.apple.com/pk/album/loser/1836226516?i=1836226731",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Alternative",
+        "Music",
+        "Dance"
       ],
       "country": "PK",
       "regions": [
@@ -795,31 +595,23 @@
     },
     {
       "position": 24,
-      "id": "spotify:1kKnxDBA03jTlAuZvkIB8r",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1kKnxDBA03jTlAuZvkIB8r",
-      "appleId": null,
-      "title": "Guzaarishein (From \"Parwarish\") - Original Motion Picture Soundtrack",
-      "artist": "Samar Jafri, Alistair Alvin",
+      "id": "apple:1537031094",
+      "provider": "apple-music",
+      "appleId": "1537031094",
+      "title": "Pehli Nazar Mein",
+      "artist": "Atif Aslam & Pritam",
       "artistNames": [
-        "Samar Jafri",
-        "Alistair Alvin"
+        "Atif Aslam & Pritam"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2008-01-25",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/38/44/21/384421ca-69a0-83f2-0a34-88653d45db97/8901854001385.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/pehli-nazar-mein/1537030727?i=1537031094",
+      "sourceUrl": "https://music.apple.com/pk/album/pehli-nazar-mein/1537030727?i=1537031094",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -828,33 +620,23 @@
     },
     {
       "position": 25,
-      "id": "spotify:1GnZH0wek1fkGCQnUsK6D0",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1GnZH0wek1fkGCQnUsK6D0",
-      "appleId": null,
-      "title": "Aarzu (with Asim Azhar)",
-      "artist": "Asim Azhar, Noor, Khan, Madhurxo",
+      "id": "apple:6807791029",
+      "provider": "apple-music",
+      "appleId": "6807791029",
+      "title": "Dil | Coke Studio Nu.WAV",
+      "artist": "AFUSIC & Zoha Waseem",
       "artistNames": [
-        "Asim Azhar",
-        "Noor",
-        "Khan",
-        "Madhurxo"
+        "AFUSIC & Zoha Waseem"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-09-04",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/60/5d/08605d82-a5b0-44c7-fa8c-d47f410b7e29/5021732421265.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/dil-coke-studio-nu-wav/6807791019?i=6807791029",
+      "sourceUrl": "https://music.apple.com/pk/album/dil-coke-studio-nu-wav/6807791019?i=6807791029",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -863,31 +645,22 @@
     },
     {
       "position": 26,
-      "id": "spotify:4yQQJ9Tj3DDYG3zgHhEgtq",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4yQQJ9Tj3DDYG3zgHhEgtq",
-      "appleId": null,
-      "title": "Baat (From \"Meem Se Mohabbat\")",
-      "artist": "Asim Azhar, Qirat Haider",
+      "id": "apple:1110749195",
+      "provider": "apple-music",
+      "appleId": "1110749195",
+      "title": "Aankhen Milaney Waaley",
+      "artist": "Nazia Hassan & Zoheb Hassan",
       "artistNames": [
-        "Asim Azhar",
-        "Qirat Haider"
+        "Nazia Hassan & Zoheb Hassan"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "1984-01-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/df/6f/15df6f36-6774-5542-acf1-4fb3587919c9/886445851250.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/aankhen-milaney-waaley/1110748835?i=1110749195",
+      "sourceUrl": "https://music.apple.com/pk/album/aankhen-milaney-waaley/1110748835?i=1110749195",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -896,32 +669,23 @@
     },
     {
       "position": 27,
-      "id": "spotify:7cO7GWk6vUGNcAUXMJ2Bdj",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7cO7GWk6vUGNcAUXMJ2Bdj",
-      "appleId": null,
-      "title": "Rangeen | Coke Studio Nu.WAV",
-      "artist": "Hasan Raheem, Izzchughtai, Umair",
+      "id": "apple:6781259904",
+      "provider": "apple-music",
+      "appleId": "6781259904",
+      "title": "Bandhu 2.0 (From \"Cocktail 2\")",
+      "artist": "Pritam, Kavita Seth, Neeraj Shridhar & Irshad Kamil",
       "artistNames": [
-        "Hasan Raheem",
-        "Izzchughtai",
-        "Umair"
+        "Pritam, Kavita Seth, Neeraj Shridhar & Irshad Kamil"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-06-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/84/67/e7846772-eae5-38df-4dee-3a8088f8d756/196874518465.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/bandhu-2-0-from-cocktail-2/6781259901?i=6781259904",
+      "sourceUrl": "https://music.apple.com/pk/album/bandhu-2-0-from-cocktail-2/6781259901?i=6781259904",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -930,31 +694,23 @@
     },
     {
       "position": 28,
-      "id": "spotify:1LFNOKVaFVBFCiLwz8Ay4O",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1LFNOKVaFVBFCiLwz8Ay4O",
-      "appleId": null,
-      "title": "Ahista Ahista",
-      "artist": "Kazinama, Musarrat Nazir",
+      "id": "apple:6809696376",
+      "provider": "apple-music",
+      "appleId": "6809696376",
+      "title": "Tere Sang (From \"Don't Be Shy\")",
+      "artist": "Ram Sampath, Armaan Malik, Yaashasvii Ddasane, Meghna Mishra & Devansh Vaidya",
       "artistNames": [
-        "Kazinama",
-        "Musarrat Nazir"
+        "Ram Sampath, Armaan Malik, Yaashasvii Ddasane, Meghna Mishra & Devansh Vaidya"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-09-08",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/fe/88/d3fe88fa-8280-7d8b-fbca-aa6ba6d5e354/8903431216168_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/tere-sang-from-dont-be-shy/6809696375?i=6809696376",
+      "sourceUrl": "https://music.apple.com/pk/album/tere-sang-from-dont-be-shy/6809696375?i=6809696376",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -963,31 +719,23 @@
     },
     {
       "position": 29,
-      "id": "spotify:5XSCZjKPLXyGpnhMqFvdd8",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "5XSCZjKPLXyGpnhMqFvdd8",
-      "appleId": null,
-      "title": "Wafaon Ke Badle (From ‘Mann Mast Malang’)",
-      "artist": "Khalid Khan, Saba Riaz Butt",
+      "id": "apple:6800225150",
+      "provider": "apple-music",
+      "appleId": "6800225150",
+      "title": "Toh Phir Aao - New Version",
+      "artist": "Mithoon, Pritam, Mustafa Zahid, Sayeed Quadri & Subodhh Sharma",
       "artistNames": [
-        "Khalid Khan",
-        "Saba Riaz Butt"
+        "Mithoon, Pritam, Mustafa Zahid, Sayeed Quadri & Subodhh Sharma"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-08-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/55/ce/3955ce23-fcb2-b409-e3da-ac3e7de1ea99/196874692820.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/toh-phir-aao-new-version/6800224968?i=6800225150",
+      "sourceUrl": "https://music.apple.com/pk/album/toh-phir-aao-new-version/6800224968?i=6800225150",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -996,31 +744,23 @@
     },
     {
       "position": 30,
-      "id": "spotify:7wGgYAOMhhRObOGdWlJ9Hi",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7wGgYAOMhhRObOGdWlJ9Hi",
-      "appleId": null,
-      "title": "Departure Lane",
-      "artist": "Talha Anjum, Umair",
+      "id": "apple:6792884088",
+      "provider": "apple-music",
+      "appleId": "6792884088",
+      "title": "Nicole Kidman",
+      "artist": "ADÉLA",
       "artistNames": [
-        "Talha Anjum",
-        "Umair"
+        "ADÉLA"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-09-04",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/nicole-kidman/6792883860?i=6792884088",
+      "sourceUrl": "https://music.apple.com/pk/album/nicole-kidman/6792883860?i=6792884088",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1029,30 +769,23 @@
     },
     {
       "position": 31,
-      "id": "spotify:4uxuqSSwxaN1HDKWm3Qx7P",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4uxuqSSwxaN1HDKWm3Qx7P",
-      "appleId": null,
-      "title": "Ranjheya Ve",
-      "artist": "Zain Zohaib",
+      "id": "apple:1770380890",
+      "provider": "apple-music",
+      "appleId": "1770380890",
+      "title": "Timeless",
+      "artist": "The Weeknd & Playboi Carti",
       "artistNames": [
-        "Zain Zohaib"
+        "The Weeknd & Playboi Carti"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2024-09-27",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/77/cb/4077cbd1-b6a0-d8df-b9d3-e9a339dbc0ea/24UM1IM04061.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/timeless/1770380869?i=1770380890",
+      "sourceUrl": "https://music.apple.com/pk/album/timeless/1770380869?i=1770380890",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "R&B/Soul",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1061,30 +794,24 @@
     },
     {
       "position": 32,
-      "id": "spotify:1a2mSdWOWMcdXiohlzuo6S",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1a2mSdWOWMcdXiohlzuo6S",
-      "appleId": null,
-      "title": "Sadaayein",
-      "artist": "Samar Jafri",
+      "id": "apple:1496066103",
+      "provider": "apple-music",
+      "appleId": "1496066103",
+      "title": "Aisay Kaisay",
+      "artist": "Hasan Raheem",
       "artistNames": [
-        "Samar Jafri"
+        "Hasan Raheem"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2020-01-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/63/b9/85/63b9854d-371d-33e0-32d5-90f0eeaca74b/artwork.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/aisay-kaisay/1496066100?i=1496066103",
+      "sourceUrl": "https://music.apple.com/pk/album/aisay-kaisay/1496066100?i=1496066103",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music",
+        "Singer/Songwriter"
       ],
       "country": "PK",
       "regions": [
@@ -1093,32 +820,23 @@
     },
     {
       "position": 33,
-      "id": "spotify:4bd507BxqB2MBHzVqMGdVV",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4bd507BxqB2MBHzVqMGdVV",
-      "appleId": null,
-      "title": "REGRETS",
-      "artist": "Jevin Gill, Umair, Talha Anjum",
+      "id": "apple:6807688636",
+      "provider": "apple-music",
+      "appleId": "6807688636",
+      "title": "Devil",
+      "artist": "Diljit Dosanjh & Intense",
       "artistNames": [
-        "Jevin Gill",
-        "Umair",
-        "Talha Anjum"
+        "Diljit Dosanjh & Intense"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
-      "explicit": true,
+      "releaseDate": "2026-09-04",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/ba/10/f7ba1009-a772-3733-cf85-97880e53f3bf/859745385879_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/devil/6807688467?i=6807688636",
+      "sourceUrl": "https://music.apple.com/pk/album/devil/6807688467?i=6807688636",
+      "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Worldwide",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1127,32 +845,23 @@
     },
     {
       "position": 34,
-      "id": "spotify:5qZZiU7CqeLFUPL8afsiSd",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "5qZZiU7CqeLFUPL8afsiSd",
-      "appleId": null,
-      "title": "Dil | Coke Studio Nu.WAV",
-      "artist": "Afusic, Zoha Waseem, AliSoomroMusic",
+      "id": "apple:6812477268",
+      "provider": "apple-music",
+      "appleId": "6812477268",
+      "title": "RHYNO",
+      "artist": "Travis Scott",
       "artistNames": [
-        "Afusic",
-        "Zoha Waseem",
-        "AliSoomroMusic"
+        "Travis Scott"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-09-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/rhyno/6812476961?i=6812477268",
+      "sourceUrl": "https://music.apple.com/pk/album/rhyno/6812476961?i=6812477268",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Hip-Hop/Rap",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1161,32 +870,23 @@
     },
     {
       "position": 35,
-      "id": "spotify:2EU1TUgOHG4NPiVdTlPSQ7",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2EU1TUgOHG4NPiVdTlPSQ7",
-      "appleId": null,
-      "title": "Tere Naal",
-      "artist": "Bayaan, Sanah Moidutty, Vaibhav Pani",
+      "id": "apple:6807197465",
+      "provider": "apple-music",
+      "appleId": "6807197465",
+      "title": "Let’s Get Married",
+      "artist": "Miley Cyrus",
       "artistNames": [
-        "Bayaan",
-        "Sanah Moidutty",
-        "Vaibhav Pani"
+        "Miley Cyrus"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-09-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/lets-get-married/6807197456?i=6807197465",
+      "sourceUrl": "https://music.apple.com/pk/album/lets-get-married/6807197456?i=6807197465",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1195,31 +895,23 @@
     },
     {
       "position": 36,
-      "id": "spotify:1ktAfHym69UrvWIgx2qPPm",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1ktAfHym69UrvWIgx2qPPm",
-      "appleId": null,
-      "title": "Heartbreak Kid",
-      "artist": "Talha Anjum, Umair",
+      "id": "apple:6813244854",
+      "provider": "apple-music",
+      "appleId": "6813244854",
+      "title": "MISS MY DAWG",
+      "artist": "Yeat & Drake",
       "artistNames": [
-        "Talha Anjum",
-        "Umair"
+        "Yeat & Drake"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-09-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/9e/e2/959ee283-8ef9-30d5-1422-595e08bc7517/26UM1IM20013.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/miss-my-dawg/6813244843?i=6813244854",
+      "sourceUrl": "https://music.apple.com/pk/album/miss-my-dawg/6813244843?i=6813244854",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Hip-Hop/Rap"
       ],
       "country": "PK",
       "regions": [
@@ -1228,31 +920,22 @@
     },
     {
       "position": 37,
-      "id": "spotify:1JX4YjJ6EtxOheUjer7Vsu",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1JX4YjJ6EtxOheUjer7Vsu",
-      "appleId": null,
-      "title": "SARGOSHI",
-      "artist": "Ahsan Javed, Usamasutra",
+      "id": "apple:1657665086",
+      "provider": "apple-music",
+      "appleId": "1657665086",
+      "title": "White Brown Black",
+      "artist": "Avvy Sra & Karan Aujla",
       "artistNames": [
-        "Ahsan Javed",
-        "Usamasutra"
+        "Avvy Sra & Karan Aujla"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2022-12-09",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0b/c2/e6/0bc2e611-ef63-b23c-fbad-1d0523463da2/22UM1IM39836.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/white-brown-black/1657665080?i=1657665086",
+      "sourceUrl": "https://music.apple.com/pk/album/white-brown-black/1657665080?i=1657665086",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1261,31 +944,23 @@
     },
     {
       "position": 38,
-      "id": "spotify:4kZiwN4WWezWgEXhMQituR",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4kZiwN4WWezWgEXhMQituR",
-      "appleId": null,
-      "title": "Muhabbat",
-      "artist": "Ali Raza, Shajjar Hussain",
+      "id": "apple:1844932150",
+      "provider": "apple-music",
+      "appleId": "1844932150",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
       "artistNames": [
-        "Ali Raza",
-        "Shajjar Hussain"
+        "Ella Langley"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2025-10-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/choosin-texas/1844932149?i=1844932150",
+      "sourceUrl": "https://music.apple.com/pk/album/choosin-texas/1844932149?i=1844932150",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Country",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1294,31 +969,23 @@
     },
     {
       "position": 39,
-      "id": "spotify:0JpcVTQz4Pgmplp9sxJnnB",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0JpcVTQz4Pgmplp9sxJnnB",
-      "appleId": null,
-      "title": "Nazrein",
-      "artist": "Gravero, faizal",
+      "id": "apple:1736449719",
+      "provider": "apple-music",
+      "appleId": "1736449719",
+      "title": "God Damn",
+      "artist": "Badshah, Karan Aujla & Hiten",
       "artistNames": [
-        "Gravero",
-        "faizal"
+        "Badshah, Karan Aujla & Hiten"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2024-03-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/c7/32/a9c732cc-d880-1ee4-ff22-d01593ac6341/24UMGIM22464.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/god-damn/1736449575?i=1736449719",
+      "sourceUrl": "https://music.apple.com/pk/album/god-damn/1736449575?i=1736449719",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1327,31 +994,23 @@
     },
     {
       "position": 40,
-      "id": "spotify:1qmAzGeSwJ2xPr7IXICfZc",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1qmAzGeSwJ2xPr7IXICfZc",
-      "appleId": null,
-      "title": "Iqtidar - Original Soundtrack from Iqtidar",
-      "artist": "Arshman Khan, Farrukh Mehervi",
+      "id": "apple:1073359419",
+      "provider": "apple-music",
+      "appleId": "1073359419",
+      "title": "Tum Hi Ho",
+      "artist": "Mithoon & Arijit Singh",
       "artistNames": [
-        "Arshman Khan",
-        "Farrukh Mehervi"
+        "Mithoon & Arijit Singh"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2013-03-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/23/ee/bb23eeed-0c35-4f1d-2b11-485622777ae4/8902894353007_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/tum-hi-ho/1073359412?i=1073359419",
+      "sourceUrl": "https://music.apple.com/pk/album/tum-hi-ho/1073359412?i=1073359419",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -1360,31 +1019,24 @@
     },
     {
       "position": 41,
-      "id": "spotify:3OiiqNHZsAHjHavEg5yXAC",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "3OiiqNHZsAHjHavEg5yXAC",
-      "appleId": null,
-      "title": "Gal Sun - UPLIFT (feat. Rackstar)",
-      "artist": "Sabaat Batin, Rackstar",
+      "id": "apple:1788273349",
+      "provider": "apple-music",
+      "appleId": "1788273349",
+      "title": "Bhool",
+      "artist": "Murtaza Qizilbash",
       "artistNames": [
-        "Sabaat Batin",
-        "Rackstar"
+        "Murtaza Qizilbash"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-01-08",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/0f/2f/990f2ff1-f154-49ec-6fa7-a98c7a53a743/artwork.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/bhool/1788272988?i=1788273349",
+      "sourceUrl": "https://music.apple.com/pk/album/bhool/1788272988?i=1788273349",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Alternative",
+        "Music",
+        "Singer/Songwriter"
       ],
       "country": "PK",
       "regions": [
@@ -1393,32 +1045,23 @@
     },
     {
       "position": 42,
-      "id": "spotify:5GnF4uvEcIibqcoYgzIlgS",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "5GnF4uvEcIibqcoYgzIlgS",
-      "appleId": null,
-      "title": "Since Tum",
-      "artist": "JANI, Talha Anjum, superdupersultan",
+      "id": "apple:6787955226",
+      "provider": "apple-music",
+      "appleId": "6787955226",
+      "title": "Sohniye",
+      "artist": "Shubh",
       "artistNames": [
-        "JANI",
-        "Talha Anjum",
-        "superdupersultan"
+        "Shubh"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-07-10",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/b4/20/f8b42045-823f-7b77-5a1f-7772aca05527/820233965804.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/sohniye/6787955216?i=6787955226",
+      "sourceUrl": "https://music.apple.com/pk/album/sohniye/6787955216?i=6787955226",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1427,30 +1070,23 @@
     },
     {
       "position": 43,
-      "id": "spotify:2tmlxsN78o0hR1CXuKhBpT",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2tmlxsN78o0hR1CXuKhBpT",
-      "appleId": null,
-      "title": "Hoor",
-      "artist": "Samar Jafri",
+      "id": "apple:1883428308",
+      "provider": "apple-music",
+      "appleId": "1883428308",
+      "title": "Dealer",
+      "artist": "Diljit Dosanjh",
       "artistNames": [
-        "Samar Jafri"
+        "Diljit Dosanjh"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-03-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/2e/84/342e8467-23ad-5338-95a6-13cfb3db50d7/859733419234_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/dealer/1883428307?i=1883428308",
+      "sourceUrl": "https://music.apple.com/pk/album/dealer/1883428307?i=1883428308",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Worldwide",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1459,30 +1095,23 @@
     },
     {
       "position": 44,
-      "id": "spotify:0REdqbK0A99eKrYF66zSDO",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0REdqbK0A99eKrYF66zSDO",
-      "appleId": null,
-      "title": "Main Rahun (From \"Parwarish\") [Original Motion Picture Soundtrack]",
-      "artist": "Samar Jafri",
+      "id": "apple:1883097852",
+      "provider": "apple-music",
+      "appleId": "1883097852",
+      "title": "Sila",
+      "artist": "Abdul Hannan & Murtaza Qizilbash",
       "artistNames": [
-        "Samar Jafri"
+        "Abdul Hannan & Murtaza Qizilbash"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-03-27",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5e/61/8d/5e618d5b-3d45-a42b-d968-e2f033df97e9/5026854838427.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/sila/1883097848?i=1883097852",
+      "sourceUrl": "https://music.apple.com/pk/album/sila/1883097848?i=1883097852",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Alternative"
       ],
       "country": "PK",
       "regions": [
@@ -1491,31 +1120,24 @@
     },
     {
       "position": 45,
-      "id": "spotify:6I8ImLg9xfoVRNmcV83mL6",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "6I8ImLg9xfoVRNmcV83mL6",
-      "appleId": null,
-      "title": "Oh Sahib - Original Sountrack Of Abdullahpur Ka Devdas",
-      "artist": "Zain Zohaib, Adnan Dhool",
+      "id": "apple:1562346959",
+      "provider": "apple-music",
+      "appleId": "1562346959",
+      "title": "Insane",
+      "artist": "AP Dhillon, Shinda Kahlon, Gurinder Gill & Gminxr",
       "artistNames": [
-        "Zain Zohaib",
-        "Adnan Dhool"
+        "AP Dhillon, Shinda Kahlon, Gurinder Gill & Gminxr"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2021-04-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/d6/94/16d6949f-6072-0b42-f88b-a61ffb129952/859747110851_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/insane/1562346952?i=1562346959",
+      "sourceUrl": "https://music.apple.com/pk/album/insane/1562346952?i=1562346959",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music",
+        "R&B/Soul"
       ],
       "country": "PK",
       "regions": [
@@ -1524,32 +1146,23 @@
     },
     {
       "position": 46,
-      "id": "spotify:7ACdEdtwLSywi1nkN5Xlsk",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7ACdEdtwLSywi1nkN5Xlsk",
-      "appleId": null,
-      "title": "Laykin",
-      "artist": "Ali & Shjr, Ali Raza, Shajjar Hussain",
+      "id": "apple:6814996163",
+      "provider": "apple-music",
+      "appleId": "6814996163",
+      "title": "Babylon",
+      "artist": "Taylor Swift",
       "artistNames": [
-        "Ali & Shjr",
-        "Ali Raza",
-        "Shajjar Hussain"
+        "Taylor Swift"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-09-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/a3/c7/f1a3c711-ff60-caee-2314-37c0dd3f7616/26UM1IM21436.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/babylon/6814995859?i=6814996163",
+      "sourceUrl": "https://music.apple.com/pk/album/babylon/6814995859?i=6814996163",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1558,30 +1171,24 @@
     },
     {
       "position": 47,
-      "id": "spotify:4MXrxm7NwiDzdIdiawJyKu",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4MXrxm7NwiDzdIdiawJyKu",
-      "appleId": null,
-      "title": "Phir Mileinge Hum",
-      "artist": "Samar Jafri",
+      "id": "apple:1523521149",
+      "provider": "apple-music",
+      "appleId": "1523521149",
+      "title": "G.O.A.T.",
+      "artist": "Diljit Dosanjh",
       "artistNames": [
-        "Samar Jafri"
+        "Diljit Dosanjh"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2020-07-29",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d2/89/ac/d289ac98-749e-3822-6b6e-b06aa4815715/859740651597_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/g-o-a-t/1523520901?i=1523521149",
+      "sourceUrl": "https://music.apple.com/pk/album/g-o-a-t/1523520901?i=1523521149",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music",
+        "Pop",
+        "Worldwide"
       ],
       "country": "PK",
       "regions": [
@@ -1590,30 +1197,24 @@
     },
     {
       "position": 48,
-      "id": "spotify:5YWkoTEUEQYU9lFl2jg4Vs",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "5YWkoTEUEQYU9lFl2jg4Vs",
-      "appleId": null,
-      "title": "12 Saal",
-      "artist": "Bilal Saeed",
+      "id": "apple:6795517316",
+      "provider": "apple-music",
+      "appleId": "6795517316",
+      "title": "Alvida Alvida (From \"Dar-E-Nijaat\")",
+      "artist": "Nabeel Shaukat Ali",
       "artistNames": [
-        "Bilal Saeed"
+        "Nabeel Shaukat Ali"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-07-28",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/33/7b/cc337b5a-8803-36b7-2efb-20a2d440e3bc/859743136909_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/alvida-alvida-from-dar-e-nijaat/6795516881?i=6795517316",
+      "sourceUrl": "https://music.apple.com/pk/album/alvida-alvida-from-dar-e-nijaat/6795516881?i=6795517316",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Soundtrack",
+        "Music",
+        "Worldwide"
       ],
       "country": "PK",
       "regions": [
@@ -1622,32 +1223,23 @@
     },
     {
       "position": 49,
-      "id": "spotify:7KChAOHsG8xZPBcEXawu3M",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7KChAOHsG8xZPBcEXawu3M",
-      "appleId": null,
-      "title": "Unkahi",
-      "artist": "Salem Sandhu, Taimour Baig, Nimit",
+      "id": "apple:1530442215",
+      "provider": "apple-music",
+      "appleId": "1530442215",
+      "title": "Rim vs Jhanjar",
+      "artist": "Karan Aujla & Deep Jandu",
       "artistNames": [
-        "Salem Sandhu",
-        "Taimour Baig",
-        "Nimit"
+        "Karan Aujla & Deep Jandu"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2018-12-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cd/ba/73/cdba7389-6dc9-17e9-f119-3f77f38f41fa/cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/rim-vs-jhanjar/1530442212?i=1530442215",
+      "sourceUrl": "https://music.apple.com/pk/album/rim-vs-jhanjar/1530442212?i=1530442215",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Worldwide",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1656,31 +1248,23 @@
     },
     {
       "position": 50,
-      "id": "spotify:6ZBPz49qkS3miMzl3VTabU",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "6ZBPz49qkS3miMzl3VTabU",
-      "appleId": null,
-      "title": "Faasle",
-      "artist": "Kaavish, Quratulain Balouch",
+      "id": "apple:1783563970",
+      "provider": "apple-music",
+      "appleId": "1783563970",
+      "title": "Yeh Jo Halka Halka Saroor Hai (Guitar Version)",
+      "artist": "Nusrat Fateh Ali Khan",
       "artistNames": [
-        "Kaavish",
-        "Quratulain Balouch"
+        "Nusrat Fateh Ali Khan"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "1988-01-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/a3/da/57a3dad7-adb2-67ef-7048-c8ae0fa35ddd/24UM1IM13781.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/yeh-jo-halka-halka-saroor-hai-guitar-version/1783563614?i=1783563970",
+      "sourceUrl": "https://music.apple.com/pk/album/yeh-jo-halka-halka-saroor-hai-guitar-version/1783563614?i=1783563970",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Worldwide",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1689,31 +1273,22 @@
     },
     {
       "position": 51,
-      "id": "spotify:2S0k4CdcWATcjettSrN8u6",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2S0k4CdcWATcjettSrN8u6",
-      "appleId": null,
-      "title": "Main Haar Giyan",
-      "artist": "Naseebo Lal, Hassan Ali Hashmi",
+      "id": "apple:6817099729",
+      "provider": "apple-music",
+      "appleId": "6817099729",
+      "title": "Ashke (Karan A)",
+      "artist": "Turnmedia",
       "artistNames": [
-        "Naseebo Lal",
-        "Hassan Ali Hashmi"
+        "Turnmedia"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-09-25",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/18/36/a1/1836a1a9-89c2-9193-7429-e57c1846477c/5949994947111.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/ashke-karan-a/6817099728?i=6817099729",
+      "sourceUrl": "https://music.apple.com/pk/album/ashke-karan-a/6817099728?i=6817099729",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1722,30 +1297,24 @@
     },
     {
       "position": 52,
-      "id": "spotify:0ZGfGStyu8s02fzpmmOF2l",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0ZGfGStyu8s02fzpmmOF2l",
-      "appleId": null,
-      "title": "Pyaar Mein",
-      "artist": "Murtaza Qizilbash",
+      "id": "apple:1622097542",
+      "provider": "apple-music",
+      "appleId": "1622097542",
+      "title": "Afsanay",
+      "artist": "Young Stunners, Talha Anjum & Talhah Yunus",
       "artistNames": [
-        "Murtaza Qizilbash"
+        "Young Stunners, Talha Anjum & Talhah Yunus"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2021-03-29",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/54/87/ad/5487ad43-4d15-99ef-32b5-9fdd16dd5129/artwork.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/afsanay/1622097541?i=1622097542",
+      "sourceUrl": "https://music.apple.com/pk/album/afsanay/1622097541?i=1622097542",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Hip-Hop/Rap",
+        "Music",
+        "R&B/Soul"
       ],
       "country": "PK",
       "regions": [
@@ -1754,32 +1323,23 @@
     },
     {
       "position": 53,
-      "id": "spotify:2618Fg2I7K5leCzDUhOjbr",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2618Fg2I7K5leCzDUhOjbr",
-      "appleId": null,
-      "title": "Heer",
-      "artist": "Ali & Shjr, Haider Ali, Ali Raza",
+      "id": "apple:1536812178",
+      "provider": "apple-music",
+      "appleId": "1536812178",
+      "title": "Be Intehaan",
+      "artist": "Atif Aslam, Sunidhi Chauhan & Pritam",
       "artistNames": [
-        "Ali & Shjr",
-        "Haider Ali",
-        "Ali Raza"
+        "Atif Aslam, Sunidhi Chauhan & Pritam"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2013-01-04",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/79/f6/0779f68f-462f-e8d5-7de1-84ca6be69888/8901854022311.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/be-intehaan/1536812013?i=1536812178",
+      "sourceUrl": "https://music.apple.com/pk/album/be-intehaan/1536812013?i=1536812178",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -1788,32 +1348,24 @@
     },
     {
       "position": 54,
-      "id": "spotify:4aCOCIF0PDdL50CSi3rNHC",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4aCOCIF0PDdL50CSi3rNHC",
-      "appleId": null,
-      "title": "KATTAR KARACHI",
-      "artist": "Talha Anjum, Umair, Savage",
+      "id": "apple:966615896",
+      "provider": "apple-music",
+      "appleId": "966615896",
+      "title": "Na Tum Samjhe",
+      "artist": "Sajjad Ali",
       "artistNames": [
-        "Talha Anjum",
-        "Umair",
-        "Savage"
+        "Sajjad Ali"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
-      "explicit": true,
+      "releaseDate": "2015-02-10",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/89/e0/2f/89e02f3f-b34d-23cf-3d94-6f518663587c/859714215589_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/na-tum-samjhe/966615894?i=966615896",
+      "sourceUrl": "https://music.apple.com/pk/album/na-tum-samjhe/966615894?i=966615896",
+      "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music",
+        "Singer/Songwriter"
       ],
       "country": "PK",
       "regions": [
@@ -1822,35 +1374,22 @@
     },
     {
       "position": 55,
-      "id": "spotify:1MOqdEnMcD4r0zMYEmp9Ju",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1MOqdEnMcD4r0zMYEmp9Ju",
-      "appleId": null,
-      "title": "Tera Mera Rishta - New Version (From \"Awarapan 2\")",
-      "artist": "Mithoon, Pritam, Mustafa Zahid, Sayeed Quadri, Saaj Bhatt, Subodhh Sharma",
+      "id": "apple:1529525315",
+      "provider": "apple-music",
+      "appleId": "1529525315",
+      "title": "Zaalima",
+      "artist": "Arijit Singh & Harshdeep Kaur",
       "artistNames": [
-        "Mithoon",
-        "Pritam",
-        "Mustafa Zahid",
-        "Sayeed Quadri",
-        "Saaj Bhatt",
-        "Subodhh Sharma"
+        "Arijit Singh & Harshdeep Kaur"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2017-01-04",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/f2/3f/1cf23fe8-700b-f3ee-a6f5-5db99c40beb5/840780181069.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/zaalima/1529525310?i=1529525315",
+      "sourceUrl": "https://music.apple.com/pk/album/zaalima/1529525310?i=1529525315",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1859,30 +1398,23 @@
     },
     {
       "position": 56,
-      "id": "spotify:6RRMrws5dVKALzhTvH8GFL",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "6RRMrws5dVKALzhTvH8GFL",
-      "appleId": null,
-      "title": "Chal Diye Tum Kahan",
-      "artist": "AUR",
+      "id": "apple:1806787026",
+      "provider": "apple-music",
+      "appleId": "1806787026",
+      "title": "Pal Pal (with Talwiinder)",
+      "artist": "AFUSIC, Talwiinder & AliSoomroMusic",
       "artistNames": [
-        "AUR"
+        "AFUSIC, Talwiinder & AliSoomroMusic"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2025-04-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/62/fd/4d62fd50-5bb8-4449-7a07-27a749dbde66/25UMGIM53708.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/pal-pal-with-talwiinder/1806787024?i=1806787026",
+      "sourceUrl": "https://music.apple.com/pk/album/pal-pal-with-talwiinder/1806787024?i=1806787026",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1891,31 +1423,24 @@
     },
     {
       "position": 57,
-      "id": "spotify:4CZl2BQkGPIFK99cf6jTAz",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4CZl2BQkGPIFK99cf6jTAz",
-      "appleId": null,
-      "title": "Low Fade",
-      "artist": "Karan Aujla, Mxrci",
+      "id": "apple:1142355047",
+      "provider": "apple-music",
+      "appleId": "1142355047",
+      "title": "Soch (feat. Karan Aujla)",
+      "artist": "Intense",
       "artistNames": [
-        "Karan Aujla",
-        "Mxrci"
+        "Intense"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2016-08-13",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/43/a7/61/43a76189-9afa-8509-3396-a9f320e1697e/859718001348_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/soch-feat-karan-aujla/1142354375?i=1142355047",
+      "sourceUrl": "https://music.apple.com/pk/album/soch-feat-karan-aujla/1142354375?i=1142355047",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Worldwide",
+        "Music",
+        "Hip-Hop/Rap"
       ],
       "country": "PK",
       "regions": [
@@ -1924,32 +1449,22 @@
     },
     {
       "position": 58,
-      "id": "spotify:4yNtO1F3flXZ4v3Ry1MzuP",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4yNtO1F3flXZ4v3Ry1MzuP",
-      "appleId": null,
-      "title": "COME THROUGH (feat. Abdullah Maharvi & Talha Anjum)",
-      "artist": "Umair, Abdullah Maharvi, Talha Anjum",
+      "id": "apple:6785497626",
+      "provider": "apple-music",
+      "appleId": "6785497626",
+      "title": "Barsaat",
+      "artist": "Banjaare & Roni",
       "artistNames": [
-        "Umair",
-        "Abdullah Maharvi",
-        "Talha Anjum"
+        "Banjaare & Roni"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-07-09",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/2f/fe/b12ffe7a-1bc8-cf4c-ea05-69f4bb3b3f66/196874562376.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/barsaat/6785497625?i=6785497626",
+      "sourceUrl": "https://music.apple.com/pk/album/barsaat/6785497625?i=6785497626",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1958,30 +1473,23 @@
     },
     {
       "position": 59,
-      "id": "spotify:3gixnmepHSsyAuho34rprN",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "3gixnmepHSsyAuho34rprN",
-      "appleId": null,
-      "title": "Khat",
-      "artist": "Navjot Ahuja",
+      "id": "apple:6771015859",
+      "provider": "apple-music",
+      "appleId": "6771015859",
+      "title": "Mashooqa (From “Cocktail 2”)",
+      "artist": "Pritam, Mahmood, Raghav Chaitanya, Amitabh Bhattacharya & Ruaa Kayy",
       "artistNames": [
-        "Navjot Ahuja"
+        "Pritam, Mahmood, Raghav Chaitanya, Amitabh Bhattacharya & Ruaa Kayy"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-05-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b0/d1/27/b0d127b1-6899-d023-e264-9eb3ff4fc615/26UMGIM65166.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/mashooqa-from-cocktail-2/6771015535?i=6771015859",
+      "sourceUrl": "https://music.apple.com/pk/album/mashooqa-from-cocktail-2/6771015535?i=6771015859",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Soundtrack",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -1990,31 +1498,23 @@
     },
     {
       "position": 60,
-      "id": "spotify:2dMlTWQbY9tfPFLIqAa7Tv",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2dMlTWQbY9tfPFLIqAa7Tv",
-      "appleId": null,
-      "title": "Kahani Meri",
-      "artist": "Kaifi Khalil, Anmol Daniel",
+      "id": "apple:1537030272",
+      "provider": "apple-music",
+      "appleId": "1537030272",
+      "title": "Tu Jaane Na",
+      "artist": "Atif Aslam & Pritam",
       "artistNames": [
-        "Kaifi Khalil",
-        "Anmol Daniel"
+        "Atif Aslam & Pritam"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2009-01-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/43/fb/d8/43fbd870-9a3b-ccd9-8866-2a2c6dc48287/8901854003792.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/tu-jaane-na/1537029617?i=1537030272",
+      "sourceUrl": "https://music.apple.com/pk/album/tu-jaane-na/1537029617?i=1537030272",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -2023,31 +1523,23 @@
     },
     {
       "position": 61,
-      "id": "spotify:0JOAMHwHFGKbPOwfM26fL7",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0JOAMHwHFGKbPOwfM26fL7",
-      "appleId": null,
-      "title": "Jackpot",
-      "artist": "Cheema Y, Gur Sidhu",
+      "id": "apple:6778607636",
+      "provider": "apple-music",
+      "appleId": "6778607636",
+      "title": "Burn My Boat",
+      "artist": "Kenny Chesney",
       "artistNames": [
-        "Cheema Y",
-        "Gur Sidhu"
+        "Kenny Chesney"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-07-31",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/66/3e/d4663e69-0e75-f803-ad91-d3fa5701c72d/093624817796.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/burn-my-boat/6778607425?i=6778607636",
+      "sourceUrl": "https://music.apple.com/pk/album/burn-my-boat/6778607425?i=6778607636",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Country",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2056,32 +1548,24 @@
     },
     {
       "position": 62,
-      "id": "spotify:2kQ4qdEtzWR1scQBlsjl8M",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2kQ4qdEtzWR1scQBlsjl8M",
-      "appleId": null,
-      "title": "Blockbuster",
-      "artist": "Faris Shafi, Umair Butt, Gharvi Group",
+      "id": "apple:1745124250",
+      "provider": "apple-music",
+      "appleId": "1745124250",
+      "title": "O Yaara",
+      "artist": "Abdul Hannan & Kaavish",
       "artistNames": [
-        "Faris Shafi",
-        "Umair Butt",
-        "Gharvi Group"
+        "Abdul Hannan & Kaavish"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2024-05-12",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/5c/5b/085c5bec-334d-8ca1-8cf9-fe03e1834699/085365609075.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/o-yaara/1745124236?i=1745124250",
+      "sourceUrl": "https://music.apple.com/pk/album/o-yaara/1745124236?i=1745124250",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music",
+        "Alternative"
       ],
       "country": "PK",
       "regions": [
@@ -2090,30 +1574,22 @@
     },
     {
       "position": 63,
-      "id": "spotify:2eqUVYJVnlDs8PgOtuOlJm",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2eqUVYJVnlDs8PgOtuOlJm",
-      "appleId": null,
-      "title": "High On You",
-      "artist": "Jind Universe",
+      "id": "apple:1653219849",
+      "provider": "apple-music",
+      "appleId": "1653219849",
+      "title": "Apna Bana Le (From \"Bhediya\")",
+      "artist": "Arijit Singh, Sachin-Jigar & Amitabh Bhattacharya",
       "artistNames": [
-        "Jind Universe"
+        "Arijit Singh, Sachin-Jigar & Amitabh Bhattacharya"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2022-11-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2e/0b/c0/2e0bc070-112f-a827-6ad8-6bc64f7caaff/840214460180.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/apna-bana-le-from-bhediya/1653219847?i=1653219849",
+      "sourceUrl": "https://music.apple.com/pk/album/apna-bana-le-from-bhediya/1653219847?i=1653219849",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2122,31 +1598,23 @@
     },
     {
       "position": 64,
-      "id": "spotify:6YNl1rXbhKvmbMrw9cp3RQ",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "6YNl1rXbhKvmbMrw9cp3RQ",
-      "appleId": null,
-      "title": "Faasle",
-      "artist": "Kaavish, Quratulain Balouch",
+      "id": "apple:1440843496",
+      "provider": "apple-music",
+      "appleId": "1440843496",
+      "title": "One Dance (feat. Wizkid & Kyla)",
+      "artist": "Drake",
       "artistNames": [
-        "Kaavish",
-        "Quratulain Balouch"
+        "Drake"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2016-04-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/f5/87/95f587f7-21c3-d5f9-d81a-4350f9caa020/16UMGIM27643.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/one-dance-feat-wizkid-kyla/1440842556?i=1440843496",
+      "sourceUrl": "https://music.apple.com/pk/album/one-dance-feat-wizkid-kyla/1440842556?i=1440843496",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Hip-Hop/Rap",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2155,31 +1623,22 @@
     },
     {
       "position": 65,
-      "id": "spotify:7Csa4PStpuYIfUqNMKQ4V8",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7Csa4PStpuYIfUqNMKQ4V8",
-      "appleId": null,
-      "title": "Barbaad (From \"Saiyaara\")",
-      "artist": "The Rish, Jubin Nautiyal",
+      "id": "apple:1482388184",
+      "provider": "apple-music",
+      "appleId": "1482388184",
+      "title": "B-Town (feat. Sunny Malton)",
+      "artist": "Sidhu Moose Wala",
       "artistNames": [
-        "The Rish",
-        "Jubin Nautiyal"
+        "Sidhu Moose Wala"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2019-10-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/17/90/e9/1790e9d6-4ca5-6b86-33aa-a8394cf4ff86/886448047612.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/b-town-feat-sunny-malton/1482388181?i=1482388184",
+      "sourceUrl": "https://music.apple.com/pk/album/b-town-feat-sunny-malton/1482388181?i=1482388184",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2188,32 +1647,23 @@
     },
     {
       "position": 66,
-      "id": "spotify:7hDoxkN20lLb06zifzYnD2",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7hDoxkN20lLb06zifzYnD2",
-      "appleId": null,
-      "title": "Ishq - From \"Lost;Found\"",
-      "artist": "Faheem Abdullah, Rauhan Malik, Amir Ameer",
+      "id": "apple:1885907881",
+      "provider": "apple-music",
+      "appleId": "1885907881",
+      "title": "Jaiye Sajana",
+      "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
       "artistNames": [
-        "Faheem Abdullah",
-        "Rauhan Malik",
-        "Amir Ameer"
+        "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-03-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/74/08/897408d1-39d9-5d32-06a8-256ea77e4158/8902894362900_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/jaiye-sajana/1885907871?i=1885907881",
+      "sourceUrl": "https://music.apple.com/pk/album/jaiye-sajana/1885907871?i=1885907881",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -2222,31 +1672,23 @@
     },
     {
       "position": 67,
-      "id": "spotify:55nrl1ScrRDCv1ORLoEMlG",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "55nrl1ScrRDCv1ORLoEMlG",
-      "appleId": null,
-      "title": "Hypnotic",
-      "artist": "Deep Dhaliwal, Anker Deol",
+      "id": "apple:1851190416",
+      "provider": "apple-music",
+      "appleId": "1851190416",
+      "title": "3 Shaukk",
+      "artist": "Avvy Sra, Karan Aujla, Jaani & Jyotica Tangri",
       "artistNames": [
-        "Deep Dhaliwal",
-        "Anker Deol"
+        "Avvy Sra, Karan Aujla, Jaani & Jyotica Tangri"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-11-04",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/54/cb/d054cbeb-e246-3fba-341e-ff4c61a613d0/8902894362740_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/3-shaukk/1851190410?i=1851190416",
+      "sourceUrl": "https://music.apple.com/pk/album/3-shaukk/1851190410?i=1851190416",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -2255,33 +1697,24 @@
     },
     {
       "position": 68,
-      "id": "spotify:1K0d6cMvNwiAhQWJjqYJDu",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1K0d6cMvNwiAhQWJjqYJDu",
-      "appleId": null,
-      "title": "Piya Piya Calling (feat. The Quick Style)",
-      "artist": "Karpe, Kaifi Khalil, Delara, The Quick Style",
+      "id": "apple:6815042366",
+      "provider": "apple-music",
+      "appleId": "6815042366",
+      "title": "bars",
+      "artist": "Shubh",
       "artistNames": [
-        "Karpe",
-        "Kaifi Khalil",
-        "Delara",
-        "The Quick Style"
+        "Shubh"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2025-01-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/b1/6e/c5b16eec-dcd2-c69a-9e05-72c7ff88d20c/8447845219075.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/bars/6815042364?i=6815042366",
+      "sourceUrl": "https://music.apple.com/pk/album/bars/6815042364?i=6815042366",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Hip-Hop/Rap",
+        "Music",
+        "Alternative"
       ],
       "country": "PK",
       "regions": [
@@ -2290,30 +1723,23 @@
     },
     {
       "position": 69,
-      "id": "spotify:0eCajpR75pDW0r64U6hP2x",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0eCajpR75pDW0r64U6hP2x",
-      "appleId": null,
-      "title": "Jo Tum Mere Ho",
-      "artist": "Anuv Jain",
+      "id": "apple:6769568603",
+      "provider": "apple-music",
+      "appleId": "6769568603",
+      "title": "National Treasures",
+      "artist": "Drake",
       "artistNames": [
-        "Anuv Jain"
+        "Drake"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-05-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/national-treasures/6769568449?i=6769568603",
+      "sourceUrl": "https://music.apple.com/pk/album/national-treasures/6769568449?i=6769568603",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Hip-Hop/Rap",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2322,31 +1748,23 @@
     },
     {
       "position": 70,
-      "id": "spotify:6yaF2WzaQpY00JnKPtOEB0",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "6yaF2WzaQpY00JnKPtOEB0",
-      "appleId": null,
-      "title": "love lost",
-      "artist": "Umair, Talha Anjum",
+      "id": "apple:6775140389",
+      "provider": "apple-music",
+      "appleId": "6775140389",
+      "title": "Ucha Lamba Kad Forever (From \"Welcome To The Jungle\")",
+      "artist": "Anand Raj Anand, Vikram Montrose, Rubai & Meggha Bali",
       "artistNames": [
-        "Umair",
-        "Talha Anjum"
+        "Anand Raj Anand, Vikram Montrose, Rubai & Meggha Bali"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-06-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/bb/cb/adbbcb33-60ea-7824-50f7-20d309932d4c/8902633461291.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/ucha-lamba-kad-forever-from-welcome-to-the-jungle/6775140388?i=6775140389",
+      "sourceUrl": "https://music.apple.com/pk/album/ucha-lamba-kad-forever-from-welcome-to-the-jungle/6775140388?i=6775140389",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -2355,31 +1773,23 @@
     },
     {
       "position": 71,
-      "id": "spotify:4Qm7r3ImER8S2Ori1gLMAf",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4Qm7r3ImER8S2Ori1gLMAf",
-      "appleId": null,
-      "title": "Afsos",
-      "artist": "Anuv Jain, AP Dhillon",
+      "id": "apple:1806034993",
+      "provider": "apple-music",
+      "appleId": "1806034993",
+      "title": "Ehsaas",
+      "artist": "Faheem Abdullah, Duha Shah, Vaibhav Pani & Hyder Dar",
       "artistNames": [
-        "Anuv Jain",
-        "AP Dhillon"
+        "Faheem Abdullah, Duha Shah, Vaibhav Pani & Hyder Dar"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-04-09",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/6a/11/3c6a112b-a40f-b542-b87d-80c1148d8be5/25UMGIM49650.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/ehsaas/1806034974?i=1806034993",
+      "sourceUrl": "https://music.apple.com/pk/album/ehsaas/1806034974?i=1806034993",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Rock",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2388,31 +1798,23 @@
     },
     {
       "position": 72,
-      "id": "spotify:6zU7GoGlsJtIUNPRGNl0m8",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "6zU7GoGlsJtIUNPRGNl0m8",
-      "appleId": null,
-      "title": "Maghron La",
-      "artist": "Sabri Sisters, Rozeo",
+      "id": "apple:6770745507",
+      "provider": "apple-music",
+      "appleId": "6770745507",
+      "title": "Kath Lagda",
+      "artist": "Navaan Sandhu, Dhanda Nyoliwala, RXTRO & Sanya Dandona",
       "artistNames": [
-        "Sabri Sisters",
-        "Rozeo"
+        "Navaan Sandhu, Dhanda Nyoliwala, RXTRO & Sanya Dandona"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-06-12",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/ae/b7/dcaeb77a-0d81-2ca6-941a-f6a9ac7b1197/26UMGIM64188.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/kath-lagda/6770745505?i=6770745507",
+      "sourceUrl": "https://music.apple.com/pk/album/kath-lagda/6770745505?i=6770745507",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2421,32 +1823,23 @@
     },
     {
       "position": 73,
-      "id": "spotify:1hlbywc8Jhl1FFqJxAMabE",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1hlbywc8Jhl1FFqJxAMabE",
-      "appleId": null,
-      "title": "Ishq",
-      "artist": "Faheem Abdullah, Rauhan Malik, Amir Ameer",
+      "id": "apple:1657271971",
+      "provider": "apple-music",
+      "appleId": "1657271971",
+      "title": "Around Me (feat. Don Toliver)",
+      "artist": "Metro Boomin",
       "artistNames": [
-        "Faheem Abdullah",
-        "Rauhan Malik",
-        "Amir Ameer"
+        "Metro Boomin"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2022-12-02",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/09/72/3b/09723b88-9b18-e466-7ae0-05a17688bb52/22UM1IM35114.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/around-me-feat-don-toliver/1657271960?i=1657271971",
+      "sourceUrl": "https://music.apple.com/pk/album/around-me-feat-don-toliver/1657271960?i=1657271971",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Hip-Hop/Rap",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2455,31 +1848,23 @@
     },
     {
       "position": 74,
-      "id": "spotify:1XfBEzVsFJC0X8222Y6unk",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1XfBEzVsFJC0X8222Y6unk",
-      "appleId": null,
-      "title": "Jogi",
-      "artist": "thiarajxtt, Bir",
+      "id": "apple:1739659142",
+      "provider": "apple-music",
+      "appleId": "1739659142",
+      "title": "BIRDS OF A FEATHER",
+      "artist": "Billie Eilish",
       "artistNames": [
-        "thiarajxtt",
-        "Bir"
+        "Billie Eilish"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2024-05-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/birds-of-a-feather/1739659134?i=1739659142",
+      "sourceUrl": "https://music.apple.com/pk/album/birds-of-a-feather/1739659134?i=1739659142",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Alternative",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2488,32 +1873,23 @@
     },
     {
       "position": 75,
-      "id": "spotify:3Tl6WAOMZKkMpYrlZLBVw2",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "3Tl6WAOMZKkMpYrlZLBVw2",
-      "appleId": null,
-      "title": "Tumhari Chup - From \"Gentleman\"",
-      "artist": "Atif Aslam, Naveed Nashad, Khalil Ul Rehman Qamar",
+      "id": "apple:1554609568",
+      "provider": "apple-music",
+      "appleId": "1554609568",
+      "title": "Damn.",
+      "artist": "Cheema Y",
       "artistNames": [
-        "Atif Aslam",
-        "Naveed Nashad",
-        "Khalil Ul Rehman Qamar"
+        "Cheema Y"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2021-02-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/62/7c/13/627c1388-73d4-b054-64f4-dcf641f96aa0/artwork.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/damn/1554609567?i=1554609568",
+      "sourceUrl": "https://music.apple.com/pk/album/damn/1554609567?i=1554609568",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Rock",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2522,30 +1898,23 @@
     },
     {
       "position": 76,
-      "id": "spotify:7HuuShTJs1tf6rFLDElyik",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7HuuShTJs1tf6rFLDElyik",
-      "appleId": null,
-      "title": "O Sanam",
-      "artist": "Akhil Sachdeva",
+      "id": "apple:1499378613",
+      "provider": "apple-music",
+      "appleId": "1499378613",
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
       "artistNames": [
-        "Akhil Sachdeva"
+        "The Weeknd"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2020-03-20",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6f/bc/e6/6fbce6c4-c38c-72d8-4fd0-66cfff32f679/20UMGIM12176.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/save-your-tears/1499378108?i=1499378613",
+      "sourceUrl": "https://music.apple.com/pk/album/save-your-tears/1499378108?i=1499378613",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "R&B/Soul",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2554,30 +1923,24 @@
     },
     {
       "position": 77,
-      "id": "spotify:7n3BVENCi9odYvNeFwcmCv",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7n3BVENCi9odYvNeFwcmCv",
-      "appleId": null,
-      "title": "Tera Mera Hai Pyar (From \"Ishq Murshid\")",
-      "artist": "Ahmed Jahanzeb",
+      "id": "apple:6812477269",
+      "provider": "apple-music",
+      "appleId": "6812477269",
+      "title": "Sexy Magic",
+      "artist": "CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. & Etienne de Crécy",
       "artistNames": [
-        "Ahmed Jahanzeb"
+        "CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. & Etienne de Crécy"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-09-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/sexy-magic/6812476961?i=6812477269",
+      "sourceUrl": "https://music.apple.com/pk/album/sexy-magic/6812476961?i=6812477269",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music",
+        "Dance"
       ],
       "country": "PK",
       "regions": [
@@ -2586,30 +1949,23 @@
     },
     {
       "position": 78,
-      "id": "spotify:3hrvVVBKL6jfpqGzR2WSlH",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "3hrvVVBKL6jfpqGzR2WSlH",
-      "appleId": null,
-      "title": "Tu Hai Wohi",
-      "artist": "Asim Azhar",
+      "id": "apple:1880632234",
+      "provider": "apple-music",
+      "appleId": "1880632234",
+      "title": "Chalo Door Kahin",
+      "artist": "Samar Jafri",
       "artistNames": [
-        "Asim Azhar"
+        "Samar Jafri"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2025-10-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/ef/74/44ef749b-5e0b-0893-20e9-6cb8f0ccf940/859719537440.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/chalo-door-kahin/1880632233?i=1880632234",
+      "sourceUrl": "https://music.apple.com/pk/album/chalo-door-kahin/1880632233?i=1880632234",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2618,31 +1974,23 @@
     },
     {
       "position": 79,
-      "id": "spotify:1gSqal5vT2GzXgDPMwMelX",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1gSqal5vT2GzXgDPMwMelX",
-      "appleId": null,
-      "title": "Turri Jandi",
-      "artist": "Shazia Manzoor, Hasan Raheem",
+      "id": "apple:6796864754",
+      "provider": "apple-music",
+      "appleId": "6796864754",
+      "title": "BbY WOW",
+      "artist": "KAROL G, Judeline & rusowsky",
       "artistNames": [
-        "Shazia Manzoor",
-        "Hasan Raheem"
+        "KAROL G, Judeline & rusowsky"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-08-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/bby-wow/6796864741?i=6796864754",
+      "sourceUrl": "https://music.apple.com/pk/album/bby-wow/6796864741?i=6796864754",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Latin"
       ],
       "country": "PK",
       "regions": [
@@ -2651,30 +1999,23 @@
     },
     {
       "position": 80,
-      "id": "spotify:53kcU6lCvTptLec1UXacaq",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "53kcU6lCvTptLec1UXacaq",
-      "appleId": null,
-      "title": "Moves",
-      "artist": "Shubh",
+      "id": "apple:1888494912",
+      "provider": "apple-music",
+      "appleId": "1888494912",
+      "title": "Aadat",
+      "artist": "Jal, Mithoon & Atif Aslam",
       "artistNames": [
-        "Shubh"
+        "Jal, Mithoon & Atif Aslam"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2004-09-27",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/41/48/27414810-2929-aa34-e145-000948a5c8b7/0602465586596.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/aadat/1888494911?i=1888494912",
+      "sourceUrl": "https://music.apple.com/pk/album/aadat/1888494911?i=1888494912",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -2683,30 +2024,23 @@
     },
     {
       "position": 81,
-      "id": "spotify:3wm5N6UAVYLF1lRQMW8t0C",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "3wm5N6UAVYLF1lRQMW8t0C",
-      "appleId": null,
-      "title": "Just Us",
-      "artist": "Aashir Wajahat",
+      "id": "apple:1657271966",
+      "provider": "apple-music",
+      "appleId": "1657271966",
+      "title": "Too Many Nights (feat. Don Toliver)",
+      "artist": "Metro Boomin & Future",
       "artistNames": [
-        "Aashir Wajahat"
+        "Metro Boomin & Future"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2022-12-02",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/09/72/3b/09723b88-9b18-e466-7ae0-05a17688bb52/22UM1IM35114.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/too-many-nights-feat-don-toliver/1657271960?i=1657271966",
+      "sourceUrl": "https://music.apple.com/pk/album/too-many-nights-feat-don-toliver/1657271960?i=1657271966",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Hip-Hop/Rap",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2715,30 +2049,23 @@
     },
     {
       "position": 82,
-      "id": "spotify:1GDJhAiO9tqjMuDWFad0IF",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1GDJhAiO9tqjMuDWFad0IF",
-      "appleId": null,
-      "title": "Woh",
-      "artist": "Murtaza Qizilbash",
+      "id": "apple:1529568804",
+      "provider": "apple-music",
+      "appleId": "1529568804",
+      "title": "Kho Gaye Hum Kahan",
+      "artist": "Jasleen Royal & Prateek Kuhad",
       "artistNames": [
-        "Murtaza Qizilbash"
+        "Jasleen Royal & Prateek Kuhad"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2016-08-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/b8/58/14b85883-40a4-0a2e-de65-130f55726ee6/840780180390.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/kho-gaye-hum-kahan/1529568803?i=1529568804",
+      "sourceUrl": "https://music.apple.com/pk/album/kho-gaye-hum-kahan/1529568803?i=1529568804",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -2747,32 +2074,23 @@
     },
     {
       "position": 83,
-      "id": "spotify:2lX53kXvYnvpV8Vqfe4S7s",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "2lX53kXvYnvpV8Vqfe4S7s",
-      "appleId": null,
-      "title": "Sadqay",
-      "artist": "Aashir Wajahat, NAYEL, Nehaal Naseem",
+      "id": "apple:1575202929",
+      "provider": "apple-music",
+      "appleId": "1575202929",
+      "title": "Tere Pyar Main",
+      "artist": "Kaavish",
       "artistNames": [
-        "Aashir Wajahat",
-        "NAYEL",
-        "Nehaal Naseem"
+        "Kaavish"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2008-03-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2c/b1/ed/2cb1ed46-6c05-6b4c-b372-8a57fb957bd4/859748851470_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/tere-pyar-main/1575202456?i=1575202929",
+      "sourceUrl": "https://music.apple.com/pk/album/tere-pyar-main/1575202456?i=1575202929",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Soundtrack",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2781,32 +2099,22 @@
     },
     {
       "position": 84,
-      "id": "spotify:0S4PcH3EYQYIeLs6nLOpF1",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0S4PcH3EYQYIeLs6nLOpF1",
-      "appleId": null,
-      "title": "Deewane",
-      "artist": "Navaan Sandhu, Bir, Daaku",
+      "id": "apple:1842076711",
+      "provider": "apple-music",
+      "appleId": "1842076711",
+      "title": "Jeena Jeena",
+      "artist": "Sachin-Jigar, Atif Aslam & Priya Saraiya",
       "artistNames": [
-        "Navaan Sandhu",
-        "Bir",
-        "Daaku"
+        "Sachin-Jigar, Atif Aslam & Priya Saraiya"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2015-01-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/85/12/358512ee-128b-977f-40bc-669beb1bcc8d/196871079747.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/jeena-jeena/1842076709?i=1842076711",
+      "sourceUrl": "https://music.apple.com/pk/album/jeena-jeena/1842076709?i=1842076711",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2815,30 +2123,22 @@
     },
     {
       "position": 85,
-      "id": "spotify:4BoFJMLSO3ZoD48KgnslSe",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4BoFJMLSO3ZoD48KgnslSe",
-      "appleId": null,
-      "title": "Mere Humsafar (Original Score) [Female Version]",
-      "artist": "Yashal Shahid",
+      "id": "apple:1839416338",
+      "provider": "apple-music",
+      "appleId": "1839416338",
+      "title": "Deewane (feat. BIR)",
+      "artist": "Navaan Sandhu",
       "artistNames": [
-        "Yashal Shahid"
+        "Navaan Sandhu"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2025-09-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/0c/d2/4e0cd29d-f2c3-0d41-c33e-9ab5c9acf396/25UM1IM43859.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/deewane-feat-bir/1839416070?i=1839416338",
+      "sourceUrl": "https://music.apple.com/pk/album/deewane-feat-bir/1839416070?i=1839416338",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2847,32 +2147,25 @@
     },
     {
       "position": 86,
-      "id": "spotify:5gysl1k9QxPSM604I8G3uk",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "5gysl1k9QxPSM604I8G3uk",
-      "appleId": null,
-      "title": "Jaiye Sajana",
-      "artist": "Shashwat Sachdev, Jasmine Sandlas, Satinder Sartaaj",
+      "id": "apple:1440650961",
+      "provider": "apple-music",
+      "appleId": "1440650961",
+      "title": "Beauty and a Beat (feat. Nicki Minaj)",
+      "artist": "Justin Bieber",
       "artistNames": [
-        "Shashwat Sachdev",
-        "Jasmine Sandlas",
-        "Satinder Sartaaj"
+        "Justin Bieber"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2012-06-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961",
+      "sourceUrl": "https://music.apple.com/pk/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music",
+        "Rock",
+        "Dance"
       ],
       "country": "PK",
       "regions": [
@@ -2881,31 +2174,22 @@
     },
     {
       "position": 87,
-      "id": "spotify:6qrifdo7QINdPQr80IelGi",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "6qrifdo7QINdPQr80IelGi",
-      "appleId": null,
-      "title": "Iraaday",
-      "artist": "Rovalio, Abdul Hannan",
+      "id": "apple:1550888236",
+      "provider": "apple-music",
+      "appleId": "1550888236",
+      "title": "Meri Kahani",
+      "artist": "Atif Aslam",
       "artistNames": [
-        "Rovalio",
-        "Abdul Hannan"
+        "Atif Aslam"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2008-01-08",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/d6/be/ead6be34-3386-51c9-259d-e4c8411a61db/8901854004850.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/meri-kahani/1550888024?i=1550888236",
+      "sourceUrl": "https://music.apple.com/pk/album/meri-kahani/1550888024?i=1550888236",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2914,32 +2198,23 @@
     },
     {
       "position": 88,
-      "id": "spotify:6WlARP6h4CDVOcY386wW0W",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "6WlARP6h4CDVOcY386wW0W",
-      "appleId": null,
-      "title": "Sitaare (From \"Ikkis\")",
-      "artist": "Arijit Singh, Sachin-Jigar, Amitabh Bhattacharya",
+      "id": "apple:1537030225",
+      "provider": "apple-music",
+      "appleId": "1537030225",
+      "title": "Tera Hone Laga Hoon",
+      "artist": "Atif Aslam, Alisha Chinai & Pritam",
       "artistNames": [
-        "Arijit Singh",
-        "Sachin-Jigar",
-        "Amitabh Bhattacharya"
+        "Atif Aslam, Alisha Chinai & Pritam"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2009-01-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/43/fb/d8/43fbd870-9a3b-ccd9-8866-2a2c6dc48287/8901854003792.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/tera-hone-laga-hoon/1537029617?i=1537030225",
+      "sourceUrl": "https://music.apple.com/pk/album/tera-hone-laga-hoon/1537029617?i=1537030225",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -2948,30 +2223,22 @@
     },
     {
       "position": 89,
-      "id": "spotify:0sT56zcByY6pW1EQcNDCla",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0sT56zcByY6pW1EQcNDCla",
-      "appleId": null,
-      "title": "Ravi",
-      "artist": "Sajjad Ali",
+      "id": "apple:6811052981",
+      "provider": "apple-music",
+      "appleId": "6811052981",
+      "title": "Assay Passay",
+      "artist": "Talwiinder & Dropped Out",
       "artistNames": [
-        "Sajjad Ali"
+        "Talwiinder & Dropped Out"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-09-21",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/55/f1/2b55f18d-41a4-eb08-6080-eef92d407691/196874757529.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/assay-passay/6811052978?i=6811052981",
+      "sourceUrl": "https://music.apple.com/pk/album/assay-passay/6811052978?i=6811052981",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -2980,31 +2247,23 @@
     },
     {
       "position": 90,
-      "id": "spotify:610keNiNVTIkYD0CqeSerg",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "610keNiNVTIkYD0CqeSerg",
-      "appleId": null,
-      "title": "California Love",
-      "artist": "Cheema Y, Gur Sidhu",
+      "id": "apple:6764144807",
+      "provider": "apple-music",
+      "appleId": "6764144807",
+      "title": "Talk to Me",
+      "artist": "Bonobo & Nicole Miglis",
       "artistNames": [
-        "Cheema Y",
-        "Gur Sidhu"
+        "Bonobo & Nicole Miglis"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
-      "explicit": true,
+      "releaseDate": "2026-09-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/7d/5e/8d7d5e2a-31a9-50ba-9e04-3ce2b53d0c8c/5054429211276.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/talk-to-me/1895659203?i=6764144807",
+      "sourceUrl": "https://music.apple.com/pk/album/talk-to-me/1895659203?i=6764144807",
+      "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Electronic",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -3013,30 +2272,25 @@
     },
     {
       "position": 91,
-      "id": "spotify:0GkeOFHdSIdXBoo326Hw0P",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0GkeOFHdSIdXBoo326Hw0P",
-      "appleId": null,
-      "title": "Jaan E Jahan (Original Motion Picture Soundtrack)",
-      "artist": "Rahat Fateh Ali Khan",
+      "id": "apple:1323295502",
+      "provider": "apple-music",
+      "appleId": "1323295502",
+      "title": "Sayonee",
+      "artist": "Junoon",
       "artistNames": [
-        "Rahat Fateh Ali Khan"
+        "Junoon"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "1997-08-14",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e3/48/2d/e3482d62-7340-f8b9-10aa-c11d04825233/859724092866_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/sayonee/1323295489?i=1323295502",
+      "sourceUrl": "https://music.apple.com/pk/album/sayonee/1323295489?i=1323295502",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Rock",
+        "Music",
+        "Worldwide",
+        "Singer/Songwriter"
       ],
       "country": "PK",
       "regions": [
@@ -3045,32 +2299,23 @@
     },
     {
       "position": 92,
-      "id": "spotify:5u6yeBNC3Tsh5GTAMBlcUD",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "5u6yeBNC3Tsh5GTAMBlcUD",
-      "appleId": null,
-      "title": "Shor",
-      "artist": "Mooroo, Umair, Talha Anjum",
+      "id": "apple:1758669726",
+      "provider": "apple-music",
+      "appleId": "1758669726",
+      "title": "Jo Tum Mere Ho",
+      "artist": "Anuv Jain",
       "artistNames": [
-        "Mooroo",
-        "Umair",
-        "Talha Anjum"
+        "Anuv Jain"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2020-01-10",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/df/37/cddf37f9-9794-175e-d68f-272c8a3853b2/24UMGIM79558.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/jo-tum-mere-ho/1758669723?i=1758669726",
+      "sourceUrl": "https://music.apple.com/pk/album/jo-tum-mere-ho/1758669723?i=1758669726",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -3079,33 +2324,23 @@
     },
     {
       "position": 93,
-      "id": "spotify:1D35BJlymlh6OLD75WupSF",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1D35BJlymlh6OLD75WupSF",
-      "appleId": null,
-      "title": "Saiyaara (From \"Saiyaara\")",
-      "artist": "Tanishk Bagchi, Faheem Abdullah, Arslan Nizami, Irshad Kamil",
+      "id": "apple:6786654320",
+      "provider": "apple-music",
+      "appleId": "6786654320",
+      "title": "KALYANI (Remix)",
+      "artist": "ARJN, KDS, FIFTY4 & Shreya Ghoshal",
       "artistNames": [
-        "Tanishk Bagchi",
-        "Faheem Abdullah",
-        "Arslan Nizami",
-        "Irshad Kamil"
+        "ARJN, KDS, FIFTY4 & Shreya Ghoshal"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-07-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/f8/a5/5ff8a59a-5b12-b177-9fe0-295345e93765/26UMGIM78044.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/kalyani-remix/6786654317?i=6786654320",
+      "sourceUrl": "https://music.apple.com/pk/album/kalyani-remix/6786654317?i=6786654320",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -3114,31 +2349,22 @@
     },
     {
       "position": 94,
-      "id": "spotify:0Wr1k0Fm8PQvjnSiYReNGC",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0Wr1k0Fm8PQvjnSiYReNGC",
-      "appleId": null,
-      "title": "Chal Chaliye",
-      "artist": "Sajjad Ali, Farheen Raza Jaffry",
+      "id": "apple:1174924381",
+      "provider": "apple-music",
+      "appleId": "1174924381",
+      "title": "Ae Dil Hai Mushkil (Title Track)",
+      "artist": "Pritam & Arijit Singh",
       "artistNames": [
-        "Sajjad Ali",
-        "Farheen Raza Jaffry"
+        "Pritam & Arijit Singh"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2016-08-31",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/3c/7a/433c7a84-116b-4001-115e-c8e34d57ebd0/886446235608.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/ae-dil-hai-mushkil-title-track/1174924228?i=1174924381",
+      "sourceUrl": "https://music.apple.com/pk/album/ae-dil-hai-mushkil-title-track/1174924228?i=1174924381",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -3147,32 +2373,23 @@
     },
     {
       "position": 95,
-      "id": "spotify:5ThyDv6aRVU8AH4vXQNldF",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "5ThyDv6aRVU8AH4vXQNldF",
-      "appleId": null,
-      "title": "Finding Her",
-      "artist": "Kushagra, Bharath, Saaheal",
+      "id": "apple:6812894907",
+      "provider": "apple-music",
+      "appleId": "6812894907",
+      "title": "new trick",
+      "artist": "ROSÉ",
       "artistNames": [
-        "Kushagra",
-        "Bharath",
-        "Saaheal"
+        "ROSÉ"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-09-09",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/06/3f/48063f55-8c24-92e6-2bbe-ffb3a638420b/075679555984.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/new-trick/6812894902?i=6812894907",
+      "sourceUrl": "https://music.apple.com/pk/album/new-trick/6812894902?i=6812894907",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -3181,30 +2398,23 @@
     },
     {
       "position": 96,
-      "id": "spotify:7e2dvR0ySx1bBJRDxVJiG1",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "7e2dvR0ySx1bBJRDxVJiG1",
-      "appleId": null,
-      "title": "Shikayat",
-      "artist": "AUR",
+      "id": "apple:6772998267",
+      "provider": "apple-music",
+      "appleId": "6772998267",
+      "title": "Aarzu (with Asim Azhar)",
+      "artist": "Asim Azhar, Noor, Khan & Madhurxo",
       "artistNames": [
-        "AUR"
+        "Asim Azhar, Noor, Khan & Madhurxo"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-05-29",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/76/6f/e9766f7f-4686-1a45-c4c1-24f7e892d737/26UMGIM67599.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/aarzu-with-asim-azhar/6772998266?i=6772998267",
+      "sourceUrl": "https://music.apple.com/pk/album/aarzu-with-asim-azhar/6772998266?i=6772998267",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Pop",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -3213,30 +2423,23 @@
     },
     {
       "position": 97,
-      "id": "spotify:4IR5cCTkL4DjgJwtSijbjL",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4IR5cCTkL4DjgJwtSijbjL",
-      "appleId": null,
-      "title": "Pardes Katenda",
-      "artist": "Adnan Dhool",
+      "id": "apple:1885907879",
+      "provider": "apple-music",
+      "appleId": "1885907879",
+      "title": "Jaan Se Guzarte Hain",
+      "artist": "Shashwat Sachdev & Khan Saab",
       "artistNames": [
-        "Adnan Dhool"
+        "Shashwat Sachdev & Khan Saab"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-03-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/74/08/897408d1-39d9-5d32-06a8-256ea77e4158/8902894362900_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/jaan-se-guzarte-hain/1885907871?i=1885907879",
+      "sourceUrl": "https://music.apple.com/pk/album/jaan-se-guzarte-hain/1885907871?i=1885907879",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -3245,33 +2448,23 @@
     },
     {
       "position": 98,
-      "id": "spotify:0fCQRUbk8LIQTdQYGNtGyv",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "0fCQRUbk8LIQTdQYGNtGyv",
-      "appleId": null,
-      "title": "Tere Liye",
-      "artist": "Atif Aslam, Shreya Ghoshal, Sachin Gupta, Sameer Anjaan",
+      "id": "apple:6810716062",
+      "provider": "apple-music",
+      "appleId": "6810716062",
+      "title": "So Good (feat. Kendrick Lamar)",
+      "artist": "Jhené Aiko",
       "artistNames": [
-        "Atif Aslam",
-        "Shreya Ghoshal",
-        "Sachin Gupta",
-        "Sameer Anjaan"
+        "Jhené Aiko"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-09-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/so-good-feat-kendrick-lamar/6810715695?i=6810716062",
+      "sourceUrl": "https://music.apple.com/pk/album/so-good-feat-kendrick-lamar/6810715695?i=6810716062",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "R&B/Soul",
+        "Music"
       ],
       "country": "PK",
       "regions": [
@@ -3280,31 +2473,23 @@
     },
     {
       "position": 99,
-      "id": "spotify:1gSbvgbyq0dyjbF2sq3njt",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "1gSbvgbyq0dyjbF2sq3njt",
-      "appleId": null,
-      "title": "The Beast",
-      "artist": "Cheema Y, Gur Sidhu",
+      "id": "apple:6803146851",
+      "provider": "apple-music",
+      "appleId": "6803146851",
+      "title": "Raaton Mein Aana (From \"Vibe\")",
+      "artist": "Amit Trivedi & Kumaar",
       "artistNames": [
-        "Cheema Y",
-        "Gur Sidhu"
+        "Amit Trivedi & Kumaar"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ce1ba02a9f8250efe8b998045",
-      "sourceUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "spotifyUrl": "https://open.spotify.com/playlist/1ZClDX4alualfH0EkhTnYB",
-      "appleUrl": null,
+      "releaseDate": "2026-08-27",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/dc/3a/cddc3a65-e5dd-2602-0321-3b53704d191a/8901854117710.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/raaton-mein-aana-from-vibe/6803146587?i=6803146851",
+      "sourceUrl": "https://music.apple.com/pk/album/raaton-mein-aana-from-vibe/6803146587?i=6803146851",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-top-songs"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
@@ -3313,30 +2498,23 @@
     },
     {
       "position": 100,
-      "id": "spotify:4VsP4Dm8gsibRxB5I2hEkw",
-      "provider": "pulsedeck-curated",
-      "spotifyId": "4VsP4Dm8gsibRxB5I2hEkw",
-      "appleId": null,
-      "title": "Kahani Suno 2.0",
-      "artist": "Kaifi Khalil",
+      "id": "apple:6792709557",
+      "provider": "apple-music",
+      "appleId": "6792709557",
+      "title": "Yeh Awarapan (From \"Awarapan 2\")",
+      "artist": "Amaal Mallik, Arijit Singh & Rashmi Virag",
       "artistNames": [
-        "Kaifi Khalil"
+        "Amaal Mallik, Arijit Singh & Rashmi Virag"
       ],
       "albumTitle": "",
-      "releaseDate": null,
-      "coverImage": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f85b858f5126f082d2ea5941",
-      "sourceUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "spotifyUrl": "https://open.spotify.com/playlist/3UIVarJsM7LKrkNXj6d1xN",
-      "appleUrl": null,
+      "releaseDate": "2026-07-21",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/70/18/f4701835-2020-152a-fce6-387d69d87ba4/196874621936.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/pk/album/yeh-awarapan-from-awarapan-2/6792709553?i=6792709557",
+      "sourceUrl": "https://music.apple.com/pk/album/yeh-awarapan-from-awarapan-2/6792709553?i=6792709557",
       "explicit": false,
       "genres": [
-        "current",
-        "pakistani",
-        "pop"
-      ],
-      "sourcePlaylistCount": 1,
-      "sourcePlaylists": [
-        "pakistan-trending"
+        "Music",
+        "Soundtrack"
       ],
       "country": "PK",
       "regions": [
