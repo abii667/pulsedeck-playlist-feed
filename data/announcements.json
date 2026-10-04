@@ -1,8 +1,21 @@
 {
   "schemaVersion": 1,
-  "revision": 13,
-  "generatedAt": "2026-10-04T18:25:26.261Z",
+  "revision": 14,
+  "generatedAt": "2026-10-04T18:31:17.076Z",
   "messages": [
+    {
+      "id": "announcement-1b687973-9593-40ab-850e-dc8e137c61ad",
+      "title": "Welcome",
+      "body": "Update Available on Telegram",
+      "type": "update",
+      "publishedAt": "2026-10-04T18:31:16.765Z",
+      "expiresAt": null,
+      "action": {
+        "label": "Update",
+        "url": "https://t.me/PulseDeckStream"
+      },
+      "maxVersionCode": 4
+    },
     {
       "id": "announcement-efb1655b-f871-442d-a9e5-0b6e8bebcf45",
       "title": "Update Available",
