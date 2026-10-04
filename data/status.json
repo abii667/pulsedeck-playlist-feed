@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T11:40:19.934Z",
-  "ok": false,
+  "generatedAt": "2026-10-04T12:22:26.181Z",
+  "ok": true,
   "playlists": [
     {
       "slug": "todays-top-hits",
@@ -250,7 +250,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:a1450bdf4c2666dfe60c8e41f0c943ea977a578b",
+      "snapshotId": "public:73431fca3bb2f278a82f1ff3cc62cc42d4603a43",
       "trackCount": 50
     },
     {
@@ -260,7 +260,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
+      "snapshotId": "public:d10a64deb4d7de26632257ec234db7cd0627d5eb",
       "trackCount": 100
     },
     {
@@ -270,7 +270,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:62d1cdf08266af4dcf5a2b0da913f8b7d8150d5e",
+      "snapshotId": "public:886f6a61d9ad99cef1c6d9e6f750c1908137c4a4",
       "trackCount": 100
     },
     {
@@ -380,7 +380,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:767fc7bddb6335ffb8182c0726773fa8b07f48d8",
+      "snapshotId": "public:d3e392c7734ea86449d268480d0993e7694fae3d",
       "trackCount": 40
     },
     {
@@ -400,7 +400,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:ba75f1cf0cc23a48c0f70375c96ca59fbbb999b2",
+      "snapshotId": "public:6408fde27216dade90163c865fc66d0a8b7eaea2",
       "trackCount": 100
     },
     {
@@ -410,7 +410,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:5200fa8e7ece3c17acd89158a746602f77f1685a",
+      "snapshotId": "public:c0988d4abb71df850441a43a84bc92c0910f07fa",
       "trackCount": 91
     },
     {
@@ -420,7 +420,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:64d7e915ddfc4ef46be56362ef1240d2eb0b9ae6",
+      "snapshotId": "public:b62c71528e1bd3746eb9992053a0e76da9634a20",
       "trackCount": 51
     },
     {
@@ -440,7 +440,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:e46110152c831681c5bfdcbe72322a9bfbb88e01",
+      "snapshotId": "public:3152c92a474018557a89f4e666aa9e88e47da385",
       "trackCount": 100
     },
     {
@@ -520,7 +520,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:2b4f1988c0005f0ed5b3c2bdd59c122741575267",
+      "snapshotId": "public:f942c3165e5482a053310c20e7f65a8382632f00",
       "trackCount": 100
     },
     {
@@ -530,14 +530,18 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:ce41be04454e877fca23c9fc48984547cce60e60",
+      "snapshotId": "public:31e0311e8c1828d8b25b3a93561bf0b83032df5c",
       "trackCount": 96
     },
     {
       "slug": "pakistan-trending",
-      "ok": false,
-      "stale": true,
-      "error": "pakistan-trending returned no tracks"
+      "ok": true,
+      "stale": false,
+      "fetchMode": "public",
+      "contentMode": "embed",
+      "tracksAvailable": true,
+      "snapshotId": "public:38ad134a72709a07d7d6a76916017a887a1df9df",
+      "trackCount": 88
     }
   ],
   "youtube": [
@@ -722,7 +726,7 @@
       "ok": true,
       "stale": false,
       "episodeCount": 20,
-      "snapshotId": "rss:3d5d0a4511bb7a03e7775b1781836f1e1934b2a7"
+      "snapshotId": "rss:22f227a6a17054bc231dabd639e6124243500a96"
     },
     {
       "kind": "show",
@@ -730,7 +734,7 @@
       "ok": true,
       "stale": false,
       "episodeCount": 20,
-      "snapshotId": "rss:2244043fb563516538948eae9ba6461c2610021e"
+      "snapshotId": "rss:a56d9bc45f3bb45246cc2cfc736f741f68b736b0"
     },
     {
       "kind": "show",
@@ -1110,10 +1114,9 @@
     },
     {
       "region": "TR",
-      "ok": false,
-      "stale": true,
-      "playlistCount": 50,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "stale": false,
+      "playlistCount": 50
     },
     {
       "region": "AO",
@@ -1675,10 +1678,9 @@
     },
     {
       "region": "NL",
-      "ok": false,
-      "stale": true,
-      "playlistCount": 50,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "stale": false,
+      "playlistCount": 50
     },
     {
       "region": "NO",
@@ -1880,10 +1882,9 @@
     },
     {
       "region": "CN",
-      "ok": false,
-      "stale": true,
-      "playlistCount": 50,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "stale": false,
+      "playlistCount": 50
     },
     {
       "region": "HK",
@@ -2131,12 +2132,13 @@
     {
       "region": "IT",
       "ok": true,
-      "status": "fresh",
+      "status": "stale",
       "provider": "apple-music",
       "available": true,
       "official": true,
-      "stale": false,
-      "trackCount": 100
+      "stale": true,
+      "trackCount": 100,
+      "error": "JSON fetch failed: 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
     },
     {
       "region": "DO",
