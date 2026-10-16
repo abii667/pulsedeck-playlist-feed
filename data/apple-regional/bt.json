@@ -4,20 +4,21 @@
   "region": "BT",
   "regionName": "Bhutan",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/bt/music/most-played/50/playlists.json",
-  "updatedAt": "2026-10-15T11:48:16.000Z",
+  "updatedAt": "2026-10-16T11:44:43.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
     {
       "position": 1,
-      "id": "apple:pl.733395f7caac4866b61dc281ac50bb2d",
+      "id": "apple:pl.a784f95d4f504d579647523ff95433be",
       "provider": "apple-music",
-      "appleId": "pl.733395f7caac4866b61dc281ac50bb2d",
-      "title": "EDM Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/TestSource211/v4/1e/e3/d6/1ee3d6e0-9302-effa-8cbd-bb9a7fb7cd0f/4e66e8e0-3b2f-4700-bdee-32a45166ef54.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/bt/playlist/edm-essentials/pl.733395f7caac4866b61dc281ac50bb2d",
+      "appleId": "pl.a784f95d4f504d579647523ff95433be",
+      "title": "New in K-Pop",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/95/ed/bc/95edbc85-6994-6fc2-851f-5e62b2d720ec/2818a03f-9b9d-4747-8545-862deb5b14eb.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/bt/playlist/new-in-k-pop/pl.a784f95d4f504d579647523ff95433be",
       "interests": [
-        "electronic"
+        "pop",
+        "k-pop"
       ],
       "regions": [
         "BT"
@@ -25,14 +26,14 @@
     },
     {
       "position": 2,
-      "id": "apple:pl.8e273cc4330f43abae2d22188fbd960c",
+      "id": "apple:pl.b5e8dbe8a706496496e1292466839207",
       "provider": "apple-music",
-      "appleId": "pl.8e273cc4330f43abae2d22188fbd960c",
-      "title": "Sia Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/a9/09/18/a9091850-af3a-ffbf-65e3-349d5b6eb926/ami-identity-e481968227e39f49322f9ea36d4ae0b8-2026-03-05T20-24-38.844Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/bt/playlist/sia-essentials/pl.8e273cc4330f43abae2d22188fbd960c",
+      "appleId": "pl.b5e8dbe8a706496496e1292466839207",
+      "title": "Acoustic Chill",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c5/51/38/c5513893-6092-3ab0-9a1d-e8e8001feeef/119b050f-feb9-472f-81ee-96fd6643fe9e.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/bt/playlist/acoustic-chill/pl.b5e8dbe8a706496496e1292466839207",
       "interests": [
-        "popular"
+        "chill"
       ],
       "regions": [
         "BT"
@@ -40,6 +41,21 @@
     },
     {
       "position": 3,
+      "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
+      "provider": "apple-music",
+      "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
+      "title": "Pure Focus",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/57/3e/bd/573ebdf3-c986-17e6-4bff-95bd340d4fb6/U0MtTVMtV1ctUHVyZV9Gb2N1cy1BREFNX0lEPTExMjQ1Njc1NDEucG5n.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/bt/playlist/pure-focus/pl.dbd712beded846dca273d5d3259d28aa",
+      "interests": [
+        "focus"
+      ],
+      "regions": [
+        "BT"
+      ]
+    },
+    {
+      "position": 4,
       "id": "apple:pl.322309345de044cdb07921938347e36e",
       "provider": "apple-music",
       "appleId": "pl.322309345de044cdb07921938347e36e",
@@ -55,7 +71,67 @@
       ]
     },
     {
-      "position": 4,
+      "position": 5,
+      "id": "apple:pl.733395f7caac4866b61dc281ac50bb2d",
+      "provider": "apple-music",
+      "appleId": "pl.733395f7caac4866b61dc281ac50bb2d",
+      "title": "EDM Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/TestSource211/v4/1e/e3/d6/1ee3d6e0-9302-effa-8cbd-bb9a7fb7cd0f/4e66e8e0-3b2f-4700-bdee-32a45166ef54.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/bt/playlist/edm-essentials/pl.733395f7caac4866b61dc281ac50bb2d",
+      "interests": [
+        "electronic"
+      ],
+      "regions": [
+        "BT"
+      ]
+    },
+    {
+      "position": 6,
+      "id": "apple:pl.8e273cc4330f43abae2d22188fbd960c",
+      "provider": "apple-music",
+      "appleId": "pl.8e273cc4330f43abae2d22188fbd960c",
+      "title": "Sia Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/a9/09/18/a9091850-af3a-ffbf-65e3-349d5b6eb926/ami-identity-e481968227e39f49322f9ea36d4ae0b8-2026-03-05T20-24-38.844Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/bt/playlist/sia-essentials/pl.8e273cc4330f43abae2d22188fbd960c",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "BT"
+      ]
+    },
+    {
+      "position": 7,
+      "id": "apple:pl.97287f967dbd48ecb281b9e5ae11d762",
+      "provider": "apple-music",
+      "appleId": "pl.97287f967dbd48ecb281b9e5ae11d762",
+      "title": "Bollywood Romance",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/03/68/8e/03688e80-cf7d-6028-4353-323e3e482668/U0MtTVMtV1ctQm9sbHl3b29kX1JvbWFuY2UucG5n.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/bt/playlist/bollywood-romance/pl.97287f967dbd48ecb281b9e5ae11d762",
+      "interests": [
+        "indian"
+      ],
+      "regions": [
+        "BT"
+      ]
+    },
+    {
+      "position": 8,
+      "id": "apple:pl.6654fe3086ea43498ff05ed652d6367e",
+      "provider": "apple-music",
+      "appleId": "pl.6654fe3086ea43498ff05ed652d6367e",
+      "title": "Sound Therapy: Focus",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/4f/31/5d/4f315daa-a8e5-049e-660b-397702f80395/48870924-9a19-44ab-801f-ccc817a55a7d.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/bt/playlist/sound-therapy-focus/pl.6654fe3086ea43498ff05ed652d6367e",
+      "interests": [
+        "focus"
+      ],
+      "regions": [
+        "BT"
+      ]
+    },
+    {
+      "position": 9,
       "id": "apple:pl.4454ba04011b4b08a0695cd086f9c8b8",
       "provider": "apple-music",
       "appleId": "pl.4454ba04011b4b08a0695cd086f9c8b8",
@@ -70,12 +146,12 @@
       ]
     },
     {
-      "position": 5,
+      "position": 10,
       "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
       "provider": "apple-music",
       "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
       "title": "Today’s Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d0/e5/8d/d0e58db7-7ad5-2db3-e4e9-e3823e4e296e/a4a1123d-5c2b-4640-be2a-8c69a401be8a.png/1200x1200bb.jpg?l=en-GB",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a6/0a/1c/a60a1c71-1bd6-4d60-c0a7-709e097f9433/c5c59722-6aa3-4fc1-8776-bea6e7cedb60.png/1200x1200bb.jpg?l=en-GB",
       "appleUrl": "https://music.apple.com/bt/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb",
       "interests": [
         "popular"
@@ -85,12 +161,12 @@
       ]
     },
     {
-      "position": 6,
+      "position": 11,
       "id": "apple:pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "provider": "apple-music",
       "appleId": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "title": "R&B Now",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/91/78/95/9178953d-110f-32a8-0503-a6dedfd8b3fd/e06f26fe-cdf0-473a-9201-e57abcbd3364.png/1200x1200bb.jpg?l=en-GB",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d7/3b/19/d73b1980-be3f-63fc-2c7c-9913218fdd62/680586f5-24bf-46b6-8523-897ebe968486.png/1200x1200bb.jpg?l=en-GB",
       "appleUrl": "https://music.apple.com/bt/playlist/r-b-now/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
       "interests": [
         "rnb"
@@ -100,37 +176,7 @@
       ]
     },
     {
-      "position": 7,
-      "id": "apple:pl.4f5968ee1379471292000b78e735d50a",
-      "provider": "apple-music",
-      "appleId": "pl.4f5968ee1379471292000b78e735d50a",
-      "title": "Zach Bryan’s With Heaven on Top Tour Set List",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0e/70/fc/0e70fcc6-6faa-40ee-43dc-637076a53942/mzl.stpkphcg.jpg/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/bt/playlist/zach-bryans-with-heaven-on-top-tour-set-list/pl.4f5968ee1379471292000b78e735d50a",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "BT"
-      ]
-    },
-    {
-      "position": 8,
-      "id": "apple:pl.93a821b81c0d4e1c91afca23a8ee3b08",
-      "provider": "apple-music",
-      "appleId": "pl.93a821b81c0d4e1c91afca23a8ee3b08",
-      "title": "BTS World Tour ARIRANG Set List",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/8d/87/3c8d8721-24fa-0250-7e00-3f1990ccc0c0/ami-identity-5644914dae79e9896405d9b5b7ac9e89-2026-03-20T04-09-55.932Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/bt/playlist/bts-world-tour-arirang-set-list/pl.93a821b81c0d4e1c91afca23a8ee3b08",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "BT"
-      ]
-    },
-    {
-      "position": 9,
+      "position": 12,
       "id": "apple:pl.ae7c5093e09e49bcb60ec2a1fa2eec24",
       "provider": "apple-music",
       "appleId": "pl.ae7c5093e09e49bcb60ec2a1fa2eec24",
@@ -145,7 +191,37 @@
       ]
     },
     {
-      "position": 10,
+      "position": 13,
+      "id": "apple:pl.4f5968ee1379471292000b78e735d50a",
+      "provider": "apple-music",
+      "appleId": "pl.4f5968ee1379471292000b78e735d50a",
+      "title": "Zach Bryan’s With Heaven on Top Tour Set List",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0c/f3/56/0cf356cf-f1b0-4187-fdd4-6b19e1e48f22/mzl.tjnmkrfw.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/bt/playlist/zach-bryans-with-heaven-on-top-tour-set-list/pl.4f5968ee1379471292000b78e735d50a",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "BT"
+      ]
+    },
+    {
+      "position": 14,
+      "id": "apple:pl.93a821b81c0d4e1c91afca23a8ee3b08",
+      "provider": "apple-music",
+      "appleId": "pl.93a821b81c0d4e1c91afca23a8ee3b08",
+      "title": "BTS World Tour ARIRANG Set List",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/8d/87/3c8d8721-24fa-0250-7e00-3f1990ccc0c0/ami-identity-5644914dae79e9896405d9b5b7ac9e89-2026-03-20T04-09-55.932Z_cropped.png/1200x1200bb.jpg?l=en-GB",
+      "appleUrl": "https://music.apple.com/bt/playlist/bts-world-tour-arirang-set-list/pl.93a821b81c0d4e1c91afca23a8ee3b08",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "BT"
+      ]
+    },
+    {
+      "position": 15,
       "id": "apple:pl.fd06425fad934dcf9ac0fde49fd0a425",
       "provider": "apple-music",
       "appleId": "pl.fd06425fad934dcf9ac0fde49fd0a425",
@@ -160,22 +236,7 @@
       ]
     },
     {
-      "position": 11,
-      "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
-      "provider": "apple-music",
-      "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
-      "title": "Pure Focus",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/57/3e/bd/573ebdf3-c986-17e6-4bff-95bd340d4fb6/U0MtTVMtV1ctUHVyZV9Gb2N1cy1BREFNX0lEPTExMjQ1Njc1NDEucG5n.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/bt/playlist/pure-focus/pl.dbd712beded846dca273d5d3259d28aa",
-      "interests": [
-        "focus"
-      ],
-      "regions": [
-        "BT"
-      ]
-    },
-    {
-      "position": 12,
+      "position": 16,
       "id": "apple:pl.d29a376c60b6430d9efff225cce78fa2",
       "provider": "apple-music",
       "appleId": "pl.d29a376c60b6430d9efff225cce78fa2",
@@ -190,7 +251,7 @@
       ]
     },
     {
-      "position": 13,
+      "position": 17,
       "id": "apple:pl.baa060f67ea94488a6e0c7e90c8afdb0",
       "provider": "apple-music",
       "appleId": "pl.baa060f67ea94488a6e0c7e90c8afdb0",
@@ -205,7 +266,7 @@
       ]
     },
     {
-      "position": 14,
+      "position": 18,
       "id": "apple:pl.f475b81eaf7546ffb8ffd20889f37032",
       "provider": "apple-music",
       "appleId": "pl.f475b81eaf7546ffb8ffd20889f37032",
@@ -220,7 +281,7 @@
       ]
     },
     {
-      "position": 15,
+      "position": 19,
       "id": "apple:pl.6b1b5dfda067443481265436811002f1",
       "provider": "apple-music",
       "appleId": "pl.6b1b5dfda067443481265436811002f1",
@@ -235,7 +296,7 @@
       ]
     },
     {
-      "position": 16,
+      "position": 20,
       "id": "apple:pl.48e325ff9f88496d9ea941dbcce470fe",
       "provider": "apple-music",
       "appleId": "pl.48e325ff9f88496d9ea941dbcce470fe",
@@ -250,7 +311,7 @@
       ]
     },
     {
-      "position": 17,
+      "position": 21,
       "id": "apple:pl.ba2404fbc4464b8ba2d60399189cf24e",
       "provider": "apple-music",
       "appleId": "pl.ba2404fbc4464b8ba2d60399189cf24e",
@@ -265,7 +326,7 @@
       ]
     },
     {
-      "position": 18,
+      "position": 22,
       "id": "apple:pl.ee26872314e349ddaa91050dadbbaaff",
       "provider": "apple-music",
       "appleId": "pl.ee26872314e349ddaa91050dadbbaaff",
@@ -280,7 +341,7 @@
       ]
     },
     {
-      "position": 19,
+      "position": 23,
       "id": "apple:pl.811cbc0f5b754571ac990f5715ff2457",
       "provider": "apple-music",
       "appleId": "pl.811cbc0f5b754571ac990f5715ff2457",
@@ -295,12 +356,12 @@
       ]
     },
     {
-      "position": 20,
+      "position": 24,
       "id": "apple:pl.d60caf02fcce4d7e9788fe01243b7c2c",
       "provider": "apple-music",
       "appleId": "pl.d60caf02fcce4d7e9788fe01243b7c2c",
       "title": "Bollywood Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/13/9a/63/139a6392-2071-3445-7dd0-6f667a613bfd/fc143170-d2a4-4096-9a89-bb5214927cf8.png/1200x1200bb.jpg?l=en-GB",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/12/c4/ca/12c4ca09-706b-319e-eace-4bd950004cac/77f432cc-e6eb-40af-8fe6-6aaa37ebee86.png/1200x1200bb.jpg?l=en-GB",
       "appleUrl": "https://music.apple.com/bt/playlist/bollywood-hits/pl.d60caf02fcce4d7e9788fe01243b7c2c",
       "interests": [
         "indian"
@@ -310,7 +371,7 @@
       ]
     },
     {
-      "position": 21,
+      "position": 25,
       "id": "apple:pl.6dd69a1fa7ff4a7d9091a8954e30ad8a",
       "provider": "apple-music",
       "appleId": "pl.6dd69a1fa7ff4a7d9091a8954e30ad8a",
@@ -325,7 +386,7 @@
       ]
     },
     {
-      "position": 22,
+      "position": 26,
       "id": "apple:pl.7b7f59853efb427c86fe1c359fc175ba",
       "provider": "apple-music",
       "appleId": "pl.7b7f59853efb427c86fe1c359fc175ba",
@@ -341,7 +402,7 @@
       ]
     },
     {
-      "position": 23,
+      "position": 27,
       "id": "apple:pl.725376c1e6b14915b7e27a919db39c52",
       "provider": "apple-music",
       "appleId": "pl.725376c1e6b14915b7e27a919db39c52",
@@ -356,7 +417,7 @@
       ]
     },
     {
-      "position": 24,
+      "position": 28,
       "id": "apple:pl.d39566769cae41d186ac2f9ad15ee0d1",
       "provider": "apple-music",
       "appleId": "pl.d39566769cae41d186ac2f9ad15ee0d1",
@@ -371,7 +432,7 @@
       ]
     },
     {
-      "position": 25,
+      "position": 29,
       "id": "apple:pl.0f458c8569ef4a39a95f6ad4d6c54ba0",
       "provider": "apple-music",
       "appleId": "pl.0f458c8569ef4a39a95f6ad4d6c54ba0",
@@ -386,7 +447,7 @@
       ]
     },
     {
-      "position": 26,
+      "position": 30,
       "id": "apple:pl.eedcf6c827634111bc74c594a9611035",
       "provider": "apple-music",
       "appleId": "pl.eedcf6c827634111bc74c594a9611035",
@@ -402,7 +463,7 @@
       ]
     },
     {
-      "position": 27,
+      "position": 31,
       "id": "apple:pl.3f125934432a4330a928e88447888bee",
       "provider": "apple-music",
       "appleId": "pl.3f125934432a4330a928e88447888bee",
@@ -417,7 +478,7 @@
       ]
     },
     {
-      "position": 28,
+      "position": 32,
       "id": "apple:pl.66fc9e98da7d49e68cd00de798b86d69",
       "provider": "apple-music",
       "appleId": "pl.66fc9e98da7d49e68cd00de798b86d69",
@@ -432,7 +493,7 @@
       ]
     },
     {
-      "position": 29,
+      "position": 33,
       "id": "apple:pl.6f6883919c3b4ba68d1a4c32e6b54dfa",
       "provider": "apple-music",
       "appleId": "pl.6f6883919c3b4ba68d1a4c32e6b54dfa",
@@ -447,7 +508,7 @@
       ]
     },
     {
-      "position": 30,
+      "position": 34,
       "id": "apple:pl.b8afd0ec852542f785a5f7a4a9a80d6a",
       "provider": "apple-music",
       "appleId": "pl.b8afd0ec852542f785a5f7a4a9a80d6a",
@@ -462,7 +523,7 @@
       ]
     },
     {
-      "position": 31,
+      "position": 35,
       "id": "apple:pl.047294ae14a24e5993d1f7ab2b127188",
       "provider": "apple-music",
       "appleId": "pl.047294ae14a24e5993d1f7ab2b127188",
@@ -477,7 +538,7 @@
       ]
     },
     {
-      "position": 32,
+      "position": 36,
       "id": "apple:pl.0b6396cf63594f5cb834aff82520eb84",
       "provider": "apple-music",
       "appleId": "pl.0b6396cf63594f5cb834aff82520eb84",
@@ -492,7 +553,7 @@
       ]
     },
     {
-      "position": 33,
+      "position": 37,
       "id": "apple:pl.ae3d5c160f9245d3beae7a001260752c",
       "provider": "apple-music",
       "appleId": "pl.ae3d5c160f9245d3beae7a001260752c",
@@ -509,7 +570,7 @@
       ]
     },
     {
-      "position": 34,
+      "position": 38,
       "id": "apple:pl.8842025aab5a4ae9ad13bb3f5ee7516b",
       "provider": "apple-music",
       "appleId": "pl.8842025aab5a4ae9ad13bb3f5ee7516b",
@@ -524,12 +585,12 @@
       ]
     },
     {
-      "position": 35,
+      "position": 39,
       "id": "apple:pl.5ee8333dbe944d9f9151e97d92d1ead9",
       "provider": "apple-music",
       "appleId": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
       "title": "A-List Pop",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/7d/87/64/7d87640b-5967-05c2-1ddd-3a69466eb891/3b054703-6011-46a6-91a8-b1ea3e954067.png/1200x1200bb.jpg?l=en-GB",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/cb/2d/b6/cb2db64b-b360-0c9c-d00a-44664c02493b/49bab4be-c4c2-4d3a-9746-1c712cd76cf4.png/1200x1200bb.jpg?l=en-GB",
       "appleUrl": "https://music.apple.com/bt/playlist/a-list-pop/pl.5ee8333dbe944d9f9151e97d92d1ead9",
       "interests": [
         "pop"
@@ -539,7 +600,7 @@
       ]
     },
     {
-      "position": 36,
+      "position": 40,
       "id": "apple:pl.bd6768d7c2574d728910bf09de702083",
       "provider": "apple-music",
       "appleId": "pl.bd6768d7c2574d728910bf09de702083",
@@ -554,7 +615,7 @@
       ]
     },
     {
-      "position": 37,
+      "position": 41,
       "id": "apple:pl.1b59383d41a74a889e8a28c31a3552c3",
       "provider": "apple-music",
       "appleId": "pl.1b59383d41a74a889e8a28c31a3552c3",
@@ -569,7 +630,7 @@
       ]
     },
     {
-      "position": 38,
+      "position": 42,
       "id": "apple:pl.cc13740af0374560ac1c659ca2a89dd8",
       "provider": "apple-music",
       "appleId": "pl.cc13740af0374560ac1c659ca2a89dd8",
@@ -584,7 +645,7 @@
       ]
     },
     {
-      "position": 39,
+      "position": 43,
       "id": "apple:pl.522581bf8c264bafa742e75df9772078",
       "provider": "apple-music",
       "appleId": "pl.522581bf8c264bafa742e75df9772078",
@@ -599,7 +660,7 @@
       ]
     },
     {
-      "position": 40,
+      "position": 44,
       "id": "apple:pl.5b7698bbcd01407a92b8457f650bebaf",
       "provider": "apple-music",
       "appleId": "pl.5b7698bbcd01407a92b8457f650bebaf",
@@ -615,7 +676,7 @@
       ]
     },
     {
-      "position": 41,
+      "position": 45,
       "id": "apple:pl.2bb29727dbc34a63936787297305c37c",
       "provider": "apple-music",
       "appleId": "pl.2bb29727dbc34a63936787297305c37c",
@@ -630,7 +691,7 @@
       ]
     },
     {
-      "position": 42,
+      "position": 46,
       "id": "apple:pl.1576640e5fd34647a2418a56f85ddc13",
       "provider": "apple-music",
       "appleId": "pl.1576640e5fd34647a2418a56f85ddc13",
@@ -645,7 +706,7 @@
       ]
     },
     {
-      "position": 43,
+      "position": 47,
       "id": "apple:pl.f54198ad42404535be13eabf3835fb22",
       "provider": "apple-music",
       "appleId": "pl.f54198ad42404535be13eabf3835fb22",
@@ -660,7 +721,7 @@
       ]
     },
     {
-      "position": 44,
+      "position": 48,
       "id": "apple:pl.2b426ec1994e4120910214dab840c927",
       "provider": "apple-music",
       "appleId": "pl.2b426ec1994e4120910214dab840c927",
@@ -675,7 +736,7 @@
       ]
     },
     {
-      "position": 45,
+      "position": 49,
       "id": "apple:pl.9b626e076c8d4b99aca7ee84573c5e5a",
       "provider": "apple-music",
       "appleId": "pl.9b626e076c8d4b99aca7ee84573c5e5a",
@@ -690,22 +751,7 @@
       ]
     },
     {
-      "position": 46,
-      "id": "apple:pl.97287f967dbd48ecb281b9e5ae11d762",
-      "provider": "apple-music",
-      "appleId": "pl.97287f967dbd48ecb281b9e5ae11d762",
-      "title": "Bollywood Romance",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/03/68/8e/03688e80-cf7d-6028-4353-323e3e482668/U0MtTVMtV1ctQm9sbHl3b29kX1JvbWFuY2UucG5n.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/bt/playlist/bollywood-romance/pl.97287f967dbd48ecb281b9e5ae11d762",
-      "interests": [
-        "indian"
-      ],
-      "regions": [
-        "BT"
-      ]
-    },
-    {
-      "position": 47,
+      "position": 50,
       "id": "apple:pl.4fe900324b5d4581a85f3fa58f9bc12e",
       "provider": "apple-music",
       "appleId": "pl.4fe900324b5d4581a85f3fa58f9bc12e",
@@ -714,52 +760,6 @@
       "appleUrl": "https://music.apple.com/bt/playlist/keshi-essentials/pl.4fe900324b5d4581a85f3fa58f9bc12e",
       "interests": [
         "popular"
-      ],
-      "regions": [
-        "BT"
-      ]
-    },
-    {
-      "position": 48,
-      "id": "apple:pl.34a41c73937e4994a8a5cdc243e917cc",
-      "provider": "apple-music",
-      "appleId": "pl.34a41c73937e4994a8a5cdc243e917cc",
-      "title": "Drake: Love Songs",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages112/v4/1b/71/65/1b716513-b0c1-9c6b-45aa-cbb9198248cc/01607cf1-1d52-43d2-84ce-d6fc1f4a3475_ami-identity-7665599cc626d803af7956b3691905e7-2022-11-30T21-07-19.526Z_cropped.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/bt/playlist/drake-love-songs/pl.34a41c73937e4994a8a5cdc243e917cc",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "BT"
-      ]
-    },
-    {
-      "position": 49,
-      "id": "apple:pl.3f890f86d4af450f9282446dfd4fdd4f",
-      "provider": "apple-music",
-      "appleId": "pl.3f890f86d4af450f9282446dfd4fdd4f",
-      "title": "Country Hits: 2020",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/c8/ab/7d/c8ab7dda-ca60-956a-01d7-208a5761223f/f469be0f-faee-4f29-b8a4-4087f9307178.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/bt/playlist/country-hits-2020/pl.3f890f86d4af450f9282446dfd4fdd4f",
-      "interests": [
-        "country"
-      ],
-      "regions": [
-        "BT"
-      ]
-    },
-    {
-      "position": 50,
-      "id": "apple:pl.4c62f568a0d64293a9c362037175c09b",
-      "provider": "apple-music",
-      "appleId": "pl.4c62f568a0d64293a9c362037175c09b",
-      "title": "Hip-Hop Workout",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/b9/18/02/b9180250-a496-520c-70eb-6f01710b083d/U0MtTVMtV1ctSGlwLUhvcF9Xb3Jrb3V0LUFEQU1fSUQ9MTAwNDc4MTM5Ni5wbmc.png/1200x1200bb.jpg?l=en-GB",
-      "appleUrl": "https://music.apple.com/bt/playlist/hip-hop-workout/pl.4c62f568a0d64293a9c362037175c09b",
-      "interests": [
-        "hip-hop",
-        "workout"
       ],
       "regions": [
         "BT"
