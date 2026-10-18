@@ -7,8 +7,8 @@
   "country": "SE",
   "countryName": "Sweden",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/se/music/most-played/100/songs.json",
-  "updatedAt": "2026-10-17T11:24:35.000Z",
-  "checkedAt": "2026-10-17T10:44:53.397Z",
+  "updatedAt": "2026-10-18T11:36:42.000Z",
+  "checkedAt": "2026-10-18T11:06:03.974Z",
   "status": "fresh",
   "available": true,
   "official": true,
@@ -19,6 +19,31 @@
   "tracks": [
     {
       "position": 1,
+      "id": "apple:6822497774",
+      "provider": "apple-music",
+      "appleId": "6822497774",
+      "title": "Housewife",
+      "artist": "Tate McRae",
+      "artistNames": [
+        "Tate McRae"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/housewife/6822497770?i=6822497774",
+      "sourceUrl": "https://music.apple.com/se/album/housewife/6822497770?i=6822497774",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 2,
       "id": "apple:6807192825",
       "provider": "apple-music",
       "appleId": "6807192825",
@@ -43,45 +68,20 @@
       ]
     },
     {
-      "position": 2,
-      "id": "apple:6814997425",
-      "provider": "apple-music",
-      "appleId": "6814997425",
-      "title": "Patient Zero",
-      "artist": "Taylor Swift",
-      "artistNames": [
-        "Taylor Swift"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-24",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/patient-zero/6814997249?i=6814997425",
-      "sourceUrl": "https://music.apple.com/se/album/patient-zero/6814997249?i=6814997425",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
       "position": 3,
-      "id": "apple:6822497774",
+      "id": "apple:6768469976",
       "provider": "apple-music",
-      "appleId": "6822497774",
-      "title": "Housewife",
-      "artist": "Tate McRae",
+      "appleId": "6768469976",
+      "title": "Dai Dai",
+      "artist": "Shakira & Burna Boy",
       "artistNames": [
-        "Tate McRae"
+        "Shakira & Burna Boy"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-10-15",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/96/2b/2b962b77-3a04-5650-aefd-37ecfce04b03/196874840146.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/housewife/6822497770?i=6822497774",
-      "sourceUrl": "https://music.apple.com/se/album/housewife/6822497770?i=6822497774",
+      "releaseDate": "2026-05-14",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/dai-dai/6768469975?i=6768469976",
+      "sourceUrl": "https://music.apple.com/se/album/dai-dai/6768469975?i=6768469976",
       "explicit": false,
       "genres": [
         "Pop",
@@ -119,19 +119,19 @@
     },
     {
       "position": 5,
-      "id": "apple:6768469976",
+      "id": "apple:6814997425",
       "provider": "apple-music",
-      "appleId": "6768469976",
-      "title": "Dai Dai",
-      "artist": "Shakira & Burna Boy",
+      "appleId": "6814997425",
+      "title": "Patient Zero",
+      "artist": "Taylor Swift",
       "artistNames": [
-        "Shakira & Burna Boy"
+        "Taylor Swift"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-05-14",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/dai-dai/6768469975?i=6768469976",
-      "sourceUrl": "https://music.apple.com/se/album/dai-dai/6768469975?i=6768469976",
+      "releaseDate": "2026-09-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/patient-zero/6814997249?i=6814997425",
+      "sourceUrl": "https://music.apple.com/se/album/patient-zero/6814997249?i=6814997425",
       "explicit": false,
       "genres": [
         "Pop",
@@ -169,19 +169,19 @@
     },
     {
       "position": 7,
-      "id": "apple:6763656876",
+      "id": "apple:6793209964",
       "provider": "apple-music",
-      "appleId": "6763656876",
-      "title": "hate that i made you love me",
-      "artist": "Ariana Grande",
+      "appleId": "6793209964",
+      "title": "Animal",
+      "artist": "KATSEYE",
       "artistNames": [
-        "Ariana Grande"
+        "KATSEYE"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-05-28",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
-      "sourceUrl": "https://music.apple.com/se/album/hate-that-i-made-you-love-me/1895420989?i=6763656876",
+      "releaseDate": "2026-07-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/0e/32/350e32e1-7bfc-6d96-174a-0d11309365ef/26UMGIM84288.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/animal/6793209963?i=6793209964",
+      "sourceUrl": "https://music.apple.com/se/album/animal/6793209963?i=6793209964",
       "explicit": false,
       "genres": [
         "Pop",
@@ -219,31 +219,6 @@
     },
     {
       "position": 9,
-      "id": "apple:6822390426",
-      "provider": "apple-music",
-      "appleId": "6822390426",
-      "title": "expectations",
-      "artist": "Olivia Rodrigo & Chappell Roan",
-      "artistNames": [
-        "Olivia Rodrigo & Chappell Roan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/3c/b2/d23cb283-5f3e-7433-bc41-86c7d77c4503/26UM1IM29619.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/expectations/6822390423?i=6822390426",
-      "sourceUrl": "https://music.apple.com/se/album/expectations/6822390423?i=6822390426",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 10,
       "id": "apple:1817499251",
       "provider": "apple-music",
       "appleId": "1817499251",
@@ -257,6 +232,31 @@
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/1d/2d/fb1d2d1c-0f79-53ad-ab9b-ac20918b5856/196873177199.jpg/1200x1200bb.jpg",
       "appleUrl": "https://music.apple.com/se/album/midnight-sun/1817499239?i=1817499251",
       "sourceUrl": "https://music.apple.com/se/album/midnight-sun/1817499239?i=1817499251",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 10,
+      "id": "apple:6782894402",
+      "provider": "apple-music",
+      "appleId": "6782894402",
+      "title": "hate that i made you love me",
+      "artist": "Ariana Grande",
+      "artistNames": [
+        "Ariana Grande"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-06-26",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/83/7e/bd837ed0-ec1d-30a7-98fe-ad5352e73eed/26UMGIM72032.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/hate-that-i-made-you-love-me/6782894401?i=6782894402",
+      "sourceUrl": "https://music.apple.com/se/album/hate-that-i-made-you-love-me/6782894401?i=6782894402",
       "explicit": false,
       "genres": [
         "Pop",
@@ -294,81 +294,6 @@
     },
     {
       "position": 12,
-      "id": "apple:6793209964",
-      "provider": "apple-music",
-      "appleId": "6793209964",
-      "title": "Animal",
-      "artist": "KATSEYE",
-      "artistNames": [
-        "KATSEYE"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-24",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/0e/32/350e32e1-7bfc-6d96-174a-0d11309365ef/26UMGIM84288.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/animal/6793209963?i=6793209964",
-      "sourceUrl": "https://music.apple.com/se/album/animal/6793209963?i=6793209964",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 13,
-      "id": "apple:6792884101",
-      "provider": "apple-music",
-      "appleId": "6792884101",
-      "title": "Ain't In LA",
-      "artist": "ADÉLA",
-      "artistNames": [
-        "ADÉLA"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-23",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/aint-in-la/6792883860?i=6792884101",
-      "sourceUrl": "https://music.apple.com/se/album/aint-in-la/6792883860?i=6792884101",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 14,
-      "id": "apple:6795697687",
-      "provider": "apple-music",
-      "appleId": "6795697687",
-      "title": "Stop The Wedding!",
-      "artist": "Ashe",
-      "artistNames": [
-        "Ashe"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-08-07",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/55/7a/b7557aef-bb0a-cc57-25bf-979eee194f16/075679571403.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/stop-the-wedding/6795697684?i=6795697687",
-      "sourceUrl": "https://music.apple.com/se/album/stop-the-wedding/6795697684?i=6795697687",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 15,
       "id": "apple:1597908525",
       "provider": "apple-music",
       "appleId": "1597908525",
@@ -393,23 +318,23 @@
       ]
     },
     {
-      "position": 16,
-      "id": "apple:6822944296",
+      "position": 13,
+      "id": "apple:6822390426",
       "provider": "apple-music",
-      "appleId": "6822944296",
-      "title": "Lies (feat. Lana Del Rey)",
-      "artist": "Zach Bryan & Lana Del Rey",
+      "appleId": "6822390426",
+      "title": "expectations",
+      "artist": "Olivia Rodrigo & Chappell Roan",
       "artistNames": [
-        "Zach Bryan & Lana Del Rey"
+        "Olivia Rodrigo & Chappell Roan"
       ],
       "albumTitle": "",
       "releaseDate": "2026-10-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/lies-feat-lana-del-rey/6822944288?i=6822944296",
-      "sourceUrl": "https://music.apple.com/se/album/lies-feat-lana-del-rey/6822944288?i=6822944296",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/3c/b2/d23cb283-5f3e-7433-bc41-86c7d77c4503/26UM1IM29619.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/expectations/6822390423?i=6822390426",
+      "sourceUrl": "https://music.apple.com/se/album/expectations/6822390423?i=6822390426",
       "explicit": false,
       "genres": [
-        "Country",
+        "Pop",
         "Musik"
       ],
       "country": "SE",
@@ -418,23 +343,23 @@
       ]
     },
     {
-      "position": 17,
-      "id": "apple:6792085056",
+      "position": 14,
+      "id": "apple:6792884101",
       "provider": "apple-music",
-      "appleId": "6792085056",
-      "title": "Marianne",
-      "artist": "Fontaines D.C.",
+      "appleId": "6792884101",
+      "title": "Ain't In LA",
+      "artist": "ADÉLA",
       "artistNames": [
-        "Fontaines D.C."
+        "ADÉLA"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-08-18",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/marianne/6792085051?i=6792085056",
-      "sourceUrl": "https://music.apple.com/se/album/marianne/6792085051?i=6792085056",
+      "releaseDate": "2026-07-23",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/77/7b/5d777b87-e796-0b3e-cef6-d37d993dd8fe/26UMGIM82371.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/aint-in-la/6792883860?i=6792884101",
+      "sourceUrl": "https://music.apple.com/se/album/aint-in-la/6792883860?i=6792884101",
       "explicit": false,
       "genres": [
-        "Alternativt",
+        "Pop",
         "Musik"
       ],
       "country": "SE",
@@ -443,7 +368,7 @@
       ]
     },
     {
-      "position": 18,
+      "position": 15,
       "id": "apple:1870962417",
       "provider": "apple-music",
       "appleId": "1870962417",
@@ -462,6 +387,81 @@
         "Pop",
         "Musik",
         "Dance"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 16,
+      "id": "apple:6822944296",
+      "provider": "apple-music",
+      "appleId": "6822944296",
+      "title": "Lies (feat. Lana Del Rey)",
+      "artist": "Zach Bryan & Lana Del Rey",
+      "artistNames": [
+        "Zach Bryan & Lana Del Rey"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/lies-feat-lana-del-rey/6822944288?i=6822944296",
+      "sourceUrl": "https://music.apple.com/se/album/lies-feat-lana-del-rey/6822944288?i=6822944296",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 17,
+      "id": "apple:6795697687",
+      "provider": "apple-music",
+      "appleId": "6795697687",
+      "title": "Stop The Wedding!",
+      "artist": "Ashe",
+      "artistNames": [
+        "Ashe"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-08-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/55/7a/b7557aef-bb0a-cc57-25bf-979eee194f16/075679571403.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/stop-the-wedding/6795697684?i=6795697687",
+      "sourceUrl": "https://music.apple.com/se/album/stop-the-wedding/6795697684?i=6795697687",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 18,
+      "id": "apple:1843595808",
+      "provider": "apple-music",
+      "appleId": "1843595808",
+      "title": "Stateside (with Zara Larsson)",
+      "artist": "PinkPantheress",
+      "artistNames": [
+        "PinkPantheress"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-05-09",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/stateside-with-zara-larsson/1843595790?i=1843595808",
+      "sourceUrl": "https://music.apple.com/se/album/stateside-with-zara-larsson/1843595790?i=1843595808",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
       ],
       "country": "SE",
       "regions": [
@@ -495,56 +495,6 @@
     },
     {
       "position": 20,
-      "id": "apple:1844932150",
-      "provider": "apple-music",
-      "appleId": "1844932150",
-      "title": "Choosin' Texas",
-      "artist": "Ella Langley",
-      "artistNames": [
-        "Ella Langley"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-10-17",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/choosin-texas/1844932149?i=1844932150",
-      "sourceUrl": "https://music.apple.com/se/album/choosin-texas/1844932149?i=1844932150",
-      "explicit": false,
-      "genres": [
-        "Country",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 21,
-      "id": "apple:6792085054",
-      "provider": "apple-music",
-      "appleId": "6792085054",
-      "title": "Six Shot Morning",
-      "artist": "Fontaines D.C.",
-      "artistNames": [
-        "Fontaines D.C."
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/six-shot-morning/6792085051?i=6792085054",
-      "sourceUrl": "https://music.apple.com/se/album/six-shot-morning/6792085051?i=6792085054",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 22,
       "id": "apple:1817499499",
       "provider": "apple-music",
       "appleId": "1817499499",
@@ -569,7 +519,82 @@
       ]
     },
     {
+      "position": 21,
+      "id": "apple:1817609507",
+      "provider": "apple-music",
+      "appleId": "1817609507",
+      "title": "So Easy (To Fall In Love)",
+      "artist": "Olivia Dean",
+      "artistNames": [
+        "Olivia Dean"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-26",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/so-easy-to-fall-in-love/1817609404?i=1817609507",
+      "sourceUrl": "https://music.apple.com/se/album/so-easy-to-fall-in-love/1817609404?i=1817609507",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 22,
+      "id": "apple:1844932150",
+      "provider": "apple-music",
+      "appleId": "1844932150",
+      "title": "Choosin' Texas",
+      "artist": "Ella Langley",
+      "artistNames": [
+        "Ella Langley"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-10-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/choosin-texas/1844932149?i=1844932150",
+      "sourceUrl": "https://music.apple.com/se/album/choosin-texas/1844932149?i=1844932150",
+      "explicit": false,
+      "genres": [
+        "Country",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
       "position": 23,
+      "id": "apple:1510344955",
+      "provider": "apple-music",
+      "appleId": "1510344955",
+      "title": "Dancing on My Own (Radio Edit)",
+      "artist": "Robyn",
+      "artistNames": [
+        "Robyn"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2010-06-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f7/8c/0d/f78c0d62-c591-9774-e292-c3fe513994ea/5060236630292_3000.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/dancing-on-my-own-radio-edit/1510344953?i=1510344955",
+      "sourceUrl": "https://music.apple.com/se/album/dancing-on-my-own-radio-edit/1510344953?i=1510344955",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 24,
       "id": "apple:1842957386",
       "provider": "apple-music",
       "appleId": "1842957386",
@@ -595,82 +620,7 @@
       ]
     },
     {
-      "position": 24,
-      "id": "apple:1843595808",
-      "provider": "apple-music",
-      "appleId": "1843595808",
-      "title": "Stateside (with Zara Larsson)",
-      "artist": "PinkPantheress",
-      "artistNames": [
-        "PinkPantheress"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-05-09",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/d2/bb/b0d2bb76-41a2-1bb1-586c-107b63e4181d/5026854077819.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/stateside-with-zara-larsson/1843595790?i=1843595808",
-      "sourceUrl": "https://music.apple.com/se/album/stateside-with-zara-larsson/1843595790?i=1843595808",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
       "position": 25,
-      "id": "apple:1817609507",
-      "provider": "apple-music",
-      "appleId": "1817609507",
-      "title": "So Easy (To Fall In Love)",
-      "artist": "Olivia Dean",
-      "artistNames": [
-        "Olivia Dean"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-26",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/e2/21/08e22164-7c0b-1522-818f-e0e74f62dc49/25UMGIM69703.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/so-easy-to-fall-in-love/1817609404?i=1817609507",
-      "sourceUrl": "https://music.apple.com/se/album/so-easy-to-fall-in-love/1817609404?i=1817609507",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 26,
-      "id": "apple:6792085388",
-      "provider": "apple-music",
-      "appleId": "6792085388",
-      "title": "Where Is Gone?",
-      "artist": "Fontaines D.C. & ROSALÍA",
-      "artistNames": [
-        "Fontaines D.C. & ROSALÍA"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-12",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/where-is-gone/6792085051?i=6792085388",
-      "sourceUrl": "https://music.apple.com/se/album/where-is-gone/6792085051?i=6792085388",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 27,
       "id": "apple:6819802968",
       "provider": "apple-music",
       "appleId": "6819802968",
@@ -684,6 +634,57 @@
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/23/54/af235448-23b3-a3bf-0738-87f6c44a4bbc/5056556187486_cover.jpg/1200x1200bb.jpg",
       "appleUrl": "https://music.apple.com/se/album/flower-in-a-hurricane-from-gtavi/6819802963?i=6819802968",
       "sourceUrl": "https://music.apple.com/se/album/flower-in-a-hurricane-from-gtavi/6819802963?i=6819802968",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 26,
+      "id": "apple:1641781526",
+      "provider": "apple-music",
+      "appleId": "1641781526",
+      "title": "Billie Jean (Long Version)",
+      "artist": "Michael Jackson",
+      "artistNames": [
+        "Michael Jackson"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1982-01-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/billie-jean-long-version/1641780996?i=1641781526",
+      "sourceUrl": "https://music.apple.com/se/album/billie-jean-long-version/1641780996?i=1641781526",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik",
+        "R&B/Soul"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 27,
+      "id": "apple:6792085056",
+      "provider": "apple-music",
+      "appleId": "6792085056",
+      "title": "Marianne",
+      "artist": "Fontaines D.C.",
+      "artistNames": [
+        "Fontaines D.C."
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-08-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/marianne/6792085051?i=6792085056",
+      "sourceUrl": "https://music.apple.com/se/album/marianne/6792085051?i=6792085056",
       "explicit": false,
       "genres": [
         "Alternativt",
@@ -721,19 +722,44 @@
     },
     {
       "position": 29,
-      "id": "apple:1833328840",
+      "id": "apple:6792085388",
       "provider": "apple-music",
-      "appleId": "1833328840",
-      "title": "The Fate of Ophelia",
-      "artist": "Taylor Swift",
+      "appleId": "6792085388",
+      "title": "Where Is Gone?",
+      "artist": "Fontaines D.C. & ROSALÍA",
       "artistNames": [
-        "Taylor Swift"
+        "Fontaines D.C. & ROSALÍA"
       ],
       "albumTitle": "",
-      "releaseDate": "2025-10-03",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/the-fate-of-ophelia/1833328839?i=1833328840",
-      "sourceUrl": "https://music.apple.com/se/album/the-fate-of-ophelia/1833328839?i=1833328840",
+      "releaseDate": "2026-10-12",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/where-is-gone/6792085051?i=6792085388",
+      "sourceUrl": "https://music.apple.com/se/album/where-is-gone/6792085051?i=6792085388",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 30,
+      "id": "apple:1889992113",
+      "provider": "apple-music",
+      "appleId": "1889992113",
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "artistNames": [
+        "Olivia Rodrigo"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-04-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/drop-dead/1889992111?i=1889992113",
+      "sourceUrl": "https://music.apple.com/se/album/drop-dead/1889992111?i=1889992113",
       "explicit": false,
       "genres": [
         "Pop",
@@ -745,7 +771,7 @@
       ]
     },
     {
-      "position": 30,
+      "position": 31,
       "id": "apple:6769070199",
       "provider": "apple-music",
       "appleId": "6769070199",
@@ -771,20 +797,20 @@
       ]
     },
     {
-      "position": 31,
-      "id": "apple:1889992113",
+      "position": 32,
+      "id": "apple:1856301587",
       "provider": "apple-music",
-      "appleId": "1889992113",
-      "title": "drop dead",
-      "artist": "Olivia Rodrigo",
+      "appleId": "1856301587",
+      "title": "The Fate of Ophelia",
+      "artist": "Taylor Swift",
       "artistNames": [
-        "Olivia Rodrigo"
+        "Taylor Swift"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-04-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/drop-dead/1889992111?i=1889992113",
-      "sourceUrl": "https://music.apple.com/se/album/drop-dead/1889992111?i=1889992113",
+      "releaseDate": "2025-10-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/f4/e8/a3f4e86d-b574-ae74-7b92-fe582ceefc73/25UM1IM98397.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/the-fate-of-ophelia/1856301585?i=1856301587",
+      "sourceUrl": "https://music.apple.com/se/album/the-fate-of-ophelia/1856301585?i=1856301587",
       "explicit": false,
       "genres": [
         "Pop",
@@ -796,7 +822,32 @@
       ]
     },
     {
-      "position": 32,
+      "position": 33,
+      "id": "apple:1641781867",
+      "provider": "apple-music",
+      "appleId": "1641781867",
+      "title": "Thriller 7\" (Special Edit)",
+      "artist": "Michael Jackson",
+      "artistNames": [
+        "Michael Jackson"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1983-01-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/thriller-7-special-edit/1641780996?i=1641781867",
+      "sourceUrl": "https://music.apple.com/se/album/thriller-7-special-edit/1641780996?i=1641781867",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 34,
       "id": "apple:1681792708",
       "provider": "apple-music",
       "appleId": "1681792708",
@@ -821,49 +872,23 @@
       ]
     },
     {
-      "position": 33,
-      "id": "apple:269573364",
+      "position": 35,
+      "id": "apple:1879983789",
       "provider": "apple-music",
-      "appleId": "269573364",
-      "title": "Billie Jean",
-      "artist": "Michael Jackson",
+      "appleId": "1879983789",
+      "title": "FEVER DREAM",
+      "artist": "Alex Warren",
       "artistNames": [
-        "Michael Jackson"
+        "Alex Warren"
       ],
       "albumTitle": "",
-      "releaseDate": "1982-11-29",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/billie-jean/269572838?i=269573364",
-      "sourceUrl": "https://music.apple.com/se/album/billie-jean/269572838?i=269573364",
+      "releaseDate": "2026-06-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/fever-dream/1879983782?i=1879983789",
+      "sourceUrl": "https://music.apple.com/se/album/fever-dream/1879983782?i=1879983789",
       "explicit": false,
       "genres": [
         "Pop",
-        "Musik",
-        "Rock"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 34,
-      "id": "apple:6792085060",
-      "provider": "apple-music",
-      "appleId": "6792085060",
-      "title": "Mimesis",
-      "artist": "Fontaines D.C.",
-      "artistNames": [
-        "Fontaines D.C."
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/mimesis/6792085051?i=6792085060",
-      "sourceUrl": "https://music.apple.com/se/album/mimesis/6792085051?i=6792085060",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
         "Musik"
       ],
       "country": "SE",
@@ -872,7 +897,32 @@
       ]
     },
     {
-      "position": 35,
+      "position": 36,
+      "id": "apple:6766750846",
+      "provider": "apple-music",
+      "appleId": "6766750846",
+      "title": "Hit the Wall",
+      "artist": "Gracie Abrams",
+      "artistNames": [
+        "Gracie Abrams"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-05-14",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/13/47/4f1347cf-9564-e8b6-523a-386202f4d265/26UMGIM54147.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/hit-the-wall/6766750836?i=6766750846",
+      "sourceUrl": "https://music.apple.com/se/album/hit-the-wall/6766750836?i=6766750846",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 37,
       "id": "apple:1443150848",
       "provider": "apple-music",
       "appleId": "1443150848",
@@ -897,23 +947,49 @@
       ]
     },
     {
-      "position": 36,
-      "id": "apple:6818209989",
+      "position": 38,
+      "id": "apple:1867654215",
       "provider": "apple-music",
-      "appleId": "6818209989",
-      "title": "Solar Eclipse",
-      "artist": "Drake & Don Toliver",
+      "appleId": "1867654215",
+      "title": "Golden",
+      "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast",
       "artistNames": [
-        "Drake & Don Toliver"
+        "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-10-02",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/solar-eclipse/6818209777?i=6818209989",
-      "sourceUrl": "https://music.apple.com/se/album/solar-eclipse/6818209777?i=6818209989",
+      "releaseDate": "2025-06-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/9d/f9/289df90a-7fea-415a-0dae-ec59893f2e70/26UMGIM01354.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/golden/1867654212?i=1867654215",
+      "sourceUrl": "https://music.apple.com/se/album/golden/1867654212?i=1867654215",
       "explicit": false,
       "genres": [
-        "R&B/Soul",
+        "K-Pop",
+        "Musik",
+        "Pop"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 39,
+      "id": "apple:6792085054",
+      "provider": "apple-music",
+      "appleId": "6792085054",
+      "title": "Six Shot Morning",
+      "artist": "Fontaines D.C.",
+      "artistNames": [
+        "Fontaines D.C."
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/six-shot-morning/6792085051?i=6792085054",
+      "sourceUrl": "https://music.apple.com/se/album/six-shot-morning/6792085051?i=6792085054",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
         "Musik"
       ],
       "country": "SE",
@@ -922,7 +998,108 @@
       ]
     },
     {
-      "position": 37,
+      "position": 40,
+      "id": "apple:1870984036",
+      "provider": "apple-music",
+      "appleId": "1870984036",
+      "title": "American Girls",
+      "artist": "Harry Styles",
+      "artistNames": [
+        "Harry Styles"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-03-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/american-girls/1870984032?i=1870984036",
+      "sourceUrl": "https://music.apple.com/se/album/american-girls/1870984032?i=1870984036",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 41,
+      "id": "apple:6814997427",
+      "provider": "apple-music",
+      "appleId": "6814997427",
+      "title": "Cleveland!",
+      "artist": "Taylor Swift",
+      "artistNames": [
+        "Taylor Swift"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/cleveland/6814997249?i=6814997427",
+      "sourceUrl": "https://music.apple.com/se/album/cleveland/6814997249?i=6814997427",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 42,
+      "id": "apple:6792537379",
+      "provider": "apple-music",
+      "appleId": "6792537379",
+      "title": "Happiness Is So Sad",
+      "artist": "Swedish House Mafia & Lykke Li",
+      "artistNames": [
+        "Swedish House Mafia & Lykke Li"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-31",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/19/9c/cf199c26-6f59-a4b6-4309-c597ceea14d2/14006.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/happiness-is-so-sad/6792537373?i=6792537379",
+      "sourceUrl": "https://music.apple.com/se/album/happiness-is-so-sad/6792537373?i=6792537379",
+      "explicit": false,
+      "genres": [
+        "Dance",
+        "Musik",
+        "Pop"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 43,
+      "id": "apple:6763656878",
+      "provider": "apple-music",
+      "appleId": "6763656878",
+      "title": "petal",
+      "artist": "Ariana Grande",
+      "artistNames": [
+        "Ariana Grande"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-31",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/petal/1895420989?i=6763656878",
+      "sourceUrl": "https://music.apple.com/se/album/petal/1895420989?i=6763656878",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 44,
       "id": "apple:1517520101",
       "provider": "apple-music",
       "appleId": "1517520101",
@@ -949,32 +1126,7 @@
       ]
     },
     {
-      "position": 38,
-      "id": "apple:1879983789",
-      "provider": "apple-music",
-      "appleId": "1879983789",
-      "title": "FEVER DREAM",
-      "artist": "Alex Warren",
-      "artistNames": [
-        "Alex Warren"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-06-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/fever-dream/1879983782?i=1879983789",
-      "sourceUrl": "https://music.apple.com/se/album/fever-dream/1879983782?i=1879983789",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 39,
+      "position": 45,
       "id": "apple:6814997428",
       "provider": "apple-music",
       "appleId": "6814997428",
@@ -999,20 +1151,45 @@
       ]
     },
     {
-      "position": 40,
-      "id": "apple:6814997427",
+      "position": 46,
+      "id": "apple:6796864754",
       "provider": "apple-music",
-      "appleId": "6814997427",
-      "title": "Cleveland!",
-      "artist": "Taylor Swift",
+      "appleId": "6796864754",
+      "title": "BbY WOW",
+      "artist": "KAROL G, Judeline & rusowsky",
       "artistNames": [
-        "Taylor Swift"
+        "KAROL G, Judeline & rusowsky"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-09-24",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/cleveland/6814997249?i=6814997427",
-      "sourceUrl": "https://music.apple.com/se/album/cleveland/6814997249?i=6814997427",
+      "releaseDate": "2026-08-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/bby-wow/6796864741?i=6796864754",
+      "sourceUrl": "https://music.apple.com/se/album/bby-wow/6796864741?i=6796864754",
+      "explicit": false,
+      "genres": [
+        "Musik",
+        "Latino"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 47,
+      "id": "apple:1871085734",
+      "provider": "apple-music",
+      "appleId": "1871085734",
+      "title": "WHERE IS MY HUSBAND!",
+      "artist": "RAYE",
+      "artistNames": [
+        "RAYE"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-09-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/05/10/5005106d-bb8a-32db-1172-f18405cf4a46/820200038890.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/where-is-my-husband/1871085677?i=1871085734",
+      "sourceUrl": "https://music.apple.com/se/album/where-is-my-husband/1871085677?i=1871085734",
       "explicit": false,
       "genres": [
         "Pop",
@@ -1024,7 +1201,32 @@
       ]
     },
     {
-      "position": 41,
+      "position": 48,
+      "id": "apple:1568020292",
+      "provider": "apple-music",
+      "appleId": "1568020292",
+      "title": "Into You",
+      "artist": "Ariana Grande",
+      "artistNames": [
+        "Ariana Grande"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2016-05-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/40/14/6e401443-8c15-2f21-4d2c-effe972c3838/16UMGIM30042.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/into-you/1568020268?i=1568020292",
+      "sourceUrl": "https://music.apple.com/se/album/into-you/1568020268?i=1568020292",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 49,
       "id": "apple:6820990121",
       "provider": "apple-music",
       "appleId": "6820990121",
@@ -1049,7 +1251,84 @@
       ]
     },
     {
-      "position": 42,
+      "position": 50,
+      "id": "apple:6818209989",
+      "provider": "apple-music",
+      "appleId": "6818209989",
+      "title": "Solar Eclipse",
+      "artist": "Drake & Don Toliver",
+      "artistNames": [
+        "Drake & Don Toliver"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-02",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/45/62/bb4562a3-45a2-539c-b557-a18ea060a476/26UMGIM63616.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/solar-eclipse/6818209777?i=6818209989",
+      "sourceUrl": "https://music.apple.com/se/album/solar-eclipse/6818209777?i=6818209989",
+      "explicit": false,
+      "genres": [
+        "R&B/Soul",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 51,
+      "id": "apple:6792085060",
+      "provider": "apple-music",
+      "appleId": "6792085060",
+      "title": "Mimesis",
+      "artist": "Fontaines D.C.",
+      "artistNames": [
+        "Fontaines D.C."
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/mimesis/6792085051?i=6792085060",
+      "sourceUrl": "https://music.apple.com/se/album/mimesis/6792085051?i=6792085060",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 52,
+      "id": "apple:1440650961",
+      "provider": "apple-music",
+      "appleId": "1440650961",
+      "title": "Beauty and a Beat (feat. Nicki Minaj)",
+      "artist": "Justin Bieber",
+      "artistNames": [
+        "Justin Bieber"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2012-06-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961",
+      "sourceUrl": "https://music.apple.com/se/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik",
+        "Rock",
+        "Dance"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 53,
       "id": "apple:633431899",
       "provider": "apple-music",
       "appleId": "633431899",
@@ -1078,258 +1357,7 @@
       ]
     },
     {
-      "position": 43,
-      "id": "apple:6796864754",
-      "provider": "apple-music",
-      "appleId": "6796864754",
-      "title": "BbY WOW",
-      "artist": "KAROL G, Judeline & rusowsky",
-      "artistNames": [
-        "KAROL G, Judeline & rusowsky"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-08-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/bby-wow/6796864741?i=6796864754",
-      "sourceUrl": "https://music.apple.com/se/album/bby-wow/6796864741?i=6796864754",
-      "explicit": false,
-      "genres": [
-        "Musik",
-        "Latino"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 44,
-      "id": "apple:6763656878",
-      "provider": "apple-music",
-      "appleId": "6763656878",
-      "title": "petal",
-      "artist": "Ariana Grande",
-      "artistNames": [
-        "Ariana Grande"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-31",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/petal/1895420989?i=6763656878",
-      "sourceUrl": "https://music.apple.com/se/album/petal/1895420989?i=6763656878",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 45,
-      "id": "apple:6792085363",
-      "provider": "apple-music",
-      "appleId": "6792085363",
-      "title": "Happy For You",
-      "artist": "Fontaines D.C.",
-      "artistNames": [
-        "Fontaines D.C."
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/happy-for-you/6792085051?i=6792085363",
-      "sourceUrl": "https://music.apple.com/se/album/happy-for-you/6792085051?i=6792085363",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 46,
-      "id": "apple:6812412674",
-      "provider": "apple-music",
-      "appleId": "6812412674",
-      "title": "The Greatest Show On Earth",
-      "artist": "U2",
-      "artistNames": [
-        "U2"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-15",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/6b/ac/196bac72-8c20-98c9-7fb4-5c66619cc0c3/26UMGIM93067.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/the-greatest-show-on-earth/6812412381?i=6812412674",
-      "sourceUrl": "https://music.apple.com/se/album/the-greatest-show-on-earth/6812412381?i=6812412674",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 47,
-      "id": "apple:6792537379",
-      "provider": "apple-music",
-      "appleId": "6792537379",
-      "title": "Happiness Is So Sad",
-      "artist": "Swedish House Mafia & Lykke Li",
-      "artistNames": [
-        "Swedish House Mafia & Lykke Li"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-31",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/19/9c/cf199c26-6f59-a4b6-4309-c597ceea14d2/14006.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/happiness-is-so-sad/6792537373?i=6792537379",
-      "sourceUrl": "https://music.apple.com/se/album/happiness-is-so-sad/6792537373?i=6792537379",
-      "explicit": false,
-      "genres": [
-        "Dance",
-        "Musik",
-        "Pop"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 48,
-      "id": "apple:6781074080",
-      "provider": "apple-music",
-      "appleId": "6781074080",
-      "title": "My Body Isn't Ready",
-      "artist": "sombr",
-      "artistNames": [
-        "sombr"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-06-25",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/1d/f6/2f1df6d3-09e2-e0a2-2e2b-fd5bb05be1ab/054391214515.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/my-body-isnt-ready/6781074078?i=6781074080",
-      "sourceUrl": "https://music.apple.com/se/album/my-body-isnt-ready/6781074078?i=6781074080",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 49,
-      "id": "apple:6792085384",
-      "provider": "apple-music",
-      "appleId": "6792085384",
-      "title": "Tongue",
-      "artist": "Fontaines D.C.",
-      "artistNames": [
-        "Fontaines D.C."
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-30",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/tongue/6792085051?i=6792085384",
-      "sourceUrl": "https://music.apple.com/se/album/tongue/6792085051?i=6792085384",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 50,
-      "id": "apple:1871085734",
-      "provider": "apple-music",
-      "appleId": "1871085734",
-      "title": "WHERE IS MY HUSBAND!",
-      "artist": "RAYE",
-      "artistNames": [
-        "RAYE"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-09-19",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/05/10/5005106d-bb8a-32db-1172-f18405cf4a46/820200038890.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/where-is-my-husband/1871085677?i=1871085734",
-      "sourceUrl": "https://music.apple.com/se/album/where-is-my-husband/1871085677?i=1871085734",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 51,
-      "id": "apple:1440783625",
-      "provider": "apple-music",
-      "appleId": "1440783625",
-      "title": "Smells Like Teen Spirit",
-      "artist": "Nirvana",
-      "artistNames": [
-        "Nirvana"
-      ],
-      "albumTitle": "",
-      "releaseDate": "1991-09-10",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/smells-like-teen-spirit/1440783617?i=1440783625",
-      "sourceUrl": "https://music.apple.com/se/album/smells-like-teen-spirit/1440783617?i=1440783625",
-      "explicit": false,
-      "genres": [
-        "Rock",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 52,
-      "id": "apple:1510344955",
-      "provider": "apple-music",
-      "appleId": "1510344955",
-      "title": "Dancing on My Own (Radio Edit)",
-      "artist": "Robyn",
-      "artistNames": [
-        "Robyn"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2010-06-11",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f7/8c/0d/f78c0d62-c591-9774-e292-c3fe513994ea/5060236630292_3000.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/dancing-on-my-own-radio-edit/1510344953?i=1510344955",
-      "sourceUrl": "https://music.apple.com/se/album/dancing-on-my-own-radio-edit/1510344953?i=1510344955",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 53,
+      "position": 54,
       "id": "apple:6814997429",
       "provider": "apple-music",
       "appleId": "6814997429",
@@ -1354,83 +1382,7 @@
       ]
     },
     {
-      "position": 54,
-      "id": "apple:1568020292",
-      "provider": "apple-music",
-      "appleId": "1568020292",
-      "title": "Into You",
-      "artist": "Ariana Grande",
-      "artistNames": [
-        "Ariana Grande"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2016-05-06",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/40/14/6e401443-8c15-2f21-4d2c-effe972c3838/16UMGIM30042.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/into-you/1568020268?i=1568020292",
-      "sourceUrl": "https://music.apple.com/se/album/into-you/1568020268?i=1568020292",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
       "position": 55,
-      "id": "apple:1870984036",
-      "provider": "apple-music",
-      "appleId": "1870984036",
-      "title": "American Girls",
-      "artist": "Harry Styles",
-      "artistNames": [
-        "Harry Styles"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-03-06",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/american-girls/1870984032?i=1870984036",
-      "sourceUrl": "https://music.apple.com/se/album/american-girls/1870984032?i=1870984036",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 56,
-      "id": "apple:1867654215",
-      "provider": "apple-music",
-      "appleId": "1867654215",
-      "title": "Golden",
-      "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast",
-      "artistNames": [
-        "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-06-19",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/9d/f9/289df90a-7fea-415a-0dae-ec59893f2e70/26UMGIM01354.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/golden/1867654212?i=1867654215",
-      "sourceUrl": "https://music.apple.com/se/album/golden/1867654212?i=1867654215",
-      "explicit": false,
-      "genres": [
-        "K-Pop",
-        "Musik",
-        "Pop"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 57,
       "id": "apple:6772180432",
       "provider": "apple-music",
       "appleId": "6772180432",
@@ -1455,26 +1407,75 @@
       ]
     },
     {
-      "position": 58,
-      "id": "apple:1440650961",
+      "position": 56,
+      "id": "apple:1817735163",
       "provider": "apple-music",
-      "appleId": "1440650961",
-      "title": "Beauty and a Beat (feat. Nicki Minaj)",
-      "artist": "Justin Bieber",
+      "appleId": "1817735163",
+      "title": "Ordinary",
+      "artist": "Alex Warren",
       "artistNames": [
-        "Justin Bieber"
+        "Alex Warren"
       ],
       "albumTitle": "",
-      "releaseDate": "2012-06-15",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961",
-      "sourceUrl": "https://music.apple.com/se/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961",
+      "releaseDate": "2024-09-26",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/1e/c9/c71ec9f8-f6fd-5374-0e5c-3419539618f4/075679607942.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/ordinary/1817735146?i=1817735163",
+      "sourceUrl": "https://music.apple.com/se/album/ordinary/1817735146?i=1817735163",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 57,
+      "id": "apple:6781074080",
+      "provider": "apple-music",
+      "appleId": "6781074080",
+      "title": "My Body Isn't Ready",
+      "artist": "sombr",
+      "artistNames": [
+        "sombr"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-06-25",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/1d/f6/2f1df6d3-09e2-e0a2-2e2b-fd5bb05be1ab/054391214515.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/my-body-isnt-ready/6781074078?i=6781074080",
+      "sourceUrl": "https://music.apple.com/se/album/my-body-isnt-ready/6781074078?i=6781074080",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 58,
+      "id": "apple:1193701392",
+      "provider": "apple-music",
+      "appleId": "1193701392",
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "artistNames": [
+        "Ed Sheeran"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2017-01-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/shape-of-you/1193701079?i=1193701392",
+      "sourceUrl": "https://music.apple.com/se/album/shape-of-you/1193701079?i=1193701392",
       "explicit": false,
       "genres": [
         "Pop",
         "Musik",
-        "Rock",
-        "Dance"
+        "Singer-songwriter"
       ],
       "country": "SE",
       "regions": [
@@ -1483,10 +1484,35 @@
     },
     {
       "position": 59,
-      "id": "apple:6792085376",
+      "id": "apple:1544324124",
       "provider": "apple-music",
-      "appleId": "6792085376",
-      "title": "Demolition",
+      "appleId": "1544324124",
+      "title": "no tears left to cry",
+      "artist": "Ariana Grande",
+      "artistNames": [
+        "Ariana Grande"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2018-04-20",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/no-tears-left-to-cry/1544323964?i=1544324124",
+      "sourceUrl": "https://music.apple.com/se/album/no-tears-left-to-cry/1544323964?i=1544324124",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 60,
+      "id": "apple:6792085363",
+      "provider": "apple-music",
+      "appleId": "6792085363",
+      "title": "Happy For You",
       "artist": "Fontaines D.C.",
       "artistNames": [
         "Fontaines D.C."
@@ -1494,8 +1520,8 @@
       "albumTitle": "",
       "releaseDate": "2026-10-16",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/demolition/6792085051?i=6792085376",
-      "sourceUrl": "https://music.apple.com/se/album/demolition/6792085051?i=6792085376",
+      "appleUrl": "https://music.apple.com/se/album/happy-for-you/6792085051?i=6792085363",
+      "sourceUrl": "https://music.apple.com/se/album/happy-for-you/6792085051?i=6792085363",
       "explicit": false,
       "genres": [
         "Alternativt",
@@ -1507,49 +1533,24 @@
       ]
     },
     {
-      "position": 60,
-      "id": "apple:1793663645",
-      "provider": "apple-music",
-      "appleId": "1793663645",
-      "title": "Ordinary",
-      "artist": "Alex Warren",
-      "artistNames": [
-        "Alex Warren"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-09-26",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/78/fb/4678fb84-d19e-f11b-93ff-4dc17660bff8/075679619075.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/ordinary/1793663382?i=1793663645",
-      "sourceUrl": "https://music.apple.com/se/album/ordinary/1793663382?i=1793663645",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
       "position": 61,
-      "id": "apple:1641781867",
+      "id": "apple:1832087996",
       "provider": "apple-music",
-      "appleId": "1641781867",
-      "title": "Thriller 7\" (Special Edit)",
-      "artist": "Michael Jackson",
+      "appleId": "1832087996",
+      "title": "back to friends",
+      "artist": "sombr",
       "artistNames": [
-        "Michael Jackson"
+        "sombr"
       ],
       "albumTitle": "",
-      "releaseDate": "1983-01-01",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/8c/e1/738ce1db-60bd-eb25-0059-18778c1ca9b3/196589412409.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/thriller-7-special-edit/1641780996?i=1641781867",
-      "sourceUrl": "https://music.apple.com/se/album/thriller-7-special-edit/1641780996?i=1641781867",
+      "releaseDate": "2024-12-27",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/87/33/798733c3-e926-b1ef-435b-6a2dd7993171/093624827795.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/back-to-friends/1832087626?i=1832087996",
+      "sourceUrl": "https://music.apple.com/se/album/back-to-friends/1832087626?i=1832087996",
       "explicit": false,
       "genres": [
-        "Pop",
-        "Musik"
+        "Musik",
+        "Alternativt"
       ],
       "country": "SE",
       "regions": [
@@ -1558,22 +1559,22 @@
     },
     {
       "position": 62,
-      "id": "apple:1505683988",
+      "id": "apple:1440783625",
       "provider": "apple-music",
-      "appleId": "1505683988",
-      "title": "Blinding Lights",
-      "artist": "The Weeknd",
+      "appleId": "1440783625",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
       "artistNames": [
-        "The Weeknd"
+        "Nirvana"
       ],
       "albumTitle": "",
-      "releaseDate": "2019-11-29",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/03/e1/67/03e167d6-ee05-eb32-55e9-c5040f55a8bf/20UMGIM21166.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/blinding-lights/1505683705?i=1505683988",
-      "sourceUrl": "https://music.apple.com/se/album/blinding-lights/1505683705?i=1505683988",
+      "releaseDate": "1991-09-10",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/smells-like-teen-spirit/1440783617?i=1440783625",
+      "sourceUrl": "https://music.apple.com/se/album/smells-like-teen-spirit/1440783617?i=1440783625",
       "explicit": false,
       "genres": [
-        "R&B/Soul",
+        "Rock",
         "Musik"
       ],
       "country": "SE",
@@ -1608,194 +1609,19 @@
     },
     {
       "position": 64,
-      "id": "apple:6766750846",
+      "id": "apple:1505683988",
       "provider": "apple-music",
-      "appleId": "6766750846",
-      "title": "Hit the Wall",
-      "artist": "Gracie Abrams",
+      "appleId": "1505683988",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
       "artistNames": [
-        "Gracie Abrams"
+        "The Weeknd"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-05-14",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4f/13/47/4f1347cf-9564-e8b6-523a-386202f4d265/26UMGIM54147.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/hit-the-wall/6766750836?i=6766750846",
-      "sourceUrl": "https://music.apple.com/se/album/hit-the-wall/6766750836?i=6766750846",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 65,
-      "id": "apple:1728829786",
-      "provider": "apple-music",
-      "appleId": "1728829786",
-      "title": "Vila med mig",
-      "artist": "Humlan Djojj & Josefine Götestam",
-      "artistNames": [
-        "Humlan Djojj & Josefine Götestam"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2022-11-11",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/3b/26/c83b2694-0819-facf-0ac2-d7180d4d9135/196871825030.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/vila-med-mig/1728829780?i=1728829786",
-      "sourceUrl": "https://music.apple.com/se/album/vila-med-mig/1728829780?i=1728829786",
-      "explicit": false,
-      "genres": [
-        "Barnmusik",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 66,
-      "id": "apple:1193700769",
-      "provider": "apple-music",
-      "appleId": "1193700769",
-      "title": "Perfect",
-      "artist": "Ed Sheeran",
-      "artistNames": [
-        "Ed Sheeran"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2017-03-03",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/2d/1c/4f/2d1c4fd7-018c-0529-693b-c67fea53b698/190295851286.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/perfect/1193700601?i=1193700769",
-      "sourceUrl": "https://music.apple.com/se/album/perfect/1193700601?i=1193700769",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik",
-        "Singer-songwriter"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 67,
-      "id": "apple:6783576167",
-      "provider": "apple-music",
-      "appleId": "6783576167",
-      "title": "bloodstream",
-      "artist": "Alyssa Grace",
-      "artistNames": [
-        "Alyssa Grace"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-10",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/a7/ef/7fa7ef61-6e22-f30f-441c-e89e7ff4a79a/093624817147.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/bloodstream/6783576156?i=6783576167",
-      "sourceUrl": "https://music.apple.com/se/album/bloodstream/6783576156?i=6783576167",
-      "explicit": false,
-      "genres": [
-        "Musik",
-        "Alternativt"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 68,
-      "id": "apple:1826530261",
-      "provider": "apple-music",
-      "appleId": "1826530261",
-      "title": "UNETHICAL",
-      "artist": "Faouzia",
-      "artistNames": [
-        "Faouzia"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-08-01",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/1e/a3/0e1ea38e-d4fb-7cc0-3a0a-ce53c2cd6184/193436435017_IMG.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/unethical/1826530260?i=1826530261",
-      "sourceUrl": "https://music.apple.com/se/album/unethical/1826530260?i=1826530261",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 69,
-      "id": "apple:1440899467",
-      "provider": "apple-music",
-      "appleId": "1440899467",
-      "title": "ocean eyes",
-      "artist": "Billie Eilish",
-      "artistNames": [
-        "Billie Eilish"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2016-05-18",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/1d/30/021d3036-5503-3ed3-df00-882f2833a6ae/17UM1IM17026.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/ocean-eyes/1440898929?i=1440899467",
-      "sourceUrl": "https://music.apple.com/se/album/ocean-eyes/1440898929?i=1440899467",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 70,
-      "id": "apple:1820178165",
-      "provider": "apple-music",
-      "appleId": "1820178165",
-      "title": "Drift Light",
-      "artist": "Stratus Waves",
-      "artistNames": [
-        "Stratus Waves"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-07-02",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/17/aa/5917aa2c-5513-c3b2-ae83-e0d3463f0a15/5059449227573.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/drift-light/1820178164?i=1820178165",
-      "sourceUrl": "https://music.apple.com/se/album/drift-light/1820178164?i=1820178165",
-      "explicit": false,
-      "genres": [
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 71,
-      "id": "apple:6815156545",
-      "provider": "apple-music",
-      "appleId": "6815156545",
-      "title": "Shotta's.",
-      "artist": "Season 25",
-      "artistNames": [
-        "Season 25"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-25",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/98/59/4f/98594fb8-6653-218b-242f-5598c367f89b/859747113777_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/shottas/6815156539?i=6815156545",
-      "sourceUrl": "https://music.apple.com/se/album/shottas/6815156539?i=6815156545",
+      "releaseDate": "2019-11-29",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/03/e1/67/03e167d6-ee05-eb32-55e9-c5040f55a8bf/20UMGIM21166.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/blinding-lights/1505683705?i=1505683988",
+      "sourceUrl": "https://music.apple.com/se/album/blinding-lights/1505683705?i=1505683988",
       "explicit": false,
       "genres": [
         "R&B/Soul",
@@ -1807,134 +1633,7 @@
       ]
     },
     {
-      "position": 72,
-      "id": "apple:1442691054",
-      "provider": "apple-music",
-      "appleId": "1442691054",
-      "title": "Det kommer aldrig va över för mig",
-      "artist": "Håkan Hellström",
-      "artistNames": [
-        "Håkan Hellström"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2013-03-14",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b0/98/3d/b0983d8e-ec86-7c54-fec1-049d68883b24/00602537349920.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/det-kommer-aldrig-va-%C3%B6ver-f%C3%B6r-mig/1442691042?i=1442691054",
-      "sourceUrl": "https://music.apple.com/se/album/det-kommer-aldrig-va-%C3%B6ver-f%C3%B6r-mig/1442691042?i=1442691054",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik",
-        "Rock"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 73,
-      "id": "apple:1832087996",
-      "provider": "apple-music",
-      "appleId": "1832087996",
-      "title": "back to friends",
-      "artist": "sombr",
-      "artistNames": [
-        "sombr"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-12-27",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/87/33/798733c3-e926-b1ef-435b-6a2dd7993171/093624827795.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/back-to-friends/1832087626?i=1832087996",
-      "sourceUrl": "https://music.apple.com/se/album/back-to-friends/1832087626?i=1832087996",
-      "explicit": false,
-      "genres": [
-        "Musik",
-        "Alternativt"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 74,
-      "id": "apple:6792085543",
-      "provider": "apple-music",
-      "appleId": "6792085543",
-      "title": "Japan",
-      "artist": "Fontaines D.C.",
-      "artistNames": [
-        "Fontaines D.C."
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/japan/6792085051?i=6792085543",
-      "sourceUrl": "https://music.apple.com/se/album/japan/6792085051?i=6792085543",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 75,
-      "id": "apple:1193701392",
-      "provider": "apple-music",
-      "appleId": "1193701392",
-      "title": "Shape of You",
-      "artist": "Ed Sheeran",
-      "artistNames": [
-        "Ed Sheeran"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2017-01-06",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/shape-of-you/1193701079?i=1193701392",
-      "sourceUrl": "https://music.apple.com/se/album/shape-of-you/1193701079?i=1193701392",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik",
-        "Singer-songwriter"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 76,
-      "id": "apple:1097862231",
-      "provider": "apple-music",
-      "appleId": "1097862231",
-      "title": "Creep",
-      "artist": "Radiohead",
-      "artistNames": [
-        "Radiohead"
-      ],
-      "albumTitle": "",
-      "releaseDate": "1992-09-21",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/a4/ec/78a4ec7b-c6d6-c9c8-441b-660486e56a89/634904077969.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/creep/1097862062?i=1097862231",
-      "sourceUrl": "https://music.apple.com/se/album/creep/1097862062?i=1097862231",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 77,
+      "position": 65,
       "id": "apple:1877803360",
       "provider": "apple-music",
       "appleId": "1877803360",
@@ -1959,23 +1658,23 @@
       ]
     },
     {
-      "position": 78,
-      "id": "apple:1544324124",
+      "position": 66,
+      "id": "apple:1728829786",
       "provider": "apple-music",
-      "appleId": "1544324124",
-      "title": "no tears left to cry",
-      "artist": "Ariana Grande",
+      "appleId": "1728829786",
+      "title": "Vila med mig",
+      "artist": "Humlan Djojj & Josefine Götestam",
       "artistNames": [
-        "Ariana Grande"
+        "Humlan Djojj & Josefine Götestam"
       ],
       "albumTitle": "",
-      "releaseDate": "2018-04-20",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9e/71/a4/9e71a47f-c290-a542-07fd-a3aed41eefa7/18UMGIM36924.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/no-tears-left-to-cry/1544323964?i=1544324124",
-      "sourceUrl": "https://music.apple.com/se/album/no-tears-left-to-cry/1544323964?i=1544324124",
+      "releaseDate": "2022-11-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/3b/26/c83b2694-0819-facf-0ac2-d7180d4d9135/196871825030.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/vila-med-mig/1728829780?i=1728829786",
+      "sourceUrl": "https://music.apple.com/se/album/vila-med-mig/1728829780?i=1728829786",
       "explicit": false,
       "genres": [
-        "Pop",
+        "Barnmusik",
         "Musik"
       ],
       "country": "SE",
@@ -1984,23 +1683,22 @@
       ]
     },
     {
-      "position": 79,
-      "id": "apple:6769568596",
+      "position": 67,
+      "id": "apple:1820178165",
       "provider": "apple-music",
-      "appleId": "6769568596",
-      "title": "Janice STFU",
-      "artist": "Drake",
+      "appleId": "1820178165",
+      "title": "Drift Light",
+      "artist": "Stratus Waves",
       "artistNames": [
-        "Drake"
+        "Stratus Waves"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-05-15",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/janice-stfu/6769568449?i=6769568596",
-      "sourceUrl": "https://music.apple.com/se/album/janice-stfu/6769568449?i=6769568596",
+      "releaseDate": "2025-07-02",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/17/aa/5917aa2c-5513-c3b2-ae83-e0d3463f0a15/5059449227573.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/drift-light/1820178164?i=1820178165",
+      "sourceUrl": "https://music.apple.com/se/album/drift-light/1820178164?i=1820178165",
       "explicit": false,
       "genres": [
-        "Hiphop/Rap",
         "Musik"
       ],
       "country": "SE",
@@ -2009,23 +1707,23 @@
       ]
     },
     {
-      "position": 80,
-      "id": "apple:1820918468",
+      "position": 68,
+      "id": "apple:1550878097",
       "provider": "apple-music",
-      "appleId": "1820918468",
-      "title": "Rein Me In",
-      "artist": "Sam Fender & Olivia Dean",
+      "appleId": "1550878097",
+      "title": "Starboy (feat. Daft Punk)",
+      "artist": "The Weeknd",
       "artistNames": [
-        "Sam Fender & Olivia Dean"
+        "The Weeknd"
       ],
       "albumTitle": "",
-      "releaseDate": "2025-10-17",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/0f/9f/8f0f9f3d-b26b-779d-d1f1-2db2154a68b7/25UMGIM75096.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/rein-me-in/1820918466?i=1820918468",
-      "sourceUrl": "https://music.apple.com/se/album/rein-me-in/1820918466?i=1820918468",
+      "releaseDate": "2016-09-21",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4b/ab/3c/4bab3c0d-ea9a-ad8e-4229-b1e73cad0283/21UMGIM06668.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/starboy-feat-daft-punk/1550877895?i=1550878097",
+      "sourceUrl": "https://music.apple.com/se/album/starboy-feat-daft-punk/1550877895?i=1550878097",
       "explicit": false,
       "genres": [
-        "Alternativt",
+        "R&B/Soul",
         "Musik"
       ],
       "country": "SE",
@@ -2034,359 +1732,7 @@
       ]
     },
     {
-      "position": 81,
-      "id": "apple:1773474483",
-      "provider": "apple-music",
-      "appleId": "1773474483",
-      "title": "That’s So True",
-      "artist": "Gracie Abrams",
-      "artistNames": [
-        "Gracie Abrams"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-10-18",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/78/81/26788143-5e5f-0813-2480-ecf4280ef221/24UM1IM07082.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/thats-so-true/1773473685?i=1773474483",
-      "sourceUrl": "https://music.apple.com/se/album/thats-so-true/1773473685?i=1773474483",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 82,
-      "id": "apple:6818633004",
-      "provider": "apple-music",
-      "appleId": "6818633004",
-      "title": "Before You Know It",
-      "artist": "Kygo & Ava Max",
-      "artistNames": [
-        "Kygo & Ava Max"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/5c/26/025c2676-168b-c922-c195-fdb653016df5/196874851777.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/before-you-know-it/6818632744?i=6818633004",
-      "sourceUrl": "https://music.apple.com/se/album/before-you-know-it/6818632744?i=6818633004",
-      "explicit": false,
-      "genres": [
-        "Dance",
-        "Musik",
-        "Pop"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 83,
-      "id": "apple:6769552686",
-      "provider": "apple-music",
-      "appleId": "6769552686",
-      "title": "Pure",
-      "artist": "SIENNA SPIRO",
-      "artistNames": [
-        "SIENNA SPIRO"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-02",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/e5/61/f4e561f5-3e73-68c7-7ca4-295ac5a063ed/26UMGIM51351.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/pure/6769552402?i=6769552686",
-      "sourceUrl": "https://music.apple.com/se/album/pure/6769552402?i=6769552686",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 84,
-      "id": "apple:1727526894",
-      "provider": "apple-music",
-      "appleId": "1727526894",
-      "title": "Training Season",
-      "artist": "Dua Lipa",
-      "artistNames": [
-        "Dua Lipa"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-02-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/89/15/828915ea-d716-61c4-3de7-ef00c1f800fb/5054197853630.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/training-season/1727526670?i=1727526894",
-      "sourceUrl": "https://music.apple.com/se/album/training-season/1727526670?i=1727526894",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 85,
-      "id": "apple:1847992612",
-      "provider": "apple-music",
-      "appleId": "1847992612",
-      "title": "Raindance",
-      "artist": "Dave & Tems",
-      "artistNames": [
-        "Dave & Tems"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-10-24",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/49/24/9949241c-e52c-3018-eae8-c686013a7474/25UM1IM68216.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/raindance/1847992481?i=1847992612",
-      "sourceUrl": "https://music.apple.com/se/album/raindance/1847992481?i=1847992612",
-      "explicit": false,
-      "genres": [
-        "Hiphop/Rap",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 86,
-      "id": "apple:6807197459",
-      "provider": "apple-music",
-      "appleId": "6807197459",
-      "title": "Bass Persuades",
-      "artist": "Miley Cyrus",
-      "artistNames": [
-        "Miley Cyrus"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-03",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/bass-persuades/6807197456?i=6807197459",
-      "sourceUrl": "https://music.apple.com/se/album/bass-persuades/6807197456?i=6807197459",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 87,
-      "id": "apple:6793437720",
-      "provider": "apple-music",
-      "appleId": "6793437720",
-      "title": "Tänk om",
-      "artist": "Victor Leksell & Molly Sandén",
-      "artistNames": [
-        "Victor Leksell & Molly Sandén"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-08-07",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/37/02/5f3702eb-c758-81f6-90f9-b1f53ea6fe63/196874627808.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/t%C3%A4nk-om/6793437531?i=6793437720",
-      "sourceUrl": "https://music.apple.com/se/album/t%C3%A4nk-om/6793437531?i=6793437720",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 88,
-      "id": "apple:1226034393",
-      "provider": "apple-music",
-      "appleId": "1226034393",
-      "title": "Sign of the Times",
-      "artist": "Harry Styles",
-      "artistNames": [
-        "Harry Styles"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2017-04-07",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/sign-of-the-times/1226034336?i=1226034393",
-      "sourceUrl": "https://music.apple.com/se/album/sign-of-the-times/1226034336?i=1226034393",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 89,
-      "id": "apple:1440830261",
-      "provider": "apple-music",
-      "appleId": "1440830261",
-      "title": "Summertime Sadness",
-      "artist": "Lana Del Rey",
-      "artistNames": [
-        "Lana Del Rey"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2012-01-27",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/42/39/b8423909-3abd-4b5f-8ebe-709c95e500bc/12UMGIM51209.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/summertime-sadness/1440829976?i=1440830261",
-      "sourceUrl": "https://music.apple.com/se/album/summertime-sadness/1440829976?i=1440830261",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik",
-        "Rock"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 90,
-      "id": "apple:6799103361",
-      "provider": "apple-music",
-      "appleId": "6799103361",
-      "title": "50 år i Västerås",
-      "artist": "Lars Winnerbäck",
-      "artistNames": [
-        "Lars Winnerbäck"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-25",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/47/a5/8a47a538-f2b4-57e4-014a-b6e288f716c1/823375361077_Cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/50-%C3%A5r-i-v%C3%A4ster%C3%A5s/6799102933?i=6799103361",
-      "sourceUrl": "https://music.apple.com/se/album/50-%C3%A5r-i-v%C3%A4ster%C3%A5s/6799102933?i=6799103361",
-      "explicit": false,
-      "genres": [
-        "Singer-songwriter",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 91,
-      "id": "apple:1551179407",
-      "provider": "apple-music",
-      "appleId": "1551179407",
-      "title": "Levitating",
-      "artist": "Dua Lipa",
-      "artistNames": [
-        "Dua Lipa"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2020-03-27",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/93/54/969354a7-8985-7833-7160-93e38110b745/190295042998.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/levitating/1551178998?i=1551179407",
-      "sourceUrl": "https://music.apple.com/se/album/levitating/1551178998?i=1551179407",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 92,
-      "id": "apple:6773297053",
-      "provider": "apple-music",
-      "appleId": "6773297053",
-      "title": "Forestis (Nature)",
-      "artist": "ACHIOTE",
-      "artistNames": [
-        "ACHIOTE"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-06-01",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/98/c7/b198c732-cf09-6047-777e-e47ef489c616/5059449339474.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/forestis-nature/6773297049?i=6773297053",
-      "sourceUrl": "https://music.apple.com/se/album/forestis-nature/6773297049?i=6773297053",
-      "explicit": false,
-      "genres": [
-        "Musik",
-        "Elektroniskt"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 93,
-      "id": "apple:1739659144",
-      "provider": "apple-music",
-      "appleId": "1739659144",
-      "title": "WILDFLOWER",
-      "artist": "Billie Eilish",
-      "artistNames": [
-        "Billie Eilish"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2024-05-17",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/wildflower/1739659134?i=1739659144",
-      "sourceUrl": "https://music.apple.com/se/album/wildflower/1739659134?i=1739659144",
-      "explicit": false,
-      "genres": [
-        "Alternativt",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 94,
-      "id": "apple:1440821315",
-      "provider": "apple-music",
-      "appleId": "1440821315",
-      "title": "Hold On, We're Going Home (feat. Majid Jordan)",
-      "artist": "Drake",
-      "artistNames": [
-        "Drake"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2013-08-07",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/5f/30/6d/5f306d67-bff8-2595-9d41-51be895d3208/00602537542321.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/hold-on-were-going-home-feat-majid-jordan/1440820956?i=1440821315",
-      "sourceUrl": "https://music.apple.com/se/album/hold-on-were-going-home-feat-majid-jordan/1440820956?i=1440821315",
-      "explicit": false,
-      "genres": [
-        "Hiphop/Rap",
-        "Musik"
-      ],
-      "country": "SE",
-      "regions": [
-        "SE"
-      ]
-    },
-    {
-      "position": 95,
+      "position": 69,
       "id": "apple:1442529239",
       "provider": "apple-music",
       "appleId": "1442529239",
@@ -2415,7 +1761,359 @@
       ]
     },
     {
-      "position": 96,
+      "position": 70,
+      "id": "apple:1727526894",
+      "provider": "apple-music",
+      "appleId": "1727526894",
+      "title": "Training Season",
+      "artist": "Dua Lipa",
+      "artistNames": [
+        "Dua Lipa"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2024-02-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/89/15/828915ea-d716-61c4-3de7-ef00c1f800fb/5054197853630.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/training-season/1727526670?i=1727526894",
+      "sourceUrl": "https://music.apple.com/se/album/training-season/1727526670?i=1727526894",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 71,
+      "id": "apple:6812412674",
+      "provider": "apple-music",
+      "appleId": "6812412674",
+      "title": "The Greatest Show On Earth",
+      "artist": "U2",
+      "artistNames": [
+        "U2"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/6b/ac/196bac72-8c20-98c9-7fb4-5c66619cc0c3/26UMGIM93067.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/the-greatest-show-on-earth/6812412381?i=6812412674",
+      "sourceUrl": "https://music.apple.com/se/album/the-greatest-show-on-earth/6812412381?i=6812412674",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 72,
+      "id": "apple:6769552686",
+      "provider": "apple-music",
+      "appleId": "6769552686",
+      "title": "Pure",
+      "artist": "SIENNA SPIRO",
+      "artistNames": [
+        "SIENNA SPIRO"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-02",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/e5/61/f4e561f5-3e73-68c7-7ca4-295ac5a063ed/26UMGIM51351.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/pure/6769552402?i=6769552686",
+      "sourceUrl": "https://music.apple.com/se/album/pure/6769552402?i=6769552686",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 73,
+      "id": "apple:1762630599",
+      "provider": "apple-music",
+      "appleId": "1762630599",
+      "title": "Toccata and Fugue in D Minor, BWV 565",
+      "artist": "Marie-Claire Alain",
+      "artistNames": [
+        "Marie-Claire Alain"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1980-01-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/09/f8/b709f804-a28d-2a87-01d0-3452506c2041/5059460326736.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/toccata-and-fugue-in-d-minor-bwv-565/1762630593?i=1762630599",
+      "sourceUrl": "https://music.apple.com/se/album/toccata-and-fugue-in-d-minor-bwv-565/1762630593?i=1762630599",
+      "explicit": false,
+      "genres": [
+        "Klassiskt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 74,
+      "id": "apple:6792085376",
+      "provider": "apple-music",
+      "appleId": "6792085376",
+      "title": "Demolition",
+      "artist": "Fontaines D.C.",
+      "artistNames": [
+        "Fontaines D.C."
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/demolition/6792085051?i=6792085376",
+      "sourceUrl": "https://music.apple.com/se/album/demolition/6792085051?i=6792085376",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 75,
+      "id": "apple:1193700769",
+      "provider": "apple-music",
+      "appleId": "1193700769",
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "artistNames": [
+        "Ed Sheeran"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2017-03-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/2d/1c/4f/2d1c4fd7-018c-0529-693b-c67fea53b698/190295851286.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/perfect/1193700601?i=1193700769",
+      "sourceUrl": "https://music.apple.com/se/album/perfect/1193700601?i=1193700769",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik",
+        "Singer-songwriter"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 76,
+      "id": "apple:6807197459",
+      "provider": "apple-music",
+      "appleId": "6807197459",
+      "title": "Bass Persuades",
+      "artist": "Miley Cyrus",
+      "artistNames": [
+        "Miley Cyrus"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/bass-persuades/6807197456?i=6807197459",
+      "sourceUrl": "https://music.apple.com/se/album/bass-persuades/6807197456?i=6807197459",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 77,
+      "id": "apple:1891779777",
+      "provider": "apple-music",
+      "appleId": "1891779777",
+      "title": "Hootie Frutti",
+      "artist": "KATSEYE",
+      "artistNames": [
+        "KATSEYE"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-08-13",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/28/92/e22892a7-fe88-72cf-ecba-691030dfcf7e/26UMGIM41151.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/hootie-frutti/1891779764?i=1891779777",
+      "sourceUrl": "https://music.apple.com/se/album/hootie-frutti/1891779764?i=1891779777",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 78,
+      "id": "apple:1837867617",
+      "provider": "apple-music",
+      "appleId": "1837867617",
+      "title": "DAISIES",
+      "artist": "Justin Bieber",
+      "artistNames": [
+        "Justin Bieber"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-07-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/cb/3e/e0cb3e1c-0dde-156d-d500-7943bc4ddebd/25UM1IM36272.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/daisies/1837867200?i=1837867617",
+      "sourceUrl": "https://music.apple.com/se/album/daisies/1837867200?i=1837867617",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 79,
+      "id": "apple:1442691054",
+      "provider": "apple-music",
+      "appleId": "1442691054",
+      "title": "Det kommer aldrig va över för mig",
+      "artist": "Håkan Hellström",
+      "artistNames": [
+        "Håkan Hellström"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2013-03-14",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b0/98/3d/b0983d8e-ec86-7c54-fec1-049d68883b24/00602537349920.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/det-kommer-aldrig-va-%C3%B6ver-f%C3%B6r-mig/1442691042?i=1442691054",
+      "sourceUrl": "https://music.apple.com/se/album/det-kommer-aldrig-va-%C3%B6ver-f%C3%B6r-mig/1442691042?i=1442691054",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik",
+        "Rock"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 80,
+      "id": "apple:6783576167",
+      "provider": "apple-music",
+      "appleId": "6783576167",
+      "title": "bloodstream",
+      "artist": "Alyssa Grace",
+      "artistNames": [
+        "Alyssa Grace"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-10",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/a7/ef/7fa7ef61-6e22-f30f-441c-e89e7ff4a79a/093624817147.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/bloodstream/6783576156?i=6783576167",
+      "sourceUrl": "https://music.apple.com/se/album/bloodstream/6783576156?i=6783576167",
+      "explicit": false,
+      "genres": [
+        "Musik",
+        "Alternativt"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 81,
+      "id": "apple:1440899467",
+      "provider": "apple-music",
+      "appleId": "1440899467",
+      "title": "ocean eyes",
+      "artist": "Billie Eilish",
+      "artistNames": [
+        "Billie Eilish"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2016-05-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/1d/30/021d3036-5503-3ed3-df00-882f2833a6ae/17UM1IM17026.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/ocean-eyes/1440898929?i=1440899467",
+      "sourceUrl": "https://music.apple.com/se/album/ocean-eyes/1440898929?i=1440899467",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 82,
+      "id": "apple:6773297053",
+      "provider": "apple-music",
+      "appleId": "6773297053",
+      "title": "Forestis (Nature)",
+      "artist": "ACHIOTE",
+      "artistNames": [
+        "ACHIOTE"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-06-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/98/c7/b198c732-cf09-6047-777e-e47ef489c616/5059449339474.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/forestis-nature/6773297049?i=6773297053",
+      "sourceUrl": "https://music.apple.com/se/album/forestis-nature/6773297049?i=6773297053",
+      "explicit": false,
+      "genres": [
+        "Musik",
+        "Elektroniskt"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 83,
+      "id": "apple:6799103361",
+      "provider": "apple-music",
+      "appleId": "6799103361",
+      "title": "50 år i Västerås",
+      "artist": "Lars Winnerbäck",
+      "artistNames": [
+        "Lars Winnerbäck"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-25",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/47/a5/8a47a538-f2b4-57e4-014a-b6e288f716c1/823375361077_Cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/50-%C3%A5r-i-v%C3%A4ster%C3%A5s/6799102933?i=6799103361",
+      "sourceUrl": "https://music.apple.com/se/album/50-%C3%A5r-i-v%C3%A4ster%C3%A5s/6799102933?i=6799103361",
+      "explicit": false,
+      "genres": [
+        "Singer-songwriter",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 84,
       "id": "apple:1619057348",
       "provider": "apple-music",
       "appleId": "1619057348",
@@ -2440,24 +2138,24 @@
       ]
     },
     {
-      "position": 97,
-      "id": "apple:6779171587",
+      "position": 85,
+      "id": "apple:6792085543",
       "provider": "apple-music",
-      "appleId": "6779171587",
-      "title": "Corvara (Nature)",
-      "artist": "Ancient Future Technologies",
+      "appleId": "6792085543",
+      "title": "Japan",
+      "artist": "Fontaines D.C.",
       "artistNames": [
-        "Ancient Future Technologies"
+        "Fontaines D.C."
       ],
       "albumTitle": "",
-      "releaseDate": "2026-08-03",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/c6/04/74c604a6-6d01-ac47-2b08-d98c266a0f23/5059449364216.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/corvara-nature/6779171519?i=6779171587",
-      "sourceUrl": "https://music.apple.com/se/album/corvara-nature/6779171519?i=6779171587",
+      "releaseDate": "2026-10-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/japan/6792085051?i=6792085543",
+      "sourceUrl": "https://music.apple.com/se/album/japan/6792085051?i=6792085543",
       "explicit": false,
       "genres": [
-        "Musik",
-        "Elektroniskt"
+        "Alternativt",
+        "Musik"
       ],
       "country": "SE",
       "regions": [
@@ -2465,26 +2163,98 @@
       ]
     },
     {
-      "position": 98,
-      "id": "apple:267537169",
+      "position": 86,
+      "id": "apple:548656753",
       "provider": "apple-music",
-      "appleId": "267537169",
-      "title": "Iris",
-      "artist": "The Goo Goo Dolls",
+      "appleId": "548656753",
+      "title": "Sweater Weather",
+      "artist": "The Neighbourhood",
       "artistNames": [
-        "The Goo Goo Dolls"
+        "The Neighbourhood"
       ],
       "albumTitle": "",
-      "releaseDate": "1998-03-31",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music/b4/0c/98/mzi.vhowcacb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/iris/267536485?i=267537169",
-      "sourceUrl": "https://music.apple.com/se/album/iris/267536485?i=267537169",
+      "releaseDate": "2012-05-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b9/8c/0f/b98c0f03-d78f-1619-8c7b-0b7f2c4d6ae7/886443575264.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/sweater-weather/548656698?i=548656753",
+      "sourceUrl": "https://music.apple.com/se/album/sweater-weather/548656698?i=548656753",
       "explicit": false,
       "genres": [
-        "Rock",
-        "Musik",
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 87,
+      "id": "apple:1820918468",
+      "provider": "apple-music",
+      "appleId": "1820918468",
+      "title": "Rein Me In",
+      "artist": "Sam Fender & Olivia Dean",
+      "artistNames": [
+        "Sam Fender & Olivia Dean"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-10-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/0f/9f/8f0f9f3d-b26b-779d-d1f1-2db2154a68b7/25UMGIM75096.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/rein-me-in/1820918466?i=1820918468",
+      "sourceUrl": "https://music.apple.com/se/album/rein-me-in/1820918466?i=1820918468",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 88,
+      "id": "apple:1847950017",
+      "provider": "apple-music",
+      "appleId": "1847950017",
+      "title": "blissful sleep",
+      "artist": "yoneiu",
+      "artistNames": [
+        "yoneiu"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-11-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/5c/03/075c0315-dd8f-41c1-bb6d-56b4136062ca/5059449308210.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/blissful-sleep/1847950016?i=1847950017",
+      "sourceUrl": "https://music.apple.com/se/album/blissful-sleep/1847950016?i=1847950017",
+      "explicit": false,
+      "genres": [
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 89,
+      "id": "apple:1226034393",
+      "provider": "apple-music",
+      "appleId": "1226034393",
+      "title": "Sign of the Times",
+      "artist": "Harry Styles",
+      "artistNames": [
+        "Harry Styles"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2017-04-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/sign-of-the-times/1226034336?i=1226034393",
+      "sourceUrl": "https://music.apple.com/se/album/sign-of-the-times/1226034336?i=1226034393",
+      "explicit": false,
+      "genres": [
         "Pop",
-        "Alternativt"
+        "Musik"
       ],
       "country": "SE",
       "regions": [
@@ -2492,7 +2262,32 @@
       ]
     },
     {
-      "position": 99,
+      "position": 90,
+      "id": "apple:6792085384",
+      "provider": "apple-music",
+      "appleId": "6792085384",
+      "title": "Tongue",
+      "artist": "Fontaines D.C.",
+      "artistNames": [
+        "Fontaines D.C."
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-30",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/10/8c/24108c9c-845b-40f3-6175-9effb95e1d5c/191404167373.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/tongue/6792085051?i=6792085384",
+      "sourceUrl": "https://music.apple.com/se/album/tongue/6792085051?i=6792085384",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 91,
       "id": "apple:1818691657",
       "provider": "apple-music",
       "appleId": "1818691657",
@@ -2517,23 +2312,229 @@
       ]
     },
     {
-      "position": 100,
-      "id": "apple:548656753",
+      "position": 92,
+      "id": "apple:6818633004",
       "provider": "apple-music",
-      "appleId": "548656753",
-      "title": "Sweater Weather",
-      "artist": "The Neighbourhood",
+      "appleId": "6818633004",
+      "title": "Before You Know It",
+      "artist": "Kygo & Ava Max",
       "artistNames": [
-        "The Neighbourhood"
+        "Kygo & Ava Max"
       ],
       "albumTitle": "",
-      "releaseDate": "2012-05-07",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b9/8c/0f/b98c0f03-d78f-1619-8c7b-0b7f2c4d6ae7/886443575264.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/se/album/sweater-weather/548656698?i=548656753",
-      "sourceUrl": "https://music.apple.com/se/album/sweater-weather/548656698?i=548656753",
+      "releaseDate": "2026-10-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/5c/26/025c2676-168b-c922-c195-fdb653016df5/196874851777.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/before-you-know-it/6818632744?i=6818633004",
+      "sourceUrl": "https://music.apple.com/se/album/before-you-know-it/6818632744?i=6818633004",
+      "explicit": false,
+      "genres": [
+        "Dance",
+        "Musik",
+        "Pop"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 93,
+      "id": "apple:159294060",
+      "provider": "apple-music",
+      "appleId": "159294060",
+      "title": "Beat It (Single Version)",
+      "artist": "Michael Jackson",
+      "artistNames": [
+        "Michael Jackson"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1982-11-30",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3d/9d/38/3d9d3811-71f0-3a0e-1ada-3004e56ff852/827969428726.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/beat-it-single-version/159292399?i=159294060",
+      "sourceUrl": "https://music.apple.com/se/album/beat-it-single-version/159292399?i=159294060",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik",
+        "Rock",
+        "Dance",
+        "R&B/Soul"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 94,
+      "id": "apple:6793437720",
+      "provider": "apple-music",
+      "appleId": "6793437720",
+      "title": "Tänk om",
+      "artist": "Victor Leksell & Molly Sandén",
+      "artistNames": [
+        "Victor Leksell & Molly Sandén"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-08-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/37/02/5f3702eb-c758-81f6-90f9-b1f53ea6fe63/196874627808.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/t%C3%A4nk-om/6793437531?i=6793437720",
+      "sourceUrl": "https://music.apple.com/se/album/t%C3%A4nk-om/6793437531?i=6793437720",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 95,
+      "id": "apple:1728829782",
+      "provider": "apple-music",
+      "appleId": "1728829782",
+      "title": "Jag stannar här",
+      "artist": "Humlan Djojj & Josefine Götestam",
+      "artistNames": [
+        "Humlan Djojj & Josefine Götestam"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2019-09-20",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/3b/26/c83b2694-0819-facf-0ac2-d7180d4d9135/196871825030.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/jag-stannar-h%C3%A4r/1728829780?i=1728829782",
+      "sourceUrl": "https://music.apple.com/se/album/jag-stannar-h%C3%A4r/1728829780?i=1728829782",
+      "explicit": false,
+      "genres": [
+        "Barnmusik",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 96,
+      "id": "apple:1440830261",
+      "provider": "apple-music",
+      "appleId": "1440830261",
+      "title": "Summertime Sadness",
+      "artist": "Lana Del Rey",
+      "artistNames": [
+        "Lana Del Rey"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2012-01-27",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/42/39/b8423909-3abd-4b5f-8ebe-709c95e500bc/12UMGIM51209.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/summertime-sadness/1440829976?i=1440830261",
+      "sourceUrl": "https://music.apple.com/se/album/summertime-sadness/1440829976?i=1440830261",
       "explicit": false,
       "genres": [
         "Alternativt",
+        "Musik",
+        "Rock"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 97,
+      "id": "apple:1826530261",
+      "provider": "apple-music",
+      "appleId": "1826530261",
+      "title": "UNETHICAL",
+      "artist": "Faouzia",
+      "artistNames": [
+        "Faouzia"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-08-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/1e/a3/0e1ea38e-d4fb-7cc0-3a0a-ce53c2cd6184/193436435017_IMG.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/unethical/1826530260?i=1826530261",
+      "sourceUrl": "https://music.apple.com/se/album/unethical/1826530260?i=1826530261",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 98,
+      "id": "apple:1440872929",
+      "provider": "apple-music",
+      "appleId": "1440872929",
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "artistNames": [
+        "Avicii"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2013-06-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/5b/1e/185b1ef5-5d97-19d8-aebf-8e29e41874ef/13UAAIM59255.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/wake-me-up/1440872730?i=1440872929",
+      "sourceUrl": "https://music.apple.com/se/album/wake-me-up/1440872730?i=1440872929",
+      "explicit": false,
+      "genres": [
+        "Musik",
+        "Dance",
+        "Elektroniskt"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 99,
+      "id": "apple:1679849415",
+      "provider": "apple-music",
+      "appleId": "1679849415",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "artistNames": [
+        "Radiohead"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1992-09-21",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/28/7a/7c/287a7ca9-ed95-1a21-e3bb-4559a1a0ac0e/191404134351.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/creep/1679849414?i=1679849415",
+      "sourceUrl": "https://music.apple.com/se/album/creep/1679849414?i=1679849415",
+      "explicit": false,
+      "genres": [
+        "Alternativt",
+        "Musik"
+      ],
+      "country": "SE",
+      "regions": [
+        "SE"
+      ]
+    },
+    {
+      "position": 100,
+      "id": "apple:6769568596",
+      "provider": "apple-music",
+      "appleId": "6769568596",
+      "title": "Janice STFU",
+      "artist": "Drake",
+      "artistNames": [
+        "Drake"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-05-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/se/album/janice-stfu/6769568449?i=6769568596",
+      "sourceUrl": "https://music.apple.com/se/album/janice-stfu/6769568449?i=6769568596",
+      "explicit": false,
+      "genres": [
+        "Hiphop/Rap",
         "Musik"
       ],
       "country": "SE",
