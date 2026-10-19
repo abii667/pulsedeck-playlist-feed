@@ -1,16 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T11:06:03.974Z",
-  "changedCount": 17,
+  "generatedAt": "2026-10-19T13:16:39.850Z",
+  "changedCount": 18,
   "changes": [
     {
       "slug": "reggae-classics",
       "title": "Reggae Classics",
-      "previousSnapshotId": "public:58b3c1e7698c89aef59e0b7b9dd7de7d51dbcd31",
-      "snapshotId": "public:0e8c6c729f7c9ef9bb65ac5c4b88d85f45a76bc8",
+      "previousSnapshotId": "public:0e8c6c729f7c9ef9bb65ac5c4b88d85f45a76bc8",
+      "snapshotId": "public:51baedf9f10b9a5bd0ed9acf6416b9d158d379f8",
       "added": 1,
       "removed": 1,
       "addedTracks": [
+        {
+          "spotifyId": "1PHlYnuoDNtuuq6yPXbSV6",
+          "title": "Night Nurse",
+          "artistNames": [
+            "Gregory Isaacs"
+          ]
+        }
+      ],
+      "removedTracks": [
         {
           "spotifyId": "5Tx4LTzQIYIJFMdzONWjcJ",
           "title": "Drive Her Home",
@@ -19,22 +28,13 @@
             "Hopeton Lewis"
           ]
         }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "18GLelA5vVdzd9X7WGPmJ8",
-          "title": "Israelites",
-          "artistNames": [
-            "Desmond Dekker"
-          ]
-        }
       ]
     },
     {
       "slug": "all-out-80s",
       "title": "All Out 80s",
-      "previousSnapshotId": "public:a0058b39038cb7fea054ed75f47a75cf35ff5e27",
-      "snapshotId": "public:df77fd565c9d8bfa63a96c613da5d928cbc203e6",
+      "previousSnapshotId": "public:df77fd565c9d8bfa63a96c613da5d928cbc203e6",
+      "snapshotId": "public:0d87990d6b5e10aaf6eca5196845f392461b2a24",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -43,8 +43,8 @@
     {
       "slug": "all-out-90s",
       "title": "All Out 90s",
-      "previousSnapshotId": "public:0683ca1144f7e3da0487b451fb30c0f2f2136d00",
-      "snapshotId": "public:ef9d3e9e66b122b2cb3dc9e3ae77ddbac25c80c2",
+      "previousSnapshotId": "public:ef9d3e9e66b122b2cb3dc9e3ae77ddbac25c80c2",
+      "snapshotId": "public:04ade5894c8cbb7515dcf9b12f42e1e1633665ae",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -53,18 +53,34 @@
     {
       "slug": "all-out-2000s",
       "title": "All Out 2000s",
-      "previousSnapshotId": "public:1b42fb78788874b530288dd8119f042323728f82",
-      "snapshotId": "public:4f758eee3d86608d34f2e760b2a566d5ea9dc8d1",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
+      "previousSnapshotId": "public:4f758eee3d86608d34f2e760b2a566d5ea9dc8d1",
+      "snapshotId": "public:f75e48bcc4a0e4a819942ade4ca5636c78df1ec5",
+      "added": 1,
+      "removed": 1,
+      "addedTracks": [
+        {
+          "spotifyId": "0KQx6HOpJueiSkztcS0r7D",
+          "title": "Fallin'",
+          "artistNames": [
+            "Alicia Keys"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "1MTQHCpraD4S8g5PAFKzoj",
+          "title": "Behind Blue Eyes",
+          "artistNames": [
+            "Limp Bizkit"
+          ]
+        }
+      ]
     },
     {
       "slug": "chill-hits",
       "title": "Chill Hits",
-      "previousSnapshotId": "public:f6015f64046e19fbb2ab2c55a7801e27a9df7bd8",
-      "snapshotId": "public:c05dc295cfa5124db0706464ce5c7797c83bec33",
+      "previousSnapshotId": "public:c05dc295cfa5124db0706464ce5c7797c83bec33",
+      "snapshotId": "public:7451a5a700b00f6b889c7a943f28448d17f08c11",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -73,8 +89,8 @@
     {
       "slug": "beast-mode",
       "title": "Beast Mode",
-      "previousSnapshotId": "public:e514409ccfb39f24e404c62da14ddc2687ddb2df",
-      "snapshotId": "public:2cbb82594c1c1d410c57af1749ad86e2f963a085",
+      "previousSnapshotId": "public:2cbb82594c1c1d410c57af1749ad86e2f963a085",
+      "snapshotId": "public:1b6f34c329736ff29b0746cf6954bba8de1133e6",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -83,8 +99,8 @@
     {
       "slug": "jazz-classics",
       "title": "Jazz Classics",
-      "previousSnapshotId": "public:a551deadfde714bb5e8b791d6d108f857ce9ed95",
-      "snapshotId": "public:51d13ef4124a36546ced31fb798255eca28f0816",
+      "previousSnapshotId": "public:51d13ef4124a36546ced31fb798255eca28f0816",
+      "snapshotId": "public:2643e219ca36cd7b4b612681ab02a4442dd420eb",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -93,11 +109,51 @@
     {
       "slug": "gospel-mix",
       "title": "Gospel Mix",
-      "previousSnapshotId": "public:e44dc2beaf56183c8ffb8d8cf0e77c03b09d6f68",
-      "snapshotId": "public:7d0f160cc6b2a4bf8238a2867804f5ea6031b113",
-      "added": 17,
-      "removed": 17,
+      "previousSnapshotId": "public:7d0f160cc6b2a4bf8238a2867804f5ea6031b113",
+      "snapshotId": "public:66eae1ed9ac1a1d26d5251d93f3715cc557c5ae0",
+      "added": 5,
+      "removed": 5,
       "addedTracks": [
+        {
+          "spotifyId": "5CKbUv7zkOdf8X2602qgei",
+          "title": "Joy.",
+          "artistNames": [
+            "RAYE",
+            "Amma",
+            "Absolutely"
+          ]
+        },
+        {
+          "spotifyId": "6lMk5sY36yHg5vY2Q29lJd",
+          "title": "Mi Universo",
+          "artistNames": [
+            "Jesús Adrián Romero"
+          ]
+        },
+        {
+          "spotifyId": "4d5q7kToOjTyTv8ZG0zhut",
+          "title": "CELEBRATION",
+          "artistNames": [
+            "Forrest Frank"
+          ]
+        },
+        {
+          "spotifyId": "36HbKaih4chZlpK6C9HBBr",
+          "title": "João 20 + pra Sempre - Ao Vivo",
+          "artistNames": [
+            "Vitor Santana"
+          ]
+        },
+        {
+          "spotifyId": "1otGRpxjSNjSg5lmjaviNB",
+          "title": "Cuido dos Detalhes",
+          "artistNames": [
+            "André e Felipe",
+            "Isadora Pompeo"
+          ]
+        }
+      ],
+      "removedTracks": [
         {
           "spotifyId": "1jnU6ZJXnSSwxfmjGGed2J",
           "title": "Holy Forever",
@@ -121,97 +177,6 @@
           ]
         },
         {
-          "spotifyId": "5QbtKOsjbEGkx0GMiQGBZt",
-          "title": "Tu és + Águas Purificadoras - Ao Vivo",
-          "artistNames": [
-            "fhop music",
-            "Hamilton Rabelo"
-          ]
-        },
-        {
-          "spotifyId": "0GD31r9na0U0TLJ3xO2Att",
-          "title": "Eu e Minha Casa",
-          "artistNames": [
-            "Julliany Souza",
-            "Léo Brandão"
-          ]
-        },
-        {
-          "spotifyId": "5HsXjiTAbJtm919NrJ7pcq",
-          "title": "Só Tu És Santo / Uma Coisa / Deixa Queimar / Quando Ele Vem - Ao Vivo",
-          "artistNames": [
-            "MORADA"
-          ]
-        },
-        {
-          "spotifyId": "30ctDNEzwq4YivvC3vD1Mx",
-          "title": "Sou Grato Por Seu Amor",
-          "artistNames": [
-            "Get Worship",
-            "Get Records",
-            "Vinicius Cruz"
-          ]
-        },
-        {
-          "spotifyId": "1a5LfJGq0vuCWQ9Mme0Ac7",
-          "title": "Deserto (Ao Vivo)",
-          "artistNames": [
-            "Maria Marçal"
-          ]
-        },
-        {
-          "spotifyId": "2fvwEBdCFhFD7IO3IX3bIw",
-          "title": "Algo Novo (feat. Lukas Agustinho) - Ao Vivo",
-          "artistNames": [
-            "Kemuel",
-            "Lukas Agustinho"
-          ]
-        },
-        {
-          "spotifyId": "3pyEWO6mEOzOeMobs5BP6p",
-          "title": "Eu Navegarei",
-          "artistNames": [
-            "Gabriela Rocha"
-          ]
-        },
-        {
-          "spotifyId": "0Bcv2OSK7ShvPOg8EvWr8t",
-          "title": "Deus de Obras Completas - Ao Vivo",
-          "artistNames": [
-            "Kemilly Santos",
-            "Todah Music"
-          ]
-        },
-        {
-          "spotifyId": "35IN0nKkbuQh4DMxIv4R1E",
-          "title": "Lindo És + Só Quero Ver Você - Ao Vivo",
-          "artistNames": [
-            "Juliano Son"
-          ]
-        },
-        {
-          "spotifyId": "2SswEmtlmAf5VPD69ETNrk",
-          "title": "IMPERFEITO",
-          "artistNames": [
-            "Seven Plus",
-            "Rayssa Andreoli"
-          ]
-        },
-        {
-          "spotifyId": "3FZSOrmZmuUGZ9zxdfsVr1",
-          "title": "Se eu Somente Te Tocar - Ao Vivo",
-          "artistNames": [
-            "Nilson Junior"
-          ]
-        },
-        {
-          "spotifyId": "1uoA57FMhP9QjZxIJZVEWo",
-          "title": "Jeová Jireh",
-          "artistNames": [
-            "Aline Barros"
-          ]
-        },
-        {
           "spotifyId": "6GRKMvmwcRQEDzK2SD2RTt",
           "title": "Buscar-Me-Eis e Me Achareis - Ao Vivo",
           "artistNames": [
@@ -225,152 +190,13 @@
             "Marquinhos Gomes"
           ]
         }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "2XgEPY4cIYFsXFhAIrZ57U",
-          "title": "That's Who I Praise",
-          "artistNames": [
-            "Brandon Lake"
-          ]
-        },
-        {
-          "spotifyId": "6BqobW3pEDxEvgznbam8kv",
-          "title": "The Prodigal",
-          "artistNames": [
-            "Josiah Queen"
-          ]
-        },
-        {
-          "spotifyId": "5CKbUv7zkOdf8X2602qgei",
-          "title": "Joy.",
-          "artistNames": [
-            "RAYE",
-            "Amma",
-            "Absolutely"
-          ]
-        },
-        {
-          "spotifyId": "2wwEjucN8zj8MuZ7ZYoxiH",
-          "title": "AH, JESUS / CORAÇÃO IGUAL AO TEU",
-          "artistNames": [
-            "Julliany Souza"
-          ]
-        },
-        {
-          "spotifyId": "1h0yBDChztCJRTqmI5U6ou",
-          "title": "É Tudo Sobre Você / Ser Mudado - Ao Vivo",
-          "artistNames": [
-            "MORADA"
-          ]
-        },
-        {
-          "spotifyId": "2enOwKM3juIzJQS9pkrSo5",
-          "title": "Ovelha Em Treinamento",
-          "artistNames": [
-            "Isadora Pompeo"
-          ]
-        },
-        {
-          "spotifyId": "682XjN6L1Qhs5rXbuGSQKK",
-          "title": "Ninguém Explica Deus (feat. Gabriela Rocha) - Ao Vivo",
-          "artistNames": [
-            "Preto no Branco",
-            "Gabriela Rocha"
-          ]
-        },
-        {
-          "spotifyId": "3Gam4UbOwnwQQQKuItui39",
-          "title": "Raridade",
-          "artistNames": [
-            "Anderson Freire"
-          ]
-        },
-        {
-          "spotifyId": "5l8vkQjZJz8EXmo28YoaPr",
-          "title": "Não Me Deixe Esquecer - Ao Vivo",
-          "artistNames": [
-            "Valesca Mayssa",
-            "Todah Music"
-          ]
-        },
-        {
-          "spotifyId": "4bridq05nWYVVn9tGkBHeU",
-          "title": "Eu Te Entrego o Meu Dia",
-          "artistNames": [
-            "Israel Salazar"
-          ]
-        },
-        {
-          "spotifyId": "56tz4dLbydeQGTcWs7nMHa",
-          "title": "De Dentro Pra Fora",
-          "artistNames": [
-            "Julia Vitória"
-          ]
-        },
-        {
-          "spotifyId": "7Ee6XgP8EHKDhTMYLIndu9",
-          "title": "Praise (feat. Brandon Lake, Chris Brown & Chandler Moore)",
-          "artistNames": [
-            "Elevation Worship",
-            "Brandon Lake",
-            "Chris Brown",
-            "Chandler Moore"
-          ]
-        },
-        {
-          "spotifyId": "7dKqPh21HpsysZvRWyNeM1",
-          "title": "Bênçãos Que Não Têm Fim (Counting My Blessings)",
-          "artistNames": [
-            "Isadora Pompeo"
-          ]
-        },
-        {
-          "spotifyId": "36HbKaih4chZlpK6C9HBBr",
-          "title": "João 20 + pra Sempre - Ao Vivo",
-          "artistNames": [
-            "Vitor Santana"
-          ]
-        },
-        {
-          "spotifyId": "7b07ZOEHDdp6jJbstnf0iB",
-          "title": "Ressuscita-me",
-          "artistNames": [
-            "Aline Barros"
-          ]
-        },
-        {
-          "spotifyId": "0PEkKjD8bgssfDbKUzKQ21",
-          "title": "Sublime - Ao Vivo",
-          "artistNames": [
-            "fhop music",
-            "Caio Freitas"
-          ]
-        },
-        {
-          "spotifyId": "4eeRVmOskzKCXffJy5jVwb",
-          "title": "Liberta-Me de Mim",
-          "artistNames": [
-            "Luma Elpidio"
-          ]
-        }
       ]
     },
     {
       "slug": "roman-catholic-hymns",
       "title": "Roman Catholic Hymns ",
-      "previousSnapshotId": "public:46b2dfe3c45ebce36f2bf84b10f0b0010c1a3c86",
-      "snapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "traditional-catholic-latin-chants",
-      "title": "Traditional Catholic Latin Chants",
-      "previousSnapshotId": "public:62d1cdf08266af4dcf5a2b0da913f8b7d8150d5e",
-      "snapshotId": "public:742977d27a8e6f2d1acd5f1084a270c1c3a09dc8",
+      "previousSnapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
+      "snapshotId": "public:46b2dfe3c45ebce36f2bf84b10f0b0010c1a3c86",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -379,8 +205,8 @@
     {
       "slug": "ethiopian-orthodox-kidase",
       "title": "Ethiopian Orthodox Kidase",
-      "previousSnapshotId": "public:6277f0f52817094f2d0df602075cef5592bf6707",
-      "snapshotId": "public:2e8dd55397341eabc2078464740a99576ab04699",
+      "previousSnapshotId": "public:2e8dd55397341eabc2078464740a99576ab04699",
+      "snapshotId": "public:6277f0f52817094f2d0df602075cef5592bf6707",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -389,8 +215,8 @@
     {
       "slug": "ethiopian-gospel",
       "title": "Amharic Mezmure (Ethiopian gospel songs) ",
-      "previousSnapshotId": "public:827cf0c55c99682530b4240728ad9435b6bb904b",
-      "snapshotId": "public:68bcbd15deca13ce7e41ef483f77da97e2367805",
+      "previousSnapshotId": "public:68bcbd15deca13ce7e41ef483f77da97e2367805",
+      "snapshotId": "public:827cf0c55c99682530b4240728ad9435b6bb904b",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -399,18 +225,28 @@
     {
       "slug": "all-time-ethiopian-essentials",
       "title": "All-Time Ethiopian Essentials",
-      "previousSnapshotId": "public:4d1427626a9e5af813c07e936bfa253142e9ebdf",
-      "snapshotId": "public:12d24d2d398afb1fefb06c9c2651b5ebb65c66c0",
+      "previousSnapshotId": "public:12d24d2d398afb1fefb06c9c2651b5ebb65c66c0",
+      "snapshotId": "public:2aa64ddebc78a91ed17e95b5dce8094387008e22",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "ethiopian-orthodox-mezmur-expanded",
-      "title": "Ethiopian Orthodox Mezmur የኢትዮጵያ ኦርቶዶክስ መዝሙር",
-      "previousSnapshotId": "public:0d237af8a4b88b5135a2728d8fc96f3f2e1be037",
-      "snapshotId": "public:b62c71528e1bd3746eb9992053a0e76da9634a20",
+      "slug": "eritrean-music",
+      "title": "Eritrean music 🇪🇷🇪🇷🇪🇷",
+      "previousSnapshotId": "public:7edf7a004b95e2aa5282f9ab6c3f4b3af6ab06c9",
+      "snapshotId": "public:bbd855810bcd613562c3b1cf174a249086ae3926",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "ethiopian-kidase-expanded",
+      "title": "kidase | ቅዳሴ",
+      "previousSnapshotId": "public:7a52428b41a77cee0bb89dac5a4f7544e416e8fb",
+      "snapshotId": "public:c830c7e00027df19fe785409143b994099f6c8e1",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -419,31 +255,82 @@
     {
       "slug": "amharic-gospel-songs",
       "title": "Amharic Gospel Songs  መዝሙር (MeZMuR)",
-      "previousSnapshotId": "public:3152c92a474018557a89f4e666aa9e88e47da385",
-      "snapshotId": "public:72beae7d0c9d8771f962947a6d984deee72d9116",
+      "previousSnapshotId": "public:72beae7d0c9d8771f962947a6d984deee72d9116",
+      "snapshotId": "public:3152c92a474018557a89f4e666aa9e88e47da385",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "puerto-rico-top-50",
-      "title": "Top 50 - Puerto Rico",
-      "previousSnapshotId": "public:8ebbf6504d8fe90313b8f8e8acbbbdd1f57c8c87",
-      "snapshotId": "public:698fbdd623b87ccba2f2c9800e7341f8a48cce04",
+      "slug": "k-pop-on",
+      "title": "K-Pop ON! (온)",
+      "previousSnapshotId": "public:7e0b95e23dbc9a5a97358e25831887b4082591b7",
+      "snapshotId": "public:3977af5c806709fe8b9d6f8aa9a18e37cac5da11",
+      "added": 2,
+      "removed": 2,
+      "addedTracks": [
+        {
+          "spotifyId": "6F0vhKF4fy9WQi39JPQnCv",
+          "title": "긴 소원 (Birthday Wish)",
+          "artistNames": [
+            "NMIXX"
+          ]
+        },
+        {
+          "spotifyId": "39sjfpQLGBJnvwTox6LLkn",
+          "title": "Looks Can Kill",
+          "artistNames": [
+            "IVE"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "70RQYCjVacuJgeYAmU2sXd",
+          "title": "Vitamin ME",
+          "artistNames": [
+            "fromis_9"
+          ]
+        },
+        {
+          "spotifyId": "6xOoHI8ap5SFkDiBLb3ucf",
+          "title": "One - Spotify Singles",
+          "artistNames": [
+            "DxS"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "puerto-rico-top-hits",
+      "title": "Top 50 Puerto Rico 🇵🇷 2024",
+      "previousSnapshotId": "public:20128c90470d8bef8a60825bf32b8acdc355142f",
+      "snapshotId": "public:9049b1c909ba0b77cb0edbc2a35b1c1fd9ea2389",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "pakistan-trending",
-      "title": "Trending 50 - Pakistan",
-      "previousSnapshotId": "public:2baa5b220915057c73dcbe7ff236810148f7f998",
-      "snapshotId": "public:6c19159f9ac2f97d1cb4de8685fa9fa2839a3573",
-      "added": 0,
+      "slug": "pakistan-top-songs",
+      "title": "Top 50 Pakistan Songs 💚 New Pakistani Songs 2026",
+      "previousSnapshotId": "public:aa4291f60b3eb47dfb2b104d6a6981f4241a21a7",
+      "snapshotId": "public:532d7369a0d9d1b2b445e7f8aea9282b73ea87c6",
+      "added": 1,
       "removed": 0,
-      "addedTracks": [],
+      "addedTracks": [
+        {
+          "spotifyId": "7DfkuRi8oX9o9LKKKsUVPH",
+          "title": "Do Din Ki Zindagi - From \"Gunmaaster G9\"",
+          "artistNames": [
+            "Himesh Reshammiya",
+            "Shreya Ghoshal",
+            "Vishal Mishra",
+            "Junaid Wasi"
+          ]
+        }
+      ],
       "removedTracks": []
     }
   ]
