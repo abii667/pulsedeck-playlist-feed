@@ -7,14 +7,14 @@
   "country": "IN",
   "countryName": "India",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/in/music/most-played/100/songs.json",
-  "updatedAt": "2026-10-21T12:27:06.000Z",
-  "checkedAt": "2026-10-22T11:53:19.555Z",
-  "status": "stale",
+  "updatedAt": "2026-10-23T12:19:19.000Z",
+  "checkedAt": "2026-10-23T11:39:48.980Z",
+  "status": "fresh",
   "available": true,
   "official": true,
-  "stale": true,
-  "error": "JSON fetch failed: 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
-  "providerError": "JSON fetch failed: 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+  "stale": false,
+  "error": null,
+  "providerError": null,
   "trackCount": 100,
   "tracks": [
     {
@@ -97,6 +97,32 @@
     },
     {
       "position": 4,
+      "id": "apple:6824473553",
+      "provider": "apple-music",
+      "appleId": "6824473553",
+      "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
+      "artist": "Sai Abhyankkar, Tippu & Arun Srinivasan",
+      "artistNames": [
+        "Sai Abhyankkar, Tippu & Arun Srinivasan"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/e9/4a/ebe94a2a-129f-1f5e-bc00-91662a49620f/1200220338696.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/veezha-veera-from-om-chapter-1-udhiram-the-blood-wood-tamil/6824473544?i=6824473553",
+      "sourceUrl": "https://music.apple.com/in/album/veezha-veera-from-om-chapter-1-udhiram-the-blood-wood-tamil/6824473544?i=6824473553",
+      "explicit": false,
+      "genres": [
+        "Tamil",
+        "Music",
+        "Regional Indian"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 5,
       "id": "apple:6814002652",
       "provider": "apple-music",
       "appleId": "6814002652",
@@ -122,7 +148,7 @@
       ]
     },
     {
-      "position": 5,
+      "position": 6,
       "id": "apple:6817733631",
       "provider": "apple-music",
       "appleId": "6817733631",
@@ -148,7 +174,7 @@
       ]
     },
     {
-      "position": 6,
+      "position": 7,
       "id": "apple:6803810914",
       "provider": "apple-music",
       "appleId": "6803810914",
@@ -174,7 +200,7 @@
       ]
     },
     {
-      "position": 7,
+      "position": 8,
       "id": "apple:6817733628",
       "provider": "apple-music",
       "appleId": "6817733628",
@@ -188,32 +214,6 @@
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
       "appleUrl": "https://music.apple.com/in/album/bindaas/6817733404?i=6817733628",
       "sourceUrl": "https://music.apple.com/in/album/bindaas/6817733404?i=6817733628",
-      "explicit": false,
-      "genres": [
-        "Tamil",
-        "Music",
-        "Regional Indian"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 8,
-      "id": "apple:6817733413",
-      "provider": "apple-music",
-      "appleId": "6817733413",
-      "title": "Jailer 2 Theme",
-      "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
-      "artistNames": [
-        "Anirudh Ravichander, M.S Krsna & Super Subu"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-30",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/jailer-2-theme/6817733404?i=6817733413",
-      "sourceUrl": "https://music.apple.com/in/album/jailer-2-theme/6817733404?i=6817733413",
       "explicit": false,
       "genres": [
         "Tamil",
@@ -252,6 +252,32 @@
     },
     {
       "position": 10,
+      "id": "apple:6817733413",
+      "provider": "apple-music",
+      "appleId": "6817733413",
+      "title": "Jailer 2 Theme",
+      "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
+      "artistNames": [
+        "Anirudh Ravichander, M.S Krsna & Super Subu"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-30",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/jailer-2-theme/6817733404?i=6817733413",
+      "sourceUrl": "https://music.apple.com/in/album/jailer-2-theme/6817733404?i=6817733413",
+      "explicit": false,
+      "genres": [
+        "Tamil",
+        "Music",
+        "Regional Indian"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 11,
       "id": "apple:6804643315",
       "provider": "apple-music",
       "appleId": "6804643315",
@@ -270,32 +296,6 @@
         "Tamil",
         "Music",
         "Regional Indian"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 11,
-      "id": "apple:6814002649",
-      "provider": "apple-music",
-      "appleId": "6814002649",
-      "title": "Real Bad Man",
-      "artist": "Karan Aujla",
-      "artistNames": [
-        "Karan Aujla"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-25",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/6d/78/f76d78c5-cc9c-f2d6-8603-ba690eaa5c7d/5064089826918_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/real-bad-man/6814002539?i=6814002649",
-      "sourceUrl": "https://music.apple.com/in/album/real-bad-man/6814002539?i=6814002649",
-      "explicit": false,
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music",
-        "Pop"
       ],
       "country": "IN",
       "regions": [
@@ -329,24 +329,24 @@
     },
     {
       "position": 13,
-      "id": "apple:6824473553",
+      "id": "apple:6814002649",
       "provider": "apple-music",
-      "appleId": "6824473553",
-      "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
-      "artist": "Sai Abhyankkar, Tippu & Arun Srinivasan",
+      "appleId": "6814002649",
+      "title": "Real Bad Man",
+      "artist": "Karan Aujla",
       "artistNames": [
-        "Sai Abhyankkar, Tippu & Arun Srinivasan"
+        "Karan Aujla"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-10-19",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/e9/4a/ebe94a2a-129f-1f5e-bc00-91662a49620f/1200220338696.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/veezha-veera-from-om-chapter-1-udhiram-the-blood-wood-tamil/6824473544?i=6824473553",
-      "sourceUrl": "https://music.apple.com/in/album/veezha-veera-from-om-chapter-1-udhiram-the-blood-wood-tamil/6824473544?i=6824473553",
+      "releaseDate": "2026-09-25",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/6d/78/f76d78c5-cc9c-f2d6-8603-ba690eaa5c7d/5064089826918_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/real-bad-man/6814002539?i=6814002649",
+      "sourceUrl": "https://music.apple.com/in/album/real-bad-man/6814002539?i=6814002649",
       "explicit": false,
       "genres": [
-        "Tamil",
+        "Hip-Hop/Rap",
         "Music",
-        "Regional Indian"
+        "Pop"
       ],
       "country": "IN",
       "regions": [
@@ -355,24 +355,23 @@
     },
     {
       "position": 14,
-      "id": "apple:6817733641",
+      "id": "apple:1831237608",
       "provider": "apple-music",
-      "appleId": "6817733641",
-      "title": "Hukum Reloaded",
-      "artist": "Anirudh Ravichander & Super Subu",
+      "appleId": "1831237608",
+      "title": "Arz Kiya Hai  Coke Studio Bharat",
+      "artist": "Anuv Jain",
       "artistNames": [
-        "Anirudh Ravichander & Super Subu"
+        "Anuv Jain"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-09-30",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/hukum-reloaded/6817733404?i=6817733641",
-      "sourceUrl": "https://music.apple.com/in/album/hukum-reloaded/6817733404?i=6817733641",
+      "releaseDate": "2025-08-20",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/e7/77/02e77709-a5f6-5470-9e5b-70a0d6ff45ed/25UM1IM13936.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/arz-kiya-hai-coke-studio-bharat/1831237583?i=1831237608",
+      "sourceUrl": "https://music.apple.com/in/album/arz-kiya-hai-coke-studio-bharat/1831237583?i=1831237608",
       "explicit": false,
       "genres": [
-        "Tamil",
-        "Music",
-        "Regional Indian"
+        "Pop",
+        "Music"
       ],
       "country": "IN",
       "regions": [
@@ -381,6 +380,31 @@
     },
     {
       "position": 15,
+      "id": "apple:6785497626",
+      "provider": "apple-music",
+      "appleId": "6785497626",
+      "title": "Barsaat",
+      "artist": "Banjaare & Roni",
+      "artistNames": [
+        "Banjaare & Roni"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-09",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/2f/fe/b12ffe7a-1bc8-cf4c-ea05-69f4bb3b3f66/196874562376.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/barsaat/6785497625?i=6785497626",
+      "sourceUrl": "https://music.apple.com/in/album/barsaat/6785497625?i=6785497626",
+      "explicit": false,
+      "genres": [
+        "Indian Pop",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 16,
       "id": "apple:6817733633",
       "provider": "apple-music",
       "appleId": "6817733633",
@@ -399,31 +423,6 @@
         "Tamil",
         "Music",
         "Regional Indian"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 16,
-      "id": "apple:1831237608",
-      "provider": "apple-music",
-      "appleId": "1831237608",
-      "title": "Arz Kiya Hai  Coke Studio Bharat",
-      "artist": "Anuv Jain",
-      "artistNames": [
-        "Anuv Jain"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-08-20",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/e7/77/02e77709-a5f6-5470-9e5b-70a0d6ff45ed/25UM1IM13936.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/arz-kiya-hai-coke-studio-bharat/1831237583?i=1831237608",
-      "sourceUrl": "https://music.apple.com/in/album/arz-kiya-hai-coke-studio-bharat/1831237583?i=1831237608",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
       ],
       "country": "IN",
       "regions": [
@@ -482,23 +481,24 @@
     },
     {
       "position": 19,
-      "id": "apple:6785497626",
+      "id": "apple:6817733641",
       "provider": "apple-music",
-      "appleId": "6785497626",
-      "title": "Barsaat",
-      "artist": "Banjaare & Roni",
+      "appleId": "6817733641",
+      "title": "Hukum Reloaded",
+      "artist": "Anirudh Ravichander & Super Subu",
       "artistNames": [
-        "Banjaare & Roni"
+        "Anirudh Ravichander & Super Subu"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-07-09",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/2f/fe/b12ffe7a-1bc8-cf4c-ea05-69f4bb3b3f66/196874562376.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/barsaat/6785497625?i=6785497626",
-      "sourceUrl": "https://music.apple.com/in/album/barsaat/6785497625?i=6785497626",
+      "releaseDate": "2026-09-30",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/hukum-reloaded/6817733404?i=6817733641",
+      "sourceUrl": "https://music.apple.com/in/album/hukum-reloaded/6817733404?i=6817733641",
       "explicit": false,
       "genres": [
-        "Indian Pop",
-        "Music"
+        "Tamil",
+        "Music",
+        "Regional Indian"
       ],
       "country": "IN",
       "regions": [
@@ -507,6 +507,31 @@
     },
     {
       "position": 20,
+      "id": "apple:1275543935",
+      "provider": "apple-music",
+      "appleId": "1275543935",
+      "title": "Shree Hanuman Chalisa",
+      "artist": "Hariharan",
+      "artistNames": [
+        "Hariharan"
+      ],
+      "albumTitle": "",
+      "releaseDate": "1992-01-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c5/3a/8d/c53a8d9b-23d8-5cc1-ec14-6ed0ce7920a0/8902894137256_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/shree-hanuman-chalisa/1275543934?i=1275543935",
+      "sourceUrl": "https://music.apple.com/in/album/shree-hanuman-chalisa/1275543934?i=1275543935",
+      "explicit": false,
+      "genres": [
+        "Devotional & Spiritual",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 21,
       "id": "apple:6814002657",
       "provider": "apple-music",
       "appleId": "6814002657",
@@ -532,57 +557,7 @@
       ]
     },
     {
-      "position": 21,
-      "id": "apple:1275543935",
-      "provider": "apple-music",
-      "appleId": "1275543935",
-      "title": "Shree Hanuman Chalisa",
-      "artist": "Hariharan",
-      "artistNames": [
-        "Hariharan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "1992-01-01",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c5/3a/8d/c53a8d9b-23d8-5cc1-ec14-6ed0ce7920a0/8902894137256_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/shree-hanuman-chalisa/1275543934?i=1275543935",
-      "sourceUrl": "https://music.apple.com/in/album/shree-hanuman-chalisa/1275543934?i=1275543935",
-      "explicit": false,
-      "genres": [
-        "Devotional & Spiritual",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
       "position": 22,
-      "id": "apple:6823509781",
-      "provider": "apple-music",
-      "appleId": "6823509781",
-      "title": "Kaali Hoodie",
-      "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
-      "artistNames": [
-        "Sidhu Moose Wala, Bohemia & The Kidd"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/38/dd/2b38dd97-85e7-8bc3-fdf9-d004d18b2eee/5064090949392_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/kaali-hoodie/6823509780?i=6823509781",
-      "sourceUrl": "https://music.apple.com/in/album/kaali-hoodie/6823509780?i=6823509781",
-      "explicit": false,
-      "genres": [
-        "Music",
-        "Pop"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 23,
       "id": "apple:1829591983",
       "provider": "apple-music",
       "appleId": "1829591983",
@@ -601,6 +576,32 @@
         "Pop",
         "Music",
         "Hip-Hop/Rap"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 23,
+      "id": "apple:6814002664",
+      "provider": "apple-music",
+      "appleId": "6814002664",
+      "title": "Aujla Szn",
+      "artist": "Karan Aujla & MXRCI",
+      "artistNames": [
+        "Karan Aujla & MXRCI"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-25",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/6d/78/f76d78c5-cc9c-f2d6-8603-ba690eaa5c7d/5064089826918_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/aujla-szn/6814002539?i=6814002664",
+      "sourceUrl": "https://music.apple.com/in/album/aujla-szn/6814002539?i=6814002664",
+      "explicit": false,
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music",
+        "Pop"
       ],
       "country": "IN",
       "regions": [
@@ -634,84 +635,6 @@
     },
     {
       "position": 25,
-      "id": "apple:6814002664",
-      "provider": "apple-music",
-      "appleId": "6814002664",
-      "title": "Aujla Szn",
-      "artist": "Karan Aujla & MXRCI",
-      "artistNames": [
-        "Karan Aujla & MXRCI"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-25",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/6d/78/f76d78c5-cc9c-f2d6-8603-ba690eaa5c7d/5064089826918_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/aujla-szn/6814002539?i=6814002664",
-      "sourceUrl": "https://music.apple.com/in/album/aujla-szn/6814002539?i=6814002664",
-      "explicit": false,
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music",
-        "Pop"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 26,
-      "id": "apple:6817733412",
-      "provider": "apple-music",
-      "appleId": "6817733412",
-      "title": "Veramaari",
-      "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-      "artistNames": [
-        "Anirudh Ravichander & Thamizh Aadhavan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-30",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/veramaari/6817733404?i=6817733412",
-      "sourceUrl": "https://music.apple.com/in/album/veramaari/6817733404?i=6817733412",
-      "explicit": false,
-      "genres": [
-        "Tamil",
-        "Music",
-        "Regional Indian"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 27,
-      "id": "apple:6817733639",
-      "provider": "apple-music",
-      "appleId": "6817733639",
-      "title": "Dileep Theme (Instrumental)",
-      "artist": "Anirudh Ravichander",
-      "artistNames": [
-        "Anirudh Ravichander"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-30",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/dileep-theme-instrumental/6817733404?i=6817733639",
-      "sourceUrl": "https://music.apple.com/in/album/dileep-theme-instrumental/6817733404?i=6817733639",
-      "explicit": false,
-      "genres": [
-        "Tamil",
-        "Music",
-        "Regional Indian"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 28,
       "id": "apple:1829591922",
       "provider": "apple-music",
       "appleId": "1829591922",
@@ -737,7 +660,7 @@
       ]
     },
     {
-      "position": 29,
+      "position": 26,
       "id": "apple:6817733411",
       "provider": "apple-music",
       "appleId": "6817733411",
@@ -763,24 +686,24 @@
       ]
     },
     {
-      "position": 30,
-      "id": "apple:6819228160",
+      "position": 27,
+      "id": "apple:6823509781",
       "provider": "apple-music",
-      "appleId": "6819228160",
-      "title": "Said & Done",
-      "artist": "Arjan Dhillon & Qarn Mallhi",
+      "appleId": "6823509781",
+      "title": "Kaali Hoodie",
+      "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
       "artistNames": [
-        "Arjan Dhillon & Qarn Mallhi"
+        "Sidhu Moose Wala, Bohemia & The Kidd"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-10-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/61/48/b661488b-a492-1dae-ea9c-a77459cea03a/cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/said-done/6819228159?i=6819228160",
-      "sourceUrl": "https://music.apple.com/in/album/said-done/6819228159?i=6819228160",
+      "releaseDate": "2026-10-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/38/dd/2b38dd97-85e7-8bc3-fdf9-d004d18b2eee/5064090949392_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/kaali-hoodie/6823509780?i=6823509781",
+      "sourceUrl": "https://music.apple.com/in/album/kaali-hoodie/6823509780?i=6823509781",
       "explicit": false,
       "genres": [
-        "Hip-Hop/Rap",
-        "Music"
+        "Music",
+        "Pop"
       ],
       "country": "IN",
       "regions": [
@@ -788,7 +711,59 @@
       ]
     },
     {
-      "position": 31,
+      "position": 28,
+      "id": "apple:6817733412",
+      "provider": "apple-music",
+      "appleId": "6817733412",
+      "title": "Veramaari",
+      "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+      "artistNames": [
+        "Anirudh Ravichander & Thamizh Aadhavan"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-30",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/veramaari/6817733404?i=6817733412",
+      "sourceUrl": "https://music.apple.com/in/album/veramaari/6817733404?i=6817733412",
+      "explicit": false,
+      "genres": [
+        "Tamil",
+        "Music",
+        "Regional Indian"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 29,
+      "id": "apple:6817733639",
+      "provider": "apple-music",
+      "appleId": "6817733639",
+      "title": "Dileep Theme (Instrumental)",
+      "artist": "Anirudh Ravichander",
+      "artistNames": [
+        "Anirudh Ravichander"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-30",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/dileep-theme-instrumental/6817733404?i=6817733639",
+      "sourceUrl": "https://music.apple.com/in/album/dileep-theme-instrumental/6817733404?i=6817733639",
+      "explicit": false,
+      "genres": [
+        "Tamil",
+        "Music",
+        "Regional Indian"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 30,
       "id": "apple:1745062759",
       "provider": "apple-music",
       "appleId": "1745062759",
@@ -814,24 +789,25 @@
       ]
     },
     {
-      "position": 32,
-      "id": "apple:6786654320",
+      "position": 31,
+      "id": "apple:6769824836",
       "provider": "apple-music",
-      "appleId": "6786654320",
-      "title": "KALYANI (Remix)",
-      "artist": "ARJN, KDS, FIFTY4 & Shreya Ghoshal",
+      "appleId": "6769824836",
+      "title": "Raga of Revenge (From \"DC\")",
+      "artist": "Anirudh Ravichander",
       "artistNames": [
-        "ARJN, KDS, FIFTY4 & Shreya Ghoshal"
+        "Anirudh Ravichander"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-07-01",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/f8/a5/5ff8a59a-5b12-b177-9fe0-295345e93765/26UMGIM78044.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/kalyani-remix/6786654317?i=6786654320",
-      "sourceUrl": "https://music.apple.com/in/album/kalyani-remix/6786654317?i=6786654320",
+      "releaseDate": "2026-05-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/83/b3/69/83b3694e-974a-d50b-3eb9-2efd4e66143e/820233486484.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/raga-of-revenge-from-dc/6769824426?i=6769824836",
+      "sourceUrl": "https://music.apple.com/in/album/raga-of-revenge-from-dc/6769824426?i=6769824836",
       "explicit": false,
       "genres": [
-        "Pop",
-        "Music"
+        "Tamil",
+        "Music",
+        "Regional Indian"
       ],
       "country": "IN",
       "regions": [
@@ -839,7 +815,7 @@
       ]
     },
     {
-      "position": 33,
+      "position": 32,
       "id": "apple:1819981707",
       "provider": "apple-music",
       "appleId": "1819981707",
@@ -856,6 +832,31 @@
       "explicit": false,
       "genres": [
         "Hip-Hop/Rap",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 33,
+      "id": "apple:6786654320",
+      "provider": "apple-music",
+      "appleId": "6786654320",
+      "title": "KALYANI (Remix)",
+      "artist": "ARJN, KDS, FIFTY4 & Shreya Ghoshal",
+      "artistNames": [
+        "ARJN, KDS, FIFTY4 & Shreya Ghoshal"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/f8/a5/5ff8a59a-5b12-b177-9fe0-295345e93765/26UMGIM78044.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/kalyani-remix/6786654317?i=6786654320",
+      "sourceUrl": "https://music.apple.com/in/album/kalyani-remix/6786654317?i=6786654320",
+      "explicit": false,
+      "genres": [
+        "Pop",
         "Music"
       ],
       "country": "IN",
@@ -890,6 +891,31 @@
     },
     {
       "position": 35,
+      "id": "apple:6819228160",
+      "provider": "apple-music",
+      "appleId": "6819228160",
+      "title": "Said & Done",
+      "artist": "Arjan Dhillon & Qarn Mallhi",
+      "artistNames": [
+        "Arjan Dhillon & Qarn Mallhi"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/61/48/b661488b-a492-1dae-ea9c-a77459cea03a/cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/said-done/6819228159?i=6819228160",
+      "sourceUrl": "https://music.apple.com/in/album/said-done/6819228159?i=6819228160",
+      "explicit": false,
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 36,
       "id": "apple:1779786209",
       "provider": "apple-music",
       "appleId": "1779786209",
@@ -914,7 +940,7 @@
       ]
     },
     {
-      "position": 36,
+      "position": 37,
       "id": "apple:1854466376",
       "provider": "apple-music",
       "appleId": "1854466376",
@@ -939,73 +965,23 @@
       ]
     },
     {
-      "position": 37,
-      "id": "apple:1839416338",
+      "position": 38,
+      "id": "apple:1658012467",
       "provider": "apple-music",
-      "appleId": "1839416338",
-      "title": "Deewane (feat. BIR)",
-      "artist": "Navaan Sandhu",
+      "appleId": "1658012467",
+      "title": "On Top",
+      "artist": "Karan Aujla",
       "artistNames": [
-        "Navaan Sandhu"
+        "Karan Aujla"
       ],
       "albumTitle": "",
-      "releaseDate": "2025-09-19",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/0c/d2/4e0cd29d-f2c3-0d41-c33e-9ab5c9acf396/25UM1IM43859.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/deewane-feat-bir/1839416070?i=1839416338",
-      "sourceUrl": "https://music.apple.com/in/album/deewane-feat-bir/1839416070?i=1839416338",
+      "releaseDate": "2022-11-24",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/87/d4/ca87d416-2021-0eb1-f36a-fe01998c738d/5059950896060_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/on-top/1658012466?i=1658012467",
+      "sourceUrl": "https://music.apple.com/in/album/on-top/1658012466?i=1658012467",
       "explicit": false,
       "genres": [
         "Indian Pop",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 38,
-      "id": "apple:1812474451",
-      "provider": "apple-music",
-      "appleId": "1812474451",
-      "title": "Courtside",
-      "artist": "Karan Aujla & Signature by SB",
-      "artistNames": [
-        "Karan Aujla & Signature by SB"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-05-13",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/03/fe/2803feb5-cfa7-2c16-0ccb-2232d1613103/5021732792907.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/courtside/1812474449?i=1812474451",
-      "sourceUrl": "https://music.apple.com/in/album/courtside/1812474449?i=1812474451",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 39,
-      "id": "apple:6769824836",
-      "provider": "apple-music",
-      "appleId": "6769824836",
-      "title": "Raga of Revenge (From \"DC\")",
-      "artist": "Anirudh Ravichander",
-      "artistNames": [
-        "Anirudh Ravichander"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-05-16",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/83/b3/69/83b3694e-974a-d50b-3eb9-2efd4e66143e/820233486484.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/raga-of-revenge-from-dc/6769824426?i=6769824836",
-      "sourceUrl": "https://music.apple.com/in/album/raga-of-revenge-from-dc/6769824426?i=6769824836",
-      "explicit": false,
-      "genres": [
-        "Tamil",
         "Music",
         "Regional Indian"
       ],
@@ -1015,7 +991,7 @@
       ]
     },
     {
-      "position": 40,
+      "position": 39,
       "id": "apple:1167416565",
       "provider": "apple-music",
       "appleId": "1167416565",
@@ -1040,7 +1016,57 @@
       ]
     },
     {
+      "position": 40,
+      "id": "apple:1839416338",
+      "provider": "apple-music",
+      "appleId": "1839416338",
+      "title": "Deewane (feat. BIR)",
+      "artist": "Navaan Sandhu",
+      "artistNames": [
+        "Navaan Sandhu"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-09-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/0c/d2/4e0cd29d-f2c3-0d41-c33e-9ab5c9acf396/25UM1IM43859.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/deewane-feat-bir/1839416070?i=1839416338",
+      "sourceUrl": "https://music.apple.com/in/album/deewane-feat-bir/1839416070?i=1839416338",
+      "explicit": false,
+      "genres": [
+        "Indian Pop",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
       "position": 41,
+      "id": "apple:1879493592",
+      "provider": "apple-music",
+      "appleId": "1879493592",
+      "title": "Bairan",
+      "artist": "Banjaare",
+      "artistNames": [
+        "Banjaare"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-01-23",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/bd/01/3cbd01ad-1bbd-14b5-fb72-1d61c101d49d/821530642238.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/bairan/1879493321?i=1879493592",
+      "sourceUrl": "https://music.apple.com/in/album/bairan/1879493321?i=1879493592",
+      "explicit": false,
+      "genres": [
+        "Indian Pop",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 42,
       "id": "apple:1740313568",
       "provider": "apple-music",
       "appleId": "1740313568",
@@ -1065,7 +1091,7 @@
       ]
     },
     {
-      "position": 42,
+      "position": 43,
       "id": "apple:1709254581",
       "provider": "apple-music",
       "appleId": "1709254581",
@@ -1082,31 +1108,6 @@
       "explicit": false,
       "genres": [
         "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 43,
-      "id": "apple:1879493592",
-      "provider": "apple-music",
-      "appleId": "1879493592",
-      "title": "Bairan",
-      "artist": "Banjaare",
-      "artistNames": [
-        "Banjaare"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-01-23",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/bd/01/3cbd01ad-1bbd-14b5-fb72-1d61c101d49d/821530642238.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/bairan/1879493321?i=1879493592",
-      "sourceUrl": "https://music.apple.com/in/album/bairan/1879493321?i=1879493592",
-      "explicit": false,
-      "genres": [
-        "Indian Pop",
         "Music"
       ],
       "country": "IN",
@@ -1141,31 +1142,6 @@
     },
     {
       "position": 45,
-      "id": "apple:6790094245",
-      "provider": "apple-music",
-      "appleId": "6790094245",
-      "title": "Parvati",
-      "artist": "Sadhu Tiwari",
-      "artistNames": [
-        "Sadhu Tiwari"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-11",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/20/98/472098ba-3557-4af7-42c2-55df4e874fe6/8902633457058.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/parvati/6790094079?i=6790094245",
-      "sourceUrl": "https://music.apple.com/in/album/parvati/6790094079?i=6790094245",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 46,
       "id": "apple:6820480713",
       "provider": "apple-music",
       "appleId": "6820480713",
@@ -1190,135 +1166,7 @@
       ]
     },
     {
-      "position": 47,
-      "id": "apple:1829591986",
-      "provider": "apple-music",
-      "appleId": "1829591986",
-      "title": "Boyfriend",
-      "artist": "Karan Aujla & Ikky",
-      "artistNames": [
-        "Karan Aujla & Ikky"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-08-22",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/bd/e1/06bde161-335b-87fa-650a-f0d04bd9f55d/5021732889621.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/boyfriend/1829591921?i=1829591986",
-      "sourceUrl": "https://music.apple.com/in/album/boyfriend/1829591921?i=1829591986",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music",
-        "Hip-Hop/Rap"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 48,
-      "id": "apple:1826025330",
-      "provider": "apple-music",
-      "appleId": "1826025330",
-      "title": "Monica (From \"Coolie\") (Tamil)",
-      "artist": "Anirudh Ravichander, Sublahshini, Asal Kolaar & Vishnu Edavan",
-      "artistNames": [
-        "Anirudh Ravichander, Sublahshini, Asal Kolaar & Vishnu Edavan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-07-11",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/6f/07/5c6f07b3-173c-31ef-a2eb-cd23548a71d7/199538267020.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/monica-from-coolie-tamil/1826025329?i=1826025330",
-      "sourceUrl": "https://music.apple.com/in/album/monica-from-coolie-tamil/1826025329?i=1826025330",
-      "explicit": false,
-      "genres": [
-        "Tamil",
-        "Music",
-        "Regional Indian"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 49,
-      "id": "apple:1881837853",
-      "provider": "apple-music",
-      "appleId": "1881837853",
-      "title": "Pavazha Malli (From \"Think Indie\")",
-      "artist": "Sai Abhyankkar, Shruti Haasan & Vivek",
-      "artistNames": [
-        "Sai Abhyankkar, Shruti Haasan & Vivek"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-03-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/c3/e8/41c3e832-58d1-9b4f-5465-c4294a519e4f/cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/pavazha-malli-from-think-indie/1881837850?i=1881837853",
-      "sourceUrl": "https://music.apple.com/in/album/pavazha-malli-from-think-indie/1881837850?i=1881837853",
-      "explicit": false,
-      "genres": [
-        "Tamil",
-        "Music",
-        "Regional Indian"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 50,
-      "id": "apple:1858961581",
-      "provider": "apple-music",
-      "appleId": "1858961581",
-      "title": "Naal Nachna",
-      "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
-      "artistNames": [
-        "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-12-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/4d/4e/104d4e1d-49f1-b96d-2bb1-c7c9f94845fa/ticket.tgbrrfvz.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/naal-nachna/1858961207?i=1858961581",
-      "sourceUrl": "https://music.apple.com/in/album/naal-nachna/1858961207?i=1858961581",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 51,
-      "id": "apple:1842069636",
-      "provider": "apple-music",
-      "appleId": "1842069636",
-      "title": "Dooriyan",
-      "artist": "Pritam & Mohit Chauhan",
-      "artistNames": [
-        "Pritam & Mohit Chauhan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2009-07-31",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6c/c9/98/6cc9988b-b6ce-51e5-9396-fd11d65ad8a7/196871083010.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/dooriyan/1842069630?i=1842069636",
-      "sourceUrl": "https://music.apple.com/in/album/dooriyan/1842069630?i=1842069636",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 52,
+      "position": 46,
       "id": "apple:1829591995",
       "provider": "apple-music",
       "appleId": "1829591995",
@@ -1344,22 +1192,23 @@
       ]
     },
     {
-      "position": 53,
-      "id": "apple:6813073500",
+      "position": 47,
+      "id": "apple:1842069636",
       "provider": "apple-music",
-      "appleId": "6813073500",
-      "title": "Casa Tupka Anthemo (feat. Priyanshi)",
-      "artist": "Yo Yo Honey Singh",
+      "appleId": "1842069636",
+      "title": "Dooriyan",
+      "artist": "Pritam & Mohit Chauhan",
       "artistNames": [
-        "Yo Yo Honey Singh"
+        "Pritam & Mohit Chauhan"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-09-19",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bc/b1/dd/bcb1dd65-bfbc-8666-c59b-8c007e664236/823375454786_Cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/casa-tupka-anthemo-feat-priyanshi/6813073499?i=6813073500",
-      "sourceUrl": "https://music.apple.com/in/album/casa-tupka-anthemo-feat-priyanshi/6813073499?i=6813073500",
+      "releaseDate": "2009-07-31",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6c/c9/98/6cc9988b-b6ce-51e5-9396-fd11d65ad8a7/196871083010.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/dooriyan/1842069630?i=1842069636",
+      "sourceUrl": "https://music.apple.com/in/album/dooriyan/1842069630?i=1842069636",
       "explicit": false,
       "genres": [
+        "Bollywood",
         "Music"
       ],
       "country": "IN",
@@ -1368,7 +1217,134 @@
       ]
     },
     {
-      "position": 54,
+      "position": 48,
+      "id": "apple:1829591986",
+      "provider": "apple-music",
+      "appleId": "1829591986",
+      "title": "Boyfriend",
+      "artist": "Karan Aujla & Ikky",
+      "artistNames": [
+        "Karan Aujla & Ikky"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-08-22",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/bd/e1/06bde161-335b-87fa-650a-f0d04bd9f55d/5021732889621.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/boyfriend/1829591921?i=1829591986",
+      "sourceUrl": "https://music.apple.com/in/album/boyfriend/1829591921?i=1829591986",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music",
+        "Hip-Hop/Rap"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 49,
+      "id": "apple:1858961581",
+      "provider": "apple-music",
+      "appleId": "1858961581",
+      "title": "Naal Nachna",
+      "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
+      "artistNames": [
+        "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-12-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/4d/4e/104d4e1d-49f1-b96d-2bb1-c7c9f94845fa/ticket.tgbrrfvz.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/naal-nachna/1858961207?i=1858961581",
+      "sourceUrl": "https://music.apple.com/in/album/naal-nachna/1858961207?i=1858961581",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 50,
+      "id": "apple:1881837853",
+      "provider": "apple-music",
+      "appleId": "1881837853",
+      "title": "Pavazha Malli (From \"Think Indie\")",
+      "artist": "Sai Abhyankkar, Shruti Haasan & Vivek",
+      "artistNames": [
+        "Sai Abhyankkar, Shruti Haasan & Vivek"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-03-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/c3/e8/41c3e832-58d1-9b4f-5465-c4294a519e4f/cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/pavazha-malli-from-think-indie/1881837850?i=1881837853",
+      "sourceUrl": "https://music.apple.com/in/album/pavazha-malli-from-think-indie/1881837850?i=1881837853",
+      "explicit": false,
+      "genres": [
+        "Tamil",
+        "Music",
+        "Regional Indian"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 51,
+      "id": "apple:1782109856",
+      "provider": "apple-music",
+      "appleId": "1782109856",
+      "title": "Hanuman Chalisa-Lofi",
+      "artist": "Rasraj Ji Maharaj",
+      "artistNames": [
+        "Rasraj Ji Maharaj"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2023-04-04",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/7f/6f/267f6f8e-da38-7578-7ebe-c7901cbdfd8e/191766376574.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/hanuman-chalisa-lofi/1782109851?i=1782109856",
+      "sourceUrl": "https://music.apple.com/in/album/hanuman-chalisa-lofi/1782109851?i=1782109856",
+      "explicit": false,
+      "genres": [
+        "Devotional & Spiritual",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 52,
+      "id": "apple:1134725347",
+      "provider": "apple-music",
+      "appleId": "1134725347",
+      "title": "Tum Se Hi",
+      "artist": "Pritam & Mohit Chauhan",
+      "artistNames": [
+        "Pritam & Mohit Chauhan"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2007-09-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/c7/43/3dc74387-e7f4-2342-397c-4cf2037c69a5/8902894623223_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/tum-se-hi/1134725343?i=1134725347",
+      "sourceUrl": "https://music.apple.com/in/album/tum-se-hi/1134725343?i=1134725347",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 53,
       "id": "apple:1648624479",
       "provider": "apple-music",
       "appleId": "1648624479",
@@ -1394,20 +1370,45 @@
       ]
     },
     {
-      "position": 55,
-      "id": "apple:1134725347",
+      "position": 54,
+      "id": "apple:6790094245",
       "provider": "apple-music",
-      "appleId": "1134725347",
-      "title": "Tum Se Hi",
-      "artist": "Pritam & Mohit Chauhan",
+      "appleId": "6790094245",
+      "title": "Parvati",
+      "artist": "Sadhu Tiwari",
       "artistNames": [
-        "Pritam & Mohit Chauhan"
+        "Sadhu Tiwari"
       ],
       "albumTitle": "",
-      "releaseDate": "2007-09-18",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/c7/43/3dc74387-e7f4-2342-397c-4cf2037c69a5/8902894623223_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/tum-se-hi/1134725343?i=1134725347",
-      "sourceUrl": "https://music.apple.com/in/album/tum-se-hi/1134725343?i=1134725347",
+      "releaseDate": "2026-07-11",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/20/98/472098ba-3557-4af7-42c2-55df4e874fe6/8902633457058.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/parvati/6790094079?i=6790094245",
+      "sourceUrl": "https://music.apple.com/in/album/parvati/6790094079?i=6790094245",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 55,
+      "id": "apple:1070912818",
+      "provider": "apple-music",
+      "appleId": "1070912818",
+      "title": "Kabira",
+      "artist": "Pritam, Tochi Raina & Rekha Bhardwaj",
+      "artistNames": [
+        "Pritam, Tochi Raina & Rekha Bhardwaj"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2013-03-30",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/62/d6/74/62d67432-0670-631f-db6a-d4bac3adae4b/8902894353328_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/kabira/1070912669?i=1070912818",
+      "sourceUrl": "https://music.apple.com/in/album/kabira/1070912669?i=1070912818",
       "explicit": false,
       "genres": [
         "Bollywood",
@@ -1445,22 +1446,21 @@
     },
     {
       "position": 57,
-      "id": "apple:1070912818",
+      "id": "apple:6813073500",
       "provider": "apple-music",
-      "appleId": "1070912818",
-      "title": "Kabira",
-      "artist": "Pritam, Tochi Raina & Rekha Bhardwaj",
+      "appleId": "6813073500",
+      "title": "Casa Tupka Anthemo (feat. Priyanshi)",
+      "artist": "Yo Yo Honey Singh",
       "artistNames": [
-        "Pritam, Tochi Raina & Rekha Bhardwaj"
+        "Yo Yo Honey Singh"
       ],
       "albumTitle": "",
-      "releaseDate": "2013-03-30",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/62/d6/74/62d67432-0670-631f-db6a-d4bac3adae4b/8902894353328_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/kabira/1070912669?i=1070912818",
-      "sourceUrl": "https://music.apple.com/in/album/kabira/1070912669?i=1070912818",
+      "releaseDate": "2026-09-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bc/b1/dd/bcb1dd65-bfbc-8666-c59b-8c007e664236/823375454786_Cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/casa-tupka-anthemo-feat-priyanshi/6813073499?i=6813073500",
+      "sourceUrl": "https://music.apple.com/in/album/casa-tupka-anthemo-feat-priyanshi/6813073499?i=6813073500",
       "explicit": false,
       "genres": [
-        "Bollywood",
         "Music"
       ],
       "country": "IN",
@@ -1470,22 +1470,22 @@
     },
     {
       "position": 58,
-      "id": "apple:1885907881",
+      "id": "apple:1812474451",
       "provider": "apple-music",
-      "appleId": "1885907881",
-      "title": "Jaiye Sajana",
-      "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
+      "appleId": "1812474451",
+      "title": "Courtside",
+      "artist": "Karan Aujla & Signature by SB",
       "artistNames": [
-        "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj"
+        "Karan Aujla & Signature by SB"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-03-17",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/74/08/897408d1-39d9-5d32-06a8-256ea77e4158/8902894362900_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/jaiye-sajana/1885907871?i=1885907881",
-      "sourceUrl": "https://music.apple.com/in/album/jaiye-sajana/1885907871?i=1885907881",
+      "releaseDate": "2025-05-13",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/03/fe/2803feb5-cfa7-2c16-0ccb-2232d1613103/5021732792907.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/courtside/1812474449?i=1812474451",
+      "sourceUrl": "https://music.apple.com/in/album/courtside/1812474449?i=1812474451",
       "explicit": false,
       "genres": [
-        "Bollywood",
+        "Pop",
         "Music"
       ],
       "country": "IN",
@@ -1495,107 +1495,6 @@
     },
     {
       "position": 59,
-      "id": "apple:1796165815",
-      "provider": "apple-music",
-      "appleId": "1796165815",
-      "title": "Young G.O.A.T",
-      "artist": "Cheema Y & Gur Sidhu",
-      "artistNames": [
-        "Cheema Y & Gur Sidhu"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-02-19",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/8c/3b/008c3b31-94b5-8a76-9c0e-52fb6cd35d80/cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/young-g-o-a-t/1796165811?i=1796165815",
-      "sourceUrl": "https://music.apple.com/in/album/young-g-o-a-t/1796165811?i=1796165815",
-      "explicit": false,
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 60,
-      "id": "apple:6817733640",
-      "provider": "apple-music",
-      "appleId": "6817733640",
-      "title": "Dil Haareya",
-      "artist": "Anirudh Ravichander & Ritesh G Rao",
-      "artistNames": [
-        "Anirudh Ravichander & Ritesh G Rao"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-30",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/dil-haareya/6817733404?i=6817733640",
-      "sourceUrl": "https://music.apple.com/in/album/dil-haareya/6817733404?i=6817733640",
-      "explicit": false,
-      "genres": [
-        "Tamil",
-        "Music",
-        "Regional Indian"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 61,
-      "id": "apple:1478998926",
-      "provider": "apple-music",
-      "appleId": "1478998926",
-      "title": "Ghungroo (From \"War\")",
-      "artist": "Arijit Singh, Shilpa Rao & Vishal & Shekhar",
-      "artistNames": [
-        "Arijit Singh, Shilpa Rao & Vishal & Shekhar"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2019-09-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f4/0b/88/f40b88d5-75cb-27b8-6b00-bba98f0f2fd0/849486006911_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/ghungroo-from-war/1478998925?i=1478998926",
-      "sourceUrl": "https://music.apple.com/in/album/ghungroo-from-war/1478998925?i=1478998926",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 62,
-      "id": "apple:1782109856",
-      "provider": "apple-music",
-      "appleId": "1782109856",
-      "title": "Hanuman Chalisa-Lofi",
-      "artist": "Rasraj Ji Maharaj",
-      "artistNames": [
-        "Rasraj Ji Maharaj"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2023-04-04",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/7f/6f/267f6f8e-da38-7578-7ebe-c7901cbdfd8e/191766376574.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/hanuman-chalisa-lofi/1782109851?i=1782109856",
-      "sourceUrl": "https://music.apple.com/in/album/hanuman-chalisa-lofi/1782109851?i=1782109856",
-      "explicit": false,
-      "genres": [
-        "Devotional & Spiritual",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 63,
       "id": "apple:1875907951",
       "provider": "apple-music",
       "appleId": "1875907951",
@@ -1620,49 +1519,22 @@
       ]
     },
     {
-      "position": 64,
-      "id": "apple:6795543551",
+      "position": 60,
+      "id": "apple:6796864754",
       "provider": "apple-music",
-      "appleId": "6795543551",
-      "title": "Alaakaa Loova (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
-      "artist": "Sai Abhyankkar & Rokesh",
+      "appleId": "6796864754",
+      "title": "BbY WOW",
+      "artist": "KAROL G, Judeline & rusowsky",
       "artistNames": [
-        "Sai Abhyankkar & Rokesh"
+        "KAROL G, Judeline & rusowsky"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-07-28",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/77/e7/2877e719-1fbc-9a6c-ee06-27055e472925/1200214714024.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/alaakaa-loova-from-om-chapter-1-udhiram-the-blood-wood-tamil/6795543541?i=6795543551",
-      "sourceUrl": "https://music.apple.com/in/album/alaakaa-loova-from-om-chapter-1-udhiram-the-blood-wood-tamil/6795543541?i=6795543551",
+      "releaseDate": "2026-08-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/bby-wow/6796864741?i=6796864754",
+      "sourceUrl": "https://music.apple.com/in/album/bby-wow/6796864741?i=6796864754",
       "explicit": false,
       "genres": [
-        "Tamil",
-        "Music",
-        "Regional Indian"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 65,
-      "id": "apple:6769094197",
-      "provider": "apple-music",
-      "appleId": "6769094197",
-      "title": "Jackpot",
-      "artist": "Cheema Y & Gur Sidhu",
-      "artistNames": [
-        "Cheema Y & Gur Sidhu"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-05-21",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/fa/df/71fadf2f-5ead-cca4-157e-91d324e39e2d/cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/jackpot/6769093931?i=6769094197",
-      "sourceUrl": "https://music.apple.com/in/album/jackpot/6769093931?i=6769094197",
-      "explicit": false,
-      "genres": [
-        "Hip-Hop/Rap",
         "Music"
       ],
       "country": "IN",
@@ -1671,82 +1543,7 @@
       ]
     },
     {
-      "position": 66,
-      "id": "apple:1824400209",
-      "provider": "apple-music",
-      "appleId": "1824400209",
-      "title": "Barbaad",
-      "artist": "The Rish & Jubin Nautiyal",
-      "artistNames": [
-        "The Rish & Jubin Nautiyal"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-06-10",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/6a/a3/c66aa366-4522-14b8-c629-7cfee5422fc0/Saiyaara_Album_Cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/barbaad/1824400207?i=1824400209",
-      "sourceUrl": "https://music.apple.com/in/album/barbaad/1824400207?i=1824400209",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 67,
-      "id": "apple:6787140592",
-      "provider": "apple-music",
-      "appleId": "6787140592",
-      "title": "Brabus",
-      "artist": "Parmish Verma, Kiran Bajwa & Starboy X",
-      "artistNames": [
-        "Parmish Verma, Kiran Bajwa & Starboy X"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-15",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/3b/d4/a93bd4a7-2127-92c9-2462-8fb6f6222927/cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/brabus/6787140362?i=6787140592",
-      "sourceUrl": "https://music.apple.com/in/album/brabus/6787140362?i=6787140592",
-      "explicit": false,
-      "genres": [
-        "Regional Indian",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 68,
-      "id": "apple:6815217781",
-      "provider": "apple-music",
-      "appleId": "6815217781",
-      "title": "Rathinamo (Female Version)",
-      "artist": "Saurav Srisan & Tanisha Gnanavel",
-      "artistNames": [
-        "Saurav Srisan & Tanisha Gnanavel"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-07-22",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/57/ae/7557ae9a-a44e-6efc-7e3c-7f280c933bff/882197580165.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/rathinamo-female-version/6815217600?i=6815217781",
-      "sourceUrl": "https://music.apple.com/in/album/rathinamo-female-version/6815217600?i=6815217781",
-      "explicit": false,
-      "genres": [
-        "Indian Pop",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 69,
+      "position": 61,
       "id": "apple:1697802460",
       "provider": "apple-music",
       "appleId": "1697802460",
@@ -1772,20 +1569,95 @@
       ]
     },
     {
-      "position": 70,
-      "id": "apple:6788414796",
+      "position": 62,
+      "id": "apple:1824400209",
       "provider": "apple-music",
-      "appleId": "6788414796",
-      "title": "God’s Favorite (feat. Sultaan)",
-      "artist": "Jordan Sandhu, Sultaan, Kaptaan & Avvy Sra",
+      "appleId": "1824400209",
+      "title": "Barbaad",
+      "artist": "The Rish & Jubin Nautiyal",
       "artistNames": [
-        "Jordan Sandhu, Sultaan, Kaptaan & Avvy Sra"
+        "The Rish & Jubin Nautiyal"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-07-12",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/bb/3a/f6bb3a69-218f-4d3c-c099-5030ec68384d/1200214506148.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/gods-favorite-feat-sultaan/6788414470?i=6788414796",
-      "sourceUrl": "https://music.apple.com/in/album/gods-favorite-feat-sultaan/6788414470?i=6788414796",
+      "releaseDate": "2025-06-10",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/6a/a3/c66aa366-4522-14b8-c629-7cfee5422fc0/Saiyaara_Album_Cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/barbaad/1824400207?i=1824400209",
+      "sourceUrl": "https://music.apple.com/in/album/barbaad/1824400207?i=1824400209",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 63,
+      "id": "apple:1885907881",
+      "provider": "apple-music",
+      "appleId": "1885907881",
+      "title": "Jaiye Sajana",
+      "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
+      "artistNames": [
+        "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-03-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/74/08/897408d1-39d9-5d32-06a8-256ea77e4158/8902894362900_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/jaiye-sajana/1885907871?i=1885907881",
+      "sourceUrl": "https://music.apple.com/in/album/jaiye-sajana/1885907871?i=1885907881",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 64,
+      "id": "apple:1478998926",
+      "provider": "apple-music",
+      "appleId": "1478998926",
+      "title": "Ghungroo (From \"War\")",
+      "artist": "Arijit Singh, Shilpa Rao & Vishal & Shekhar",
+      "artistNames": [
+        "Arijit Singh, Shilpa Rao & Vishal & Shekhar"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2019-09-05",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f4/0b/88/f40b88d5-75cb-27b8-6b00-bba98f0f2fd0/849486006911_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/ghungroo-from-war/1478998925?i=1478998926",
+      "sourceUrl": "https://music.apple.com/in/album/ghungroo-from-war/1478998925?i=1478998926",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 65,
+      "id": "apple:1796165815",
+      "provider": "apple-music",
+      "appleId": "1796165815",
+      "title": "Young G.O.A.T",
+      "artist": "Cheema Y & Gur Sidhu",
+      "artistNames": [
+        "Cheema Y & Gur Sidhu"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-02-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/8c/3b/008c3b31-94b5-8a76-9c0e-52fb6cd35d80/cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/young-g-o-a-t/1796165811?i=1796165815",
+      "sourceUrl": "https://music.apple.com/in/album/young-g-o-a-t/1796165811?i=1796165815",
       "explicit": false,
       "genres": [
         "Hip-Hop/Rap",
@@ -1797,94 +1669,20 @@
       ]
     },
     {
-      "position": 71,
-      "id": "apple:1826786269",
+      "position": 66,
+      "id": "apple:6815217781",
       "provider": "apple-music",
-      "appleId": "1826786269",
-      "title": "Never Fold",
-      "artist": "Sidhu Moose Wala",
+      "appleId": "6815217781",
+      "title": "Rathinamo (Female Version)",
+      "artist": "Saurav Srisan & Tanisha Gnanavel",
       "artistNames": [
-        "Sidhu Moose Wala"
+        "Saurav Srisan & Tanisha Gnanavel"
       ],
       "albumTitle": "",
-      "releaseDate": "2022-04-25",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/57/9d/f1579d5f-4e4f-1235-e97c-fa725602c839/810105711448_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/never-fold/1826786260?i=1826786269",
-      "sourceUrl": "https://music.apple.com/in/album/never-fold/1826786260?i=1826786269",
-      "explicit": false,
-      "genres": [
-        "Music",
-        "Pop"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 72,
-      "id": "apple:6798348526",
-      "provider": "apple-music",
-      "appleId": "6798348526",
-      "title": "Tera Mera Rishta - New Version (From \"Awarapan 2\")",
-      "artist": "Mithoon, Pritam, Saaj Bhatt, Subodhh Sharma, Sayeed Quadri & Mustafa Zahid",
-      "artistNames": [
-        "Mithoon, Pritam, Saaj Bhatt, Subodhh Sharma, Sayeed Quadri & Mustafa Zahid"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-08-06",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/19/d9/f719d94b-9590-0c8a-2196-a00d2ed22f96/196874652114.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/tera-mera-rishta-new-version-from-awarapan-2/6798348524?i=6798348526",
-      "sourceUrl": "https://music.apple.com/in/album/tera-mera-rishta-new-version-from-awarapan-2/6798348524?i=6798348526",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 73,
-      "id": "apple:6796864754",
-      "provider": "apple-music",
-      "appleId": "6796864754",
-      "title": "BbY WOW",
-      "artist": "KAROL G, Judeline & rusowsky",
-      "artistNames": [
-        "KAROL G, Judeline & rusowsky"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-08-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/bby-wow/6796864741?i=6796864754",
-      "sourceUrl": "https://music.apple.com/in/album/bby-wow/6796864741?i=6796864754",
-      "explicit": false,
-      "genres": [
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 74,
-      "id": "apple:1697533665",
-      "provider": "apple-music",
-      "appleId": "1697533665",
-      "title": "Jee Ni Lagda",
-      "artist": "Karan Aujla & Ikky",
-      "artistNames": [
-        "Karan Aujla & Ikky"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2023-08-18",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/08/bc/d308bc6a-20e1-6532-d933-35d1b429210e/5054197755538.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/jee-ni-lagda/1697533643?i=1697533665",
-      "sourceUrl": "https://music.apple.com/in/album/jee-ni-lagda/1697533643?i=1697533665",
+      "releaseDate": "2026-07-22",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/57/ae/7557ae9a-a44e-6efc-7e3c-7f280c933bff/882197580165.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/rathinamo-female-version/6815217600?i=6815217781",
+      "sourceUrl": "https://music.apple.com/in/album/rathinamo-female-version/6815217600?i=6815217781",
       "explicit": false,
       "genres": [
         "Indian Pop",
@@ -1896,23 +1694,23 @@
       ]
     },
     {
-      "position": 75,
-      "id": "apple:1468448741",
+      "position": 67,
+      "id": "apple:6769094197",
       "provider": "apple-music",
-      "appleId": "1468448741",
-      "title": "Kaise Hua",
-      "artist": "Vishal Mishra",
+      "appleId": "6769094197",
+      "title": "Jackpot",
+      "artist": "Cheema Y & Gur Sidhu",
       "artistNames": [
-        "Vishal Mishra"
+        "Cheema Y & Gur Sidhu"
       ],
       "albumTitle": "",
-      "releaseDate": "2019-06-13",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/70/84/f6708434-0123-ff36-0ac3-7401e8cf0f94/8902894360807_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/kaise-hua/1468448737?i=1468448741",
-      "sourceUrl": "https://music.apple.com/in/album/kaise-hua/1468448737?i=1468448741",
+      "releaseDate": "2026-05-21",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/fa/df/71fadf2f-5ead-cca4-157e-91d324e39e2d/cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/jackpot/6769093931?i=6769094197",
+      "sourceUrl": "https://music.apple.com/in/album/jackpot/6769093931?i=6769094197",
       "explicit": false,
       "genres": [
-        "Bollywood",
+        "Hip-Hop/Rap",
         "Music"
       ],
       "country": "IN",
@@ -1921,121 +1719,23 @@
       ]
     },
     {
-      "position": 76,
-      "id": "apple:1824400210",
+      "position": 68,
+      "id": "apple:6795543551",
       "provider": "apple-music",
-      "appleId": "1824400210",
-      "title": "Tum Ho Toh",
-      "artist": "Vishal Mishra, Hansika Pareek & Raj Shekhar",
+      "appleId": "6795543551",
+      "title": "Alaakaa Loova (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
+      "artist": "Sai Abhyankkar & Rokesh",
       "artistNames": [
-        "Vishal Mishra, Hansika Pareek & Raj Shekhar"
+        "Sai Abhyankkar & Rokesh"
       ],
       "albumTitle": "",
-      "releaseDate": "2025-06-17",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/6a/a3/c66aa366-4522-14b8-c629-7cfee5422fc0/Saiyaara_Album_Cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/tum-ho-toh/1824400207?i=1824400210",
-      "sourceUrl": "https://music.apple.com/in/album/tum-ho-toh/1824400207?i=1824400210",
+      "releaseDate": "2026-07-28",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/77/e7/2877e719-1fbc-9a6c-ee06-27055e472925/1200214714024.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/alaakaa-loova-from-om-chapter-1-udhiram-the-blood-wood-tamil/6795543541?i=6795543551",
+      "sourceUrl": "https://music.apple.com/in/album/alaakaa-loova-from-om-chapter-1-udhiram-the-blood-wood-tamil/6795543541?i=6795543551",
       "explicit": false,
       "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 77,
-      "id": "apple:6770745507",
-      "provider": "apple-music",
-      "appleId": "6770745507",
-      "title": "Kath Lagda",
-      "artist": "Navaan Sandhu, Dhanda Nyoliwala, RXTRO & Sanya Dandona",
-      "artistNames": [
-        "Navaan Sandhu, Dhanda Nyoliwala, RXTRO & Sanya Dandona"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-06-12",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/ae/b7/dcaeb77a-0d81-2ca6-941a-f6a9ac7b1197/26UMGIM64188.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/kath-lagda/6770745505?i=6770745507",
-      "sourceUrl": "https://music.apple.com/in/album/kath-lagda/6770745505?i=6770745507",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 78,
-      "id": "apple:1550878097",
-      "provider": "apple-music",
-      "appleId": "1550878097",
-      "title": "Starboy (feat. Daft Punk)",
-      "artist": "The Weeknd",
-      "artistNames": [
-        "The Weeknd"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2016-09-21",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4b/ab/3c/4bab3c0d-ea9a-ad8e-4229-b1e73cad0283/21UMGIM06668.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/starboy-feat-daft-punk/1550877895?i=1550878097",
-      "sourceUrl": "https://music.apple.com/in/album/starboy-feat-daft-punk/1550877895?i=1550878097",
-      "explicit": false,
-      "genres": [
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 79,
-      "id": "apple:1123241858",
-      "provider": "apple-music",
-      "appleId": "1123241858",
-      "title": "Phir Se Ud Chala",
-      "artist": "Mohit Chauhan",
-      "artistNames": [
-        "Mohit Chauhan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2011-09-30",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/56/ac/41/56ac41f7-99f3-3eae-3b07-443167292c4e/8902894697408_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/phir-se-ud-chala/1123241840?i=1123241858",
-      "sourceUrl": "https://music.apple.com/in/album/phir-se-ud-chala/1123241840?i=1123241858",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 80,
-      "id": "apple:6815521791",
-      "provider": "apple-music",
-      "appleId": "6815521791",
-      "title": "BREEZY",
-      "artist": "Gur Sidhu & Kaptaan",
-      "artistNames": [
-        "Gur Sidhu & Kaptaan"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-10-14",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/56/ab/3b/56ab3b25-37c6-3da4-6547-4dd19b71657c/885288654424.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/breezy/6815521455?i=6815521791",
-      "sourceUrl": "https://music.apple.com/in/album/breezy/6815521455?i=6815521791",
-      "explicit": false,
-      "genres": [
+        "Tamil",
         "Music",
         "Regional Indian"
       ],
@@ -2045,157 +1745,7 @@
       ]
     },
     {
-      "position": 81,
-      "id": "apple:1537035416",
-      "provider": "apple-music",
-      "appleId": "1537035416",
-      "title": "Tere Liye",
-      "artist": "Atif Aslam & Shreya Ghoshal",
-      "artistNames": [
-        "Atif Aslam & Shreya Ghoshal"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2010-01-01",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/88/92/1d/88921d57-d5b1-25f7-8897-3dbb3858e1d4/8901854003938.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/tere-liye/1537035115?i=1537035416",
-      "sourceUrl": "https://music.apple.com/in/album/tere-liye/1537035115?i=1537035416",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 82,
-      "id": "apple:1885907879",
-      "provider": "apple-music",
-      "appleId": "1885907879",
-      "title": "Jaan Se Guzarte Hain",
-      "artist": "Shashwat Sachdev & Khan Saab",
-      "artistNames": [
-        "Shashwat Sachdev & Khan Saab"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-03-17",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/74/08/897408d1-39d9-5d32-06a8-256ea77e4158/8902894362900_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/jaan-se-guzarte-hain/1885907871?i=1885907879",
-      "sourceUrl": "https://music.apple.com/in/album/jaan-se-guzarte-hain/1885907871?i=1885907879",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 83,
-      "id": "apple:1835614471",
-      "provider": "apple-music",
-      "appleId": "1835614471",
-      "title": "Maruti",
-      "artist": "Dhanda Nyoliwala, Ron Likhari & Miki Malang",
-      "artistNames": [
-        "Dhanda Nyoliwala, Ron Likhari & Miki Malang"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2025-09-02",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/62/53/a3625300-63d6-fb99-9ed4-e70258d08ac6/25UM1IM24416.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/maruti/1835614468?i=1835614471",
-      "sourceUrl": "https://music.apple.com/in/album/maruti/1835614468?i=1835614471",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 84,
-      "id": "apple:1683626445",
-      "provider": "apple-music",
-      "appleId": "1683626445",
-      "title": "Pehli Nazar Mein (From \"Race\")",
-      "artist": "Atif Aslam & Pritam",
-      "artistNames": [
-        "Atif Aslam & Pritam"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2008-03-21",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/96/af/7496afce-7623-07fe-8492-d72fb7ad8f5a/8901854086641.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/pehli-nazar-mein-from-race/1683625869?i=1683626445",
-      "sourceUrl": "https://music.apple.com/in/album/pehli-nazar-mein-from-race/1683625869?i=1683626445",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 85,
-      "id": "apple:6807192825",
-      "provider": "apple-music",
-      "appleId": "6807192825",
-      "title": "Nicole Kidman",
-      "artist": "ADÉLA",
-      "artistNames": [
-        "ADÉLA"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-09-03",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/c6/9a/53c69a6a-d1c4-0983-a20c-a67dceae554f/26UMGIM82372.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/nicole-kidman/6807192580?i=6807192825",
-      "sourceUrl": "https://music.apple.com/in/album/nicole-kidman/6807192580?i=6807192825",
-      "explicit": false,
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 86,
-      "id": "apple:1720291332",
-      "provider": "apple-music",
-      "appleId": "1720291332",
-      "title": "Indeed",
-      "artist": "Cheema Y & Gur Sidhu",
-      "artistNames": [
-        "Cheema Y & Gur Sidhu"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2023-12-13",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/65/97/14659756-cd2c-ac5c-af3e-d3752eee018c/cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/indeed/1720290909?i=1720291332",
-      "sourceUrl": "https://music.apple.com/in/album/indeed/1720290909?i=1720291332",
-      "explicit": false,
-      "genres": [
-        "Regional Indian",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 87,
+      "position": 69,
       "id": "apple:6810160531",
       "provider": "apple-music",
       "appleId": "6810160531",
@@ -2221,24 +1771,477 @@
       ]
     },
     {
-      "position": 88,
-      "id": "apple:1741721042",
+      "position": 70,
+      "id": "apple:6807192825",
       "provider": "apple-music",
-      "appleId": "1741721042",
-      "title": "Mascara",
-      "artist": "Cheema Y & Gur Sidhu",
+      "appleId": "6807192825",
+      "title": "Nicole Kidman",
+      "artist": "ADÉLA",
       "artistNames": [
-        "Cheema Y & Gur Sidhu"
+        "ADÉLA"
       ],
       "albumTitle": "",
-      "releaseDate": "2024-05-08",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/9d/d9/a09dd9f0-cec8-bd7a-89c4-65cb5800890e/cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/mascara/1741721033?i=1741721042",
-      "sourceUrl": "https://music.apple.com/in/album/mascara/1741721033?i=1741721042",
+      "releaseDate": "2026-09-03",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/c6/9a/53c69a6a-d1c4-0983-a20c-a67dceae554f/26UMGIM82372.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/nicole-kidman/6807192580?i=6807192825",
+      "sourceUrl": "https://music.apple.com/in/album/nicole-kidman/6807192580?i=6807192825",
       "explicit": false,
       "genres": [
         "Pop",
         "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 71,
+      "id": "apple:1550878097",
+      "provider": "apple-music",
+      "appleId": "1550878097",
+      "title": "Starboy (feat. Daft Punk)",
+      "artist": "The Weeknd",
+      "artistNames": [
+        "The Weeknd"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2016-09-21",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4b/ab/3c/4bab3c0d-ea9a-ad8e-4229-b1e73cad0283/21UMGIM06668.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/starboy-feat-daft-punk/1550877895?i=1550878097",
+      "sourceUrl": "https://music.apple.com/in/album/starboy-feat-daft-punk/1550877895?i=1550878097",
+      "explicit": false,
+      "genres": [
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 72,
+      "id": "apple:6788414796",
+      "provider": "apple-music",
+      "appleId": "6788414796",
+      "title": "God’s Favorite (feat. Sultaan)",
+      "artist": "Jordan Sandhu, Sultaan, Kaptaan & Avvy Sra",
+      "artistNames": [
+        "Jordan Sandhu, Sultaan, Kaptaan & Avvy Sra"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-12",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/bb/3a/f6bb3a69-218f-4d3c-c099-5030ec68384d/1200214506148.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/gods-favorite-feat-sultaan/6788414470?i=6788414796",
+      "sourceUrl": "https://music.apple.com/in/album/gods-favorite-feat-sultaan/6788414470?i=6788414796",
+      "explicit": false,
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 73,
+      "id": "apple:1697533665",
+      "provider": "apple-music",
+      "appleId": "1697533665",
+      "title": "Jee Ni Lagda",
+      "artist": "Karan Aujla & Ikky",
+      "artistNames": [
+        "Karan Aujla & Ikky"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2023-08-18",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/08/bc/d308bc6a-20e1-6532-d933-35d1b429210e/5054197755538.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/jee-ni-lagda/1697533643?i=1697533665",
+      "sourceUrl": "https://music.apple.com/in/album/jee-ni-lagda/1697533643?i=1697533665",
+      "explicit": false,
+      "genres": [
+        "Indian Pop",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 74,
+      "id": "apple:6770745507",
+      "provider": "apple-music",
+      "appleId": "6770745507",
+      "title": "Kath Lagda",
+      "artist": "Navaan Sandhu, Dhanda Nyoliwala, RXTRO & Sanya Dandona",
+      "artistNames": [
+        "Navaan Sandhu, Dhanda Nyoliwala, RXTRO & Sanya Dandona"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-06-12",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/ae/b7/dcaeb77a-0d81-2ca6-941a-f6a9ac7b1197/26UMGIM64188.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/kath-lagda/6770745505?i=6770745507",
+      "sourceUrl": "https://music.apple.com/in/album/kath-lagda/6770745505?i=6770745507",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 75,
+      "id": "apple:6817733640",
+      "provider": "apple-music",
+      "appleId": "6817733640",
+      "title": "Dil Haareya",
+      "artist": "Anirudh Ravichander & Ritesh G Rao",
+      "artistNames": [
+        "Anirudh Ravichander & Ritesh G Rao"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-09-30",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/dil-haareya/6817733404?i=6817733640",
+      "sourceUrl": "https://music.apple.com/in/album/dil-haareya/6817733404?i=6817733640",
+      "explicit": false,
+      "genres": [
+        "Tamil",
+        "Music",
+        "Regional Indian"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 76,
+      "id": "apple:6798348526",
+      "provider": "apple-music",
+      "appleId": "6798348526",
+      "title": "Tera Mera Rishta - New Version (From \"Awarapan 2\")",
+      "artist": "Mithoon, Pritam, Saaj Bhatt, Subodhh Sharma, Sayeed Quadri & Mustafa Zahid",
+      "artistNames": [
+        "Mithoon, Pritam, Saaj Bhatt, Subodhh Sharma, Sayeed Quadri & Mustafa Zahid"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-08-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/19/d9/f719d94b-9590-0c8a-2196-a00d2ed22f96/196874652114.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/tera-mera-rishta-new-version-from-awarapan-2/6798348524?i=6798348526",
+      "sourceUrl": "https://music.apple.com/in/album/tera-mera-rishta-new-version-from-awarapan-2/6798348524?i=6798348526",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 77,
+      "id": "apple:1826786269",
+      "provider": "apple-music",
+      "appleId": "1826786269",
+      "title": "Never Fold",
+      "artist": "Sidhu Moose Wala",
+      "artistNames": [
+        "Sidhu Moose Wala"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2022-04-25",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/57/9d/f1579d5f-4e4f-1235-e97c-fa725602c839/810105711448_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/never-fold/1826786260?i=1826786269",
+      "sourceUrl": "https://music.apple.com/in/album/never-fold/1826786260?i=1826786269",
+      "explicit": false,
+      "genres": [
+        "Music",
+        "Pop"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 78,
+      "id": "apple:1824400210",
+      "provider": "apple-music",
+      "appleId": "1824400210",
+      "title": "Tum Ho Toh",
+      "artist": "Vishal Mishra, Hansika Pareek & Raj Shekhar",
+      "artistNames": [
+        "Vishal Mishra, Hansika Pareek & Raj Shekhar"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-06-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/6a/a3/c66aa366-4522-14b8-c629-7cfee5422fc0/Saiyaara_Album_Cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/tum-ho-toh/1824400207?i=1824400210",
+      "sourceUrl": "https://music.apple.com/in/album/tum-ho-toh/1824400207?i=1824400210",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 79,
+      "id": "apple:1468448741",
+      "provider": "apple-music",
+      "appleId": "1468448741",
+      "title": "Kaise Hua",
+      "artist": "Vishal Mishra",
+      "artistNames": [
+        "Vishal Mishra"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2019-06-13",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/70/84/f6708434-0123-ff36-0ac3-7401e8cf0f94/8902894360807_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/kaise-hua/1468448737?i=1468448741",
+      "sourceUrl": "https://music.apple.com/in/album/kaise-hua/1468448737?i=1468448741",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 80,
+      "id": "apple:6787140592",
+      "provider": "apple-music",
+      "appleId": "6787140592",
+      "title": "Brabus",
+      "artist": "Parmish Verma, Kiran Bajwa & Starboy X",
+      "artistNames": [
+        "Parmish Verma, Kiran Bajwa & Starboy X"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-15",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/3b/d4/a93bd4a7-2127-92c9-2462-8fb6f6222927/cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/brabus/6787140362?i=6787140592",
+      "sourceUrl": "https://music.apple.com/in/album/brabus/6787140362?i=6787140592",
+      "explicit": false,
+      "genres": [
+        "Regional Indian",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 81,
+      "id": "apple:1123241858",
+      "provider": "apple-music",
+      "appleId": "1123241858",
+      "title": "Phir Se Ud Chala",
+      "artist": "Mohit Chauhan",
+      "artistNames": [
+        "Mohit Chauhan"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2011-09-30",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/56/ac/41/56ac41f7-99f3-3eae-3b07-443167292c4e/8902894697408_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/phir-se-ud-chala/1123241840?i=1123241858",
+      "sourceUrl": "https://music.apple.com/in/album/phir-se-ud-chala/1123241840?i=1123241858",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 82,
+      "id": "apple:1683626445",
+      "provider": "apple-music",
+      "appleId": "1683626445",
+      "title": "Pehli Nazar Mein (From \"Race\")",
+      "artist": "Atif Aslam & Pritam",
+      "artistNames": [
+        "Atif Aslam & Pritam"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2008-03-21",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/96/af/7496afce-7623-07fe-8492-d72fb7ad8f5a/8901854086641.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/pehli-nazar-mein-from-race/1683625869?i=1683626445",
+      "sourceUrl": "https://music.apple.com/in/album/pehli-nazar-mein-from-race/1683625869?i=1683626445",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 83,
+      "id": "apple:1581006912",
+      "provider": "apple-music",
+      "appleId": "1581006912",
+      "title": "Lover",
+      "artist": "Diljit Dosanjh",
+      "artistNames": [
+        "Diljit Dosanjh"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2021-08-21",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8a/89/e4/8a89e445-d2c6-f8ac-a828-27818b0c1afe/859749638209_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/lover/1581006360?i=1581006912",
+      "sourceUrl": "https://music.apple.com/in/album/lover/1581006360?i=1581006912",
+      "explicit": false,
+      "genres": [
+        "Indian Pop",
+        "Music",
+        "Regional Indian",
+        "Pop"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 84,
+      "id": "apple:1537035416",
+      "provider": "apple-music",
+      "appleId": "1537035416",
+      "title": "Tere Liye",
+      "artist": "Atif Aslam & Shreya Ghoshal",
+      "artistNames": [
+        "Atif Aslam & Shreya Ghoshal"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2010-01-01",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/88/92/1d/88921d57-d5b1-25f7-8897-3dbb3858e1d4/8901854003938.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/tere-liye/1537035115?i=1537035416",
+      "sourceUrl": "https://music.apple.com/in/album/tere-liye/1537035115?i=1537035416",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 85,
+      "id": "apple:1885907879",
+      "provider": "apple-music",
+      "appleId": "1885907879",
+      "title": "Jaan Se Guzarte Hain",
+      "artist": "Shashwat Sachdev & Khan Saab",
+      "artistNames": [
+        "Shashwat Sachdev & Khan Saab"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-03-17",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/74/08/897408d1-39d9-5d32-06a8-256ea77e4158/8902894362900_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/jaan-se-guzarte-hain/1885907871?i=1885907879",
+      "sourceUrl": "https://music.apple.com/in/album/jaan-se-guzarte-hain/1885907871?i=1885907879",
+      "explicit": false,
+      "genres": [
+        "Bollywood",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 86,
+      "id": "apple:1835614471",
+      "provider": "apple-music",
+      "appleId": "1835614471",
+      "title": "Maruti",
+      "artist": "Dhanda Nyoliwala, Ron Likhari & Miki Malang",
+      "artistNames": [
+        "Dhanda Nyoliwala, Ron Likhari & Miki Malang"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2025-09-02",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/62/53/a3625300-63d6-fb99-9ed4-e70258d08ac6/25UM1IM24416.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/maruti/1835614468?i=1835614471",
+      "sourceUrl": "https://music.apple.com/in/album/maruti/1835614468?i=1835614471",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 87,
+      "id": "apple:6815521791",
+      "provider": "apple-music",
+      "appleId": "6815521791",
+      "title": "BREEZY",
+      "artist": "Gur Sidhu & Kaptaan",
+      "artistNames": [
+        "Gur Sidhu & Kaptaan"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-10-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/56/ab/3b/56ab3b25-37c6-3da4-6547-4dd19b71657c/885288654424.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/breezy/6815521455?i=6815521791",
+      "sourceUrl": "https://music.apple.com/in/album/breezy/6815521455?i=6815521791",
+      "explicit": false,
+      "genres": [
+        "Music",
+        "Regional Indian"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 88,
+      "id": "apple:1648624705",
+      "provider": "apple-music",
+      "appleId": "1648624705",
+      "title": "Dil Nu",
+      "artist": "AP Dhillon & Shinda Kahlon",
+      "artistNames": [
+        "AP Dhillon & Shinda Kahlon"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2022-10-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/37/31/67373108-1018-da3f-7220-4515137e5e5e/859766525070_cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/dil-nu/1648624139?i=1648624705",
+      "sourceUrl": "https://music.apple.com/in/album/dil-nu/1648624139?i=1648624705",
+      "explicit": false,
+      "genres": [
+        "Music",
+        "Regional Indian",
+        "Hip-Hop/Rap"
       ],
       "country": "IN",
       "regions": [
@@ -2272,19 +2275,19 @@
     },
     {
       "position": 90,
-      "id": "apple:6819251134",
+      "id": "apple:1720291332",
       "provider": "apple-music",
-      "appleId": "6819251134",
-      "title": "BADASS",
-      "artist": "Arjan Dhillon",
+      "appleId": "1720291332",
+      "title": "Indeed",
+      "artist": "Cheema Y & Gur Sidhu",
       "artistNames": [
-        "Arjan Dhillon"
+        "Cheema Y & Gur Sidhu"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-10-05",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/3e/48/363e48a7-2ff1-3ae8-9508-2ba036aae9ac/cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/badass/6819251113?i=6819251134",
-      "sourceUrl": "https://music.apple.com/in/album/badass/6819251113?i=6819251134",
+      "releaseDate": "2023-12-13",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/65/97/14659756-cd2c-ac5c-af3e-d3752eee018c/cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/indeed/1720290909?i=1720291332",
+      "sourceUrl": "https://music.apple.com/in/album/indeed/1720290909?i=1720291332",
       "explicit": false,
       "genres": [
         "Regional Indian",
@@ -2323,24 +2326,23 @@
     },
     {
       "position": 92,
-      "id": "apple:1648624705",
+      "id": "apple:1529552886",
       "provider": "apple-music",
-      "appleId": "1648624705",
-      "title": "Dil Nu",
-      "artist": "AP Dhillon & Shinda Kahlon",
+      "appleId": "1529552886",
+      "title": "Yeh Fitoor Mera",
+      "artist": "Arijit Singh",
       "artistNames": [
-        "AP Dhillon & Shinda Kahlon"
+        "Arijit Singh"
       ],
       "albumTitle": "",
-      "releaseDate": "2022-10-07",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/67/37/31/67373108-1018-da3f-7220-4515137e5e5e/859766525070_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/dil-nu/1648624139?i=1648624705",
-      "sourceUrl": "https://music.apple.com/in/album/dil-nu/1648624139?i=1648624705",
+      "releaseDate": "2016-01-07",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/8f/99/c68f99d7-c2d2-8339-f406-0bde5dbece0f/8718857670360.png/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/yeh-fitoor-mera/1529552789?i=1529552886",
+      "sourceUrl": "https://music.apple.com/in/album/yeh-fitoor-mera/1529552789?i=1529552886",
       "explicit": false,
       "genres": [
-        "Music",
-        "Regional Indian",
-        "Hip-Hop/Rap"
+        "Bollywood",
+        "Music"
       ],
       "country": "IN",
       "regions": [
@@ -2349,24 +2351,23 @@
     },
     {
       "position": 93,
-      "id": "apple:6794258505",
+      "id": "apple:6763153453",
       "provider": "apple-music",
-      "appleId": "6794258505",
-      "title": "Hangova",
-      "artist": "Anirudh Ravichander & Heisenberg",
+      "appleId": "6763153453",
+      "title": "Boom Shaka",
+      "artist": "KR$NA & Dhanda Nyoliwala",
       "artistNames": [
-        "Anirudh Ravichander & Heisenberg"
+        "KR$NA & Dhanda Nyoliwala"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-07-06",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/25/b4/5525b4ec-5854-7526-a2c9-df9d78fc89ec/885288108606.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/hangova/6794258483?i=6794258505",
-      "sourceUrl": "https://music.apple.com/in/album/hangova/6794258483?i=6794258505",
+      "releaseDate": "2026-04-28",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/11/de/e511de2e-f27b-a0f1-3f7f-441ef4709a25/820233167307.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/boom-shaka/1895187821?i=6763153453",
+      "sourceUrl": "https://music.apple.com/in/album/boom-shaka/1895187821?i=6763153453",
       "explicit": false,
       "genres": [
-        "Tamil",
         "Music",
-        "Regional Indian"
+        "Hip-Hop/Rap"
       ],
       "country": "IN",
       "regions": [
@@ -2400,6 +2401,31 @@
     },
     {
       "position": 95,
+      "id": "apple:1741721042",
+      "provider": "apple-music",
+      "appleId": "1741721042",
+      "title": "Mascara",
+      "artist": "Cheema Y & Gur Sidhu",
+      "artistNames": [
+        "Cheema Y & Gur Sidhu"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2024-05-08",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/9d/d9/a09dd9f0-cec8-bd7a-89c4-65cb5800890e/cover.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/mascara/1741721033?i=1741721042",
+      "sourceUrl": "https://music.apple.com/in/album/mascara/1741721033?i=1741721042",
+      "explicit": false,
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 96,
       "id": "apple:1540255874",
       "provider": "apple-music",
       "appleId": "1540255874",
@@ -2424,70 +2450,20 @@
       ]
     },
     {
-      "position": 96,
-      "id": "apple:1529552886",
-      "provider": "apple-music",
-      "appleId": "1529552886",
-      "title": "Yeh Fitoor Mera",
-      "artist": "Arijit Singh",
-      "artistNames": [
-        "Arijit Singh"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2016-01-07",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/8f/99/c68f99d7-c2d2-8339-f406-0bde5dbece0f/8718857670360.png/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/yeh-fitoor-mera/1529552789?i=1529552886",
-      "sourceUrl": "https://music.apple.com/in/album/yeh-fitoor-mera/1529552789?i=1529552886",
-      "explicit": false,
-      "genres": [
-        "Bollywood",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
       "position": 97,
-      "id": "apple:6790754314",
+      "id": "apple:6823607040",
       "provider": "apple-music",
-      "appleId": "6790754314",
-      "title": "Tough",
-      "artist": "Krish Rao",
+      "appleId": "6823607040",
+      "title": "No Favours",
+      "artist": "Dhanda Nyoliwala",
       "artistNames": [
-        "Krish Rao"
+        "Dhanda Nyoliwala"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-08-03",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/0b/c2/100bc216-befc-12fc-c8e9-4540eb416b58/26UMGIM93276.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/tough/6790754211?i=6790754314",
-      "sourceUrl": "https://music.apple.com/in/album/tough/6790754211?i=6790754314",
-      "explicit": false,
-      "genres": [
-        "Indian Pop",
-        "Music"
-      ],
-      "country": "IN",
-      "regions": [
-        "IN"
-      ]
-    },
-    {
-      "position": 98,
-      "id": "apple:6763153453",
-      "provider": "apple-music",
-      "appleId": "6763153453",
-      "title": "Boom Shaka",
-      "artist": "KR$NA & Dhanda Nyoliwala",
-      "artistNames": [
-        "KR$NA & Dhanda Nyoliwala"
-      ],
-      "albumTitle": "",
-      "releaseDate": "2026-04-28",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/11/de/e511de2e-f27b-a0f1-3f7f-441ef4709a25/820233167307.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/boom-shaka/1895187821?i=6763153453",
-      "sourceUrl": "https://music.apple.com/in/album/boom-shaka/1895187821?i=6763153453",
+      "releaseDate": "2026-10-20",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/26/f4/ec26f4b3-a0e2-58bb-7961-1c209743066b/26UM1IM30527.rgb.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/no-favours/6823606780?i=6823607040",
+      "sourceUrl": "https://music.apple.com/in/album/no-favours/6823606780?i=6823607040",
       "explicit": false,
       "genres": [
         "Music",
@@ -2499,22 +2475,23 @@
       ]
     },
     {
-      "position": 99,
-      "id": "apple:6802269797",
+      "position": 98,
+      "id": "apple:1174924385",
       "provider": "apple-music",
-      "appleId": "6802269797",
-      "title": "Vaaroon Forever (From “Mirzapur The Movie”)",
-      "artist": "Anand Bhaskar, Romy, Shreya Ghoshal & Ginny Diwan",
+      "appleId": "1174924385",
+      "title": "Bulleya",
+      "artist": "Pritam, Amit Mishra & Shilpa Rao",
       "artistNames": [
-        "Anand Bhaskar, Romy, Shreya Ghoshal & Ginny Diwan"
+        "Pritam, Amit Mishra & Shilpa Rao"
       ],
       "albumTitle": "",
-      "releaseDate": "2026-08-18",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e6/6f/8d/e66f8dd3-cba3-c943-bbee-69340f20d663/26UM1IM06728.rgb.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/vaaroon-forever-from-mirzapur-the-movie/6802269641?i=6802269797",
-      "sourceUrl": "https://music.apple.com/in/album/vaaroon-forever-from-mirzapur-the-movie/6802269641?i=6802269797",
+      "releaseDate": "2016-09-16",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/3c/7a/433c7a84-116b-4001-115e-c8e34d57ebd0/886446235608.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/bulleya/1174924228?i=1174924385",
+      "sourceUrl": "https://music.apple.com/in/album/bulleya/1174924228?i=1174924385",
       "explicit": false,
       "genres": [
+        "Bollywood",
         "Music"
       ],
       "country": "IN",
@@ -2523,24 +2500,50 @@
       ]
     },
     {
-      "position": 100,
-      "id": "apple:1721543292",
+      "position": 99,
+      "id": "apple:1687649562",
       "provider": "apple-music",
-      "appleId": "1721543292",
-      "title": "Sahiba",
-      "artist": "Aditya Rikhari",
+      "appleId": "1687649562",
+      "title": "Cheques",
+      "artist": "Shubh",
       "artistNames": [
-        "Aditya Rikhari"
+        "Shubh"
       ],
       "albumTitle": "",
-      "releaseDate": "2023-12-19",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7f/1b/74/7f1b7432-f87c-2737-8c34-562806709d43/8903431975140_cover.jpg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/in/album/sahiba/1721543289?i=1721543292",
-      "sourceUrl": "https://music.apple.com/in/album/sahiba/1721543289?i=1721543292",
+      "releaseDate": "2023-05-19",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/46/a9/dc46a9c9-794e-2d7a-1afb-97eb4ae0fff6/197188915704.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/cheques/1687649537?i=1687649562",
+      "sourceUrl": "https://music.apple.com/in/album/cheques/1687649537?i=1687649562",
       "explicit": false,
       "genres": [
-        "Indian Pop",
-        "Music"
+        "Music",
+        "Hip-Hop/Rap"
+      ],
+      "country": "IN",
+      "regions": [
+        "IN"
+      ]
+    },
+    {
+      "position": 100,
+      "id": "apple:6794258505",
+      "provider": "apple-music",
+      "appleId": "6794258505",
+      "title": "Hangova",
+      "artist": "Anirudh Ravichander & Heisenberg",
+      "artistNames": [
+        "Anirudh Ravichander & Heisenberg"
+      ],
+      "albumTitle": "",
+      "releaseDate": "2026-07-06",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/25/b4/5525b4ec-5854-7526-a2c9-df9d78fc89ec/885288108606.jpg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/in/album/hangova/6794258483?i=6794258505",
+      "sourceUrl": "https://music.apple.com/in/album/hangova/6794258483?i=6794258505",
+      "explicit": false,
+      "genres": [
+        "Tamil",
+        "Music",
+        "Regional Indian"
       ],
       "country": "IN",
       "regions": [

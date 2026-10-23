@@ -1,181 +1,287 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T11:53:19.555Z",
-  "changedCount": 22,
+  "generatedAt": "2026-10-23T11:39:48.980Z",
+  "changedCount": 29,
   "changes": [
+    {
+      "slug": "todays-top-hits",
+      "title": "Today’s Top Hits",
+      "previousSnapshotId": "public:1eb71dfd9d7ebd67a7bbbb42005e55781a3288ec",
+      "snapshotId": "public:568ebe9968770aa277ce704ce8f27af2b4d196cd",
+      "added": 3,
+      "removed": 3,
+      "addedTracks": [
+        {
+          "spotifyId": "4EVSMqqVEehvyyOBmjNTlA",
+          "title": "Lies (feat. Lana Del Rey)",
+          "artistNames": [
+            "Zach Bryan",
+            "Lana Del Rey"
+          ]
+        },
+        {
+          "spotifyId": "3bgnrHHwyYRtz3ykzAVImy",
+          "title": "Tarantino",
+          "artistNames": [
+            "LISA"
+          ]
+        },
+        {
+          "spotifyId": "3Zu0AWO9PN2lP2kCls5mkq",
+          "title": "Angel Of My Dreams",
+          "artistNames": [
+            "JADE"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "1VWiDyYTrqQhhmnWANWkFa",
+          "title": "SaWaDiKa",
+          "artistNames": [
+            "LISA"
+          ]
+        },
+        {
+          "spotifyId": "70pVCVMGjmIWPbWXDwf11e",
+          "title": "petal",
+          "artistNames": [
+            "Ariana Grande"
+          ]
+        },
+        {
+          "spotifyId": "6oUUmBcUbZa5O48V5pjgAD",
+          "title": "Hootie Frutti",
+          "artistNames": [
+            "KATSEYE"
+          ]
+        }
+      ]
+    },
     {
       "slug": "rapcaviar",
       "title": "RapCaviar",
-      "previousSnapshotId": "public:a6246b357d59d0feac5a4f6aa2e1303882973527",
-      "snapshotId": "public:40e18c9a105e682ef2640e26655b0f901826f725",
-      "added": 1,
-      "removed": 0,
+      "previousSnapshotId": "public:40e18c9a105e682ef2640e26655b0f901826f725",
+      "snapshotId": "public:95d59f03664264a2aca524f6a51bbdcb6b511284",
+      "added": 4,
+      "removed": 5,
       "addedTracks": [
+        {
+          "spotifyId": "3301sy6RP2XMn67qrjzY0y",
+          "title": "Lil Krazy",
+          "artistNames": [
+            "Yeat",
+            "Lyfestyle Corporation"
+          ]
+        },
+        {
+          "spotifyId": "4b4XGnysKKSNZk2UqItJX1",
+          "title": "Just Might Go (feat. Travis Scott)",
+          "artistNames": [
+            "Yung Miami",
+            "Travis Scott"
+          ]
+        },
+        {
+          "spotifyId": "4xBSR1MvDskoAGOwQERjX8",
+          "title": "Airbender",
+          "artistNames": [
+            "Anderson .Paak",
+            "Cordae"
+          ]
+        },
+        {
+          "spotifyId": "6iwrQJKw5jXclaI9tEV6Sf",
+          "title": "Live and Die",
+          "artistNames": [
+            "French Montana",
+            "Max B",
+            "Stove God Cooks"
+          ]
+        }
+      ],
+      "removedTracks": [
         {
           "spotifyId": "4wEbikMfcSFAukCbbL06si",
           "title": "No Vaseline",
           "artistNames": [
             "Ice Cube"
           ]
+        },
+        {
+          "spotifyId": "5GJNSOZzuQ6mFYu4a2E54O",
+          "title": "F You",
+          "artistNames": [
+            "Yung Miami"
+          ]
+        },
+        {
+          "spotifyId": "6G95rXb8NdjvklBdfaP1sc",
+          "title": "Baby Breath (feat. Pharrell Williams, Tyler, The Creator & A$AP Rocky)",
+          "artistNames": [
+            "Quavo",
+            "Pharrell Williams",
+            "Tyler",
+            "The Creator",
+            "A$AP Rocky"
+          ]
+        },
+        {
+          "spotifyId": "4CoMmsVSYUvalADtWRwVUh",
+          "title": "DOWN FOR REAL",
+          "artistNames": [
+            "Victor Victor Presents",
+            "A Boogie Wit da Hoodie"
+          ]
+        },
+        {
+          "spotifyId": "5M8eNQ6wLYPT9D60hbcxVU",
+          "title": "How To Pray",
+          "artistNames": [
+            "Dahi",
+            "Kendrick Lamar",
+            "Amber Mark"
+          ]
         }
-      ],
-      "removedTracks": []
+      ]
     },
     {
-      "slug": "reggae-classics",
-      "title": "Reggae Classics",
-      "previousSnapshotId": "public:121cd621b1db0d7e059c07e23ba4a9da903c5c2b",
-      "snapshotId": "public:368ccf60e52cd03c7fd3be25c698e6b05f9a3da6",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "all-out-80s",
-      "title": "All Out 80s",
-      "previousSnapshotId": "public:82f94eceb72be35490c50d0ddefb09397f87b991",
-      "snapshotId": "public:4bcf1ea336522daf4b51d2c0ef47ac0825d718b8",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "all-out-90s",
-      "title": "All Out 90s",
-      "previousSnapshotId": "public:faf9d371e3bb254aafc3557adc5756b4e7a7501b",
-      "snapshotId": "public:eaf2dc69429e864674db1383c611a352d3394960",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "all-out-2000s",
-      "title": "All Out 2000s",
-      "previousSnapshotId": "public:534dd6785354dcc618cc9ea87eea6876be335945",
-      "snapshotId": "public:d96754cc8fb4d35e9ad011a10b5b9025fa788eb5",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "chill-hits",
-      "title": "Chill Hits",
-      "previousSnapshotId": "public:ada6e563f088714444af070148c5472abfa25b19",
-      "snapshotId": "public:4b59a87504f2a354de2e60b3a8cb06201fe35357",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "fresh-finds",
-      "title": "Fresh Finds",
-      "previousSnapshotId": "public:6760d8d4343952c06cafc543556f8532b9bd2021",
-      "snapshotId": "public:b19d2d8ca2f9ba37554e93a087adcc4a50115dcf",
-      "added": 22,
-      "removed": 22,
+      "slug": "viva-latino",
+      "title": "Viva Latino",
+      "previousSnapshotId": "public:9353d28be494f9fe78a82ef7be8f793f3f5e7834",
+      "snapshotId": "public:64d9c6238c6028ec6fcd92806120564c203d3142",
+      "added": 3,
+      "removed": 3,
       "addedTracks": [
         {
-          "spotifyId": "1yxpRDrcK5ExwNiThPa9Uh",
-          "title": "Real!",
+          "spotifyId": "0vGKL7wzfkhzGEJScbYt7N",
+          "title": "Olimpo",
           "artistNames": [
-            "Dream Boat"
+            "Neton Vega",
+            "Fuerza Regida"
           ]
         },
         {
-          "spotifyId": "2MMFKAKnmYQL8KwGbcuidD",
-          "title": "ズーキッド｜Zookid",
+          "spotifyId": "1Hbh9u1DbUm2RpcTqy3ELJ",
+          "title": "Niña Mafia",
           "artistNames": [
-            "bed"
+            "Victor Mendivil"
           ]
         },
         {
-          "spotifyId": "1wQO7RFvhGSWPkDvU5981J",
-          "title": "Leap",
+          "spotifyId": "0kSfVpAjQDL7wNQCdejOB5",
+          "title": "Paciencia",
           "artistNames": [
-            "Emelie Trahan"
+            "LOS DOS DE TAMAULIPAS"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "06cC0Txd5AoUEX2otETGcs",
+          "title": "Mentira",
+          "artistNames": [
+            "Ryan Castro",
+            "Feid",
+            "SOG"
           ]
         },
         {
-          "spotifyId": "0pC2Ysuyt3vqjvnmbbWW61",
-          "title": "Knife",
+          "spotifyId": "6uiQ0DqbXTBc8tl0AUKZkR",
+          "title": "TU VAS SIN (fav)",
           "artistNames": [
-            "Oscar Lindsey"
+            "Rels B"
           ]
         },
         {
-          "spotifyId": "0YwtsLxxci8s57omyhPvfV",
-          "title": "Thank You",
+          "spotifyId": "0N6h5RnzCNJG3JfROXQIMQ",
+          "title": "Perlas Negras",
           "artistNames": [
-            "Worldpeace DMT"
+            "Natanael Cano",
+            "Gabito Ballesteros"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "baila-reggaeton",
+      "title": "Baila Reggaeton",
+      "previousSnapshotId": "public:4a2f1fc885680aa7868bc4e8aae890e8b53dc645",
+      "snapshotId": "public:80febb0ee18601850dc81a3ce8e337cb17df39aa",
+      "added": 2,
+      "removed": 2,
+      "addedTracks": [
+        {
+          "spotifyId": "7yRjUvz7l9z88Ln4RLaVTt",
+          "title": "Vulnerable",
+          "artistNames": [
+            "Ozuna",
+            "Ñengo Flow",
+            "Jory Boy"
           ]
         },
         {
-          "spotifyId": "2Uk8qwrNnd17wBBqlB0nX7",
-          "title": "HURTS LIKE 17",
+          "spotifyId": "2dsx6BZCzxQXUqXG6MbuEr",
+          "title": "3 PA' 3",
           "artistNames": [
-            "Julia Campbell"
+            "Victor Mendivil",
+            "Cris MJ",
+            "FloyyMenor"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "7A8zFqJKiZh9qbwduW7Ylj",
+          "title": "Honguito - Remix",
+          "artistNames": [
+            "Dalex",
+            "Farruko",
+            "KHEA",
+            "Jombriel",
+            "Jlexis",
+            "Rubí"
           ]
         },
         {
-          "spotifyId": "2uaK3EiYXxt3ovJvjBfVBL",
-          "title": "the wash",
+          "spotifyId": "58BUlorkbBEPLOmTZkXKr7",
+          "title": "Quiero Verte",
           "artistNames": [
-            "SUUNCAAT"
+            "Gaby Music",
+            "Yandel",
+            "El Bogueto",
+            "Luis R Conriquez"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "roots-rising",
+      "title": "Roots Rising",
+      "previousSnapshotId": "public:547593c81ef92f92d6bb91eb823818759ef5bd73",
+      "snapshotId": "public:3789402f6e8b0d0438544a8b06dd195ece6e49a6",
+      "added": 8,
+      "removed": 8,
+      "addedTracks": [
+        {
+          "spotifyId": "0FknOu4D8csA7MLxBE7L9K",
+          "title": "Up and Down a Mountain",
+          "artistNames": [
+            "Rayland Baxter"
           ]
         },
         {
-          "spotifyId": "0cxTnIXyy13AcnHtfPnxpX",
-          "title": "WHAT A REGULAR DAY",
+          "spotifyId": "0VkA3rug1fdlSPGw1rMnos",
+          "title": "Scarlett",
           "artistNames": [
-            "BALACLAVA"
+            "Richy Mitch & The Coal Miners"
           ]
         },
         {
-          "spotifyId": "7BOwcZmv8gfksKA8auIquC",
-          "title": "Liquor Logic",
+          "spotifyId": "6VDE9z9Ld25UhlC9SXnbRX",
+          "title": "Smartest Person in the Room",
           "artistNames": [
-            "Kaibrienne"
-          ]
-        },
-        {
-          "spotifyId": "59i1EGfHrvF4ZxpBoXnrfF",
-          "title": "Anatomy",
-          "artistNames": [
-            "Lara Buchanan"
-          ]
-        },
-        {
-          "spotifyId": "1XTm0IoirGy34suvHWY9oT",
-          "title": "I am a Man",
-          "artistNames": [
-            "Billboard Style"
-          ]
-        },
-        {
-          "spotifyId": "2CxXVh2ENoDbaATNz97BC5",
-          "title": "Seabiscuit",
-          "artistNames": [
-            "Jonny's Day Out"
-          ]
-        },
-        {
-          "spotifyId": "1PK796wm83a7NnwpblVIO5",
-          "title": "fallin' (feat. fenoaltea)",
-          "artistNames": [
-            "Falsetti",
-            "fenoaltea"
-          ]
-        },
-        {
-          "spotifyId": "1R8I3H65pxDY4t9ujP0huO",
-          "title": "My Forever",
-          "artistNames": [
-            "Sal Ly"
+            "Lennon Stella"
           ]
         },
         {
@@ -186,246 +292,1009 @@
           ]
         },
         {
-          "spotifyId": "5CLhS1D8z7smOOrbXjUDfJ",
-          "title": "Chokehold",
+          "spotifyId": "1UwCpT8W2wBfh3VbndlG9P",
+          "title": "Waco",
           "artistNames": [
-            "Abby Kenna"
+            "Marfa"
           ]
         },
         {
-          "spotifyId": "60IH1n6y6LHfRlB2PQovPE",
-          "title": "Halo Mode",
+          "spotifyId": "6donzNp5vvXcbfqQoBEh5T",
+          "title": "Lost Station Hideaway",
           "artistNames": [
-            "A Country Western"
+            "Michael Nau"
           ]
         },
         {
-          "spotifyId": "1kQkBDh2KZsO4Y6RlCPlGz",
-          "title": "Far From Home",
+          "spotifyId": "0pC2Ysuyt3vqjvnmbbWW61",
+          "title": "Knife",
           "artistNames": [
-            "REVNOIR",
-            "REEBZ"
+            "Oscar Lindsey"
           ]
         },
         {
-          "spotifyId": "5US5ItwqqZDT2SVysukwWQ",
-          "title": "Beautiful Stranger",
+          "spotifyId": "6fgsI2J6ynD5uonTbuZSoY",
+          "title": "Hardcore or Wellness",
           "artistNames": [
-            "Mackeeper"
-          ]
-        },
-        {
-          "spotifyId": "3Ax0EoemBX5C5rxAO2sm8T",
-          "title": "East, West",
-          "artistNames": [
-            "Aauna"
-          ]
-        },
-        {
-          "spotifyId": "2yBCy1bKrIvOG3QswA00SG",
-          "title": "U Kno",
-          "artistNames": [
-            "gabbby"
-          ]
-        },
-        {
-          "spotifyId": "1UsV5oCU7MYr1ge8agtuLc",
-          "title": "Cherry Trees",
-          "artistNames": [
-            "Sophia Bacino"
+            "Dead Gowns"
           ]
         }
       ],
       "removedTracks": [
         {
-          "spotifyId": "6TT6zcdV63mDGTFuUKGlOB",
-          "title": "Blue Earth",
+          "spotifyId": "5HXFe0eb5lCfJpsqoqIbRS",
+          "title": "demons",
           "artistNames": [
-            "Spiral XP"
+            "Josiah Queen"
           ]
         },
         {
-          "spotifyId": "6nVhXRDvm1OJxsHLlmn7vc",
-          "title": "Dreams",
+          "spotifyId": "2jCJjRc9mz6VYBMhLy3H9i",
+          "title": "Plastic Cigarette",
           "artistNames": [
-            "Saint Clair"
+            "Zach Bryan"
           ]
         },
         {
-          "spotifyId": "21NzjKNEzy2k8hCP9N79NC",
-          "title": "milkweed butterfly",
+          "spotifyId": "6t8BeTBukA9PTpiqnNNzBK",
+          "title": "Both Sides of the Blade",
           "artistNames": [
-            "smush"
+            "Max McNown"
           ]
         },
         {
-          "spotifyId": "1DbndbCRrMLxCwRWzUHZP8",
-          "title": "2222222222222222 + Climbing",
+          "spotifyId": "1oHxIq2EEXHzPcNo3MJQjQ",
+          "title": "Music by Men",
           "artistNames": [
-            "Veronica Everheart",
-            "the sound chalk makes"
+            "Florence + The Machine"
           ]
         },
         {
-          "spotifyId": "7fem0Kd6dDraQOZWXsx82o",
-          "title": "Shoelace",
+          "spotifyId": "2R2AITSPOZeKXwekNA46ug",
+          "title": "Little Picture of a Butterfly",
           "artistNames": [
-            "b7lanket"
+            "Courtney Marie Andrews"
           ]
         },
         {
-          "spotifyId": "76KN8Y6260PMoHVMhWhm3K",
-          "title": "Crawl",
+          "spotifyId": "3H9oqxaMJYeGzfRgfq6Y1C",
+          "title": "There's A Fire",
           "artistNames": [
-            "GAWD",
-            "Duckwrth"
+            "The Franklin Electric"
           ]
         },
         {
-          "spotifyId": "7FmB6G5FcIEZkKAeYtnZ1J",
-          "title": "Are you willing to change?",
+          "spotifyId": "6rrqv0WwGTTlavCNqVGd6A",
+          "title": "Rubber Band Man (with Hozier)",
           "artistNames": [
-            "A.G. Sully"
+            "Mumford & Sons",
+            "Hozier"
           ]
         },
         {
-          "spotifyId": "4vIIDIYWvlMlrXA60n1rcD",
-          "title": "Alright, alright",
+          "spotifyId": "5HE9cEXsyLuqSKptTd5RxV",
+          "title": "Colour On The Wall",
           "artistNames": [
-            "646yf4t",
-            "Rowena Fysx"
-          ]
-        },
-        {
-          "spotifyId": "2V3vjSqRbYfhPkUrczYnxo",
-          "title": "Eyes On Me",
-          "artistNames": [
-            "louii lane"
-          ]
-        },
-        {
-          "spotifyId": "0AGcI0jKRUFTlVF0dpffsk",
-          "title": "Heartblush",
-          "artistNames": [
-            "Surely Shirley"
-          ]
-        },
-        {
-          "spotifyId": "67equBMZP0lKaPAY0HivB4",
-          "title": "Bounce it",
-          "artistNames": [
-            "Biggs money"
-          ]
-        },
-        {
-          "spotifyId": "64XDJcykwUPjYXSvSHbhXv",
-          "title": "Crescents and the Torch",
-          "artistNames": [
-            "Freeze the Fall"
-          ]
-        },
-        {
-          "spotifyId": "0xaAbHucphA5pb68eGW3Mp",
-          "title": "Disrespectfully",
-          "artistNames": [
-            "bdifferent",
-            "MARCO PLUS"
-          ]
-        },
-        {
-          "spotifyId": "4bkK5cz8UShXNZjnlWTYQZ",
-          "title": "Self",
-          "artistNames": [
-            "Holy drill",
-            "Dells TMX"
-          ]
-        },
-        {
-          "spotifyId": "6ExciEr12vZDoZW9wmEU0c",
-          "title": "Open Window",
-          "artistNames": [
-            "Holy Gather"
-          ]
-        },
-        {
-          "spotifyId": "6AeKje0Q4lneaYLWwA6mBS",
-          "title": "FLEX",
-          "artistNames": [
-            "Ada Betsabe"
-          ]
-        },
-        {
-          "spotifyId": "4RZHzZtfExcjFAqgFtwwrZ",
-          "title": "Feel At Home",
-          "artistNames": [
-            "ISHA"
-          ]
-        },
-        {
-          "spotifyId": "3K7wEeOTaJR5IS2LuDzvuY",
-          "title": "nan peng you",
-          "artistNames": [
-            "Helena Gao"
-          ]
-        },
-        {
-          "spotifyId": "5DkQxWX81nR4TtMOzW3o24",
-          "title": "ROCK THE DISCO",
-          "artistNames": [
-            "PAULY!"
-          ]
-        },
-        {
-          "spotifyId": "2Nqx1u8Gq38wse9NsXklCb",
-          "title": "Take My Time",
-          "artistNames": [
-            "Lucas Mason"
-          ]
-        },
-        {
-          "spotifyId": "4SNeJ2ZfT0KWbwbWXK3VjT",
-          "title": "A Girl Who Needs A Brain",
-          "artistNames": [
-            "Toxe"
-          ]
-        },
-        {
-          "spotifyId": "3QGSm3spB9X1RWw20HZ6uP",
-          "title": "Feel Better",
-          "artistNames": [
-            "Kuper"
+            "Olive Jones"
           ]
         }
       ]
     },
     {
-      "slug": "beast-mode",
-      "title": "Beast Mode",
-      "previousSnapshotId": "public:5f620d03a1a7d6acfe944255c28b52076de394c2",
-      "snapshotId": "public:8767180f108b1a521678fd231a6db85286777a59",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
+      "slug": "peaceful-piano",
+      "title": "Peaceful Piano",
+      "previousSnapshotId": "public:f4f7c08bf79b54444e0bc7095e7b804d025f974f",
+      "snapshotId": "public:d112c469d8b46fecd25ee841fdd96f37d4b42e3f",
+      "added": 1,
+      "removed": 1,
+      "addedTracks": [
+        {
+          "spotifyId": "3rqNtzfekrqoZcaK2CfGwP",
+          "title": "The Northern Fields",
+          "artistNames": [
+            "SG Hilltwig"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "31qeus61ieZE3s9VU3OOPU",
+          "title": "The Story of Forever",
+          "artistNames": [
+            "Aquilegia"
+          ]
+        }
+      ]
     },
     {
-      "slug": "jazz-classics",
-      "title": "Jazz Classics",
-      "previousSnapshotId": "public:ecf09802b933e252128e2e0696c5d25343863402",
-      "snapshotId": "public:cec387eae5134a0ebc47319343d5e70bce29ecce",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
+      "slug": "lofi-beats",
+      "title": "lofi beats",
+      "previousSnapshotId": "public:7fc015af324241a3f521b613a3d9a9f6903998f4",
+      "snapshotId": "public:1fdae3ac0ec8f757f46dc25659ab7b8a4352de82",
+      "added": 3,
+      "removed": 3,
+      "addedTracks": [
+        {
+          "spotifyId": "2OmiatvHLBxMtsavSMikPK",
+          "title": "Bittersweet",
+          "artistNames": [
+            "Yax Keyon"
+          ]
+        },
+        {
+          "spotifyId": "06abehrlDCUMJ2k8qstWW4",
+          "title": "Red Maple",
+          "artistNames": [
+            "steezy prime",
+            "luv pug"
+          ]
+        },
+        {
+          "spotifyId": "5UdRPuUEF2PqqZo60Zra3j",
+          "title": "Colors",
+          "artistNames": [
+            "Juliàn"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "2tdQyprStjZEbzPO9gSAHm",
+          "title": "New Light",
+          "artistNames": [
+            "Juliàn",
+            "Banks"
+          ]
+        },
+        {
+          "spotifyId": "2iYVFJqf0xytX4otStZztD",
+          "title": "luna",
+          "artistNames": [
+            "herbstreit"
+          ]
+        },
+        {
+          "spotifyId": "7AXJWBUcfdnBELORMr7NkU",
+          "title": "Return",
+          "artistNames": [
+            "amies"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mint",
+      "title": "mint",
+      "previousSnapshotId": "public:19dff08a725ded69db6b2d09dbaa949020c18b43",
+      "snapshotId": "public:43d05b9f73c813f234349b524aec579dec697cd5",
+      "added": 3,
+      "removed": 3,
+      "addedTracks": [
+        {
+          "spotifyId": "4PgcKyByDFEXm5RQA07WD2",
+          "title": "Repeaty",
+          "artistNames": [
+            "Sammy Virji"
+          ]
+        },
+        {
+          "spotifyId": "7J0kkgb99OIb3a7IJb6SDT",
+          "title": "Staring At The Sun",
+          "artistNames": [
+            "FISHER",
+            "LAUREL"
+          ]
+        },
+        {
+          "spotifyId": "3BgLZtFdHRKKtC9Gvpsgzk",
+          "title": "Neckwear",
+          "artistNames": [
+            "Mochakk",
+            "Channel Tres"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "6hIrJ88yxwqnvdvnnXHVkC",
+          "title": "On My Own (Feat. Darla Jade)",
+          "artistNames": [
+            "Steve Aoki",
+            "Reinier Zonneveld",
+            "Darla Jade"
+          ]
+        },
+        {
+          "spotifyId": "6QpcvSJ5hjc3N9Eyp2SDu3",
+          "title": "Out of Time",
+          "artistNames": [
+            "Zeds Dead",
+            "Jem Cooke"
+          ]
+        },
+        {
+          "spotifyId": "5e4II0hLokRNiw4q2uHeL8",
+          "title": "Better With You",
+          "artistNames": [
+            "Nico Moreno",
+            "Novah",
+            "KIMI"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pop-rising",
+      "title": "Pop Rising",
+      "previousSnapshotId": "public:09c47c7b761fb0258eab46f3da1539e5adc16522",
+      "snapshotId": "public:a7d2553d993034b9b60f0d413aa443bfff0c4a5e",
+      "added": 13,
+      "removed": 13,
+      "addedTracks": [
+        {
+          "spotifyId": "46cW6zufU9Woo11TLs2i6X",
+          "title": "Angel Of My Dreams",
+          "artistNames": [
+            "JADE"
+          ]
+        },
+        {
+          "spotifyId": "3bgnrHHwyYRtz3ykzAVImy",
+          "title": "Tarantino",
+          "artistNames": [
+            "LISA"
+          ]
+        },
+        {
+          "spotifyId": "6btmjh1p327BMAJAczq9Lf",
+          "title": "MISS ME",
+          "artistNames": [
+            "keshi"
+          ]
+        },
+        {
+          "spotifyId": "0Rxs96nQeboThWCNzP4H0c",
+          "title": "Champagne",
+          "artistNames": [
+            "Remi Wolf"
+          ]
+        },
+        {
+          "spotifyId": "3qzc3xyTxHCvsT55a7xPGw",
+          "title": "Hands On Me (from the Netflix Series \"Nobody Wants This\" Season 3)",
+          "artistNames": [
+            "Maisie Peters"
+          ]
+        },
+        {
+          "spotifyId": "244A4fzwbMXTuHn5mL06Sj",
+          "title": "IMPULSIVE",
+          "artistNames": [
+            "Thekidszn"
+          ]
+        },
+        {
+          "spotifyId": "7DjfpeQoZzZv2DUe0kHaLT",
+          "title": "Film Noir",
+          "artistNames": [
+            "Haute & Freddy"
+          ]
+        },
+        {
+          "spotifyId": "4brpx6ZUKRDaEJZvbbBMl8",
+          "title": "do the math",
+          "artistNames": [
+            "Dove Cameron"
+          ]
+        },
+        {
+          "spotifyId": "6sWfrBBy9OtTyradfCy1Cp",
+          "title": "Glown Up",
+          "artistNames": [
+            "GIRLSET",
+            "Kylie Cantrall"
+          ]
+        },
+        {
+          "spotifyId": "52Ww5RZpJuDWttqnIBeGr3",
+          "title": "Casual Crime",
+          "artistNames": [
+            "Lyn Lapid"
+          ]
+        },
+        {
+          "spotifyId": "62rwEl9PfnDqrjqNjApOwV",
+          "title": "He's My Man",
+          "artistNames": [
+            "Luvcat"
+          ]
+        },
+        {
+          "spotifyId": "1vJiAQOwfffp2KYHG7wjik",
+          "title": "had to leave",
+          "artistNames": [
+            "Lexi Jayde"
+          ]
+        },
+        {
+          "spotifyId": "5PvLNQRNRj61y3CU4SFIY4",
+          "title": "NEON",
+          "artistNames": [
+            "A2O LITE",
+            "A2O"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "0aggOTNihV1CtOtJnSedxS",
+          "title": "Versailles",
+          "artistNames": [
+            "Carly Rae Jepsen"
+          ]
+        },
+        {
+          "spotifyId": "63QxVCDUG65xSAX9xqD0dV",
+          "title": "Different Religion (feat. Model/Actriz)",
+          "artistNames": [
+            "Miley Cyrus",
+            "Model/Actriz"
+          ]
+        },
+        {
+          "spotifyId": "18fRO6IsVaKNn5HIdVraSA",
+          "title": "Touch Touch",
+          "artistNames": [
+            "Haute & Freddy"
+          ]
+        },
+        {
+          "spotifyId": "6ZAuQOgLrNQb9s7BXheuTy",
+          "title": "Sue me",
+          "artistNames": [
+            "Audrey Hobert"
+          ]
+        },
+        {
+          "spotifyId": "6RE9jLqeJftjRXERFYOK9E",
+          "title": "Bottle",
+          "artistNames": [
+            "Remi Wolf"
+          ]
+        },
+        {
+          "spotifyId": "1dKUibfoGwiApjEYJhB9R2",
+          "title": "High Hopes 3000",
+          "artistNames": [
+            "ROLE MODEL"
+          ]
+        },
+        {
+          "spotifyId": "1PGde5PALlkGdlPizKNDLo",
+          "title": "DNH",
+          "artistNames": [
+            "Tove Lo"
+          ]
+        },
+        {
+          "spotifyId": "11GUkH18CKNFLKCHORkceJ",
+          "title": "Good Reason",
+          "artistNames": [
+            "Gracie Abrams"
+          ]
+        },
+        {
+          "spotifyId": "3a49TEtsbeAgzZAQH9WiDZ",
+          "title": "Danceteria",
+          "artistNames": [
+            "Madonna"
+          ]
+        },
+        {
+          "spotifyId": "6GjXR9FaxCuDNbqBrP9aYO",
+          "title": "Wink Wink",
+          "artistNames": [
+            "Charli xcx"
+          ]
+        },
+        {
+          "spotifyId": "1hNixpTJ3KtIQGYIdGWLoz",
+          "title": "CHAT",
+          "artistNames": [
+            "GIRLSET"
+          ]
+        },
+        {
+          "spotifyId": "5c2ns82nxF2pg59M5DkuSM",
+          "title": "Tornado",
+          "artistNames": [
+            "Ayra Starr"
+          ]
+        },
+        {
+          "spotifyId": "3SoarlzPEiF7NgSeGsh44S",
+          "title": "the feeling",
+          "artistNames": [
+            "Steve Lacy"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "all-new-indie",
+      "title": "All New Indie",
+      "previousSnapshotId": "public:bf0daacd9404858aab9e111c1138f71d904f6c85",
+      "snapshotId": "public:99b6474eca84173b3090bede1dcfd1402318de60",
+      "added": 42,
+      "removed": 42,
+      "addedTracks": [
+        {
+          "spotifyId": "3ga7J4qgOlL0YcSgmQ371w",
+          "title": "If you wanna come down",
+          "artistNames": [
+            "Fine"
+          ]
+        },
+        {
+          "spotifyId": "2eCTdjEiWw5d1BH1GCvotP",
+          "title": "One Car Hits Another",
+          "artistNames": [
+            "Panchiko",
+            "Mei Semones"
+          ]
+        },
+        {
+          "spotifyId": "3W2VOvLDPks8RE02dRr63O",
+          "title": "Adrenaline",
+          "artistNames": [
+            "mark william lewis"
+          ]
+        },
+        {
+          "spotifyId": "5qOFirGHlFXnfLc7r6pCSV",
+          "title": "Sweet Tooth",
+          "artistNames": [
+            "Gus Dapperton",
+            "Ledbyher"
+          ]
+        },
+        {
+          "spotifyId": "48VdX0xpkctVxwo26LfViO",
+          "title": "California",
+          "artistNames": [
+            "Michael Kiwanuka"
+          ]
+        },
+        {
+          "spotifyId": "5kAoEEASRwkLd2EjxfBfJ9",
+          "title": "missing person",
+          "artistNames": [
+            "girl in red"
+          ]
+        },
+        {
+          "spotifyId": "3wFANkoEmlut2OCldcKb2U",
+          "title": "wishing well",
+          "artistNames": [
+            "brakence"
+          ]
+        },
+        {
+          "spotifyId": "5A6FYlGCZUl8G8twvSdUZP",
+          "title": "Savior",
+          "artistNames": [
+            "Fousheé"
+          ]
+        },
+        {
+          "spotifyId": "6ee7KId6UZeOyliYOCsYYt",
+          "title": "Heaven Can Wait",
+          "artistNames": [
+            "Nabihah Iqbal"
+          ]
+        },
+        {
+          "spotifyId": "0BA0Gdyz3UK8PJC7c44lK7",
+          "title": "Pangea",
+          "artistNames": [
+            "Dominic Fike"
+          ]
+        },
+        {
+          "spotifyId": "6n9heLkoKbQu2uOQFDRPaj",
+          "title": "Aldehydes and Ketones",
+          "artistNames": [
+            "Ecco2k"
+          ]
+        },
+        {
+          "spotifyId": "6HlKT4QTzvqpoSdrLCoU9L",
+          "title": "George Clanton",
+          "artistNames": [
+            "Grumpy"
+          ]
+        },
+        {
+          "spotifyId": "0cINKG9O5F3Tx1hKPcYZlr",
+          "title": "INNER CHILD",
+          "artistNames": [
+            "LAUNDRY DAY"
+          ]
+        },
+        {
+          "spotifyId": "5iAUMO1NyTPEorQ3f3vSJX",
+          "title": "Gay Witchcraft",
+          "artistNames": [
+            "Claud"
+          ]
+        },
+        {
+          "spotifyId": "7uAD2mlombVXT7JsZ3yexr",
+          "title": "Sometimes I Get Emotional",
+          "artistNames": [
+            "After Louise"
+          ]
+        },
+        {
+          "spotifyId": "7DSXgEclBOBcrAEzNudHNS",
+          "title": "Contort",
+          "artistNames": [
+            "marinelli"
+          ]
+        },
+        {
+          "spotifyId": "7iswvp4cEuvT7C9593N0hE",
+          "title": "redstar",
+          "artistNames": [
+            "Hockitay"
+          ]
+        },
+        {
+          "spotifyId": "6KoBqazoogdxoa2fs42ktF",
+          "title": "What we want and need from love",
+          "artistNames": [
+            "Mila Bea"
+          ]
+        },
+        {
+          "spotifyId": "4ssOWRV4Gw113pkNQLbaUY",
+          "title": "Tip of My Tongue",
+          "artistNames": [
+            "Helena Deland"
+          ]
+        },
+        {
+          "spotifyId": "1yxpRDrcK5ExwNiThPa9Uh",
+          "title": "Real!",
+          "artistNames": [
+            "Dream Boat"
+          ]
+        },
+        {
+          "spotifyId": "6Tgj0FJppACsnkFRL9Jw8V",
+          "title": "wonderland",
+          "artistNames": [
+            "miaw"
+          ]
+        },
+        {
+          "spotifyId": "6donzNp5vvXcbfqQoBEh5T",
+          "title": "Lost Station Hideaway",
+          "artistNames": [
+            "Michael Nau"
+          ]
+        },
+        {
+          "spotifyId": "7kbU1ezWOaeREc2kgvlS3J",
+          "title": "Goblin's Head",
+          "artistNames": [
+            "Horse Vision"
+          ]
+        },
+        {
+          "spotifyId": "4Xjw8z313o5PuU1qXTn4Bq",
+          "title": "dream",
+          "artistNames": [
+            "DJ Suzy"
+          ]
+        },
+        {
+          "spotifyId": "5xiIDo3mNiqPuLuXbQRsIb",
+          "title": "Smile Again",
+          "artistNames": [
+            "Penelope Road"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "39TN912C1xFtLjFSr8anxu",
+          "title": "Frozen",
+          "artistNames": [
+            "Suzy Clue"
+          ]
+        },
+        {
+          "spotifyId": "2jgdF1skIgMNHpGSNciGWo",
+          "title": "Suitcase",
+          "artistNames": [
+            "slimdan"
+          ]
+        },
+        {
+          "spotifyId": "0MZqPVrooitHXFeKFg1nwN",
+          "title": "second.spring.x.winter.recovery",
+          "artistNames": [
+            "Total Wife",
+            "Winter"
+          ]
+        },
+        {
+          "spotifyId": "4m6obtYQsheYGZhgkXWJST",
+          "title": "(blanket)",
+          "artistNames": [
+            "Jespfur"
+          ]
+        },
+        {
+          "spotifyId": "3TUJkCw8IXrFs0CiRF8CDI",
+          "title": "Punish Task",
+          "artistNames": [
+            "Font"
+          ]
+        },
+        {
+          "spotifyId": "7ndSNIaJ4J0TIJE5iuMHRx",
+          "title": "Love Song",
+          "artistNames": [
+            "Knifeplay"
+          ]
+        },
+        {
+          "spotifyId": "32GjuqtqII6OOUIzPYbrfs",
+          "title": "Penny Drop",
+          "artistNames": [
+            "studio20"
+          ]
+        },
+        {
+          "spotifyId": "6Qv9ShMC8XZOSNbUqMwGeq",
+          "title": "Little Green Book",
+          "artistNames": [
+            "Awning"
+          ]
+        },
+        {
+          "spotifyId": "4gSItxVqOlJXeD2Oi2X9GJ",
+          "title": "Sometimes I rush",
+          "artistNames": [
+            "Fine"
+          ]
+        },
+        {
+          "spotifyId": "4FZA8C75s6Zm1Tqj71ej3M",
+          "title": "Trillions",
+          "artistNames": [
+            "DIIV"
+          ]
+        },
+        {
+          "spotifyId": "79zGDuB16RwJPPI5Vegmqa",
+          "title": "Lucky, Forever",
+          "artistNames": [
+            "Vacations"
+          ]
+        },
+        {
+          "spotifyId": "1bOnbXldcr1DnseZ7getJp",
+          "title": "Summer Clothes",
+          "artistNames": [
+            "Michael Kiwanuka"
+          ]
+        },
+        {
+          "spotifyId": "7a7hhyTY8lO92eW3M2GJPF",
+          "title": "Hands Tied",
+          "artistNames": [
+            "Emma Ogier"
+          ]
+        },
+        {
+          "spotifyId": "7zULk1BRwUrMjgImBEe37D",
+          "title": "The Ugliest Girl On The Beach",
+          "artistNames": [
+            "Victoryland"
+          ]
+        },
+        {
+          "spotifyId": "3MmP0JYcW7JtzISV8x4aay",
+          "title": "The Girl (feat. yunè pinku)",
+          "artistNames": [
+            "Logic1000",
+            "yunè pinku"
+          ]
+        },
+        {
+          "spotifyId": "4y20eWME17ifpuG3xAyyy6",
+          "title": "Moving Light, Change",
+          "artistNames": [
+            "ML Buch"
+          ]
+        },
+        {
+          "spotifyId": "4D0rf55hqEL8PjxHJuDCo2",
+          "title": "Loser's Prize",
+          "artistNames": [
+            "Greg Freeman"
+          ]
+        },
+        {
+          "spotifyId": "29r6FzBA9KeO7Dvgr0f8Ug",
+          "title": "Shards",
+          "artistNames": [
+            "Deer park",
+            "NINA"
+          ]
+        },
+        {
+          "spotifyId": "4hjBehyyL8JPQJ0LiYOHnl",
+          "title": "Roar Of The Heliac Goat",
+          "artistNames": [
+            "mercury"
+          ]
+        },
+        {
+          "spotifyId": "0Z1hvbWG6GJNfra89uS5Gx",
+          "title": "It goes like this",
+          "artistNames": [
+            "Quadeca"
+          ]
+        },
+        {
+          "spotifyId": "38BxonKtYegINzHKASHfty",
+          "title": "Queens",
+          "artistNames": [
+            "Grumpy"
+          ]
+        },
+        {
+          "spotifyId": "00ZOnzSIZXvO07SeVtxZdq",
+          "title": "Howl",
+          "artistNames": [
+            "Mei Semones"
+          ]
+        },
+        {
+          "spotifyId": "5w0RPpt5MYEx931T1JzkpH",
+          "title": "I Do",
+          "artistNames": [
+            "John Roseboro"
+          ]
+        },
+        {
+          "spotifyId": "5Svn4qAQjPFX3bE2n8Uzjy",
+          "title": "The X-panded Universe",
+          "artistNames": [
+            "Father John Misty"
+          ]
+        },
+        {
+          "spotifyId": "5xH2hp2X3Pi7bDGz35KNNX",
+          "title": "Paradise",
+          "artistNames": [
+            "Jordan Rakei"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rnb-x",
+      "title": "RNB X",
+      "previousSnapshotId": "public:7d4ac8f60bd958ec8916574c0379499739cc3c1a",
+      "snapshotId": "public:43ee70c3ab8fa5304f5a840951cd4b366034f97e",
+      "added": 4,
+      "removed": 4,
+      "addedTracks": [
+        {
+          "spotifyId": "0yXMe310dgpquMTa7OmHKk",
+          "title": "I Love You",
+          "artistNames": [
+            "Snoh Aalegra"
+          ]
+        },
+        {
+          "spotifyId": "0j14eHWV5jzB3pOitfCFE4",
+          "title": "Main Attraction - Remix",
+          "artistNames": [
+            "Chlöe",
+            "Timbaland",
+            "Monaleo"
+          ]
+        },
+        {
+          "spotifyId": "2pNmCsSJpuQ4ZCEy4IKTF4",
+          "title": "ANGEL",
+          "artistNames": [
+            "Laila!",
+            "Teezo Touchdown"
+          ]
+        },
+        {
+          "spotifyId": "72fSEYOXmccGvk5GjiNtKX",
+          "title": "tell me what you want",
+          "artistNames": [
+            "Sasha Keable"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "26r52zLg6ltidZwQ7EQ0wM",
+          "title": "Ceiling (Freestyle)",
+          "artistNames": [
+            "Jhené Aiko"
+          ]
+        },
+        {
+          "spotifyId": "2dJkI8vIXC1rpEHADdw6KK",
+          "title": "Haiku",
+          "artistNames": [
+            "Fridayy"
+          ]
+        },
+        {
+          "spotifyId": "55LgZlNjXalYkfgdfiedMi",
+          "title": "Sex In Peace (ft. kwn)",
+          "artistNames": [
+            "FLO",
+            "kwn"
+          ]
+        },
+        {
+          "spotifyId": "13b9uA4xt7VRbBRGM8cT9q",
+          "title": "Ruin",
+          "artistNames": [
+            "Blxst",
+            "Sasha Keable"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hot-country",
+      "title": "Hot Country",
+      "previousSnapshotId": "public:520d6f39ec365d9e8d1e0366c3ec131f2f24fdd7",
+      "snapshotId": "public:cef3e6987447994419a1bd99e9d72ceaf0c68280",
+      "added": 3,
+      "removed": 3,
+      "addedTracks": [
+        {
+          "spotifyId": "7mcEvEEwLce8qXrNPmgugg",
+          "title": "Say When",
+          "artistNames": [
+            "Megan Moroney"
+          ]
+        },
+        {
+          "spotifyId": "62HZVrw8exZifnARvHEpAt",
+          "title": "Born and Raised Hell (Feat. Cody Johnson) - EDIT",
+          "artistNames": [
+            "Brothers Osborne",
+            "Cody Johnson"
+          ]
+        },
+        {
+          "spotifyId": "7LBCgoUHyu8ITKLzalD0Ea",
+          "title": "Weekend In Texas",
+          "artistNames": [
+            "Kacey Musgraves"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "7mxctiYgZD9JtvEZBJWoAW",
+          "title": "Damned If I Do",
+          "artistNames": [
+            "Vincent Mason"
+          ]
+        },
+        {
+          "spotifyId": "1j6ad39OI8bXR6JvRkbCdy",
+          "title": "The Old Guys",
+          "artistNames": [
+            "Dan + Shay",
+            "Cody Johnson"
+          ]
+        },
+        {
+          "spotifyId": "6qZOIYvUcfKl9kTE2rxitF",
+          "title": "Shoot The Bull",
+          "artistNames": [
+            "Cody Johnson",
+            "Luke Combs"
+          ]
+        }
+      ]
     },
     {
       "slug": "gospel-mix",
       "title": "Gospel Mix",
-      "previousSnapshotId": "public:6362d79afbef38f9d75140422ac90e63015d451a",
-      "snapshotId": "public:55db9eaa73a33dfc23ecf9e892d1a22c2025ce2a",
-      "added": 16,
-      "removed": 16,
+      "previousSnapshotId": "public:55db9eaa73a33dfc23ecf9e892d1a22c2025ce2a",
+      "snapshotId": "public:cf2b5f2252026f8f813bd138d5af266acd05fb1e",
+      "added": 9,
+      "removed": 9,
       "addedTracks": [
+        {
+          "spotifyId": "3HZCMyuazaSOLgXexcMASl",
+          "title": "Dame Tus Ojos",
+          "artistNames": [
+            "Marcela Gandara",
+            "Jesús Adrián Romero"
+          ]
+        },
+        {
+          "spotifyId": "0O358QfVCqB6oN2HP7abkg",
+          "title": "Reacende a Chama - Ao Vivo",
+          "artistNames": [
+            "Sued Silva",
+            "Todah Music"
+          ]
+        },
+        {
+          "spotifyId": "0GD31r9na0U0TLJ3xO2Att",
+          "title": "Eu e Minha Casa",
+          "artistNames": [
+            "Julliany Souza",
+            "Léo Brandão"
+          ]
+        },
+        {
+          "spotifyId": "2SswEmtlmAf5VPD69ETNrk",
+          "title": "IMPERFEITO",
+          "artistNames": [
+            "Seven Plus",
+            "Rayssa Andreoli"
+          ]
+        },
+        {
+          "spotifyId": "344vyXHCBYXPGV4jO8Jo8X",
+          "title": "Ele Não Desiste de Você",
+          "artistNames": [
+            "Marquinhos Gomes"
+          ]
+        },
+        {
+          "spotifyId": "6GRKMvmwcRQEDzK2SD2RTt",
+          "title": "Buscar-Me-Eis e Me Achareis - Ao Vivo",
+          "artistNames": [
+            "Alexsander Lucio"
+          ]
+        },
+        {
+          "spotifyId": "6zuKUWd8WI64enPMwPBsmE",
+          "title": "Aviva-Nos / A Terra Clama / Fogo e Glória",
+          "artistNames": [
+            "Kaleb e Josh"
+          ]
+        },
+        {
+          "spotifyId": "5G3IgaaJoDjqTltvlLOU2a",
+          "title": "Em Teus Braços",
+          "artistNames": [
+            "Dunamis Music",
+            "Laura Souguellis"
+          ]
+        },
+        {
+          "spotifyId": "5A2PGUJvo4euS7n6Bu6C9u",
+          "title": "Mesmo Sem Entender",
+          "artistNames": [
+            "Thalles Roberto"
+          ]
+        }
+      ],
+      "removedTracks": [
         {
           "spotifyId": "5IB4ugsKzjD4hWuIEFZtAE",
           "title": "What A God - Live",
@@ -460,25 +1329,11 @@
           ]
         },
         {
-          "spotifyId": "2enOwKM3juIzJQS9pkrSo5",
-          "title": "Ovelha Em Treinamento",
-          "artistNames": [
-            "Isadora Pompeo"
-          ]
-        },
-        {
           "spotifyId": "0Vu82EeitOa99yDHTXBLtt",
           "title": "Terra Seca - Ao Vivo",
           "artistNames": [
             "Fraternidade São João Paulo II",
             "Padre Ailton Cardoso"
-          ]
-        },
-        {
-          "spotifyId": "3Gam4UbOwnwQQQKuItui39",
-          "title": "Raridade",
-          "artistNames": [
-            "Anderson Freire"
           ]
         },
         {
@@ -497,29 +1352,6 @@
           ]
         },
         {
-          "spotifyId": "30ctDNEzwq4YivvC3vD1Mx",
-          "title": "Sou Grato Por Seu Amor",
-          "artistNames": [
-            "Get Worship",
-            "Get Records",
-            "Vinicius Cruz"
-          ]
-        },
-        {
-          "spotifyId": "7b07ZOEHDdp6jJbstnf0iB",
-          "title": "Ressuscita-me",
-          "artistNames": [
-            "Aline Barros"
-          ]
-        },
-        {
-          "spotifyId": "4eeRVmOskzKCXffJy5jVwb",
-          "title": "Liberta-Me de Mim",
-          "artistNames": [
-            "Luma Elpidio"
-          ]
-        },
-        {
           "spotifyId": "7vbGO3jX627bSq7rgTeWfJ",
           "title": "Quero Conhecer Jesus",
           "artistNames": [
@@ -532,162 +1364,14 @@
           "artistNames": [
             "CeCe Winans"
           ]
-        },
-        {
-          "spotifyId": "3SSb1jUojmZLbml3S3f9bN",
-          "title": "Pode Morar Aqui",
-          "artistNames": [
-            "Theo Rubia"
-          ]
-        },
-        {
-          "spotifyId": "3KVF4VK0Kclakez9LCGYga",
-          "title": "Promessas (Promises) - Ao Vivo",
-          "artistNames": [
-            "Sarah Beatriz",
-            "Samuel Messias"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "3AqhSTSYYOm8EVMkD8tRaW",
-          "title": "OKAY!",
-          "artistNames": [
-            "Forrest Frank"
-          ]
-        },
-        {
-          "spotifyId": "7xlWpsFcfpeoJK633zrVid",
-          "title": "GOODBYE YESTERDAY",
-          "artistNames": [
-            "ELEVATION RHYTHM",
-            "Gracie Binion"
-          ]
-        },
-        {
-          "spotifyId": "0GD31r9na0U0TLJ3xO2Att",
-          "title": "Eu e Minha Casa",
-          "artistNames": [
-            "Julliany Souza",
-            "Léo Brandão"
-          ]
-        },
-        {
-          "spotifyId": "5QbtKOsjbEGkx0GMiQGBZt",
-          "title": "Tu és + Águas Purificadoras - Ao Vivo",
-          "artistNames": [
-            "fhop music",
-            "Hamilton Rabelo"
-          ]
-        },
-        {
-          "spotifyId": "1h0yBDChztCJRTqmI5U6ou",
-          "title": "É Tudo Sobre Você / Ser Mudado - Ao Vivo",
-          "artistNames": [
-            "MORADA"
-          ]
-        },
-        {
-          "spotifyId": "4yEKHiUQA70cjfWnEL2m13",
-          "title": "É Ele",
-          "artistNames": [
-            "Drops INA",
-            "Paulo Vicente"
-          ]
-        },
-        {
-          "spotifyId": "69sdOLKjgnwdA2smmct2a9",
-          "title": "Santo Pra Sempre - Ao Vivo",
-          "artistNames": [
-            "Gabriel Guedes de Almeida"
-          ]
-        },
-        {
-          "spotifyId": "5qyFts6geTWeNbMeYQcPai",
-          "title": "Ousado Amor",
-          "artistNames": [
-            "Isaias Saad"
-          ]
-        },
-        {
-          "spotifyId": "7Dp0unlUzhQtk60rVq5mMC",
-          "title": "Lugar Secreto",
-          "artistNames": [
-            "Gabriela Rocha"
-          ]
-        },
-        {
-          "spotifyId": "0O358QfVCqB6oN2HP7abkg",
-          "title": "Reacende a Chama - Ao Vivo",
-          "artistNames": [
-            "Sued Silva",
-            "Todah Music"
-          ]
-        },
-        {
-          "spotifyId": "47j8u38wfvxdQeRA7TBJrB",
-          "title": "É Tudo sobre Você - Ao Vivo",
-          "artistNames": [
-            "MORADA"
-          ]
-        },
-        {
-          "spotifyId": "3xYAYpik21I77zsZOpUJkW",
-          "title": "A Boa Parte - Ao Vivo",
-          "artistNames": [
-            "fhop music",
-            "Nívea Soares"
-          ]
-        },
-        {
-          "spotifyId": "7Ee6XgP8EHKDhTMYLIndu9",
-          "title": "Praise (feat. Brandon Lake, Chris Brown & Chandler Moore)",
-          "artistNames": [
-            "Elevation Worship",
-            "Brandon Lake",
-            "Chris Brown",
-            "Chandler Moore"
-          ]
-        },
-        {
-          "spotifyId": "5k21RXqN11N0TIeLLySlDv",
-          "title": "Ovelhinha (Ao Vivo)",
-          "artistNames": [
-            "Isadora Pompeo"
-          ]
-        },
-        {
-          "spotifyId": "1a5LfJGq0vuCWQ9Mme0Ac7",
-          "title": "Deserto (Ao Vivo)",
-          "artistNames": [
-            "Maria Marçal"
-          ]
-        },
-        {
-          "spotifyId": "3pyEWO6mEOzOeMobs5BP6p",
-          "title": "Eu Navegarei",
-          "artistNames": [
-            "Gabriela Rocha"
-          ]
         }
       ]
     },
     {
       "slug": "roman-catholic-hymns",
       "title": "Roman Catholic Hymns ",
-      "previousSnapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
-      "snapshotId": "public:46b2dfe3c45ebce36f2bf84b10f0b0010c1a3c86",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "traditional-catholic-latin-chants",
-      "title": "Traditional Catholic Latin Chants",
-      "previousSnapshotId": "public:742977d27a8e6f2d1acd5f1084a270c1c3a09dc8",
-      "snapshotId": "public:62d1cdf08266af4dcf5a2b0da913f8b7d8150d5e",
+      "previousSnapshotId": "public:46b2dfe3c45ebce36f2bf84b10f0b0010c1a3c86",
+      "snapshotId": "public:8d3b526ddc5a59218a4c32de6ee1a428ab12b834",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -696,8 +1380,8 @@
     {
       "slug": "ethiopian-orthodox-kidase",
       "title": "Ethiopian Orthodox Kidase",
-      "previousSnapshotId": "public:6277f0f52817094f2d0df602075cef5592bf6707",
-      "snapshotId": "public:670260ff8a27579516ac1c6b6146eee08234c28e",
+      "previousSnapshotId": "public:670260ff8a27579516ac1c6b6146eee08234c28e",
+      "snapshotId": "public:2e8dd55397341eabc2078464740a99576ab04699",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -706,28 +1390,57 @@
     {
       "slug": "ethiopian-gospel",
       "title": "Amharic Mezmure (Ethiopian gospel songs) ",
-      "previousSnapshotId": "public:827cf0c55c99682530b4240728ad9435b6bb904b",
-      "snapshotId": "public:68bcbd15deca13ce7e41ef483f77da97e2367805",
+      "previousSnapshotId": "public:68bcbd15deca13ce7e41ef483f77da97e2367805",
+      "snapshotId": "public:827cf0c55c99682530b4240728ad9435b6bb904b",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "all-time-ethiopian-essentials",
-      "title": "All-Time Ethiopian Essentials",
-      "previousSnapshotId": "public:2aa64ddebc78a91ed17e95b5dce8094387008e22",
-      "snapshotId": "public:4d1427626a9e5af813c07e936bfa253142e9ebdf",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
+      "slug": "indie-india",
+      "title": "Indie India ",
+      "previousSnapshotId": "public:495e1eefb2b234d52fae8ad144c88286005afbe3",
+      "snapshotId": "public:8d964676a59c70c0adc4090de5f8ec53afd56c51",
+      "added": 1,
+      "removed": 1,
+      "addedTracks": [
+        {
+          "spotifyId": "1CJOj6Bs5OIasNTROmfWFJ",
+          "title": "Punchiri",
+          "artistNames": [
+            "Eechuu",
+            "Suhas",
+            "Chris Wayne"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "1XmoGNf6OVs6N251UejkbN",
+          "title": "KTMBK",
+          "artistNames": [
+            "Zaeden",
+            "Hanita Bhambri"
+          ]
+        }
+      ]
     },
     {
       "slug": "ethiopian-jazz",
       "title": "ethiopian jazz",
-      "previousSnapshotId": "public:a2bd7714cccf22e84779ef3269c7b72ca902b5fc",
-      "snapshotId": "public:8307e1190afdc21d7ece73e9d80cdad1eb7edb48",
+      "previousSnapshotId": "public:8307e1190afdc21d7ece73e9d80cdad1eb7edb48",
+      "snapshotId": "public:767fc7bddb6335ffb8182c0726773fa8b07f48d8",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "eritrean-music",
+      "title": "Eritrean music 🇪🇷🇪🇷🇪🇷",
+      "previousSnapshotId": "public:379fb5f3992d6ac5b8b98ff4ff5e87f5b7854d8f",
+      "snapshotId": "public:7edf7a004b95e2aa5282f9ab6c3f4b3af6ab06c9",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -736,8 +1449,8 @@
     {
       "slug": "eritrean-classics",
       "title": "Eritrean Classics",
-      "previousSnapshotId": "public:5200fa8e7ece3c17acd89158a746602f77f1685a",
-      "snapshotId": "public:cac840b21e82678bc0bf42bf5e46cc91692743f7",
+      "previousSnapshotId": "public:cac840b21e82678bc0bf42bf5e46cc91692743f7",
+      "snapshotId": "public:c0988d4abb71df850441a43a84bc92c0910f07fa",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -746,8 +1459,8 @@
     {
       "slug": "ethiopian-orthodox-mezmur-expanded",
       "title": "Ethiopian Orthodox Mezmur የኢትዮጵያ ኦርቶዶክስ መዝሙር",
-      "previousSnapshotId": "public:853b867cf570c955998bd1bc1e513dac53358bd1",
-      "snapshotId": "public:b62c71528e1bd3746eb9992053a0e76da9634a20",
+      "previousSnapshotId": "public:b62c71528e1bd3746eb9992053a0e76da9634a20",
+      "snapshotId": "public:0d237af8a4b88b5135a2728d8fc96f3f2e1be037",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -756,18 +1469,207 @@
     {
       "slug": "ethiopian-kidase-expanded",
       "title": "kidase | ቅዳሴ",
-      "previousSnapshotId": "public:118bab1836e8f98e524acdc12649121d73f31055",
-      "snapshotId": "public:7a52428b41a77cee0bb89dac5a4f7544e416e8fb",
+      "previousSnapshotId": "public:7a52428b41a77cee0bb89dac5a4f7544e416e8fb",
+      "snapshotId": "public:c830c7e00027df19fe785409143b994099f6c8e1",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
+      "slug": "amharic-gospel-songs",
+      "title": "Amharic Gospel Songs  መዝሙር (MeZMuR)",
+      "previousSnapshotId": "public:72beae7d0c9d8771f962947a6d984deee72d9116",
+      "snapshotId": "public:3152c92a474018557a89f4e666aa9e88e47da385",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "african-heat",
+      "title": "African Heat",
+      "previousSnapshotId": "public:cd7a0277f042ff3984ac5488b966559465e2635f",
+      "snapshotId": "public:cfb09d03bae6cf81dd7f27451576764429f6602c",
+      "added": 2,
+      "removed": 2,
+      "addedTracks": [
+        {
+          "spotifyId": "4vwzDIuXLtdevmmjPtnemz",
+          "title": "Burukutu",
+          "artistNames": [
+            "Olamide"
+          ]
+        },
+        {
+          "spotifyId": "7KnCGA0gIxaBlLcqzcqwVZ",
+          "title": "waf",
+          "artistNames": [
+            "FOLA"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "28sqVp9vMKEuVHWnmknj7l",
+          "title": "you",
+          "artistNames": [
+            "FOLA"
+          ]
+        },
+        {
+          "spotifyId": "1MGCRWKSEutuqNQwbktV7C",
+          "title": "attention!",
+          "artistNames": [
+            "FOLA"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "amapiano-grooves",
+      "title": "AMAPIANO GROOVES",
+      "previousSnapshotId": "public:15c7afcbf7463a125df526d47f7e4518ea2a2858",
+      "snapshotId": "public:fdcb2b19fe69659a897c953299c97e960bd6b340",
+      "added": 3,
+      "removed": 0,
+      "addedTracks": [
+        {
+          "spotifyId": "4MACCwrsCpZMOpB3kkpg33",
+          "title": "Se Senkganang (feat. DJ Sushy & Dj Cleo)",
+          "artistNames": [
+            "Enny Man Da Guitar",
+            "Uncool MC",
+            "Ego Slimflow",
+            "Bob Mabena",
+            "DJ Sushy",
+            "DJ Cleo"
+          ]
+        },
+        {
+          "spotifyId": "3V08E7DRqRzqHueSDus4Jb",
+          "title": "Sÿababheka",
+          "artistNames": [
+            "Seun1401",
+            "LastBornDiroba",
+            "Xduppy",
+            "Scotts Maphuma"
+          ]
+        },
+        {
+          "spotifyId": "6XVqNnSoXJXoelXfbniybg",
+          "title": "Confidence",
+          "artistNames": [
+            "Njelic",
+            "Sam Deep",
+            "De Mthuda"
+          ]
+        }
+      ],
+      "removedTracks": []
+    },
+    {
+      "slug": "k-pop-on",
+      "title": "K-Pop ON! (온)",
+      "previousSnapshotId": "public:3977af5c806709fe8b9d6f8aa9a18e37cac5da11",
+      "snapshotId": "public:036c89d7ddb473627c4b763758c1fe5be6bc4cac",
+      "added": 6,
+      "removed": 6,
+      "addedTracks": [
+        {
+          "spotifyId": "3bgnrHHwyYRtz3ykzAVImy",
+          "title": "Tarantino",
+          "artistNames": [
+            "LISA"
+          ]
+        },
+        {
+          "spotifyId": "5JaMKAodzzLdFM2ARRTXb9",
+          "title": "Drip",
+          "artistNames": [
+            "ATEEZ"
+          ]
+        },
+        {
+          "spotifyId": "7It5Iy4mnJWMhESt7qfipt",
+          "title": "DESERVE",
+          "artistNames": [
+            "BABYMONSTER"
+          ]
+        },
+        {
+          "spotifyId": "3lTdjfpGVeYLeHfrczXw1a",
+          "title": "seesaw (Feat. IU)",
+          "artistNames": [
+            "Crush",
+            "IU"
+          ]
+        },
+        {
+          "spotifyId": "6BWxQgYLrm70Vo6XDsMONU",
+          "title": "Illusion",
+          "artistNames": [
+            "ONEW"
+          ]
+        },
+        {
+          "spotifyId": "5zacvTOytsVSZneiZT5J7u",
+          "title": "Come into my world!",
+          "artistNames": [
+            "WOODZ"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "26GehcyfHwgzfS0ok9yDYk",
+          "title": "Pretty Girl",
+          "artistNames": [
+            "RESCENE"
+          ]
+        },
+        {
+          "spotifyId": "03OWSvT8tWcUSpUlke4buk",
+          "title": "ChecK",
+          "artistNames": [
+            "HYOLYN"
+          ]
+        },
+        {
+          "spotifyId": "1wE6dqzjRFAxAV0rCnEpa5",
+          "title": "Gimme Dat Love",
+          "artistNames": [
+            "i-dle"
+          ]
+        },
+        {
+          "spotifyId": "4pZi0VxU2C8zuxCYfEtFuL",
+          "title": "BiiiG",
+          "artistNames": [
+            "BIGBANG"
+          ]
+        },
+        {
+          "spotifyId": "4THREzrCR5aHcBvRWlXRpw",
+          "title": "UNDEAD",
+          "artistNames": [
+            "SUNG HAN BIN"
+          ]
+        },
+        {
+          "spotifyId": "3bmpXHVie1GTy37OkXJ7Vc",
+          "title": "2.0",
+          "artistNames": [
+            "BTS"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "puerto-rico-top-50",
       "title": "Top 50 - Puerto Rico",
-      "previousSnapshotId": "public:624d63bf8471345c235c42af74a8d63f5dfd0660",
-      "snapshotId": "public:3aaac1972bbc919d52f4e0ae10f9237f1fe70096",
+      "previousSnapshotId": "public:3aaac1972bbc919d52f4e0ae10f9237f1fe70096",
+      "snapshotId": "public:624d63bf8471345c235c42af74a8d63f5dfd0660",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -776,18 +1678,18 @@
     {
       "slug": "puerto-rico-top-hits",
       "title": "Top 50 Puerto Rico 🇵🇷 2024",
-      "previousSnapshotId": "public:3c70b5823b164b25223a43dff72ccdd94bb9b15d",
-      "snapshotId": "public:9049b1c909ba0b77cb0edbc2a35b1c1fd9ea2389",
+      "previousSnapshotId": "public:9049b1c909ba0b77cb0edbc2a35b1c1fd9ea2389",
+      "snapshotId": "public:20128c90470d8bef8a60825bf32b8acdc355142f",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "pakistan-trending",
-      "title": "Trending 50 - Pakistan",
-      "previousSnapshotId": "public:af6c0054d74bb8e7c6efa1ef2ad3c4d8823fbac3",
-      "snapshotId": "public:6c19159f9ac2f97d1cb4de8685fa9fa2839a3573",
+      "slug": "pakistan-top-songs",
+      "title": "Top 50 Pakistan Songs 💚 New Pakistani Songs 2026",
+      "previousSnapshotId": "public:daabb693169cf4c9914bfa2d5c4309d3cac9c6c5",
+      "snapshotId": "public:e7ccc05ee61516746e2d855b407f979ab805d618",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
