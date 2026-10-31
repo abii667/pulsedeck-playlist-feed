@@ -4,42 +4,12 @@
   "region": "AU",
   "regionName": "Australia",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/au/music/most-played/50/playlists.json",
-  "updatedAt": "2026-10-30T13:01:49.000Z",
+  "updatedAt": "2026-10-31T12:34:43.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
     {
       "position": 1,
-      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "provider": "apple-music",
-      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "title": "Today’s Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c6/c0/eb/c6c0eb85-e4cc-4e1b-ac91-afc1ba190fc8/7b0da365-3ffe-48e2-ad86-3a6c048597c1.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 2,
-      "id": "apple:pl.87bb5b36a9bd49db8c975607452bfa2b",
-      "provider": "apple-music",
-      "appleId": "pl.87bb5b36a9bd49db8c975607452bfa2b",
-      "title": "Today’s Country",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e2/20/a4/e220a41f-c159-a316-d5c6-914093eb1388/82a545a6-4458-4b6a-b4d4-5e8dd12ae9b4.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/todays-country/pl.87bb5b36a9bd49db8c975607452bfa2b",
-      "interests": [
-        "country"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 3,
       "id": "apple:pl.14572caaa2c0493994f3b7beff6b1b10",
       "provider": "apple-music",
       "appleId": "pl.14572caaa2c0493994f3b7beff6b1b10",
@@ -54,22 +24,7 @@
       ]
     },
     {
-      "position": 4,
-      "id": "apple:pl.94f9e5e8ceea4b7b8a3263c8475e7f15",
-      "provider": "apple-music",
-      "appleId": "pl.94f9e5e8ceea4b7b8a3263c8475e7f15",
-      "title": "Backyard BBQ",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/0b/7f/39/0b7f3992-dba2-f3a2-23ed-c0c444aedf24/8e0afdbc-6ccd-47fc-a182-6c88d95fc42d.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/backyard-bbq/pl.94f9e5e8ceea4b7b8a3263c8475e7f15",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 5,
+      "position": 2,
       "id": "apple:pl.2980463a4b2a440bad48155ef708c4a4",
       "provider": "apple-music",
       "appleId": "pl.2980463a4b2a440bad48155ef708c4a4",
@@ -84,7 +39,67 @@
       ]
     },
     {
+      "position": 3,
+      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "provider": "apple-music",
+      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "title": "Today’s Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c6/c0/eb/c6c0eb85-e4cc-4e1b-ac91-afc1ba190fc8/7b0da365-3ffe-48e2-ad86-3a6c048597c1.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 4,
+      "id": "apple:pl.87bb5b36a9bd49db8c975607452bfa2b",
+      "provider": "apple-music",
+      "appleId": "pl.87bb5b36a9bd49db8c975607452bfa2b",
+      "title": "Today’s Country",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e2/20/a4/e220a41f-c159-a316-d5c6-914093eb1388/82a545a6-4458-4b6a-b4d4-5e8dd12ae9b4.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/todays-country/pl.87bb5b36a9bd49db8c975607452bfa2b",
+      "interests": [
+        "country"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 5,
+      "id": "apple:pl.94f9e5e8ceea4b7b8a3263c8475e7f15",
+      "provider": "apple-music",
+      "appleId": "pl.94f9e5e8ceea4b7b8a3263c8475e7f15",
+      "title": "Backyard BBQ",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/0b/7f/39/0b7f3992-dba2-f3a2-23ed-c0c444aedf24/8e0afdbc-6ccd-47fc-a182-6c88d95fc42d.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/backyard-bbq/pl.94f9e5e8ceea4b7b8a3263c8475e7f15",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
       "position": 6,
+      "id": "apple:pl.e5798f6abeed43a6b86fc0dac7a02fb4",
+      "provider": "apple-music",
+      "appleId": "pl.e5798f6abeed43a6b86fc0dac7a02fb4",
+      "title": "Halloween Fun!",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/d1/b4/a8/d1b4a89b-829b-5632-ce91-29a9994b2748/3582d77a-e15d-4cbe-9f7d-79b0d20442e5.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/au/playlist/halloween-fun/pl.e5798f6abeed43a6b86fc0dac7a02fb4",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 7,
       "id": "apple:pl.cf5a5e61e9de46459101fd8837cf3b12",
       "provider": "apple-music",
       "appleId": "pl.cf5a5e61e9de46459101fd8837cf3b12",
@@ -99,28 +114,13 @@
       ]
     },
     {
-      "position": 7,
+      "position": 8,
       "id": "apple:pl.4e00049190354efcb44c5aa5979a0c4f",
       "provider": "apple-music",
       "appleId": "pl.4e00049190354efcb44c5aa5979a0c4f",
       "title": "Good Vibes Only",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/d7/af/f1/d7aff16d-c5db-0820-cec6-619473be7f84/U0NHT09EIFZJQkVTTkwucG5n.png/1200x1200bb.jpg?l=en-AU",
       "appleUrl": "https://music.apple.com/au/playlist/good-vibes-only/pl.4e00049190354efcb44c5aa5979a0c4f",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 8,
-      "id": "apple:pl.e8f9eac135cb4bdcbc05be00ac8fa087",
-      "provider": "apple-music",
-      "appleId": "pl.e8f9eac135cb4bdcbc05be00ac8fa087",
-      "title": "Hilary Duff’s the lucky me tour Set List",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/8f/e9/78/8fe97891-1537-59a3-1668-ef0a70d3aa91/ami_U003aidentity_U003a08829e70001d2234e598b9a06952b8f7-2026-10-21T16-30-45.891Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/hilary-duffs-the-lucky-me-tour-set-list/pl.e8f9eac135cb4bdcbc05be00ac8fa087",
       "interests": [
         "popular"
       ],
@@ -145,36 +145,6 @@
     },
     {
       "position": 10,
-      "id": "apple:pl.522581bf8c264bafa742e75df9772078",
-      "provider": "apple-music",
-      "appleId": "pl.522581bf8c264bafa742e75df9772078",
-      "title": "Acoustic Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/61/f7/74/61f774a0-09a3-3958-66bf-bd8b5e916fbf/U0MtTVMtV1ctQWNvdXN0aWNfSGl0cy1BREFNX0lEPTExNjIwODg4MDkucG5n.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/acoustic-hits/pl.522581bf8c264bafa742e75df9772078",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 11,
-      "id": "apple:pl.8bae0b7a87fc418f9462cbb7df7578bb",
-      "provider": "apple-music",
-      "appleId": "pl.8bae0b7a87fc418f9462cbb7df7578bb",
-      "title": "5 Seconds of Summer's EVERYONE'S A STAR! World Tour Set List",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/58/9b/f7/589bf714-5335-4282-9b2d-0ccc8fc2ef87/ami-identity-c57a30a31722449e76962f9b96e5ef0b-2025-09-24T16-06-29.199Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/5-seconds-of-summers-everyones-a-star-world-tour-set-list/pl.8bae0b7a87fc418f9462cbb7df7578bb",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 12,
       "id": "apple:pl.647db163f3f84ccd9a839e5b6e4f34a2",
       "provider": "apple-music",
       "appleId": "pl.647db163f3f84ccd9a839e5b6e4f34a2",
@@ -189,7 +159,67 @@
       ]
     },
     {
+      "position": 11,
+      "id": "apple:pl.522581bf8c264bafa742e75df9772078",
+      "provider": "apple-music",
+      "appleId": "pl.522581bf8c264bafa742e75df9772078",
+      "title": "Acoustic Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/61/f7/74/61f774a0-09a3-3958-66bf-bd8b5e916fbf/U0MtTVMtV1ctQWNvdXN0aWNfSGl0cy1BREFNX0lEPTExNjIwODg4MDkucG5n.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/acoustic-hits/pl.522581bf8c264bafa742e75df9772078",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 12,
+      "id": "apple:pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
+      "provider": "apple-music",
+      "appleId": "pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
+      "title": "BIGBANG’s XX: COSMOS World Tour Set List ",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/40/a7/5d/40a75d43-e22a-a83c-a3e6-b6f2028e700b/ami-identity-51326b76eee8ee25300f569b6b6b6929-2026-08-19T08-28-48.266Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/bigbangs-xx-cosmos-world-tour-set-list/pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
       "position": 13,
+      "id": "apple:pl.bbb4a3cc809d4ac88b1e1493001b3481",
+      "provider": "apple-music",
+      "appleId": "pl.bbb4a3cc809d4ac88b1e1493001b3481",
+      "title": "Australian Pub Rock Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/58/de/6a/58de6a77-9098-f6a4-df66-db129f4cfa55/9eb644d3-77f0-47a6-b3ac-af437f507410.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/australian-pub-rock-essentials/pl.bbb4a3cc809d4ac88b1e1493001b3481",
+      "interests": [
+        "rock"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 14,
+      "id": "apple:pl.af4d982795c6472ea48579eb147cd726",
+      "provider": "apple-music",
+      "appleId": "pl.af4d982795c6472ea48579eb147cd726",
+      "title": "’80s Hits Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/17/10/9c/17109c78-a9f2-05bf-662d-3cd126e47458/82ff49a3-d0ce-497d-bd29-1be6b257f000.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/80s-hits-essentials/pl.af4d982795c6472ea48579eb147cd726",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 15,
       "id": "apple:pl.4795fc5231a047d18875f367e34d3a59",
       "provider": "apple-music",
       "appleId": "pl.4795fc5231a047d18875f367e34d3a59",
@@ -204,7 +234,67 @@
       ]
     },
     {
-      "position": 14,
+      "position": 16,
+      "id": "apple:pl.3950454ced8c45a3b0cc693c2a7db97b",
+      "provider": "apple-music",
+      "appleId": "pl.3950454ced8c45a3b0cc693c2a7db97b",
+      "title": "Taylor Swift Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6d/67/88/6d67888b-9e7f-53af-7853-0f91d6fd2332/ami_U003aidentity_U003a994af5c375f4c3aa96cd6ced4a700799-2026-09-25T04-00-05.358Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/taylor-swift-essentials/pl.3950454ced8c45a3b0cc693c2a7db97b",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 17,
+      "id": "apple:pl.cd835923714f47f295c08470b18e8891",
+      "provider": "apple-music",
+      "appleId": "pl.cd835923714f47f295c08470b18e8891",
+      "title": "Family Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/97/b7/f3/97b7f335-4930-61da-1561-7222d62e3bbf/U0MtTVMtV1ctRmFtaWx5X1BvcC1BREFNX0lEPTk3NjQ1MTcwNi5wbmc.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/family-hits/pl.cd835923714f47f295c08470b18e8891",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 18,
+      "id": "apple:pl.e8f9eac135cb4bdcbc05be00ac8fa087",
+      "provider": "apple-music",
+      "appleId": "pl.e8f9eac135cb4bdcbc05be00ac8fa087",
+      "title": "Hilary Duff’s the lucky me tour Set List",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/8f/e9/78/8fe97891-1537-59a3-1668-ef0a70d3aa91/ami_U003aidentity_U003a08829e70001d2234e598b9a06952b8f7-2026-10-21T16-30-45.891Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/hilary-duffs-the-lucky-me-tour-set-list/pl.e8f9eac135cb4bdcbc05be00ac8fa087",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 19,
+      "id": "apple:pl.f475b81eaf7546ffb8ffd20889f37032",
+      "provider": "apple-music",
+      "appleId": "pl.f475b81eaf7546ffb8ffd20889f37032",
+      "title": "Michael Jackson Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/0f/c1/4a/0fc14ab9-c39f-2998-c322-eaa5150f4213/2227190d-5956-482e-9b74-8938608da2cf_ami-identity-4b367186a2afafa6edb19b6265cb8a50-2024-08-29T13-50-11.539Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/michael-jackson-essentials/pl.f475b81eaf7546ffb8ffd20889f37032",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 20,
       "id": "apple:pl.bd55c25265aa4de8b3fc3e0960751846",
       "provider": "apple-music",
       "appleId": "pl.bd55c25265aa4de8b3fc3e0960751846",
@@ -220,202 +310,7 @@
       ]
     },
     {
-      "position": 15,
-      "id": "apple:pl.3950454ced8c45a3b0cc693c2a7db97b",
-      "provider": "apple-music",
-      "appleId": "pl.3950454ced8c45a3b0cc693c2a7db97b",
-      "title": "Taylor Swift Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/6d/67/88/6d67888b-9e7f-53af-7853-0f91d6fd2332/ami_U003aidentity_U003a994af5c375f4c3aa96cd6ced4a700799-2026-09-25T04-00-05.358Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/taylor-swift-essentials/pl.3950454ced8c45a3b0cc693c2a7db97b",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 16,
-      "id": "apple:pl.bbb4a3cc809d4ac88b1e1493001b3481",
-      "provider": "apple-music",
-      "appleId": "pl.bbb4a3cc809d4ac88b1e1493001b3481",
-      "title": "Australian Pub Rock Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/58/de/6a/58de6a77-9098-f6a4-df66-db129f4cfa55/9eb644d3-77f0-47a6-b3ac-af437f507410.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/australian-pub-rock-essentials/pl.bbb4a3cc809d4ac88b1e1493001b3481",
-      "interests": [
-        "rock"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 17,
-      "id": "apple:pl.af4d982795c6472ea48579eb147cd726",
-      "provider": "apple-music",
-      "appleId": "pl.af4d982795c6472ea48579eb147cd726",
-      "title": "’80s Hits Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/17/10/9c/17109c78-a9f2-05bf-662d-3cd126e47458/82ff49a3-d0ce-497d-bd29-1be6b257f000.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/80s-hits-essentials/pl.af4d982795c6472ea48579eb147cd726",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 18,
-      "id": "apple:pl.cd835923714f47f295c08470b18e8891",
-      "provider": "apple-music",
-      "appleId": "pl.cd835923714f47f295c08470b18e8891",
-      "title": "Family Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/97/b7/f3/97b7f335-4930-61da-1561-7222d62e3bbf/U0MtTVMtV1ctRmFtaWx5X1BvcC1BREFNX0lEPTk3NjQ1MTcwNi5wbmc.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/family-hits/pl.cd835923714f47f295c08470b18e8891",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 19,
-      "id": "apple:pl.595ad5f14805460ba44e263217626340",
-      "provider": "apple-music",
-      "appleId": "pl.595ad5f14805460ba44e263217626340",
-      "title": "Luke Combs Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/17/fd/cf/17fdcf62-4009-9fe2-fe93-da119e54b90d/ami-identity-ce954f3dd60989c4a5b2c185b6a2ba0c-2026-01-07T17-27-34.014Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/luke-combs-essentials/pl.595ad5f14805460ba44e263217626340",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 20,
-      "id": "apple:pl.725376c1e6b14915b7e27a919db39c52",
-      "provider": "apple-music",
-      "appleId": "pl.725376c1e6b14915b7e27a919db39c52",
-      "title": "Easy Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/df/5d/9f/df5d9fa9-6bfb-3206-e684-4d74fb0afe49/U0MtTVMtV1ctRWFzeV9IaXRzLUFEQU1fSUQ9MTIwOTgzMTMzNC5wbmc.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/easy-hits/pl.725376c1e6b14915b7e27a919db39c52",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
       "position": 21,
-      "id": "apple:pl.f475b81eaf7546ffb8ffd20889f37032",
-      "provider": "apple-music",
-      "appleId": "pl.f475b81eaf7546ffb8ffd20889f37032",
-      "title": "Michael Jackson Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/0f/c1/4a/0fc14ab9-c39f-2998-c322-eaa5150f4213/2227190d-5956-482e-9b74-8938608da2cf_ami-identity-4b367186a2afafa6edb19b6265cb8a50-2024-08-29T13-50-11.539Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/michael-jackson-essentials/pl.f475b81eaf7546ffb8ffd20889f37032",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 22,
-      "id": "apple:pl.ad0ee1557e3e4feba314fd70f7982766",
-      "provider": "apple-music",
-      "appleId": "pl.ad0ee1557e3e4feba314fd70f7982766",
-      "title": "Pure Workout",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/6d/56/85/6d5685d4-d8bd-d19a-5f8b-8226c1b384dd/f9dedde7-b559-40e4-b8fb-64ca89e2cbbd.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/pure-workout/pl.ad0ee1557e3e4feba314fd70f7982766",
-      "interests": [
-        "workout"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 23,
-      "id": "apple:pl.6bf4415b83ce4f3789614ac4c3675740",
-      "provider": "apple-music",
-      "appleId": "pl.6bf4415b83ce4f3789614ac4c3675740",
-      "title": "danceXL",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/10/01/bb/1001bb8b-a7bf-8679-0501-181ec7427727/920ee367-19c0-4ee3-ac64-22d3f98eb48f.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/dancexl/pl.6bf4415b83ce4f3789614ac4c3675740",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 24,
-      "id": "apple:pl.f30c526dddef46678f94d99ce5c16688",
-      "provider": "apple-music",
-      "appleId": "pl.f30c526dddef46678f94d99ce5c16688",
-      "title": "Teddy Swims Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/04/1a/1f/041a1fc5-c514-e18b-8cb0-6cd5b2e82fcd/ami-identity-6acfba2c102ce0d21662c3346bcf6aa8-2026-04-09T16-56-36.154Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/teddy-swims-essentials/pl.f30c526dddef46678f94d99ce5c16688",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 25,
-      "id": "apple:pl.49658063d9864698982303234e1cad22",
-      "provider": "apple-music",
-      "appleId": "pl.49658063d9864698982303234e1cad22",
-      "title": "Ella Langley Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/7d/f9/5b/7df95b8e-26fb-5e14-f35d-f603abc52dc8/ami-identity-6b9f829473ca41446a842ac18b0e65ee-2026-01-27T17-02-20.725Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/ella-langley-essentials/pl.49658063d9864698982303234e1cad22",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 26,
-      "id": "apple:pl.28397407efb24386ad02df00ddc70700",
-      "provider": "apple-music",
-      "appleId": "pl.28397407efb24386ad02df00ddc70700",
-      "title": "Deep House 2026",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/X5wgcBIDeynUfko5xUjhGw/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/playlist/deep-house-2026/pl.28397407efb24386ad02df00ddc70700",
-      "interests": [
-        "electronic"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 27,
-      "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
-      "provider": "apple-music",
-      "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
-      "title": "Pure Focus",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/57/3e/bd/573ebdf3-c986-17e6-4bff-95bd340d4fb6/U0MtTVMtV1ctUHVyZV9Gb2N1cy1BREFNX0lEPTExMjQ1Njc1NDEucG5n.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/pure-focus/pl.dbd712beded846dca273d5d3259d28aa",
-      "interests": [
-        "focus"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 28,
       "id": "apple:pl.b477839538364c8db8f3950e13731ecc",
       "provider": "apple-music",
       "appleId": "pl.b477839538364c8db8f3950e13731ecc",
@@ -430,13 +325,13 @@
       ]
     },
     {
-      "position": 29,
-      "id": "apple:pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
+      "position": 22,
+      "id": "apple:pl.725376c1e6b14915b7e27a919db39c52",
       "provider": "apple-music",
-      "appleId": "pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
-      "title": "BIGBANG’s XX: COSMOS World Tour Set List ",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/40/a7/5d/40a75d43-e22a-a83c-a3e6-b6f2028e700b/ami-identity-51326b76eee8ee25300f569b6b6b6929-2026-08-19T08-28-48.266Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/bigbangs-xx-cosmos-world-tour-set-list/pl.89549c3c9d7c4ee794f4cf6f732c2fa1",
+      "appleId": "pl.725376c1e6b14915b7e27a919db39c52",
+      "title": "Easy Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/df/5d/9f/df5d9fa9-6bfb-3206-e684-4d74fb0afe49/U0MtTVMtV1ctRWFzeV9IaXRzLUFEQU1fSUQ9MTIwOTgzMTMzNC5wbmc.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/easy-hits/pl.725376c1e6b14915b7e27a919db39c52",
       "interests": [
         "popular"
       ],
@@ -445,7 +340,127 @@
       ]
     },
     {
+      "position": 23,
+      "id": "apple:pl.595ad5f14805460ba44e263217626340",
+      "provider": "apple-music",
+      "appleId": "pl.595ad5f14805460ba44e263217626340",
+      "title": "Luke Combs Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/17/fd/cf/17fdcf62-4009-9fe2-fe93-da119e54b90d/ami-identity-ce954f3dd60989c4a5b2c185b6a2ba0c-2026-01-07T17-27-34.014Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/luke-combs-essentials/pl.595ad5f14805460ba44e263217626340",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 24,
+      "id": "apple:pl.a61a4407e6584b9f8befddf9e25169c9",
+      "provider": "apple-music",
+      "appleId": "pl.a61a4407e6584b9f8befddf9e25169c9",
+      "title": "Disney Halloween",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/4c/79/22/4c792233-1cf3-1343-4505-c17d32fa4486/8f60e846-f9c1-4a5b-bca0-1c27a0617043.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/au/playlist/disney-halloween/pl.a61a4407e6584b9f8befddf9e25169c9",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 25,
+      "id": "apple:pl.8bae0b7a87fc418f9462cbb7df7578bb",
+      "provider": "apple-music",
+      "appleId": "pl.8bae0b7a87fc418f9462cbb7df7578bb",
+      "title": "5 Seconds of Summer's EVERYONE'S A STAR! World Tour Set List",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/58/9b/f7/589bf714-5335-4282-9b2d-0ccc8fc2ef87/ami-identity-c57a30a31722449e76962f9b96e5ef0b-2025-09-24T16-06-29.199Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/5-seconds-of-summers-everyones-a-star-world-tour-set-list/pl.8bae0b7a87fc418f9462cbb7df7578bb",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 26,
+      "id": "apple:pl.b0e04e25887741ea845e1d5c88397fd4",
+      "provider": "apple-music",
+      "appleId": "pl.b0e04e25887741ea845e1d5c88397fd4",
+      "title": "Essential Christmas",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/d1/a8/45/d1a84579-ce57-5a1f-1334-e6c417605020/befc39eb-584c-4681-92b0-16c913f1230a.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/au/playlist/essential-christmas/pl.b0e04e25887741ea845e1d5c88397fd4",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 27,
+      "id": "apple:pl.f30c526dddef46678f94d99ce5c16688",
+      "provider": "apple-music",
+      "appleId": "pl.f30c526dddef46678f94d99ce5c16688",
+      "title": "Teddy Swims Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/04/1a/1f/041a1fc5-c514-e18b-8cb0-6cd5b2e82fcd/ami-identity-6acfba2c102ce0d21662c3346bcf6aa8-2026-04-09T16-56-36.154Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/teddy-swims-essentials/pl.f30c526dddef46678f94d99ce5c16688",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 28,
+      "id": "apple:pl.2af2eb86663c449c9432816ddb273ba0",
+      "provider": "apple-music",
+      "appleId": "pl.2af2eb86663c449c9432816ddb273ba0",
+      "title": "Kids Party",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/b9/f4/60/b9f4608f-5cd4-c24d-d7a3-6a6e585e1eb0/1c4f9c23-9459-4e21-b7c4-92ba30f20f6c.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/kids-party/pl.2af2eb86663c449c9432816ddb273ba0",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 29,
+      "id": "apple:pl.28397407efb24386ad02df00ddc70700",
+      "provider": "apple-music",
+      "appleId": "pl.28397407efb24386ad02df00ddc70700",
+      "title": "Deep House 2026",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/X5wgcBIDeynUfko5xUjhGw/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/playlist/deep-house-2026/pl.28397407efb24386ad02df00ddc70700",
+      "interests": [
+        "electronic"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
       "position": 30,
+      "id": "apple:pl.6bf4415b83ce4f3789614ac4c3675740",
+      "provider": "apple-music",
+      "appleId": "pl.6bf4415b83ce4f3789614ac4c3675740",
+      "title": "danceXL",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/10/01/bb/1001bb8b-a7bf-8679-0501-181ec7427727/920ee367-19c0-4ee3-ac64-22d3f98eb48f.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/dancexl/pl.6bf4415b83ce4f3789614ac4c3675740",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 31,
       "id": "apple:pl.0d70b7c9be8e4e0b95ebbf5578aaf7a2",
       "provider": "apple-music",
       "appleId": "pl.0d70b7c9be8e4e0b95ebbf5578aaf7a2",
@@ -460,7 +475,7 @@
       ]
     },
     {
-      "position": 31,
+      "position": 32,
       "id": "apple:pl.e50ccee7318043eaaf8e8e28a2a55114",
       "provider": "apple-music",
       "appleId": "pl.e50ccee7318043eaaf8e8e28a2a55114",
@@ -475,28 +490,13 @@
       ]
     },
     {
-      "position": 32,
-      "id": "apple:pl.a8ec3600363f43c59871ea21c9ed40d1",
-      "provider": "apple-music",
-      "appleId": "pl.a8ec3600363f43c59871ea21c9ed40d1",
-      "title": "Nursery Rhymes",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/SG-MQ-US-035-Image000001/v4/e2/d4/6c/e2d46c9a-7d02-4087-7854-e6aca9aeb393/image/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/au/playlist/nursery-rhymes/pl.a8ec3600363f43c59871ea21c9ed40d1",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
       "position": 33,
-      "id": "apple:pl.3de89e62aa3340038e08fa325c3f3f01",
+      "id": "apple:pl.49658063d9864698982303234e1cad22",
       "provider": "apple-music",
-      "appleId": "pl.3de89e62aa3340038e08fa325c3f3f01",
-      "title": "Viral Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3c/ca/94/3cca94bf-65b1-0001-e581-2ca4b54e7d37/68eec26d-45bc-4b70-a799-6fd55abcc22d.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/viral-hits/pl.3de89e62aa3340038e08fa325c3f3f01",
+      "appleId": "pl.49658063d9864698982303234e1cad22",
+      "title": "Ella Langley Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/7d/f9/5b/7df95b8e-26fb-5e14-f35d-f603abc52dc8/ami-identity-6b9f829473ca41446a842ac18b0e65ee-2026-01-27T17-02-20.725Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/ella-langley-essentials/pl.49658063d9864698982303234e1cad22",
       "interests": [
         "popular"
       ],
@@ -506,6 +506,36 @@
     },
     {
       "position": 34,
+      "id": "apple:pl.b685b0f71e13445382070cf3a1971f98",
+      "provider": "apple-music",
+      "appleId": "pl.b685b0f71e13445382070cf3a1971f98",
+      "title": "Neil Diamond Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/23/0f/fe/230ffe72-3c54-9a02-68e8-4ccbd13ccea4/mza_1664874449657247323.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/neil-diamond-essentials/pl.b685b0f71e13445382070cf3a1971f98",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 35,
+      "id": "apple:pl.ad0ee1557e3e4feba314fd70f7982766",
+      "provider": "apple-music",
+      "appleId": "pl.ad0ee1557e3e4feba314fd70f7982766",
+      "title": "Pure Workout",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/6d/56/85/6d5685d4-d8bd-d19a-5f8b-8226c1b384dd/f9dedde7-b559-40e4-b8fb-64ca89e2cbbd.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/pure-workout/pl.ad0ee1557e3e4feba314fd70f7982766",
+      "interests": [
+        "workout"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 36,
       "id": "apple:pl.17a41e613df44c0ab2c0fcb49bda1e5f",
       "provider": "apple-music",
       "appleId": "pl.17a41e613df44c0ab2c0fcb49bda1e5f",
@@ -520,22 +550,22 @@
       ]
     },
     {
-      "position": 35,
-      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "position": 37,
+      "id": "apple:pl.c684d47c46924bcdbc4a065dd370a8d5",
       "provider": "apple-music",
-      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "title": "Piano Chill",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/piano-chill/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "appleId": "pl.c684d47c46924bcdbc4a065dd370a8d5",
+      "title": "’80s Rock Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3e/e6/51/3ee651a1-93a4-cdc5-fb5b-a3bd237d99ee/450f6677-f520-43c3-b033-a4c98687c0f4.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/80s-rock-essentials/pl.c684d47c46924bcdbc4a065dd370a8d5",
       "interests": [
-        "chill"
+        "rock"
       ],
       "regions": [
         "AU"
       ]
     },
     {
-      "position": 36,
+      "position": 38,
       "id": "apple:pl.674abcd261d04582b58d6388394cd047",
       "provider": "apple-music",
       "appleId": "pl.674abcd261d04582b58d6388394cd047",
@@ -551,43 +581,13 @@
       ]
     },
     {
-      "position": 37,
-      "id": "apple:pl.b685b0f71e13445382070cf3a1971f98",
-      "provider": "apple-music",
-      "appleId": "pl.b685b0f71e13445382070cf3a1971f98",
-      "title": "Neil Diamond Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/23/0f/fe/230ffe72-3c54-9a02-68e8-4ccbd13ccea4/mza_1664874449657247323.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/neil-diamond-essentials/pl.b685b0f71e13445382070cf3a1971f98",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 38,
-      "id": "apple:pl.b0e04e25887741ea845e1d5c88397fd4",
-      "provider": "apple-music",
-      "appleId": "pl.b0e04e25887741ea845e1d5c88397fd4",
-      "title": "Essential Christmas",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/d1/a8/45/d1a84579-ce57-5a1f-1334-e6c417605020/befc39eb-584c-4681-92b0-16c913f1230a.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/au/playlist/essential-christmas/pl.b0e04e25887741ea845e1d5c88397fd4",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
       "position": 39,
-      "id": "apple:pl.1a42758759c84fcd99307db799308636",
+      "id": "apple:pl.3de89e62aa3340038e08fa325c3f3f01",
       "provider": "apple-music",
-      "appleId": "pl.1a42758759c84fcd99307db799308636",
-      "title": "Tate McRae Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/19/7a/a7/197aa7f2-53af-5777-72ed-e292b550d159/ami_U003aidentity_U003a11b6c33ddb521791b7ba1dd8c4dcf764-2026-10-16T00-09-37.146Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/tate-mcrae-essentials/pl.1a42758759c84fcd99307db799308636",
+      "appleId": "pl.3de89e62aa3340038e08fa325c3f3f01",
+      "title": "Viral Hits",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3c/ca/94/3cca94bf-65b1-0001-e581-2ca4b54e7d37/68eec26d-45bc-4b70-a799-6fd55abcc22d.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/viral-hits/pl.3de89e62aa3340038e08fa325c3f3f01",
       "interests": [
         "popular"
       ],
@@ -597,66 +597,6 @@
     },
     {
       "position": 40,
-      "id": "apple:pl.1d5ead185d8a4a9089f3b952770b762c",
-      "provider": "apple-music",
-      "appleId": "pl.1d5ead185d8a4a9089f3b952770b762c",
-      "title": "Lo-Fi Chill",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/3e/2a/09/3e2a0903-d0b5-d43a-9d00-c94ea1767579/61088f1a-08a9-4717-9909-3838749b2d01.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/lo-fi-chill/pl.1d5ead185d8a4a9089f3b952770b762c",
-      "interests": [
-        "chill"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 41,
-      "id": "apple:pl.2af2eb86663c449c9432816ddb273ba0",
-      "provider": "apple-music",
-      "appleId": "pl.2af2eb86663c449c9432816ddb273ba0",
-      "title": "Kids Party",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/b9/f4/60/b9f4608f-5cd4-c24d-d7a3-6a6e585e1eb0/1c4f9c23-9459-4e21-b7c4-92ba30f20f6c.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/kids-party/pl.2af2eb86663c449c9432816ddb273ba0",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 42,
-      "id": "apple:pl.4fe671d3bd994738ace5ae974daebc10",
-      "provider": "apple-music",
-      "appleId": "pl.4fe671d3bd994738ace5ae974daebc10",
-      "title": "Happy Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bc/44/c0/bc44c09a-3239-a82a-4d82-9b9cf7947bcb/U0MtTVMtV1ctSGFwcHlfSGl0cy1BREFNX0lEPTExMjQ1ODEzMTAucG5n.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/happy-hits/pl.4fe671d3bd994738ace5ae974daebc10",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 43,
-      "id": "apple:pl.91bb14d8ee10414e8fda8fb71f56db03",
-      "provider": "apple-music",
-      "appleId": "pl.91bb14d8ee10414e8fda8fb71f56db03",
-      "title": "Friday Feeling",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/cb/e7/9e/cbe79ea3-8d1f-c957-5792-02814139b305/U0MtTVMtV1ctRnJpZGF5X0ZlZWxpbmctQURBTV9JRD0xMDM0Mjc0MzE3LnBuZw.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/friday-feeling/pl.91bb14d8ee10414e8fda8fb71f56db03",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 44,
       "id": "apple:pl.115971e0d5e54502ac9a8b66bbc5d786",
       "provider": "apple-music",
       "appleId": "pl.115971e0d5e54502ac9a8b66bbc5d786",
@@ -671,13 +611,13 @@
       ]
     },
     {
-      "position": 45,
-      "id": "apple:pl.3a85cc83130443b68415718f19372cf4",
+      "position": 41,
+      "id": "apple:pl.a8ec3600363f43c59871ea21c9ed40d1",
       "provider": "apple-music",
-      "appleId": "pl.3a85cc83130443b68415718f19372cf4",
-      "title": "Today’s Easy Hits",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/97/fe/04/97fe04ce-1278-58db-3e7c-b0312ce6c65b/U0MtTVMtV1ctVG9kYXlfc19FYXN5X0hpdHMtQURBTV9JRD0xMjc3Mzk3MjU1LnBuZw.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/todays-easy-hits/pl.3a85cc83130443b68415718f19372cf4",
+      "appleId": "pl.a8ec3600363f43c59871ea21c9ed40d1",
+      "title": "Nursery Rhymes",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/SG-MQ-US-035-Image000001/v4/e2/d4/6c/e2d46c9a-7d02-4087-7854-e6aca9aeb393/image/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/au/playlist/nursery-rhymes/pl.a8ec3600363f43c59871ea21c9ed40d1",
       "interests": [
         "popular"
       ],
@@ -686,13 +626,73 @@
       ]
     },
     {
-      "position": 46,
-      "id": "apple:pl.f820ed7063f9447f8751abf885525698",
+      "position": 42,
+      "id": "apple:pl.94aeee85f6bd48058d1a53873db1e66d",
       "provider": "apple-music",
-      "appleId": "pl.f820ed7063f9447f8751abf885525698",
-      "title": "Office DJ",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/38/d1/ab/38d1ab2b-9939-54cc-faa5-109ac3956ff2/41fbfe79-2af6-43e4-b42a-bbea964b9670.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/office-dj/pl.f820ed7063f9447f8751abf885525698",
+      "appleId": "pl.94aeee85f6bd48058d1a53873db1e66d",
+      "title": "’90s Rock Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/70/73/5a/70735ae4-5ab8-38b6-a83b-66041e6f8f9e/1c804ce9-0546-4231-ad49-bca88a57a895.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/90s-rock-essentials/pl.94aeee85f6bd48058d1a53873db1e66d",
+      "interests": [
+        "rock"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 43,
+      "id": "apple:pl.7c20adf6913e44ca841dc4acd46465b2",
+      "provider": "apple-music",
+      "appleId": "pl.7c20adf6913e44ca841dc4acd46465b2",
+      "title": "Eagles Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/72/8c/3c/728c3c6d-1daa-a28b-b305-70ed95884142/mza_17804459914424444384.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/eagles-essentials/pl.7c20adf6913e44ca841dc4acd46465b2",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 44,
+      "id": "apple:pl.14451bd2b27e40d4b84cd2eef1f1f65f",
+      "provider": "apple-music",
+      "appleId": "pl.14451bd2b27e40d4b84cd2eef1f1f65f",
+      "title": "Foo Fighters Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/08/8e/17/088e179a-03a2-47fa-8b20-aab943ca366a/ami-identity-115866eca28029d5f95b2429f0ae1db0-2026-02-19T13-40-09.060Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/foo-fighters-essentials/pl.14451bd2b27e40d4b84cd2eef1f1f65f",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 45,
+      "id": "apple:pl.1d5ead185d8a4a9089f3b952770b762c",
+      "provider": "apple-music",
+      "appleId": "pl.1d5ead185d8a4a9089f3b952770b762c",
+      "title": "Lo-Fi Chill",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/3e/2a/09/3e2a0903-d0b5-d43a-9d00-c94ea1767579/61088f1a-08a9-4717-9909-3838749b2d01.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/lo-fi-chill/pl.1d5ead185d8a4a9089f3b952770b762c",
+      "interests": [
+        "chill"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 46,
+      "id": "apple:pl.0b42b4ce31584d949e6a0603f3777e6e",
+      "provider": "apple-music",
+      "appleId": "pl.0b42b4ce31584d949e6a0603f3777e6e",
+      "title": "Coldplay Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/63/94/ac/6394acdd-a223-049c-e373-5a3597c3858e/9947797f-59c5-420d-9c1d-81be5a7b5889_ami-identity-627a3a5a7feb2fd65e55602f252c9aa8-2024-06-17T12-11-33.334Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/coldplay-essentials/pl.0b42b4ce31584d949e6a0603f3777e6e",
       "interests": [
         "popular"
       ],
@@ -702,6 +702,21 @@
     },
     {
       "position": 47,
+      "id": "apple:pl.1a42758759c84fcd99307db799308636",
+      "provider": "apple-music",
+      "appleId": "pl.1a42758759c84fcd99307db799308636",
+      "title": "Tate McRae Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/19/7a/a7/197aa7f2-53af-5777-72ed-e292b550d159/ami_U003aidentity_U003a11b6c33ddb521791b7ba1dd8c4dcf764-2026-10-16T00-09-37.146Z_cropped.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/tate-mcrae-essentials/pl.1a42758759c84fcd99307db799308636",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "AU"
+      ]
+    },
+    {
+      "position": 48,
       "id": "apple:pl.35b8520d9d6a486d9bf5c1b3331165b2",
       "provider": "apple-music",
       "appleId": "pl.35b8520d9d6a486d9bf5c1b3331165b2",
@@ -710,21 +725,6 @@
       "appleUrl": "https://music.apple.com/au/playlist/punjabi-hits/pl.35b8520d9d6a486d9bf5c1b3331165b2",
       "interests": [
         "indian"
-      ],
-      "regions": [
-        "AU"
-      ]
-    },
-    {
-      "position": 48,
-      "id": "apple:pl.9499831003a04ba783ae572afd6c4baf",
-      "provider": "apple-music",
-      "appleId": "pl.9499831003a04ba783ae572afd6c4baf",
-      "title": "RNB Fridays Live",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features128/v4/87/b6/97/87b697fb-6e63-afee-d355-32555fb85e69/pr_source.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/au/playlist/rnb-fridays-live/pl.9499831003a04ba783ae572afd6c4baf",
-      "interests": [
-        "rnb"
       ],
       "regions": [
         "AU"
@@ -747,14 +747,14 @@
     },
     {
       "position": 50,
-      "id": "apple:pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
+      "id": "apple:pl.eb88af9a17e6401da701a7e768e2d53c",
       "provider": "apple-music",
-      "appleId": "pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
-      "title": "LINKIN PARK Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/ba/91/04/ba91045f-f613-c7a2-e1da-3195779b40a0/ami-identity-640bb7a837fee9170cc487c37709e42e-2026-03-08T16-34-26.425Z_cropped.png/1200x1200bb.jpg?l=en-AU",
-      "appleUrl": "https://music.apple.com/au/playlist/linkin-park-essentials/pl.a1ca2d1f2c9d4fd9aa6220b22b9967f8",
+      "appleId": "pl.eb88af9a17e6401da701a7e768e2d53c",
+      "title": "Little Bit Country",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/59/ad/c6/59adc6ab-c7c8-dc0c-6758-40fd304dac3c/U0MtTVMtV1ctTGl0dGxlX0JpdF9Db3VudHJ5LUFEQU1fSUQ9MTQ2NTI2NDQwNC5wbmc.png/1200x1200bb.jpg?l=en-AU",
+      "appleUrl": "https://music.apple.com/au/playlist/little-bit-country/pl.eb88af9a17e6401da701a7e768e2d53c",
       "interests": [
-        "popular"
+        "country"
       ],
       "regions": [
         "AU"
