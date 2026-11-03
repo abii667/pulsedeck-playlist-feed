@@ -4,7 +4,7 @@
   "region": "CO",
   "regionName": "Colombia",
   "sourceUrl": "https://rss.marketingtools.apple.com/api/v2/co/music/most-played/50/playlists.json",
-  "updatedAt": "2026-11-02T16:15:45.000Z",
+  "updatedAt": "2026-11-03T14:35:23.000Z",
   "stale": false,
   "playlistCount": 50,
   "playlists": [
@@ -25,14 +25,14 @@
     },
     {
       "position": 2,
-      "id": "apple:pl.349e9d387467407ebc5bfaeb5de08a1b",
+      "id": "apple:pl.095674e8aa794e8bb39a175d0274f1d3",
       "provider": "apple-music",
-      "appleId": "pl.349e9d387467407ebc5bfaeb5de08a1b",
-      "title": "Vallenatos para beberse hasta el agua del florero",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/SG-MQ-US-001-Image000001/v4/23/70/21/237021d3-561a-77f4-65ce-9184a875711d/image/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/co/playlist/vallenatos-para-beberse-hasta-el-agua-del-florero/pl.349e9d387467407ebc5bfaeb5de08a1b",
+      "appleId": "pl.095674e8aa794e8bb39a175d0274f1d3",
+      "title": "A-List Pop: lo mejor de 2026",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/4a/3a/78/4a3a78fc-0d44-2ed8-c965-93f57b6d780f/baeeb606-6316-4fab-bd0a-edba23ab79eb.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/a-list-pop-lo-mejor-de-2026/pl.095674e8aa794e8bb39a175d0274f1d3",
       "interests": [
-        "popular"
+        "pop"
       ],
       "regions": [
         "CO"
@@ -40,21 +40,6 @@
     },
     {
       "position": 3,
-      "id": "apple:pl.14572caaa2c0493994f3b7beff6b1b10",
-      "provider": "apple-music",
-      "appleId": "pl.14572caaa2c0493994f3b7beff6b1b10",
-      "title": "Halloween Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e4/b2/9c/e4b29cca-f0b1-e23d-38e9-1c2e9488926b/120809c8-51b3-43f6-ac30-88e6aa0f7206.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/halloween-essentials/pl.14572caaa2c0493994f3b7beff6b1b10",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 4,
       "id": "apple:pl.f8f654e139bb48dd89fa8a4b425d8ad6",
       "provider": "apple-music",
       "appleId": "pl.f8f654e139bb48dd89fa8a4b425d8ad6",
@@ -63,6 +48,21 @@
       "appleUrl": "https://music.apple.com/co/playlist/rock-en-espa%C3%B1ol-imprescindibles/pl.f8f654e139bb48dd89fa8a4b425d8ad6",
       "interests": [
         "rock"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 4,
+      "id": "apple:pl.349e9d387467407ebc5bfaeb5de08a1b",
+      "provider": "apple-music",
+      "appleId": "pl.349e9d387467407ebc5bfaeb5de08a1b",
+      "title": "Vallenatos para beberse hasta el agua del florero",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/SG-MQ-US-001-Image000001/v4/23/70/21/237021d3-561a-77f4-65ce-9184a875711d/image/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/co/playlist/vallenatos-para-beberse-hasta-el-agua-del-florero/pl.349e9d387467407ebc5bfaeb5de08a1b",
+      "interests": [
+        "popular"
       ],
       "regions": [
         "CO"
@@ -100,21 +100,6 @@
     },
     {
       "position": 7,
-      "id": "apple:pl.4b364b8b182f4115acbf6deb83bd5222",
-      "provider": "apple-music",
-      "appleId": "pl.4b364b8b182f4115acbf6deb83bd5222",
-      "title": "¡Dale Play!",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d8/36/32/d83632b2-f29b-0b3f-f965-bc58bdc0dee0/070a7349-cbca-4021-af1b-fb44195857a6.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/dale-play/pl.4b364b8b182f4115acbf6deb83bd5222",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 8,
       "id": "apple:pl.aa8915d9821d4bb3bf3b07c8301955c6",
       "provider": "apple-music",
       "appleId": "pl.aa8915d9821d4bb3bf3b07c8301955c6",
@@ -129,13 +114,28 @@
       ]
     },
     {
-      "position": 9,
-      "id": "apple:pl.03b31134b0724094b7c0379dd2af3c9e",
+      "position": 8,
+      "id": "apple:pl.b0e04e25887741ea845e1d5c88397fd4",
       "provider": "apple-music",
-      "appleId": "pl.03b31134b0724094b7c0379dd2af3c9e",
-      "title": "Merengue: imprescindibles",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d1/39/13/d1391313-f8e6-ef31-3ebe-ed61ee0a5284/86a30e3e-a1d6-4a61-9911-ab4050e02d08.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/merengue-imprescindibles/pl.03b31134b0724094b7c0379dd2af3c9e",
+      "appleId": "pl.b0e04e25887741ea845e1d5c88397fd4",
+      "title": "Navidad: essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/d1/a8/45/d1a84579-ce57-5a1f-1334-e6c417605020/befc39eb-584c-4681-92b0-16c913f1230a.png/100x25cc.jpg",
+      "appleUrl": "https://music.apple.com/co/playlist/navidad-essentials/pl.b0e04e25887741ea845e1d5c88397fd4",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 9,
+      "id": "apple:pl.4b364b8b182f4115acbf6deb83bd5222",
+      "provider": "apple-music",
+      "appleId": "pl.4b364b8b182f4115acbf6deb83bd5222",
+      "title": "¡Dale Play!",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d8/36/32/d83632b2-f29b-0b3f-f965-bc58bdc0dee0/070a7349-cbca-4021-af1b-fb44195857a6.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/dale-play/pl.4b364b8b182f4115acbf6deb83bd5222",
       "interests": [
         "popular"
       ],
@@ -160,36 +160,6 @@
     },
     {
       "position": 11,
-      "id": "apple:pl.6cfed0a93df843f9bb2b7c98a424bc52",
-      "provider": "apple-music",
-      "appleId": "pl.6cfed0a93df843f9bb2b7c98a424bc52",
-      "title": "Reggaetón: imprescindibles",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/7f/10/64/7f1064d1-7e9f-f17a-fc5f-65b42fab681d/965cfc6e-9428-494b-a529-eefb6192191b.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/reggaet%C3%B3n-imprescindibles/pl.6cfed0a93df843f9bb2b7c98a424bc52",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 12,
-      "id": "apple:pl.44445e9ca3fd4b1e8afdd829bb630f5a",
-      "provider": "apple-music",
-      "appleId": "pl.44445e9ca3fd4b1e8afdd829bb630f5a",
-      "title": "Clásicos del Reguetón",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Y50O8dAIHcnr-Q---Tp7dA/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/co/playlist/cl%C3%A1sicos-del-reguet%C3%B3n/pl.44445e9ca3fd4b1e8afdd829bb630f5a",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 13,
       "id": "apple:pl.2754a2d6e0084e2b8106fcd35fef6492",
       "provider": "apple-music",
       "appleId": "pl.2754a2d6e0084e2b8106fcd35fef6492",
@@ -204,7 +174,7 @@
       ]
     },
     {
-      "position": 14,
+      "position": 12,
       "id": "apple:pl.ca1acdd8ea9246b7a258b02fa4282ac3",
       "provider": "apple-music",
       "appleId": "pl.ca1acdd8ea9246b7a258b02fa4282ac3",
@@ -219,13 +189,43 @@
       ]
     },
     {
-      "position": 15,
-      "id": "apple:pl.b0e04e25887741ea845e1d5c88397fd4",
+      "position": 13,
+      "id": "apple:pl.1c35ac10cfe848aaa19f68ebe62ea46e",
       "provider": "apple-music",
-      "appleId": "pl.b0e04e25887741ea845e1d5c88397fd4",
-      "title": "Navidad: essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features112/v4/d1/a8/45/d1a84579-ce57-5a1f-1334-e6c417605020/befc39eb-584c-4681-92b0-16c913f1230a.png/100x25cc.jpg",
-      "appleUrl": "https://music.apple.com/co/playlist/navidad-essentials/pl.b0e04e25887741ea845e1d5c88397fd4",
+      "appleId": "pl.1c35ac10cfe848aaa19f68ebe62ea46e",
+      "title": "Bad Bunny Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/92/d4/6c92d475-7be5-8b7a-a7d8-fdc3d937629e/mza_9478576998108878943.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/bad-bunny-essentials/pl.1c35ac10cfe848aaa19f68ebe62ea46e",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 14,
+      "id": "apple:pl.44445e9ca3fd4b1e8afdd829bb630f5a",
+      "provider": "apple-music",
+      "appleId": "pl.44445e9ca3fd4b1e8afdd829bb630f5a",
+      "title": "Clásicos del Reguetón",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Y50O8dAIHcnr-Q---Tp7dA/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/co/playlist/cl%C3%A1sicos-del-reguet%C3%B3n/pl.44445e9ca3fd4b1e8afdd829bb630f5a",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 15,
+      "id": "apple:pl.03b31134b0724094b7c0379dd2af3c9e",
+      "provider": "apple-music",
+      "appleId": "pl.03b31134b0724094b7c0379dd2af3c9e",
+      "title": "Merengue: imprescindibles",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d1/39/13/d1391313-f8e6-ef31-3ebe-ed61ee0a5284/86a30e3e-a1d6-4a61-9911-ab4050e02d08.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/merengue-imprescindibles/pl.03b31134b0724094b7c0379dd2af3c9e",
       "interests": [
         "popular"
       ],
@@ -235,12 +235,12 @@
     },
     {
       "position": 16,
-      "id": "apple:pl.4463cdc654a9494f8d933923e91b3a22",
+      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
       "provider": "apple-music",
-      "appleId": "pl.4463cdc654a9494f8d933923e91b3a22",
-      "title": "Vallenato: imprescindibles",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f1/a6/be/f1a6bed7-24dc-2968-86d5-2732d7fe0a3f/65aa7218-85f2-4b05-b269-597694b5a211.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/vallenato-imprescindibles/pl.4463cdc654a9494f8d933923e91b3a22",
+      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
+      "title": "Piano para relajarse",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/piano-para-relajarse/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
       "interests": [
         "popular"
       ],
@@ -250,6 +250,66 @@
     },
     {
       "position": 17,
+      "id": "apple:pl.14572caaa2c0493994f3b7beff6b1b10",
+      "provider": "apple-music",
+      "appleId": "pl.14572caaa2c0493994f3b7beff6b1b10",
+      "title": "Halloween Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e4/b2/9c/e4b29cca-f0b1-e23d-38e9-1c2e9488926b/120809c8-51b3-43f6-ac30-88e6aa0f7206.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/halloween-essentials/pl.14572caaa2c0493994f3b7beff6b1b10",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 18,
+      "id": "apple:pl.76d32f712e4a4bd28b15b6622b939553",
+      "provider": "apple-music",
+      "appleId": "pl.76d32f712e4a4bd28b15b6622b939553",
+      "title": "Afro House 2026",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/_G95yWcpPVsIFbrbQDXp1A/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/co/playlist/afro-house-2026/pl.76d32f712e4a4bd28b15b6622b939553",
+      "interests": [
+        "electronic"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 19,
+      "id": "apple:pl.6cfed0a93df843f9bb2b7c98a424bc52",
+      "provider": "apple-music",
+      "appleId": "pl.6cfed0a93df843f9bb2b7c98a424bc52",
+      "title": "Reggaetón: imprescindibles",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/7f/10/64/7f1064d1-7e9f-f17a-fc5f-65b42fab681d/965cfc6e-9428-494b-a529-eefb6192191b.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/reggaet%C3%B3n-imprescindibles/pl.6cfed0a93df843f9bb2b7c98a424bc52",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 20,
+      "id": "apple:pl.63271312c084419891982eab46cc68ac",
+      "provider": "apple-music",
+      "appleId": "pl.63271312c084419891982eab46cc68ac",
+      "title": "Jazz para relajarte",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/jazz-para-relajarte/pl.63271312c084419891982eab46cc68ac",
+      "interests": [
+        "jazz"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 21,
       "id": "apple:pl.be5f1be4164349e39b3fe24574d8bc53",
       "provider": "apple-music",
       "appleId": "pl.be5f1be4164349e39b3fe24574d8bc53",
@@ -264,37 +324,7 @@
       ]
     },
     {
-      "position": 18,
-      "id": "apple:pl.a5a5d0308b244dbd9afbfd264c9b5d7c",
-      "provider": "apple-music",
-      "appleId": "pl.a5a5d0308b244dbd9afbfd264c9b5d7c",
-      "title": "De fiesta",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f4/9c/be/f49cbee1-e46d-6b50-b598-12283eb35f9c/f4265051-8a23-4477-b2fc-588a6355c1b7.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/de-fiesta/pl.a5a5d0308b244dbd9afbfd264c9b5d7c",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 19,
-      "id": "apple:pl.49c5105870c548dea1a8cb09c21813a8",
-      "provider": "apple-music",
-      "appleId": "pl.49c5105870c548dea1a8cb09c21813a8",
-      "title": "Tragoterapia 🍺 música popular y de despecho para beber",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/KQUVjSwTE5cmueHIeSfBwg/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/co/playlist/tragoterapia-m%C3%BAsica-popular-y-de-despecho-para-beber/pl.49c5105870c548dea1a8cb09c21813a8",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 20,
+      "position": 22,
       "id": "apple:pl.bd55c25265aa4de8b3fc3e0960751846",
       "provider": "apple-music",
       "appleId": "pl.bd55c25265aa4de8b3fc3e0960751846",
@@ -310,43 +340,13 @@
       ]
     },
     {
-      "position": 21,
-      "id": "apple:pl.1c35ac10cfe848aaa19f68ebe62ea46e",
-      "provider": "apple-music",
-      "appleId": "pl.1c35ac10cfe848aaa19f68ebe62ea46e",
-      "title": "Bad Bunny Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6c/92/d4/6c92d475-7be5-8b7a-a7d8-fdc3d937629e/mza_9478576998108878943.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/bad-bunny-essentials/pl.1c35ac10cfe848aaa19f68ebe62ea46e",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 22,
-      "id": "apple:pl.2980463a4b2a440bad48155ef708c4a4",
-      "provider": "apple-music",
-      "appleId": "pl.2980463a4b2a440bad48155ef708c4a4",
-      "title": "Fiesta de Halloween",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/b2/d9/f9/b2d9f949-8c8d-8362-e7e9-ed7910d3976b/U0MtTVMtV1ctSGFsbG93ZWVuX1BhcnR5LUFEQU1fSUQ9MTI4NzU4MTE4MS5wbmc.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/fiesta-de-halloween/pl.2980463a4b2a440bad48155ef708c4a4",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
       "position": 23,
-      "id": "apple:pl.5971d04043d74b01ba5c91626d1f2d56",
+      "id": "apple:pl.4463cdc654a9494f8d933923e91b3a22",
       "provider": "apple-music",
-      "appleId": "pl.5971d04043d74b01ba5c91626d1f2d56",
-      "title": "Sentir Vallenato 🎙️ Los 50 vallenatos más escuchados",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/f1SJZRi_ALCgsKpPSQLc4w/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/co/playlist/sentir-vallenato-los-50-vallenatos-m%C3%A1s-escuchados/pl.5971d04043d74b01ba5c91626d1f2d56",
+      "appleId": "pl.4463cdc654a9494f8d933923e91b3a22",
+      "title": "Vallenato: imprescindibles",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f1/a6/be/f1a6bed7-24dc-2968-86d5-2732d7fe0a3f/65aa7218-85f2-4b05-b269-597694b5a211.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/vallenato-imprescindibles/pl.4463cdc654a9494f8d933923e91b3a22",
       "interests": [
         "popular"
       ],
@@ -371,111 +371,6 @@
     },
     {
       "position": 25,
-      "id": "apple:pl.2a9c813abc2a44e5981d5ab0f003164a",
-      "provider": "apple-music",
-      "appleId": "pl.2a9c813abc2a44e5981d5ab0f003164a",
-      "title": "Ryan Castro Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/9a/1c/b2/9a1cb205-af1f-af2f-1e48-5c9903d35826/ami_U003aidentity_U003aee285e1502da9c8192b717e2598337fe-2026-09-10T20-21-25.362Z_cropped.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/ryan-castro-essentials/pl.2a9c813abc2a44e5981d5ab0f003164a",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 26,
-      "id": "apple:pl.a258ad8ac2f242a491b381a5e65cc9fb",
-      "provider": "apple-music",
-      "appleId": "pl.a258ad8ac2f242a491b381a5e65cc9fb",
-      "title": "KAROL G Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/84/8a/4e/848a4e8b-48c7-e3fa-ae20-a42cd4b469a8/ami-identity-d59cbd95617167e768f2dbfe6377cf2e-2026-08-09T23-03-10.005Z_cropped.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/karol-g-essentials/pl.a258ad8ac2f242a491b381a5e65cc9fb",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 27,
-      "id": "apple:pl.76d32f712e4a4bd28b15b6622b939553",
-      "provider": "apple-music",
-      "appleId": "pl.76d32f712e4a4bd28b15b6622b939553",
-      "title": "Afro House 2026",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/_G95yWcpPVsIFbrbQDXp1A/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/co/playlist/afro-house-2026/pl.76d32f712e4a4bd28b15b6622b939553",
-      "interests": [
-        "electronic"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 28,
-      "id": "apple:pl.63271312c084419891982eab46cc68ac",
-      "provider": "apple-music",
-      "appleId": "pl.63271312c084419891982eab46cc68ac",
-      "title": "Jazz para relajarte",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/90/48/90/90489014-9b8e-8f85-6c80-49bc69c5673c/U0MtTVMtV1ctSmF6el9DaGlsbC1BREFNX0lEPTExMjQ2NzgwMjMucG5n.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/jazz-para-relajarte/pl.63271312c084419891982eab46cc68ac",
-      "interests": [
-        "jazz"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 29,
-      "id": "apple:pl.a4ed0d038a374b0b940a792cbb2115f4",
-      "provider": "apple-music",
-      "appleId": "pl.a4ed0d038a374b0b940a792cbb2115f4",
-      "title": "Juan Luis Guerra Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/b2/e5/c5/b2e5c5b8-93e5-5176-050d-6eb58074ee48/e8e5428a-a8e8-4771-a631-b7cf752883c4_ami-identity-3a843d7aa5cb2b7cb1b05d52ee910cbe-2023-09-21T18-06-31.033Z_cropped.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/juan-luis-guerra-essentials/pl.a4ed0d038a374b0b940a792cbb2115f4",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 30,
-      "id": "apple:pl.e8ebb9c6422b42de9c5fcd40a371d10b",
-      "provider": "apple-music",
-      "appleId": "pl.e8ebb9c6422b42de9c5fcd40a371d10b",
-      "title": "Salsa para Bailar. La Mejor Salsa Clásica, Romántica, Nueva 2026 サルサ",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/DIN3rJ2kV3FAWyI94ekGlQ/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/co/playlist/salsa-para-bailar-la-mejor-salsa-cl%C3%A1sica-rom%C3%A1ntica/pl.e8ebb9c6422b42de9c5fcd40a371d10b",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 31,
-      "id": "apple:pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "provider": "apple-music",
-      "appleId": "pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "title": "Piano para relajarse",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/dc/47/7c/dc477c6f-9029-bd1c-8e89-87b04042a55b/U0MtTVMtV1ctUGlhbm9fQ2hpbGwtQURBTV9JRD0xMDcyODMxMzA0LnBuZw.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/piano-para-relajarse/pl.cb4d1c09a2df4230a78d0395fe1f8fde",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 32,
       "id": "apple:pl.793f2ddc307c40eca4c066e1b5a4c498",
       "provider": "apple-music",
       "appleId": "pl.793f2ddc307c40eca4c066e1b5a4c498",
@@ -490,13 +385,118 @@
       ]
     },
     {
-      "position": 33,
-      "id": "apple:pl.3830cd11e4cb4621aa1891f3a3f54a84",
+      "position": 26,
+      "id": "apple:pl.cf8514b686374fadbe6807a6339dfd89",
       "provider": "apple-music",
-      "appleId": "pl.3830cd11e4cb4621aa1891f3a3f54a84",
-      "title": "Grupo Niche Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages123/v4/bc/34/ee/bc34ee8b-7e1c-bb33-3be0-9df9e9e473bf/4f90ead6-4499-4ede-9d35-8fbfe9237813_ami-identity-ce5eb322474c58775da8ec8958872e5d-2023-01-24T20-48-40.376Z_cropped.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/grupo-niche-essentials/pl.3830cd11e4cb4621aa1891f3a3f54a84",
+      "appleId": "pl.cf8514b686374fadbe6807a6339dfd89",
+      "title": "Clásica para concentrarse",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/fa/02/dd/fa02ddab-2d5d-7701-8206-4d5eae805001/tns.wpihpant.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/cl%C3%A1sica-para-concentrarse/pl.cf8514b686374fadbe6807a6339dfd89",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 27,
+      "id": "apple:pl.5971d04043d74b01ba5c91626d1f2d56",
+      "provider": "apple-music",
+      "appleId": "pl.5971d04043d74b01ba5c91626d1f2d56",
+      "title": "Sentir Vallenato 🎙️ Los 50 vallenatos más escuchados",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/f1SJZRi_ALCgsKpPSQLc4w/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/co/playlist/sentir-vallenato-los-50-vallenatos-m%C3%A1s-escuchados/pl.5971d04043d74b01ba5c91626d1f2d56",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 28,
+      "id": "apple:pl.a4ed0d038a374b0b940a792cbb2115f4",
+      "provider": "apple-music",
+      "appleId": "pl.a4ed0d038a374b0b940a792cbb2115f4",
+      "title": "Juan Luis Guerra Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/b2/e5/c5/b2e5c5b8-93e5-5176-050d-6eb58074ee48/e8e5428a-a8e8-4771-a631-b7cf752883c4_ami-identity-3a843d7aa5cb2b7cb1b05d52ee910cbe-2023-09-21T18-06-31.033Z_cropped.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/juan-luis-guerra-essentials/pl.a4ed0d038a374b0b940a792cbb2115f4",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 29,
+      "id": "apple:pl.49c5105870c548dea1a8cb09c21813a8",
+      "provider": "apple-music",
+      "appleId": "pl.49c5105870c548dea1a8cb09c21813a8",
+      "title": "Tragoterapia 🍺 música popular y de despecho para beber",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/KQUVjSwTE5cmueHIeSfBwg/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/co/playlist/tragoterapia-m%C3%BAsica-popular-y-de-despecho-para-beber/pl.49c5105870c548dea1a8cb09c21813a8",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 30,
+      "id": "apple:pl.a258ad8ac2f242a491b381a5e65cc9fb",
+      "provider": "apple-music",
+      "appleId": "pl.a258ad8ac2f242a491b381a5e65cc9fb",
+      "title": "KAROL G Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/84/8a/4e/848a4e8b-48c7-e3fa-ae20-a42cd4b469a8/ami-identity-d59cbd95617167e768f2dbfe6377cf2e-2026-08-09T23-03-10.005Z_cropped.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/karol-g-essentials/pl.a258ad8ac2f242a491b381a5e65cc9fb",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 31,
+      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "provider": "apple-music",
+      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "title": "Éxitos de hoy",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/8d/eb/43/8deb43a2-c978-b9c6-f431-366344b606b3/f732a39e-dd97-4b8c-86c8-49fb66c3ebac.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/%C3%A9xitos-de-hoy/pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 32,
+      "id": "apple:pl.b9c6ae7dae444b9499bd14756e840d9c",
+      "provider": "apple-music",
+      "appleId": "pl.b9c6ae7dae444b9499bd14756e840d9c",
+      "title": "Setlist: gira de Omar Courtz",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/1c/48/1a/1c481a28-3efc-f436-abb6-fdcd400f2c10/ami-identity-cee5abcdd03c2870378144a376dce33d-2026-08-25T03-26-50.841Z_cropped.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/setlist-gira-de-omar-courtz/pl.b9c6ae7dae444b9499bd14756e840d9c",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 33,
+      "id": "apple:pl.2a9c813abc2a44e5981d5ab0f003164a",
+      "provider": "apple-music",
+      "appleId": "pl.2a9c813abc2a44e5981d5ab0f003164a",
+      "title": "Ryan Castro Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/9a/1c/b2/9a1cb205-af1f-af2f-1e48-5c9903d35826/ami_U003aidentity_U003aee285e1502da9c8192b717e2598337fe-2026-09-10T20-21-25.362Z_cropped.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/ryan-castro-essentials/pl.2a9c813abc2a44e5981d5ab0f003164a",
       "interests": [
         "popular"
       ],
@@ -506,12 +506,12 @@
     },
     {
       "position": 34,
-      "id": "apple:pl.f29832d078114e04866bf66dc3f58fa4",
+      "id": "apple:pl.a5a5d0308b244dbd9afbfd264c9b5d7c",
       "provider": "apple-music",
-      "appleId": "pl.f29832d078114e04866bf66dc3f58fa4",
-      "title": "Boleros: imprescindibles",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/5c/b5/e1/5cb5e11a-b17e-c287-7a58-63826b341011/2d6c2cbd-d1dc-490b-9ab8-e47ca07329f9.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/boleros-imprescindibles/pl.f29832d078114e04866bf66dc3f58fa4",
+      "appleId": "pl.a5a5d0308b244dbd9afbfd264c9b5d7c",
+      "title": "De fiesta",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f4/9c/be/f49cbee1-e46d-6b50-b598-12283eb35f9c/f4265051-8a23-4477-b2fc-588a6355c1b7.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/de-fiesta/pl.a5a5d0308b244dbd9afbfd264c9b5d7c",
       "interests": [
         "popular"
       ],
@@ -521,12 +521,12 @@
     },
     {
       "position": 35,
-      "id": "apple:pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "id": "apple:pl.dbd712beded846dca273d5d3259d28aa",
       "provider": "apple-music",
-      "appleId": "pl.f4d106fed2bd41149aaacabb233eb5eb",
-      "title": "Éxitos de hoy",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/8d/eb/43/8deb43a2-c978-b9c6-f431-366344b606b3/f732a39e-dd97-4b8c-86c8-49fb66c3ebac.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/%C3%A9xitos-de-hoy/pl.f4d106fed2bd41149aaacabb233eb5eb",
+      "appleId": "pl.dbd712beded846dca273d5d3259d28aa",
+      "title": "Pura concentración",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/57/3e/bd/573ebdf3-c986-17e6-4bff-95bd340d4fb6/U0MtTVMtV1ctUHVyZV9Gb2N1cy1BREFNX0lEPTExMjQ1Njc1NDEucG5n.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/pura-concentraci%C3%B3n/pl.dbd712beded846dca273d5d3259d28aa",
       "interests": [
         "popular"
       ],
@@ -551,12 +551,12 @@
     },
     {
       "position": 37,
-      "id": "apple:pl.d73b6db13408453eb99b12bd789818fa",
+      "id": "apple:pl.e8ebb9c6422b42de9c5fcd40a371d10b",
       "provider": "apple-music",
-      "appleId": "pl.d73b6db13408453eb99b12bd789818fa",
-      "title": "Vicente Fernández Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/b8/ae/2d/b8ae2d91-057a-0555-3acd-50901436ee3c/mzl.gcypfcmd.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/vicente-fern%C3%A1ndez-essentials/pl.d73b6db13408453eb99b12bd789818fa",
+      "appleId": "pl.e8ebb9c6422b42de9c5fcd40a371d10b",
+      "title": "Salsa para Bailar. La Mejor Salsa Clásica, Romántica, Nueva 2026 サルサ",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/DIN3rJ2kV3FAWyI94ekGlQ/1200x1200bb.jpg",
+      "appleUrl": "https://music.apple.com/co/playlist/salsa-para-bailar-la-mejor-salsa-cl%C3%A1sica-rom%C3%A1ntica/pl.e8ebb9c6422b42de9c5fcd40a371d10b",
       "interests": [
         "popular"
       ],
@@ -566,12 +566,12 @@
     },
     {
       "position": 38,
-      "id": "apple:pl.3c8f3ebdaa9c47a7bb1427a5c0a0d4d6",
+      "id": "apple:pl.3830cd11e4cb4621aa1891f3a3f54a84",
       "provider": "apple-music",
-      "appleId": "pl.3c8f3ebdaa9c47a7bb1427a5c0a0d4d6",
-      "title": "POPULAR Y RANCHERA 2020",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/SG-MQ-US-001-Image000001/v4/8a/83/f3/8a83f329-fc47-22b5-6600-721a8a74fd98/image/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/co/playlist/popular-y-ranchera-2020/pl.3c8f3ebdaa9c47a7bb1427a5c0a0d4d6",
+      "appleId": "pl.3830cd11e4cb4621aa1891f3a3f54a84",
+      "title": "Grupo Niche Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages123/v4/bc/34/ee/bc34ee8b-7e1c-bb33-3be0-9df9e9e473bf/4f90ead6-4499-4ede-9d35-8fbfe9237813_ami-identity-ce5eb322474c58775da8ec8958872e5d-2023-01-24T20-48-40.376Z_cropped.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/grupo-niche-essentials/pl.3830cd11e4cb4621aa1891f3a3f54a84",
       "interests": [
         "popular"
       ],
@@ -581,51 +581,6 @@
     },
     {
       "position": 39,
-      "id": "apple:pl.b9c6ae7dae444b9499bd14756e840d9c",
-      "provider": "apple-music",
-      "appleId": "pl.b9c6ae7dae444b9499bd14756e840d9c",
-      "title": "Setlist: gira de Omar Courtz",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/1c/48/1a/1c481a28-3efc-f436-abb6-fdcd400f2c10/ami-identity-cee5abcdd03c2870378144a376dce33d-2026-08-25T03-26-50.841Z_cropped.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/setlist-gira-de-omar-courtz/pl.b9c6ae7dae444b9499bd14756e840d9c",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 40,
-      "id": "apple:pl.ff2155238f994be084c2c233740a7d9a",
-      "provider": "apple-music",
-      "appleId": "pl.ff2155238f994be084c2c233740a7d9a",
-      "title": "Parranda vallenata",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/41/28/ae/4128ae10-e484-6f89-9700-f781a9666f1b/U0MtTVMtV1ctUGFycmFuZGFfVmFsbGVuYXRhLUFEQU1fSUQ9MTIyMTgzNDMwNC5wbmc.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/parranda-vallenata/pl.ff2155238f994be084c2c233740a7d9a",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 41,
-      "id": "apple:pl.62aad2cbef994246a6b18f568759f7f4",
-      "provider": "apple-music",
-      "appleId": "pl.62aad2cbef994246a6b18f568759f7f4",
-      "title": "Jesús Adrián Romero Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/f3/c4/fd/f3c4fd8e-85eb-611b-46df-d8a62a099d2d/ami-identity-adef2629ec3ed63cc7786d5febfb56f3-2026-08-17T17-06-35.931Z_cropped.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/jes%C3%BAs-adri%C3%A1n-romero-essentials/pl.62aad2cbef994246a6b18f568759f7f4",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 42,
       "id": "apple:pl.c0a6633d31f34e29bdb61593cb699a3c",
       "provider": "apple-music",
       "appleId": "pl.c0a6633d31f34e29bdb61593cb699a3c",
@@ -640,37 +595,7 @@
       ]
     },
     {
-      "position": 43,
-      "id": "apple:pl.bbddf5c201464dbabdd062e02bdf7632",
-      "provider": "apple-music",
-      "appleId": "pl.bbddf5c201464dbabdd062e02bdf7632",
-      "title": "Para peques",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/13/4e/78/134e78d6-e65e-f8ab-977e-d47d93ae0fbe/0ad5ffda-7d51-422f-beda-58cfc18169ee.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/para-peques/pl.bbddf5c201464dbabdd062e02bdf7632",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 44,
-      "id": "apple:pl.0cc160bb3ff040a38787f2f60913740b",
-      "provider": "apple-music",
-      "appleId": "pl.0cc160bb3ff040a38787f2f60913740b",
-      "title": "Diomedes Díaz Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/32/d6/87/32d68708-459f-ccb2-cbbd-bed63c0618b7/pr_source.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/diomedes-d%C3%ADaz-essentials/pl.0cc160bb3ff040a38787f2f60913740b",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 45,
+      "position": 40,
       "id": "apple:pl.770734e10e2848349fb359a9e94e3b7f",
       "provider": "apple-music",
       "appleId": "pl.770734e10e2848349fb359a9e94e3b7f",
@@ -685,13 +610,13 @@
       ]
     },
     {
-      "position": 46,
-      "id": "apple:pl.d2ebb38c646542009e46719d29406472",
+      "position": 41,
+      "id": "apple:pl.bbddf5c201464dbabdd062e02bdf7632",
       "provider": "apple-music",
-      "appleId": "pl.d2ebb38c646542009e46719d29406472",
-      "title": "Romeo Santos Essentials",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/73/e5/b3/73e5b3c6-e21c-6467-6f90-aa1d48fefa71/ami-identity-eb731cb0fd1c695d9eb693869d8f8d6d-2026-08-20T16-57-06.878Z_cropped.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/romeo-santos-essentials/pl.d2ebb38c646542009e46719d29406472",
+      "appleId": "pl.bbddf5c201464dbabdd062e02bdf7632",
+      "title": "Para peques",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/13/4e/78/134e78d6-e65e-f8ab-977e-d47d93ae0fbe/0ad5ffda-7d51-422f-beda-58cfc18169ee.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/para-peques/pl.bbddf5c201464dbabdd062e02bdf7632",
       "interests": [
         "popular"
       ],
@@ -700,37 +625,7 @@
       ]
     },
     {
-      "position": 47,
-      "id": "apple:pl.a6e056bdef4240699ca7b808d104245f",
-      "provider": "apple-music",
-      "appleId": "pl.a6e056bdef4240699ca7b808d104245f",
-      "title": "Románticas en Español 💘 Baladas Románticas 2026",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/41n_YWIGYky7_e7NvIGTiA/1200x1200bb.jpg",
-      "appleUrl": "https://music.apple.com/co/playlist/rom%C3%A1nticas-en-espa%C3%B1ol-baladas-rom%C3%A1nticas-2026/pl.a6e056bdef4240699ca7b808d104245f",
-      "interests": [
-        "popular"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 48,
-      "id": "apple:pl.414ce30c2750499bba87f55b1d72896f",
-      "provider": "apple-music",
-      "appleId": "pl.414ce30c2750499bba87f55b1d72896f",
-      "title": "Más pop",
-      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/2b/ce/f1/2bcef1d0-3afd-59a4-a55d-681836464870/d454c763-c300-4721-af70-fd1b0ba48c87.png/1200x1200bb.jpg?l=es-MX",
-      "appleUrl": "https://music.apple.com/co/playlist/m%C3%A1s-pop/pl.414ce30c2750499bba87f55b1d72896f",
-      "interests": [
-        "pop"
-      ],
-      "regions": [
-        "CO"
-      ]
-    },
-    {
-      "position": 49,
+      "position": 42,
       "id": "apple:pl.30b67665cd4a44edb0e9fa79a87d54f9",
       "provider": "apple-music",
       "appleId": "pl.30b67665cd4a44edb0e9fa79a87d54f9",
@@ -745,13 +640,118 @@
       ]
     },
     {
-      "position": 50,
+      "position": 43,
+      "id": "apple:pl.8956f99f017c44daad3915b9982da320",
+      "provider": "apple-music",
+      "appleId": "pl.8956f99f017c44daad3915b9982da320",
+      "title": "Bachata: imprescindibles",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ec/f8/12/ecf8123b-3d5a-1ae1-38f9-82ae4e8dc058/3b594659-8de3-4941-ad7d-40f763a165d7.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/bachata-imprescindibles/pl.8956f99f017c44daad3915b9982da320",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 44,
+      "id": "apple:pl.0e70a7ddbabd4dcabdaf26a6ccf1602c",
+      "provider": "apple-music",
+      "appleId": "pl.0e70a7ddbabd4dcabdaf26a6ccf1602c",
+      "title": "Pop en español: imprescindibles",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/0f/c3/a4/0fc3a439-2144-af2e-f7f8-2cf48756478d/76778edb-3d4d-40c3-87c4-b3da5fda919d.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/pop-en-espa%C3%B1ol-imprescindibles/pl.0e70a7ddbabd4dcabdaf26a6ccf1602c",
+      "interests": [
+        "pop"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 45,
       "id": "apple:pl.0ba2b2f245a8436dba7b8120d8ade8c5",
       "provider": "apple-music",
       "appleId": "pl.0ba2b2f245a8436dba7b8120d8ade8c5",
       "title": "Bossa nova: imprescinsibles",
       "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/96/32/8d/96328d66-d0f4-3243-38b4-1d9db23d5c94/8ff79bc7-0c3e-4eca-823b-a1ab3711778f.png/1200x1200bb.jpg?l=es-MX",
       "appleUrl": "https://music.apple.com/co/playlist/bossa-nova-imprescinsibles/pl.0ba2b2f245a8436dba7b8120d8ade8c5",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 46,
+      "id": "apple:pl.ff2155238f994be084c2c233740a7d9a",
+      "provider": "apple-music",
+      "appleId": "pl.ff2155238f994be084c2c233740a7d9a",
+      "title": "Parranda vallenata",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/41/28/ae/4128ae10-e484-6f89-9700-f781a9666f1b/U0MtTVMtV1ctUGFycmFuZGFfVmFsbGVuYXRhLUFEQU1fSUQ9MTIyMTgzNDMwNC5wbmc.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/parranda-vallenata/pl.ff2155238f994be084c2c233740a7d9a",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 47,
+      "id": "apple:pl.62aad2cbef994246a6b18f568759f7f4",
+      "provider": "apple-music",
+      "appleId": "pl.62aad2cbef994246a6b18f568759f7f4",
+      "title": "Jesús Adrián Romero Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/f3/c4/fd/f3c4fd8e-85eb-611b-46df-d8a62a099d2d/ami-identity-adef2629ec3ed63cc7786d5febfb56f3-2026-08-17T17-06-35.931Z_cropped.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/jes%C3%BAs-adri%C3%A1n-romero-essentials/pl.62aad2cbef994246a6b18f568759f7f4",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 48,
+      "id": "apple:pl.00e3de4fb63441bf9500cfe9f8563d8b",
+      "provider": "apple-music",
+      "appleId": "pl.00e3de4fb63441bf9500cfe9f8563d8b",
+      "title": "Música latina 2000: imprescindibles",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/ee/6c/b1/ee6cb1b1-1783-77c6-2b85-2122eb30666d/ce2b78a1-8d51-402f-b26a-3d8a9c7ead3e.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/m%C3%BAsica-latina-2000-imprescindibles/pl.00e3de4fb63441bf9500cfe9f8563d8b",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 49,
+      "id": "apple:pl.ad0ee1557e3e4feba314fd70f7982766",
+      "provider": "apple-music",
+      "appleId": "pl.ad0ee1557e3e4feba314fd70f7982766",
+      "title": "Puro ejercicio",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/6d/56/85/6d5685d4-d8bd-d19a-5f8b-8226c1b384dd/f9dedde7-b559-40e4-b8fb-64ca89e2cbbd.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/puro-ejercicio/pl.ad0ee1557e3e4feba314fd70f7982766",
+      "interests": [
+        "popular"
+      ],
+      "regions": [
+        "CO"
+      ]
+    },
+    {
+      "position": 50,
+      "id": "apple:pl.e5ddb041caaf4f44a19efdd4d71d73f1",
+      "provider": "apple-music",
+      "appleId": "pl.e5ddb041caaf4f44a19efdd4d71d73f1",
+      "title": "Silvestre Dangond Essentials",
+      "coverImage": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/b1/e0/14/b1e0143f-07e4-d288-cae6-29fa45e36fec/file_cropped.png/1200x1200bb.jpg?l=es-MX",
+      "appleUrl": "https://music.apple.com/co/playlist/silvestre-dangond-essentials/pl.e5ddb041caaf4f44a19efdd4d71d73f1",
       "interests": [
         "popular"
       ],
