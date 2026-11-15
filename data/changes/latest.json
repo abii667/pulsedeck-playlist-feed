@@ -1,53 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T13:31:49.267Z",
-  "changedCount": 15,
+  "generatedAt": "2026-11-15T13:56:16.616Z",
+  "changedCount": 17,
   "changes": [
     {
       "slug": "reggae-classics",
       "title": "Reggae Classics",
-      "previousSnapshotId": "public:b033cc52359d62a7e396b8b960d273465a7dc33d",
-      "snapshotId": "public:e50f416598b01f6ff122e90b864a2df51b14462d",
-      "added": 2,
-      "removed": 2,
-      "addedTracks": [
-        {
-          "spotifyId": "7bnRX1ObyGzzSuOWrNFLWw",
-          "title": "I Shot The Sheriff",
-          "artistNames": [
-            "Bob Marley & The Wailers"
-          ]
-        },
-        {
-          "spotifyId": "41Z1gnggllzvu7qOWTaSTE",
-          "title": "Let Me Down Easy",
-          "artistNames": [
-            "Dennis Brown"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "59ByyDNkqRGxBom9nHssxf",
-          "title": "Buffalo Soldier",
-          "artistNames": [
-            "Bob Marley & The Wailers"
-          ]
-        },
-        {
-          "spotifyId": "4MM4UlT0j7MePs9bMoi34N",
-          "title": "Good Thing Going",
-          "artistNames": [
-            "Sugar Minott"
-          ]
-        }
-      ]
+      "previousSnapshotId": "public:e50f416598b01f6ff122e90b864a2df51b14462d",
+      "snapshotId": "public:61b50c84df9e23534e03689c1b6a56291e950a6e",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
     },
     {
       "slug": "all-out-80s",
       "title": "All Out 80s",
-      "previousSnapshotId": "public:c347ea09736753e87096de46b053a9da5389c788",
-      "snapshotId": "public:cc8edacf057740875e1fc003740f2bf227e66565",
+      "previousSnapshotId": "public:cc8edacf057740875e1fc003740f2bf227e66565",
+      "snapshotId": "public:eb433cec8b553835053e934e9cf53f5a65dfcdd3",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -56,44 +26,46 @@
     {
       "slug": "all-out-90s",
       "title": "All Out 90s",
-      "previousSnapshotId": "public:02a4933167d50cff92cf019f997a3abf221b5f94",
-      "snapshotId": "public:d196b19489ec0d0b708657f617a82f57c1fdddb9",
+      "previousSnapshotId": "public:d196b19489ec0d0b708657f617a82f57c1fdddb9",
+      "snapshotId": "public:c982fe18309932a938650cab6d6bfc5cb25290db",
+      "added": 1,
+      "removed": 1,
+      "addedTracks": [
+        {
+          "spotifyId": "4wtR6HB3XekEengMX17cpc",
+          "title": "Children",
+          "artistNames": [
+            "Robert Miles"
+          ]
+        }
+      ],
+      "removedTracks": [
+        {
+          "spotifyId": "4INDiWSKvqSKDEu7mh8HFz",
+          "title": "Mo Money Mo Problems (feat. Puff Daddy & Mase) - 2014 Remaster",
+          "artistNames": [
+            "The Notorious B.I.G.",
+            "Mase",
+            "Diddy"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "all-out-2000s",
+      "title": "All Out 2000s",
+      "previousSnapshotId": "public:9ec4d6625e854af00025c5bcdcc05e1fd8da68b4",
+      "snapshotId": "public:e742f42b960c74567424cca465f564eb3ab2438d",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "all-out-2000s",
-      "title": "All Out 2000s",
-      "previousSnapshotId": "public:0313bfb06cf409a2520c54ccbabe71e69e19b85e",
-      "snapshotId": "public:9ec4d6625e854af00025c5bcdcc05e1fd8da68b4",
-      "added": 1,
-      "removed": 1,
-      "addedTracks": [
-        {
-          "spotifyId": "3Zwu2K0Qa5sT6teCCHPShP",
-          "title": "Thnks fr th Mmrs",
-          "artistNames": [
-            "Fall Out Boy"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "2TfSHkHiFO4gRztVIkggkE",
-          "title": "Sugar, We're Goin Down",
-          "artistNames": [
-            "Fall Out Boy"
-          ]
-        }
-      ]
-    },
-    {
       "slug": "chill-hits",
       "title": "Chill Hits",
-      "previousSnapshotId": "public:62ec785e11d5f8bdb9041e001e8ba4fa9c1b3d12",
-      "snapshotId": "public:8efb8d094cf98d7936d657d2bc25f998224bbd3d",
+      "previousSnapshotId": "public:8efb8d094cf98d7936d657d2bc25f998224bbd3d",
+      "snapshotId": "public:c5060e6507f271ed433c794c246694fdcfa56607",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -102,8 +74,8 @@
     {
       "slug": "beast-mode",
       "title": "Beast Mode",
-      "previousSnapshotId": "public:ae238018e4cb4fde556f984fdcf48b98fcf9b436",
-      "snapshotId": "public:465d36f7a605caea710c4846f23c1967b1cbadb2",
+      "previousSnapshotId": "public:465d36f7a605caea710c4846f23c1967b1cbadb2",
+      "snapshotId": "public:7ba7f0fe5adde11364ad6fa32b3921c926e72cfe",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -112,8 +84,8 @@
     {
       "slug": "jazz-classics",
       "title": "Jazz Classics",
-      "previousSnapshotId": "public:4ae20a6b195ae4b597d56d0191366c00a1770fbd",
-      "snapshotId": "public:fd98a769fb19a3c71a20e1560eb13ecbc9e0f71a",
+      "previousSnapshotId": "public:fd98a769fb19a3c71a20e1560eb13ecbc9e0f71a",
+      "snapshotId": "public:6db75c97fdec144a8cb02e5c42d88a695b672819",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -122,11 +94,36 @@
     {
       "slug": "gospel-mix",
       "title": "Gospel Mix",
-      "previousSnapshotId": "public:5e158fa7af1d5e9e9dd690e747106c936a419312",
-      "snapshotId": "public:a993965e48fec84529395b41f7738e1f393a82bf",
-      "added": 6,
-      "removed": 6,
+      "previousSnapshotId": "public:a993965e48fec84529395b41f7738e1f393a82bf",
+      "snapshotId": "public:00e0f047879d2443fac1c4750edb6c17fe38cd9e",
+      "added": 3,
+      "removed": 3,
       "addedTracks": [
+        {
+          "spotifyId": "21od4Ae35Nvx91Qel9gRiw",
+          "title": "God I'm Just Grateful",
+          "artistNames": [
+            "Elevation Worship",
+            "Chandler Moore"
+          ]
+        },
+        {
+          "spotifyId": "7HAMOncV54OLHqXuKRBXIh",
+          "title": "So Will I (100 Billion X)",
+          "artistNames": [
+            "Hillsong UNITED",
+            "Benjamin William Hastings"
+          ]
+        },
+        {
+          "spotifyId": "0vC82BouGPXm6X2K60RfQw",
+          "title": "GOOD DAY",
+          "artistNames": [
+            "Forrest Frank"
+          ]
+        }
+      ],
+      "removedTracks": [
         {
           "spotifyId": "25f7KnoDqO7nBbPahi15UE",
           "title": "NEVER GET USED TO THIS (feat. JVKE)",
@@ -145,76 +142,10 @@
           ]
         },
         {
-          "spotifyId": "00E2KxBwL0B3idGMJcRoEh",
-          "title": "Único - Live",
+          "spotifyId": "35IN0nKkbuQh4DMxIv4R1E",
+          "title": "Lindo És + Só Quero Ver Você - Ao Vivo",
           "artistNames": [
-            "Fernandinho"
-          ]
-        },
-        {
-          "spotifyId": "4D9IlElQlDZrIjvHnPDxbZ",
-          "title": "Lugar Secreto",
-          "artistNames": [
-            "Gabriela Rocha"
-          ]
-        },
-        {
-          "spotifyId": "4sS0B1OphNTV8FxVzKfxsm",
-          "title": "Santo Pra Sempre - Ao Vivo",
-          "artistNames": [
-            "Gabriel Guedes de Almeida"
-          ]
-        },
-        {
-          "spotifyId": "1a5LfJGq0vuCWQ9Mme0Ac7",
-          "title": "Deserto (Ao Vivo)",
-          "artistNames": [
-            "Maria Marçal"
-          ]
-        }
-      ],
-      "removedTracks": [
-        {
-          "spotifyId": "0Eux68VieEpos7z4dVWCGD",
-          "title": "Jesus Be The Name (feat. Tiffany Hudson)",
-          "artistNames": [
-            "Elevation Worship",
-            "Tiffany Hudson"
-          ]
-        },
-        {
-          "spotifyId": "1jnU6ZJXnSSwxfmjGGed2J",
-          "title": "Holy Forever",
-          "artistNames": [
-            "Chris Tomlin"
-          ]
-        },
-        {
-          "spotifyId": "3BLj3BUTTlNjVkhdR45z9e",
-          "title": "Galileu - Ao Vivo",
-          "artistNames": [
-            "Fernandinho"
-          ]
-        },
-        {
-          "spotifyId": "1eBtAeZsbg61jOxoQjn6Wq",
-          "title": "Me Atraiu - Ao Vivo",
-          "artistNames": [
-            "Gabriela Rocha"
-          ]
-        },
-        {
-          "spotifyId": "3VYgop8eTvEitSxxKc6jGp",
-          "title": "Acalma o Meu Coração",
-          "artistNames": [
-            "Anderson Freire"
-          ]
-        },
-        {
-          "spotifyId": "3SSb1jUojmZLbml3S3f9bN",
-          "title": "Pode Morar Aqui",
-          "artistNames": [
-            "Theo Rubia"
+            "Juliano Son"
           ]
         }
       ]
@@ -222,8 +153,8 @@
     {
       "slug": "roman-catholic-hymns",
       "title": "Roman Catholic Hymns ",
-      "previousSnapshotId": "public:b329b9ad27d5b0bd36dd1662eaac729c45d2bc7f",
-      "snapshotId": "public:f3f41488a3bdedb23e75c3d2828c50af51845d97",
+      "previousSnapshotId": "public:f3f41488a3bdedb23e75c3d2828c50af51845d97",
+      "snapshotId": "public:9f089210f28453011a4c60aeedb0697f55be1983",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -232,18 +163,38 @@
     {
       "slug": "traditional-catholic-latin-chants",
       "title": "Traditional Catholic Latin Chants",
-      "previousSnapshotId": "public:742977d27a8e6f2d1acd5f1084a270c1c3a09dc8",
-      "snapshotId": "public:4cfd02a8574e7d308915b2f0fa3a60a75cdeba6c",
+      "previousSnapshotId": "public:4cfd02a8574e7d308915b2f0fa3a60a75cdeba6c",
+      "snapshotId": "public:62d1cdf08266af4dcf5a2b0da913f8b7d8150d5e",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
       "removedTracks": []
     },
     {
-      "slug": "eritrean-music",
-      "title": "Eritrean music 🇪🇷🇪🇷🇪🇷",
-      "previousSnapshotId": "public:13f2177ede2a8858618592e67e8d91ccea9c0d42",
-      "snapshotId": "public:7950ef26580b8521de885200ccfc279a8fada04f",
+      "slug": "ethiopian-orthodox-kidase",
+      "title": "Ethiopian Orthodox Kidase",
+      "previousSnapshotId": "public:670260ff8a27579516ac1c6b6146eee08234c28e",
+      "snapshotId": "public:6277f0f52817094f2d0df602075cef5592bf6707",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "all-time-ethiopian-essentials",
+      "title": "All-Time Ethiopian Essentials",
+      "previousSnapshotId": "public:4d1427626a9e5af813c07e936bfa253142e9ebdf",
+      "snapshotId": "public:2aa64ddebc78a91ed17e95b5dce8094387008e22",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "ethiopian-jazz",
+      "title": "ethiopian jazz",
+      "previousSnapshotId": "public:a2bd7714cccf22e84779ef3269c7b72ca902b5fc",
+      "snapshotId": "public:8307e1190afdc21d7ece73e9d80cdad1eb7edb48",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -252,8 +203,18 @@
     {
       "slug": "eritrean-classics",
       "title": "Eritrean Classics",
-      "previousSnapshotId": "public:5200fa8e7ece3c17acd89158a746602f77f1685a",
-      "snapshotId": "public:cac840b21e82678bc0bf42bf5e46cc91692743f7",
+      "previousSnapshotId": "public:cac840b21e82678bc0bf42bf5e46cc91692743f7",
+      "snapshotId": "public:c0988d4abb71df850441a43a84bc92c0910f07fa",
+      "added": 0,
+      "removed": 0,
+      "addedTracks": [],
+      "removedTracks": []
+    },
+    {
+      "slug": "ethiopian-orthodox-mezmur-expanded",
+      "title": "Ethiopian Orthodox Mezmur የኢትዮጵያ ኦርቶዶክስ መዝሙር",
+      "previousSnapshotId": "public:b62c71528e1bd3746eb9992053a0e76da9634a20",
+      "snapshotId": "public:64d7e915ddfc4ef46be56362ef1240d2eb0b9ae6",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -262,8 +223,8 @@
     {
       "slug": "amharic-gospel-songs",
       "title": "Amharic Gospel Songs  መዝሙር (MeZMuR)",
-      "previousSnapshotId": "public:3152c92a474018557a89f4e666aa9e88e47da385",
-      "snapshotId": "public:e46110152c831681c5bfdcbe72322a9bfbb88e01",
+      "previousSnapshotId": "public:e46110152c831681c5bfdcbe72322a9bfbb88e01",
+      "snapshotId": "public:85afd81162d08b9544b48b25c2fb3b123c7a979d",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
@@ -272,18 +233,8 @@
     {
       "slug": "puerto-rico-top-50",
       "title": "Top 50 - Puerto Rico",
-      "previousSnapshotId": "public:a10567463e8666d32325dde2ea5a540a062074a1",
-      "snapshotId": "public:624d63bf8471345c235c42af74a8d63f5dfd0660",
-      "added": 0,
-      "removed": 0,
-      "addedTracks": [],
-      "removedTracks": []
-    },
-    {
-      "slug": "puerto-rico-top-hits",
-      "title": "Top 50 Puerto Rico 🇵🇷 2024",
-      "previousSnapshotId": "public:ebf5089812e19495f2d4f72dff2d14b7eb16a69a",
-      "snapshotId": "public:ff4b59a5b3b16f7f961b571216ff2224f59c67ed",
+      "previousSnapshotId": "public:624d63bf8471345c235c42af74a8d63f5dfd0660",
+      "snapshotId": "public:3aaac1972bbc919d52f4e0ae10f9237f1fe70096",
       "added": 0,
       "removed": 0,
       "addedTracks": [],
