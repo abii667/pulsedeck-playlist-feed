@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T14:39:42.122Z",
+  "generatedAt": "2026-11-22T14:35:10.950Z",
   "ok": false,
   "playlists": [
     {
@@ -180,8 +180,8 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:74ab23613641e3c5d65bc130e88ec1f6c2a06f52",
-      "trackCount": 99
+      "snapshotId": "public:f56c255d1538d4b53a2e6051d9eafeeb4fb96768",
+      "trackCount": 100
     },
     {
       "slug": "fresh-finds",
@@ -250,7 +250,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:adf1d458e1f4d98e5bd9d8e118d23f6daf20e7c5",
+      "snapshotId": "public:43926454c123d5d7a7bd2dfd13d0618b476ccd3f",
       "trackCount": 50
     },
     {
@@ -300,7 +300,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:670260ff8a27579516ac1c6b6146eee08234c28e",
+      "snapshotId": "public:6277f0f52817094f2d0df602075cef5592bf6707",
       "trackCount": 40
     },
     {
@@ -350,7 +350,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:857f5a1fda191b8038b14b8e00281f00a839ba1d",
+      "snapshotId": "public:73c522300148aa028e4537c390b842446ec28c2e",
       "trackCount": 96
     },
     {
@@ -360,7 +360,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:4d1427626a9e5af813c07e936bfa253142e9ebdf",
+      "snapshotId": "public:69ddd93e35f169742c791bdf1f107816857ce746",
       "trackCount": 100
     },
     {
@@ -380,7 +380,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:8307e1190afdc21d7ece73e9d80cdad1eb7edb48",
+      "snapshotId": "public:a2bd7714cccf22e84779ef3269c7b72ca902b5fc",
       "trackCount": 40
     },
     {
@@ -430,7 +430,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:7a52428b41a77cee0bb89dac5a4f7544e416e8fb",
+      "snapshotId": "public:118bab1836e8f98e524acdc12649121d73f31055",
       "trackCount": 28
     },
     {
@@ -495,13 +495,9 @@
     },
     {
       "slug": "j-pop-hits",
-      "ok": true,
-      "stale": false,
-      "fetchMode": "public",
-      "contentMode": "embed",
-      "tracksAvailable": true,
-      "snapshotId": "public:81e7b99740ada5a790c6c84d5085c12ba8b618bc",
-      "trackCount": 100
+      "ok": false,
+      "stale": true,
+      "error": "j-pop-hits returned no tracks"
     },
     {
       "slug": "puerto-rico-top-50",
@@ -520,7 +516,7 @@
       "fetchMode": "public",
       "contentMode": "embed",
       "tracksAvailable": true,
-      "snapshotId": "public:ebf5089812e19495f2d4f72dff2d14b7eb16a69a",
+      "snapshotId": "public:ff4b59a5b3b16f7f961b571216ff2224f59c67ed",
       "trackCount": 100
     },
     {
@@ -586,7 +582,7 @@
       "contentComplete": false,
       "contentTruncated": true,
       "trackCount": 100,
-      "youtubeItemTotal": 739,
+      "youtubeItemTotal": 738,
       "snapshotId": "public:4e4a845951a22c6962984fd970cfeaa3ad03fc49"
     },
     {
@@ -726,7 +722,7 @@
       "ok": true,
       "stale": false,
       "episodeCount": 20,
-      "snapshotId": "rss:908f5eef01b20ffd186f49cd59ff50aa2cbb0403"
+      "snapshotId": "rss:ca39304f1ede015efbcd15653df1b81c21bb77d9"
     },
     {
       "kind": "show",
@@ -1084,10 +1080,9 @@
     },
     {
       "region": "JP",
-      "ok": false,
-      "stale": true,
-      "playlistCount": 50,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "stale": false,
+      "playlistCount": 50
     },
     {
       "region": "KR",
@@ -1367,10 +1362,9 @@
     },
     {
       "region": "NI",
-      "ok": false,
-      "stale": true,
-      "playlistCount": 50,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "stale": false,
+      "playlistCount": 50
     },
     {
       "region": "PA",
@@ -1512,10 +1506,9 @@
     },
     {
       "region": "KW",
-      "ok": false,
-      "stale": true,
-      "playlistCount": 50,
-      "error": "JSON fetch failed: 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+      "ok": true,
+      "stale": false,
+      "playlistCount": 50
     },
     {
       "region": "LB",
@@ -1537,10 +1530,9 @@
     },
     {
       "region": "IQ",
-      "ok": false,
-      "stale": true,
-      "playlistCount": 50,
-      "error": "JSON fetch failed: 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+      "ok": true,
+      "stale": false,
+      "playlistCount": 50
     },
     {
       "region": "YE",
@@ -1712,9 +1704,10 @@
     },
     {
       "region": "SE",
-      "ok": true,
-      "stale": false,
-      "playlistCount": 50
+      "ok": false,
+      "stale": true,
+      "playlistCount": 50,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "region": "UA",
@@ -1991,7 +1984,7 @@
       "official": false,
       "stale": false,
       "trackCount": 100,
-      "error": "The operation was aborted due to timeout"
+      "error": "JSON fetch failed: 500 <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
     },
     {
       "region": "BR",
@@ -2026,12 +2019,13 @@
     {
       "region": "MX",
       "ok": true,
-      "status": "fresh",
+      "status": "stale",
       "provider": "apple-music",
       "available": true,
       "official": true,
-      "stale": false,
-      "trackCount": 100
+      "stale": true,
+      "trackCount": 100,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "region": "IN",
@@ -2366,13 +2360,12 @@
     {
       "region": "CD",
       "ok": true,
-      "status": "stale",
+      "status": "fresh",
       "provider": "apple-music",
       "available": true,
       "official": true,
-      "stale": true,
-      "trackCount": 100,
-      "error": "The operation was aborted due to timeout"
+      "stale": false,
+      "trackCount": 100
     },
     {
       "region": "DZ",
@@ -2397,13 +2390,12 @@
     {
       "region": "TZ",
       "ok": true,
-      "status": "stale",
+      "status": "fresh",
       "provider": "apple-music",
       "available": true,
       "official": true,
-      "stale": true,
-      "trackCount": 100,
-      "error": "The operation was aborted due to timeout"
+      "stale": false,
+      "trackCount": 100
     },
     {
       "region": "PE",
@@ -2434,7 +2426,7 @@
       "official": false,
       "stale": false,
       "trackCount": 100,
-      "error": "JSON fetch failed: 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+      "error": "JSON fetch failed: 500 <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>Apple</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
     }
   ]
 }
